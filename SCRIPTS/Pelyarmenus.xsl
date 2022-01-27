@@ -9,7 +9,7 @@
         <html>
             <head>
                 <title>Le Roman de Pelyarmenus</title>
-                <link rel="stylesheet" type="text/css" href="moncss.css"/>
+                <link rel="stylesheet" type="text/css" href="../ASSETS/style.css"/>
             </head>
             <body><xsl:apply-templates/></body>
         </html>
