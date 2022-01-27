@@ -100,14 +100,14 @@
                             </msContents>
                             <physDesc>
                                 <handDesc>
-                                    <handNote xml:id="main1">Première main</handNote>
-                                    <handNote xml:id="main2">Deuxième main</handNote>
+                                    <handNote xml:base="#main1">Première main</handNote>
+                                    <handNote xml:base="#main2">Deuxième main</handNote>
                                 </handDesc>
                                 <decoDesc>
-                                    <decoNote xml:id="lettrine2"></decoNote>
-                                    <decoNote xml:id="lettrine5"></decoNote>
-                                    <decoNote xml:id="lettrine6"></decoNote>
-                                    <decoNote xml:id="lettrine7"></decoNote>
+                                    <decoNote xml:base="#lettrine2"></decoNote>
+                                    <decoNote xml:base="#lettrine5"></decoNote>
+                                    <decoNote xml:base="#lettrine6"></decoNote>
+                                    <decoNote xml:base="#lettrine7"></decoNote>
                                 </decoDesc>
                             </physDesc>
                        </msDesc>
@@ -254,7 +254,7 @@
                             s'occupe de deux jeunes enfants (probablement <persName key="Cassidoire">Cassidore</persName> et <persName key="Dorus">Dorus</persName>)</figDesc>
                     </figure>                 
                     <p n="1"><c type="lettrine6">E</c>n
-                        ceste partie dist li contes que <said who="#nar"> aprés ce que
+                         ceste partie dist li contes que <said who="#nar"> aprés ce que
                             <persName key="Pelyarmenus">Pelyarmenuz</persName> ot porchacié la traïson envers
                             <persName key="Dialogus">Dyagolus</persName> le bastart son frere et fait le
                         marchié des enfanz <persName key="Cassidorus">Cassydorus</persName> l’empereour de

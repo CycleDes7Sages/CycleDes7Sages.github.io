@@ -54,7 +54,7 @@
         </schemaSpec>
         <!-- laisser vide pour obtenir les classes d'attributs -->
         
-        <!-- teiHeader -->
+     
         
         <elementSpec ident="teiHeader" module="header">
           <content>
@@ -543,6 +543,7 @@
               <valList type="closed">
                 <valItem ident="erased"/>
                 <valItem ident="faded"/>
+                <valItem ident="fold"/>
                 <valItem ident="uncertain"/>
               </valList>
             </attDef>
