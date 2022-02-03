@@ -463,7 +463,7 @@
         
         <elementSpec ident="del" module="core" mode="change">
           <attList>
-            <attDef ident="type" mode="change" usage="req">
+            <attDef ident="rend" mode="change" usage="req">
               <valList type="closed">
                 <valItem ident="biffure"/>
                 <valItem ident="exponctuation"/>

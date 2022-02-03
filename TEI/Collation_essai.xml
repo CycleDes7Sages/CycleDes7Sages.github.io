@@ -207,7 +207,7 @@
             <pb n="1"/> <!-- Vérifier comment on résoud Com -->
             <head type="rubrique">Comment<cb n="b"/> <persName key="Helcanus">Helcanus</persName> 
                issi de prison. et ala en la queste de <persName key="Néra">Nera</persName> 
-               <del type="exponctué" hand="#main1">sa</del> sa mie.</head>
+               <del rend="exponctué" hand="#main1">sa</del> sa mie.</head>
             <cb n="a"/>
             <p xml:id="P482"> 
             <c ana="lettrine7">C</c>i endroit 
@@ -296,7 +296,7 @@
                je le vous di por une chose. 
                Bien <app><lem wit="#V3 #G #X2">a</lem><rdg wit="#B">a ce quit</rdg></app> <num>x</num> semaines passees 
                <app><lem wit="#V3 #B #G">que</lem><rdg wit="#X2">que que</rdg></app> 
-               <del type="exponctuation" hand="#main1">c</del>
+               <del rend="exponctuation" hand="#main1">c</del>
                <app>
                   <lem wit="#V3">ceenz 
                <app>
@@ -359,7 +359,7 @@
                <said aloud="true" direct="true">Biaus 
                   <app><lem wit="#V3 #G">tres</lem><rdg wit="#B #X2"/></app> douz sires, 
                   dites moi se je porrai trouver qui la 
-                  <del type="exponctuation" hand="#main1">n</del> me menast</said>. 
+                  <del rend="exponctuation" hand="#main1">n</del> me menast</said>. 
                <said aloud="true" direct="true">Par foi, 
                   <app><lem wit="#V3 #G #X2">sire</lem><rdg wit="#B">sire, dist cil</rdg></app>, 
                   si ferez, car ja doivent mouvoir 
@@ -467,7 +467,6 @@
                 <lem wit="#V3 #B #X2">il</lem>
                 <rdg wit="#G">ilz</rdg>
              </app> savoient qui celes estoient</said>. 
-               <!-- Simon, comment faire si ma balise s'intègre dans l'apparat comme ici? Je peux chipoter à cela dans mon odd? -->
                <app>
                   <lem wit="#V3 #G #X2">
                      <!-- à voir -->   <app>
