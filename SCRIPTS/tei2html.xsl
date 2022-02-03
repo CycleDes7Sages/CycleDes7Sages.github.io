@@ -28,7 +28,7 @@
             on a parlé d'ol dans la séance sur le html, mais comment les intégrer ?-->
     </xsl:template>
     <xsl:template match="num">
-        .<xsl:apply-templates></xsl:apply-templates>.
+        .<small-caps><xsl:apply-templates></xsl:apply-templates></small-caps>.
     </xsl:template>
     <xsl:template match="said">
         <xsl:choose>
@@ -42,7 +42,10 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="rdg">
+    <xsl:template match="del"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? ou en biffé ?-->
+        [<xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="rdg"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? -->
          <i>[<xsl:apply-templates></xsl:apply-templates>]</i> 
     </xsl:template>
     <xsl:template match="c">

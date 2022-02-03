@@ -24,6 +24,7 @@
   <text>
     <body>
       <div>
+        <head>Les metadonnees</head>
         <!-- Justification de nos choix d'encodage -->
         <p>Cet ODD sert à ce stade au fichier nommé "Pelyarmenus" qui contient la partie éditée par Brodtkorb</p>
         <p>Nous avons souhaité garder trace des décisions éditoriales de Brodtkorb. 
@@ -32,8 +33,24 @@
         <p>Nous avons ici cherché à offrir une transcription semi-diplomatique, 
           et avons prêté attention aux noms de personnes et de lieux (<gi>persName</gi>, <gi>placeName</gi>, <gi>rs</gi>)
           ainsi qu'aux formes de discours <gi>said</gi>) </p>
-        <p>Nous avons privilégié la balise <gi>handDesc</gi> et pas <gi>handNotes</gi> par souci de cohérence avec <gi>DecoDesc</gi> </p>
-      
+                <p>Nous avons privilégié la balise <gi>handDesc</gi> et pas <gi>handNotes</gi> par souci de cohérence avec <gi>decoDesc</gi> </p>
+      </div>
+      <div>
+        <head>Les choix de transcription</head>
+        <p>Dans le cadre de notre travail de balisage, nous avons prêté une grande attention aux formes de discours et de prises de paroles, 
+          et notamment aux interventions narratoriales, 
+          importantes dans ce roman et le reste du cycle. Aux balises said, nous avons adjoint celle 
+          <tag>said xml:id="nar"</tag> pour indiquer ces interventions Et préciser qu'elles sont extradiégétiques donc
+          n'ont pas été encodées selon leur portée aloud et direct précisées dans tous les autres cas 
+          Au vu du grand nombre de personnages mobilisés, sous des étiquettes et des titres variables en outre, nous avons 
+          souhaité conservé trace des identités de chacun-e grâce aux balises "rs". Elles ont été intégrées pour chaque référence
+          à un personage, pour peu qu'il ne soit pas directement nommé dans le texte ("persName" alors) ou à moins qu'il fasse l'objet d'une adresse directe
+          dans le cadre d'un dialogue qui le verrait donc nommé/présenté par la balise "persName" juste avant ou juste après.
+          N'ont également pas été indiqués par la balise "rs" les mentions de personnages par pronoms ou les groupes de personnages.
+          Les personnages cités de manière abstraite (li mires, la pucele) et une seule fois n'ont eux aussi pas été référencés.</p>
+        
+      </div>
+      <div>
         <!-- Ajouter un index des noms de lieux et de personnes dans le teiHeader -->
         
         <schemaSpec ident="septSages" start="TEI">
@@ -51,12 +68,12 @@
           <moduleRef key="textstructure" include="TEI body text div"/>
           <moduleRef key="transcr" include="handNotes subst supplied"/>
           <moduleRef key="analysis" include="c"/>
-        </schemaSpec>
+        
         <!-- laisser vide pour obtenir les classes d'attributs -->
         
      
         
-        <elementSpec ident="teiHeader" module="header">
+          <elementSpec ident="teiHeader" module="header" mode="change">
           <content>
             <sequence>
               <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
@@ -78,26 +95,26 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="revisionDesc" module="header">
+        <elementSpec ident="revisionDesc" module="header" mode="change">
           <content>
             <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
         
-        <elementSpec ident="titleStmt" module="header">
+        <elementSpec ident="titleStmt" module="header" mode="change">
           <content>
             <sequence>
               <elementRef key="title" minOccurs="1" maxOccurs="1"/>
-            <elementRef key="respStmt" minOccurs="5" maxOccurs="5"/>
+            <elementRef key="respStmt" minOccurs="5" maxOccurs="15"/>
             </sequence>
           </content>
         </elementSpec>
         
-        <elementSpec ident="extent" module="header">
+        <elementSpec ident="extent" module="header" mode="change">
           <desc>Indication des folios concernés par édition de la partie concernée</desc>
         </elementSpec>
         
-        <elementSpec ident="respStmt" module="core">
+        <elementSpec ident="respStmt" module="core" mode="change">
           <content>
             <sequence>
               <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
@@ -130,7 +147,7 @@
           </attList>
         </elementSpec>
 
-        <elementSpec ident="publicationStmt" module="header">
+        <elementSpec ident="publicationStmt" module="header" mode="change">
           <content>
            <sequence>
              <elementRef key="authority" minOccurs="2" maxOccurs="5"/>
@@ -139,7 +156,7 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="sourceDesc" module="header">
+        <elementSpec ident="sourceDesc" module="header" mode="change">
           <content>
             <elementRef key="listWit"/>
           </content>
@@ -177,9 +194,13 @@
           </attList>
         </elementSpec>
         
-        <elementSpec ident="msDesc" module="msdescription">
+        <elementSpec ident="msDesc" module="msdescription" mode="change">
           <content>
-            <sequence>
+            <sequence minOccurs="0" maxOccurs="1">
+              <elementRef key="msIdentifier"/>
+              <elementRef key="msContents"/>
+            </sequence>
+            <sequence minOccurs="0" maxOccurs="1">
               <elementRef key="msIdentifier"/>
               <elementRef key="msContents"/>
               <elementRef key="physDesc"/>
@@ -187,7 +208,7 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="msIdentifier" module="msdescription">
+        <elementSpec ident="msIdentifier" module="msdescription" mode="change">
           <content>
             <sequence>
               <elementRef key="settlement"/>
@@ -197,7 +218,7 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="msItem" module="msdescription">
+        <elementSpec ident="msItem" module="msdescription" mode="change">
           <content>
             <sequence>
               <elementRef key="locus"/>
@@ -206,7 +227,7 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="physDesc" module="msdescription">
+          <elementSpec ident="physDesc" module="msdescription" mode="change">
           <content>
             <sequence>
               <elementRef key="handDesc"/>
@@ -215,15 +236,15 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="handDesc" module="msdescription">
+          <elementSpec ident="handDesc" module="msdescription" mode="change">
           <content>
-            <elementRef key="handNote"/>
+            <elementRef key="handNote" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
         
-        <elementSpec ident="decoDesc" module="msdescription">
+          <elementSpec ident="decoDesc" module="msdescription" mode="change">
           <content>
-            <elementRef key="decoNote"/>
+            <elementRef key="decoNote" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
         
@@ -236,11 +257,17 @@
             </constraint>
           </constraintSpec>
           <attList>
-            <attDef ident="xml:id" mode="change" usage="req">
+            <attDef ident="xml:id" mode="change" usage="opt">
               <valList type="closed" mode="replace">
               <valItem ident="main1"/>
               <valItem ident="main2"/>
              </valList>
+            </attDef>
+            <attDef ident="scriptRef" mode="change" usage="opt">
+              <valList type="closed" mode="replace">
+                <valItem ident="#main1"/>
+                <valItem ident="#main2"/>
+              </valList>
             </attDef>
           </attList>
         </elementSpec>
@@ -254,7 +281,7 @@
             </constraint>
           </constraintSpec>
           <attList>
-            <attDef ident="xml:id" mode="change" usage="req">
+            <attDef ident="xml:id" mode="change" usage="opt">
               <valList type="closed" mode="replace">
                 <valItem ident="lettrine2"/>
                 <valItem ident="lettrine5"/>
@@ -262,10 +289,18 @@
                 <valItem ident="lettrine7"/>
               </valList>
             </attDef>
+            <attDef ident="scriptRef" mode="change" usage="opt">
+              <valList type="closed" mode="replace">
+                <valItem ident="#lettrine2"/>
+                <valItem ident="#lettrine5"/>
+                <valItem ident="#lettrine6"/>
+                <valItem ident="#lettrine7"/>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
         
-        <elementSpec ident="encodingDesc" module="header">
+        <elementSpec ident="encodingDesc" module="header" mode="change">
           <content>
             <sequence>
               <elementRef key="editorialDecl" minOccurs="1" maxOccurs="1"/>
@@ -274,19 +309,19 @@
           </content>
         </elementSpec>
         
-        <elementSpec ident="profileDesc" module="header">
+        <elementSpec ident="profileDesc" module="header" mode="change">
           <content>
             <elementRef key="langUsage"/>
           </content>
         </elementSpec>
         
-        <elementSpec ident="langUsage" module="header">
+        <elementSpec ident="langUsage" module="header" mode="change">
           <content>
             <elementRef key="language"/>
           </content>
         </elementSpec>
         
-        <elementSpec ident="language" module="header">
+        <elementSpec ident="language" module="header" mode="change">
           <attList>
             <attDef ident="ident" mode="change" usage="req">
               <valList type="closed">
@@ -297,19 +332,17 @@
           </attList>
         </elementSpec>
 
-        <elementSpec ident="editorialDecl">
+        <elementSpec ident="editorialDecl" mode="change">
           <content>
             <sequence>
-              <elementRef key="hyphenation" minOccurs="1" maxOccurs="1"/>
               <elementRef key="correction" minOccurs="1" maxOccurs="1"/>
               <elementRef key="normalization" minOccurs="1" maxOccurs="1"/>
               <elementRef key="punctuation" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="segmentation" minOccurs="1" maxOccurs="1"/>
             </sequence>
           </content>
         </elementSpec>
         
-        <elementSpec ident="hi">
+        <elementSpec ident="hi" module="core" mode="change">
           <attList>
             <attDef ident="rend" mode="change" usage="rec">
               <valList>
@@ -321,13 +354,9 @@
           </attList>
         </elementSpec>
         
-        <elementSpec ident="num" module="core">
-          <content>
-            <elementRef key="exp"/>
-          </content>
-        </elementSpec>
+     
         
-        <elementSpec ident="c" module="analysis">
+        <elementSpec ident="c" module="analysis" mode="change">
           <attList>
             <attDef ident="ana" mode="change" usage="req">
               <valList type="closed">
@@ -378,7 +407,7 @@
         
         <elementSpec ident="p" module="core" mode="change">
           <attList>   
-            <attDef ident="n" mode="change" usage="rec">
+            <attDef ident="xml:id" mode="change" usage="req">
               <desc>numéro du paragraphe (numéroté comme tel chez Brodtkorb et indiqué avec une lettrine2 dans le ms.V)</desc>
             </attDef>
           </attList>
@@ -466,7 +495,8 @@
            </attList>
         </elementSpec>
         
-        <elementSpec ident="app" module="textcrit" mode="change">
+        <elementSpec ident="app" module="textcrit" mode="change"> 
+          <!-- Je laisse à ce stade les options d'apparat, en l'attente d'une décision collégiale de l'équipe -->
           <content>
             <sequence>
               <elementRef key="lem" minOccurs="1" maxOccurs="1"/>
@@ -484,7 +514,7 @@
                 <valItem ident="#X"/>
               </valList>
             </attDef>
-            <attDef ident="resp" mode="change" usage="req">
+            <attDef ident="resp" mode="change" usage="opt">
               <valList type="semi" mode="replace">
                 <valItem ident="#Brodtkorb"/>
               </valList>
@@ -504,8 +534,33 @@
            </attList>
         </elementSpec>
                        
-        <elementSpec ident="said">
-          <attList>
+        <elementSpec ident="said" mode="change">
+          <constraintSpec ident="narrator" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:said[./@who='#nar']">
+                <sch:assert test="not(./@aloud and ./@direct)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="character_aloud" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:said[./not(@who)]">
+                <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="character_direct1" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:said[./not(@who)]">
+                <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+ 
+          
+          
+    <!--      <attList>
+                
             <attDef ident="aloud" mode="change" usage="req">
             <valList>
               <valItem ident="true"/>
@@ -523,7 +578,7 @@
                 <valItem ident="#nar"/>
               </valList>
             </attDef>
-          </attList>
+          </attList>-->
         </elementSpec>
         
         <elementSpec ident="seg" module="linking" mode="change">
@@ -647,7 +702,7 @@
             <attDef ident="xml:space" mode="delete"/>
           </attList>
         </classSpec>
-        
+        </schemaSpec>
       </div>
     </body>
   </text>
