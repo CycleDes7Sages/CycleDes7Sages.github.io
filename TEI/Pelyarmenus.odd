@@ -511,7 +511,9 @@
               <valList type="open">
                 <valItem ident="#B"/>
                 <valItem ident="#G"/>
-                <valItem ident="#X"/>
+                <valItem ident="#X2"/>
+                <valItem ident="V2"/>
+                <valItem ident="V3"/>
               </valList>
             </attDef>
             <attDef ident="resp" mode="change" usage="opt">
@@ -528,7 +530,9 @@
               <valList type="open">
                 <valItem ident="#B"/>
                 <valItem ident="#G"/>
-                <valItem ident="#X"/>
+                <valItem ident="#X2"/>
+                <valItem ident="V2"/>
+                <valItem ident="V3"/>
               </valList>
             </attDef>
            </attList>
