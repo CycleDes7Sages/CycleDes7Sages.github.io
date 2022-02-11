@@ -59,7 +59,7 @@
             extent fileDesc handNote hyphenation idno language langUsage normalization projectDesc publicationStmt
             punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
           <moduleRef key="figures" include="figDesc figure"/>
-          <moduleRef key="linking" include="seg"/>
+          <moduleRef key="linking" include="anchor seg"/>
           <moduleRef key="msdescription" include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem 
             physDesc repository"/>
           <moduleRef key="namesdates" include="country persName placeName settlement"/>
@@ -496,7 +496,6 @@
         </elementSpec>
         
         <elementSpec ident="app" module="textcrit" mode="change"> 
-          <!-- Je laisse à ce stade les options d'apparat, en l'attente d'une décision collégiale de l'équipe -->
           <content>
             <sequence>
               <elementRef key="lem" minOccurs="1" maxOccurs="1"/>
@@ -507,7 +506,7 @@
         
         <elementSpec ident="lem" module="textcrit" mode="change">
           <attList>   
-            <attDef ident="wit" mode="change" usage="req">
+            <attDef ident="wit" mode="change" usage="rec">
               <valList type="open">
                 <valItem ident="#B"/>
                 <valItem ident="#G"/>
@@ -597,6 +596,20 @@
             </attDef>
           </attList>
         </elementSpec>
+          
+          <elementSpec ident="anchor" module="linking" mode="change">
+            <constraintSpec ident="xmlId_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:listWit/tei:witness">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          <attList>
+              <attDef ident="xml:id" mode="change">
+              </attDef>
+          </attList>
+          </elementSpec>
         
         <elementSpec ident="unclear" module="core" mode="change">
           <attList>

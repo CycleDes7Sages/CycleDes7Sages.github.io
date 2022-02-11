@@ -321,7 +321,7 @@
                <app><lem wit="#V3 #B #X2">puis eu</lem><rdg wit="#G">eu puis</rdg></app> a souffrir</said>. 
             Je ne sai mie se ce sont celes que vous alez querant</said>.
             </p>
-            <p xml:id="P483"> <app from="#P483"><rdg wit="#B"/></app>
+            <p xml:id="P483"> <anchor xml:id="P483-1"/>
                Quant <persName key="Helcanus">Helcanus</persName> oÿ ce, 
                <app><lem wit="#V3 #B #G">si</lem><rdg wit="#X2">se</rdg></app> li dist li 
                <app><lem wit="#V3">cuer</lem><rdg wit="#B #G #X2"></rdg></app> que 
@@ -366,6 +366,7 @@
                   <app><lem wit="#V3 #B #X2">li ami et li parent</lem><rdg wit="#G">les amis et parens</rdg></app> 
                   de ceulz <app><lem wit="#V3 #B #X2">qui</lem><rdg wit="#G">qu</rdg></app> 
                   <app><lem wit="#V3 #G #X2">en la nef furent</lem><rdg wit="#B">furent ensi</rdg></app> trouvé</said>.
+               <app from="#P483-1"><rdg wit="#B"/></app>
             </p>
             <p xml:id="P484">
                Quant <persName key="Helcanus">Helcanus</persName> oÿ ce, si se pensa que
@@ -608,7 +609,7 @@
                   <app><lem wit="#V3 #G">bien</lem><rdg wit="#B #X2"/></app> que il en 
                   <app><lem wit="#V3 #G #X2">tele</lem><rdg wit="#B">cele</rdg></app> coupe l’avoit mise</said>.
             </p>
-            <p xml:id="P486"><app from="#P486"><rdg wit="#B"/></app> 
+            <p xml:id="P486"> <anchor xml:id="P486-1"/>               
                Quant cil oïrent ce, si esgarderent 
                <app>
                   <lem wit="#V3 #G #X2">li uns</lem>
@@ -625,11 +626,10 @@
                   <lem wit="#V3 #G #X2">
                      <said aloud="true" direct="true">Avez vous oÿ merveilles ?</said>
                <said aloud="true" direct="true">Par foi, distrent il, voirement  est ce grant merveille se ce puet estre voir</said>.
-               <said aloud="true" direct="true">
                   </lem>
                     <rdg wit="#B">se ce puet estre voirs par fois distrent il est ce grant merveille. Estre</rdg>
                </app>
-               Voir ? dist li preudons. 
+               <said aloud="true" direct="true">Voir ? dist li preudons. 
                   Par foi, ce vous ferai je 
                <app>
                   <lem wit="#V3 #B #X2">savoir</lem>
@@ -677,6 +677,7 @@
                feistes meismes le fait ou feistes faire, 
                      <app><lem wit="#V3 #G #X2">et</lem><rdg wit="#B"/></app> 
                      par quoi ele est en tel peril</seg></said>.
+               <app from="#P486-1"><rdg wit="#B"/></app> 
             </p>
          </div>
       </body>
