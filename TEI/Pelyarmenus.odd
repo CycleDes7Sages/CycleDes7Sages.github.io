@@ -59,7 +59,7 @@
             extent fileDesc handNote hyphenation idno language langUsage normalization projectDesc publicationStmt
             punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
           <moduleRef key="figures" include="figDesc figure"/>
-          <moduleRef key="linking" include="anchor seg"/>
+          <moduleRef key="linking" include="anchor seg att.global.linking"/>
           <moduleRef key="msdescription" include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem 
             physDesc repository"/>
           <moduleRef key="namesdates" include="country persName placeName settlement"/>
@@ -495,14 +495,14 @@
            </attList>
         </elementSpec>
         
-        <elementSpec ident="app" module="textcrit" mode="change"> 
+       <!-- <elementSpec ident="app" module="textcrit" mode="change"> 
           <content>
             <sequence>
               <elementRef key="lem" minOccurs="1" maxOccurs="1"/>
               <elementRef key="rdg" minOccurs="1" maxOccurs="4"/>
             </sequence>
           </content>
-        </elementSpec>
+        </elementSpec> -->
         
         <elementSpec ident="lem" module="textcrit" mode="change">
           <attList>   
@@ -563,7 +563,8 @@
  
           
           <elementSpec ident="said" mode="change">
-     <attList>
+          
+                <attList>
             <attDef ident="aloud" mode="change" usage="opt">
             <valList>
               <valItem ident="true"/>
@@ -581,9 +582,10 @@
                 <valItem ident="#nar"/>
               </valList>
             </attDef>
-       <attDef ident="next" mode="change" usage="opt">
-       </attDef>
-          </attList>
+              <!--<attDef ident="next" mode="replace" usage="opt">
+                    <text/>
+                  </attDef>-->
+                </attList>
         </elementSpec>
         
         <elementSpec ident="seg" module="linking" mode="change">
@@ -695,7 +697,7 @@
           </attList>
         </classSpec>
         
-        <classSpec ident="att.global.linking" type="atts" mode="change">
+        <!--<classSpec ident="att.global.linking" type="atts" mode="change">
           <attList>
             <attDef ident="synch" mode="delete"/>
             <attDef ident="sameAs" mode="delete"/>
@@ -705,7 +707,7 @@
             <attDef ident="exclude" mode="delete"/>
             <attDef ident="select" mode="delete"/>
           </attList>
-        </classSpec>
+        </classSpec>-->
         
         <classSpec ident="att.datable" type="atts" mode="change">
           <attList>
