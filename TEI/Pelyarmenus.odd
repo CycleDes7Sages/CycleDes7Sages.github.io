@@ -538,7 +538,7 @@
            </attList>
         </elementSpec>
                        
-        <elementSpec ident="said" mode="change">
+    <!--  <elementSpec ident="said" mode="change">
           <constraintSpec ident="narrator" scheme="schematron">
             <constraint>
               <sch:rule context="tei:said[./@who='#nar']">
@@ -559,19 +559,19 @@
                 <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
               </sch:rule>
             </constraint>
-          </constraintSpec>
+          </constraintSpec> -->    
+          
  
           
-          
-    <!--      <attList>
-                
-            <attDef ident="aloud" mode="change" usage="req">
+          <elementSpec ident="said" mode="change">
+     <attList>
+            <attDef ident="aloud" mode="change" usage="opt">
             <valList>
               <valItem ident="true"/>
               <valItem ident="false"/>
             </valList>
             </attDef>
-            <attDef ident="direct" mode="change" usage="req">
+            <attDef ident="direct" mode="change" usage="opt">
             <valList>
               <valItem ident="true"/>
               <valItem ident="false"/>
@@ -582,7 +582,9 @@
                 <valItem ident="#nar"/>
               </valList>
             </attDef>
-          </attList>-->
+       <attDef ident="next" mode="change" usage="opt">
+       </attDef>
+          </attList>
         </elementSpec>
         
         <elementSpec ident="seg" module="linking" mode="change">

@@ -462,7 +462,7 @@
                   <rdg wit="#B #X2"/>
                </app> 
                quant li <rs type="person" key="Seigneur de Cartageus">sires</rs> entendi ce, 
-               si leur demanda <said aloud="true" direct="false">se 
+               si leur demanda <said next="#P484-1" aloud="true" direct="false"> se 
              <!-- à voir --><app>
                 <lem wit="#V3 #B #X2">il</lem>
                 <rdg wit="#G">ilz</rdg>
@@ -478,9 +478,10 @@
                      <app>
                         <!-- à voir --> <lem wit="#V3 #X2">fames</lem>
                         <rdg wit="#G">femmes</rdg></app> 
-                  estoient</lem>
+                  estoient</said></lem>
                   <rdg wit="#B"/>
                </app> 
+               <said xml:id="P484-1">
                qui moult avoient 
                <app>
                   <lem wit="#V3 #G #X2">fait de maus</lem>
