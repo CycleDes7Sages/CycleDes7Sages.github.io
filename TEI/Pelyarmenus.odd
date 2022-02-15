@@ -564,6 +564,20 @@
           </elementSpec>
           
           <elementSpec ident="said" mode="change">
+            <constraintSpec ident="narrator" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said[./@who]">
+                  <sch:assert test="not(./@direct)">Direct est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="narrator2" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said[./@who]">
+                  <sch:assert test="not(./@aloud)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
             <constraintSpec ident="character_aloud" scheme="schematron">
               <constraint>
                 <sch:rule context="tei:said[./not(@who)]">
