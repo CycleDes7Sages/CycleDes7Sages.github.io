@@ -167,7 +167,7 @@
       <encodingDesc>
          <editorialDecl>
                <correction>
-                  <p xml:id="Correction">À ce stade, nous avons majoritairement suivi, dans cette version de l'édition de Brodtkorb,
+                  <p>À ce stade, nous avons majoritairement suivi, dans cette version de l'édition de Brodtkorb,
                      les corrections qu'elle a proposées
                      Nous avons parfois, si les corrections s'avéraient tout à fait superflues (orthographiques, voire fautives à nos yeux),
                      choisi de ne pas les rendre
@@ -177,16 +177,16 @@
                      favoriser la forme la plus cohérente au niveau sémantique.</p>
                </correction>
                <normalization>
-                  <p xml:id="Normalization1">Dissimilation i/j u/v selon l'usage de Brodtkorb</p>
-                  <p xml:id="Normalization2">Le copiste du ms.V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
+                  <p>Dissimilation i/j u/v selon l'usage de Brodtkorb</p>
+                  <p>Le copiste du ms.V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
                      que nous avons choisi, comme la précédente éditrice, de ne pas rendre</p>
                </normalization>
                <punctuation>
-                  <p xml:id="Punctuation">Ponctuation modernisée</p>
+                  <p>Ponctuation modernisée</p>
                </punctuation> 
          </editorialDecl>
          <projectDesc>
-            <p xml:id="ProjectDesc">Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
+            <p>Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
                du Roman des Sept Sages de Rome.
                Nous souhaitons offrir une édition complète du roman encore partiellement inédit de Pelyarmenus. 
                Débute ici notre travail de collation avec ce premier essai de balisage mené sur un folio recto-verso du deuxième tome 
@@ -212,12 +212,12 @@
                <del rend="exponctué" hand="#main1">sa</del> sa mie.</head>
             <cb n="a"/>
             <p xml:id="P482"> 
-            <c ana="lettrine7">C</c>i endroit 
+               <c ana="lettrine7">C</c>i endroit
             <app>
                <lem wit="#V3 #G">dit</lem>
                <rdg wit="#B #X2">dist</rdg>
             </app> 
-            li comptes <said who="#nar">que, quant <persName key="Helcanus">Helcanus</persName> 
+            li comptes <said who="#nar" direct="false">que, quant <persName key="Helcanus">Helcanus</persName> 
                ot entendu la verité de <persName key="Nera">Nera</persName>
                <app>
                   <lem wit="#V3 #G">s’amie</lem>
@@ -321,7 +321,7 @@
                <rs type="person" key="Mariniers"><app><lem wit="#V3 #G">mariniers</lem><rdg wit="#B #X2">maronniers</rdg></app></rs>.     
             Et <app><lem wit="#V3 #G #X2">croi</lem><rdg wit="#B">quit</rdg></app> que eles ont 
                <app><lem wit="#V3 #B #X2">puis eu</lem><rdg wit="#G">eu puis</rdg></app> a souffrir</said>. 
-            Je ne sai mie se ce sont celes que vous alez querant</said>.
+            Je ne sai mie se ce sont celes que vous alez querant</said>. <app><lem></lem></app>
             </p>
             <p xml:id="P483"> <anchor xml:id="P483-1"/>
                Quant <persName key="Helcanus">Helcanus</persName> oÿ ce, 
@@ -484,7 +484,7 @@
                   estoient</said></lem>
                   <rdg wit="#B"/> 
                </app> 
-               <said xml:id="P484-1">
+               <said xml:id="P484-1" aloud="true" direct="false">
                qui moult avoient 
                <app>
                   <lem wit="#V3 #G #X2">fait de maus</lem>
@@ -497,11 +497,11 @@
                      <lem wit="#V3 #B #X2">se</lem>
                      <rdg wit="#G">si</rdg></app> 
                   je les veoie, 
-                  bien vous en savroie a dire <said>
+                  bien vous en savroie a dire
                   <app>
                      <lem wit="#V3 #G #X2">verité si com je croi</lem>
                      <rdg wit="#B">la verité</rdg><rdg wit="#X2">verité</rdg>
-                  </app></said>, 
+                  </app>, 
                car tout aussi sui je en la queste d’
                   <app>
                      <lem wit="#V3 #B #X2">une</lem>

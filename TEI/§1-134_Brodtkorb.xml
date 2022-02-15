@@ -104,10 +104,10 @@
                                     <handNote scriptRef="#main2">Deuxième main</handNote>
                                 </handDesc>
                                 <decoDesc>
-                                    <decoNote xml:id="lettrine2"></decoNote>
-                                    <decoNote xml:id="lettrine5"></decoNote>
-                                    <decoNote xml:id="lettrine6"></decoNote>
-                                    <decoNote xml:id="lettrine7"></decoNote>
+                                    <decoNote corresp="#lettrine2"></decoNote>
+                                    <decoNote corresp="#lettrine5"></decoNote>
+                                    <decoNote corresp="#lettrine6"></decoNote>
+                                    <decoNote corresp="#lettrine7"></decoNote>
                                 </decoDesc>
                             </physDesc>
                        </msDesc>
@@ -193,25 +193,25 @@
         <encodingDesc>
             <editorialDecl>
                 <correction>
-                    <p xml:id="Correction">À ce stade, nous avons majoritairement suivi, dans cette version de l'édition de Brodtkorb,
+                    <p>À ce stade, nous avons majoritairement suivi, dans cette version de l'édition de Brodtkorb,
                         les corrections qu'elle a proposées
                         Nous avons parfois, si les corrections s'avéraient tout à fait superflues (orthographiques, voire fautives à nos yeux),
                         choisi de ne pas les rendre
                         Une fois encore, l'ensemble des corrections et variantes seront intégrées lors de l'étape de collation complète</p>
                 </correction>
                 <normalization>
-                    <p xml:id="Normalization1">Dissimilation i/j u/v selon l'usage de Brodtkorb</p>
-                    <p xml:id="Normalization2">Le copiste du ms.V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
+                    <p>Dissimilation i/j u/v selon l'usage de Brodtkorb</p>
+                    <p>Le copiste du ms.V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
                         que nous avons choisi, comme la précédente éditrice, de ne pas rendre</p>
                 </normalization>
                 <punctuation>
-                    <p xml:id="Punctuation">Ponctuation modernisée</p>
+                    <p>Ponctuation modernisée</p>
                 </punctuation>
                 
                
             </editorialDecl>
             <projectDesc>
-                <p xml:id="ProjectDesc">Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
+                <p>Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
                     du Roman des Sept Sages de Rome.
                     Nous souhaitons offrir une édition complète du roman encore partiellement inédit de Pelyarmenus. 
                     Notre édition débute, dans ce document actuel, par celle que nous reprenons donnée par Brodtkorb en 1965 

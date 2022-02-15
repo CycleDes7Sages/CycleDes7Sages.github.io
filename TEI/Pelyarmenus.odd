@@ -12,55 +12,74 @@
         <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
         <authority>FNS (Suisse)</authority>
         <authority>FNRS (Wallonie, Belgique)</authority>
-        <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
-        <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+        <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118,
+          Nancy-Université (France)</authority>
+        <availability status="restricted">
+          <p>à l'usage des personnes impliquées dans ce projet</p>
+        </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Le roman se trouve dans 4 manuscrits ici référencés V2 (BnF fr.22549) et V3 (BnF fr.22550), B (KBR 9245), 
-          X2 (BL Harley 4903) et G (BnF fr.93). Le manuscrit V est notre manuscrit de référence.</p>
+        <p>Le roman se trouve dans 4 manuscrits ici référencés V2 (BnF fr.22549) et V3 (BnF
+          fr.22550), B (KBR 9245), X2 (BL Harley 4903) et G (BnF fr.93). Le manuscrit V est notre
+          manuscrit de référence, conformément aux décisions prises par les précédents éditeurs et en accord
+          (prochain) avec nos études des manuscrits suite à la collation détaillée de ceux-ci.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
       <div>
-        <head>Les metadonnees</head>
-        <!-- Justification de nos choix d'encodage -->
-        <p>Cet ODD sert à ce stade au fichier nommé "Pelyarmenus" qui contient la partie éditée par Brodtkorb</p>
-        <p>Nous avons souhaité garder trace des décisions éditoriales de Brodtkorb. 
-          Celles-ci sont indiquées via <gi>app</gi> et <gi>supplied</gi> avec la valeur d'attribut resp au nom de Brodtkorb
-          pour offrir la trace la plus sûre de ses interventions à ce stade de nos décisions</p>
-        <p>Nous avons ici cherché à offrir une transcription semi-diplomatique, 
-          et avons prêté attention aux noms de personnes et de lieux (<gi>persName</gi>, <gi>placeName</gi>, <gi>rs</gi>)
-          ainsi qu'aux formes de discours <gi>said</gi>) </p>
-                <p>Nous avons privilégié la balise <gi>handDesc</gi> et pas <gi>handNotes</gi> par souci de cohérence avec <gi>decoDesc</gi> </p>
+        <head>Les métadonnées</head>
+        <p>Cet ODD sert à organiser et documenter notre travail d'édition des 
+          documents liés à l'édition fournie par Brodtkorb (§1-134)
+          ainsi qu'à l'essai de collation mené sur la transcription que nous avons donnée de l'ensemble du roman, 
+        en particulier, pour cet essai de collation, sur les §482-486</p>
+        <p>Nous avons souhaité garder trace des décisions éditoriales de Brodtkorb dans le document associé à son édition.
+          Celles-ci sont indiquées via les balises <gi>app</gi> et <gi>supplied</gi> avec la valeur d'attribut resp au nom de
+          Brodtkorb pour offrir la trace la plus sûre de ses interventions en amont de notre propre travail de collation</p>
+        <p>Dans notre travail de collation, nous avons utilisé les balises <gi>app</gi>, <gi>lem</gi> et <gi>rdg</gi>
+         ainsi que les balises <gi>del</gi> et <gi>supplied</gi> pour les modifications de la main du copiste 
+          dans le manuscrit de base. 
+          
+          et avons prêté
+          attention aux noms de personnes et de lieux (<gi>persName</gi>, <gi>placeName</gi>,
+            <gi>rs</gi>) ainsi qu'aux formes de discours <gi>said</gi>) </p>
+        <p>Nous avons privilégié la balise <gi>handDesc</gi> et pas <gi>handNotes</gi> par souci de
+          cohérence avec <gi>decoDesc</gi>
+        </p>
       </div>
       <div>
         <head>Les choix de transcription</head>
-        <p>Dans le cadre de notre travail de balisage, nous avons prêté une grande attention aux formes de discours et de prises de paroles, 
-          et notamment aux interventions narratoriales, 
-          importantes dans ce roman et le reste du cycle. Aux balises said, nous avons adjoint celle 
-          <tag>said xml:id="nar"</tag> pour indiquer ces interventions Et préciser qu'elles sont extradiégétiques donc
-          n'ont pas été encodées selon leur portée aloud et direct précisées dans tous les autres cas 
-          Au vu du grand nombre de personnages mobilisés, sous des étiquettes et des titres variables en outre, nous avons 
-          souhaité conservé trace des identités de chacun-e grâce aux balises "rs". Elles ont été intégrées pour chaque référence
-          à un personage, pour peu qu'il ne soit pas directement nommé dans le texte ("persName" alors) ou à moins qu'il fasse l'objet d'une adresse directe
-          dans le cadre d'un dialogue qui le verrait donc nommé/présenté par la balise "persName" juste avant ou juste après.
-          N'ont également pas été indiqués par la balise "rs" les mentions de personnages par pronoms ou les groupes de personnages.
-          Les personnages cités de manière abstraite (li mires, la pucele) et une seule fois n'ont eux aussi pas été référencés.</p>
-        
+        <p>Dans le cadre de notre travail de balisage, nous avons prêté une grande attention aux
+          formes de discours et de prises de paroles, et notamment aux interventions narratoriales,
+          importantes dans ce roman et le reste du cycle. Aux balises said, nous avons adjoint celle
+            <tag>said xml:id="nar"</tag> pour indiquer ces interventions Et préciser qu'elles sont
+          extradiégétiques donc n'ont pas été encodées selon leur portée aloud et direct précisées
+          dans tous les autres cas Au vu du grand nombre de personnages mobilisés, sous des
+          étiquettes et des titres variables en outre, nous avons souhaité conservé trace des
+          identités de chacun-e grâce aux balises "rs". Elles ont été intégrées pour chaque
+          référence à un personage, pour peu qu'il ne soit pas directement nommé dans le texte
+          ("persName" alors) ou à moins qu'il fasse l'objet d'une adresse directe dans le cadre d'un
+          dialogue qui le verrait donc nommé/présenté par la balise "persName" juste avant ou juste
+          après. N'ont également pas été indiqués par la balise "rs" les mentions de personnages par
+          pronoms ou les groupes de personnages. Les personnages cités de manière abstraite (li
+          mires, la pucele) et une seule fois n'ont eux aussi pas été référencés.</p>
+
       </div>
       <div>
         <!-- Ajouter un index des noms de lieux et de personnes dans le teiHeader -->
-        
+
         <schemaSpec ident="septSages" start="TEI">
-          <moduleRef key="core" include="add cb del graphic head hi num p pb resp respStmt rs said title unclear"/>
-          <moduleRef key="header" include="availability authority change correction encodingDesc editorialDecl
+          <moduleRef key="core"
+            include="add cb del graphic head hi num p pb resp respStmt rs said title unclear"/>
+          <moduleRef key="header"
+            include="availability authority change correction encodingDesc editorialDecl
             extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
             punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
           <moduleRef key="figures" include="figDesc figure"/>
           <moduleRef key="linking" include="anchor seg att.global.linking"/>
-          <moduleRef key="msdescription" include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem 
+          <moduleRef key="msdescription"
+            include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem 
             physDesc repository"/>
           <moduleRef key="namesdates" include="country persName placeName settlement"/>
           <moduleRef key="tei"/>
@@ -68,438 +87,441 @@
           <moduleRef key="textstructure" include="TEI body text div"/>
           <moduleRef key="transcr" include="handNotes subst supplied"/>
           <moduleRef key="analysis" include="c"/>
-        
-        <!-- laisser vide pour obtenir les classes d'attributs -->
-        
-     
-        
+
+          <!-- laisser vide pour obtenir les classes d'attributs -->
+
+
+
           <elementSpec ident="teiHeader" module="header" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="encodingDesc" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="profileDesc" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="revisionDesc" minOccurs="1" maxOccurs="1"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="fileDesc" module="header" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="titleStmt"/>
-              <elementRef key="extent"/>
-              <elementRef key="publicationStmt"/>
-              <elementRef key="sourceDesc"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="revisionDesc" module="header" mode="change">
-          <content>
-            <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="titleStmt" module="header" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="title" minOccurs="1" maxOccurs="1"/>
-            <elementRef key="respStmt" minOccurs="5" maxOccurs="15"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="extent" module="header" mode="change">
-          <desc>Indication des folios concernés par édition de la partie concernée</desc>
-        </elementSpec>
-        
-        <elementSpec ident="respStmt" module="core" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
-            <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="persName" module="namesdates" mode="change">
-          <constraintSpec ident="term_check" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:respStmt/tei:persName">
-                <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="key" mode="change" usage="req">
-              <valList type="open"/>
-            </attDef>
-          </attList>
-         </elementSpec>
-        
-        <elementSpec ident="placeName" module="namesdates" mode="change">
-          <desc>Indication des noms de lieux dans la narration sous cette balise en vue de l'index de lieux</desc>
-          <attList>
-            <attDef ident="key" mode="change" usage="req">
-              <valList type="open"/>
-            </attDef>
-          </attList>
-        </elementSpec>
+            <content>
+              <sequence>
+                <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="encodingDesc" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="profileDesc" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="revisionDesc" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
 
-        <elementSpec ident="publicationStmt" module="header" mode="change">
-          <content>
-           <sequence>
-             <elementRef key="authority" minOccurs="2" maxOccurs="5"/>
-            <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
-           </sequence>
-          </content>
-        </elementSpec>
-          
-         
-        
-        <elementSpec ident="sourceDesc" module="header" mode="change">
-          <content>
-            <elementRef key="listWit"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="listWit" module="textcrit" mode="change">
-          <content>
-            <elementRef key="witness" minOccurs="1" maxOccurs="unbounded"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="witness" module="textcrit" mode="change">
-          <content>
-            <elementRef key="msDesc" minOccurs="1" maxOccurs="6"/>
-          </content>
-          <constraintSpec ident="xmlId_check" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:listWit/tei:witness">
-                <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="xml:id" mode="change" usage="req">
-              <valList type="closed" mode="replace">
-                <valItem ident="V2"/>
-                <valItem ident="V3"/>
-                <valItem ident="B"/>
-                <valItem ident="X2"/>
-                <valItem ident="G"/>
-                <valItem ident="C"/>
-                <valItem ident="R"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="msDesc" module="msdescription" mode="change">
-          <content>
-            <sequence minOccurs="0" maxOccurs="1">
-              <elementRef key="msIdentifier"/>
-              <elementRef key="msContents"/>
-            </sequence>
-            <sequence minOccurs="0" maxOccurs="1">
-              <elementRef key="msIdentifier"/>
-              <elementRef key="msContents"/>
-              <elementRef key="physDesc"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="msIdentifier" module="msdescription" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="settlement"/>
-              <elementRef key="repository"/>
-              <elementRef key="idno"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="msItem" module="msdescription" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="locus"/>
-              <elementRef key="title"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
+          <elementSpec ident="fileDesc" module="header" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="titleStmt"/>
+                <elementRef key="extent"/>
+                <elementRef key="publicationStmt"/>
+                <elementRef key="sourceDesc"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="revisionDesc" module="header" mode="change">
+            <content>
+              <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="titleStmt" module="header" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="title" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="respStmt" minOccurs="5" maxOccurs="15"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="extent" module="header" mode="change">
+            <desc>Indication des folios concernés par édition de la partie concernée</desc>
+          </elementSpec>
+
+          <elementSpec ident="respStmt" module="core" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="persName" module="namesdates" mode="change">
+            <constraintSpec ident="term_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:respStmt/tei:persName">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="key" mode="change" usage="req">
+                <valList type="open"/>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="placeName" module="namesdates" mode="change">
+            <desc>Indication des noms de lieux dans la narration sous cette balise en vue de l'index
+              de lieux</desc>
+            <attList>
+              <attDef ident="key" mode="change" usage="req">
+                <valList type="open"/>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="publicationStmt" module="header" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="authority" minOccurs="2" maxOccurs="5"/>
+                <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+
+
+          <elementSpec ident="sourceDesc" module="header" mode="change">
+            <content>
+              <elementRef key="listWit"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="listWit" module="textcrit" mode="change">
+            <content>
+              <elementRef key="witness" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="witness" module="textcrit" mode="change">
+            <content>
+              <elementRef key="msDesc" minOccurs="1" maxOccurs="6"/>
+            </content>
+            <constraintSpec ident="xmlId_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:listWit/tei:witness">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="xml:id" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="V2"/>
+                  <valItem ident="V3"/>
+                  <valItem ident="B"/>
+                  <valItem ident="X2"/>
+                  <valItem ident="G"/>
+                  <valItem ident="C"/>
+                  <valItem ident="R"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="msDesc" module="msdescription" mode="change">
+            <content>
+              <sequence minOccurs="0" maxOccurs="1">
+                <elementRef key="msIdentifier"/>
+                <elementRef key="msContents"/>
+              </sequence>
+              <sequence minOccurs="0" maxOccurs="1">
+                <elementRef key="msIdentifier"/>
+                <elementRef key="msContents"/>
+                <elementRef key="physDesc"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msIdentifier" module="msdescription" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="settlement"/>
+                <elementRef key="repository"/>
+                <elementRef key="idno"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msItem" module="msdescription" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="locus"/>
+                <elementRef key="title"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
           <elementSpec ident="physDesc" module="msdescription" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="handDesc"/>
-              <elementRef key="decoDesc"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-          <elementSpec ident="handDesc" module="msdescription" mode="change">
-          <content>
-            <elementRef key="handNote" minOccurs="1" maxOccurs="unbounded"/>
-          </content>
-        </elementSpec>
-        
-          <elementSpec ident="decoDesc" module="msdescription" mode="change">
-          <content>
-            <elementRef key="decoNote" minOccurs="1" maxOccurs="unbounded"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="handNote" module="header" mode="change">
-          <constraintSpec ident="xmlId_check" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:listWit/tei:witness">
-                <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="xml:id" mode="change" usage="opt">
-              <valList type="closed" mode="replace">
-              <valItem ident="main1"/>
-              <valItem ident="main2"/>
-             </valList>
-            </attDef>
-            <attDef ident="scriptRef" mode="change" usage="opt">
-              <valList type="closed" mode="replace">
-                <valItem ident="#main1"/>
-                <valItem ident="#main2"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="decoNote" module="msdescription" mode="change">
-          <constraintSpec ident="xmlId_check" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:listWit/tei:witness">
-                <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <attList>
-            <attDef ident="xml:id" mode="change" usage="opt">
-              <valList type="closed" mode="replace">
-                <valItem ident="lettrine2"/>
-                <valItem ident="lettrine5"/>
-                <valItem ident="lettrine6"/>
-                <valItem ident="lettrine7"/>
-              </valList>
-            </attDef>
-            <attDef ident="scriptRef" mode="change" usage="opt">
-              <valList type="closed" mode="replace">
-                <valItem ident="#lettrine2"/>
-                <valItem ident="#lettrine5"/>
-                <valItem ident="#lettrine6"/>
-                <valItem ident="#lettrine7"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="encodingDesc" module="header" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="editorialDecl" minOccurs="1" maxOccurs="1"/>
-            <elementRef key="projectDesc" minOccurs="1" maxOccurs="1"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="profileDesc" module="header" mode="change">
-          <content>
-            <elementRef key="langUsage"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="langUsage" module="header" mode="change">
-          <content>
-            <elementRef key="language"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="language" module="header" mode="change">
-          <attList>
-            <attDef ident="ident" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="fro"/>
-                <valItem ident="fr"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
+            <content>
+              <sequence>
+                <elementRef key="handDesc"/>
+                <elementRef key="decoDesc"/>
+              </sequence>
+            </content>
+          </elementSpec>
 
-        <elementSpec ident="editorialDecl" mode="change">
-          <content>
-            <sequence>
-              <elementRef key="correction" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="normalization" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="punctuation" minOccurs="1" maxOccurs="1"/>
-            </sequence>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="hi" module="core" mode="change">
-          <attList>
-            <attDef ident="rend" mode="change" usage="rec">
-              <valList>
-                <valItem ident="exp">
-                  <desc>indication des chiffres en exposant</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-     
-        
-        <elementSpec ident="c" module="analysis" mode="change">
-          <attList>
-            <attDef ident="ana" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="#lettrine2">
-                  <desc>Nous indiquons ainsi les lettrines de la taille de deux réglures qui marquent de nouveaux paragraphes</desc>
-                </valItem>
-                <valItem ident="#lettrine5">
-                  <desc>Nous indiquons ainsi les lettrines de la taille de cinq réglures qui marquent 
-                    une nouvelle section, après une rubrique et une enluminure</desc>
-                </valItem>
-                <valItem ident="#lettrine6">
-                  <desc>Nous indiquons ainsi les lettrines de la taille de six réglures qui marquent 
-                    une nouvelle section, après une rubrique et une enluminure</desc>
-                </valItem>
-                <valItem ident="#lettrine7">
-                  <desc>Nous indiquons ainsi les lettrines de la taille de sept réglures qui marquent 
-                    une nouvelle section, après une rubrique et une enluminure</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-               
-        <elementSpec ident="figure" module="figures" mode="change">
-          <content>
-            <elementRef key="graphic"/>
-            <elementRef key="figDesc"/>
-          </content>
-        </elementSpec>
-        
-        <elementSpec ident="graphic" module="core" mode="change">
-          <attList>
-            <attDef ident="url" mode="change" usage="req">
-              <desc>Indication de l'URL du folio dans le manuscrit en zoomé sur la figure</desc>
-            </attDef>
-          </attList>
-        </elementSpec>
-                      
-        <elementSpec ident="head" module="core" mode="change">
-          <attList>
-            <attDef ident="type" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="rubrique"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="p" module="core" mode="change">
-          <constraintSpec ident="p_id_check" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:text//tei:p">
-                <sch:assert test="@xml:id" role="error">Please add a @xml:id attribute</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-        </elementSpec>
-        
-        <elementSpec ident="pb" module="core" mode="change">
-          <attList>
-            <attDef ident="n" mode="change" usage="req">
-              <desc>numéro du folio traité </desc>
-            </attDef>
-          </attList>
-        </elementSpec>
-                   
-        <elementSpec ident="cb" module="core" mode="change">
-          <attList>   
-            <attDef ident="n" mode="change" usage="req">
-              <desc>numéro de colone : a, b, c sur le recto et d, e, f sur le verso</desc>
-              <valList type="closed" mode="replace">
-                <valItem ident="a"/>
-                <valItem ident="b"/>
-                <valItem ident="c"/>
-                <valItem ident="d"/>
-                <valItem ident="e"/>
-                <valItem ident="f"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-       <elementSpec ident="add" module="core" mode="change">
-         <attList >   
-            <attDef ident="place" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="below"/>
-                <valItem ident="above"/>
-                <valItem ident="inline"/>
-                <valItem ident="right margin"/>
-                <valItem ident="left margin"/>
-                <valItem ident="central margin"/>
-                <valItem ident="top margin"/>
-                <valItem ident="bottom margin"/>
-                <valItem ident="overleaf"/>
-              </valList>
-            </attDef>
-            <attDef ident="hand" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="#main1"/>
-                <valItem ident="#main2"/>
-              </valList>
-            </attDef>
-          </attList>
-         </elementSpec>
-        
-        <elementSpec ident="del" module="core" mode="change">
-          <attList>
-            <attDef ident="rend" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="biffure"/>
-                <valItem ident="exponctuation"/>
-                <valItem ident="scraped"/>
-              </valList>
-            </attDef>
-            <attDef ident="hand" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="#main1"/>
-                <valItem ident="#main2"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="supplied" module="transcr" mode="change">
-          <attList>   
-            <attDef ident="source" mode="change" usage="req">
-              <valList type="open">
-                <valItem ident="#B"/>
-                <valItem ident="#X"/>
-              </valList>
-            </attDef>
-            <attDef ident="resp" mode="change" usage="req">
-              <valList type="semi" mode="replace">
-                <valItem ident="#Brodtkorb"/>
-              </valList>
-            </attDef>
-           </attList>
-        </elementSpec>
-        
-       <!-- <elementSpec ident="app" module="textcrit" mode="change"> 
+          <elementSpec ident="handDesc" module="msdescription" mode="change">
+            <content>
+              <elementRef key="handNote" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="decoDesc" module="msdescription" mode="change">
+            <content>
+              <elementRef key="decoNote" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="handNote" module="header" mode="change">
+            <constraintSpec ident="xmlId_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:listWit/tei:witness">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="xml:id" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="main1"/>
+                  <valItem ident="main2"/>
+                </valList>
+              </attDef>
+              <attDef ident="scriptRef" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#main1"/>
+                  <valItem ident="#main2"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="decoNote" module="msdescription" mode="change">
+            <constraintSpec ident="xmlId_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:listWit/tei:witness">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="xml:id" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="lettrine2"/>
+                  <valItem ident="lettrine5"/>
+                  <valItem ident="lettrine6"/>
+                  <valItem ident="lettrine7"/>
+                </valList>
+              </attDef>
+              <attDef ident="corresp" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#lettrine2"/>
+                  <valItem ident="#lettrine5"/>
+                  <valItem ident="#lettrine6"/>
+                  <valItem ident="#lettrine7"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="encodingDesc" module="header" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="editorialDecl" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="projectDesc" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="profileDesc" module="header" mode="change">
+            <content>
+              <elementRef key="langUsage"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="langUsage" module="header" mode="change">
+            <content>
+              <elementRef key="language"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="language" module="header" mode="change">
+            <attList>
+              <attDef ident="ident" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="fro"/>
+                  <valItem ident="fr"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="editorialDecl" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="correction" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="normalization" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="punctuation" minOccurs="1" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="hi" module="core" mode="change">
+            <attList>
+              <attDef ident="rend" mode="change" usage="rec">
+                <valList>
+                  <valItem ident="exp">
+                    <desc>indication des chiffres en exposant</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+
+
+          <elementSpec ident="c" module="analysis" mode="change">
+            <attList>
+              <attDef ident="ana" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="#lettrine2">
+                    <desc>Nous indiquons ainsi les lettrines de la taille de deux réglures qui
+                      marquent de nouveaux paragraphes</desc>
+                  </valItem>
+                  <valItem ident="#lettrine5">
+                    <desc>Nous indiquons ainsi les lettrines de la taille de cinq réglures qui
+                      marquent une nouvelle section, après une rubrique et une enluminure</desc>
+                  </valItem>
+                  <valItem ident="#lettrine6">
+                    <desc>Nous indiquons ainsi les lettrines de la taille de six réglures qui
+                      marquent une nouvelle section, après une rubrique et une enluminure</desc>
+                  </valItem>
+                  <valItem ident="#lettrine7">
+                    <desc>Nous indiquons ainsi les lettrines de la taille de sept réglures qui
+                      marquent une nouvelle section, après une rubrique et une enluminure</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="figure" module="figures" mode="change">
+            <content>
+              <elementRef key="graphic"/>
+              <elementRef key="figDesc"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="graphic" module="core" mode="change">
+            <attList>
+              <attDef ident="url" mode="change" usage="req">
+                <desc>Indication de l'URL du folio dans le manuscrit en zoomé sur la figure</desc>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="head" module="core" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="rubrique"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="p" module="core" mode="change">
+            <constraintSpec ident="p_id_check" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:text//tei:p">
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:id
+                    attribute</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="pb" module="core" mode="change">
+            <attList>
+              <attDef ident="n" mode="change" usage="req">
+                <desc>numéro du folio traité </desc>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="cb" module="core" mode="change">
+            <attList>
+              <attDef ident="n" mode="change" usage="req">
+                <desc>numéro de colone : a, b, c sur le recto et d, e, f sur le verso</desc>
+                <valList type="closed" mode="replace">
+                  <valItem ident="a"/>
+                  <valItem ident="b"/>
+                  <valItem ident="c"/>
+                  <valItem ident="d"/>
+                  <valItem ident="e"/>
+                  <valItem ident="f"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="add" module="core" mode="change">
+            <attList>
+              <attDef ident="place" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="below"/>
+                  <valItem ident="above"/>
+                  <valItem ident="inline"/>
+                  <valItem ident="right margin"/>
+                  <valItem ident="left margin"/>
+                  <valItem ident="central margin"/>
+                  <valItem ident="top margin"/>
+                  <valItem ident="bottom margin"/>
+                  <valItem ident="overleaf"/>
+                </valList>
+              </attDef>
+              <attDef ident="hand" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="#main1"/>
+                  <valItem ident="#main2"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="del" module="core" mode="change">
+            <attList>
+              <attDef ident="rend" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="biffure"/>
+                  <valItem ident="exponctuation"/>
+                  <valItem ident="scraped"/>
+                </valList>
+              </attDef>
+              <attDef ident="hand" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="#main1"/>
+                  <valItem ident="#main2"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="supplied" module="transcr" mode="change">
+            <attList>
+              <attDef ident="source" mode="change" usage="req">
+                <valList type="open">
+                  <valItem ident="#B"/>
+                  <valItem ident="#X"/>
+                </valList>
+              </attDef>
+              <attDef ident="resp" mode="change" usage="req">
+                <valList type="semi" mode="replace">
+                  <valItem ident="#Brodtkorb"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- <elementSpec ident="app" module="textcrit" mode="change"> 
           <content>
             <sequence>
               <elementRef key="lem" minOccurs="1" maxOccurs="1"/>
@@ -507,102 +529,87 @@
             </sequence>
           </content>
         </elementSpec> -->
-        
-        <elementSpec ident="lem" module="textcrit" mode="change">
-          <attList>   
-            <attDef ident="wit" mode="change" usage="rec">
-              <valList type="open">
-                <valItem ident="#B"/>
-                <valItem ident="#G"/>
-                <valItem ident="#X2"/>
-                <valItem ident="V2"/>
-                <valItem ident="V3"/>
-              </valList>
-            </attDef>
-            <attDef ident="resp" mode="change" usage="opt">
-              <valList type="semi" mode="replace">
-                <valItem ident="#Brodtkorb"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="rdg" module="textcrit" mode="change">
-          <attList>   
-            <attDef ident="wit" mode="change" usage="req">
-              <valList type="open">
-                <valItem ident="#B"/>
-                <valItem ident="#G"/>
-                <valItem ident="#X2"/>
-                <valItem ident="V2"/>
-                <valItem ident="V3"/>
-              </valList>
-            </attDef>
-           </attList>
-        </elementSpec>
-                       
-    <!--  <elementSpec ident="said" mode="change">
-          <constraintSpec ident="narrator" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:said[./@who='#nar']">
-                <sch:assert test="not(./@aloud and ./@direct)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="character_aloud" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:said[./not(@who)]">
-                <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec>
-          <constraintSpec ident="character_direct1" scheme="schematron">
-            <constraint>
-              <sch:rule context="tei:said[./not(@who)]">
-                <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
-              </sch:rule>
-            </constraint>
-          </constraintSpec> -->    
-          
- 
+
+          <elementSpec ident="lem" module="textcrit" mode="change">
+            <attList>
+              <attDef ident="wit" mode="change" usage="rec">
+                <valList type="open">
+                  <valItem ident="#B"/>
+                  <valItem ident="#G"/>
+                  <valItem ident="#X2"/>
+                  <valItem ident="V2"/>
+                  <valItem ident="V3"/>
+                </valList>
+              </attDef>
+              <attDef ident="resp" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="#Brodtkorb"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="rdg" module="textcrit" mode="change">
+            <attList>
+              <attDef ident="wit" mode="change" usage="req">
+                <valList type="open">
+                  <valItem ident="#B"/>
+                  <valItem ident="#G"/>
+                  <valItem ident="#X2"/>
+                  <valItem ident="V2"/>
+                  <valItem ident="V3"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
           
           <elementSpec ident="said" mode="change">
-          
-                <attList>
-            <attDef ident="aloud" mode="change" usage="opt">
-            <valList>
-              <valItem ident="true"/>
-              <valItem ident="false"/>
-            </valList>
-            </attDef>
-            <attDef ident="direct" mode="change" usage="opt">
-            <valList>
-              <valItem ident="true"/>
-              <valItem ident="false"/>
-            </valList>
-            </attDef>
-            <attDef ident="who" mode="change" usage="opt">
-              <valList type="semi" mode="replace">
-                <valItem ident="#nar"/>
-              </valList>
-            </attDef>
-              <!--<attDef ident="next" mode="replace" usage="opt">
-                    <text/>
-                  </attDef>-->
-                </attList>
-        </elementSpec>
-        
-        <elementSpec ident="seg" module="linking" mode="change">
-          <attList>
-            <attDef ident="ana" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="proverbe"/>
-                <valItem ident="discoursEnchassé"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-          
+            <constraintSpec ident="character_aloud" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said[./not(@who)]">
+                  <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="character_direct1" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said[./not(@who)]">
+                  <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="aloud" mode="change" usage="opt">
+                <valList>
+                  <valItem ident="true"/>
+                  <valItem ident="false"/>
+                </valList>
+              </attDef>
+              <attDef ident="direct" mode="change" usage="opt">
+                <valList>
+                  <valItem ident="true"/>
+                  <valItem ident="false"/>
+                </valList>
+              </attDef>
+              <attDef ident="who" mode="change" usage="opt">
+                <valList type="semi" mode="replace">
+                  <valItem ident="#nar"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="seg" module="linking" mode="change">
+            <attList>
+              <attDef ident="ana" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="proverbe"/>
+                  <valItem ident="discoursEnchassé"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
           <elementSpec ident="anchor" module="linking" mode="change">
             <constraintSpec ident="xmlId_check" scheme="schematron">
               <constraint>
@@ -611,97 +618,96 @@
                 </sch:rule>
               </constraint>
             </constraintSpec>
-          <attList>
-              <attDef ident="xml:id" mode="change">
-              </attDef>
-          </attList>
+            <attList>
+              <attDef ident="xml:id" mode="change"> </attDef>
+            </attList>
           </elementSpec>
-        
-        <elementSpec ident="unclear" module="core" mode="change">
-          <attList>
-            <attDef ident="reason" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="erased"/>
-                <valItem ident="faded"/>
-                <valItem ident="fold"/>
-                <valItem ident="uncertain"/>
-              </valList>
-            </attDef>
-            <attDef ident="agent" mode="change" usage="opt">
-              <valList type="closed">
-                <valItem ident="smoke"/>
-                <valItem ident="mildew"/>
-                <valItem ident="rubbing"/>
-                <valItem ident="copist"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        <elementSpec ident="rs" module="core" mode="change">
-          <attList>
-            <attDef ident="type" mode="change" usage="req">
-              <valList type="closed">
-                <valItem ident="person"/>
-                <valItem ident="place"/>
-              </valList>
-            </attDef>
-            <attDef ident="key" mode="change" usage="req">
-              <valList type="open"></valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-                     
-        <!-- class d'att -->
-        
-        <classSpec ident="att.datable.custom" type="atts" mode="delete"/>  
-        <classSpec ident="att.datable.iso" type="atts" mode="delete"/>  
-        <classSpec ident="att.declarable" type="atts" mode="delete"/>  
-        <classSpec ident="att.ranging" type="atts" mode="delete"/>  
-        <classSpec ident="att.spanning" type="atts" mode="delete"/>  
-        <classSpec ident="att.edition" type="atts" mode="delete"/>  
-        <classSpec ident="att.editLike" type="atts" mode="delete"/>  
-        <classSpec ident="att.dimensions" type="atts" mode="delete"/>  
-        <classSpec ident="att.declaring" type="atts" mode="delete"/>  
-        <classSpec ident="att.fragmentable" type="atts" mode="delete"/>  
-        <classSpec ident="att.msExcerpt" type="atts" mode="delete"/>  
-   
-        <classSpec  type="atts" ident="att.ascribed.directed" mode="change">         
-          <attList>
-            <attDef ident="toWhom" mode="delete"/>
-          </attList>
-        </classSpec>
-   
-        <classSpec  type="atts" ident="att.naming" mode="change">         
-          <attList>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-          </attList>
-        </classSpec>
-        
-        <classSpec  type="atts" ident="att.global.rendition" mode="change">         
-          <attList>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-          </attList>
-        </classSpec>
-        
-        <classSpec  type="atts" ident="att.textCritical" mode="change">         
-          <attList>
-            <attDef ident="varSeq" mode="delete"/>
-            <attDef ident="require" mode="delete"/>
-          </attList>
-        </classSpec>
-        
-        <classSpec  type="atts" ident="att.global" mode="change">         
-          <attList>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-          </attList>
-        </classSpec>
-        
-        <!--<classSpec ident="att.global.linking" type="atts" mode="change">
+
+          <elementSpec ident="unclear" module="core" mode="change">
+            <attList>
+              <attDef ident="reason" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="erased"/>
+                  <valItem ident="faded"/>
+                  <valItem ident="fold"/>
+                  <valItem ident="uncertain"/>
+                </valList>
+              </attDef>
+              <attDef ident="agent" mode="change" usage="opt">
+                <valList type="closed">
+                  <valItem ident="smoke"/>
+                  <valItem ident="mildew"/>
+                  <valItem ident="rubbing"/>
+                  <valItem ident="copist"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="rs" module="core" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="person"/>
+                  <valItem ident="place"/>
+                </valList>
+              </attDef>
+              <attDef ident="key" mode="change" usage="req">
+                <valList type="open"/>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- class d'att -->
+
+          <classSpec ident="att.datable.custom" type="atts" mode="delete"/>
+          <classSpec ident="att.datable.iso" type="atts" mode="delete"/>
+          <classSpec ident="att.declarable" type="atts" mode="delete"/>
+          <classSpec ident="att.ranging" type="atts" mode="delete"/>
+          <classSpec ident="att.spanning" type="atts" mode="delete"/>
+          <classSpec ident="att.edition" type="atts" mode="delete"/>
+          <classSpec ident="att.editLike" type="atts" mode="delete"/>
+          <classSpec ident="att.dimensions" type="atts" mode="delete"/>
+          <classSpec ident="att.declaring" type="atts" mode="delete"/>
+          <classSpec ident="att.fragmentable" type="atts" mode="delete"/>
+          <classSpec ident="att.msExcerpt" type="atts" mode="delete"/>
+
+          <classSpec type="atts" ident="att.ascribed.directed" mode="change">
+            <attList>
+              <attDef ident="toWhom" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec type="atts" ident="att.naming" mode="change">
+            <attList>
+              <attDef ident="role" mode="delete"/>
+              <attDef ident="nymRef" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec type="atts" ident="att.global.rendition" mode="change">
+            <attList>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec type="atts" ident="att.textCritical" mode="change">
+            <attList>
+              <attDef ident="varSeq" mode="delete"/>
+              <attDef ident="require" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec type="atts" ident="att.global" mode="change">
+            <attList>
+              <attDef ident="xml:base" mode="delete"/>
+              <attDef ident="xml:space" mode="delete"/>
+              <attDef ident="xml:lang" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <!--<classSpec ident="att.global.linking" type="atts" mode="change">
           <attList>
             <attDef ident="synch" mode="delete"/>
             <attDef ident="sameAs" mode="delete"/>
@@ -712,33 +718,33 @@
             <attDef ident="select" mode="delete"/>
           </attList>
         </classSpec>-->
-          
-        <classSpec ident="att.global.linking" type="atts" mode="change">
-          <attList>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-          </attList>
-        </classSpec>
-          
-        <classSpec ident="att.datable" type="atts" mode="change">
-          <attList>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="period" mode="delete"/>
-          </attList>
-        </classSpec>
-        
-        <classSpec ident="att.datable.w3c" type="atts" mode="change">
-          <attList>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-          </attList>
-        </classSpec>
+
+          <classSpec ident="att.global.linking" type="atts" mode="change">
+            <attList>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec ident="att.datable" type="atts" mode="change">
+            <attList>
+              <attDef ident="calendar" mode="delete"/>
+              <attDef ident="period" mode="delete"/>
+            </attList>
+          </classSpec>
+
+          <classSpec ident="att.datable.w3c" type="atts" mode="change">
+            <attList>
+              <attDef ident="notBefore" mode="delete"/>
+              <attDef ident="notAfter" mode="delete"/>
+              <attDef ident="xml:space" mode="delete"/>
+            </attList>
+          </classSpec>
         </schemaSpec>
       </div>
     </body>
