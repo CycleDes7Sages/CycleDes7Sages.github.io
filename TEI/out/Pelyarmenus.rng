@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<grammar xmlns:xlink="http://www.w3.org/1999/xlink"
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:tei="http://www.tei-c.org/ns/1.0"
          xmlns:teix="http://www.tei-c.org/ns/Examples"
-         xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-15T16:30:14Z. .
+Schema generated from ODD source 2022-02-15T16:42:01Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -19,6 +19,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
             <ref name="model.phrase"/>
             <ref name="model.inter"/>
             <ref name="model.global"/>
+        
             <ref name="model.lLike"/>
          </choice>
       </zeroOrMore>
@@ -201,7 +202,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@when]">
-         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+        <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -214,7 +215,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@from]">
-         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
+        <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -227,7 +228,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@to]">
-         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
+        <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <define name="att.datable.attributes">
@@ -624,7 +625,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@subtype]">
-         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
    <define name="att.pointing.attributes">
@@ -657,8 +658,8 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
-         <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
-      </sch:rule>
+            <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
+          </sch:rule>
    </pattern>
    <define name="att.pointing.attribute.target">
       <optional>
@@ -1649,9 +1650,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:text//tei:p">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:id
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:id
                     attribute</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="septSages-p-abstractModel-structure-p-constraint-report-4">
@@ -1721,7 +1722,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]</a:documentation>
          <ref name="macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-said-character_aloud-constraint-rule-7">
+                  id="septSages-said-narrator-constraint-rule-7">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1729,12 +1730,25 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:said[./not(@who)]">
-               <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
-            </sch:rule>
+                      context="tei:said[./@who]">
+                  <sch:assert test="not(./@direct)">Direct est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-said-character_direct1-constraint-rule-8">
+                  id="septSages-said-narrator2-constraint-rule-8">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:said[./@who]">
+                  <sch:assert test="not(./@aloud)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="septSages-said-character_aloud-constraint-rule-9">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1743,8 +1757,21 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:said[./not(@who)]">
-               <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
-            </sch:rule>
+                  <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+                </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="septSages-said-character_direct1-constraint-rule-10">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:said[./not(@who)]">
+                  <sch:assert test="./@direct">Direct est obligatoire si c'est un personnage qui parle qui parle</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <optional>
@@ -2487,7 +2514,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note on hand) describes a particular style or hand distinguished within a manuscript. [10.7.2. Writing, Decoration, and Other Notations]</a:documentation>
          <ref name="macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-handNote-xmlId_check-constraint-rule-9">
+                  id="septSages-handNote-xmlId_check-constraint-rule-11">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2496,8 +2523,8 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:listWit/tei:witness">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-            </sch:rule>
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.rendition.attribute.rend"/>
@@ -2658,7 +2685,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anchor point) attaches an identifier to a point within a text, whether or not it corresponds with a textual element. [8.4.2. Synchronization and Overlap 16.5. Correspondence and Alignment]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-anchor-xmlId_check-constraint-rule-10">
+                  id="septSages-anchor-xmlId_check-constraint-rule-12">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2667,8 +2694,8 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:listWit/tei:witness">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-            </sch:rule>
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.rendition.attribute.rend"/>
@@ -2833,15 +2860,29 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <element name="msContents">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript contents) describes the intellectual content of a manuscript, manuscript part, or other object either as a series of paragraphs or as a series of structured manuscript items. [10.6. Intellectual Content]</a:documentation>
          <choice>
+      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
+      
             <group>
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
                <zeroOrMore>
                   <choice>
                      <ref name="msItem"/>
+            
                   </choice>
                </zeroOrMore>
+        
             </group>
          </choice>
          <ref name="att.global.attributes"/>
@@ -2903,7 +2944,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note on decoration) contains a note describing either a decorative component of a manuscript or other object, or a fairly homogenous class of such components. [10.7.3. Bindings, Seals, and Additional Material]</a:documentation>
          <ref name="macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-decoNote-xmlId_check-constraint-rule-11">
+                  id="septSages-decoNote-xmlId_check-constraint-rule-13">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2912,8 +2953,8 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:listWit/tei:witness">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-            </sch:rule>
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.rendition.attribute.rend"/>
@@ -2985,7 +3026,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-persName-term_check-constraint-rule-12">
+                  id="septSages-persName-term_check-constraint-rule-14">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2994,8 +3035,8 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:respStmt/tei:persName">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-            </sch:rule>
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
@@ -3095,7 +3136,9 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                <choice>
                   <ref name="model.rdgLike"/>
                   <ref name="model.noteLike"/>
-                  <ref name="rdgGrp"/>
+        
+              
+                  <ref name="rdgGrp"/>      
                </choice>
             </zeroOrMore>
          </group>
@@ -3229,12 +3272,14 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
                <choice>
                   <ref name="model.rdgLike"/>
                   <ref name="model.noteLike"/>
-                  <ref name="rdgGrp"/>
+      
+            
+                  <ref name="rdgGrp"/>      
                </choice>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-rdgGrp-only1lem-constraint-assert-10">
+                  id="septSages-rdgGrp-only1lem-constraint-assert-12">
             <rule context="tei:rdgGrp">
                <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3284,7 +3329,7 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-witness-xmlId_check-constraint-rule-13">
+                  id="septSages-witness-xmlId_check-constraint-rule-15">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3293,8 +3338,8 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:listWit/tei:witness">
-               <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-            </sch:rule>
+                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
+                </sch:rule>
          </pattern>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.rendition.attribute.rend"/>
@@ -3335,15 +3380,15 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
          <group>
             <ref name="teiHeader"/>
             <choice>
-               <group>
-                  <oneOrMore>
+	              <group>
+	                 <oneOrMore>
                      <ref name="model.resource"/>
                   </oneOrMore>
-                  <zeroOrMore>
+	                 <zeroOrMore>
                      <ref name="TEI"/>
                   </zeroOrMore>
-               </group>
-               <oneOrMore>
+	              </group>
+	              <oneOrMore>
                   <ref name="TEI"/>
                </oneOrMore>
             </choice>
@@ -3392,15 +3437,24 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
       <element name="text">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
-            <zeroOrMore>
+      
+      
+        
+	           <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
+      
             <choice>
                <ref name="body"/>
+        
             </choice>
-            <zeroOrMore>
+      
+      
+        
+	           <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
+      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -3412,99 +3466,162 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
          <group>
+      
+      
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
+      
+      
+      
             <optional>
                <group>
+          
                   <ref name="model.divTop"/>
+          
+          
                   <zeroOrMore>
                      <choice>
                         <ref name="model.global"/>
                         <ref name="model.divTop"/>
                      </choice>
                   </zeroOrMore>
+          
                </group>
             </optional>
+      
+      
+      
             <optional>
                <group>
+          
                   <ref name="model.divGenLike"/>
+          
+          
                   <zeroOrMore>
                      <choice>
                         <ref name="model.global"/>
                         <ref name="model.divGenLike"/>
                      </choice>
                   </zeroOrMore>
+          
                </group>
             </optional>
+      
+      
+        
             <choice>
+          
+          
                <oneOrMore>
                   <group>
+              
                      <ref name="model.divLike"/>
+              
+              
                      <zeroOrMore>
                         <choice>
                            <ref name="model.global"/>
                            <ref name="model.divGenLike"/>
                         </choice>
                      </zeroOrMore>
+              
                   </group>
                </oneOrMore>
+          
+          
+          
                <oneOrMore>
                   <group>
+              
                      <ref name="model.div1Like"/>
+              
+              
                      <zeroOrMore>
                         <choice>
                            <ref name="model.global"/>
                            <ref name="model.divGenLike"/>
                         </choice>
                      </zeroOrMore>
+              
                   </group>
                </oneOrMore>
+          
+          
                <group>
                   <oneOrMore>
                      <group>
+              
                         <ref name="model.common"/>
+              
+              
                         <zeroOrMore>
                            <ref name="model.global"/>
                         </zeroOrMore>
+              
                      </group>
                   </oneOrMore>
+            
                   <optional>
                      <choice>
+                
+                
                         <oneOrMore>
                            <group>
+                    
                               <ref name="model.divLike"/>
+                    
+                    
                               <zeroOrMore>
                                  <choice>
                                     <ref name="model.global"/>
                                     <ref name="model.divGenLike"/>
                                  </choice>
                               </zeroOrMore>
+                    
                            </group>
                         </oneOrMore>
+                
+                
+                
                         <oneOrMore>
                            <group>
+                    
                               <ref name="model.div1Like"/>
+                    
+                    
                               <zeroOrMore>
                                  <choice>
                                     <ref name="model.global"/>
                                     <ref name="model.divGenLike"/>
                                  </choice>
                               </zeroOrMore>
+                    
                            </group>
                         </oneOrMore>
+                
                      </choice>
                   </optional>
+            
                </group>
             </choice>
+        
+      
+      
+      
             <zeroOrMore>
                <group>
+          
                   <ref name="model.divBottom"/>
+          
+          
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
+          
                </group>
             </zeroOrMore>
+      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3514,33 +3631,44 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
       <element name="div">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
          <group>
+      
             <zeroOrMore>
                <choice>
                   <ref name="model.divTop"/>
+          
                   <ref name="model.global"/>
                </choice>
             </zeroOrMore>
+      
             <optional>
                <group>
                   <choice>
+          
                      <oneOrMore>
                         <group>
                            <choice>
                               <ref name="model.divLike"/>
                               <ref name="model.divGenLike"/>
                            </choice>
+              
                            <zeroOrMore>
                               <ref name="model.global"/>
                            </zeroOrMore>
+              
                         </group>
                      </oneOrMore>
+          
                      <group>
                         <oneOrMore>
                            <group>
+              
                               <ref name="model.common"/>
+              
+              
                               <zeroOrMore>
                                  <ref name="model.global"/>
                               </zeroOrMore>
+              
                            </group>
                         </oneOrMore>
                         <zeroOrMore>
@@ -3549,19 +3677,25 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
                                  <ref name="model.divLike"/>
                                  <ref name="model.divGenLike"/>
                               </choice>
+              
                               <zeroOrMore>
                                  <ref name="model.global"/>
                               </zeroOrMore>
+              
                            </group>
                         </zeroOrMore>
                      </group>
                   </choice>
                   <zeroOrMore>
                      <group>
+          
                         <ref name="model.divBottom"/>
+          
+          
                         <zeroOrMore>
                            <ref name="model.global"/>
                         </zeroOrMore>
+          
                      </group>
                   </zeroOrMore>
                </group>
@@ -3638,12 +3772,13 @@ Suggested values include: 1] #Brodtkorb</a:documentation>
          <oneOrMore>
             <choice>
                <ref name="add"/>
+      
                <ref name="del"/>
                <ref name="model.milestoneLike"/>
             </choice>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="septSages-subst-substContents1-constraint-assert-12">
+                  id="septSages-subst-substContents1-constraint-assert-14">
             <rule context="tei:subst">
                <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
