@@ -34,41 +34,94 @@
           documents liés à l'édition fournie par Brodtkorb (§1-134)
           ainsi qu'à l'essai de collation mené sur la transcription que nous avons donnée de l'ensemble du roman, 
         en particulier, pour cet essai de collation, sur les §482-486</p>
-        <p>Nous avons souhaité garder trace des décisions éditoriales de Brodtkorb dans le document associé à son édition.
-          Celles-ci sont indiquées via les balises <gi>app</gi> et <gi>supplied</gi> avec la valeur d'attribut resp au nom de
-          Brodtkorb pour offrir la trace la plus sûre de ses interventions en amont de notre propre travail de collation</p>
-        <p>Dans notre travail de collation, nous avons utilisé les balises <gi>app</gi>, <gi>lem</gi> et <gi>rdg</gi>
-         ainsi que les balises <gi>del</gi> et <gi>supplied</gi> pour les modifications de la main du copiste 
-          dans le manuscrit de base. 
-          
-          et avons prêté
-          attention aux noms de personnes et de lieux (<gi>persName</gi>, <gi>placeName</gi>,
-            <gi>rs</gi>) ainsi qu'aux formes de discours <gi>said</gi>) </p>
-        <p>Nous avons privilégié la balise <gi>handDesc</gi> et pas <gi>handNotes</gi> par souci de
-          cohérence avec <gi>decoDesc</gi>
+      </div>
+      <div>
+        <head>Le teiHeader</head>
+        <p>Le teiHeader s'est présenté de manière assez conforme aux habitudes de la TEI. 
+          La section <gi>fileDesc</gi> comporte les informations relatives 
+          au <gi>titleStmt</gi>, 
+          incluant le <gi>title</gi> et le <gi>respStmt</gi> qui présente chaque membre de l'équipe 
+          ainsi que celles et ceux dont l'aide s'est avérée si précieuse à l'établissement de cette édition, 
+          à l'<gi>extent</gi> 
+          et au <gi>publicationStmt</gi> (dans lequel nous avons repris les différentes 
+          d'autorité (<gi>authority</gi>) et les conditions d'accès rendues par l'information <gi>availability</gi>. 
+          Le <gi>fileDesc</gi> reprend finalement le <gi>sourceDesc</gi> avec la <gi>listWit</gi> complète de nos <gi>witness</gi>.
+          Le <gi>msDesc</gi> en donne la description complète, avec leur <gi>msIdentifier</gi>, leur <gi>settlement</gi>, <gi>repository</gi>
+          et <gi>idno</gi>, puis leur <gi>msContents</gi>, centré sur le seul <gi>msItem</gi> lié au roman que nous éditons ici. Nous 
+          y avons donc précisé l'étendue exacte dans le manuscrit avec la balise <gi>locus</gi> et le titre donné, ou non, 
+          dans le manuscrit en question avec <gi>title</gi>. 
+          S'enquit dans le cas des manuscrits de base que nous avons suivis (sous les références V2 et V3) un <gi>physDesc</gi>, que nous 
+          avons décidé de donner dans ces deux seuls cas qui nécessitaient une présentation des mains 
+          (<gi>handDesc</gi> plutôt que <gi>handNotes</gi>, par souci de cohérence avec <gi>decoDesc</gi>)
+          et éléments décoratifs (<gi>decoDesc</gi>) en présence.
+          Le <gi>encodingDesc</gi> reprend le <gi>editorialDecl</gi>, avec quelques réflexions liées aux éléments éditoriaux 
+          (<gi>correction</gi>, <gi>normalization</gi> et <gi>punctuation</gi>), et le <gi>projectDesc</gi>.
+          Un rapide <gi>profileDesc</gi> permet de préciser la langue de travail du texte (<gi>langUsage</gi>)
+          avant de préciser les quelques étapes les plus saillantes du travail fourni dans le <gi>revisionDesc</gi>.
         </p>
       </div>
       <div>
-        <head>Les choix de transcription</head>
-        <p>Dans le cadre de notre travail de balisage, nous avons prêté une grande attention aux
-          formes de discours et de prises de paroles, et notamment aux interventions narratoriales,
-          importantes dans ce roman et le reste du cycle. Aux balises said, nous avons adjoint celle
-            <tag>said xml:id="nar"</tag> pour indiquer ces interventions Et préciser qu'elles sont
-          extradiégétiques donc n'ont pas été encodées selon leur portée aloud et direct précisées
-          dans tous les autres cas Au vu du grand nombre de personnages mobilisés, sous des
-          étiquettes et des titres variables en outre, nous avons souhaité conservé trace des
-          identités de chacun-e grâce aux balises "rs". Elles ont été intégrées pour chaque
-          référence à un personage, pour peu qu'il ne soit pas directement nommé dans le texte
-          ("persName" alors) ou à moins qu'il fasse l'objet d'une adresse directe dans le cadre d'un
-          dialogue qui le verrait donc nommé/présenté par la balise "persName" juste avant ou juste
-          après. N'ont également pas été indiqués par la balise "rs" les mentions de personnages par
-          pronoms ou les groupes de personnages. Les personnages cités de manière abstraite (li
-          mires, la pucele) et une seule fois n'ont eux aussi pas été référencés.</p>
-
-      </div>
+        <head>Logiques d'encodage du texte</head>
+        <p>Dans le suivi du texte, nous avons souhaité garder trace des décisions éditoriales de Brodtkorb dans le document associé à son édition.
+          Celles-ci sont indiquées via les balises <gi>app</gi> et <gi>supplied</gi> avec la valeur d'attribut @resp au nom de
+          Brodtkorb pour offrir la trace la plus sûre de ses interventions en amont de notre propre travail de collation</p>
+        <p>Dans notre travail de collation, nous avons utilisé les balises <gi>app</gi>, incluant celles de <gi>lem</gi> et <gi>rdg</gi>, 
+          mais aussi la balise <gi>supplied</gi> pour pallier aux oublis dans notre manuscrit de base. 
+          Dans tous les cas, le témoin cité a été spécifié par l'attribut @wit ou @source dans le cas de la balise <gi>supplied</gi>. 
+          Nous avons veillé à distinguer, en les typant avec l'attribut @type, les balises d'apparat selon qu'elles relèvent de variantes 
+          ou de corrections du manuscrit de base. 
+        Nous avons recouru aux balises <gi>del</gi> et <gi>add</gi> pour les modifications de la main du copiste 
+          dans le manuscrit de base. Dans la mesure du possible, nous avons veillé à rendre la réalité du manuscrit de base sur lequel nous
+          travaillons, ces corrections ont donc été justifiées par l'attribut @rend ou @place, 
+          selon qu'elles relèvent d'exponctuations ou de biffures, d'ajouts marginaux
+        et par l'attribut @hand pour spécifier la main à laquelle nous avons jugé bon de rattacher ces modifications.</p> 
+          <p>Nous avons souhaité offrir un accès le plus complet possible au manuscrit que nous avons transcrit et avons pour cela balisé les 
+          éléments les plus saillants de sa mise en page. Aux balises <gi>pb</gi> qui indiquent les folios travaillés, s'ajoutent celles des 
+          <gi>cb</gi> qui gardent trace de la structure en trois colonnes de chaque folio. Nous les avons numérotées b, c, d, e, f; la première étant 
+          indiquée par le changement de folio avec <gi>pb</gi>. 
+            Nous avons créé une <gi>div</gi> spécifique pour chaque section présentée comme telle dans le manuscrit, indiquée par une rubrique 
+            (rendue par la balise <gi>head</gi>, avec la valeur d'attribut @type de rubrique), et une illustration dans l'immense majorité des cas 
+            présentés dans notre manuscrit de base (rendue par la balise <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son @url vers le site de Gallica,
+           et un <gi>figDesc</gi> permettent d'offrir accès à la composante iconographique du manuscrit.
+            Le texte est donné, outre ces grandes subdivisions, en paragraphes, eux-mêmes indiqués par une lettrine, de la taille de deux réglures,
+            comme nous l'avons systématiquement précisé, dans le manuscrit lui-même. 
+            Les différences dans la mise en page du texte ont été indiquées pour chaque manuscrit dans notre travail de collation. Dans ce cas spécifique, 
+            présenté en particulier dans le cas du témoin B, une indication d'apparat <gi>app</gi> a été associée à une balise <gi>anchor</gi> 
+            propre au paragraphe traité.
+            Si nous avons écarté toute indication formelle de décoloration, trou dans le parchemin, variation d'encre anodine, nous avons conservé trace 
+            de chacune de ces altérations de la qualité du manuscrit quand elles ne permettaient pas une lecture assurée du texte. Nous les avons rendues 
+            par la balise <gi>unclear</gi>, systématiquement précisées par l'attribut @reason selon la cause exacte que nous détections pour cette altération.
+            Si cela ne nous paraissait pas possible de trancher, nous l'avons précisé de manière explicite par la valeur de cet attribut uncertain.</p>
+          <p>Dans notre analyse d'un roman aussi fourmillant que l'est le "Roman de Pelyarmenus", nous avons décidé de rendre tout l'intérêt et la richesse
+            de l'étude des personnages mis en présence et des lieux parcourus par les balises <gi>persName</gi> et <gi>placeName</gi> 
+            pour chaque occcurrence présentée. Nous avons à chaque fois précisé par l'attribut @key l'identité exacte, à l'orthographe uniformisée, 
+            du personnage ou du lieu à identifier. 
+            Au vu du grand nombre de personnages et de lieux mobilisés, sous des
+            étiquettes et des titres variables en outre, nous avons souhaité conservé trace des
+            identités de chacun-e grâce aux balises <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne
+            désigner un person ou un place, pour les personnages ou lieux non-nommés, mais ainsi évoqués 
+            (par exemple pour les ducs de Lembourc ou empereurs de Rome, aux identités floues ou multiples selon les cas). 
+            Nous y avons intégré le même attribut @key pour en préciser l'identité, 
+            créant ainsi une base d'informations stables en vue de l'index nominum et de l'index locorum de notre édition.
+            Nous n'avons néanmoins pas intégré cette balise <gi>rs</gi> dans les cas où le personnage en question
+            fait l'objet d'une adresse directe dans le cadre d'un dialogue qui le verrait explicitement nommé juste avant ou après. 
+            N'ont également pas été indiquées par cette balise les mentions de personnages par
+            pronoms ou les groupes de personnages. Les personnages cités de manière abstraite (comme li
+            mires, la pucele) et apparus une seule fois n'ont eux aussi pas été référencés de la sorte pour ne pas polluer excessivement l'index.</p>
+        <p>Nous avons également souhaité prêter attention aux formes du discours dont procède la trame narrative. 
+          Nous avons précisé dans chaque des balises <gi>said</gi> si elles présentaient un discours prononcé 
+          à haute voix ou non avec l'attribut @aloud, direct ou non avec l'attribut @direct. 
+          Nous avons également voulu donner du relief aux interventions narratoriales,
+          importantes dans ce roman et le reste du cycle des Sept Sages de Rome. 
+          Aux balises <gi>said</gi>, nous avons adjoint celle
+          <tag>said xml:id="nar"</tag> pour indiquer ces interventions. 
+          Extradiégétiques, elles n'ont donc comporté aucune information liée à leur portée à haute voix ou à leur tournure directe ou non.
+          Dans les cas particuliers de discours plus étendu, nous avons dû scinder ces balises selon les mentions d'apparat ou les passages 
+          au paragraphe suivant par exemple, en recourant à l'attribut @next pour pointer vers
+          une balise <gi>said </gi>suivante, indiquée pour sa part par un xml:id auquel est adressée la référence dans la balise précédente.</p>
+       </div>
       <div>
-        <!-- Ajouter un index des noms de lieux et de personnes dans le teiHeader -->
-
+        <head>L'ODD</head>
         <schemaSpec ident="septSages" start="TEI">
           <moduleRef key="core"
             include="add cb del graphic head hi num p pb resp respStmt rs said title unclear"/>
@@ -87,9 +140,6 @@
           <moduleRef key="textstructure" include="TEI body text div"/>
           <moduleRef key="transcr" include="handNotes subst supplied"/>
           <moduleRef key="analysis" include="c"/>
-
-          <!-- laisser vide pour obtenir les classes d'attributs -->
-
 
 
           <elementSpec ident="teiHeader" module="header" mode="change">
@@ -565,7 +615,7 @@
           
           <elementSpec ident="said" mode="change">
             <constraintSpec ident="narrator" scheme="schematron">
-              <constraint>
+              <!-- <constraint>
                 <sch:rule context="tei:said[./@who]">
                   <sch:assert test="not(./@direct)">Direct est interdit si c'est le narrateur qui parle</sch:assert>
                 </sch:rule>
@@ -576,7 +626,7 @@
                 <sch:rule context="tei:said[./@who]">
                   <sch:assert test="not(./@aloud)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
                 </sch:rule>
-              </constraint>
+              </constraint>-->
             </constraintSpec>
             <constraintSpec ident="character_aloud" scheme="schematron">
               <constraint>
