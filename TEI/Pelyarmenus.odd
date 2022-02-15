@@ -56,7 +56,7 @@
         <schemaSpec ident="septSages" start="TEI">
           <moduleRef key="core" include="add cb del graphic head hi num p pb resp respStmt rs said title unclear"/>
           <moduleRef key="header" include="availability authority change correction encodingDesc editorialDecl
-            extent fileDesc handNote hyphenation idno language langUsage normalization projectDesc publicationStmt
+            extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
             punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
           <moduleRef key="figures" include="figDesc figure"/>
           <moduleRef key="linking" include="anchor seg att.global.linking"/>
@@ -155,6 +155,8 @@
            </sequence>
           </content>
         </elementSpec>
+          
+         
         
         <elementSpec ident="sourceDesc" module="header" mode="change">
           <content>

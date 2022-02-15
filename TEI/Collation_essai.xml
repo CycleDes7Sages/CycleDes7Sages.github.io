@@ -53,7 +53,9 @@
             <authority>FNS (Suisse)</authority>
             <authority>FNRS (Wallonie, Belgique)</authority>
             <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
-            <availability status="restricted"> <p xml:id="Availability">à l'usage des personnes impliquées dans ce projet</p> </availability>
+            <availability status="restricted">
+               <licence>à l'usage des seuls intervenants dans le projet</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <listWit>
@@ -480,7 +482,7 @@
                         <!-- à voir --> <lem wit="#V3 #X2">fames</lem>
                         <rdg wit="#G">femmes</rdg></app> 
                   estoient</said></lem>
-                  <rdg wit="#B"/>
+                  <rdg wit="#B"/> 
                </app> 
                <said xml:id="P484-1">
                qui moult avoient 
