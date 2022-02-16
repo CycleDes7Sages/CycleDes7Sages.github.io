@@ -111,6 +111,10 @@
         <p>Nous avons également souhaité prêter attention aux formes du discours dont procède la trame narrative. 
           Nous avons précisé dans chaque des balises <gi>said</gi> si elles présentaient un discours prononcé 
           à haute voix ou non avec l'attribut @aloud, direct ou non avec l'attribut @direct. 
+          Pour attester la complexité des discours, nous avons également recouru à une balise <tag>seg ana="discoursEnchassé"</tag>
+          pour indiquer quand un discours est intégré dans un autre discours direct. 
+          Dans le même ordre d'idées, nous avons indiqué les insertions dans le discours ou la narration de proverbes par la balise
+          <tag>seg ana="proverbe"</tag>. 
           Nous avons également voulu donner du relief aux interventions narratoriales,
           importantes dans ce roman et le reste du cycle des Sept Sages de Rome. 
           Aux balises <gi>said</gi>, nous avons adjoint celle
