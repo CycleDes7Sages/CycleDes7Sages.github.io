@@ -207,9 +207,10 @@
       <body>
          <div> <!-- Collation de la rubrique à effectuer ! -->
             <pb n="1"/> <!-- Vérifier comment on résoud Com -->
-            <head type="rubrique">Comment<cb n="b"/> <persName key="Helcanus">Helcanus</persName> 
+            <head type="rubrique" n="R1"><!-- modifier le numéro de la rubrique -->Comment<cb n="b"/> <persName key="Helcanus">Helcanus</persName> 
                issi de prison. et ala en la queste de <persName key="Néra">Nera</persName> 
                <del rend="exponctué" hand="#main1">sa</del> sa mie.</head>
+            <!-- ajouter la description de l'enluminure -->
             <cb n="a"/>
             <p xml:id="P482"> 
                <c ana="lettrine7">C</c>i endroit

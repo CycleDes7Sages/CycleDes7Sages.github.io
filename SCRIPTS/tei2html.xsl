@@ -19,13 +19,13 @@
     <xsl:template match="teiHeader">
     </xsl:template>
     <xsl:template match="head[@type='rubrique']">
-        <h1><xsl:value-of select="substring-after(@n,'R')"/><xsl:apply-templates/></h1> 
+        <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1> 
     </xsl:template>
-    <xsl:template match="figure">
-        (<i><xsl:apply-templates/></i>)
+    <xsl:template match="figDesc">
+        <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>
     <xsl:template match="p">
-        <p><span class="paraNum">[<xsl:value-of select="substring-after(@xml:id,'P')"/>]</span><xsl:apply-templates/></p>
+        <p><span class="paraNum">[<xsl:value-of select="substring-after(@xml:id,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
@@ -50,7 +50,8 @@
         <i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
     </xsl:template>
     <xsl:template match="c">
-        <i><span class="c"><xsl:apply-templates/></span></i>
+        <i><span class="c">         
+            <xsl:apply-templates/></span></i>
     </xsl:template>
     <xsl:template match="persName">
         <span class="persName"><xsl:apply-templates/></span>
