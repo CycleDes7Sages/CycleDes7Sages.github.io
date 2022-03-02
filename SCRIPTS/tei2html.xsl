@@ -10,7 +10,7 @@
             <head>
                 <title>Le Roman de Pelyarmenus</title>
                 <title>édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte (sous la direction
-                de Simone Ventura)</title>
+                    de Simone Ventura)</title>
                 <link rel="stylesheet" type="text/css" href="ASSETS/Pelyarmenus.css"/>
             </head>
             <body><xsl:apply-templates/></body>
@@ -19,14 +19,13 @@
     <xsl:template match="teiHeader">
     </xsl:template>
     <xsl:template match="head[@type='rubrique']">
-        <h1><xsl:apply-templates/></h1> <!-- puis-je ajouter un numéro à chacune de ces div ?  via création xml:id pour numérotation des rubriques ?-->
+        <h1><xsl:value-of select="substring-after(@n,'R')"/><xsl:apply-templates/></h1> 
     </xsl:template>
     <xsl:template match="figure">
         (<i><xsl:apply-templates/></i>)
     </xsl:template>
     <xsl:template match="p">
-        <p><xsl:apply-templates/></p>
-        <!-- comment puis-je faire apparaître les numéros des paragraphes ? -->
+        <p><span class="paraNum">[<xsl:value-of select="substring-after(@xml:id,'P')"/>]</span><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
@@ -34,12 +33,10 @@
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@direct='true'"> 
-                "<xsl:apply-templates></xsl:apply-templates>"
+                "<xsl:apply-templates/>"
             </xsl:when>
-            <!-- est-il possible d'automatiser la création d'un tiret à chaque occurrence de dialogue 
-                (fermeture de balise said et réouverture juste ensuite)? -->
             <xsl:otherwise>
-                <xsl:apply-templates></xsl:apply-templates>
+                <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -49,8 +46,8 @@
     <xsl:template match="add"> 
         <b>[<xsl:apply-templates></xsl:apply-templates>]</b>
     </xsl:template>
-    <xsl:template match="rdg"> <!-- Serait-il possible de demander de conserver la source indiquée du rdg en question-->
-         <i>[<xsl:apply-templates></xsl:apply-templates>]</i> 
+    <xsl:template match="rdg"> 
+        <i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
     </xsl:template>
     <xsl:template match="c">
         <i><span class="c"><xsl:apply-templates/></span></i>
