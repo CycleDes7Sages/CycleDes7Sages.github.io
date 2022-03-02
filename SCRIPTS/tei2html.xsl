@@ -46,6 +46,9 @@
     <xsl:template match="del"> 
         <span class="del"><xsl:apply-templates></xsl:apply-templates></span>
     </xsl:template>
+    <xsl:template match="add"> 
+        <b>[<xsl:apply-templates></xsl:apply-templates>]</b>
+    </xsl:template>
     <xsl:template match="rdg"> <!-- Serait-il possible de demander de conserver la source indiquée du rdg en question-->
          <i>[<xsl:apply-templates></xsl:apply-templates>]</i> 
     </xsl:template>
