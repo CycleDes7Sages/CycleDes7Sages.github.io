@@ -19,22 +19,21 @@
     <xsl:template match="teiHeader">
     </xsl:template>
     <xsl:template match="head[@type='rubrique']">
-        <h1><xsl:apply-templates/></h1> <!-- puis-je ajouter un numéro à chacune de ces div ? -->
+        <h1><xsl:apply-templates/></h1> <!-- puis-je ajouter un numéro à chacune de ces div ?  via création xml:id pour numérotation des rubriques ?-->
     </xsl:template>
     <xsl:template match="figure">
-        <i><xsl:apply-templates/></i>
+        (<i><xsl:apply-templates/></i>)
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
-        <!-- comment puis-je faire apparaître les numéros des paragraphes ? 
-            on a parlé d'ol dans la séance sur le html, mais comment les intégrer ?-->
+        <!-- comment puis-je faire apparaître les numéros des paragraphes ? -->
     </xsl:template>
     <xsl:template match="num">
-        .<small-caps><xsl:apply-templates></xsl:apply-templates></small-caps>.
+        .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
     </xsl:template>
     <xsl:template match="said">
         <xsl:choose>
-            <xsl:when test="@aloud='true'"> <!-- comment poser une double condition @aloud et @direct=true? -->
+            <xsl:when test="@direct='true'"> 
                 "<xsl:apply-templates></xsl:apply-templates>"
             </xsl:when>
             <!-- est-il possible d'automatiser la création d'un tiret à chaque occurrence de dialogue 
@@ -44,11 +43,10 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="del"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? ou en biffé ?-->
-        [<xsl:apply-templates></xsl:apply-templates>]
+    <xsl:template match="del"> 
+        <span class="del"><xsl:apply-templates></xsl:apply-templates></span>
     </xsl:template>
-    <xsl:template match="rdg"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? 
-                                    Serait-il en outre possible de demander de conserver la source indiquée du rdg en question-->
+    <xsl:template match="rdg"> <!-- Serait-il possible de demander de conserver la source indiquée du rdg en question-->
          <i>[<xsl:apply-templates></xsl:apply-templates>]</i> 
     </xsl:template>
     <xsl:template match="c">
