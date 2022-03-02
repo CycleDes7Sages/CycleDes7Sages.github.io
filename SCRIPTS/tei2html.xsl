@@ -9,6 +9,8 @@
         <html>
             <head>
                 <title>Le Roman de Pelyarmenus</title>
+                <title>édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte (sous la direction
+                de Simone Ventura)</title>
                 <link rel="stylesheet" type="text/css" href="ASSETS/Pelyarmenus.css"/>
             </head>
             <body><xsl:apply-templates/></body>
@@ -35,7 +37,7 @@
             <xsl:when test="@aloud='true'"> <!-- comment poser une double condition @aloud et @direct=true? -->
                 "<xsl:apply-templates></xsl:apply-templates>"
             </xsl:when>
-            <!-- comment automatiser la création d'un tiret à chaque occurrence de dialogue 
+            <!-- est-il possible d'automatiser la création d'un tiret à chaque occurrence de dialogue 
                 (fermeture de balise said et réouverture juste ensuite)? -->
             <xsl:otherwise>
                 <xsl:apply-templates></xsl:apply-templates>
@@ -43,9 +45,10 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="del"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? ou en biffé ?-->
-        [<xsl:apply-templates></xsl:apply-templates>
+        [<xsl:apply-templates></xsl:apply-templates>]
     </xsl:template>
-    <xsl:template match="rdg"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? -->
+    <xsl:template match="rdg"> <!-- Comment pourrais-je demander un rendu en nbp, possible ici ? 
+                                    Serait-il en outre possible de demander de conserver la source indiquée du rdg en question-->
          <i>[<xsl:apply-templates></xsl:apply-templates>]</i> 
     </xsl:template>
     <xsl:template match="c">
