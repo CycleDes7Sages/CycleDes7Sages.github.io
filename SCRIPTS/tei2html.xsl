@@ -49,6 +49,9 @@
     <xsl:template match="rdg"> 
         <i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
     </xsl:template>
+    <xsl:template match="lem">
+        <i><span class="lem"><xsl:apply-templates></xsl:apply-templates></span></i>
+    </xsl:template>
     <xsl:template match="c">
         <i><span class="c">         
             <xsl:apply-templates/></span></i>
