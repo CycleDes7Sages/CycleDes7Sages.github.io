@@ -52,6 +52,9 @@
     <xsl:template match="lem">
         <i><span class="lem"><xsl:apply-templates></xsl:apply-templates></span></i>
     </xsl:template>
+    <xsl:template match="note">
+        [<i><xsl:apply-templates></xsl:apply-templates></i>]
+    </xsl:template>
     <xsl:template match="c">
         <i><span class="c">         
             <xsl:apply-templates/></span></i>

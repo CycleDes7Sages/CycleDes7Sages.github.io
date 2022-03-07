@@ -128,7 +128,7 @@
         <head>L'ODD</head>
         <schemaSpec ident="septSages" start="TEI">
           <moduleRef key="core"
-            include="add cb del graphic head hi num p pb resp respStmt rs said title unclear"/>
+            include="add cb del graphic head hi note num p pb resp respStmt rs said title unclear"/>
           <moduleRef key="header"
             include="availability authority change correction encodingDesc editorialDecl
             extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
@@ -518,6 +518,16 @@
             </attList>
           </elementSpec>
 
+          <elementSpec ident="note" module="core" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed">
+                  <valItem ident="apparat"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <elementSpec ident="add" module="core" mode="change">
             <attList>
               <attDef ident="place" mode="change" usage="req">
