@@ -65,4 +65,7 @@
     <xsl:template match="rs">
         <span class="rs"><xsl:apply-templates/></span>
     </xsl:template>
+    <xsl:template match="seg">
+        '<xsl:apply-templates></xsl:apply-templates>'
+    </xsl:template>
 </xsl:stylesheet>
