@@ -25,7 +25,7 @@
         <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>
     <xsl:template match="p">
-        <p><span class="paraNum">[<xsl:value-of select="substring-after(@xml:id,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
+        <p><span class="paraNum">[<xsl:value-of select="substring-after(@n,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
