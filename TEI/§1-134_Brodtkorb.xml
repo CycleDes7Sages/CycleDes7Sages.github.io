@@ -230,6 +230,7 @@
             <change who="#CC" when="2021-07-31">Fin de la relecture du Pelyarmenus</change>
             <change who="#CC" when="2021-08-30">Fin de la révision des commentaires et de l'ODD</change>
             <change who="#CC" when="2021-10-31">Fin de la relecture des balises liées aux personnages et ODD mis à jour pour les témoins</change>
+            <change who="#CC" when="2022-03-04">Mise à jour de l'ODD</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -248,7 +249,7 @@
                             (probablement <persName key="Pelyarmenus">Pelyarmenus</persName> et <persName key="Dialogus">Dialogus</persName>) discutent, pendant qu'à droite une nourrice 
                             s'occupe de deux jeunes enfants (probablement <persName key="Cassidoire">Cassidore</persName> et <persName key="Dorus">Dorus</persName>)</figDesc>
                     </figure>                 
-                    <p xml:id="P1"><c ana="lettrine6">E</c>n
+                    <p n="P1"><c ana="lettrine6">E</c>n
                          ceste partie dist li contes que <said who="#nar"> aprés ce que
                             <persName key="Pelyarmenus">Pelyarmenuz</persName> ot porchacié la traïson envers
                             <persName key="Dialogus">Dyagolus</persName> le bastart son frere et fait le
@@ -305,7 +306,7 @@
                         mie laiens, dont vindrent a <persName key="Dialogus">Dyalogus</persName> et li ont demandé
                            <said aloud="true" direct="false">se il nules nouveles savoit de <persName key="Dorus">Dorus</persName> que il
                             por Dieu le deist.</said></p>
-                    <p xml:id="P2"><c ana="lettrine2">Q</c>uant <persName key="Dialogus">Dyagolus</persName> oÿ les
+                    <p n="P2"><c ana="lettrine2">Q</c>uant <persName key="Dialogus">Dyagolus</persName> oÿ les
                         norrisces qui li deman<cb n="d"/>doient l'enfant, si fist trop le mescomté
                         et leur dist : <said aloud="true" direct="true">Qu'en en avez vous
                             fait ?</said> Celles si distrent que <said aloud="true" direct="false">elles l'avoient laissié avec
@@ -327,7 +328,7 @@
                             <placeName key="Rome">Romme</placeName> que <said aloud="true" direct="false">se il estoit nuls ne nulle qui
                             nouvelle en seust, venist avant et il li donroit <num>c</num> besanz
                             d'or.</said></p>
-                    <p xml:id="P3"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li peschieres</rs> oÿ ce dire, si vint a 
+                    <p n="P3"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li peschieres</rs> oÿ ce dire, si vint a 
                         <rs type="person" key="Femme du Pêcheur">sa femme</rs> et li dist que <said aloud="true" direct="false">tel ban avoit oÿ.</said> 
                         <said aloud="true" direct="true">Biau frere, dist ele, ne t'en chaut. J'aime <rs type="person" key="Dorus">l'enfant</rs> miex
                             que je ne fais les besanz.</said>
@@ -375,7 +376,7 @@
                             devenus. Et saches vraiement que se ainsi est que tu ne le faces, je et
                             <rs type="person" key="Fastige">ma dame l'empereriz</rs> te ferons destruire et de male mort
                         morir.</said></p>
-                    <p xml:id="P4"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li peschieres</rs> ot
+                    <p n="P4"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li peschieres</rs> ot
                         <app> <lem wit="#B #X2" resp="#Brodtkorb">entendu</lem> <rdg wit="#V2">entendi</rdg></app>
                         <persName key="Dialogus">Dyalogus</persName> de ce qu'il ot dit, si respondi et dist : 
                         <said aloud="true" direct="true">Sire, sachiez tout de certain que la
@@ -394,7 +395,7 @@
                             ferai et Diex le vous ren<pb n="132"/>de quar bien en doi
                             estre soigneuz de la besoingne, quar onques mais jour de ma vie si bon
                             poisson ne pris.</said></p>
-                    <p xml:id="P5"><c ana="lettrine2">A</c>tant a cilz pris les besanz que
+                    <p n="P5"><c ana="lettrine2">A</c>tant a cilz pris les besanz que
                             <persName key="Dialogus">Dyalogus</persName> li ot donnez a pris congié a lui, et en
                         vint a sa maison a <rs type="person" key="Femme du Pêcheur">sa femme</rs> touz liez et tous joianz, et li dist : 
                         <said aloud="true" direct="true">Chaitive, ore esgarde que je ai gaaigné ! Vez ci
@@ -417,7 +418,7 @@
                         cuers et ont plouré tendrement devant <rs type="person" key="Dorus">l'enfant</rs> meismes. Et quant <rs type="person" key="Dorus">li enfes</rs>
                         les vit, si ne sot que il orent, si s'assist et commença moult tendrement
                         <cb n="b"/> a plourer avec euls.</p>
-                    <p xml:id="P6"><rs type="person" key="Pêcheur"><c ana="lettrine2">L</c>i preudons</rs>, qui toutes voies avoit cuer
+                    <p n="P6"><rs type="person" key="Pêcheur"><c ana="lettrine2">L</c>i preudons</rs>, qui toutes voies avoit cuer
                         d'omme, si fina son duel le premier et laissa le plourer et pria a <rs type="person" key="Femme du Pêcheur">sa femme</rs>
                         que <said aloud="true" direct="false">ele se teust, pour ce que li aucun ne s'en aperceussent</said>, 
                         et elle si fist au plus que elle sot. Dont a <rs type="person" key="Dorus">l'enfant</rs> pris entre ses braz et li
@@ -448,7 +449,7 @@
                         <said aloud="true" direct="true">Ce ne porroit longuement estre, dist <rs type="person" key="Pêcheur">li preudons</rs>.</said>
                         <said aloud="true" direct="true">Par Dieu, dist elle, vous ne le porterez en lieu ou
                             je ne voise aprés lui.</said></p>
-                    <p xml:id="P7"><c ana="lettrine2">Q</c>uant li preudons oÿ ce, si s'est teuz et
+                    <p n="P7"><c ana="lettrine2">Q</c>uant li preudons oÿ ce, si s'est teuz et
                         penssa que <said aloud="false" direct="false">il l'osteroit de laiens que ja ne s'en donroit garde.</said> 
                         Aprés ce avint une fiere aventure de <rs type="person" key="Cassidoire">la sereur</rs>, 
                         qui demouree estoit ainssi comme vous
@@ -465,7 +466,7 @@
                         s'est maintenant muciee entre la povre gent, si que il ne fu nuls qui seust
                         mie que elle fu devenue, quar bien y avoit <num>vi<hi rend="exp">m</hi></num> povres, qui tous
                         estoient de <placeName key="Rome">Romme</placeName> et d'entour.</p>
-                    <p xml:id="P8"><said who="#nar"><c ana="lettrine2">Q</c>ue vous diroie je ?</said> Savoir le couvint el
+                    <p n="P8"><said who="#nar"><c ana="lettrine2">Q</c>ue vous diroie je ?</said> Savoir le couvint el
                         palais, quar quant on la cuida trouver, cil et celles qui la gardoient<cb n="d"/> 
                         n'en porent oïr nouvelle nule, nient plus que de
                         <persName key="Dorus">Dorus</persName>. Quant <rs type="person" key="Fastige">l'empereriz</rs> le sot, dont ne se pot
@@ -495,7 +496,7 @@
                         Dont ont mandé <persName key="Dialogus">Dyalogus</persName> que
                         <said aloud="true" direct="false">on le face venir devant eulz</said> et on
                                 maintenant le fist venir.</p>
-                    <p xml:id="P9"><c ana="lettrine2">Q</c>uant <persName key="Dialogus">Dyalogus</persName> fu 
+                    <p n="P9"><c ana="lettrine2">Q</c>uant <persName key="Dialogus">Dyalogus</persName> fu 
                         <unclear reason="erased">ve</unclear>nus devant euls, 
                         lors ont fait widier la chambre et l'ont mis a raison de ceste chose.
                         Cil qui moult sot de traïson et de refui dist : 
@@ -516,7 +517,7 @@
                         ainz l'a saisi devant <rs type="person" key="Fastige">sa mere l'empereriz</rs> et l'a commandé <said aloud="true" direct="false">a metre
                         en la chartre dessous, la ou on metoit les murtriers.</said> Cil a cui il le commanda na l'osa refuser, ainçois l'a
                         mis la ou il avoit dit.</p>
-                    <p xml:id="P10"><c ana="lettrine2">Q</c>uant <persName key="Fastidorus">Fastydorus</persName>
+                    <p n="P10"><c ana="lettrine2">Q</c>uant <persName key="Fastidorus">Fastydorus</persName>
                         ot ce commandé, si ne sot que faire. Dont dist <rs type="person" key="Fastige">l'empereriz</rs> que
                                 <said aloud="true" direct="false">malement li estoit avenu des enfanz et que
                                     moult les amoit por l'amour du <rs type="person" key="Cassidorus">pere</rs>, ne il ne fu
@@ -539,20 +540,20 @@
                         <said aloud="true" direct="true">Certes,
                                 dame, non, quar je n'avoie pas plus de <num>ii</num> anz quant elle
                             morut.</said></p>
-                    <p xml:id="P11"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre vieille">la bone femme</rs> l'oÿ si
+                    <p n="P11"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre vieille">la bone femme</rs> l'oÿ si
                             sagement parler et elle la vit si bel enfant, si s'apensa que,
                             <said aloud="false" direct="false">s'elle la pooit atraire a lui, que
                             elle avroit bien esploitié.</said> Dont s'est moult pres de lui traite
                         et li dist : <said aloud="true" direct="true">Ma belle fille, gardez ou vous
                             irez tant que vous aiez trouvé vostre pere que vous ne
                             truissiez genz qui mal vous facent.</said></p>
-                    <p xml:id="P12"><c ana="lettrine2">Q</c>uant <rs type="person" key="Cassidoire">li enfes</rs> l'oÿ, si s'est pres de 
+                    <p n="P12"><c ana="lettrine2">Q</c>uant <rs type="person" key="Cassidoire">li enfes</rs> l'oÿ, si s'est pres de 
                         <rs type="person" key="Pauvre vieille">la bonne femme</rs> trais et dist : <said aloud="true" direct="true">Ma dame,
                             pour Dieu laissiez moi aler avecques vous et sachiez que bien y porrez
                             avoir preu.</said> Dont la prist <rs type="person" key="Pauvre vieille">la bone femme</rs> par la main et
                         l'enmena avecques li aval la ville comme celle qui queroit son vivre de jour
                         en jour.</p>
-                    <p xml:id="P13"><c ana="lettrine2">A</c>insi avint de <rs type="person" key="Cassidoire">la pucelete</rs> que <rs type="person" key="Pauvre vieille">la bonne
+                    <p n="P13"><c ana="lettrine2">A</c>insi avint de <rs type="person" key="Cassidoire">la pucelete</rs> que <rs type="person" key="Pauvre vieille">la bonne
                             femme</rs> l'a norri grant piece de ce<del rend="exponctuation" hand="#main1">les</del>
                         qu'eles pooient pourchacier, ne elle ne savoit qui elle ert ne dont elle
                         estoit, quar <rs type="person" key="Cassidoire">li enfes</rs> savoit ja tant que se elle le deist a <rs type="person" key="Pauvre vieille">la povre
@@ -568,7 +569,7 @@
                             fille. Il revendra a vous et je vous y menrai demain, quar je croi bien
                             que nous le trouverons la ou je vous menrai.</said> Et ce li disoit elle
                         pour lui apaisier. Et quant elle entendoit ce, adont esforçoit elle son duel.</p>
-                    <p xml:id="P14"><c ana="lettrine2">C</c>ele vie mena <rs type="person" key="Cassidoire">li enfes</rs> grant piece tant que
+                    <p n="P14"><c ana="lettrine2">C</c>ele vie mena <rs type="person" key="Cassidoire">li enfes</rs> grant piece tant que
                         par aventure avint que <rs type="person" key="Pauvre vieille">la femme</rs> menoit <rs type="person" key="Cassidoire">l'enfant</rs> par la ville, et
                         avint si comme Fortune qui ne faut a son
                         tour que <rs type="person" key="Pauvre vieille">la povre femme</rs> et <rs type="person" key="Cassidoire">la pucelete</rs> si s'embatirent 
@@ -586,7 +587,7 @@
                             <persName key="Dorus">Dorus</persName> et sot que ce estoit sa suer
                             <persName key="Cassidoire">Cassidore</persName>. Lors s'entrebaisierent moult doucement
                         et commencierent <cb n="b"/>andui moult fort a plourer.</p>
-                    <p xml:id="P15"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre vieille">la preudefemme</rs> vit ce, si ot moult grant
+                    <p n="P15"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre vieille">la preudefemme</rs> vit ce, si ot moult grant
                         merveille et cuida maintenant que <said aloud="false" direct="false"><rs type="person" key="Pêcheur">le seigneur 
                              de laiens</rs> fust leur pere.</said> Si dist :
                         <said aloud="true" direct="true">Belle fille, maint vostre pere çaienz ?</said>
@@ -607,7 +608,7 @@
                         <said aloud="true" direct="true">Mere, ne sai quiex homs nous amena en cest paÿs
                             et nous prist chiez nostre pere, et se vous nous y voliez mener, bien
                             seriez louee et paiee.</said></p>
-                    <p xml:id="P16"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre femme">la bonne femme</rs> entendi <rs type="person" key="Cassidoire">la pucelete</rs>, si
+                    <p n="P16"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pauvre femme">la bonne femme</rs> entendi <rs type="person" key="Cassidoire">la pucelete</rs>, si
                         li demanda: <said aloud="true" direct="true">Fille, quele part est ce ?</said>
                         <said aloud="true" direct="true">Certes, ma dame, dist elle, je ne sai, mais moult est loing de
                             ci.</said> Lors s’apenssa celle que 
@@ -674,7 +675,7 @@
                         <said aloud="true" direct="true">Voire, sire, dist il.</said>
                         <said aloud="true" direct="true">Et vostre seur comment a elle non ?</said>
                         <said aloud="true" direct="true">Sire, elle a a non <persName key="Cassidoire">Cassidore</persName>.</said></p>
-                    <p xml:id="P17"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li sires</rs> oÿ ce, qui li donnast
+                    <p n="P17"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li sires</rs> oÿ ce, qui li donnast
                             <placeName key="Rome">Romme</placeName> il ne fust mie si liez, quar il sot
                         maintenant qui il estoient. Dont a fait apeler sa maisniee et il y sont venu moult tost. 
                         <said aloud="true" direct="true">Amie, dist <rs type="person" key="Bourleus">li sires</rs> a <rs type="person" key="Pauvre vieille">la povre
@@ -719,7 +720,7 @@
                         <figDesc>Enluminure de 14 UR, sur une colonne. <persName key="Pelyarmenus">Pelyarmenus</persName> est 
                             accueilli par <rs type="person" key="Fastige">sa mère</rs> à la porte du palais.</figDesc>
                     </figure>
-                    <p xml:id="P18"><c ana="lettrine6">A</c>prés ce que <persName key="Pelyarmenus">Pelyarmenus</persName>
+                    <p n="P18"><c ana="lettrine6">A</c>prés ce que <persName key="Pelyarmenus">Pelyarmenus</persName>
                         se fu partis d'<placeName key="Espagne">Espaigne</placeName>, il ne volt mie laissier que
                         il devers <placeName key="Bretagne">Bretaigne</placeName> ne se meist, comme cilz qui
                         vouloit aprendre les terres et connoistre les granz seigneurs, si comme cilz
@@ -749,7 +750,7 @@
                             frere <persName key="Dorus">Dorus</persName> et <rs type="person" key="Cassidoire">ma suer</rs>, quar je sai bien que
                                 <persName key="Fastidorus">Fastydorus</persName> n'est mie en cest paÿs, quar ce fust
                             celui que j'eusse demandé premierement.</said></p>
-                    <p xml:id="P19"><c ana="lettrine2">Q</c>uant <rs type="person" key="Fastige">l'empereriz</rs> l'entendi, si li sont les
+                    <p n="P19"><c ana="lettrine2">Q</c>uant <rs type="person" key="Fastige">l'empereriz</rs> l'entendi, si li sont les
                         lermes venues aus yex, et dist : <said aloud="true" direct="true">Bien sai
                             que mauvaises nouveles vous nous aportez, et je
                             mauvaises vous puis dire de ce que vous
@@ -767,7 +768,7 @@
                                 <persName key="Dialogus">Dyaloguz</persName> ne les ait malmis, par quoi il soient
                             destruit par couvoitise que tu eusses la terre de
                                 <placeName key="Constantinople">Coustentinoble</placeName>.</said></p>
-                    <p xml:id="P20"><c ana="lettrine2">Q</c>uant
+                    <p n="P20"><c ana="lettrine2">Q</c>uant
                         <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ceste nouvele, si
                         fist chiere trop couroucie. 
                         <said aloud="true" direct="true">Voire, mere,
@@ -802,7 +803,7 @@
                             drois et raison l'enseigne. Et pour ce nous en 
                             <app> <lem wit="#B #X2" resp="#Brodtkorb">maintenons</lem> <rdg wit="#V2">maintenez</rdg></app>
                             sagement sanz descorder li uns vers l'autre, si ferons que sage.</said></p>
-                    <p xml:id="P21"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ce,
+                    <p n="P21"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ce,
                         si sot bien que il avoit raison en ce qu'ele disoit, et d'autre part il
                         couvenoit que il tenist <rs type="person" key="Fastidorus">son frere</rs> a amor se il vouloit faire ce que il avoit
                         en pourpos. Lors parla et dist par grant signe de pitié en lermes et en
@@ -867,7 +868,7 @@
                             parlerent il de <said aloud="true" direct="false">moult de doleurs et de traïsons
                                 que il beoient a faire</said>, et quant il orent assez devisé, si sont venu devant
                         <rs type="person" key="Fastige">l'empereriz</rs>, et parla <persName key="Pelyarmenus">Pelyarmenus</persName> a li en tele maniere.</p>
-                    <p xml:id="P22"><said aloud="true" direct="true"><c ana="lettrine2">M</c>a dame, 
+                    <p n="P22"><said aloud="true" direct="true"><c ana="lettrine2">M</c>a dame, 
                         <seg ana="#proverbe">qui son nez cope, il deshouneure son vis</seg>.</said>
                         <said aloud="true" direct="true">Filz, dist elle, c'est voirs. Pour quoi l'avez vous dit ?</said>
                         <said aloud="true" direct="true">Par
@@ -913,7 +914,7 @@
                             bien le sai, et sanz faille je bee prochainement a aler ou paÿs et en savrai la verité.</said>
                         <said aloud="true" direct="true">Par Dieu, dist l'empereriz, je l'otroi, et quant il
                             vous plaira vous me dirés nouveles de <rs type="person" key="Cassidorus">l'empereour vostre pere</rs>.</said> </p>
-                    <p xml:id="P23"><c ana="lettrine2">D</c>ont s'apensa <persName key="Pelyarmenus">Pelyarmenus</persName>
+                    <p n="P23"><c ana="lettrine2">D</c>ont s'apensa <persName key="Pelyarmenus">Pelyarmenus</persName>
                         que <said aloud="false" direct="false">il la reconforteroit <num>i</num> poi.</said> 
                         <said aloud="true" direct="true">Par foy, mere, dist il, de
                             moult de choses vous avroie a dire, se je tout vous vouloie compter de
@@ -941,7 +942,7 @@
                         <said aloud="true" direct="true">Sainte Marie, dist <rs type="person" key="Fastige">l'empereriz</rs>, quiex nouveles sont ce
                             dont ? Ja est il tenuz pour si bons chevaliers et si courtois.</said>
                         <said aloud="true" direct="true">Par foy, fait il, je vous dirai.</said></p>
-                    <p xml:id="P24"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est qu'il fist moult 
+                    <p n="P24"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est qu'il fist moult 
                         d'armes a l'autre voie encontre mon oncle <rs type="person" key="Roi d'Aragon">le roy d'<placeName key="Aragon"><app><lem wit="#B #X2" resp="#Brodtkorb">Arragon</lem><rdg wit="#V2">Espaigne</rdg></app></placeName></rs>. 
                         Il avint que vous bien savez comment la chose va. Li <rs type="person" key="Roi d'Aragon">roys d'<placeName key="Aragon">Arragon</placeName></rs>
                         si ot fait pais au <rs type="person" key="Roi d'Espagne">roy d'<placeName key="Espagne">Espaigne</placeName></rs>, si avint que
@@ -1008,7 +1009,7 @@
                         <said aloud="true" direct="true">Certes, dist elle, bien me
                             plaist qu'ele l'ait, mais moult seroie couroucie se pour ceste chose
                             recevoit mort.</said> </p>
-                    <p xml:id="P25"><c ana="lettrine2">M</c>oult longuement ont parlé de lui et d'autres
+                    <p n="P25"><c ana="lettrine2">M</c>oult longuement ont parlé de lui et d'autres
                         choses, <said who="#nar">mais de ce me veul taire et venir a ce que
                                 <persName key="Fastidorus">Fastydorus</persName> sot les nouveles de son
                             <rs type="person" key="Pelyarmenus">frere</rs></said>, si en fu moult joianz et tout aussi aussi furent les
@@ -1050,7 +1051,7 @@
                             monde, quar li peres ne doit espargnier le filz ne li filz le pere, et
                             qui ce fait, il ne doit estre repris en ses oeuvres.</said>
                         <said aloud="true" direct="true">Par Dieu, dist elle, voir avez dit.</said></p>
-                    <p xml:id="P26"><c ana="lettrine2">A</c>insi parlerent de moult de choses avant et
+                    <p n="P26"><c ana="lettrine2">A</c>insi parlerent de moult de choses avant et
                         arriere, et tant que li temps passa de ces choses que il furent mises en
                         nonchaloir. Un jour s'en vint <persName key="Pelyarmenus">Pelyarmenus</persName> a <rs type="person" key="Fastige">l'empereriz</rs>
                         et li dist que<said aloud="true" direct="false"> grant volenté avoit d'aler
@@ -1089,7 +1090,7 @@
                         mis a la voie a tot grant avoir que <persName key="Pelyarmenus">Pelyarmenus</persName> avoit
                         cueilli, si n’ont finé d'esrer, si sont venu en
                             <placeName key="Constantinople">Constentinoble</placeName>.</p>
-                    <p xml:id="P27"><c ana="lettrine2">Q</c>uant li baron de la cité et cil du paÿs lo
+                    <p n="P27"><c ana="lettrine2">Q</c>uant li baron de la cité et cil du paÿs lo
                         sorent, sachiez que tuit vindrent a lui pour faire feste. Moult 
                         sot <persName key="Pelyarmenus">Pelyarmenus</persName> bien tenir et moult donna de riches
                         dons a ceuz de cui il cuidoit avoir mestier. <persName key="Gasus">Gasus</persName>, qui
@@ -1103,7 +1104,7 @@
                             ainssi le voult Diex. Moi meismes ai puis esté en grant peril de mort en
                             estrange paÿs, et ay trouvé que <rs type="person" key="Cassidorus">mes sires li empereres</rs> est mors et aussi
                             est <persName key="Helcanus">Helcanuz</persName> son filz.</said></p>
-                    <p xml:id="P28"><c ana="lettrine2">Q</c>uant <persName key="Gasus">Gasus</persName> ot entendu
+                    <p n="P28"><c ana="lettrine2">Q</c>uant <persName key="Gasus">Gasus</persName> ot entendu
                         <persName key="Pelyarmenus">Pelyarmenus</persName>, si ne fu nuls qui le peust
                         resleescier, ainz a fait <num>i</num> duel merveilleus. 
                         <said aloud="true" direct="true"><persName key="Gasus">Gasus</persName>, dist
@@ -1138,7 +1139,7 @@
                             bien qu'il en y a moult qui volentiers le feront.</said>
                         <said aloud="true" direct="true">Et ceuz qui le feront
                             verrai je, dist <persName key="Pelyarmenus">Pelyarmenus</persName>.</said></p>
-                    <p xml:id="P29"><c ana="lettrine2">D</c>ont furent li prince de
+                    <p n="P29"><c ana="lettrine2">D</c>ont furent li prince de
                             <placeName key="Constantinople">Coustentinoble</placeName> tous mandez et leur fu la chose
                         moustree. Quant il on<supplied source="#B" resp="#Brodtkorb">t</supplied>
                        oÿ ceste nouvelle, si
@@ -1149,7 +1150,7 @@
                             se ce l’en est avenu. Que aloit il querant hors de sa terre ? Tout ainsi
                             fist <rs type="person" key="Laurin">son pere</rs> et en la fin, quant il ot tant alé et venu, morut il en
                             son meilleur point hors de son paÿs.</said></p>
-                    <p xml:id="P30"><c ana="lettrine2">M</c>oult longuement ont ainsi parlé de cele mort
+                    <p n="P30"><c ana="lettrine2">M</c>oult longuement ont ainsi parlé de cele mort
                         qui tant ert aspre et dure. 
                         Aprés, il se sont a conseil trait de la requeste
                         que <persName key="Pelyarmenus">Pelyarmenuz</persName> leur faisoit, dont dit li uns d'eulz :
@@ -1189,7 +1190,7 @@
                         qui bien avoient pooir. Et de tiex y ot qui furent rebelles, et ceuz mena il
                         en tele maniere qu'il leur abati tous leur chastiaus, et en alerent en
                         estrange paÿs ou il miex porent.</p>
-                    <p xml:id="P31"><c ana="lettrine2">S</c>achiez que la renommee de ceste chose ala
+                    <p n="P31"><c ana="lettrine2">S</c>achiez que la renommee de ceste chose ala
                         trop loing, quar par son malice il demoura el paÿs aussi comme sires, et se
                         fist amer si comme cil qui atendoit nouvelles de jour en jour que<cb n="f"/>
                         il mestier eust du pueple et des barons. <said who="#nar">Si veul de lui
@@ -1205,7 +1206,7 @@
                         <figDesc>Enluminure de 14 UR, sur une colonne. <persName key="Bourleus">Bourleus</persName>, à gauche, 
                             gardant les deux enfants, accueille <persName key="Cliodorus">Clyodorus</persName> chez lui.</figDesc>
                     </figure>
-                    <p xml:id="P32"><c ana="lettrine6">O</c>r dist li comptes que <said who="#nar">
+                    <p n="P32"><c ana="lettrine6">O</c>r dist li comptes que <said who="#nar">
                             <persName key="Bourleus">Borleuz</persName> estoit ducs et quens d'un paÿs qui gastés
                         estoit a celui temps, et appelle on le paÿs <placeName key="Andalousie">Andasula</placeName>.
                         Li ducs si avoit esté des escilliez de <placeName key="Troie">Troye</placeName>, aussi
@@ -1229,7 +1230,7 @@
                                 <rs type="person" key="Bourleus">li ducs</rs> oÿ ce dire, si en ot pitié grant, et pour ce les vouloit il tenir
                         chiers, et si ne voult que nuls seust qui il fussent pour les aventures qui
                         avenir en peussent.</said></p>
-                    <p xml:id="P33"><c ana="lettrine2">U</c>n jour avint aussi comme par aventure que
+                    <p n="P33"><c ana="lettrine2">U</c>n jour avint aussi comme par aventure que
                             <num>i</num> gentil homme, qui estoit de ceuz que
                             <persName key="Pelyarmenus">Pelyarmenuz</persName> avoit dechaciez et escilliez de
                             <placeName key="Grèce">Grece</placeName>, si s'en vint entre lui et son escuier
@@ -1259,7 +1260,7 @@
                             la requeste de <rs type="person" key="Pelyarmenus">celui qui mon pere m'a mis a mort et les enfanz emporta</rs>,
                             si comme je vous a<supplied source="#B" resp="#Brodtkorb">i</supplied>
                             dit.</said></p>
-                    <p xml:id="P34"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> l’ot entendu, si le tint a moult
+                    <p n="P34"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> l’ot entendu, si le tint a moult
                         loyal, et a ce li sont les larmes venues aus yex de pitié de ce qu'il li
                         avoit dit, dont li dist : <said aloud="true" direct="true"><persName key="Cliodorus">Clyodorus</persName>, moult connuy vostre pere
                                 <persName key="Melsius">Melsyus</persName>, et sai que sa loiauté li parut jusques
@@ -1279,7 +1280,7 @@
                             <persName key="Pelyarmenus">Pelyarmenus</persName> n'estoit mie adont ou paÿs, mais or
                             ne sai je mie tres bien qu'il en est avenu puis, quar assez tost aprés
                             je m'en parti.</said></p>
-                    <p xml:id="P35"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> entendi
+                    <p n="P35"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> entendi
                         <rs type="person" key="Bourleus">le duc</rs>, si ot si grant duel que il n'ot jambes qui soustenir le peussent, si
                         chaÿ aussi comme touz pasmez, et dist : <said aloud="true" direct="true">Hé !
                             laz, bien pensoie la cruel traïson. Ha ! lierres, dit il, vous disiez
@@ -1305,7 +1306,7 @@
                                 aviengne qu'il soient mort, n’i pouez vous recouvrer pour duel que vous
                             faciez, quar il me samble, se recouvrer y peussiez pour faire duel cruel et pesme, appareilliez seriez du
                             faire.</said></p>
-                    <p xml:id="P36"><c ana="lettrine2">D</c>ont s'est <persName key="Cliodorus">Clyodorus</persName>
+                    <p n="P36"><c ana="lettrine2">D</c>ont s'est <persName key="Cliodorus">Clyodorus</persName>
                         refrainz, et dist : <said aloud="true" direct="true">Ha ! sire, se vous
                             eussiez aussi bien veüz les enfanz comme j'ai et la biauté d'eulz et
                             comment il s'entramoient, vous en feriez <num>c</num> temps plus cruel
@@ -1325,7 +1326,7 @@
                             dist <rs type="person" key="Bourleus">li ducs</rs>, c'est bien amé, et encore, se Dieu plaist, vit<cb n="e"/>
                             li uns d'eulz par quoi ceste amour porroit bien estre merie.</said>
                         <said aloud="true" direct="true">Sire, dist il, c'est en la volenté nostre Seigneur.</said></p>
-                    <p xml:id="P37"><c ana="lettrine2">L</c>ors fu <rs type="person" key="Bourleus">li dux</rs> moult temptez de moustrer li
+                    <p n="P37"><c ana="lettrine2">L</c>ors fu <rs type="person" key="Bourleus">li dux</rs> moult temptez de moustrer li
                         les enfanz, savoir se par aucune aventure les conneust, et quant il ot le
                         tout visé, si n'i <app><lem wit="#B #X2" resp="#Brodtkorb">vit</lem><rdg wit="#V2">fist</rdg></app> 
                         nule raison par quoi il en peus<supplied source="#B #X2" resp="#Brodtkorb">sen</supplied>t
@@ -1340,7 +1341,7 @@
                             se vous ore les veiez et il fussent ore en vie ?</said>
                         <said aloud="true" direct="true">Ha ! sire, pour Dieu merci, por coi ne feroie ? Je les deveroie bien connoistre quant si les
                             ai en ramembrance et jour et nuit.</said></p>
-                    <p xml:id="P38"><c ana="lettrine2">D</c>ont se leva <rs type="person" key="Bourleus">li dux</rs> et prist
+                    <p n="P38"><c ana="lettrine2">D</c>ont se leva <rs type="person" key="Bourleus">li dux</rs> et prist
                             <persName key="Cliodorus">Clydorus</persName> par la main et le mena en une
                         chambre ou li enfant se jouoient avec les enfanz <rs type="person" key="Bourleus">le duc</rs>. Adont
                         li dist : <said aloud="true" direct="true">Or esgardez se vous nul en veez
@@ -1366,7 +1367,7 @@
                             sont il si enfant selonc ce que je voi a vous meismes et a
                             euls aussi, et sanz faille, avant que je les eusse a vouz moustrez, en
                             estoie je en doute, mais or en sui touz sages.</said></p>
-                    <p xml:id="P39"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> fu bien a lui revenuz, si dist au 
+                    <p n="P39"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> fu bien a lui revenuz, si dist au 
                         <rs type="person" key="Bourleus">duc</rs> : 
                         <said aloud="true" direct="true">Sire, pour Dieu, faites moi sage dont ces <num>ii</num> enfanz vous viennent.</said> 
                         Tantost fist <rs type="person" key="Bourleus">li ducs</rs> venir <rs type="person" key="Pauvre vieille">la femme</rs> qui les
@@ -1392,7 +1393,7 @@
                             et mes chastiaus, et le mien tout, et mes hommes, je metrai a ce que li
                             enfant viengnent a leur droit heritage, vive <rs type="person" key="Cassidorus">li empereres</rs> ou soit
                             mors.</said></p>
-                    <p xml:id="P40"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> oÿ <rs type="person" key="Bourleus">le
+                    <p n="P40"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> oÿ <rs type="person" key="Bourleus">le
                         duc</rs>, si s’est laissiez cheoir a sez piez et l'en voult baisier le souler, et dist : 
                         <said aloud="true" direct="true">Sire, cilz Diex qui est vrais
                             justicierres le vous veille rendre en ame et en cors, quar onques mais
@@ -1427,7 +1428,7 @@
                         <said aloud="true" direct="true">Je le vous lo, dist <rs type="person" key="Bourleus">li dux</rs>, mais avant que vous departez de moi,
                             sejournez o moi une piece jusques adont que vous serez bien reposez.</said>
                         <said aloud="true" direct="true">Sire, dist il, granz merciz, et ce ferai je volentiers.</said></p>
-                    <p xml:id="P41"><c ana="lettrine2">D</c>ont demoura <persName key="Cliodorus">Clyodorus</persName>
+                    <p n="P41"><c ana="lettrine2">D</c>ont demoura <persName key="Cliodorus">Clyodorus</persName>
                         <num>viii</num> jourz avec <rs type="person" key="Bourleus">le duc</rs>, qui li fist grant joie et grant houneur.
                         Au chief de <num>viii</num> jourz se parti de lui, et avant qu'il meust li
                         donna <rs type="person" key="Bourleus">li ducs</rs> cheval moult bon et armeures fors et tenanz, et son escuier
@@ -1456,7 +1457,7 @@
                         savoir comment <supplied source="#B" resp="#Brodtkorb">les choses</supplied>
                         se prendroient, et pour savoir se <rs type="person" key="Cassidorus">li empereres</rs> et si enfant y revenoient
                         comment il seroient receu.</p>
-                    <p xml:id="P42"><c ana="lettrine2">L</c>ors a fait sa voie aprester, et mena poi de
+                    <p n="P42"><c ana="lettrine2">L</c>ors a fait sa voie aprester, et mena poi de
                         gent avec lui, comme cilz qui mie ne vouloit que tuit seussent la verité ne
                         la raison de sa voie, si ne fina par ses journees tant que il vint en la
                         cité de <placeName key="Constantinople">Coustentinoble</placeName>. Il fist sa maisnie metre a
@@ -1476,7 +1477,7 @@
                             demandoie je pas, ainz cuidoie que pieça fust mors il et si enfant, mais
                             puis que vous en voie m'en avez mis, je vous pri que vous aucune chose
                             m'en dites dont je soie sage.</said></p>
-                    <p xml:id="P43"><c ana="lettrine2">Q</c>uant <rs type="person" key="Hôte de Constantinople">li hostes</rs> entendi <rs type="person" key="Bourleus">le duc</rs>, si ot paour
+                    <p n="P43"><c ana="lettrine2">Q</c>uant <rs type="person" key="Hôte de Constantinople">li hostes</rs> entendi <rs type="person" key="Bourleus">le duc</rs>, si ot paour
                         que il ne fust de la partie <persName key="Pelyarmenus">Pelyarmenuz</persName>, si se repenti
                         de ce qu’il ot dit. Dont li dist : 
                         <said aloud="true" direct="true">Sire, cilz empereres qui <persName key="Pelyarmenus">Pelyarmenuz</persName> a non n'est pas en
@@ -1489,7 +1490,7 @@
                         <said aloud="true" direct="true">Sire, <app> <lem wit="#B #X2" resp="#Brodtkorb">dist</lem> <rdg wit="#V2">dites</rdg></app>
                             <rs type="person" key="Hôte de Constantinople">li hostes</rs>, foy que vous me devez ne a Dieu, dites moi qui
                             vous estes ne de la quele partie vous estes plus.</said></p>
-                    <p xml:id="P44"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li ducs</rs> l'oÿ, si sot bien qu'il ot doute
+                    <p n="P44"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li ducs</rs> l'oÿ, si sot bien qu'il ot doute
                         de lui, si li dist : 
                         <said aloud="true" direct="true">Amis, foy que doi vous,
                             je sui nez de la grant <placeName key="Allemagne">Alemaingne</placeName> et vous di que
@@ -1525,7 +1526,7 @@
                             <rs type="person" key="Fastige">l'empereriz de <placeName key="Rome">Romme</placeName></rs>, dont cist enfant sont issu
                             qui ja nul bien ne feront, et se il<cb n="f"/> le faisoient, ce seroit
                             contre raison, quar il sont bastart.</said></p>
-                    <p xml:id="P45"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ <rs type="person" key="Hôte de Constantinople">son hoste</rs>, si ot grant joie,
+                    <p n="P45"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ <rs type="person" key="Hôte de Constantinople">son hoste</rs>, si ot grant joie,
                         dont li demanda <said aloud="true" direct="false">se il savoit noient que,
                             se <rs type="person" key="Cassidorus">li empereres</rs> ou nuls de ses <num>ii</num> enfanz revenissent, que il
                             li eust nul debat d'eulz recevoir.</said>
@@ -1556,7 +1557,7 @@
                             aidier, et savez vous aussi de qui il deveroient avoir aide ? 
                             Du <rs type="person" key="Roi de Frise">roy<pb n="139"/> de <placeName key="Frise">Frise</placeName></rs>, qui est bien pres leur
                             cousin, mais c'est de par leur pere.</said></p>
-                    <p xml:id="P46"><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar
+                    <p n="P46"><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar
                         Dieu, dist <rs type="person" key="Bourleus">li dux</rs>, bien deveroient avoir
                             des amis, se il revenoient, par quoy cilz eust a souffrir de ce qu'i a
                             empris.</said>
@@ -1590,7 +1591,7 @@
                             mauvais traitre, que on feist de moi justice, si que tout le monde le
                             veist ou je li couperoie la teste voiant touz les barons de cest
                             empire.</said></p>
-                    <p xml:id="P47"><c ana="lettrine2">Q</c>uant <rs type="person" key="Hôte de Constantinople">li preudons</rs> oÿ ce, si li vindrent les
+                    <p n="P47"><c ana="lettrine2">Q</c>uant <rs type="person" key="Hôte de Constantinople">li preudons</rs> oÿ ce, si li vindrent les
                         lermes aus yex de pitié, et dont se laissa il cheoir aus piez du <rs type="person" key="Bourleus">duc</rs> et l'en
                         a baisié le souler, et dist : 
                         <said aloud="true" direct="true">Ha ! sire, cil
@@ -1642,7 +1643,7 @@
                             meilleurs n'en vausisse savoir, mais je croi vraiement que, se vous
                             vivez longuement, que vous teles nouveles en orrez dont vous serez
                             esbahiz, selonc ce que j'ai entendu.</said></p>
-                    <p xml:id="P48"><c ana="lettrine2">A</c>tant ont de cele chose laissié a parler, si
+                    <p n="P48"><c ana="lettrine2">A</c>tant ont de cele chose laissié a parler, si
                         fu heure que <rs type="person" key="Bourleus">li dus</rs> s'asseist au mengier,
                         et il si fist. Et sejourna avec son hoste <num>iiii</num> jourz, et aprist
                         en la cité aucunes choses que il vouloit savoir. Aprés, a sa voie atiree et
@@ -1663,7 +1664,7 @@
                         <said aloud="true" direct="true">Sire, dist il, je croi que, se vous le
                         saviez, que je mie pis n'en voudroie.</said>
                         <said aloud="true" direct="true">Certes, sire, dist il, je le croi ainsi.</said></p>
-                    <p xml:id="P49"><cb n="d"/><c ana="lettrine2">D</c>ont s'apensa <persName key="Bourleus">Bourleuz</persName>
+                    <p n="P49"><cb n="d"/><c ana="lettrine2">D</c>ont s'apensa <persName key="Bourleus">Bourleuz</persName>
                         que <said aloud="false" direct="false">il avant l'essaieroit que il du tout se descouvrist a lui,</said> dont li dist :
                         <said aloud="true" direct="true">Sire, veritez est que j'avoie entendu,
                             avant que je meusse de mon paÿs, que vous aviez <num>i</num> jone
@@ -1726,7 +1727,7 @@
                             l'y orent tuit fait
                             hommage. Et sachiez que quant je soi ce, li cors s'i obliga, mais ainz
                             li cuers volenté n'en ot.</said></p>
-                    <p xml:id="P50"><c ana="lettrine2">Q</c>uant <persName key="Bourleus">Borleuz</persName> oÿ ce, si
+                    <p n="P50"><c ana="lettrine2">Q</c>uant <persName key="Bourleus">Borleuz</persName> oÿ ce, si
                         fu liez et vit bien que te<supplied source="#X" resp="#Brodtkorb">m</supplied>ps estoit
                         de parler de la besoing<cb n="f"/>ne, si dist :
                         <said aloud="true" direct="true">Sire, dist il, que ferez vous dont quant li empereres
@@ -1749,7 +1750,7 @@
                         <said aloud="true" direct="true">Ha ! sire, dist il, je ne sui mie ça
                         venuz de si loing pour dire mençonge, et si croi miex que tuit troi
                         soient en vie que mort.</said></p>
-                    <p xml:id="P51"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ ce, si a Dieu loé de tout son
+                    <p n="P51"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ ce, si a Dieu loé de tout son
                         cuer et puis dist : 
                         <said aloud="true" direct="true">Par Dieu, bien en sera
                             encore toute ma volenté acomplie. Ha ! sire, pour Dieu, dites moi du quel
@@ -1777,7 +1778,7 @@
                         <said aloud="true" direct="true">Sire, dist il, bien me doi tenir a ce que
                             vous en dites, quar je ai des compaignons qui ceste chose savront dedenz
                             brief temps.</said></p>
-                    <p xml:id="P52"><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar Dieu, dist
+                    <p n="P52"><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar Dieu, dist
                                 <persName key="Bourleus">Borleuz</persName>, or poez vous savoir quiex deniers je
                             vieng querre en cest paÿs.</said>
                         <said aloud="true" direct="true">Par Dieu, sire, dist il, je n’oÿ onques mais
@@ -1824,7 +1825,7 @@
                         <said aloud="true" direct="true">Elle a non, dist il,
                                 <placeName key="Bethseyda">Bethsayda</placeName> et la prist <rs type="person" key="Cassidorus">li
                                     empereres</rs> <rs type="person" key="Helcana">sa sereur</rs>, dont maint orent puis a souffrir.</said></p>
-                    <p xml:id="P53"><c ana="lettrine2">L</c>ors demoura <num>viii</num> jorz avec lui
+                    <p n="P53"><c ana="lettrine2">L</c>ors demoura <num>viii</num> jorz avec lui
                             <persName key="Bourleus">Borleuz</persName> li dus, et puis a sa voie atournee vers la
                         mer de <placeName key="Grèce">Grece</placeName> tout droit, et ot bon vent si entra en
                         mer, et arriva droit au port devers <placeName key="Antioche">Antyoche</placeName>. Quant
@@ -1842,7 +1843,7 @@
                         estoit sages de son aage, et cuidoit on que de prouesce passeroit
                             <rs type="person" key="Edypus le premier">le pere</rs>, tout eust il le non del
                             meilleur chevalier de <placeName key="Galilée">Galylee</placeName> a son temps.</said></p>
-                    <p xml:id="P54"><c ana="lettrine2">Q</c>uant li <rs type="person" key="Bourleus">dux</rs> oÿ ce, si en fu moult joianz et dist : 
+                    <p n="P54"><c ana="lettrine2">Q</c>uant li <rs type="person" key="Bourleus">dux</rs> oÿ ce, si en fu moult joianz et dist : 
                         <said aloud="true" direct="true">Biau sire, que puet on encore savoir
                             de lui ? Ja n'a il pas plus de <num>xii</num> anz.</said>
                         <said aloud="true" direct="true">Certes, sire, non,
@@ -1857,7 +1858,7 @@
                             armes et si tient avec lui trestouz les meilleurs chevaliers du
                             paÿs, et avec ce il n'a nul chevalier en cest paÿs qui puist faire nule
                             aperte chose que il ne le veille faire.</said></p>
-                    <p xml:id="P55"><c ana="lettrine2">D</c>ont fu li <rs type="person" key="Bourleus">dux</rs> liez quant il oÿ si bonnes
+                    <p n="P55"><c ana="lettrine2">D</c>ont fu li <rs type="person" key="Bourleus">dux</rs> liez quant il oÿ si bonnes
                         nouveles de lui. Lors s'est reposez et a regardé a ses trais tant
                         que il fu venuz au chief de <num>viii</num> jourz, dont s'est li <rs type="person" key="Bourleus">dux</rs>
                         aprestez d'aler a lui parler. Il s'en vint en la sale ou il juoit a
@@ -1886,7 +1887,7 @@
                             tel point pour la besoingne de ses neveus qui estoient filz de
                             sa sereur <rs type="person" key="Helcana">l'empereriz
                                 de <placeName key="Constantinople">Coustentinoble</placeName></rs>.</said></p>
-                    <p xml:id="P56"><c ana="lettrine2">Q</c>uant li <rs type="person" key="Edypus le second">damoisiaus</rs> l'entendi, si fu moult
+                    <p n="P56"><c ana="lettrine2">Q</c>uant li <rs type="person" key="Edypus le second">damoisiaus</rs> l'entendi, si fu moult
                         joianz de ceste chose et dist : 
                         <said aloud="true" direct="true">Sire, vous
                             soiez li bienvenuz. Dites moi que <rs type="person" key="Cassidorus">li empereres</rs> fait et si enfant, quar
@@ -1906,7 +1907,7 @@
                             <said aloud="true" direct="true">Biax seigneurs, n'aiez doute, quar je
                             li ai dit une chose qu'il ne deveroit vouloir pour grant avoir que il ne
                             la seust.</said></p>
-                    <p xml:id="P57"><c ana="lettrine2">E</c>n ces paroles est li <rs type="person" key="Edypus le second">damoisiaus</rs> a lui revenuz
+                    <p n="P57"><c ana="lettrine2">E</c>n ces paroles est li <rs type="person" key="Edypus le second">damoisiaus</rs> a lui revenuz
                         et dist : 
                         <said aloud="true" direct="true"><rs type="person" key="Cassidorus">Sire empereres</rs>, la vostre
                                 chevalerie vous a mort et les enfanz confonduz. Par Dieu,
@@ -1936,7 +1937,7 @@
                             est il a mes enfanz, dont j'ai <num><supplied source="#B" resp="#Brodtkorb">i</supplied>iii</num> damoisiaus a filz, mais
                             il sont encore moult jone. Et li dirai la besoingne et je croi qu'il
                             s'en tendra moult pres quant il savra l'achoison.</said></p>
-                    <p xml:id="P58"><c ana="lettrine2">Q</c>uant <persName key="Edypus le second">Edypus</persName> vit que
+                    <p n="P58"><c ana="lettrine2">Q</c>uant <persName key="Edypus le second">Edypus</persName> vit que
                         <rs type="person" key="Bourleus">li dux</rs> s'en melloit en tele maniere et que il ne leur estoit noient et aprés il
                         en avoit tel travail et metoit son cors et son avoir en aventure et sa vie
                         aussi, si en ot moult grant merveille et dist : 
@@ -1967,7 +1968,7 @@
                         part et li autres d'autre. 
                         <said aloud="true" direct="true">Sire, dist
                             <rs type="person" key="Edypus le second">li damoisiaus</rs>, ce ferai je sans doute.</said></p>
-                    <p xml:id="P59"><c ana="lettrine2">D</c>ont se parti <rs type="person" key="Bourleus">li dux</rs> de
+                    <p n="P59"><c ana="lettrine2">D</c>ont se parti <rs type="person" key="Bourleus">li dux</rs> de
                             <persName key="Edypus le second">Edypus</persName>, 
                         mais il le convoia une grant piece, et au
                         departir a moult prié li uns l’autre de la besoingne. Adont s’est <rs type="person" key="Bourleus">li dux</rs>
@@ -2052,7 +2053,7 @@
                         <said aloud="true" direct="true">Sire, dist <rs type="person" key="Bourleus">li ducs</rs>, sachiez que je ne veul de vous
                             savoir chose ou vostre volenté ne soit.</said>
                         <said aloud="true" direct="true">Ore dont ? dist il.</said></p>
-                    <p xml:id="P60"><c ana="lettrine2">L</c>ors li demanda <rs type="person" key="Bourleus">li dux</rs> s'<said aloud="true" direct="false">il 
+                    <p n="P60"><c ana="lettrine2">L</c>ors li demanda <rs type="person" key="Bourleus">li dux</rs> s'<said aloud="true" direct="false">il 
                         estoit ainsi que <rs type="person" key="Cassidorus">li empereres</rs> fust mors ou ne le fust,
                             et si enfant de <rs type="person" key="Helcana">sa premiere femme</rs> fussent en vie, et
                                 <persName key="Pelyarmenus">Pelyarmenuz</persName> vousist tenir l'empire contre eulz,
@@ -2064,7 +2065,7 @@
                             ne lui ne me porront blasmer, mais vous me faites une demande aussi
                             comme se vous me vousissiez tempter, et si ne sai que d'eulz ne des
                             enfanz de <placeName key="Rome">Romme</placeName> monte a vous se petit non.</said></p>
-                    <p xml:id="P61"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dus</rs> entendi ce, si pensa maintenant
+                    <p n="P61"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dus</rs> entendi ce, si pensa maintenant
                         que <said aloud="false" direct="false"><persName key="Pelyarmenus">Pelyarmenus</persName> y
                             avoit bouté et promis</said>, dont fu iriez et ne se pot tenir qu'il
                         n'ait dit : 
@@ -2090,7 +2091,7 @@
                             vous savez malement combien privez je li sui, et si ne faites mie que
                             sages que vous ou point ou je sui me dites choses qui ne me sont mie
                             bonnes.</said></p>
-                    <p xml:id="P62"><cb n="e"/><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> l'entendi, si vit qu'en lui ot
+                    <p n="P62"><cb n="e"/><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> l'entendi, si vit qu'en lui ot
                         moult de refuiz et que il li couvendroit tout dire a sa volenté de ce dont
                         il vouloit parler, quar il veoit bien que <persName key="Pelyarmenus">Pelyarmenus</persName>
                         l'avoit ja bouté. Lors li dit : 
@@ -2131,7 +2132,7 @@
                             avoit parlé au <rs type="person" key="Marsuphien">duc
                                 d'<placeName key="Athènes">Athaines</placeName></rs>, et comment il avoit a
                                 <persName key="Edypus le second">Edypus</persName> esté et le samblant que il li fist.</said></p>
-                    <p xml:id="P63"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi de Frise">li roys</rs> oÿ ce, si dist : 
+                    <p n="P63"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi de Frise">li roys</rs> oÿ ce, si dist : 
                         <said aloud="true" direct="true">Biax sire, je croi que Diex vous a ceste
                             besoingne envoïe por l'omme qui soit ou monde qui miex sache de tel
                             besoingne besoingnier, et je vous di de ma partie que, s'il est ainsi
@@ -2154,7 +2155,7 @@
                             sambloit que raison n’i eust, si n'en feroient il noient, et pour ce que
                             je ne sui mie a ma volenté je mes cors ne m'en mouverai devant que je en
                             savrai el.</said></p>
-                    <p xml:id="P64"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ
+                    <p n="P64"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> oÿ
                         <unclear reason="uncertain">ce</unclear>, si vit que moult
                         courtoisement il s'en escondissoit. Aprés enquist et demanda 
                         <said aloud="true" direct="false">quant si fil devoient estre ou paÿs, comme
@@ -2173,7 +2174,7 @@
                         requeste et distrent tuit troi que, <said aloud="true" direct="false">vousist <rs type="person" key="Roi de Frise">leur pere</rs> ou non, 
                             si aideroient il a ceulz que il ne
                             devoient faillir ne por mort ne por vie.</said></p>
-                    <p xml:id="P65"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> ot oÿ les <num>iii</num> freres,
+                    <p n="P65"><c ana="lettrine2">Q</c>uant <rs type="person" key="Bourleus">li dux</rs> ot oÿ les <num>iii</num> freres,
                         si fu moult liez si que nuls plus de lui, si leur dist que 
                         <said aloud="true" direct="false">il fussent a tout tant de gent comme il
                             porroient avoir de quel heure que il les semondroit.</said> Il
@@ -2214,7 +2215,7 @@
                     </figure>
                  <head type="rubrique" n="R4">Comment <persName key="Helcanus">Helcanus</persName> fu remis en la
                         prison par le commandement <persName key="Josias">Josias</persName></head>
-                    <p xml:id="P66"><c ana="lettrine6">C</c>i endroit dist li comptes que <said who="#nar">la prison fu
+                    <p n="P66"><c ana="lettrine6">C</c>i endroit dist li comptes que <said who="#nar">la prison fu
                         renforciee a si comme devant vous ai dit.</said> <persName key="Nera">Nera</persName>, qui en
                         tel point estoit comme celle qui languissoit du mal qu’elle souffroit si
                         grief qu’elle plus a meschief estoit, <said who="#nar">si comme li contes le dit</said>, que
@@ -2272,7 +2273,7 @@
                             elle mie ne cuideroit, selonc ce que tu as ouvré de li, que ce fust por
                             amour que tu a li eusses, ainz cuideroit que ce fust por la prison dont
                             tu vousisses issir hors.</said></p>
-                    <p xml:id="P67"><c ana="lettrine2">A</c>insi demoura moult lonc temps que il
+                    <p n="P67"><c ana="lettrine2">A</c>insi demoura moult lonc temps que il
                         n'atendoit fors que <rs type="person" key="Nera">la pucelle</rs> li demandast chose par quoi il li peust faire
                         savoir sa volenté. Tot aussi <rs type="person" key="Nera">la damoisele</rs> languissoit en tele maniere <said who="#nar">comme
                         je vous ai dit et vous dirai encore.</said> Quant ele sot la mençonge que
@@ -2302,7 +2303,7 @@
                             cuers se retourne de la volenté ou je sui. Et autant puisse je avoir de
                             doleur comme on porroit dire ainçois que je retraie mon cuer de lui amer
                             a nul jour.</said></p>
-                <p xml:id="P68"><c ana="lettrine2">A</c>insi se dementoit <rs type="person" key="Nera">la pucelle</rs> a li meismes
+                <p n="P68"><c ana="lettrine2">A</c>insi se dementoit <rs type="person" key="Nera">la pucelle</rs> a li meismes
                             qu'il ne fust nuls homs qui de<pb n="143"/> li ne deust avoir grant
                         pitié. Si l’avoient Amours esragiement prise que nuls ne le porroit compter
                         ne dire. En ce qu'elle estoit en tel point comme vous poez oïr, est venuz
@@ -2331,7 +2332,7 @@
                             je ci ai dit, il nous fait bien a savoir que tout autant nous sera il
                             anemis comme il seroit a ceus qui son mortel anemi li soustrairoient. Or
                             esgardez de ces choses comment il pueent ne venir ne aler.</said></p>
-                <p xml:id="P69"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucelle</rs> oÿ ce, si fu toute esmarie et
+                <p n="P69"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucelle</rs> oÿ ce, si fu toute esmarie et
                         dist : 
                         <said aloud="true" direct="true">Frere, comment dites vous ce que vous
                             dites que <persName key="Pelyarmenus">Pelyarmenus</persName> soit empereres de
@@ -2363,7 +2364,7 @@
                             meisse en l'aventure ne ja ne m'avendra.</said>
                         <said aloud="true" direct="true">Non, dist il, par mon chief,
                             mar le pensastes onques, et sachiez que faire le vous couvendra, vueilliez ou non.</said></p>
-                <p xml:id="P70"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucelle</rs> oÿ ce, si douta <rs type="person" key="Josias">son frere</rs> et
+                <p n="P70"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucelle</rs> oÿ ce, si douta <rs type="person" key="Josias">son frere</rs> et
                         pensa bien qu'<said aloud="false" direct="false">il li couvenoit parler par
                             humilité</said>, si li dist : 
                         <said aloud="true" direct="true">Chiere <supplied source="#B" resp="#Brodtkorb">frere</supplied>, quant a
@@ -2394,7 +2395,7 @@
                         vous me dites, je sai bien que vous a mort metrez celui a cui j'avoie
                         m'amour donnee, et puis qu'il est ainsi je vous demande <num>i</num>
                         don, et aprés ce, jamais autre ne vous demanderai.</said></p>
-                    <p xml:id="P71"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> li oÿ ce
+                    <p n="P71"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> li oÿ ce
                         dire, si la regarda et vit qu'en petit d'eure mua <num>iii</num> foiz
                         couleur, premierement vermeille et puis verde et aprés pale. Et quant elle
                         ot ce fait, si commença forment a souspirer. Quant
@@ -2436,7 +2437,7 @@
                             aprés ce que je li avrai dit.</said> Lors s'est <persName key="Josias">Josias</persName> de lui partiz et leur
                         fait lieu. <rs type="person" key="Nera">La pucelle</rs> l’a apelé delez lui, et il si
                         est assiz par grant humilité et en signe d'amour.</p>
-                    <p xml:id="P72"><c ana="lettrine2">Q</c>uant elle le vit encoste li seoir, si ot
+                    <p n="P72"><c ana="lettrine2">Q</c>uant elle le vit encoste li seoir, si ot
                         moult grant joie et dist : 
                         <said aloud="true" direct="true">Sire, or couvient que je vous die l'uevre et congnoisse l'amour que j’ai pour vous
                         <cb n="e"/> eue, et se vous l'avez comparee, si ne le demandez a autrui que a moi.</said>
@@ -2497,7 +2498,7 @@
                             raison, quar bien l'ai deservi et pourchacié, si vous en requier merci,
                             se je avoir la peusse, mais je non, quar de noient ne me repent de chose
                             que j'aie fait pour mort que j'en atende.</said></p>
-                    <p xml:id="P73"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucele</rs> ot ce dit, si se tut, si
+                    <p n="P73"><c ana="lettrine2">Q</c>uant <rs type="person" key="Nera">la pucele</rs> ot ce dit, si se tut, si
                         esgarda <persName key="Helcanus">Helcanuz</persName> et le vit moult de foiz muer en tres
                         estrange couleur, et ne parla mot de grant piece et tant qu'ele dit : 
                         <said aloud="true" direct="true">Sire, que dites vous de ce que je vous ai
@@ -2541,7 +2542,7 @@
                         si s’est ecriee et a <rs type="person" key="Josias">son frere</rs> apelé que il venist avant pour la traïson oïr
                         que <persName key="Pelyarmenus">Pelyarmenuz</persName> avoit pensé por
                             <persName key="Helcanus">Helcanus</persName> faire recevoir mort.</p>
-                <p xml:id="P74"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> oÿ <rs type="person" key="Nera">sa suer</rs>,
+                <p n="P74"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> oÿ <rs type="person" key="Nera">sa suer</rs>,
                         si est moult tost venuz a lui et li demanda que 
                         <said aloud="true" direct="false">elle avoit.</said>
                         <said aloud="true" direct="true">Sire, dist elle, escoutez de
@@ -2606,7 +2607,7 @@
                                 aus</unclear>si pucelle comme le premier jour que je
                                 <app><lem wit="#B" resp="#Brodtkorb">fui</lem><rdg wit="#V2">sui</rdg></app>
                                 nee.</said></p>
-                    <p xml:id="P75"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> oÿ <rs type="person" key="Nera">sa
+                    <p n="P75"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> oÿ <rs type="person" key="Nera">sa
                         sereur</rs>, si dist : 
                         <said aloud="true" direct="true">Par Dieu, voirement dites
                             vous verité ou mençonge ? Et <seg ana="#proverbe">fols est li homs qui
@@ -2655,7 +2656,7 @@
                                 consentir que je delivrés soie, en quel lieu que il soit
                             trouvez, ne ja ne sera tiex que il s'en ose deffendre ne dire que
                             autrement en soit.</said></p>
-                    <p xml:id="P76"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> l'entendi,
+                    <p n="P76"><c ana="lettrine2">Q</c>uant <persName key="Josias">Josias</persName> l'entendi,
                         si l'esgarda et le vit en moult de manieres muer couleur, si li dist : 
                         <said aloud="true" direct="true">Biau sire <persName key="Helcanus">Hel<cb n="f"/>canuz</persName>, 
                             ne cuidiez vous mie que je aussi liez en fusse a
@@ -2697,7 +2698,7 @@
                         <said aloud="true" direct="true">Par Dieu, dist il, de verité savoir ne sui je mie
                             dolanz.</said>
                         <said aloud="true" direct="true">Et je le vous dirai, dist il.</said></p>
-                    <p xml:id="P77"><said aloud="true" direct="true"><c ana="lettrine2">V</c>ous savez bien que li empereres
+                    <p n="P77"><said aloud="true" direct="true"><c ana="lettrine2">V</c>ous savez bien que li empereres
                             <persName key="Cassidorus">Cassydorus</persName> ot <rs type="person" key="Helcana">une dame</rs> qui de
                             <placeName key="Galilée">Galylee</placeName> fu. De celle ot il <num>i</num> filz. Et
                         avint que<pb n="145"/> par traïson <rs type="person" key="Helcana">cele dame</rs> fu du paÿs getee, li et son
@@ -2736,7 +2737,7 @@
                         deveroit avoir <rs type="person" key="Roi d'Aragon">li roys d'<placeName key="Aragon">Arragon</placeName></rs>
                         ou <rs type="person" key="Roi de Frise">cil de <placeName key="Frise">Frise</placeName></rs> qui en sont plus prochainz que il
                         n'est.</said></p>
-                <p xml:id="P78"><cb n="b"/><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar mon
+                <p n="P78"><cb n="b"/><said aloud="true" direct="true"><c ana="lettrine2">P</c>ar mon
                             chief, dist <persName key="Josias">Josias</persName>, ce n'est mie merveille 
                         <unclear reason="erased">s</unclear>e vous hayne avez a lui, quar tout aussi l’a
                             il a vous que bien
@@ -2778,7 +2779,7 @@
                         dist <rs type="person" key="Roi d'Espagne">li roys</rs>. Savoir le veul.</said>
                         <said aloud="true" direct="true">Sire, dist <persName key="Josias">Josias</persName>,
                         tantost le vous dirai.</said></p>
-                    <p xml:id="P79"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
+                    <p n="P79"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
                         que <rs type="person" key="Nera">ma suer</rs> m'a congneu que onques <persName key="Helcanus">Helcanuz</persName> jour de sa vie n'ot
                             mesfaiture vers lui, et tout ce que elle en a fait elle ne l'a fait pour
                             el que pour nous mener a ce qu'elle a seigneur le peust avoir. Et je sai
@@ -2869,7 +2870,7 @@
                         si li dist <rs type="person" key="Roi d'Espagne">li roys</rs> :
                             <said aloud="true" direct="true"><persName key="Helcanus">Helcanuz</persName>, je vous
                             salu.</said></p>
-                    <p xml:id="P80"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> entendi le
+                    <p n="P80"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> entendi le
                         salut <rs type="person" key="Roi d'Espagne">le roy</rs> si li chaÿ aus piez, et <rs type="person" key="Roi d'Espagne">li roys</rs> l'en leva et dist : 
                         <said aloud="true" direct="true"><rs type="person" key="Nera">Ma fille</rs> m'a deceu de ce que je vous ai tant
                         fait tenir prison, et si ne l'aviez mie deservi selonc ce que de lui
@@ -2884,7 +2885,7 @@
                         de vostre chevalerie, je vous eusse fait destruire, et si eust sanz raison esté si comme a moi est
                         avis. Mais elle a mort deservie sanz autre prueve, si en ferai a vostre
                         talent comme de celle qui en est coupable.</said></p>
-                    <p xml:id="P81"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> entendi <rs type="person" key="Roi d'Espagne">le
+                    <p n="P81"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> entendi <rs type="person" key="Roi d'Espagne">le
                         roy</rs>, si l'a moult prisié en son cuer, et ot pitié en lui meismes, si li
                         vindrent les lermes aus yex et dist : 
                         <said aloud="true" direct="true">Sire,
@@ -2901,7 +2902,7 @@
                             quoi je l'ai fait si n'a mie esté vilainne a moi ne a vous, et vous en
                             ai dite la raison pour quoi je l'ai fait, et
                             encore le dirai je a mon seigneur.</said></p>
-                    <p xml:id="P82"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
+                    <p n="P82"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
                         que <rs type="person" key="Roi d'Espagne">mon pere</rs> me laissa en tel point comme vous savez. Moult eussiez fait
                             pour moi et vouliez faire se vous, en tel point comme je estoie, vous
                             fussiez donnee a moi. Et je, sachiez, ai juré que ja femme n’avrai se
@@ -2930,7 +2931,7 @@
                             <persName key="Pelyarmenus">Pelyarmenus</persName> li avoit dit <seg ana="discoursEnchassé">de <rs type="person" key="Nera">la pucelle</rs> que
                         il avoit eu de li toute sa volenté par pluiseurs foiz, et que pour la raison de ce il en avoit esté 
                         grant piece hors de cest paÿs</seg></said>, <said who="#nar">si comme devant est dit.</said></p>
-                    <p xml:id="P83"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi d'Espagne">li roys</rs> oÿ ce, si se merveilla tant que
+                    <p n="P83"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi d'Espagne">li roys</rs> oÿ ce, si se merveilla tant que
                         il ne pot parler de grant piece, et puis appela <persName key="Josias">Josias</persName>
                         son filz et li dist : 
                         <said aloud="true" direct="true">Avez vous oÿ que cist chevaliers a dit ?</said>
@@ -2966,7 +2967,7 @@
                         <said aloud="true" direct="true">Sire, dist il,
                         granz merciz, et je vous demant le congié d'aler aprés <rs type="person" key="Cassidorus">mon pere</rs>, quar
                         nouvelles me sont venues que il est nagueres trespassez.</said></p>
-                    <p xml:id="P84"><c ana="lettrine2">Q</c>uant il ont ce oÿ, si furent moult esbahy,
+                    <p n="P84"><c ana="lettrine2">Q</c>uant il ont ce oÿ, si furent moult esbahy,
                         dont dist <rs type="person" key="Roi d'Espagne">li roys</rs> a <persName key="Helcanus">Helcanus</persName> : 
                         <said aloud="true" direct="true">Dites vous verité, que nouvelles vous sont venues de
                             <rs type="person" key="Cassidorus">vostre pere</rs> ?</said>
@@ -2980,7 +2981,7 @@
                         <said aloud="false"  direct="true">Lasse chaitive,<cb n="d"/> ore as tu trouvé ce que tu as chacié.</said> 
                         Dont le prist une doleur au cuer tele que elle est cheue pasmee. Quant il ont ce veü, si
                         furent tout esbahy et penserent bien la raison pour quoi ce estoit.</p>
-                <p xml:id="P85"><c ana="lettrine2">D</c>ont fu <rs type="person" key="Roi d'Espagne">li roys</rs> moult courouciez, si la prist
+                <p n="P85"><c ana="lettrine2">D</c>ont fu <rs type="person" key="Roi d'Espagne">li roys</rs> moult courouciez, si la prist
                     entre ses braz et ele revint a li et jeta granz souspirs. Dont li dist <rs type="person" key="Roi d'Espagne">li roys</rs> : 
                         <said aloud="true" direct="true">Fille, pour Dieu, que avez vous ? Dites le moi.</said> 
                         Et elle mot ne respondi, ainz se feri de son poing en sa poitrine et puis commença sa face, qui moult estoit bele, a
@@ -2995,7 +2996,7 @@
                         <said aloud="true" direct="true">Par Dieu, <persName key="Helcanus">Helcanuz</persName>, ne vous vaut. Ou autrement m'aseurrez
                             vous que vous ne m’avez fait ou je ferai de moi 
                             <add place="above" hand="#main1">ce</add> que je vous ai dit.</said></p>
-                    <p xml:id="P86"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> oÿ ce, si dit : 
+                    <p n="P86"><c ana="lettrine2">Q</c>uant <persName key="Helcanus">Helcanuz</persName> oÿ ce, si dit : 
                         <said aloud="true" direct="true">Ha ! pour Dieu, <rs type="person" key="Nera">ma damoisele</rs>, je vous
                             affi que de quelle heure que je serai descourpez de la traïson que
                             <persName key="Pelyarmenus">Pelyarmenuz</persName> m'a sus mise je revendrai a vous et
@@ -3033,7 +3034,7 @@
                         <figDesc>Enluminure de 14 UR sur une colonne. <persName key="Helcanus">Helcanus</persName> sort de chez
                             <persName key="Josias">Josias</persName></figDesc>
                     </figure>
-                    <p xml:id="P87"><c ana="lettrine6">C</c>i endroit dist li comptes que <said who="#nar">quant
+                    <p n="P87"><c ana="lettrine6">C</c>i endroit dist li comptes que <said who="#nar">quant
                             <persName key="Cliodorus">Clyodorus</persName> se fu partiz de
                             <persName key="Bourleus">Borleuz</persName> il ne fina par ses journees tant que il
                         vint au chastel dont <rs type="person" key="Cassidorus">li empereres</rs> s'estoit partis, ainssi comme devant avez
@@ -3060,7 +3061,7 @@
                             oïr ent aucunes nouveles qui bonnes me fussent.</said>
                         <said aloud="true" direct="true">Par foy, dist li  chevaliers, je croi que de 
                             <placeName key="Grèce">Grece</placeName> soient venues les nouveles que je vous dirai.</said></p>
-                    <p xml:id="P88"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
+                    <p n="P88"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est
                             que n'a mie <num>i</num> mois que nouveles nous vindrent de <rs type="person" key="Cassidorus">l'empereour</rs> que il est
                             mors et les enfanz que il avoit de <rs type="person" key="Helcana">l'empereriz de
                                     <placeName key="Galilée">Galilee</placeName></rs>, et est
@@ -3081,7 +3082,7 @@
                         <rs type="person" key="Helcana">premiere femme</rs> sont mort, mais c'est toute mençonge, quar encore sai je
                         bien que si doi enfant mainsné vivent, et tout aussi croi je que aussi
                         fait <rs type="person" key="Cassidorus">li empereres</rs> et <persName key="Helcanus">Helcanus</persName> son filz.</said></p>
-                    <p xml:id="P89"><c ana="lettrine2">Q</c>uant li chevaliers l'entendi, si a grant joie menee et li dist : 
+                    <p n="P89"><c ana="lettrine2">Q</c>uant li chevaliers l'entendi, si a grant joie menee et li dist : 
                         <said aloud="true" direct="true">Ha ! sire, por Dieu, venez a mon
                         seigneur <rs type="person" key="Fremor">mon frere</rs> et li dites ces nouveles, si en sera plus a aise, si
                         ferez grant courtoisie.</said> 
@@ -3145,7 +3146,7 @@
                     enquist a <persName key="Cliodorus">Clyodorus</persName> <said aloud="true" direct="false">qui il estoit,</said> et 
                         <persName key="Cliodorus">Clyodorus</persName> li a tout compté de chief en chief, 
                         <said aloud="true" direct="false">qui il estoit et que il aloit querant.</said></p>
-                    <p xml:id="P90"><c ana="lettrine2">Q</c>uant <rs type="person" key="Mirador">li vavassours</rs> entendi
+                    <p n="P90"><c ana="lettrine2">Q</c>uant <rs type="person" key="Mirador">li vavassours</rs> entendi
                     <persName key="Cliodorus">Clyodorus</persName>, si ot moult grant merveille de ce qu'<said
                         aloud="true" direct="false">il ot dit.</said> Dont dist : 
                     <said aloud="true" direct="true">Par foy, sire chevaliers, trop ay oÿ parler de <rs type="person" key="Cassidorus">celui que vous
@@ -3219,7 +3220,7 @@
                         dist : 
                         <seg ana="discoursEnchassé">Sachiez, damoisele, que je hui a tierce n’i avoie onques esté. 
                             Je ne sai pour quoi vous dites le premier jour que nous y venismes vint ci <rs type="person" key="Baudemagu">mes compains</rs>.</seg></said></p>
-                <p xml:id="P91"><said aloud="true" direct="true"><c ana="lettrine2">Q</c>uant <rs type="person" key="Jagonce">la pucelle</rs>
+                <p n="P91"><said aloud="true" direct="true"><c ana="lettrine2">Q</c>uant <rs type="person" key="Jagonce">la pucelle</rs>
                         l'entendi, si commença a sousrire et dist : 
                     <seg ana="discoursEnchassé"><persName key="Laurin">Laurin</persName>, savez vous quant vous venistes a la
                             fontainne ?</seg>
@@ -3320,7 +3321,7 @@
                     bataille que il orrent li uns l'autre par mariage. Et je meismes oi <rs type="person" key="Celydoine">m'amie</rs>
                         et elle moi et encore sui je ses sires et elle ma dame, et veez la ci delez
                         moi.</said></p>
-                    <p xml:id="P92"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> oÿ <rs type="person" key="Mirador">le
+                    <p n="P92"><c ana="lettrine2">Q</c>uant <persName key="Cliodorus">Clyodorus</persName> oÿ <rs type="person" key="Mirador">le
                     chevalier</rs>, si ot moult grant merveille et li dist : 
                     <said aloud="true" direct="true">Sire, pour Dieu, que devint lors li <rs type="person" key="Laurin">empereres</rs> ?</said>
                     <said aloud="true" direct="true">Certes, dist il, il s'en repaira adont en <placeName key="Constantinople">Constentinoble</placeName>, 
@@ -3353,7 +3354,7 @@
                     <said aloud="true" direct="true">En non Dieu, dist il, et je le vous dirai a
                         briez paroles, quar trop longuement vous ai tenu et il est passé temps que
                         nous deussons avoir soupé.</said></p>
-                <p xml:id="P93"><said aloud="true" direct="true"><c ana="lettrine2">L</c>a premiere
+                <p n="P93"><said aloud="true" direct="true"><c ana="lettrine2">L</c>a premiere
                         aventure que <persName key="Laurin">Laurins</persName> achevast en cest paÿs, ce fu que
                         robeours avoient pris <num>i</num> chevalier et li avoient son cheval occis
                         et ses armes tolues et lui tout nu despoullié. Et li<pb n="149"/> orrent les
@@ -3392,7 +3393,7 @@
                         Pas</placeName>. Quant il sont la venu, si ont trouvé <rs type="person" key="Mirus">le chevalier</rs> qui filz
                     estoit a <persName key="Mirador">Mirador</persName>, et avoit non <persName key="Mirus">Mirus</persName>.
                     Et quant il vit <rs type="person" key="Mirador">son pere</rs> et <persName key="Cliodorus">Clyodorus</persName>, si leur fist moult grant feste.</p>
-                    <p xml:id="P94"><c ana="lettrine2">L</c>ors mist <persName key="Mirador">Mirador</persName> <rs type="person" key="Mirus">son filz</rs> a
+                    <p n="P94"><c ana="lettrine2">L</c>ors mist <persName key="Mirador">Mirador</persName> <rs type="person" key="Mirus">son filz</rs> a
                     raison et li demanda <said aloud="true" direct="false">se ce estoit voirs que il
                         eust pris la bataille contre le <rs type="person" key="Seigneur du Mal Pas">seigneur de <placeName key="Mal Pas">Mal
                                 Pas</placeName></rs>.</said>
@@ -3435,7 +3436,7 @@
                             mon chastel ou <rs type="person" key="Mirus">vostre filz</rs> ne se rent matez sanz coup ferir.</said>
                     <said aloud="true" direct="true">Damoisele, dist il, ce n'avendra ja, se Dieu
                         plaist, ainçois en ait l'ouneur cis qui avoir la devra.</said></p>
-                <p xml:id="P95"><c ana="lettrine2">L</c>ors avint ainssi que <persName key="Mirus">Myrus</persName>
+                <p n="P95"><c ana="lettrine2">L</c>ors avint ainssi que <persName key="Mirus">Myrus</persName>
                     fu aprestez de la bataille faire et fu venus el lieu, il et li sien, ou elle
                     devoit estre. Li <rs type="person" key="Seigneur du Mal Pas">sires de <placeName key="Mal Pas">Mal Pas</placeName></rs>
                     ravoit son chevalier prest et sa gent et s'en vint d'autre part moult noblement.
@@ -3444,7 +3445,7 @@
                         raconter la grant prouesce de l'un et de l'autre, plus en porroie dire que
                         de nul dont je eusse onques oÿ parler en compte. Mais pour ce que trop en y
                         a a compter d'autre chose, si m'en soufferai a ce que je vous dirai.</said></p>
-                <p xml:id="P96"><c ana="lettrine2">Q</c>uant il orent tant esté es chevaus que<cb n="d"/>
+                <p n="P96"><c ana="lettrine2">Q</c>uant il orent tant esté es chevaus que<cb n="d"/>
                     par la force d'euls et par leur escremie leur cheval leur faillirent et chairent
                     mort par dessouz euls, il meismes se mistrent en la presence de la bataille, et
                     ferirent tant li uns seur l'autre que le fer ne pot contrester contre l'acier,
@@ -3462,7 +3463,7 @@
                         <persName key="Mirus">Myrus</persName> oÿ ce, si ot paour en li meismes. Dont esgarda et
                     vit le chevalier a qui il s’estoit combatuz, si s'est levez pour venir a lui et
                     s'espee rendre.</p>
-                <p xml:id="P97"><c ana="lettrine2">Q</c>uant cil 
+                <p n="P97"><c ana="lettrine2">Q</c>uant cil 
                     <app><lem wit="#B" resp="#Brodtkorb">le vit venir, si est sailliz em piez et se mist a
                         deffense, et cil se mist a genoulz et li rendi s'espee. Quant il vit ce, si
                         ot grant merveille por quoi il faisoit ce, si li dist maintenant :</lem>
@@ -3486,7 +3487,7 @@
                     <said aloud="true" direct="true">Amis, dist il, on m’apelle la ou je sui conneuz
                             <persName key="Helcanus">Helcanuz</persName>, filz <persName key="Cassidorus">Cassydorus</persName>,
                         l'empereour de <placeName key="Constantinople">Coustentinoble</placeName>.</said></p>
-                <p xml:id="P98"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> oÿ ce, si fu si
+                <p n="P98"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> oÿ ce, si fu si
                     esbahiz que il ne sot se il fu ou en ciel ou en terre. 
                     <said aloud="true" direct="true">Sire, dist il, pour el n'ai je esté dolanz de ceste bataille
                         que pour <rs type="person" key="Laurin">vostre bon ayeul</rs>, qui avoit donné cest chastel au <rs type="person" key="Seigneur du Mal pas">chevalier</rs> pour
@@ -3534,7 +3535,7 @@
                     main en main estoit alé et avoit grant temps esté es mains de robeours jusques
                     atant que li bons empereres <persName key="Laurin">Laurins</persName> le gaaigna, qui au
                     <rs type="person" key="Seigneur du Mal Pas">chevalier</rs> le donna <said who="#nar">ainssi comme devant vous a esté dit.</said></p>
-                <p xml:id="P99"><c ana="lettrine2">Q</c>uant la verité fu seue, la confusion tourna sus
+                <p n="P99"><c ana="lettrine2">Q</c>uant la verité fu seue, la confusion tourna sus
                     la <rs type="person" key="Demoiselle du Vieux Char">damoisele du <placeName key="Vieux Char">Viez Char</placeName></rs> et fu
                     ainssi ordené que le chastel demourra au <rs type="person" key="Seigneur du Mal Pas">chevalier</rs> paisiblement sanz nul service
                     que il en rendist. Ainsi fu faite la pais et se sont departis li uns des autres,
@@ -3555,7 +3556,7 @@
                     duel que il avoit de <persName key="Pelyarmenus">Pelyarmenuz</persName>. Mais trop estoit
                     courouciez du bon <persName key="Melsius">Melsius</persName>, qui peres avoit esté a
                         <persName key="Cliodorus">Clyodorus</persName>, quant il sot l'aventure de sa mort.</p>
-                <p xml:id="P100"><said who="#nar"><c ana="lettrine2">N</c>e veul ore plus targier que je
+                <p n="P100"><said who="#nar"><c ana="lettrine2">N</c>e veul ore plus targier que je
                         ne voise avant en la matere.</said> Tant demoura
                     <persName key="Helcanus">Helcanuz</persName> avec <persName key="Mirus">Myrus</persName> et <rs type="person" key="Mirador">son pere</rs>
                     que il fu sainz et haitiez. Lors s'est aprestez d'aler en
@@ -3591,7 +3592,7 @@
                     a la voie, et n'ont finé par leur journees tant que il sont venuz au duc
                         <persName key="Bourleus">Bourleuz</persName>, du quel <persName key="Cliodorus">Clyodorus</persName> se
                     fu partiz <said who="#nar">si comme devant est dit.</said></p>
-                <p xml:id="P101"><persName key="Cliodorus"><c ana="lettrine2">C</c>lyodorus</persName> pensa que 
+                <p n="P101"><persName key="Cliodorus"><c ana="lettrine2">C</c>lyodorus</persName> pensa que 
                     <said aloud="false" direct="false">il celle venue feroit savoir a
                             <persName key="Bourleus">Borleuz</persName>.</said> Il s'est departiz de ses
                     compaignons par leur congié et en vint a <placeName key="Limbourg">Lembourc</placeName> et
@@ -3621,7 +3622,7 @@
                         vous ?</said>
                     <said aloud="true" direct="true">Certes, sire, dist il, je n'en sai el fors ce
                         que <rs type="person" key="Helcanus">mon seigneur son filz</rs> m'en a compté.</said></p>
-                <p xml:id="P102"><c ana="lettrine2">L</c>ors dist en tel maniere <said aloud="true" direct="false">comme 
+                <p n="P102"><c ana="lettrine2">L</c>ors dist en tel maniere <said aloud="true" direct="false">comme 
                     <persName key="Helcanus">Helcanus</persName> li avoit compté qu'<seg ana="discoursEnchassé">il s'estoit partis 
                         du <rs type="person" key="Roi d'Espagne">roy d'<placeName key="Espagne">Espaigne</placeName></rs>, entre lui et 
                         <persName key="Daphus">Daphus</persName> le bon chevalier.</seg></said> 
@@ -3636,7 +3637,7 @@
                         moult me fait cilz homs grant hounour quant il ne m'est riens ne il onques
                         mais ne me vit, et si ne fis onques riens pour lui ne autres pour moi, et si
                         me fait si grant honneur comme vous pouez veoir.</said></p>
-                <p xml:id="P103"><c ana="lettrine2">D</c>e ceste chose se sont moult esmerveillié, et
+                <p n="P103"><c ana="lettrine2">D</c>e ceste chose se sont moult esmerveillié, et
                     virent ceus de la ville issir, qui bien estoient <num>x</num> mille ou plus, qui
                     tuit estoient a cheval et venoient feste faisant et menant grant joie.
                         <persName key="Bourleus">Borleuz</persName> venoit premiers ou chief devant. Dont vint
@@ -3668,7 +3669,7 @@
                         suggérée par un premier grand bâtiment, et tenant une couronne en main. Le
                         premier des arrivants salue en levant la main droite.</figDesc>
                 </figure>
-                <p xml:id="P104"><c ana="lettrine6">C</c>i endroit dist li comptes <said who="#nar">de
+                <p n="P104"><c ana="lettrine6">C</c>i endroit dist li comptes <said who="#nar">de
                         <persName key="Bourleus">Bourleuz</persName> que il avoit eu grant cure des <num>ii</num>
                     enfanz, dont il estoit moult liez.</said> Vint a <rs type="person" key="Cassidoire">la pucelete</rs> et au petit
                         <persName key="Dorus">Dorus</persName> et leur dist : 
@@ -3703,7 +3704,7 @@
                         a vous.</said> Lors ont moult longuement tenu l'un l'autre a conseil tant
                     que li un et li autre sorent la volenté de chascun et tout aussi comme il
                     avoient esploitié de ceste matiere.</p>
-                <p xml:id="P105"><c ana="lettrine2">N</c>e demoura gaires que
+                <p n="P105"><c ana="lettrine2">N</c>e demoura gaires que
                         <persName key="Helcanus">Helcanuz</persName>, <persName key="Bourleus">Borleuz</persName>,
                         <persName key="Mirus">Myrus</persName> et <persName key="Cliodorus">Clyodorus</persName> orent conseil
                     d'aler en <placeName key="Frise">Frise</placeName> parler au roy et a ses filz, <said who="#nar">dont devant ai fait mention.</said> 
@@ -3733,7 +3734,7 @@
                         <app><lem wit="#B #X2" resp="#Brodtkorb">bom</lem><rdg wit="#V2">boin </rdg></app>
                        empereour de <placeName key="Constantinople">Constentinoble</placeName>
                         <persName key="Cassidorus">Cassydorus</persName>.</said></p>
-                <p xml:id="P106"><c ana="lettrine2">Q</c>uant il ont ce entendu, si ont l'un l'autre
+                <p n="P106"><c ana="lettrine2">Q</c>uant il ont ce entendu, si ont l'un l'autre
                     regardé et furent moult esbahy de ceste chose. Dont parla li ainsnez des
                     damoisiaus, qui ot non <persName key="Japhus">Japhus</persName> :
                     <said aloud="true" direct="true">Biaus oncles, dites nous li quiex ce est. Moult
@@ -3767,7 +3768,7 @@
                     <said aloud="true" direct="true">Perez, ves ci <persName key="Helcanus">Helcanus</persName> de
                                 <placeName key="Constantinople">Constentino<cb n="d"/>ble</placeName>, filz a l’empereour
                             <persName key="Cassidorus">Cassydorus</persName>, filz de <rs type="person" key="Heleynon">vostre frere</rs>.</said></p>
-                <p xml:id="P107"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi de Frise">li roys</rs> entendi ceste parole, si fu touz
+                <p n="P107"><c ana="lettrine2">Q</c>uant <rs type="person" key="Roi de Frise">li roys</rs> entendi ceste parole, si fu touz
                     esbahiz et dist :
                     <said aloud="true" direct="true">Puet ce estre vérité ?</said>
                     <said aloud="true" direct="true">Sire, dit <persName key="Helcanus">Helcanus</persName>, bien
@@ -3786,7 +3787,7 @@
                         croi que nuls de ceuz que vous avez ci nommez n’en sont mort, ainz en seront
                         mençongable ceuz qui ce vous ont fait entendant.</said>
                     <said aloud="true" direct="true">Par foy, dist <rs type="person" key="Roi de Frise">li roy</rs>, bien est.</said></p>
-                <p xml:id="P108"><c ana="lettrine2">L</c>ors firent grant joie et ont li baron parlé
+                <p n="P108"><c ana="lettrine2">L</c>ors firent grant joie et ont li baron parlé
                     ensamble tant que les tables furent mises. Dont sont assis au souper. Si furent
                     les tables ostees et furent moult longuement a parlement endroit que de
                         <persName key="Pelyarmenus">Pelyarmenuz</persName>, qui en tele maniere avoit esploitié vers
@@ -3829,7 +3830,7 @@
                         quar sanz faille je vous ai juré fëauté et amour, mais il est ainsi que j'ay oÿ nouveles que vostre frere
                         <persName key="Helcanus">Helcanus</persName> et li autre dui enfant meismes et <rs type="person" key="Cassidorus">li peres</rs>
                         qui vous engendra sont en vie et voudroient volentiers savoir se vous la terre voudriez tenir contre euls.</said></p>
-                <p xml:id="P109"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ceste
+                <p n="P109"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ceste
                     nouvelle, si li mua moult le sanc et dist :
                     <said aloud="true" direct="true">Se ce pooit estre voir, moult seroie de tout mon cuer joianz, mais je ne cuit mie
                         que ce soit verité.</said>
@@ -3861,7 +3862,7 @@
                     <said aloud="true" direct="true">Si est, dist <rs type="person" key="Roi de Frise">li roys</rs>. C'est toute verité si comme on me fait entendant.</said>
                     <said aloud="true" direct="true">Et de par Dieu, dist <persName key="Pelyarmenus">Pelyarmenus</persName>, viengnent avant. Je leur deliverrai la
                         terre ja si tost ne les verrai.</said></p>
-                <p xml:id="P110"><c ana="lettrine2">D</c>ont fu apelez <persName key="Bourleus">Borleuz</persName> et il
+                <p n="P110"><c ana="lettrine2">D</c>ont fu apelez <persName key="Bourleus">Borleuz</persName> et il
                     y est venuz. Qui dont eust veü comment <persName key="Pelyarmenus">Pelyarmenus</persName> le
                     conjoÿ et pour savoir le courage de lui, bien peust dire : <said aloud="true" direct="false">Ci a homme faus et traitre</said>, 
                     quar il ne beoit a el fors que il les peust tenir en lieu ou il eust pooir et dont les feist prendre et de
@@ -3882,7 +3883,7 @@
                                 <persName key="Japhus">Japhus</persName> son filz, mon cousin et le sien.
                         Aprés il dist, dont plus me merveil, que <seg ana="discoursEnchassé">vous avez chiez vous <persName key="Dorus">Dorus</persName> et
                             <persName key="Cassidoire">Cassidoire</persName> ma suer.</seg></said></p>
-                <p xml:id="P111"><said aloud="true" direct="true"><c ana="lettrine2">S</c>ire, dist
+                <p n="P111"><said aloud="true" direct="true"><c ana="lettrine2">S</c>ire, dist
                             <persName key="Bourleus">Borleuz</persName>, veritez est que je cuide avoir
                             <persName key="Dorus">Dorus</persName> et <persName key="Cassidoire">Cassydore</persName>.</said>
                     <said aloud="true" direct="true">Et dont vous viennent il ? dist <persName key="Pelyarmenus">Pelyarmenuz</persName>.</said>
@@ -3907,7 +3908,7 @@
                         d'aventure, et comment li enfant le congurent et le nommerent par son non, et il les congnut aussi, 
                         et la grant joie qu'il leur fist. Et après, comment il se departi de lui, et comment il avoit trouvé
                             <persName key="Helcanus">Helcanus</persName></said> <said who="#nar">si comme devant vous est dit el compte.</said></p>
-                <p xml:id="P112"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ce, si
+                <p n="P112"><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ce, si
                     sot certainnement que en tel maniere pooit il bien estre. 
                     <supplied source="#B #X2" resp="#Brodtkorb">Dont</supplied> penssa que <said aloud="false" direct="false">
                         il li couvenoit ouvrer par malice se il vouloit avoir ce que il avoit commencié.</said> Lors dist : 
@@ -3944,7 +3945,7 @@
                         au mainz pour les enfanz que<cb n="e"/> vous enmenastes ainssi.</said>
                     <said aloud="true" direct="true">Par foy, dist <rs type="person" key="Bourleus">li dux</rs>, ce seroit la chose que je
                         plus douteroie, si m'en soufferrai ore au plus briefment que je porrai.</said></p>
-                <p xml:id="P113"><c ana="lettrine2">D</c>ont ont ce laissé ester et ont fait feste avec
+                <p n="P113"><c ana="lettrine2">D</c>ont ont ce laissé ester et ont fait feste avec
                     les autres. <said who="#nar">Que vous iroie je atargant ?</said> Bien demourerent
                     <rs type="person" key="Roi de Frise">li roys</rs> et <rs type="person" key="Bourleus">li dux</rs> avec <persName key="Pelyarmenus">Pelyarmenus</persName>
                     <num>iiii</num> jours, et quant ce vint au congié prendre dont leur donna
@@ -3954,7 +3955,7 @@
                         <rs type="person" key="Helcanus">son frere</rs> toutes les foiz que il voudroit et il le
                         receveroit comme celui qui sanz s'amour ne vouloit vivre ne morir.</said>
                     <said aloud="true" direct="true">C'est moult bien dit, dist <rs type="person" key="Roi de Frise">li roys</rs>.</said></p>
-                <p xml:id="P114"><c ana="lettrine2">A</c>tant se sont de lui partiz, mais il les convoia
+                <p n="P114"><c ana="lettrine2">A</c>tant se sont de lui partiz, mais il les convoia
                     grant piece. Il n'ont finé par leur journees tant que il vindrent en
                         <placeName key="Frise">Frise</placeName>. Il sont venu a <num>i</num> chastel. La ont
                     fait venir <persName key="Helcanus">Helcanus</persName> devant eus. Moult tost y vint, o lui
@@ -4002,7 +4003,7 @@
                         encommencié, sachiez que il vous feroit prendre et metre em prison ou mort recevoir.</said>
                     <said aloud="true" direct="true">Par mon chief, dist <persName key="Helcanus">Helcanus</persName>, verité dites. Ce est toute la doutance
                         que je avroie.</said></p>
-                <p xml:id="P115"><c ana="lettrine2">D</c>ont parla <persName key="Mirus">Myrus</persName> et dist :
+                <p n="P115"><c ana="lettrine2">D</c>ont parla <persName key="Mirus">Myrus</persName> et dist :
                         <said aloud="true" direct="true">Sire, qu'alez vous targant que vous n'estes
                         en lieu ou vous fussiez seurement, et puis mandez les princes du paÿs, et
                         meismes <persName key="Pelyarmenus">Pelyarmenus</persName>, qu'il viengne a vous pour rendre
@@ -4048,7 +4049,7 @@
                     <graphic url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f311.item.r=22549.zoom"/>
                     <figDesc>Enluminure de 14 UR, sur une colonne. Un baron offre la couronne à <persName key="Pelyarmenus">Pelyarmenus</persName></figDesc>
                 </figure>
-                <p xml:id="P116"><said who="#nar"><c ana="lettrine6">O</c>r dist li comptes que quant <rs type="person" key="Roi de Frise">li roys</rs> se fu partis
+                <p n="P116"><said who="#nar"><c ana="lettrine6">O</c>r dist li comptes que quant <rs type="person" key="Roi de Frise">li roys</rs> se fu partis
                     de <persName key="Pelyarmenus">Pelyarmenus</persName>, il a tout maintenant mandé touz les barons
                     de <placeName key="Constantinople">Constentinoble</placeName> et les princes du paÿs, et mist
                     ensemble ceuls ou il se fioit le miex</said> et leur dist moult humblement :
@@ -4059,7 +4060,7 @@
                         vous que je ne vueille que vous soiez mi bon compaignon, et de tant comme je
                         l'ai esté, je croi que je n'ai encore gueres moustré de maistrise seur vous.
                         Et des ore en a<cb n="d"/>vant mainz en veul je faire que je n'ai desci a ore fait.</said></p>
-                <p xml:id="P117"><c ana="lettrine2">Q</c>uant li baron ont ce entendu, si en ont eu moult
+                <p n="P117"><c ana="lettrine2">Q</c>uant li baron ont ce entendu, si en ont eu moult
                     grant merveille qui a ce le menoit, si distrent tuit ensamble que <said aloud="true" direct="false">encore 
                         ne s'en plaignoient il mie</said>, 
                     <said aloud="true" direct="true">Et pour quoi dites vous ce, biaus sire ?</said>
@@ -4081,7 +4082,7 @@
                         que quant plus ont a souffrir et plus le couvoitent.</said>
                     <said aloud="true" direct="true">Par Dieu, dient li baron, c'est tout voirs.</said><cb n="e"/> Dont esgarderent li 
                     uns l'autre et distrent qu'<said aloud="true" direct="false">il avroient conseil de ce que il requeroit.</said></p>
-                <p xml:id="P118"><c ana="lettrine2">L</c>ors se sont mis li baron d'une part et distrent :
+                <p n="P118"><c ana="lettrine2">L</c>ors se sont mis li baron d'une part et distrent :
                     <said aloud="true" direct="true">Li quiex parlera premiers ?</said> Cilz qui
                     plus estoit de grant affaire dist :
                     <said aloud="true" direct="true">Nous avons maleoite terre. Nous ne poons onques estre en pais, 
@@ -4097,7 +4098,7 @@
                         estre trop empeeschiez, et cestui aiderons nous tant que plus fort l'en getera.</said> 
                     Dont orent entre euls tel conseil que il distrent que <said aloud="true" direct="false">il feroient la volenté
                         <persName key="Pelyarmenus">Pelyarmenus</persName> tant comme il les voudroit tenir a amour.</said></p>
-                <p xml:id="P119"><c ana="lettrine2">E</c>n tele maniere s'en sont venu a lui et li ont
+                <p n="P119"><c ana="lettrine2">E</c>n tele maniere s'en sont venu a lui et li ont
                     dit de commun assens que <said aloud="true" direct="false">il devisat ce que il
                         voudroit, quar il estoient touz a son commandement.</said><cb n="f"/> Quant
                     il oÿ ce, si fu moult liez et dist :
@@ -4119,7 +4120,7 @@
                     lui, que cil qui plus estoient loing de lui aidier avant ceste nouvelle ce
                     furent cil qui plus s'aatirent de lui aidier quant ce venroit aus cops donner.
                     Il se sont de lui parti et ont pris congié, si n'ont finé chascun si sont venu en leur paÿs et en leur terre.</p>
-                <p xml:id="P120"><persName key="Mirus"><c ana="lettrine2">M</c>yrus</persName>, qui parti s'estoit de
+                <p n="P120"><persName key="Mirus"><c ana="lettrine2">M</c>yrus</persName>, qui parti s'estoit de
                         <persName key="Helcanus">Helcanus</persName> et si compaig<pb n="154"/>non en tele maniere
                     <said who="#nar">comme devant est dist,</said> et ne fine par ses journees tant que il vint en
                         <placeName key="Grèce">Grece</placeName>. Et chevauchoit un jour entre lui et ses
@@ -4146,7 +4147,7 @@
                     Dont enquist <persName key="Ascanus">Ascanus</persName> <said aloud="true" direct="false">comment <persName key="Helcanus">Helcanus</persName> le
                         faisoit et pour quoi il n'estoit venuz el paÿs.</said> Il respondirent <said aloud="true" direct="false">ce que bon leur 
                             sembla a dire.</said></p>
-                <p xml:id="P121"><said who="#nar"><c ana="lettrine2">Q</c>ue vous diroie je ?</said> Moult
+                <p n="P121"><said who="#nar"><c ana="lettrine2">Q</c>ue vous diroie je ?</said> Moult
                     furent conjoÿ de trop grant signe d'amour, mais autre chose y ot, quar quant
                         <persName key="Ascanus">Ascanus</persName> se fu partis d'euls il a fait metre ensamble
                         <num>xx</num> chevaliers moult bien montez a cheval, et leur dist qu'<said aloud="true" direct="false">il se meissent 
@@ -4159,7 +4160,7 @@
                     si compaignon, qui de tout ce ne se donnoient garde, se mistrent en leur chemin
                     et ne finerent si vindrent en la forest de <placeName key="Vulgue">Vulgue</placeName>. Diex,
                     qui ne vouloit mie qu'il fussent souspris, leur a un homme envoié qui avoit ceuz veü embuschiez au <placeName key="Mal Pas">Mal Pas</placeName>.</p>
-                <p xml:id="P122"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> le vit venir, si
+                <p n="P122"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> le vit venir, si
                     vint tout droit a lui et li dist :
                     <said aloud="true" direct="true">Amis, cuidiez vous point que li paÿs soit de rienz empeeschiez de male gent par quoi il ne
                         face seür aler par la forest ?</said>
@@ -4169,7 +4170,7 @@
                     Et quant <persName key="Mirus">Myrus</persName> oÿ ce, si s'arresta et demanda a celui <said aloud="true" direct="false">se il savoit qui 
                         il estoient ne que il vouloient.</said> Il dist que <said aloud="true" direct="false">non, mais il savoit bien qu'il estoient 
                             de tele part dont il venoient, et estoient bien <num>xx</num> a cheval, armez de toutes armes.</said></p>
-                <p xml:id="P123"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> entent celui,
+                <p n="P123"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> entent celui,
                     dont sot de voir qu'il estoient espie et que parmi eulz les couvenoit passer s'il ne vouloient retorner. 
                     Dont parla <app><lem wit="#B #X2" resp="#Brodtkorb">a</lem><rdg wit="#V2">et</rdg></app> ses compaignons et leur dist : 
                     <said aloud="true" direct="true">Biax seigneur, or poez vous oïr comment nous sommes agaitié.</said>
@@ -4180,7 +4181,7 @@
                         il mis au pas que je vous ai dit.</said> Et quant il oÿrent ce, si n'i ot
                     nul qui n'eust le cuer yrié, et distrent que <said aloud="true" direct="false">pour autant de gent comme il
                         estoient ne lairoient il qu'il ne seussent que il vouloient dire.</said></p>
-                <p xml:id="P124"><c ana="lettrine2">M</c>aintenant sont descendu et se sont arreé de leur
+                <p n="P124"><c ana="lettrine2">M</c>aintenant sont descendu et se sont arreé de leur
                     armes et estrainstrent leur chevaus, puis se mistrent en leur chemin par la
                     forest, et ne finerent si vindrent au vil pas. C'estoit <num>i</num> pont et
                     couroit dessouz une yaue qui a merveilles estoit roide et<cb n="d"/> courant. Si
@@ -4198,7 +4199,7 @@
                     bien li traïtour ne s'i sorrent garder qu'il n'i aient laissié <num>xii</num>
                     des leurs, et la forest, qui granz estoit, gari les autres, quar <said who="#nar">je ne cuit 
                         mie que tout n'eussent esté mort s'il vousissent la bataille.</said></p>
-                <p xml:id="P125"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et si compaignon
+                <p n="P125"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et si compaignon
                     virent ce, si se sont retrait et mistrent les mors ensamble et les pendirent aus
                     arbres de la forest. Et avint que un en y ot qui gehy que
                         <said aloud="true" direct="false"><persName key="Ascanus">Ascanus</persName>, qui ceste feste leur avoit faite, les y avoit
@@ -4249,7 +4250,7 @@
                         ainz sommes au <rs type="person" key="Roi de Frise">roy de <placeName key="Frise">Frise</placeName></rs> et alons en son message en la cité de 
                         <placeName key="Constantinople">Coustentinoble</placeName> parler a <persName key="Pelyarmenus">Pelyarmenus</persName> 
                         de <placeName key="Rome">Romme</placeName>.</said></p>
-                <p xml:id="P126"><c ana="lettrine2">Q</c>uant la pucelle entendi ce si sot bien a la
+                <p n="P126"><c ana="lettrine2">Q</c>uant la pucelle entendi ce si sot bien a la
                     langue qu'il n'estoient mie du paÿs, si dist :
                     <said aloud="true" direct="true">Biaus seigneurs, ne vous anuit se on a mis debat a vous laissier ens
                         entrer, quar li paÿs est maintenant esmeuz, si ont li mauvais achoison de
@@ -4274,7 +4275,7 @@
                     <said aloud="true" direct="true">Ja par Dieu, dist ele, riens n'i perdrez ou je aidier vous puisse.</said> 
                     Adont li dist <persName key="Mirus">Myrus</persName> :
                     <said aloud="true" direct="true">Et je le vous dirai hardiement.</said></p>
-                <p xml:id="P127"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est que
+                <p n="P127"><said aloud="true" direct="true"><c ana="lettrine2">V</c>eritez est que
                         nous sommes a <persName key="Helcanus">Helcanus</persName>, filz a l'<rs type="person" key="Cassidorus">empereour de
                         <placeName key="Constantinople">Coustentinoble</placeName></rs>, <supplied source="#B" resp="#Brodtkorb">et nous envoie a 
                             <persName key="Pelyarmenus">Peliarmenus</persName> son frere en <placeName key="Constantinople">Costentinnoble</placeName></supplied>.</said> 
@@ -4297,7 +4298,7 @@
                         nouvelle. Et pour Dieu, dist elle, <rs type="person" key="Cassidorus">li empereres</rs> est il en vie ou il est mors ?</said>
                     <said aloud="true" direct="true">Damoisele, dist il, en vie est il, si comme
                         nous creons, et si sont aussi si doi enfant mainsné en vie, dont on cuidoit en cest paÿs qu'il fussent mort.</said></p>
-                <p xml:id="P128"><c ana="lettrine2">Q</c>uant la pucelle oÿ ce, si dist :
+                <p n="P128"><c ana="lettrine2">Q</c>uant la pucelle oÿ ce, si dist :
                     <said aloud="true" direct="true">Ha, biaus seigneurs, pour Dieu merci, or me
                         samble que ce soit<cb n="c"/> tout truffle que vous m'avez ci dit jusques a
                         ore, quar je sai vraiement que li enfant sont mort pieça, quar je en sai la
@@ -4307,7 +4308,7 @@
                         chascun jour ?</said>
                     <said aloud="true" direct="true">Ha ! pere, dist ele, je ne le porroie laissier
                         tant comme il m'en souvient.</said></p>
-                <p xml:id="P129"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et si compaignon
+                <p n="P129"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et si compaignon
                     ont ce entendu, si furent touz esbahiz de ceste chose. Dont dist il a la pucele :
                     <said aloud="true" direct="true">Il me samble <supplied source="#B #X2" resp="#Brodtkorb">que</supplied> vous faites duel et 
                         joie sanz raison.</said>
@@ -4345,7 +4346,7 @@
                         a <placeName key="Rome">Romme</placeName> et que la furent il murdri, quar il m'a bien esté dit de celui qui
                         en l'ostel estoit et que on ne sot que il devindrent. Et la raison du duel que je ai fait desrainement 
                         c'est pour ce que ja ne me souvendra des enfans qu'il ne me couviengne duel faire vueille ou non.</said></p>
-    <p xml:id="P130"><said aloud="true" direct="true"><c ana="lettrine2">D</c>amoisele, dist
+    <p n="P130"><said aloud="true" direct="true"><c ana="lettrine2">D</c>amoisele, dist
             <persName key="Mirus">Myrus</persName>, qui cest duel vous porroit faire mener en joie, que li donriez vous ?</said>
         <said aloud="true" direct="true">Par foy, sire, il n'est nuls qui le feist se ce n'est Diex, qui bien y a pooir.</said>
         <said aloud="true" direct="true">Par foy, dist il, Diex et veritez et raisons y
@@ -4369,7 +4370,7 @@
             seront restorez par les bonnes nouvelles que cist nous ont aportees. Et ne
             devons pas estre mescreant de ce que Diex a pooir de faire, et je croi qu'il
             soit ainssi comme j'ai entendu.</said></p>
-    <p xml:id="P131"><c ana="lettrine2">Q</c>uant li preudoms oÿ sa fille, si ot moult grand
+    <p n="P131"><c ana="lettrine2">Q</c>uant li preudoms oÿ sa fille, si ot moult grand
         merveille qu'elle li vouloit dire, si dist : 
         <said aloud="true" direct="true">Fille, de Dieu te souviengne. Di moi que tu as oÿ.</said> 
         Dont a fait compter a <persName key="Mirus">Myrus</persName> <said aloud="true" direct="false">qui il estoit, et qu'il queroit, et
@@ -4401,7 +4402,7 @@
             <persName key="Pelyarmenus">Pelyarmenuz</persName> ne vous doint a souffrir avant que vous soiez arriere repairiez.</said>
         <said aloud="true" direct="true">Par foy, ce dist <persName key="Mirus">Myrus</persName>, tout est en Dieu, mais sanz faille je
                 voudroie bien que trouver<cb n="b"/> le peussons.</said></p>
-    <p xml:id="P132"><c ana="lettrine2">A</c>inssi parlerent moult longuement ensamble de moult de
+    <p n="P132"><c ana="lettrine2">A</c>inssi parlerent moult longuement ensamble de moult de
         choses et tant que il fu heure d'aler couchier. Dont <app><lem wit="#B #X2" resp="#Brodtkorb">les</lem><rdg wit="#V2">le</rdg></app> 
         mena la damoisele en une chambre trop riche ou il ot pluiseurs liz. Dont leur dist : 
         <said aloud="true" direct="true">Biaus seigneurs, <num>i</num> don vous 
@@ -4421,7 +4422,7 @@
         Li portiers li demanda <said aloud="true" direct="false">qui il estoit.</said> 
         Il respondi que <said aloud="true" direct="false">il estoit a <persName key="Ascanus">Ascanus</persName> le duc de
                     <placeName key="Nise"><app><lem wit="#B" resp="#Brodtkorb">Nise</lem><rdg wit="#V2">Frise</rdg></app></placeName>.</said></p>
-    <p xml:id="P133"><c ana="lettrine2">Q</c>uant cil oÿ ce, si li a la porte moult tost ouverte. Il li demanda : 
+    <p n="P133"><c ana="lettrine2">Q</c>uant cil oÿ ce, si li a la porte moult tost ouverte. Il li demanda : 
         <said aloud="true" direct="true">Amis, queles nouveles ?</said> Il li dist<cb n="c"/> que 
         <said aloud="true" direct="false">il aportoit mauvaises nouveles, quar <persName key="Carchus">Carchus</persName>
             <app><lem wit="#B" resp="#Brodtkorb">estoit</lem><rdg wit="#V2">est</rdg></app> occis.</said>
@@ -4477,7 +4478,7 @@
             garder ceens, et je ne vous y porroie mie garantir pour tant que l'en vous y
             seust.</said> Dont se sont li compaignon moult tost apresté et sont de leur
         armes garnis. Leur cheval furent trait si se sont mis a la voie sans plus faire ne dire.</p>
-    <p xml:id="P134"><persName key="Ascanus"><c ana="lettrine2">A</c>scanus</persName>, qui bien cuida ceuz
+    <p n="P134"><persName key="Ascanus"><c ana="lettrine2">A</c>scanus</persName>, qui bien cuida ceuz
         trouver dedans <placeName key="Gonfort">Gonfort</placeName>, s'en est venuz au chastel et dist
         que <said aloud="true" direct="false">on le laissast enz entrer et on si fist.</said> 
         Et quant il y fu entrez, si demanda que <said aloud="true" direct="false">cil qui laiens avoient geu estoient devenu.</said> Li

@@ -484,10 +484,10 @@
           </elementSpec>
 
           <elementSpec ident="p" module="core" mode="change">
-            <constraintSpec ident="p_id_check" scheme="schematron">
+            <constraintSpec ident="p_n_check" scheme="schematron">
               <constraint>
                 <sch:rule context="tei:text//tei:p">
-                  <sch:assert test="@xml:id" role="error">Please add a @xml:id
+                  <sch:assert test="@n" role="error">Please add a @n
                     attribute</sch:assert>
                 </sch:rule>
               </constraint>
@@ -556,7 +556,7 @@
             <attList>
               <attDef ident="rend" mode="change" usage="req">
                 <valList type="closed">
-                  <valItem ident="biffure"/>
+                  <valItem ident="strikethrough"/>
                   <valItem ident="exponctuation"/>
                   <valItem ident="scraped"/>
                 </valList>
@@ -602,8 +602,8 @@
                   <valItem ident="#B"/>
                   <valItem ident="#G"/>
                   <valItem ident="#X2"/>
-                  <valItem ident="V2"/>
-                  <valItem ident="V3"/>
+                  <valItem ident="#V2"/>
+                  <valItem ident="#V3"/>
                 </valList>
               </attDef>
               <attDef ident="resp" mode="change" usage="opt">

@@ -45,8 +45,8 @@
             </respStmt>
          </titleStmt>
          <extent>
-            Part de l'édition des manuscrits du Pelyarmenus réalisée par Brodtkorb 
-            sur la base du ms.V du f.131r au f.156v (soit 26f.)
+            Part de l'édition des manuscrits du Pelyarmenus pour la portion de texte du f.157 au f.167 du manuscrit V2
+            équivalent aux paragraphes 135 à 188, confiée à Prunelle Deleville.
          </extent>
          <publicationStmt>
             <authority>UniGE (Université de Genève, Suisse)</authority>
@@ -193,29 +193,24 @@
       <encodingDesc>
          <editorialDecl>
             <correction>
-               <p>À ce stade, nous avons majoritairement suivi, dans cette version de l'édition de Brodtkorb,
-                  les corrections qu'elle a proposées
-                  Nous avons parfois, si les corrections s'avéraient tout à fait superflues (orthographiques, voire fautives à nos yeux),
-                  choisi de ne pas les rendre
-                  Une fois encore, l'ensemble des corrections et variantes seront intégrées lors de l'étape de collation complète</p>
+               <p>Cas de corrections à indiquer</p>
             </correction>
             <normalization>
-               <p>Dissimilation i/j u/v selon l'usage de Brodtkorb</p>
-               <p>Le copiste du ms.V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
+               <p>Dissimilation i/j u/v</p>
+               <p>Résolution des abréviations</p>
+               <p>Segmentation des mots (cas particuliers à indiquer)</p>
+               <p>Le copiste du ms. V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
                   que nous avons choisi, comme la précédente éditrice, de ne pas rendre</p>
             </normalization>
             <punctuation>
-               <p>Ponctuation modernisée</p>
+               <p>Ponctuation modernisée (choix à indiquer)</p>
             </punctuation>
-            
-            
          </editorialDecl>
          <projectDesc>
             <p>Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
                du Roman des Sept Sages de Rome.
                Nous souhaitons offrir une édition complète du roman encore partiellement inédit de Pelyarmenus. 
-               Notre édition débute, dans ce document actuel, par celle que nous reprenons donnée par Brodtkorb en 1965 
-               pour les f.130v à f.156v 
+               Ce document traite des f.157 à 167 du manuscrit V2 (et autres sections dans les autres manuscrits à indiquer)
                Pour le moment, nous avons décidé de suivre sa décision (et celle des éditeurs des autres romans concernés) 
                de prendre pour manuscrit de base le manuscrit V.</p>
          </projectDesc>
@@ -226,12 +221,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="#CC" when="2021-06-30">Update du TEI Header</change>
+         <change who="#CC" when="2022-03-18">Création du fichier de travail appliqué aux scrips ODD et XSL du projet</change>
       </revisionDesc>
    </teiHeader>
   <text>
       <body>         
-         <p xml:id="P135">[f. 157]O[lettrine5]r dist li comptes que moult ouvra la pucelle courtoisement envers
+         <p n="P135">[f. 157]O[lettrine5]r dist li comptes que moult ouvra la pucelle courtoisement envers
             <persName key="Myrus">Myrus</persName> et ses compaignons. Il ne finerent puisque il se furent partis de lui de chevauchier
             tant qu’il oïrent nouveles de Pelyarmenuz. Dit leur fu que il estoit a <num>i</num> sien manoir qui estoit en Constentinoble. Il n’ont finé l’un jour plus, l’autre mainz, si sont venu en la cité. Il ont eu conseil d’eulz meismes que il yroient en Constentinoble pour euls reposer et la avroient conseil comment il porroient mieus besoingnier. Lors vont en la ville et ont leur ostel pris ou maint autre l’avoient pris qui avoient a besoingnier aussi comme eus meismes avoient. Il fu tart, si fu temps de souper. Myrus a fait venir son hoste devant lui et li enquist ou li empereres estoit. « Sire, dist il, lequel empereour demandez vous ? » « Amis, dist Myrus, ja n’a il en ceste ville que <num>i</num> empereour. » « Sire, dist il, non que je sa‹...›[c]he. Celui est a Bel Manoir a une lieue pres de ci. » « Et quant vendra il, biaus hostes ? » « Par foy, sire, ce ne vous sai je mie a dire, quar il vient quant il veult et quant il veult il s’en va. » « Or me dites, biaus hostes, foy que vous me devez : savez vous nulles nouvelles de <persName key="Gasus">Gasus</persName>, le baillif Pelyarmenus ? » « Sire, dist il, hui le vi ci devant passer et bien croi que il soit en la ville. » « Et ou demeure il ? dist Myrus. » [b] « Sire, il demeure ou chastel. » Quant il oÿ ce, si mist son hoste a conseil et dist : « Amis, se vous nous vouliez aidier que nous parlissons a lui de conseil, moult y avriez grant preu. » « Sire, dist il, dont me dites qui vous estes et se vous de riens le counoissiez. » « Amis, dist Myrus, nous sommes au roy de Frise, mais nous fumes nés en Bretaigne. » « Ha ! sire, dist li hostes, n’a pas lonctemps que li roys de Frise fu ci devant a hostel, et le duc de Lembourc fu çaiens. » « Par foi, sire, dit Myrus, bien puet estre. Et je trop mieus vous en aime, et aussi fais je l’ostel. » « Sire, dist il, granz mercis. Et sachiez que je pensoie moult bien que vous estiés de leur gent. Et sachiez que en moi vous poez bien fier et commander sor moi, et sachiez que je en ferai tout mon pooir. » « Biaus hostes, dist il, granz mercis. Je vueil que vous faciez tant qu’il sache qu’il a chaiens <num>i</num> chevalier qui est au roy de Frise, qui moult volentiers parleroit a lui anuit ou demain de quele heure qu’il en seroit aisiez. » « Sire, dist il, je n’arresterai, si avrai fait la besoingne a mon pooir. » Dont fist mestre li hostes la selle seur son palefroy, si monta et ne demoura gaires que il vint au chastel, puis hucha. Li portiers, qui bien le connoissoit, li dist : « Sire, vous soiez li bienvenuz ! » « Amis, dist il, Diex vous beneye ! Est li baillis [c] çaiens ? » « Ouil », dist il. Dont descendi li bourgois et vint la ou il estoit. Et quant li baillis li vit, si est venus a lui et li dist : « Geffroy, que vous plaist ? » « Sire, dist cil, je sui ci venus pour parler a vous pour <num>i</num> chevalier qui ci m’envoie, qui est au roy de Frise, si voudroit a vous parler moult volentiers, mais que vous en fussiés aaisiez. » Quant il l’entendi, dont li mist la main seur l’espaule et la trait d’une part et li dist en bas : « Quele gent a il avec lui ? » « Par foy, dist il, .V. chevalier et leur maisnies. » « Alez vous ent, dist il, tost et li dites que je yrai maintenant, mais ne faites ja mention qui il sont ne que y doie aler se a euls non. » « Sire, dist il, n’aiés garde. » Il s’en est moult tost repairiez et compta a Myrus comment il avoit esploitié. « Biaus hostes, dist il, granz mercis ! » Lors ne demoura gaires que li baillis vint o lui <num>i</num> escuier sanz plus. Il monta amont et demanda l’oste, et il vint, et l’amene en une chambre ou li chevalier estoient. « Sire, dist il a Myrus, vez ci le baillif que vous demandiez. » Quant il le virent, dont sont sailli en piez et l’ont salué, et il leur rendi leur salu et puis regarda l’un et puis l’autre, savoir se nul en connoistroit, mais il n’en y ot nul que il eust onques mais veu. Si dist ore : « Biaus seigneurs, vous soiez les bienvenus ! Je sui venus a vostre mandement. » « Sire, dist Myrus, la vostre grant merciz ! » [d] Dont l’a pris par la main Myrus et l’a trait a une part et li dist : « Sire, vostre bonne renommee me fait en vous fier. » « Sire, dist il, se je estoie pires que je ne soie, si vueil je estre tenus de vous aidier pour la raison de ce que vous avez dit. » « Sire, dist il, granz merciz ! » Dont li dist : « Sire, veritez est que nous sommes ci envoiez pour une grant besoingne. Si avriens (sic) bien mestier de vostre aide et de vostre conseil. »
             136 « S[lettrine2]ire, veritez est que nous sommes a Helcanus, qui est filz a l’empereour Cassidorus de Coustentinoble, et cil est en Frise avec le duc de Lembourc. Si savez bien que li roys et li dus furent l’autre jour en ceste ville pour moustrer a Pelyarmenus, vostre seigneur, que cilz Helcanus estoit repairiez de la ou il avoit conversé, quar les nouveles estoient hors getees partout que il et son pere et avec .II. petiz enfans estoient mort. Ore, sus ce, Pelyarmenus est entrez en la terre et se fait apeler seigneur du paÿs, ce que il ne doit faire tant que il sache que cilz soit en vie que je vous ai compté. Ces nouveles aporta li roys de Frise et li dus de Lembourc a Pelyarmenus, et li respondi assez sagement, quar il dist venist Helcanus ou autres qui droit eust en la terre, et il le recevroit, si que ja n’en seroit repris ne blasmez. Li conseuls Helcanus si et (sic) tiex que il dist que il n’enterra jamais jamais (sic) en cest paÿs devant ce qu’il [e] sera asseurez des barons meismes de son frere qui les homages en a receuz autrement qu’il ne deust, ce dist. Et de ceuz qui l’ont receu en cest paÿs autrement qu’il ne deussent si en veult l’amende avoir, se ainsi est que il soient trouvé en leur tort, et est la raison pour quoi il nous a ci envoiez. Si voudrions volentiers avoir conseil comment nous porrions le miex parler a Pelyarmenus par quoi il ne pechast en nous que la besoing ne ne (sic) fust bien faite et reportons arriere la vraie responsse de son conseil que nous avons trouvé. »
