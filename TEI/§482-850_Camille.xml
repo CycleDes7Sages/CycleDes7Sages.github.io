@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Roman de Pelyarmenus</title>
+            <respStmt>
+               <resp>Direction</resp>
+               <persName key="YFJ" xml:id="YFJ">Yasmina Foehr-Janssens</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Direction</resp>
+               <persName key="SV" xml:id="SV">Simone Ventura</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName key="PD" xml:id="PD">Prunelle Deleville</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName key="CC" xml:id="CC">Camille Carnaille</persName>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName key="AM" xml:id="AM">Aminoël Meylan</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName key="SL" xml:id="SL">Sophie Lecomte</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Ingénieur ATILF</resp>
+               <persName key="BG" xml:id="BG">Bertrand Gaiffe</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Ingénieur ATILF</resp>
+               <persName key="GS" xml:id="GS">Gilles Souvay</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Précédente éditrice (1965)</resp>
+               <persName key="Brodtkorb" xml:id="Brodtkorb">Lorna B. Brodtkorb</persName>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            Part de l'édition des manuscrits du Pelyarmenus pour la portion de texte du f.167 au f.216 (à la fin du manuscrit V2)
+            équivalent aux paragraphes 189 à 481, confiée à Sophie Lecomte.
+         </extent>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"><licence>usage pour les membres de l'équipe</licence> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>BNF</repository>
+                        <idno>fr.22549</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="131r" to="216v"/> 
+                           <title>Pelyarmenus</title>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <handDesc>
+                           <handNote xml:id="main1">Première main</handNote>
+                           <handNote xml:id="main2">Deuxième main</handNote>
+                        </handDesc>
+                        <decoDesc>
+                           <decoNote xml:id="lettrine2"></decoNote>
+                           <decoNote xml:id="lettrine5"></decoNote>
+                           <decoNote xml:id="lettrine6"></decoNote>
+                           <decoNote xml:id="lettrine7"></decoNote>
+                        </decoDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="V3">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>BNF</repository>
+                        <idno>fr.22550</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="1r" to="50v"/> 
+                           <title>Pelyarmenus</title>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <handDesc>
+                           <handNote scriptRef="#main1">Première main</handNote>
+                           <handNote scriptRef="#main2">Deuxième main</handNote>
+                        </handDesc>
+                        <decoDesc>
+                           <decoNote corresp="#lettrine2"></decoNote>
+                           <decoNote corresp="#lettrine5"></decoNote>
+                           <decoNote corresp="#lettrine6"></decoNote>
+                           <decoNote corresp="#lettrine7"></decoNote>
+                        </decoDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bruxelles</settlement>
+                        <repository>KBR</repository>
+                        <idno>MS.9245</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="348v" to="483v"/> 
+                           <title>Pelyarmenus</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+               <witness xml:id="X2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Londres</settlement>
+                        <repository>BL</repository>
+                        <idno>Harley 4903</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="16r" to="134v"/> 
+                           <title>Pelyarmenus</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+               <witness xml:id="G">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>BNF</repository>
+                        <idno>fr.93</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="351v" to="491r"/> 
+                           <title>Pelyarmenus</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+               <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>BNF</repository>
+                        <idno>fr.1446</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="3r" to="26v"/> 
+                           <title>Pelyarmenus (résumé?)</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+               <witness xml:id="R">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Turin</settlement>
+                        <repository>BN</repository>
+                        <idno>1650</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="?" to="?"/> 
+                           <title>Pelyarmenus si conservé ?</title>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>Cas de corrections à indiquer</p>
+            </correction>
+            <normalization>
+               <p>Dissimilation i/j u/v</p>
+               <p>Résolution des abréviations</p>
+               <p>Segmentation des mots (cas particuliers à indiquer)</p>
+               <p>Le copiste du ms. V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
+                  que nous avons choisi, comme la précédente éditrice, de ne pas rendre</p>
+            </normalization>
+            <punctuation>
+               <p>Ponctuation modernisée (choix à indiquer)</p>
+            </punctuation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
+               du Roman des Sept Sages de Rome.
+               Nous souhaitons offrir une édition complète du roman encore partiellement inédit de Pelyarmenus. 
+               Ce document traite des f.167 à 216 du manuscrit V2 (et autres sections dans les autres manuscrits à indiquer)
+               Pour le moment, nous avons décidé de suivre sa décision (et celle des éditeurs des autres romans concernés) 
+               de prendre pour manuscrit de base le manuscrit V.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fro">français médiéval</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CC" when="2022-03-18">Création du fichier de travail appliqué aux scrips ODD et XSL du projet</change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <p n="482">Some text here.</p>
+      </body>
+  </text>
+</TEI>
