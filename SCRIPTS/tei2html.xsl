@@ -11,7 +11,7 @@
                 <title>Le Roman de Pelyarmenus</title>
                 <title>édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte (sous la direction
                     de Simone Ventura)</title>
-                <link rel="stylesheet" type="text/css" href="ASSETS/Pelyarmenus.css"/>
+                <link rel="stylesheet" type="text/css" href="../ASSETS/Pelyarmenus.css"/>
             </head>
             <body><xsl:apply-templates/></body>
         </html>
