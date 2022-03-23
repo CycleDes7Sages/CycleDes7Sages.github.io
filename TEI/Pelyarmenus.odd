@@ -197,13 +197,6 @@
           </elementSpec>
 
           <elementSpec ident="persName" module="namesdates" mode="change">
-            <constraintSpec ident="term_check" scheme="schematron">
-              <constraint>
-                <sch:rule context="tei:respStmt/tei:persName">
-                  <sch:assert test="@xml:id" role="error">Please add a @xml:idattribute</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
             <attList>
               <attDef ident="key" mode="change" usage="req">
                 <valList type="open"/>
