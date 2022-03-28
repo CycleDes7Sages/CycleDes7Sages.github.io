@@ -142,7 +142,7 @@
           <moduleRef key="tei"/>
           <moduleRef key="textcrit" include="app lem listWit rdg rdgGrp witness"/>
           <moduleRef key="textstructure" include="TEI body text div"/>
-          <moduleRef key="transcr" include="handNotes subst supplied"/>
+          <moduleRef key="transcr" include="handNotes handShift subst supplied"/>
           <moduleRef key="analysis" include="c"/>
 
 
@@ -697,11 +697,12 @@
 
           <elementSpec ident="unclear" module="core" mode="change">
             <attList>
-              <attDef ident="reason" mode="change" usage="req">
+              <attDef ident="reason" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="erased"/>
                   <valItem ident="faded"/>
                   <valItem ident="fold"/>
+                  <valItem ident="hole"/>
                   <valItem ident="uncertain"/>
                 </valList>
               </attDef>
