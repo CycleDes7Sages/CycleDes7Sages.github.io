@@ -55,7 +55,7 @@
     <xsl:template match="note">
         [<i><xsl:apply-templates></xsl:apply-templates></i>]
     </xsl:template>
-    <xsl:template match="c">
+    <xsl:template match="c">    
         <i><span class="c">         
             <xsl:apply-templates/></span></i>
     </xsl:template>
@@ -68,4 +68,7 @@
     <xsl:template match="seg">
         '<xsl:apply-templates></xsl:apply-templates>'
     </xsl:template>
+    <xsl:template match="unclear">
+        <i>[<xsl:apply-templates/>]</i>
+    </xsl:template>   
 </xsl:stylesheet>

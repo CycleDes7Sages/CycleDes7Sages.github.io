@@ -651,14 +651,14 @@
               </constraint>
             </constraintSpec>
             <attList>
-              <attDef ident="aloud" mode="change" usage="opt">
-                <valList>
+              <attDef ident="aloud" mode="replace" usage="rec">
+                <valList type="closed">
                   <valItem ident="true"/>
                   <valItem ident="false"/>
                 </valList>
               </attDef>
-              <attDef ident="direct" mode="change" usage="opt">
-                <valList>
+              <attDef ident="direct" mode="replace" usage="rec">
+                <valList type="closed">
                   <valItem ident="true"/>
                   <valItem ident="false"/>
                 </valList>
@@ -719,7 +719,7 @@
 
           <elementSpec ident="rs" module="core" mode="change">
             <attList>
-              <attDef ident="type" mode="change" usage="req">
+              <attDef ident="type" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="person"/>
                   <valItem ident="place"/>
