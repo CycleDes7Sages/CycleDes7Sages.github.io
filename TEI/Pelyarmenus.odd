@@ -673,7 +673,7 @@
 
           <elementSpec ident="seg" module="linking" mode="change">
             <attList>
-              <attDef ident="ana" mode="change" usage="req">
+              <attDef ident="ana" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="proverbe"/>
                   <valItem ident="discoursEnchassé"/>
