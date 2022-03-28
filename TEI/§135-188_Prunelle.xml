@@ -224,7 +224,7 @@
       </profileDesc>
       <revisionDesc>
          <change who="#CC" when="2022-03-18">Création du fichier de travail appliqué aux scrips ODD
-            et XSL du projet</change><change who="#PD" when="2022-03-24">crochets de colonnes changés en balise (revoir car possibilité croisement avec la façon dont Sophie note des lettres réécrites sur d’autres) balisage paragraphe 135-143 sauf les noms propres / à faire : tous les chiffres</change>
+            et XSL du projet</change><change who="#PD" when="2022-03-24">crochets de colonnes changés en balise (revoir car possibilité croisement avec la façon dont Sophie note des lettres réécrites sur d’autres) balisage paragraphe 135-143 sauf les noms propres / à faire : tous les chiffres</change><change who="#PD" when="2022-03-26">balisesdes lettrines et tous les paragraphes</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -305,7 +305,7 @@
                envoiez. Si voudrions volentiers avoir conseil comment nous porrions le miex parler a
                Pelyarmenus par quoi il ne pechast en nous que la besoing ne ne (sic) fust bien faite
                et reportons arriere la vraie responsse de son conseil que nous avons trouvé.</said></p>
-                 <p xml:id="P137"><c ana="lettrine 2">Q</c>uant Gasus entendi
+                 <p n="P137"><c ana="lettrine 2">Q</c>uant Gasus entendi
                <persName key="Myrus">Myrus</persName>, si ot grant joie a son cuer et dist : <said aloud="true" direct="true">Puet ce estre verité, ce que vous
                m’avez ci compté ?</said> <said aloud="true" direct="true">Sire, dist <persName key="Myrus">Myrus</persName>, aussi voir comme Diex est, quar Clyodorus,
                que vous bien counoissiez, est avec Helcanus chiés le roy de Frise.</said> <said aloud="true" direct="true">Clyodorus ?
@@ -317,7 +317,7 @@
                tout aussi soingneusement comme se mon cors meismes estoit a vostre point.</said> <said aloud="true" direct="true">Sire,
                ce dist <persName key="Myrus">Myrus</persName>, la vostre grant <cb n="f"/> merciz !</said> Lors ont pris congié a lui et li
                baillis a euls, quar plus n’osa demourer que il ne fust aperceuz.</p>
-               <p xml:id="P138"> <c ana="lettrine2">L</c>i
+               <p n="P138"> <c ana="lettrine2">L</c>i
                compaignon souperent et puis alerent dormir. Gasus,
                qui ne dormi pas toute la nuit, commença a penser a la besoigne de ceuz qui prié l’en
                avoient. Il sot bien que Pelyarmenus ne renderoit point la terre tant comme il la
@@ -327,7 +327,7 @@
                seigneur droiturier, et pour ce aideroient il cestui au miex que il porroient. Aucuns
                en y avoit qui volentiers revendroient a voie de verité, mais leur force n’est mie
                grant, se ce n’estoit du duc d’Athaines, mais cil estoit trop hors voie por lui
-               aidier.</p> <p xml:id="P139"><c ana="lettrine 2">E</c>n tele maniere se dementoit <persName
+               aidier.</p> <p n="P139"><c ana="lettrine 2">E</c>n tele maniere se dementoit <persName
                   key="Gasus">Gasus</persName> tout par lui. Lors commença a penser comment il
                porroient partir de leur seigneur sanz destourbier. Il sot bien qu’il estoit si
                plains de mal que a paines s’en porroient partir sanz destourbier que ce ne fust trop
@@ -349,7 +349,7 @@
                estoit repairiez de son oratoire, et estoit Gasus
                enmi la court. <persName key="Myrus">Myrus</persName> et si compaignon vindrent a la porte et distrent que <said aloud="true" direct="false">on les
                laissast ens entrer</said>. Dont leur demanda li portiers qui il estoient. Il distrent que
-               il estoient a Helcanus, filz a l’empereour Cassydorus de Coustentinoble.</p><p xml:id="P140"> <c
+               il estoient a Helcanus, filz a l’empereour Cassydorus de Coustentinoble.</p><p n="P140"> <c
                   ana="lettrine 2">Q</c>uant cil entendi ce, si fu touz esbahiz et dist : <said aloud="true" direct="true">Biaus
                seigneurs, or vous souffrez tant que j’aie parlé <cb n="b"/> a mon seigneur !</said> Cil en vint a
                   <num>i</num> chevalier et li dist que <said aloud="true" direct="false">tel gent estoient la et que <said aloud="true" direct="false">il le deist a
@@ -369,7 +369,7 @@
                volentiers savrai sa volenté !</said> Dont a <persName key="Myrus">Myrus</persName> sachiee une lettee (sic) qui estoit
                seellee du seel au roy de Frise et tesmoingnoit que ce estoit la volenté de Helcanus
                tot ce qui dedenz la letre estoit contenu. Dont l’a <persName key="Pelyarmenus">Pelyar<cb n="c"/>menus</persName> prise et a rompu
-               la cyre et puis si a leu l’escript, qui dist :</p>  <p xml:id="P141"><said aloud="true" direct="true"><c ana="lettrine2">H</c>elcanus, premiers
+               la cyre et puis si a leu l’escript, qui dist :</p>  <p n="P141"><said aloud="true" direct="true"><c ana="lettrine2">H</c>elcanus, premiers
                engendrez des filz Cassydorus, empereour de Coustentinoble et de Romme, damoisiaus
                des .II. citez, fais savoir a Pelyarmenus de Romme, qui mon frere deust estre, qu’il
                viengne a moi en quelque lieu que il me sache pour lui escondire ou amender des
@@ -379,14 +379,14 @@
                mis a son pooir em peril de mort par pluiseurs foiz et ainsi en a il fait, si comme
                il le set bien, et a donné conseil et mis grant paine de mon petit frere et ma sereur
                faire destruire sans nule bonne raison qui y peust estre fors que de traïteur et de
-               homme mauvais et desnaturé.</said></p> <p xml:id="P142"> <c ana="lettrine 2">Q</c>uant Pelyarmenus a ce leu,
+               homme mauvais et desnaturé.</said></p> <p n="P142"> <c ana="lettrine 2">Q</c>uant Pelyarmenus a ce leu,
                si commença a sousrire et dist : <said aloud="true" direct="true">Biaus seigneurs, mes freres ait bonne aventure et
                ceuz aient honte par cui il m’a fait tel mandement, quar je sai bien que onques de
                son cuer premierement n’issi !</said> <said aloud="true" direct="true">Sire, dist <persName key="Myrus">Myrus</persName>, ne cuidiez mie Helcanus soit
                tiex que pour homme qui vive il vous eust mandé chose qui devers le cuer ne li
                venist. Et d’autre part sachiez qu’il <cb n="d"/> n’a conseil de nul traïteur ne d’omme qui
                ne soit couve-bles (sic) et preudom en touz droiz et des meilleurs chevaliers du
-               monde.</said></p> <p xml:id="P143"><c ana="lettrine2">P</c>elyarmenus esgarda lors <persName key="Myrus">Myrus</persName> et dist : <said aloud="true" direct="true">Biaus sire, je
+               monde.</said></p> <p n="P143"><c ana="lettrine2">P</c>elyarmenus esgarda lors <persName key="Myrus">Myrus</persName> et dist : <said aloud="true" direct="true">Biaus sire, je
                croi que de bons chevaliers ait il en sa compaignie. Mais ce vous veul je bien dire
                que, <said aloud="true" direct="false">de quiconques ceste letre viengne a moi, que elle vient de traïtour et de
                mauvais</said> !</said> « Sire, dist <persName key="Myrus">Myrus</persName>, pour ce sui je ci venuz que, s’il estoit nus qui
@@ -408,7 +408,7 @@
                estoit, dist Gasus, qu’il le feist estable contre
                celui qui le desdiroit, que en voudriez vous dire ? » « En non Dieu, dist
                Pelyarmenus, que que il en aviengne, l’aventure si en soit seüe, quar je vueil que il
-               soit tout ainssi sans faille ! »</p> <p xml:id="P144"> <c ana="lettrine 2">Q</c>uant <persName
+               soit tout ainssi sans faille ! »</p> <p n="P144"> <c ana="lettrine 2">Q</c>uant <persName
                   key="Gasus">Gasus</persName> entendi ce, si esgarda <persName key="Myrus">Myrus</persName> et li fist signe qu’il
                parlast, et si fist il moult efforcieement et li dist : « Sire Pelyarmenuz, vez ci
                cest chevalier qui mon gage a receu ? Je vous demant la deffense que il veult faire,
@@ -428,7 +428,7 @@
                chose, si dist : « Sire, puisque vous si couvenables estes que ou <num>i</num> tel
                mant on ne vous osast envoier, ne souffrez mie que on me face tort ne vilonnie, que,
                se ainssi est que je puisse ceste chose aventurer comme dit est, que je et mes
-               compaignons en puissons partir sans domage. »</p> <p xml:id="P145"><c ana="lettrine 2">Q</c>uant
+               compaignons en puissons partir sans domage. »</p> <p n="P145"><c ana="lettrine 2">Q</c>uant
                Pelyarmenus soy ainsi aprochier, si respondi : « Par Dieu, si ferez vous ! Et je
                commant au ballif, qui ci est, et il volentiers le fera, que il ne sueffre que on
                vous face nul tort. » « Sire, dist il, grant merciz ! » Dont fu il ordené que la
@@ -455,7 +455,7 @@
                estoit toute esmeue des messagiers de quoi li uns avoit pris bataille, si comme
                de-devant (sic) est dit. Moult furent esgardez de dames et <cb n="b"/> de bourgois, et tant
                qu’il sont venu au chastel. Dont demoura avec <persName key="Myrus">Myrus</persName> <num>i</num> de ses compaignons,
-                  et li autre sont repairié avec leur hoste.</p>  <p xml:id="P146">G[lettrine2]asus, qui moult engranz
+                  et li autre sont repairié avec leur hoste.</p>  <p n="P146">G[lettrine2]asus, qui moult engranz
                estoit durement de faire courtoisie aus compaignons, prist <persName key="Myrus">Myrus</persName> et son compaignon et
                les mena maintenant au chastel amont. Li mengiers fu touz pres et les tables furent
                mises. Il ont lavé puis sont assis. Quant il orent digné, dont furent les tables
@@ -482,7 +482,7 @@
                pucelle du Viez Char, et tout aussi comme il est dit devant ou compte, et comment
                Clyodorus le trouva et lui avec euls, qui estoient venu pour lui faire aide. « Par
                foy, dist Gasus, ci a gente aventure, et moult
-               faites a prisier, et aussi fait celui a qui vous estes ! » 147 A[lettrine2]insi ont
+               faites a prisier, et aussi fait celui a qui vous estes ! »</p><p n="P147"><c ana="lettrine2">A</c>insi ont
                parlé ensamble tout le jour de ces choses. Pelyarmenus, qui au Biau Manoir estoit, o
                lui grant plenté de ses barons, appella Malquidant, son chevalier qui <persName key="Myrus">Myrus</persName> avoit
                apelé de la bataille. Lors li dist : « Amis, venez avant et me dites que il vous est
@@ -498,7 +498,7 @@
                et si a point que je n’en soie repris d’omme qui vaille, quar je sai bien que li
                messages ne s’en puet partir sanz domage. Et se ainssi estoit qu’il en venist au
                desseure, tout cil soient honni qui mon pain m’envient se il l’en laissent aler a
-               coroies ointes ! »</p> <p xml:id="P148"><c ana="lettrine 2">Q</c>uant li ancien l’ont entendu, si se
+               coroies ointes ! »</p> <p n="P148"><c ana="lettrine 2">Q</c>uant li ancien l’ont entendu, si se
                sont arriere trait et distrent que non feroient il. Dont monta <num>i</num> chevalier
                et ne fina, si vint en Constentinoble. Cil estoit amis a <persName key="Gasus"
                   >Gasus</persName>. Il vint a lui et li dist que Pelyarmenus vouloit que la
@@ -530,7 +530,7 @@
                peust en euls fier. Dont leur commanda que il fussent a l’endemain tout prest pour
                fournir ceste besoingne dont il les requeroit. Il respondirent touz que ja de ce ne
                se doutast. Il en vint arriere a son hostel et dist a <persName key="Myrus">Myrus</persName> ce que il cuidoit que bon
-                  fust.</p> <p xml:id="P149">P[lettrine2]elyarmenus, qui <num>i</num> frere avoit, tel comme devant est
+                  fust.</p> <p n="P149"><persName key="Pelyarmenus"><c ana="lettrine2">P</c>elyarmenus</persName>, qui <num>i</num> frere avoit, tel comme devant est
                dit, lequel estoit apelez Dyalogus, cil oÿ la parole en tele maniere comme dit est
                que tous ceuz fussent honni qui son pain menjoient s’il en laissoient aler le message
                a coroies des ointes (sic), cil a dit a lui meismes que il fera une partie de la
@@ -550,8 +550,8 @@
                estourmie d’uns et d’autres, meismes de bourgois, de dames et de damoiseles qui
                voudroient veoir le champ de la bataille. Pelyarmenus, de l’autre part, avoit fait
                faire bon hourdeiz et fort, quar il vouloit que il y eust dames et pucelles de la
-               cité et de hors meismes, et y fu sa femme a tout grant plenté de compaignie. 150
-               G[lettrine2]asus se mut de son hostel a tout <persName key="Myrus">Myrus</persName>, et estoient moult gentement
+               cité et de hors meismes, et y fu sa femme a tout grant plenté de compaignie.</p> 
+               <p n="P150"><c ana="lettrine2">G</c>asus se mut de son hostel a tout <persName key="Myrus">Myrus</persName>, et estoient moult gentement
                atourné. Il furent grant plenté de chevaucheurs qui devoient le champ garder. Lors
                s’en vindrent tout contreval la ville. Qui dont veist uns et autres des fenestres et
                des soliers pour <persName key="Myrus">Myrus</persName> esgarder, bien peust dire qu’il metoient grant paine a lui
@@ -568,7 +568,7 @@
                la femme Pelyarmenus, qui Ysidoire avoit non, dit en son cuer : « Ja Dieus ne vueille
                souffrir que tu y soies ne mors ne vaincus par homme nul, quar moult ies biaus de
                cors. Et li cuers me dist que moult ies preudoms et de moult haut afaire. »</p> 
-            <p xml:id="P151">A[lettrine2] ceste parole vint Pelyarmenus a tout Malquidant, et avec lui grant
+            <p n="P151"><c ana="lettrine2">A</c> ceste parole vint Pelyarmenus a tout Malquidant, et avec lui grant
                plenté de barons. Et moult se contint Malquidant gentement a l’entrer ou champ, et
                bien sambloit homme de grant hardement et de grant prouesce. Dont chevacha (sic) tout
                entour et <cb n="c"/> pria aus dames et aus damoiseles que il priassent que Dieus li donnast
@@ -583,7 +583,7 @@
                fu embuchiés en un lieu moult privé, la ou <persName key="Myrus">Myrus</persName> ne peust en nule maniere qu’i fust
                repairier en la cité de Coustentinoble se par euls non. [rubrique/début]Comment <persName key="Myrus">Myrus</persName>
                se combati encontre Malquidant por Helcanus, son seigneur, deffendre.[rubrique/fin]
-               <cb n="d"/></p> <p>152 C[lettrine 6]i endroit dit li comptes que, quant li dui chevalier <persName key="Myrus">Myrus</persName> et
+               <cb n="d"/></p> <p ana="P152"> <c ana="lettrine6">C</c>i endroit dit li comptes que, quant li dui chevalier <persName key="Myrus">Myrus</persName> et
                Malquidant furent ou champ en la maniere comme dist est devant, <persName key="Myrus">Myrus</persName> s’en vint a
                Pelyarmenus moult affaitieement et li dist : « Sire, veez me ci l’escu au col, le
                glaive el poing, l’elme lacié, armé de toutes armes comme chevalier le puet mieus
@@ -597,7 +597,7 @@
                envers lui ne envers les siens chose nule dont il vous deust en nule maniere tel
                mandement envoier. Et si di que cilz qui le vuelt faire couvenable est traitres et
                mauvais, et l’en rendrai en cest jour recreant devant vous, ou <cb n="e"/> je meismes
-               demourrai pour tel comme je di. » 153 <c ana="lettrine 2">Q</c>uant il orent ce dit,
+               demourrai pour tel comme je di. »</p>  <p ana="P153"><c ana="lettrine 2">Q</c>uant il orent ce dit,
                si fist on le ban, qu’il n’i eust nul si hardi qui n’isist du champ fors que ceulz
                qui combatre se devoient. Il firent moult bien cestui commandement, quar nuls n’i
                demoura fors les .II. champions qui combatre se devoient et .IIII. autres : l’uns fu
@@ -605,7 +605,7 @@
                seigneurs de toute la cité de Constentinnoble, qui aussi bien estoient de l’une
                partie comme de l’autre. Et si sachiez tout certainnement que, quant la bataille dut
                estre commenciee, que li dui chevalier furent mis d’une part et Pelyarmenus et le
-               baillif de l’autre part. 154 D[lettrine2]ont furent maintenant d’euls quatre mis li
+               baillif de l’autre part.</p>  <p n="P154"><c ana="lettrine2">D</c>ont furent maintenant d’euls quatre mis li
                doi chevalier en leur
                lieu[unclear/reason=transparence/début]?[unclear/reason=transparence/fin]. Dont se
                sont merveilleusement noblement poli en leur armes. Et sachiez que d’eulz .II. ne
@@ -620,7 +620,7 @@
                ne furent en tele maniere et a chascuns esraument son hyaume remis en son chief moult
                apenseement, et puis mistrent les mains aus espees et ont maintenant les escus
                embraciez, puis s’en vindrent li uns vers l’autre en telle maniere comme se il ne
-               s’entreredoutassent de nule riens du monde. 155 L[lettrine2]ors peust on veoir dure
+               s’entreredoutassent de nule riens du monde. </p> <p ana="P155"><c ana="lettrine2">L</c>ors peust on veoir dure
                escremie et pesme, quar tout aussi feroient li uns seur l’autre et de tel force comme
                se maintenant vousissent morir chascuns par samblant. Malquidant, qui plains estoit
                de tres grant chevalerie, hasta <persName key="Myrus">Myrus</persName> a ce qu’il le meist du tout esraument a
@@ -637,8 +637,8 @@
                de lui desfendre. « Dont veul je, dist <persName key="Myrus">Mirus</persName>, que tu te desdies de ceulz que tu as
                apelez traitres et mauvés et de moi aussi, qui ai fait le message. Ja par Dieu, dist
                il, ne m’avendra que pour paour de mort recevoir en soie ja desdiz. » Dont n’entendi
-               <persName key="Myrus">Myrus</persName> a el fors que tant que il en eust le chief pris et le demoustrast au pueple.
-               156 <c ana="lettrine 2">Q</c>uant cil qui el parc estoient ont ce veu, si sont sailli
+               <persName key="Myrus">Myrus</persName> a el fors que tant que il en eust le chief pris et le demoustrast au pueple.</p>
+            <p ana="P156"><c ana="lettrine 2">Q</c>uant cil qui el parc estoient ont ce veu, si sont sailli
                avant, et meismes <persName key="Pelyarmenus">Peliarmenus</persName>, qui de ceste chose s’est moult esmerveilliez.
                   Gasus et li autre dui sont venuz a Mirrus et li
                distrent que assez en avoit fait. Lors sont si compaignon venuz a lui et l’ont moult
@@ -653,8 +653,8 @@
                gent metre d’une part et leur dist qu’il se souffrissent tant que il eust parlé a
                <persName key="Pelyarmenus">Peliarmenus</persName>. Il s’en vint a lui et li dist : « Sire, on me donne a entendre que
                Dyalogus a gens cuilliz pour faire vilanie a ces chevaliers de Frise. » « Biau sire,
-               dist il, et qu’en tient il a moi ? Lessiez m’en em pes, bien vous en couviengne ! »
-               157 <c ana="lettrine 2">Q</c>uant il entendi ceste response, il s’en vint a sa gent
+               dist il, et qu’en tient il a moi ? Lessiez m’en em pes, bien vous en couviengne ! »</p>
+            <p ana="P157"><c ana="lettrine 2">Q</c>uant il entendi ceste response, il s’en vint a sa gent
                sanz plus dire et leur dist : « Biaus seigneurs, ou preudomme ou traïteur, je vous ai
                touz pris pour droit conduire si avant que chascuns le sache. Il est ainssi que nous
                sommes ci assemblez pour garder le droit de chascun. Si le faisons comme preudomme,
@@ -683,8 +683,8 @@
                qui le champ orent [exponctué/début]i[exponctué/fin] gardé, car il n’en y ot nul qui
                grant paine ne meist a metre les traïteurs au dessouz. Et sanz faille bien y parut,
                car eulz meismes se fesoient occirre et detrenchier, et trop estoient li felon fort,
-               car touzjours cuidoient avoir secours et aide de <persName key="Pelyarmenus">Peliarmenus</persName> <cb n="d"/> 158
-               M[lettrine2]irrus et si compaignon virent que li preudomme se fesoient occirre pour
+               car touzjours cuidoient avoir secours et aide de <persName key="Pelyarmenus">Peliarmenus</persName> <cb n="d"/></p> 
+            <p ana="P158"><persName key="Mirus"><c ana="lettrine2">M</c>]irrus</persName> et si compaignon virent que li preudomme se fesoient occirre pour
                [exponctué/début]e[exponctué/fin] eulz, si s’esvertuerent chascuns endroit soi. Dont
                n’en y ot nul qui leur cops osast atendre. Myrrus vit Dyalogus, qui des siens li
                fesoit grant damage. Il s’est tournez vers lui et fiert le cheval des esperons,
@@ -693,7 +693,7 @@
                hiaumes froissierent. Les espees, qui furent dures et pesanz, les ont aussi comme
                estounez. A cel cop vint <num>i</num> Breton qui Elygius avoit non. Cil prist en tele
                maniere Dyalogus que, vousist ou non, li couvint les estriers guerpir. La eust esté
-               sa besoigne faite et sa fin venue, mais trop aigrement fu rescouz des siens. 159 <c
+               sa besoigne faite et sa fin venue, mais trop aigrement fu rescouz des siens.</p> <p ana="P159"> <c
                   ana="lettrine 2">Q</c>ue vous diroie je ? La besoingne atargant, tant ferirent les
                uns sus ‹s›[l]es autres que moult fu li plus fors afebloiez. Mes en la fin, par la
                prouesce de Gasus et des Bretons, mistrent il ceulz
@@ -708,7 +708,7 @@
                dont orent conseil que il se prendroient au cors <persName key="Pelyarmenus">Peliarmenus</persName> meismes. Il vindrent au
                Biau Manoir et li firent asavoir que, se il ne leur rendoit ceulz qui cele traïson
                avoient faite par quoi leur amis estoient occis, que il se prendroient a son cors
-               meismes. 160 <c ana="lettrine 2">Q</c>uant Pelyarmenus oÿ ce, sachiez que moult fu
+               meismes.</p>  <p ana="P160"><c ana="lettrine 2">Q</c>uant Pelyarmenus oÿ ce, sachiez que moult fu
                esbahiz. Dont s’apensa que il li couvenoit humilier. Il en vint a eulz et leur dist :
                « Biaus seigneurs, gardez vous de faire folie ! » « Par mon chief, sire, dist li uns,
                nous vous faisons bien asavoir que, se vous soustenez les traïteurs qui nos cousins
@@ -746,7 +746,7 @@
                aus messages et leur conta ce qu’il avoit trouvé em <persName key="Pelyarmenus">Peliarmenus</persName>. « Par foy, dist
                Mirrus, poi nous poons loer d’aucuns de cest païs, car moult de tiex en y a. Dont ne
                se pot tenir que il n’ait contee l’aventure de Ascanus comment ele leur estoit
-               avenue. » 161 <c ana="lettrine 2">Q</c>uant Gasus
+               avenue. » </p> <p ana="P161"><c ana="lettrine 2">Q</c>uant Gasus
                l’entendi, si dist : « Ha ! du traïteur, pourquoi le m’avez vous celé si longuement ?
                » « Par foi, ce dist Mirrus, porce que nous ne savons envers qui nous faisons ne
                [exponctué/début]i[exponctué/fin] mal ne bien, car nous doutons qu’i ne fust si
@@ -755,7 +755,7 @@
                dist Mirrus, de ce sui je moult liez, et bien vous sera guerredonné. Et sachiez qu’il
                nous fera encore a souffrir, se il en a le pooir. » « Je vous ferai avoir bon
                conduit, dist Gasus, que ja tel ne sera que mal vous
-               face ne ne face faire. » « Sire, dient il, granz merciz ! » 162 A[lettrine2]inssi
+               face ne ne face faire. » « Sire, dient il, granz merciz ! » </p> <p ana="P162"><c ana="lettrine2">A</c>inssi
                avint que li més furent avec Gasus tant que il
                furent bien gueri. Et quant ce vint <cb n="b"/> au congié prendre, <persName key="Gasus"
                   >Gasus</persName> leur fist si toutes leur besoignes que bien cuidierent avoir
@@ -781,7 +781,7 @@
                suivent, et il si firent. Et tant chevauchie-que (sic) il furent moult esloignié de
                leur chemin. Dont les a cil menez en <num>i</num> parfont val ou Dyalogus estoit a
                tout ceulz dont je vous ai devant dit. Quant il y furent, si sont sailli et devant et
-               derriere et ont les messages assailliz. 163 <c ana="lettrine 2">Q</c>uant Mirrus et
+               derriere et ont les messages assailliz.</p>  <p ana="P163"><c ana="lettrine 2">Q</c>uant Mirrus et
                si compaignon ont ce veu, si ont reclamé Dieu, car il virent bien que cil les avoit
                traÿs et que leur vie estoit alee. Adont se sont touz mis ensemble et cil les ont
                assailliez devant et derriere, mais bien sachiez que il ne se lessoient approchier,
@@ -789,8 +789,8 @@
                leur y fust bletiez (sic) ne navrez. Et quant Dyalogus vit qu’il se desfendoient si
                aigrement, si a ses traïteurs escriez et dist : « Seigneurs, vous lairez vous en tel
                maniere occirre a ces ribaus ? » Dont se sont esvertué et ont feru seur eulz en tele
-               maniere que seur chascun en feroient bien .X., et qui n’i pooit avenir, il y ruoit.
-               164 <c ana="lettrine 2">E</c>n tele maniere feroient cil seur les Bretons. Et quant
+               maniere que seur chascun en feroient bien .X., et qui n’i pooit avenir, il y ruoit.</p>
+            <p ana="P164"> <c ana="lettrine 2">E</c>n tele maniere feroient cil seur les Bretons. Et quant
                Mirrus vit que morir le couvenoit, si s’est esvertuez et feri cheval des esperons. Il
                estoit richement montez au miex de touz. Il se feri parmi eulz et commence a cerchier
                les rens a destre et a senestre <cb n="d"/> en tele maniere que il n’i ot nul si hardi qui
@@ -813,7 +813,7 @@
                de leur vie estoit il petit, car si blecié estoient et si navre que de nule riens ne
                leur [e] souvenoit. « Ha ! Myrrus, dist Elygius, je me muir ! » Dont s’est pasmez sus
                son cheval quant Mirrus [exponctué/début]i[exponctué/fin] l’a secoru. Et le tint
-               entre ses braz tant qu’il fu revenu de pasmoison. 165 M[lettrine2]oult leur avint
+               entre ses braz tant qu’il fu revenu de pasmoison.</p>  <p ana="P165"><c ana="lettrine2">M</c>oult leur avint
                bien, car illeuc avoit une gente fontaine dessouz <num>i</num> arbre. Il sont
                descendu de leur chevaus, [exponctué/début]i[exponctué/fin] car moult estoient blecié
                et navré. Il leur ont les frains ostez et les ont lessié
@@ -831,7 +831,7 @@
                n’eust doute. Et quant plus li disoit, et mains s’asseuroit cil. Et dont se mist <cb n="f"/>
                a la voie vers <num>i</num> hermitage qui pres d’ileuc estoit. Et quant il y vint, si
                est enz entrez et a son huis fermé devant Mirrus. Et quant Mirrus vit ce, si ne voult
-               lessier qu’il ne soit par la venuz. 166 D[lettrine2]ont commença a huchier et dist :
+               lessier qu’il ne soit par la venuz.</p>  <p ana="P166"><c ana="lettrine2">D</c>ont commença a huchier et dist :
                « Frere, pour Dieu, lessiez moi enz entrer, car grant mestier ai d’aide ! » Quant cil
                entendi ce, si vint en une chambre ou il avoit <num>i</num> viel homme d’aage, et
                estoit si viex qu’il ne veoit goute et dort ou poi ou nient. Dont cria li jouvenciaus
@@ -846,7 +846,7 @@
                entendu. Quant li jouvenciaus li dist : « Sire, parlez haut », adont parla si
                [exponctué/début]l[exponctué/fin] haut que bien l’entendi. Et quant li preudoms l’oÿ,
                si demanda qui il estoit et dont il venoit et comment il li estoit avenu. Et cil li
-               conta tout en la [f. 163] maniere que avenu li estoit. 167 <c ana="lettrine 2"
+               conta tout en la [f. 163] maniere que avenu li estoit.</p>  <p ana="P167"><c ana="lettrine 2"
                >Q</c>uant li preudom l’a entendu, si s’est tournez vers lui, ce que il n’avoit pieça
                fait se on ne li avoit aidié. Dont dist : « Sire chevaliers, sachiez que moult ai oÿ
                parler de celui a qui vous dites que vous estes. Et sachiez que sa mere demoura ceenz
@@ -860,8 +860,8 @@
                yrons ci pres [exponctué/début]a[exponctué/fin] a <num>i</num> hermitage. Et la a
                   <num>i</num> saint homme qui nous aidera et conseillera mais hui. » Quant il oÿ
                ce, si fu moult liez et s’est levez a moult grant paine, et Mirrus a pris les
-               chevaus, et s’en sont en tele maniere alez a pié, tant que il furent a l’ermitage.
-               168 <c ana="lettrine 2">Q</c>uant il furent la venu, li jones hom a presentement pris
+               chevaus, et s’en sont en tele maniere alez a pié, tant que il furent a l’ermitage.</p>
+            <p ana="P168"><c ana="lettrine 2">Q</c>uant il furent la venu, li jones hom a presentement pris
                leur chevaus et les a mis en une açainte et leur donna orge, dont il mengierent moult
                volentiers. Dont est repairiez arriere a eulz et leur dist : « Biaus seigneurs, vous
                aide<cb n="b"/>rai je plus de riens ? » « Amis, distrent il, bien avrions
@@ -903,7 +903,7 @@
                com<cb n="d"/>ment ele fu arriere en la seignorie. Tout leur c‹...›[o]mpta, que de riens n’i
                failli, en tele maniere comme devant est dit. Et quant il ont ce oÿ, sachiez que
                moult s’en merveillierent, car onques mais n’en avoient oÿ parler. En tele maniere
-               demorerent la nuit o l’ermite, qui les aaisa de ce que il pot. 169 <c
+               demorerent la nuit o l’ermite, qui les aaisa de ce que il pot.</p>  <p ana="P169"><c
                   ana="lettrine 2">Q</c>uant ce vint a l’endemain et il fu grant heure, dont furent
                leur plaies remuer, et leur sembla qu’il guerissoient tout. Dont dist li uns a
                l’autre : « Comment porrons nous partir de cest paÿs ? Nous savons bien que, se nous
@@ -921,7 +921,7 @@
                point ci et que ele mete conseil [e] en vous par quoi vous soiez arriere en Frise
                sanz le seu de celui et de ceulz qui vous ont mis en tel point. Et je sai bien que
                ele en fera son pooir. Et puisque ele s’en meslera, dont sai je bien que la besoigne
-               sera bien faite. » « Sire, dient il, pour Dieu, pensez ent ! » 170 D[lettrine2]ont a
+               sera bien faite. » « Sire, dient il, pour Dieu, pensez ent ! »</p>  <p ana="P170"><c ana="lettrine2">D</c>ont a
                maintenant li preudons apelé son desciple et li dist qu’il alast a Gonfort et parlast
                a la pucele, qui avoit non Melode, et li deist de par lui que .II. chevaliers li
                estoient venu aussi comme d’aventure, liquel estoient a si grant meschief que plus ne
@@ -934,7 +934,7 @@
                savoit que vous fussiez autres. Et puis quant vous venriez et ele vous recongneust,
                si en fust esbahie. Et puis se ele vous vouloit mal, si en seriez plus entrepris. » «
                Sire, distrent cil, bien dites. » Dont fu cil bien escolez et se mist a la voie et ne
-               fina, si vint a Gonfort, car il n’i ot pas plus de .V. lieues petites. 171 <c
+               fina, si vint a Gonfort, car il n’i ot pas plus de .V. lieues petites.</p>  <p ana="P171"><c
                   ana="lettrine 2">Q</c>uant il fu la venus, <cb n="f"/> si fu bien congneus de chascun,
                comme cil qui souvent y venoit. Dont fist il tant que il parla a la pucele et la
                salua de par son maistre. « Bien ait il ! dist ele. Et comment le fait Ydoinies, mes
@@ -944,7 +944,7 @@
                tout ausi sont il en grant doute d’aucuns maufeteurs dont il sont aguetiez, si
                n’osent mie apertement aler que il ne soient cougneus. » « Et dont sont il ? dist la
                damoisele. » « Il sont, dist il, de Frise. » « Et quel gent sont il ? dist ele. Et
-               quans sont il ? dist ele. » « Damoisele, il sont .II. », dist il. 172 <c
+               quans sont il ? dist ele. » « Damoisele, il sont .II. », dist il.</p>  <p ana="P172"><c
                   ana="lettrine 2">Q</c>uant la damoisele oÿ celui en tele maniere parler, si pensa
                aus messages qui par lui vind-drent (sic), qui bien estoient .X. ou plus. Si fu aussi
                comme toute seüre que ce n’estoient nulz de ceulz. Et nonpourq‹u›[uan]t les atendoit
@@ -966,7 +966,7 @@
                ont contee au viel hermite, qui moult en fu joianz et moult en fist grant joie. Dont
                s’apresterent de souper, car il en avoient grant mestier. Mais onques li dui hermite
                ne voudrent boivre ne mengier de viande qu’il eust aportee, car onques en nul temps
-               ne menjoient que une foiz le jour, et ce estoit pain et yaue tant seulement. 173 <c
+               ne menjoient que une foiz le jour, et ce estoit pain et yaue tant seulement.</p>  <p ana="P173"><c
                   ana="lettrine 2">Q</c>uant li dui compaignon se furent bien aaisié, il alerent
                dormir. Et quant ce vint au matin, il se leverent et firent prendre garde a leur
                plaiess, qui moult bien guerissoient, ce leur sembloit. Et furent <cb n="b"/> toute jour
@@ -986,7 +986,7 @@
                qui estoit el lit. Dont sont andui issu de la chambre, et Dyalogus s’est assis delez
                lui et li dist : « Sire, tornez vous. » Dont ne li a mie cil respondu, qu’il ne l’a
                pas oÿ. A l’autre foiz l’a si haut escrié que cil qui dehors l’atendoient s’en sont
-               gabé. <cb n="c"/> 174 <c ana="lettrine 2">Q</c>uant Ydoine oÿ Dyalogus, si li a demandé qui
+               gabé. <cb n="c"/></p>  <p ana="P174"><c ana="lettrine 2">Q</c>uant Ydoine oÿ Dyalogus, si li a demandé qui
                il estoit. « Je sui, dist il, <num>i</num> chevalier malfaiteur. » Et dont li a
                commencié a compter moult de douleurs que il avoit faites et de teles qui onques de
                lui n’avoient esté assouvies, mais ce disoit il pour lui tempter, meesmement comment
@@ -995,7 +995,7 @@
                n’est mie si bien fait comme une fine merveille, mes ainssi me plaist. » Dont li dist
                Ydonies (sic) : « Dont n’en estes vous mie repentanz ? « Oïl, dist il, en tele
                maniere que je voudroie ja tenir les autres .II. qui hier nous eschaperent en tele
-               maniere que jamais jour de ma vie ne deusse bien faire ! » 175 <c ana="lettrine 2"
+               maniere que jamais jour de ma vie ne deusse bien faire ! »</p>  <p ana="P175"><c ana="lettrine 2"
                   >Q</c>uant Ydonie l’a entendu, si a fait le signe de la vraie crois seur lui et li
                dist : « Va de ci avenu. Je te conjur de par celui que j’ai servi grant temps que tu
                n’aies nul pooir de ceenz plus arrester, se ainssi n’est que tu aies volenté de toi
@@ -1008,7 +1008,7 @@
                vous mie : on ne doit mie faire touz les maus que on porroit, car sachiez que il sont
                bonne gent. » « Pour ce, dist li desloiaus, que je sai que il sont bonne gent le
                voudroie je faire ! » Atant ont remonté Dyalogus et se sont d’ilec partiz par tele
-               aventure com vous avez oÿ. 176 <c ana="lettrine 2">Q</c>uant li dui compaignon ont ce
+               aventure com vous avez oÿ.</p> <p ana="P176"> <c ana="lettrine 2">Q</c>uant li dui compaignon ont ce
                veu, si ont dit que Diex les avoit visitez par biau miracle, et si distrent qu’il ne
                se devoient mie desesperer pour chose qui avenue leur fust quant Diex les avoit
                delivrez de ceulz qui pour occirre les queroient et
@@ -1060,7 +1060,7 @@
                les a fait souper tant que il furent bien servi a leur volenté et de bonnes viandes.
                [f. 165] Quant il orent soupé, si leur a enquis la pucele comment il avoient
                esploitié depuis que il se partirent de leens. « Par foi, damoisele, dist Mirrus,
-               volentiers le vous dirai. » 177 D[lettrine2]ont ne volt lessier que, tout en cele
+               volentiers le vous dirai. »</p>  <p ana="P177"><c ana="lettrine2">D</c>ont ne volt lessier que, tout en cele
                maniere comme avenu li estoit depuis que d’ilec s’estoit departiz, que tout ne li ait
                compté de chief en chief. Quant la pucele l’entendi, si a geté moult granz souspirs
                et loa moult Nostre Seigneur de touz ses consentemenz et dist : « Biaus sire Diex,
@@ -1082,7 +1082,7 @@
                garçons qui eschapa des traïteurs quant li .VIII. furent occis de leur compaignie
                sanz leur garçons, et cilz s’en vint par fiere aventure par divers paÿs en Frise.
                [rubrique/début]Comment le garçon eschapa des traïteurs et s’en ala en Frise a
-               Japhus, le filz au roy de Frise.[rubrique/fin] 178 C[lettrine7]i endroit dit li
+               Japhus, le filz au roy de Frise.[rubrique/fin]</p>  <p ana="P178"><c ana="lettrine7">C</c>i endroit dit li
                comptes que, quant li garçons fu eschapez des traïteurs, il a tant alé que d’une part
                que d’autre que il est venus en Frise. Adont a enquis ou il trouveroit Japhus, le
                filz au roy de Frise. Il li fu enseignié en <num>i</num> chastel, et cilz ne fina
@@ -1107,7 +1107,7 @@
                Dyalogus et comment Gasus l’en delivra, et puis
                aprés comment il se partirent de Costentinnoble et s’en vindrent en la Forest de
                Vulgue, et la furent [exponctué/début]i[exponctué/fin] mort et occis de celui
-               Ascanus, <cb n="d"/> qui a l’aler les avoit fait gaitier, si comme il cuidoit 179 <c
+               Ascanus, <cb n="d"/> qui a l’aler les avoit fait gaitier, si comme il cuidoit</p>  <p ana="P179"><c
                   ana="lettrine 2">Q</c>uant li baron ont celui entendu, si ont fait moult grant
                duel et moult piteus. Qui dont oïst Helcanus comment il les regretoit, il ne fust nus
                qui grant pitié n’en deust avoir. Meismes Mirrus regretoit il tant piteusement que ce
@@ -1117,7 +1117,7 @@
                que touz furent sorpris, et devant et desriere, et que bien furent .C. seur eulz .X.
                Et quant il oÿrent ce, si sorent bien que il s’estoient mis a desfense et que avant
                se feissent occirre qu’il se fussent rendu. « Par Dieu, dist Helcanus, ce est tout
-               voir. » 180 « S[lettrine2]ire, dist li dus de Lemborc, bien est drois que on ait
+               voir. »</p>  <p ana="P180">« <c ana="lettrine2">S</c>ire, dist li dus de Lemborc, bien est drois que on ait
                conseil de ceste chose. » Dont parla Elyodorus : « Merveilles ai, dist il, que nous
                n’avons encore nul de ceulz qui alerent aus princes. Il ne puet estre, dist il, que
                nous n’en aions nouveles temprement. » « Par foi, dist Helcanus, mar en quier oïr
@@ -1140,7 +1140,7 @@
                mon seigneur de pere et vous humelierez contre lui et li dites que il ne vous doit
                faillir au besoing et que il mete conseil en ceste chose, et je sai vraiement que il
                le fera. Et se ainssi estoit que il ne le feist, je et mes freres en ferions nostre
-               pooir. » « Biaus cousins, ce dist Helcanus, grans mercis ! » 181 D[lettrine2]ont
+               pooir. » « Biaus cousins, ce dist Helcanus, grans mercis ! »</p>  <p ana="P181"><c ana="lettrine2">D</c>ont
                orent conseil que il yroient au roy et parleroient a lui. Il s’apresterent l’endemain
                et n’ont finé, si vindrent la ou li roys estoit. Et quant il furent la venu, si li
                ont acointié <cb n="f"/> ceste chose, comment Pelyarmenus avoit esploitié de messages et
@@ -1152,7 +1152,7 @@
                qu’il en merciast son pere, et il si fist de ce que il pot. Adont se mistrent d’une
                part et orent conseil que il envoieroient par tout le roiaume la ou il porroient gent
                avoir, et il si firent, et que le tresor le roi estoit habandonnez a touz ceulz qui
-               avoir en vouloient. 182 D[lettrine2]ont furent moult esmeuz par toute la terre et en
+               avoir en vouloient.</p>  <p ana="P182"><c ana="lettrine2">D</c>ont furent moult esmeuz par toute la terre et en
                mistrent en poi de tens a leur volenté pour mouvoir du jour a l’endemain .XXXVI.
                mille. Quant li dus de Lembourc vit ce, si en fu moult joians et dist que de la seue
                part en avroit bien .X[exposant/début]M[exposant/fin], que chevaliers que sergens,
@@ -1166,7 +1166,7 @@
                Clyodorus, je yrai el message, se il vous plest. » « Par Dieu, dist il, amis, et je
                l’otroi. » Dont li fu li messages enchargiez, et il s’est aprestez, o lui
                   <num>i</num> escuier et <num>i</num> garçon sanz plus, mais sanz armes n’i volt il
-               mie aler, car Helcanus li conseilla. 183 <c ana="lettrine 2">E</c>n tele maniere se
+                  mie aler, car Helcanus li conseilla.</p>  <p ana="P183"><c ana="lettrine 2">E</c>n tele maniere se
                mist Clyodorus en son chemin, et li autre demorerent, qui de jour en jour atendoient
                response des princes de Costentinnoble. Ne demoura que, .VIII. jours aprés, que .III.
                messages vindrent, qui Grece avoient cerchiee et aportoient la response
@@ -1181,7 +1181,7 @@
                contraires de jusques a la mort. De ceulz y ot le plus qui ce li ont mandé, et si en
                y ot d’autres qui le contraire remanderent, mais il ne voudrent mie que <cb n="b"/> touz le
                seussent que hardiement venist contre Pelyarmenus a bataille, et il li aideroient, de
-               ce fust il touz fiz. 184 <c ana="lettrine 2">Q</c>uant Helcanus oÿ ce, si dist que il
+               ce fust il touz fiz.</p>  <p ana="P184"><c ana="lettrine 2">Q</c>uant Helcanus oÿ ce, si dist que il
                n’i avoit el que cil qui aidier li voudroient s’appareillassent, car plus ne
                vouloient atendre de aler sus <persName key="Pelyarmenus">Peliarmenus</persName>, et premierement sus Ascanus, car la estoit
                li passages. Dont se mist li dus au chemin et dist qu’il apresteroit sa gent si
@@ -1192,8 +1192,8 @@
                dedenz .XV. jours .XL. mille. Ce fu. .IIII. mille plus que il n’en cuidoit avoir du
                mandement premier, mais aussi comme tout le paÿs le suivoit pource qu’il avoit le non
                d’estre larges. Il en vindrent a la mer et trouverent les nes prestes. Dont entrerent
-               enz et orent bon vent a leur volenté, et n’ont finé, si sont arrivé et venu a terre.
-               185 D[lettrine2]ont sont les nouveles courues parmi Alemaingne et par les terres que
+               enz et orent bon vent a leur volenté, et n’ont finé, si sont arrivé et venu a terre.</p>
+            <p ana="P185"><c ana="lettrine2">D</c>ont sont les nouveles courues parmi Alemaingne et par les terres que
                Frison estoient hors issu pour aler en Grece. Et les nouveles vindrent la et estoient
                aussi comme tout pourveu, comme cil qui de jour en jour n’atendoient autre chose.
                Ascanus, qui bien savoit que il aroit a faire <cb n="c"/> au premier assaut, a fait sa gent
@@ -1208,7 +1208,7 @@
                aroie a faire, car avant que je me taise cuit je bien anuier avant que j’aie raconté
                les grans assaus et les grans paines que Helcanus et li sien souffrirent, avant que
                .VII. anz fussent passe que il furent en Grece, avant que il eussent gueres de repos
-               ne de sejour. 186 H[lettrine2]elcanus et son cousin ne finerent, ainz vindrent la
+               ne de sejour.</p>  <p ana="P186"><persName key="Helcanus"><c ana="lettrine2">H</c>elcanus</persName> et son cousin ne finerent, ainz vindrent la
                terre destrui[exponctué/début]s[exponctué/fin]sant et le paÿs et touz ceulz qui
                contre eulz estoient, et oïrent parler que Ascanus avoit o lui sa baronnie en la cité
                de Nise. Dont ne voudrent lessier que il ne se meissent cele part. Il ont tant alé
@@ -1240,7 +1240,7 @@
                uns princes d’Ytalie, qui Argus avoit non, qui la premiere bataille avoit, si
                esforcieement si aida lui et li sien que moult donnerent a souffrir a Nazareuz et aus
                siens. Que vous diroie je ? Tant ont li <num>i</num> et li autre chaplé que moult
-               sont las et travaillié. 187 A[lettrine2]dont s’est Heleus feru en la bataille, lui et
+                  sont las et travaillié.</p>  <p ana="P187"><c ana="lettrine2">A</c>dont s’est Heleus feru en la bataille, lui et
                les siens. Et d’autre part y est venuz Carus. Cil estoit freres Ascanus. Cil avoit o
                lui .V. chevaucheures. Quant cil se furent mis el tas, dont y peust on veoir des mors
                a grant foison en la plaine. Melior, qui les rens aloit assez cerchant, n’estoit pas
@@ -1248,7 +1248,7 @@
                et Dyalogus. A celui estour eust esté pais de Dyalogus le traitre se n’eussent esté
                li sien, qui le secorurent. Moult se maintenoient l’une partie et l’autre bien, et
                tant que ce vint a la parfin que la gent Ascanus furent au dessouz, si comme l’en pot
-               bien veoir. 188 <c ana="lettrine 2">Q</c>uant li auquant virent ce, si se sont mis
+               bien veoir.</p>  <p ana="P188"><c ana="lettrine 2">Q</c>uant li auquant virent ce, si se sont mis
                avant. Meismes Helcanus et li sien ne voudrent plus souffrir que il ne soient
                desrengié et feru en la bataille. Qui dont veist Helcanus sa terre chalengier, bien
                peust dire : « Cilz n’a cure que <cb n="f"/> nul tort l’en li face ! », car il aloit par la
