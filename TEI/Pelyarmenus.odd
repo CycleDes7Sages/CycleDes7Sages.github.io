@@ -523,7 +523,7 @@
           
           <elementSpec ident="add" module="core" mode="change">
             <attList>
-              <attDef ident="place" mode="change" usage="req">
+              <attDef ident="place" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="below"/>
                   <valItem ident="above"/>
