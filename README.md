@@ -1,4 +1,4 @@
-# Présentation du projet du C7S
+# Présentation du projet C7S
 
 Le projet Canoniser les Sept Sages de Rome (C7S) vise l'étude du cycle de romans de continuations du _Roman des Sept Sages de Rome_.
 Il est co-financé par le FNS (Suisse) et le FNRS (Wallonie-Bruxelles).
