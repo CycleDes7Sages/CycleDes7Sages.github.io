@@ -815,7 +815,7 @@
                   <rdg wit="#G">s'en vint</rdg>
                   <!-- apparat : garder cette var? -->
                </app> a <persName key="Pelyarmenus">Pelyarmenus</persName> et li dist que <said
-                  aloud="true" direct="false">tel<!-- apparta non : tele B --> gent estoient venu a
+                  aloud="true" direct="false">tel<!-- apparat non : tele B --> gent estoient venu a
                   la porte, <app>
                      <lem wit="#V2 #G #X2">se il vouloit qu’il <app>
                            <lem wit="#V2 #X2">y</lem>
@@ -924,7 +924,7 @@
                   direct="true"><app>
                      <lem wit="#V2 #G #X2"><persName key="Helcanus"><c ana="lettrine2"
                            >H</c>elcanus</persName></lem>
-                     <rdg wit="#B">E Helacnus</rdg>
+                     <rdg wit="#B">E Helcanus</rdg>
                   </app>, premiers engendrez des filz <persName key="Cassidorus"
                      >Cassydorus</persName>, empereour de Coustentinoble et de
                   Romme<!-- apparat des filz a l'empereur cassidorus de romme et de constentinnoble B -->,
@@ -1368,9 +1368,9 @@
                <said aloud="true" direct="false">l’aventure comment il avoient fait la bataille
                   entre lui et <persName key="Helcanus">Helcanus</persName>, li uns pour <persName
                      key="Seigneur de Mal Pas">le seigneur de <placeName key="Mal Pas">Mal
-                        Pas</placeName></persName><!-- rs ou persName? --> et li autres p‹...›[o]ur
-                     <rs type="person" key="Damoiselle du Vieux Char">la pucelle du <placeName
-                        key="Vieux Char">Viez Char</placeName></rs>, <said who="#nar">et tout
+                        Pas</placeName></persName> et li autres p‹...›[o]ur <rs type="person"
+                     key="Damoiselle du Vieux Char">la pucelle du <placeName key="Vieux Char">Viez
+                        Char</placeName></rs>, <said who="#nar">et tout
                      aussi<!-- apparat : ainsi BG --> comme il est dit devant ou compte</said>, et
                   comment <persName key="Cliodorus">Clyodorus</persName> le trouva et lui avec euls, <app>
                      <lem wit="#V2 #G #X2">qui</lem>
@@ -1415,10 +1415,14 @@
                   <del rend="exponctuation" hand="#main1">ele</del> soit en celle praerie ci de
                   ‹...›[h]ors. Et mandez a <persName key="Gasus">Gasus</persName> que <app>
                      <lem wit="#V2 #G #X2">il <app>
-                           <lem wit="#V2 #G">face <app><lem wit="#V2">si</lem><rdg wit="#G">mq</rdg></app> bien ordener</lem>
+                           <lem wit="#V2 #G">face <app>
+                                 <lem wit="#V2">si</lem>
+                                 <rdg wit="#G">mq</rdg>
+                              </app> bien ordener</lem>
                            <rdg wit="#X2">il ordenne si bien</rdg>
                         </app> la chose <app>
-                           <lem wit="#V2 #X2">et si a point</lem><!-- est-ce bien rendu qu'il manque slm dans G "et si a point -->
+                           <lem wit="#V2 #X2">et si a point</lem>
+                           <!-- est-ce bien rendu qu'il manque slm dans G "et si a point -->
                            <rdg wit="#G">mq</rdg>
                         </app></lem>
                      <rdg wit="#B">il aparaut si bien la chose et si ordeneement</rdg>
@@ -1598,7 +1602,7 @@
                   </app> garder</said>. Et celle <app>
                   <lem wit="#V2">manie (sic)</lem>
                   <rdg wit="#B #G">mesnie</rdg>
-                     <rdg wit="#X2">maisnie</rdg>
+                  <rdg wit="#X2">maisnie</rdg>
                   <!-- maisnie -->
                </app> furent bien <num>ii<hi rend="exp">c</hi></num>, que gentil <app>
                   <lem wit="#V2 #B">homme</lem>
@@ -1714,7 +1718,8 @@
                   <lem wit="#V2 #B"><app>
                         <lem wit="#V2">En tele maniere <app>
                               <lem wit="#V2 #B">comme je vous ai dit</lem>
-                              <rdg wit="#X2">mq</rdg><!-- est-ce bien rendu que "en tele maniere avoir "X2 / Ainsi avoit B -->
+                              <rdg wit="#X2">mq</rdg>
+                              <!-- est-ce bien rendu que "en tele maniere avoir "X2 / Ainsi avoit B -->
                            </app></lem>
                         <rdg wit="#B">Ainsi</rdg>
                      </app> avoit g<add place="above" hand="#main2">r</add>a<del
@@ -1782,7 +1787,8 @@
                   <lem wit="#V2">il priassent <app>
                         <!-- ling : emploi de il pour el -->
                         <lem wit="#V2 #X2">que</lem>
-                        <rdg wit="#G">mq</rdg> <!-- est-ce qu'on comprend qu'il ne manque ici que "que" dans G -->
+                        <rdg wit="#G">mq</rdg>
+                        <!-- est-ce qu'on comprend qu'il ne manque ici que "que" dans G -->
                      </app></lem>
                   <rdg wit="#B">mq</rdg>
                </app> Dieus <app>
@@ -1817,7 +1823,8 @@
                               </app></lem>
                            <rdg wit="#B">mq</rdg>
                         </app></lem>
-                     <rdg wit="#X2">mq</rdg><!-- est-ce qu'on comprend que "en toute l'assemblé" mq dans X2? -->
+                     <rdg wit="#X2">mq</rdg>
+                     <!-- est-ce qu'on comprend que "en toute l'assemblé" mq dans X2? -->
                   </app> seur la vie <app>
                      <lem wit="#V2 #B #G">perdre</lem>
                      <rdg wit="#X2"><del hand="#main1" rend="exponctuation">s</del>perdre</rdg>
@@ -1865,106 +1872,326 @@
                   défendre Helcanus </figDesc>
             </figure>
             <cb n="d"/>
+            <note type="apparat">Pas de § et pas de rubrique #B</note>
+            <p n="P152"><said who="#nar"><app>
+                     <lem wit="#V2 #G #X2"><c ana="lettrine6">C</c>i endroit dit li comptes
+                        que</lem>
+                     <rdg wit="#B">mq</rdg>
+                  </app>, quant li dui <app>
+                     <lem wit="#V2 #G #X2">chevalier</lem>
+                     <rdg wit="#B">champion</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#V2- #G #X2"><persName key="Mirus">Myrus</persName> et <persName
+                           key="Malcuidant">Malquidant</persName></lem>
+                     <rdg wit="#B">mq</rdg>
+                  </app> furent ou champ <app>
+                     <lem wit="#V2 #G #X2">en la maniere comme <app>
+                           <lem wit="#V2">dist</lem>
+                           <rdg wit="#G #X2">dit</rdg>
+                        </app> est devant</lem>
+                     <rdg wit="#B">ainsi</rdg>
+                  </app>, <persName key="Mirus">Myrus</persName> s’en vint a <persName
+                     key="Pelyarmenus">Pelyarmenus</persName> moult <app>
+                     <lem wit="#V2 #G #X2">affaitieement</lem>
+                     <rdg wit="#B">a. sus son cheval</rdg>
+                  </app><!-- apparat afaitiement BG --> et li dist:</said>
+               <said aloud="true" direct="true">Sire, veez me<!-- moi B --> ci l’escu au col, le
+                  glaive el poing, l’elme lacié, armé de toutes armes comme chevalier le puet mieus
+                  faire, si comme pour moustrer <app>
+                     <lem wit="#V2 #G #X2">la besoingne <app>
+                           <lem wit="#V2 #X2">de <app>
+                                 <lem wit="V2">mon</lem>
+                                 <rdg wit="#X2">son</rdg>
+                              </app> seigneur</lem>
+                           <rdg wit="#G">demonstrer</rdg>
+                           <!-- bien rendu "la besoigne demonstrer" G au lieu de "la b. de mon seigneur" -->
+                        </app>, <app>
+                           <lem wit="#V2 #G">qui ça m’a envoié</lem>
+                           <rdg wit="#X2">mq</rdg>
+                        </app></lem>
+                     <rdg wit="#B">la b. et le mesage son seigneur</rdg>
+                  </app>. Et s’il estoit nuls qui vousist dire que <app>
+                     <lem wit="#V2 #G #X2">bien ne <app>
+                           <lem wit="#V2 #G">l’eust</lem>
+                           <rdg wit="#X2">l'eusse</rdg>
+                        </app> fait et que</lem>
+                     <rdg wit=" #B">je bien ne l'aie fait et</rdg>
+                  </app> le mandement que je vous ai <app>
+                     <lem wit="#V2 #B #X2">aporté</lem>
+                     <rdg wit="#G">porté</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#V2 #G">de par lui</lem>
+                     <rdg wit="#B #X2">mq</rdg>
+                  </app> ne soit<!-- n'estoit G --> couvenables <app>
+                     <lem wit="#V2 #G">et sousfisans</lem>
+                     <rdg wit="#B #X2">mq</rdg>
+                  </app> et que onques ne vint de traïtour ne d’omme
+                  nul<!-- apparat : mq nul BX2 --> qui ne soit <app>
+                     <lem wit="#V2 #G #X2">loiaus et</lem>
+                     <rdg wit="#B">mq</rdg>
+                  </app> souffisanz, je sui cilz qui le ferai de mon cors contre le sien
+                  estable.</said> Dont s’en vint <persName key="Malcuidant">Malquidant</persName> a
+               lui et li dit: <said aloud="true" direct="true">Sire,
+                  vez<!-- apparat : veez moi B --> me ci<!-- apparat : mq "ci" B -->
+                  tout<!-- tout mq BX2 --> prest, qui di et ferai estable que
+                  celui<!-- appart "cil" BX2 --> qui <app>
+                     <lem wit="#V2 #G #X2">cest</lem>
+                     <rdg wit="#B">tel</rdg>
+                  </app> mandement vous a envoié a creu conseil de felon <app>
+                     <lem wit="#V2 #G #X2">traïtour</lem>
+                     <rdg wit="#B">et de traïteur</rdg>
+                  </app> et que vous ne feistes onques <app>
+                     <lem wit="#V2 #G">a nul jour</lem>
+                     <rdg wit="#B #X2">mq</rdg>
+                  </app> envers lui ne envers<!-- vers lui en vers..B --> les siens <app>
+                     <lem wit="#V2 #G #X2">chose nule dont il vous deust <app>
+                           <lem wit="#V2 #G">en nule maniere</lem>
+                           <rdg wit="#X2">mq</rdg>
+                        </app> tel mandement envoier</lem>
+                     <rdg wit="#B">par quoi il vous deust avoir envoié tel mant</rdg>
+                  </app>. Et si di que cilz qui le vuelt faire couvenable est traitres <app>
+                     <lem wit="#V2 #G #X2">et</lem>
+                     <rdg wit="#B">mq</rdg>
+                  </app> mauvais, et l’en rendrai en cest jour <app>
+                     <lem wit="#V2 #G #X2">recreant</lem>
+                     <rdg wit="#B">corpable</rdg>
+                  </app><!-- apparat : en cest jour V2 / hui en cest jour B -->
+                  <app>
+                     <lem wit="#V2 #G">devant vous</lem>
+                     <rdg wit="#B #X2">mq</rdg>
+                  </app>, ou <cb n="e"/> je meismes <app>
+                     <lem wit="#V2 #G #X2">demourrai</lem>
+                     <rdg wit="#B">y d.</rdg>
+                  </app> pour tel comme je di.</said></p>
             <note type="apparat">Pas de § #B</note>
-            <p n="P152"><said who="#nar"><c ana="lettrine6">C</c>i endroit dit li comptes que, quant
-                  li dui chevalier <persName key="Mirus">Myrus</persName> et <persName
-                     key="Malcuidant">Malquidant</persName> furent ou champ en la maniere comme dist
-                  est devant, <persName key="Mirus">Myrus</persName> s’en vint a <persName
-                     key="Pelyarmenus">Pelyarmenus</persName> moult affaitieement et li dist:</said>
-               <said aloud="true" direct="true">Sire, veez me ci l’escu au col, le glaive el poing,
-                  l’elme lacié, armé de toutes armes comme chevalier le puet mieus faire, si comme
-                  pour moustrer la besoingne de mon seigneur, qui ça m’a envoié. Et s’il estoit nuls
-                  qui vousist dire que bien ne l’eust fait et que le mandement que je vous ai aporté
-                  de par lui ne soit couvenables et sousfisans et que onques ne vint de traïtour ne
-                  d’omme nul qui ne soit loiaus et souffisanz, je sui cilz qui le ferai de mon cors
-                  contre le sien estable.</said> Dont s’en vint <persName key="Malcuidant"
-                  >Malquidant</persName> a lui et li dit: <said aloud="true" direct="true">Sire, vez
-                  me ci tout prest, qui di et ferai estable que celui qui cest mandement vous a
-                  envoié a creu conseil de felon traïtour et que vous ne feistes onques a nul jour
-                  envers lui ne envers les siens chose nule dont il vous deust en nule maniere tel
-                  mandement envoier. Et si di que cilz qui le vuelt faire couvenable est traitres et
-                  mauvais, et l’en rendrai en cest jour recreant devant vous, ou <cb n="e"/> je
-                  meismes demourrai pour tel comme je di.</said></p>
-            <p n="P153"><c ana="lettrine 2">Q</c>uant il orent ce dit, si fist on le ban, qu’il n’i
-               eust nul si hardi qui n’isist du champ fors que ceulz qui combatre se devoient. Il
-               firent moult bien cestui commandement, quar nuls n’i demoura fors les <num>ii</num>
-               champions qui combatre se devoient et <num>iiii</num> autres : l’uns fu <persName
-                  key="Pelyarmenus">Pelyarmenus</persName>, et <rs type="person" key="Gasus">le
-                  baillif</rs><!-- revoir si bien lui -->, et <num>ii</num> haus
-               hommes<!-- identifier --> qui estoient des plus gentilz seigneurs de toute la cité de
-                  <placeName key="Constantinople">Constentinnoble</placeName>, qui aussi bien
-               estoient de l’une partie comme de l’autre. Et si sachiez tout certainnement que,
-               quant la bataille dut estre commenciee, que li dui chevalier furent mis d’une part et
-                  <persName key="Pelyarmenus">Pelyarmenus</persName> et <rs type="person"
-                  key="Gasus">le baillif</rs><!-- revoir si bien lui --> de l’autre part.</p>
-            <p n="P154"><c ana="lettrine2">D</c>ont furent maintenant d’euls quatre mis li doi
-               chevalier<!-- identifier --> en leur lieu<unclear reason="faded"
-               >...</unclear><!-- ok pour reason? -->. Dont se sont merveilleusement noblement poli
-               en leur armes. Et sachiez que d’eulz <num>ii</num> ne peust on onques nul jour de
-               cest monde atendre nule plus cruel bataille ne nule plus fiere, quar, quant ce vint
-               aus chevaus poindre des esperons, il orent les escus embraciez et les glaives
-               empoingniés. Il s’entrevindrent tant aigrement li uns contre l’autre que merveilles
-               fu que on ne sot l’eure. Si se sont entrencontré si cruelment que li escu fendirent
-               et volerent em <cb n="f"/> pieces, et s’entrencontrerent de si grant vertu que li
-               cheval s’entreoccistrent, et euls meismes de corps et de pis s’entrehurterent si et
-               en tele maniere que les hiaumes leur volerent des chiés et furent adont tel mené que
-               il ne sorent en nule guise qu’il leur fu avenu. Mais gaires ne furent en tele maniere
-               et a chascuns esraument son hyaume remis en son chief moult apenseement, et puis
-               mistrent les mains aus espees et ont maintenant les escus embraciez, puis s’en
-               vindrent li uns vers l’autre en telle maniere comme se il ne s’entreredoutassent de
-               nule riens du monde.</p>
+            <p n="P153"><c ana="lettrine 2">Q</c>uant<!-- apparat : quant avec "et" suscrit --> il
+               orent ce dit, si fist on <app>
+                  <lem wit="#V2 #G #X2">le ban</lem>
+                  <rdg wit="#B">crier</rdg>
+               </app>, qu’il n’i eust nul si hardi qui n’isist du champ <app>
+                  <lem wit="#V2 #G #X2">fors</lem>
+                  <rdg wit="#B">hors</rdg>
+               </app>
+               <app>
+                  <lem wit="#V2 #G">que ceulz qui combatre se devoient</lem>
+                  <rdg wit="#B">mq</rdg>
+               </app>. Il firent moult bien<!-- mq moult BX2 -->
+               cestui<!-- linguistique : cest B --> commandement<!-- apparat ! commant B -->,
+               quar<!-- apparat : que B quer X2 --> nuls n’i demoura <app>
+                  <lem wit="#V2 #G #X2">fors les <num>ii</num> champions <app>
+                        <lem wit="#V2 #G">qui combatre se devoient</lem>
+                        <rdg wit="#X2">mq</rdg>
+                     </app></lem>
+                  <rdg wit="#B">se li dui champion non</rdg>
+               </app> et <num>iiii</num> autres : <app>
+                  <lem wit="#V2 #G">l’uns</lem>
+                  <rdg wit="#B #X2">ce</rdg>
+               </app> fu <persName key="Pelyarmenus">Pelyarmenus</persName>, et <rs type="person"
+                  key="Gasus">le<!-- apparat : li --> baillif</rs>, et <app>
+                  <lem wit="#V2 #G #X2"><num>ii</num> haus hommes<!-- identifier --> qui estoient
+                     des plus gentilz seigneurs de toute la cité de <placeName key="Constantinople"
+                        >Constentinnoble</placeName></lem>
+                  <rdg wit="#B">autre dui grant homme de C.</rdg>
+               </app>, qui aussi bien estoient de l’une partie comme de l’autre. <app>
+                  <lem wit="#V2 #G #X2">Et si sachiez tout<!-- mq tout GX2 --> certainnement que,
+                     quant la bataille dut estre commenciee, que li dui chevalier furent mis d’une
+                     part et <persName key="Pelyarmenus">Pelyarmenus</persName> et <rs type="person"
+                        key="Gasus">le baillif</rs><!-- revoir si bien lui --> de l’autre
+                     part.</lem>
+                  <rdg wit="#B">mq</rdg>
+               </app></p>
+            <!-- enluminure B -->
+            <p n="P154"><app>
+                  <lem wit="#V2 #B #X2"><c ana="lettrine2">D</c>ont</lem>
+                  <rdg wit="#G">Mont</rdg>
+               </app> furent <app>
+                  <lem wit="#V2 #G">maintenant</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+               </app> d’euls quatre mis li doi chevalier en leur lieu<unclear reason="faded"
+                  >...</unclear>. Dont se sont <app>
+                  <lem wit="#V2">merveilleusement noblement</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#G">moult noblement</rdg>
+               </app> poli en leur armes. Et sachiez que d’eulz <num>ii</num> ne peust on <app>
+                  <lem wit="#V2 #G #X2">onques</lem>
+                  <rdg wit="#B">ainç mais</rdg>
+               </app> nul<!-- mq nul BX2 --> jour de cest monde atendre
+               nule<!-- apparat mq nule BX2 --> plus cruel bataille ne nule<!-- mq nule X2 --> plus
+               fiere, <app>
+                  <lem wit="#V2 #G #X2">quar</lem>
+                  <rdg wit="#B">car il contes dit que</rdg>
+               </app>, quant ce vint aus chevaus poindre <app>
+                  <lem wit="#V2 #G">des esperons</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+               </app><!-- apparat ! et il B -->, il orent les escus embraciez et les glaives
+               empoingniés. Il <app>
+                  <lem wit="#V2 #G">s’entrevindrent</lem>
+                  <rdg wit="#B #X2">s'en vindrent</rdg>
+               </app> tant aigrement li uns contre<!-- vers BX2 --> l’autre que <app>
+                  <lem wit="#V2 #G">merveilles fu que on ne sot l’eure</lem>
+                  <rdg wit="#B #X2">l'en ne sot l'eure</rdg>
+                  <!-- aide lecture -->
+               </app>. Si se sont entrencontré<!-- si furent B entrecontréB entre contrés G--> si
+               cruelment que li escu fendirent et volerent em <cb n="f"/> pieces, et
+               s’entrencontrerent de si grant vertu que li cheval <app>
+                  <lem wit="#V2 #G #X2">s’entreoccistrent</lem>
+                  <rdg wit="#B">s'entrecontrerent de si grant vertu que li cheval
+                     s'entrocistrent</rdg>
+               </app>, et euls<!-- apparat il B --> meismes <app>
+                  <lem wit="#V2 #G #X2">de corps et de pis</lem>
+                  <rdg wit="#B">des cors et des piz</rdg>
+               </app> s’entrehurterent <app>
+                  <lem wit="#V2">si et</lem>
+                  <rdg wit="#B #G #X2">mq</rdg>
+               </app><!-- apparat si et mq BG --> en tele maniere que les hiaumes leur volerent des
+               chiés et furent <app>
+                  <lem wit="#V2 #G">adont tel</lem>
+                  <rdg wit="#B">si</rdg>
+                  <rdg wit="#X2">tel</rdg>
+               </app> mené que il ne sorent <app>
+                  <lem wit="#V2 #G">en nule guise</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+               </app> qu’il leur fu avenu. Mais gaires ne furent en tele
+               maniere<!-- apparta : en t m V2GX2 / ainsi B -->, et a chascuns <app>
+                  <lem wit="#V2 #G">esraument</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+               </app> son hyaume remis<!-- comment faire var ra... mis B mis G --> en son chief
+               moult apenseement, et puis mistrent les mains aus espees et <app>
+                  <lem wit="#V2 #G">ont maintenant</lem>
+                  <rdg wit="#B">mq</rdg>
+                  <rdg wit="#X2">ont</rdg>
+               </app> les escus embraciez, puis<!-- puis mq B --> s’en vindrent li uns vers l’autre
+               en telle<!-- autele B --> maniere comme se il ne <app>
+                  <lem wit="#V2 #G #X2">s’entreredoutassent de nule riens <app>
+                        <lem wit="#V2 #G">du monde</lem>
+                        <rdg wit="#X2">mq</rdg>
+                        <!-- du monde mq X2 -->
+                     </app></lem>
+                  <rdg wit="#B">riens ne s'entredoutassent</rdg>
+               </app>.</p>
+            <note type="apparat">Pas de § #B</note>
             <p n="P155"><c ana="lettrine2">L</c>ors peust on veoir dure escremie et pesme, quar tout
                aussi feroient li uns seur l’autre et de tel force comme se maintenant vousissent
-               morir chascuns par samblant. <persName key="Malcuidant">Malquidant</persName>, qui
-               plains estoit de tres grant chevalerie, hasta <persName key="Mirus">Myrus</persName>
-               a ce qu’il le meist du tout esraument a souffrir mort. Ce virent li auquant et bien
-               cuidoient certainnement qu’il ne deust plus mettre deffendement en lui, mais en assez
-               petit d’eure aprés pot on bien veoir la chalenge que il y mist, quar, <said
-                  who="#nar">si comme je truis lisant</said>, <persName key="Mirus"
-               >Myrus</persName>, qui avoit resorti contre <persName key="Malcuidant"
-                  >Malquidant</persName> en tele maniere, li vint seur le pis tout a <num>i</num>
-               fais et le hurta de si grant force que il l’abati tout envers en tele maniere que on
-               cuida bien que il fust crevez. <persName key="Mirus">Myrus</persName>, qui de pres le
-               hasta, li <pb n="161"/> sailli sus la poitrine en tele maniere qu’il n’ot pooir de
-               lui desfendre. La li dona il tant de cops que il li embati le hyaume en la teste. Et
-               quant il l’ot en tele maniere maistroié, si li deslacha le hyaume et puis li dist que
-                  <said aloud="true" direct="false">il se rendist recreant ou il li couperoit le
-                  chief</said>. Et cil li dist que <said aloud="true" direct="false">de lui pooit il
-                  fere son commandement, car il n’avoit pooir de lui desfendre</said>: <said
-                  aloud="true" direct="true">Dont veul je, dist <persName key="Mirus"
-                     >Mirus</persName>, que tu te desdies de ceulz que tu as apelez traitres et
-                  mauvés et de moi aussi, qui ai fait le message.</said>
-               <said aloud="true" direct="true">Ja par Dieu, dist il, ne m’avendra que pour paour de
-                  mort recevoir en soie ja desdiz.</said> Dont n’entendi <persName key="Mirus"
-                  >Myrus</persName> a el fors que tant que il en eust le chief pris et le
-               demoustrast au pueple.</p>
-            <p n="P156"><c ana="lettrine 2">Q</c>uant cil qui el parc estoient ont ce veu, si sont
-               sailli avant, et meismes <persName key="Pelyarmenus">Peliarmenus</persName>, qui de
-               ceste chose s’est moult esmerveilliez. <persName key="Gasus">Gasus</persName> et li
-               autre dui<!-- qui sont ces deux? --> sont venuz a <persName key="Mirus"
-                  >Mirrus</persName> et li distrent que <said aloud="true" direct="false">assez en
-                  avoit fait</said>. Lors sont si compaignon venuz a lui et l’ont moult conjoï comme
-               celui qu’il ne cuidassent jamais ravoir en vie. Dont commanda <persName
-                  key="Pelyarmenus">Peliarmenus</persName> que <persName key="Malcuidant"
-                  >Malquidans</persName> fust pris et portez en une abbaÿe qui pres d’ilec estoit.
-               Quant <rs type="person" key="Gasus">li bailliz</rs> oÿ ce, si ne pot aler a
-               l’encontre, car autrement en eust il fait autre chose. Et dont vint a lui uns
+               morir chascuns par samblant. <note type="apparat">Nouveau § #B</note><persName
+                  key="Malcuidant">Malquidant</persName>, qui plains estoit de tres grant
+               chevalerie, hasta <persName key="Mirus">Myrus</persName> a ce qu’il le meist <app>
+                  <lem wit="#V2 #G">du tout <app>
+                        <lem wit="#C2 #G">esraument</lem>
+                        <rdg wit="#X2">mq</rdg>
+                        <!-- apparat ! mq esraument X2 -->
+                     </app> a</lem>
+                  <rdg wit="#B">comme du t. au</rdg>
+               </app> souffrir mort. Ce virent li auquant <app>
+                  <lem wit="#V2 #G">et</lem>
+                  <rdg wit="#B #X2">qui</rdg>
+               </app> bien cuidoient<!-- cuidierentBX2 -->
+               <app>
+                  <lem wit="#V2 #G">certainnement</lem>
+                  <rdg wit="#B #X2">mq</rdg>
+               </app> qu’il ne deust plus mettre <app>
+                  <lem wit="#V2 #G #X2">deffendement</lem>
+                  <rdg wit="#B">deffense</rdg>
+               </app> en<!-- a B --> lui, mais en assez petit<!-- pou B --> d’eure aprés pot on bien
+               veoir la chalenge que il y mist, quar, <said who="#nar">si comme je truis <app>
+                     <lem wit="#V2 #B #X2">lisant</lem>
+                     <rdg wit="#G">le sang</rdg>
+                  </app></said>, <persName key="Mirus">Myrus</persName>, qui avoit resorti contre
+                  <persName key="Malcuidant">Malquidant</persName> en tele maniere, li vint seur le
+               pis tout a <num>i</num> fais et <app>
+                  <lem wit="#V2 #G #X2">le hurta de si grant force que il l’abati tout envers en
+                     tele maniere</lem>
+                  <rdg wit="#B">l'abati envers de si grant force</rdg>
+               </app> que on cuida bien que il fust crevez. <persName key="Mirus">Myrus</persName>, <app>
+                  <lem wit="#V2 #G #X2">qui de pres le hasta</lem>
+                  <rdg wit="#B">qui son cop sui (sic)</rdg>
+               </app>, li <pb n="161"/> sailli sus la
+               poitrine<!-- portrine X2? ou "i" bizarre comme pour entrartes alors qui serait bien "entraites" -->
+               en tele maniere qu’il n’ot pooir de lui desfendre. La li dona il tant de cops que il
+               li <app>
+                  <lem wit="#V2 #G #X2">embati</lem>
+                  <rdg wit="#B">embarra</rdg>
+               </app> le hyaume en la teste. Et quant il l’ot en tele
+               maniere<!-- apparat en t. m / si B --> maistroié, si li deslacha<!-- deslaça BGX2 -->
+               le hyaume et puis li dist que <said aloud="true" direct="false">il se rendist
+                  recreant ou il li couperoit le chief</said>. Et cil li<!-- mq li BX2 --> dist que
+                  <said aloud="true" direct="false">de lui pooit il fere son
+                  commandement<!-- commant B -->, car il n’avoit pooir de lui desfendre</said>:
+                  <said aloud="true" direct="true">Dont veul je, dist <persName key="Mirus"
+                     >Mirus</persName>, que tu <app>
+                     <lem wit="#V2 #G #X2">te desdies de</lem>
+                     <rdg wit="#B">desdies</rdg>
+                  </app> ceulz que tu as apelez traitres et mauvés et <app>
+                     <lem wit="#V2 #G #X2">de</lem>
+                     <rdg wit="#B">mq</rdg>
+                  </app> moi aussi, qui ai fait le message.</said>
+               <said aloud="true" direct="true">Ja par Dieu, dist il, ne
+                  m’avendra<!-- apparat "dist il " déplacé après "ne m'avendra" B --> que pour paour
+                  de mort <app>
+                     <lem wit="#V2 #G #X2">recevoir</lem>
+                     <rdg wit="#B">a recevoir</rdg>
+                  </app> en soie ja desdiz!</said> Dont <app>
+                  <lem wit="#V2 #G #X2">n’entendi</lem>
+                  <rdg wit="#B">n'atendi</rdg>
+               </app>
+               <persName key="Mirus">Myrus</persName> a el fors que
+               tant<!-- a el f. que t. V2 / fors tant B --> que il en eust<!-- ot B --> le chief
+               pris et le <app>
+                  <lem wit="#V2 #G">demoustrast</lem>
+                  <rdg wit="#B">moustra</rdg>
+                  <rdg wit="#X2">moustrast</rdg>
+               </app> au pueple.</p>
+            <p n="P156"><c ana="lettrine 2">Q</c>uant cil <app>
+                  <lem wit="#V2 #B #X2">qui el<!-- ou X2 --> parc</lem>
+                  <rdg wit="#G">quel part (sic)</rdg>
+               </app> estoient ont ce veu, si sont sailli avant, <app>
+                  <lem wit="#V2 #G #X2">et meismes</lem>
+                  <rdg wit="#B">ne fust</rdg>
+               </app>
+               <persName key="Pelyarmenus">Peliarmenus</persName>, qui de ceste<!-- cele B --> chose
+               s’est<!-- apparat fu --> moult <app>
+                  <lem wit="#V2 #G- #X2">esmerveilliez</lem>
+                  <rdg wit="#B">esbahiz</rdg>
+               </app>. <persName key="Gasus">Gasus</persName> et li autre
+               dui<!-- qui sont ces deux? --> sont venuz a <persName key="Mirus">Mirrus</persName>
+               et li distrent que <said aloud="true" direct="false">assez en avoit fait</said>. Lors
+               sont si compaignon venuz a lui et l’ont moult conjoï comme celui qu’il ne
+               cuidassent<!-- apparat : cuiderent B (changement de mode sens ici) cuidoient X2 -->
+               jamais ravoir en vie. Dont commanda <persName key="Pelyarmenus"
+                  >Peliarmenus</persName> que <persName key="Malcuidant">Malquidans</persName> fust
+               pris et portez en une abbaÿe <app>
+                  <lem wit="#V2 #G #X2">qui pres d’ilec estoit</lem>
+                  <rdg wit="#B">la pres</rdg>
+               </app>. Quant <rs type="person" key="Gasus">li bailliz</rs> oÿ ce,
+               si<!-- si / il B --> ne pot aler <app>
+                  <lem wit="#V2 #G #X2">a l’encontre</lem>
+                  <rdg wit="#B">encontre</rdg>
+               </app>, car autrement en eust il fait autre chose. Et dont vint a lui uns
                messages<!-- on veut baliser ce gus? -->, qui li dist : <said aloud="true"
                   direct="true">Sire, sachiez qu’il a grant gent embuschiez au <placeName
-                     key="Més Guichart">més Guichart</placeName>.</said>
+                     key="Més Guichart">més Guichart</placeName><!-- rs ou place Name -->.</said>
                <said aloud="true" direct="true">Qui sont il ? dist <persName key="Gasus"
                      >Gasus</persName>.</said>
-               <said aloud="true" direct="true">Sire, ce dist il, je croi que ce soit <persName
-                     key="Dialogus">Dyalogus de <placeName key="Romme"
-                  >Romme</placeName></persName>.</said> Lors fu <persName key="Mirus"
-                  >Myrus</persName> remontez sus <num>i</num> che<cb n="b"/>val, comme celui qui
-               n’avoit plaie ne bleceure dont il se dolust. Dont a fait <persName key="Gasus"
-                  >Gasus</persName> sa gent metre d’une part et leur dist qu’<said aloud="true"
-                  direct="false">il se souffrissent tant que il eust parlé a <persName
-                     key="Pelyarmenus">Peliarmenus</persName></said>. Il s’en vint a lui et li dist
-               : <said aloud="true" direct="true">Sire, on me donne a entendre que <persName
-                     key="Dialogus">Dyalogus</persName> a gens cuilliz pour faire vilanie a ces
-                  chevaliers de <placeName key="Frise"
+               <said aloud="true" direct="true">Sire, <app>
+                     <lem wit="#V2 #B">ce dist il</lem>
+                  <rdg wit="#X2">dist il</rdg>
+                     <rdg wit="#G">mq</rdg><!-- comment on préfère noter l'appaarat "ce" mq X2 var dans la var ou nouvelle variante -->
+                  </app>, je croi que ce soit <persName key="Dialogus">Dyalogus de <placeName
+                        key="Romme">Romme</placeName></persName>.</said> Lors fu <persName
+                  key="Mirus">Myrus</persName> remontez sus <num>i</num> che<cb n="b"/>val, comme
+               celui qui n’avoit plaie ne bleceure dont il se dolust. Dont<!-- Lors B --> a fait
+                  <persName key="Gasus">Gasus</persName> sa gent metre d’une part et leur dist
+                  qu’<said aloud="true" direct="false">il se souffrissent tant que il eust parlé a
+                     <persName key="Pelyarmenus">Peliarmenus</persName></said>. Il s’en vint a lui
+               et li dist : <said aloud="true" direct="true">Sire, on me <app>
+                  <lem wit="#V2 #G #X2">donne</lem>
+                     <rdg wit="#B">fet</rdg>
+                  </app> a entendre que <persName key="Dialogus">Dyalogus</persName> a gens
+                  <!-- gent B --> cuilliz pour faire vilanie<!-- vilonnie B villenie G vilanie X2 --> a ces <app>
+                     <lem wit="#V2 #B #X2">chevaliers</lem>
+                     <rdg wit="#G">gens</rdg>
+                  </app> de <placeName key="Frise"
                   >Frise</placeName><!-- baliser chevaliers de Frise? -->.</said>
                <said aloud="true" direct="true">Biau sire, dist il, et qu’en tient il a moi ?
                   Lessiez m’en em pés, bien vous en couviengne !</said></p>
