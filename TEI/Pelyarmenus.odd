@@ -413,7 +413,7 @@
 
           <elementSpec ident="hi" module="core" mode="change">
             <attList>
-              <attDef ident="rend" mode="change" usage="rec">
+              <attDef ident="rend" mode="change" usage="req">
                 <valList>
                   <valItem ident="exp">
                     <desc>indication des chiffres en exposant</desc>
