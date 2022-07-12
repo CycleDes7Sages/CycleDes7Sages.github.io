@@ -27,6 +27,12 @@
     <xsl:template match="p">
         <p><span class="paraNum">[<xsl:value-of select="substring-after(@n,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
+    <xsl:template match="pb">
+        <span class="pb">[<xsl:value-of select="substring-after(@n,'F')"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="cb">
+        <span class="cb">[<xsl:value-of select="substring-after(@n,'C')"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
     </xsl:template>
@@ -61,6 +67,9 @@
     </xsl:template>
     <xsl:template match="persName">
         <span class="persName"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="placeName">
+        <span class="placeName"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="rs">
         <span class="rs"><xsl:apply-templates/></span>
