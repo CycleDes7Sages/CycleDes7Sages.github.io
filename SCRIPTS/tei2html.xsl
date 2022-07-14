@@ -28,11 +28,10 @@
         <p><span class="paraNum">[<xsl:value-of select="substring-after(@n,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="pb">
-        <!--<span class="pb">[<xsl:value-of select="substring-after(@n,'F')"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>-->
         <span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cb">
-        <span class="cb">[<xsl:value-of select="substring-after(@n,'C')"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
+        <span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
