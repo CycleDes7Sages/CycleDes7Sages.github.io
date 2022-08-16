@@ -444,118 +444,196 @@
                 <p n="P2"><note type="apparat">Pas de marque de § #B</note><c ana="lettrine2">Q</c>uant<!-- la façon de noter les § n'est pas la même que celle qu'on a suivie pour la suite -->
                     <persName key="Dialogus">Dyagolus</persName> oÿ les norrisces qui li deman<cb
                         n="d"/>doient <app>
-                        <lem>l'enfant</lem>
+                        <lem wit="#V2 #G #X2">l'enfant</lem>
                         <rdg wit="#B">mq</rdg>
                     </app>, si fist <app>
-                        <lem>trop</lem>
+                        <lem wit="#V2 #G #X2">trop</lem>
                         <rdg wit="#B">molt</rdg>
-                    </app> le mescomté et leur dist : <said aloud="true" direct="true">Qu'en en avez
-                        vous fait ?</said> Celles si<!-- mq si B --> distrent que <said aloud="true"
+                    </app> le <app>
+                        <lem wit="#V2 #B #X2">mescomté</lem>
+                        <rdg wit="#G">mescognu</rdg>
+                    </app> et leur dist : <said aloud="true" direct="true">Qu'en avez vous fait
+                        ?</said> Celles si<!-- mq si B --> distrent que <said aloud="true"
                         direct="false">elles l'avoient laissié avec <rs type="person"
                             key="Cassidoire">sa sereur</rs>, qui <app>
-                            <lem>dist</lem>
+                            <lem wit="#V2 #G #X2">dist</lem>
                             <rdg wit="#B">disoit</rdg>
                         </app> que<said aloud="true" direct="false">
                             <app>
-                                <lem>vous l'en aviez porté entre vos bras</lem>
+                                <lem wit="#V2 #G #X2">vous l'en aviez porté entre vos bras</lem>
                                 <rdg wit="#B">il l'en avoit porté entre ses bras</rdg>
-                            </app>,</said> mais elle ne savoit ou.</said>
+                            </app>,</said> mais elle ne savoit ou.</said><!-- prendre en compte autocorrection? elles (s exponctué) savoient (ent exponctué) X2 -->
                     <said aloud="true" direct="true">Par Dieu, <app>
-                            <lem>ce</lem>
-                            <rdg wit="#B">mq</rdg>
+                            <lem wit="#V2 #X2">ce</lem>
+                            <rdg wit="#B #G">mq</rdg>
                         </app> dist <persName key="Dialogus">Dyalogus</persName>, moult estes
                         outrageuses, qui ce dites. Sachiez que se <app>
-                            <lem>vous</lem>
+                            <lem wit="#V2 #G #X2">vous</lem>
                             <rdg wit="#B">mq</rdg>
                         </app> jamais en parlez, je vous ferai destruire.</said> Dont n'i ot nulles
                     d'elles qui <app>
-                        <lem>n'eust</lem>
+                        <lem wit="#V2 #G #X2">n'eust</lem>
                         <rdg wit="#B">n'ait eu</rdg>
                     </app> moult grant paour et sorent bien et <app>
-                        <lem>aperçurent</lem>
+                        <lem wit="#V2 #G #X2">aperçurent</lem>
                         <rdg wit="#B">s'aperçurent</rdg>
                     </app> que <rs type="person" key="Dorus">li enfes</rs> estoit periz, si
                     n'oserent atendre l'aventure, ainçois s'en sont fouies. <note type="apparat"
                         >Nouveau § dans #B</note>Quant li afaires fu seüz, sachiez que moult en y ot
                     de courouciez. Meismes <rs type="person" key="Fastige">l'empereriz</rs> ne sot
-                    que faire, ainz <supplied source="#B" resp="#Brodtkorb">dist</supplied>: <said
-                        aloud="true" direct="true">Or sai je bien de voir que ceste chose sera getee
-                        seur moi, et diront li auquant que, <seg ana="discoursEnchassé">se <app>
-                                <lem>il</lem>
+                    que faire, ainz <supplied source="#B" resp="#Brodtkorb"
+                    >dist</supplied><!-- G aussi mq dist / dist X2 -->: <said aloud="true"
+                        direct="true">Or sai je bien de voir que ceste chose sera getee seur moi, et
+                        diront li auquant que, <seg ana="discoursEnchassé">se <app>
+                                <lem wit="#V2 #G #X2">il</lem>
                                 <rdg wit="#B">ce</rdg>
                             </app> fust miens, <app>
-                                <lem>que ainssi n'en fust mie avenu comme il est ore</lem>
-                                <rdg wit="#B">ce n'en fust mie avenu qu'il en est ore</rdg>
+                                <lem>que ainssi <app>
+                                        <lem wit="#V2 #B #X2">n'en</lem>
+                                        <rdg wit="#G">ne</rdg>
+                                    </app> fust mie avenu comme il est <app>
+                                        <lem wit="#V2 #X2">ore</lem>
+                                        <rdg wit="#G">a ore</rdg>
+                                    </app></lem>
+                                <rdg wit="#B">ce n'en fust mie avenu qu'il en est ore avenu</rdg>
                             </app></seg>.</said> Et sanz faille <app>
-                        <lem>trop</lem>
+                        <lem wit="#V2 #G #X2">trop</lem>
                         <rdg wit="#B">que trop</rdg>
-                    </app> dolante elle en estoit. Mais cil qui plus dolans en estoit par samblant,
-                    ce estoit <persName key="Dialogus">Dyalogus</persName>. Ycilz<!-- Et cilz B -->
-                    fist crier par toute <placeName key="Rome">Romme</placeName> que <said
-                        aloud="true" direct="false">se il estoit nuls ne nulle qui nouvelle en <app>
-                            <lem>seust</lem>
+                    </app> dolante <app>
+                        <lem wit="#V2 #G #X2">elle</lem>
+                        <rdg wit="#B">mq</rdg>
+                    </app> en estoit. Mais cil qui plus dolans en estoit par samblant, ce estoit
+                        <persName key="Dialogus">Dyalogus</persName>. Ycilz<!-- Et cilz B --> fist
+                    crier par toute <placeName key="Rome">Romme</placeName> que <said aloud="true"
+                        direct="false">se il estoit nuls <app>
+                            <lem wit="#V2 #G">ne nulle qui nouvelle</lem>
+                            <rdg wit="#B">qui nule nouvele</rdg>
+                            <rdg wit="#X2">nulle qui nouvelle</rdg>
+                        </app> en <app>
+                            <lem wit="#V2 #G #X2">seust</lem>
                             <rdg wit="#B">seust dire</rdg>
                         </app>, venist avant <app>
-                            <lem>et</lem>
+                            <lem wit="#V2 #G #X2">et</lem>
                             <rdg wit="#B">mq</rdg>
                         </app> il li donroit <num>c</num> besanz <app>
-                            <lem>d'or</lem>
+                            <lem wit="#V2 #G #X2">d'or</lem>
                             <rdg wit="#B">mq</rdg>
                         </app>.</said></p>
-                <p n="P3"><note type="apparat">Pas de marque de § #B</note><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li
-                        peschieres</rs> oÿ ce dire, si vint a <rs type="person"
-                        key="Femme du Pêcheur">sa femme</rs> et li dist que <said aloud="true"
-                        direct="false">tel ban avoit oÿ.</said>
-                    <said aloud="true" direct="true">Biau frere, dist ele, ne t'en chaut. J'aime <rs
-                            type="person" key="Dorus">l'enfant</rs> miex que je ne fais les
-                        besanz.</said>
-                    <said aloud="true" direct="true">Va, dist il, chaitive, n'as tu assez enfanz es
-                        tiens ? Qu'en as tu a faire ?</said> Dont vint cil a <persName
-                        key="Dialogus">Dyologus</persName> et li dist : <said aloud="true"
-                        direct="true">Sire, se vous vouliez tenir la couvenance que vous avez faite
-                            <cb n="e"/>crier parmi <placeName key="Rome">Romme</placeName>, bones
-                        nouveles vous diroie de <rs type="person" key="Dorus">l'enfant</rs>.</said>
-                    Quant <rs type="person" key="Dialogus">li mauvais</rs> oÿ ce, si fu touz esbahiz
-                    et a celui trait d'une part et li dist : <said aloud="true" direct="true">Di
-                        moi, quelles novelles me diras tu ?</said>
-                    <said aloud="true" direct="true">Sire, dist il, j'aloie parmi l'yaue pour
-                        peschier, si vins pres du lieu ou <rs type="person" key="Dorus">li
-                            enfes</rs> chaÿ et fis tant que je le pris et l'emportai en ma maison,
-                        et le baillai a <rs type="person" key="Femme du Pêcheur">ma femme</rs> a
-                        garder. Or le vous renderai, mais que les couvenances me fussent tenues que
-                        vous avez faites crier.</said>
+                <p n="P3"><note type="apparat">Pas de marque de § #B</note><c ana="lettrine2"
+                    >Q</c>uant <rs type="person" key="Pêcheur">li peschieres</rs> oÿ <app>
+                        <lem>ce</lem>
+                        <rdg wit="B"/>
+                    </app> dire, si vint a <rs type="person" key="Femme du Pêcheur">sa femme</rs> et
+                    li dist que <said aloud="true" direct="false">tel ban avoit oÿ.</said>
+                    <said aloud="true" direct="true">Biau frere, dist ele, ne t'en chaut. <app>
+                            <lem>J'aime <rs type="person" key="Dorus">l'enfant</rs> miex</lem>
+                            <rdg wit="#B">Mieus aimme l'enfant</rdg>
+                        </app> que je ne fais les besanz.</said>
+                    <said aloud="true" direct="true">Va, dist il,
+                        chaitive,<!-- garder ordre mots : "Va, chaitive, dist il --> n'as tu assez
+                        enfanz es tiens ? Qu'en as tu a faire ?</said> Dont vint cil a<!-- dire "a" suscrit dans B? -->
+                    <persName key="Dialogus">Dyologus</persName> et li dist : <said aloud="true"
+                        direct="true">Sire, se vous <app>
+                            <lem>vouliez</lem>
+                            <rdg wit="#B">me vouliez</rdg>
+                        </app> tenir la couvenance que vous avez <app>
+                            <lem>faite</lem>
+                            <rdg wit="#B">fait</rdg>
+                        </app>
+                        <cb n="e"/>crier parmi <placeName key="Rome">Romme</placeName>,
+                        bones<!-- boines B --> nouveles vous diroie de <rs type="person" key="Dorus"
+                            >l'enfant</rs>.</said> Quant <app>
+                        <lem wit="#V2"><rs type="person" key="Dialogus">li mauvais</rs></lem>
+                        <rdg wit="#B">li mauvais Dyalogus</rdg>
+                    </app> oÿ ce, si fu touz esbahiz et <app>
+                        <lem>a</lem>
+                        <rdg wit="#B">donc a</rdg>
+                    </app> celui <app>
+                        <lem>trait</lem>
+                        <rdg wit="#B">atrait</rdg>
+                    </app> d'une part et li dist : <said aloud="true" direct="true">Di moi, quelles
+                        novelles me diras tu ?</said>
+                    <said aloud="true" direct="true">Sire, dist il, <app>
+                            <lem>j'aloie</lem>
+                            <rdg wit="#B">je m'en aloie</rdg>
+                        </app>
+                        <app>
+                            <lem>parmi</lem>
+                            <rdg wit="#B">en</rdg>
+                        </app> l'yaue pour peschier, si vins pres du lieu ou <rs type="person"
+                            key="Dorus">li enfes</rs> chaÿ et fis tant que je le pris et <app>
+                            <lem>l'emportai</lem>
+                            <rdg wit="#B">l'aportai</rdg>
+                        </app> en ma maison, et le <app>
+                            <lem>baillai</lem>
+                            <rdg wit="#B">livrai</rdg>
+                        </app> a <rs type="person" key="Femme du Pêcheur">ma femme</rs> a garder. Or
+                        le vous <app>
+                            <lem>renderai</lem>
+                            <rdg wit="#B">rendroie</rdg>
+                        </app>, mais que les couvenances me fussent tenues que vous avez <app>
+                            <lem>faites</lem>
+                            <rdg wit="#B">fait</rdg>
+                        </app> crier.</said>
                     <said aloud="true" direct="true">Trestouz quois te tais ! dist <persName
                             key="Dialogus">Dyalogus</persName>, et je te ferai riche homme, mais que
                         croire me veilles.</said>
-                    <said aloud="true" direct="true">Sire, dist il, il ne vous faut que deviser. Je
-                        ferai toute vostre volenté, mais que de miex m'en soit.</said>
+                    <said aloud="true" direct="true">Sire, dist <app>
+                            <lem>il</lem>
+                            <rdg wit="#B">li peschierres</rdg>
+                        </app>, il ne vous faut que deviser. Je ferai toute vostre volenté, mais que
+                        de miex m'en soit.</said>
                     <said aloud="true" direct="true">Tien, <supplied source="#B" resp="#Brodtkorb"
                             >dist</supplied>
                         <persName key="Dialogus">Dyalogus</persName>, vez ci <num>c</num> besanz que
                         je te doins, et si t'en donrai encore <num>c</num> pour ce que je veul que
                         tu jamais n'en parles, et <supplied source="#B" resp="#Brodtkorb"
-                            >se</supplied> autrement le fais, je te ferai les yex crever.</said>
-                    <said aloud="true" direct="true">Sire, dist il, ja n'en doutez. Que voulez vous
-                        que je face de <rs type="person" key="Dorus">l'enfant</rs> ?</said>
+                            >se</supplied> autrement le
+                        fais<!-- e s a l f] et s'il est ensi que tu jamais en parles B -->, je te
+                        ferai les yex <app>
+                            <lem>crever</lem>
+                            <rdg wit="#B">crever dedens ta teste</rdg>
+                        </app>.</said>
+                    <said aloud="true" direct="true">Sire, dist <app>
+                            <lem>il</lem>
+                            <rdg wit="#B">cil</rdg>
+                        </app>, ja n'en doutez. Que voulez <app>
+                            <lem>vous</lem>
+                            <rdg wit="#B">vous donc</rdg>
+                        </app> que je face de <rs type="person" key="Dorus">l'enfant</rs> ?</said>
                     <said aloud="true" direct="true">Comment, dist il, n'est il mie dont noiez
                         ?</said>
-                    <said aloud="true" direct="true">Foy que doi vous, sire, non, ainz l'ai a ma
-                        maison sain et haitié et en bonne vie.</said> Dont s'est li desloiaus moult
-                    esmerveilliez, quar en tel lieu le cuidoit avoir geté que por nule aventure du
-                    monde il n'eschapast. Dont fu tant dolanz que nuls plus de lui ne peust estre.
-                    Si se pensa comment <said aloud="false" direct="false">il en porroit ouvrer que
-                        nule nouvele n'en fust,</said> comme cil qui desiranz estoit d'acomplir le
-                        commande<cb n="f"/>ment de <persName key="Pelyarmenus"
-                        >Pelyarmenuz</persName> son frere. Lors a dit a soi meismes que <said
-                        aloud="false" direct="false">com plus le savroient de gent et pis voudroit
-                        la besoingne.</said> Si s'avisa et dist en tele maniere au <rs type="person"
-                        key="Pêcheur">preudomme</rs>: <said aloud="true" direct="true">Je t'ai donné
-                                <num>ii<hi rend="exp">c</hi></num> besanz pour ce que tu bien sez,
-                        et je te dirai que tu feras: je t'en donrai encore cent en tel maniere que
-                        tu le porteras la ou tu le trouvas et le lai si couvenir que jamais nus n'en
-                        sache nouveles que il soit devenus. Et saches vraiement que se ainsi est que
-                        tu ne le faces, je et <rs type="person" key="Fastige">ma dame
-                            l'empereriz</rs> te ferons destruire et de male mort morir.</said></p>
+                    <said aloud="true" direct="true">Foy que <app>
+                            <lem>doi vous, sire, non,</lem>
+                            <rdg wit="#B">je doi vous Dyalogus, ce dist li peschierres, </rdg>
+                        </app> ainz l'ai<!-- dire "lam" corrigé en lay B --> a ma maison sain et <app>
+                            <lem>haitié et</lem>
+                            <rdg wit="#B">sauf</rdg>
+                        </app> en bonne<!-- boine B -->
+                        <app>
+                            <lem>vie</lem>
+                            <rdg wit="#B">vie et sanz nule bleceure que il ait</rdg>
+                        </app>.</said> Dont s'est <app>
+                        <lem>li desloiaus moult esmerveilliez</lem>
+                        <rdg wit="#B">Dyalogus li desloiaus esmerveilliez moult grandement de ce
+                            qu'il ot dire</rdg>
+                    </app>, quar en tel lieu le cuidoit avoir geté que por nule aventure du monde <app>
+                        <lem>il n'eschapast</lem>
+                        <rdg wit="#B">n'en eschapast</rdg>
+                    </app>. <app><lem>Dont fu tant dolanz que nuls plus de lui ne peust estre</lem><rdg wit="#B">Dont fu tant dolans de ce qu'il l'ot trové en sa vie que plus ? nel fu de lui</rdg></app>. Si se pensa
+                    comment <said aloud="false" direct="false">il en porroit ouvrer que nule nouvele
+                        n'en fust,</said> comme cil qui desiranz estoit d'acomplir le commande<cb
+                        n="f"/>ment de <persName key="Pelyarmenus">Pelyarmenuz</persName> son frere.
+                    Lors a dit a soi meismes que <said aloud="false" direct="false">com plus le
+                        savroient de gent et pis voudroit la besoingne.</said> Si s'avisa et dist en
+                    tele maniere au <rs type="person" key="Pêcheur">preudomme</rs>: <said
+                        aloud="true" direct="true">Je t'ai donné <num>ii<hi rend="exp">c</hi></num>
+                        besanz pour ce que tu bien sez, et je te dirai que tu feras: je t'en donrai
+                        encore cent en tel maniere que tu le porteras la ou tu le trouvas et le lai
+                        si couvenir que jamais nus n'en sache nouveles que il soit devenus. Et
+                        saches vraiement que se ainsi est que tu ne le faces, je et <rs
+                            type="person" key="Fastige">ma dame l'empereriz</rs> te ferons destruire
+                        et de male mort morir.</said></p>
                 <p n="P4"><c ana="lettrine2">Q</c>uant <rs type="person" key="Pêcheur">li
                         peschieres</rs> ot <app>
                         <lem wit="#B #X2" resp="#Brodtkorb">entendu</lem>
