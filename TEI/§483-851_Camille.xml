@@ -227,7 +227,7 @@
   <text>
       <body>
          <pb n="1"/> <!-- deux trois lignes effacées à baliser comment ? + est-on sûres que ce soit effacé et pas le verso ? > j'en suis plutôt sûre -->
-         <div> <head type="rubrique" n="R29">Comment <cb n="b"/> <persName key="Helcanus">Helcanus</persName> issi de prison et ala en la queste
+         <div> <head type="rubrique" n="R29">Comment <cb n="b"/><persName key="Helcanus">Helcanus</persName> issi de prison et ala en la queste
          de <persName key="Néra"><persName key="Néra"><persName key="Néra">Nera</persName></persName></persName>, <del rend="exponctuation" hand="#main1">sa</del> s'amie.</head>
             <figure>
                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f7.item.r=fran%C3%A7ais%2022550.zoom"/>
@@ -668,7 +668,7 @@
             <p n="P488"><c ana="lettrine2">Q</c>uant <rs type="person" key="Sénéchal de Cartageus">li seneschaus</rs> oÿ ce, 
                si passa avant et dist :
                <said aloud="true" direct="true">Comment ! Dites vous 
-                  <app><lem wit="#B #G #X2">ce</lem><rdg wit="#V3">de (sic)</rdg></app> <!-- Corr? Ne peut-on pas corriger ici ? --> ? 
+                  <supplied resp="#CC" source="#B #G #X2">ce</supplied> ? 
                   Je sui cilz qui envers 
                   touz hommes ferai estable qu’ele meismes l’a murdri et <rs type="person" key="Mariniers">ceulz de la nef</rs> 
                   <app><lem wit="#V3 #B #G">aussi</lem><rdg wit="#X2"/></app>.</said> 
@@ -753,7 +753,7 @@
                <said aloud="true" direct="true">Damoisele, que dites vous du <rs type="person" key="Sénéchal de Cartageus">seneschal</rs>, 
                   qui vous accuse de ceste chose ?</said>
                <said aloud="true" direct="true">Je di, dist <rs type="person" key="Néra">la pucele</rs>, que il meismes l’a 
-                  <app><lem wit="#B #G #X2">fait</lem><rdg wit="#V3">fuit (sic)</rdg></app> <!-- Corr? Corrige-t-on ici ? -->
+                  <supplied resp="#CC" source="#B #G #X2">fait</supplied>
                   et pourchacié, <app><lem wit="#V3 #G">de quoi</lem><rdg wit="#B #X2">dont</rdg></app> je prie a Dieu, qui set 
                   <app><lem wit="#V3 #G">tout</lem><rdg wit="#B #X2"/></app> 
                   le fait, que il par sa pitié me sequeure aujourd’ui, 
@@ -783,7 +783,7 @@
                Et se il est tel, que il le desdie : je le ferai estable 
                   <app><lem wit="#V3 #G">et voir</lem><rdg wit="#B #X2"/></app> !</said></p>
             <p n="P491"><c ana="lettrine2">M</c>aintenant que 
-               <app><lem wit="#B #G #X2">la</lem><rdg wit="#V3">la-que la (sic)</rdg></app> <!-- Corr? Ne peut-on pas corriger? -->
+               <supplied resp="#CC" source="#B #G #X2">la</supplied>
                <rs type="person" key="Néra">pucele</rs>
                ot veu <persName key="Helcanus">Helcanus</persName>, si le congnut et ot tel joie que ele tressailli 
                voiant <app><lem wit="#V3 #G">touz</lem><rdg wit="#B #X2"/></app> ceulz qui la furent. 
@@ -901,7 +901,8 @@
                <app><lem wit="#V3 #G">par ses fausses paroles</lem><rdg wit="#B #X2"/></app> 
                a <rs type="person" key="Seigneur de Cartageus">son seigneur</rs> et dist :
                <said aloud="true" direct="true">Je dirai volentiers <app><lem wit="#V3 #G">verité</lem><rdg wit="#B #X2"/></app>, 
-                  mais que tu ne me toucches (sic) <!-- Corr? C'est évidemment touches dans BGX2 --> plus.</said> 
+                  mais que tu ne me <supplied resp="#CC" source="#B #G #X2">touches</supplied> 
+                  plus.</said> 
                <said aloud="true" direct="true">Non ferai je, dist 
                   <app><lem wit="#V3 #G"><persName key="Helcanus">Helcanus</persName></lem><rdg wit="#B #X2">il</rdg></app>.</said> 
                Dont hucha <persName key="Helcanus">Helcanus</persName> ceulz qui le champ gardoient, et meismes le 
@@ -922,7 +923,7 @@
                   <rs type="person" key="Néra">la pucele</rs> <app><lem wit="#V3 #G">noblement</lem><rdg wit="#B #X2"/></app> 
                   delivree <app><lem wit="#V3 #G">par vostre proesce et par vostre bonne chevalerie, 
                      et bien est qui te</lem><rdg wit="#B #GX2"/></app> partant. 
-                  Et <app><lem wit="#B #G #X2">je</lem><rdg wit="#V3">ide (sic)</rdg></app> ma partie 
+                  Et <supplied resp="#CC" source="#B #G #X2">je</supplied> ma partie 
                   <app><lem wit="#V3 #G">vous</lem><rdg wit="#B">li</rdg><rdg wit="#X2">le vous</rdg></app> pardoing 
                   la mort de <rs type="person" key="Enfant de Cartageus">mon enfant</rs> comme a cele qui coupes n’i a, dont je sui moult
                <pb n="3"/><handShift/>liez, 
@@ -969,7 +970,7 @@
 <p n="P494"><c ana="lettrine2">L</c>ors pristrent <rs type="person" key="Néra">la pucelle</rs> et 
    l’en amenerent <cb n="b"/>en <rs type="place" key="Cartageus">la ville</rs> a moult grant joie. 
    Et commanda <rs type="person" key="Seigneur de Cartageus">li sires</rs> que touz fussent aprestez de fere feste, 
-   car moul (sic) <!-- Corr? Evidemment, BGX2 donnent "moult" --> avoient mespris vers eulz sanz raison. 
+   car <supplied resp="#CC" source="#B #G #X2">moult</supplied> avoient mespris vers eulz sanz raison. 
    Si ne fu onques mes tel joie menee a nule gent tant com il fu a <rs type="person" key="Néra">la pucelle</rs> et 
    a <persName key="Helcanus">Helcanus</persName>. 
    <app><lem wit="#V3 #G">Meismement</lem><rdg wit="#B #X2">Meimes</rdg></app>, <rs type="person" key="Seigneur de Cartageus">li sires</rs> 
@@ -1097,7 +1098,7 @@
                <app><lem wit="#V3 #B #X2">finee</lem><rdg wit="#G">faite</rdg></app>, 
                si parlerent li prince a <rs type="person" key="Cassidorus">l’empereeur</rs> de la pais de li et de ses enfanz. 
                Dont n’i ot nul qui soufisaument peust autre pes fere <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B">quar</rdg></app> 
-               <rs type="person" key="Cassidorus">li emperiereres</rs> (sic) <!-- Corr? -->
+               <rs type="person" key="Cassidorus">li <supplied resp="#CC" source="#B #G #X2">emperieres</supplied></rs>
                demandoit <rs type="person" key="?Dialogus">celui qui les enfanz devoit avoir murdris</rs>, 
                <app><lem wit="#V3 #G">meismement</lem><rdg wit="#B #X2">meismes</rdg></app> <persName key="Cliodorus">Cleodorus</persName>, que 
                <rs type="person" key="Dyomarques">li rois d’<placeName key="Arragon">Arragon</placeName></rs> tenoit en sa prison. 
@@ -1133,7 +1134,7 @@
                   que vous <app><lem wit="#V3 #G #X2">estes</lem><rdg wit="#B">n'estes mie</rdg></app> mon frere 
                   <app><lem wit="#V3 #G #X2">sanz doute</lem><rdg wit="#B"/></app>, 
                   <app><lem wit="#V3 #G">que</lem><rdg wit="#B #X2">quar</rdg></app> se en moi n’avoie pitié, 
-                  si en doit doit (sic) <!-- Corr? Evidemment un seul doit dans BGX2 --> il avoir en vous selonc le bien que on en dist.</said> 
+                  si en <supplied resp="#CC" source="#B #G #X2">doit</supplied> il avoir en vous selonc le bien que on en dist.</said> 
                Tant li dist <persName key="Pelyarmenus">Pelyarmenus</persName> de 
                <app><lem wit="#V3 #B #X2">douces</lem><rdg wit="#G">toutez</rdg></app> parolles 
                que <persName key="Helcanus">Helcanus</persName> vint a touz les princes et 
@@ -1159,7 +1160,7 @@
                Li autre baron revindrent a <rs type="person" key="Cassidorus">l’empereeur</rs> et vodrent prendre congié. 
                <rs type="person" key="Cassidorus">Li empereres</rs> regarda chascun et dist que 
                <said aloud="true" direct="false">nulz d’eulz ne se partiroient de lui</said>
-               <app><lem wit="#V3 #B #X2">si li <app><lem wit="#V3">avrez</lem><rdg wit="#B #X2">auroit</rdg></app> <!-- Corr? --> 
+               <app><lem wit="#V3 #B #X2">si li <app><lem wit="#V3">avrez</lem><rdg wit="#B #X2">auroit</rdg></app> <!-- Corr? Meilleur? --> 
                   rouvé un <pb n="4"/>don</lem><rdg wit="#G">jusquez qu'ilz seroient guerredonnés</rdg></app><app><lem wit="#V3 #B #X2">, 
                <said aloud="true" direct="false">et celui leur donroit il 
                   <app><lem wit="#V3">que</lem><rdg wit="#B #X2">quoi</rdg></app> 
@@ -1201,7 +1202,7 @@
                <said aloud="true" direct="true">Par mon chief, dist 
                   <app><lem wit="#V3 #G #X2"><rs type="person" key="Bourleus">li dux</rs></lem><rdg wit="#B">li empereres</rdg></app>, 
                   ainz vueil que vous teniez de moi <placeName key="Laomedon">Laomedon</placeName>.</said>
-               <said aloud="true" direct="true"><app><lem wit="#B #G #X2">Sire,</lem><rdg wit="#V3">Sire, sire,</rdg></app> <!-- Corr? --> 
+               <said aloud="true" direct="true"><supplied resp="#CC" source="#B #G #X2">Sire</supplied>,
                   dist <app><lem wit="#V3 #G">il,</lem><rdg wit="#B #X2">il, grans mercis,</rdg></app> si a gente promesse !</said>
                Dont l’en cheï as <cb n="b"/>piez, et <rs type="person" key="Cassidorus">li empereres</rs> si l’en leva et 
                li donna 
@@ -1273,8 +1274,7 @@
                   <app><lem wit="#V3 #G">puisqu’il vous plest.</lem><rdg wit="#B #X2"/></app> 
                   Et je sanz li me metroie moult a envis au chemin.</said>
                <said aloud="true" direct="true">Sire, <app><lem wit="#V3">ce</lem><rdg wit="#B #G #X2"/></app> 
-                  <app><lem wit="#B #G #X2">dist</lem><rdg wit="#V3">di<unclear reason="hole">...</unclear></rdg></app> <!-- Corr? --> 
-                  <rs type="person" key="Bourleus">li dux</rs>, 
+                  <supplied resp="#CC" source="#B #G #X2">dist</supplied> <rs type="person" key="Bourleus">li dux</rs>, 
                   et je l’otroi.</said>
                <said aloud="true" direct="true">Je voudroie, dist <persName key="Dorus">Dorus</persName>, que vous en fussiez si joians 
                conme je diroie par maniere que vous la me vousissiez donner, aussi com <rs type="person" key="Cassidorus">mon pere</rs> 
@@ -1382,7 +1382,7 @@
    Et distrent touz ensemble que <said aloud="true" direct="false">les noces <persName key="Dorus">Dorus</persName> 
       <app><lem wit="#V3 #G #X2">et</lem><rdg wit="#B">et les</rdg></app> <persName key="Leus">Leus</persName> furent 
    estraites de <persName key="Néra">Nera</persName>, la fame <persName key="Helcanus">Helcanus</persName>.</said> 
-   Et dont i ot <num>iii</num>dames qui moult se porent amer, et saz (sic) <!-- Corr? Evidemment sans dans BGX2 --> 
+   Et dont i ot <num>iii</num>dames qui moult se porent amer, et <supplied resp="#CC" source="#B #G #X2">sanz</supplied> 
    faille bien le moustrerent jusqu’en la fin, <said who="#nar">si conme l’estoire le raconte.</said> 
    Quant se vint ‹ci›[que] la feste dut departir si conme toutes les autres font, 
    il pristrent tout congié a <rs type="person" key="Cassidorus">l’empereeur</rs>. 
@@ -1448,7 +1448,7 @@
       pardurable sanz fin.</said>
    Quant il ot ce dist, <persName key="Daphus">Daphus</persName> ne tint pas la parolle a truphle, ainz fu a ce menez qu’il dist :
    <said aloud="true" direct="true">Sire, veritez est. Et quant <app><lem wit="#V3 #G #X2">je</lem><rdg wit="#B">le</rdg></app> 
-      tout avroie a-vroie (sic) <!-- Corr? Evidemment avroie dans BGX2 --> 
+      tout <supplied resp="#CC" source="#B #G #X2">avroie</supplied>
       avisé, seingneuries, richesces, chevaleries, riens ne valent se pour Dieu servir non.</said>
    <said aloud="true" direct="true">Par Dieu, frere, dist <rs type="person" key="Cassidorus">li empereres</rs>, verité avez dist. 
    Or regardez donc a moi meismes, se je doi pensser conment j’ai vescu, 
@@ -1461,7 +1461,7 @@
    si fu mout <app><lem wit="#V3 #G">bonnement</lem><rdg wit="#B #X2"/></app> convertis et penssa en lui meismes que 
    <said aloud="false" direct="false">aussi avoit il vescu legierement</said>, si dist :
    <said aloud="true" direct="true">Sire, sachiez que tot aussi puis je dire et fere de moi, si regardez et me dites en quele maniere 
-      vous en voulez ouvrer, et je au-aussi (sic) <!-- Corr? Evidemment, aussi dans BGX2 --> 
+      vous en voulez ouvrer, et je <supplied resp="#CC" source="#B #G #X2">aussi</supplied> 
       <app><lem wit="#V3 #G">en</lem><rdg wit="#B #X2"/></app> voudrai faire.</said>
    <said aloud="true" direct="true">Amis, <app><lem wit="#V3">ce</lem><rdg wit="#B #G #X2"/></app> 
       <app><lem wit="#V3 #B #X2">dist</lem><rdg wit="#G">fait</rdg></app> 
@@ -1475,7 +1475,7 @@
       <app><lem wit="#V3 #G">, <app><lem wit="#V3">que</lem><rdg wit="#G">car</rdg></app> il est drois</lem><rdg wit="#B #X2"/></app>. 
       Et je demourrai en cest païs ou je ferai ma penitance selonc le conseil <cb n="d"/>que Dieu me donra.</said>
    <said aloud="true" direct="true">Ha ! sire, cuidiez vous que sans vostre compaingnie me doie mettre au retour ?</said>
-   <said aloud="true" direct="true">Amis, dist il, oï (sic) <!-- Corr? Evidemment oil dans BGX2 -->, 
+   <said aloud="true" direct="true">Amis, dist il, <supplied resp="#CC" source="#B #G #X2">oil</supplied>, 
       <app><lem wit="#V3">que</lem><rdg wit="#B #X2">car</rdg><rdg wit="#G"/></app> sachiez de voir 
       <app><lem wit="#V3 #G #X2">car, se Dieu plaist,</lem><rdg wit="#B">que</rdg></app> jamais ne me metrai 
    en l’ordure ou je ai tant demouré. Mes vous, qui par loiauté de mariage le poez faire 
@@ -1594,7 +1594,8 @@
    <rs type="place" key="Forêt de Espiere">le bois</rs>, 
    si ne savoit ou, mes sa priere fist a Dieu que il l’asenast en aucun lieu 
    <!-- Corr? Pour chaque occurrence ici plus bas de unclear, peut-on corriger ? 
-      Cela me paraît bizarre de mettre en variante un souci de lecture -->
+      Cela me paraît bizarre de mettre en variante un souci de lecture. Corrige-t-on ces soucis de lecture causés par des trous ? 
+      Comment coordonner une correction avec une variante telle que celle de BX2 face à celle de G ? -->
    ou il peust prendre <app><lem wit="#G">peuture</lem><rdg wit="#B #X2">aucune porcion</rdg>
       <rdg wit="#V3">pe<unclear reason="fold">...</unclear>ture</rdg></app> 
    dont <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">li cors</rdg></app> 
@@ -1674,7 +1675,7 @@
       <app><lem wit="#V3 #G">vous</lem><rdg wit="#B"/></app> ne 
       <app><lem wit="#V3 #G #X2">l’emportissiez</lem><rdg wit="#B">l'emportissiez hui</rdg></app> sanz bataille !</said> 
    Quant cil oï <rs type="person" key="Cassidorus">l’empereeur</rs>, 
-   si ne volt-lessier si ne volt lessier (sic) <!-- Corr? BGX2 donnent évidemment "si ne volt lessier" -->
+   si <supplied resp="#CC" source="#B #G #X2">ne volt lessier</supplied> 
    qu’il ne retournast<app><lem wit="#V3 #B #G">, si <app><lem wit="#V3 #G">li</lem><rdg wit="#B"/></app> dist</lem><rdg wit="#X2"/></app> :
    <said aloud="true" direct="true">Conment ! Es tu donques tieux que tu la me voudroies contredire se tu 
       <app><lem wit="#V3 #B #G">avoies</lem><rdg wit="#X2">eusses</rdg></app> 
@@ -1741,9 +1742,7 @@
    si le <app><lem wit="#V3 #B #G">suivi</lem><rdg wit="#X2">suy</rdg></app> tant qu’il vindrent en une grant valee. 
    <app><lem wit="#V3 #G">Ens ou</lem><rdg wit="#B #X2">El</rdg></app> fons de ce val si couroit une moult grant riviere 
    qui descendoit d’une montaingne qui n’estoit mie mains roide pour ce ne fors, 
-   ainz <!-- Corr? Vraiment i et exponctuation ? nbreuses taches tout autour --><del rend="exponctuation" hand="#main2">‹i›[l]</del>
-   <app><lem wit="#V3">estoit</lem><rdg wit="#B #G #X2">l'estoit</rdg></app> 
-   <app><lem wit="#V3 #G">tele</lem><rdg wit="#B #X2">si</rdg></app> que bien 
+   ainz l'estoit <app><lem wit="#V3 #G">tele</lem><rdg wit="#B #X2">si</rdg></app> que bien 
    <app><lem wit="#V3 #G #X2">sembloit</lem><rdg wit="#B">sembla</rdg></app> a <rs type="person" key="Cassidorus">l’empereeur</rs> 
    <app><lem wit="#V3 #G">que</lem><rdg wit="#B">que il meismes</rdg><rdg wit="#X2">que il</rdg></app> en toute sa vie n’eust tele veue. 
    Lors vit que <rs type="person" key="Chevalier de la tentation">li chevaliers</rs> 
@@ -1854,8 +1853,7 @@
    et fist touz ceus seingneurs qui valu li avoient encontre ses anemis. 
    <said who="#nar">Si me <app><lem wit="#V3 #X2">vueil</lem><rdg wit="#B">vueil maintenant</rdg><rdg wit="#G">vueil ore</rdg></app> 
       de toutes ces choses taire fors que de <persName key="Dorus">Dorus</persName>, 
-      qui <app><lem wit="#V3">partis (sic)</lem><rdg wit="#B #G #X2">partis s'estoit</rdg></app> 
-      <!-- Corr? sic nécessaire ? variante meilleure, non ? --> 
+      qui <supplied resp="#CC" source="#B #G #X2">partis s'estoit</supplied> 
       <cb n="b"/>de <placeName key="Grèce">Gresce</placeName>, si conme 
       <app><lem wit="#V3 #G">nous avons</lem><rdg wit="#B">a esté</rdg><rdg wit="#X2">est</rdg></app> 
       <app><lem wit="#V3 #B #X2">devant</lem><rdg wit="#G"/></app> dit <app><lem wit="#V3 #B #X2">el conte</lem><rdg wit="#G"/></app>.</said>
@@ -1884,7 +1882,7 @@
    neent plus conme cil ou il n’<app><lem wit="#V3 #X2">a</lem><rdg wit="#B #G">avoit</rdg></app> 
    <app><lem wit="#V3">ne</lem><rdg wit="#B #G #X2"/></app> foy ne loyauté. 
    <persName key="Dorus">Dorus</persName>, qui n’atendoit el fors que on li envoiast
-   <persName key="Dialogus">Dyalogus</persName>, si-vit si vit (sic) <!-- Corr? --> que li ans estoit passez que il devoit estre envoiez.
+   <persName key="Dialogus">Dyalogus</persName>, <supplied resp="#CC" source="#B #G #X2">si vit</supplied> que li ans estoit passez que il devoit estre envoiez.
    Si <app><lem wit="#V3 #G">en</lem><rdg wit="#B #X2"/></app> fu moult iriez et se penssa que,
    <said aloud="false" direct="false">se il ne l’avoit, que moult demourroit la chose descouvenable
       et grant reprouche seroit a li</said>.
@@ -1924,7 +1922,8 @@
       <app><lem wit="#V3 #G #X2">en</lem><rdg wit="#B">que il l'ot en</rdg></app> couvent 
       par coi il peussent demourer <app><lem wit="#V3 #G #X2">em pes et</lem><rdg wit="#B"/></app> bon ami</said>.</p>
 <p n="P518"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oï
-   (sic)<app><lem wit="#V3 #B #X2">, si fet</lem><rdg wit="#G">ce</rdg></app> mandement, si dist que 
+   (sic) <!-- sic ? idem dans BGX2 --> 
+   <app><lem wit="#V3 #B #X2">, si fet</lem><rdg wit="#G">ce</rdg></app> mandement, si dist que 
    <said aloud="true" direct="false">ja ne seroit en leu ou <persName key="Dialogus">Dyalogus</persName> receust de ceste 
       chose pis que il meismes feroit</said>. Dont fu leur response tele que, 
    <app><lem wit="#V3 #B #X2"><del rend="exponctuation" hand="#main2">se</del></lem><rdg wit="#G">se</rdg></app> bien 
@@ -1993,7 +1992,7 @@
       <app><lem wit="#V3 #G #X2">ce</lem><rdg wit="#B">le</rdg></app> <app><lem wit="#V3 #G #X2">vous</lem><rdg wit="#B"/></app> 
       <app><lem wit="#V3 #G #X2">dirai</lem><rdg wit="#B">ferai</rdg></app> 
       <app><lem wit="#V3 #G #X2">je</lem><rdg wit="#B"/></app> volentiers.</said> 
-   <said aloud="true" direct="true"><!-- Corr? --><app><lem wit="#V3">Par (sic)</lem><rdg wit="#B #G #X2">Par Dieu</rdg></app>, 
+   <said aloud="true" direct="true"><supplied resp="#CC" source="#B #G #X2">Par Dieu</supplied>, 
       dist <app><lem wit="#V3 #G"><persName key="Dorus">Dorus</persName></lem><rdg wit="#B #X2">il</rdg></app>, oïl.</said>
    Lors li dist :
    <said aloud="true" direct="true">Il fu <num>i</num> jour que vous feustes d’un enfant sesi,
@@ -2149,7 +2148,7 @@
       <app><lem wit="#B">tous</lem><rdg wit="#X2">tous les</rdg></app> jours</rdg></app> 
    garnis de leurs armes et maintes fois <app><lem wit="#V3 #G #X2">en</lem><rdg wit="#B"/></app> furent en aguait, 
    mes leur chose ne venoit mie si a point que demi an ne sejournassent a <placeName key="Rome">Rome</placeName> 
-   ainz que il pe-il peussent (sic) <!-- Corr? Evidemment BGX2 donnent il peussent -->riens esploitier de leur besongne. 
+   ainz que il <supplied resp="#CC" source="#B #G #X2">peussent</supplied> riens esploitier de leur besongne. 
    <num>i</num> jour avint, si conme faire dut, 
    que <app><lem wit="#V3 #G">nouvelles</lem><rdg wit="#B #X2">nouvelles leur</rdg></app> vindrent que 
    <persName key="Pelyarmenus">Pelyarmenus</persName> <app><lem wit="#V3 #G">devoit</lem><rdg wit="#B #X2">devoit aler</rdg></app> chacier 
@@ -2220,7 +2219,8 @@
    <persName key="Mardocheus">Mardocheus</persName> vint par la forest chevauchant, qui avoit oï la noise des chiens, 
    si trova <persName key="Dorus">Dorus</persName> <app><lem wit="#V3 #G">qui</lem><rdg wit="#B #X2">ou il</rdg></app> 
    tenoit <rs type="person" key="Pelyarmenus">son frere</rs> si court que pou s’en failloit qu’il ne li metoit jus la teste 
-   <app><lem wit="#V3 #G">par desus les</lem><rdg wit="#B #X2">des</rdg></app> espau-les espaules (sic) <!-- Corr? BGX2 donnent les espaules -->. 
+   <app><lem wit="#V3 #G">par desus les</lem><rdg wit="#B #X2">des</rdg></app> 
+   <supplied resp="#CC" source="#B #G #X2">espaules</supplied>. 
    Il mist pié a terre et vint vers eulz et mist li un et l’autre a reson et dist :
    <said aloud="true" direct="true">Biaus seingneurs, ceste escremie couvient demorer. L’un couvient obeïr a l’autre. 
       <seg ana="proverbe">Et qui tort a, bien en <app><lem wit="#V3 #G #X2">doit</lem><rdg wit="#B">covient</rdg></app> fere l’amende</seg>.</said>
@@ -2273,7 +2273,7 @@
 <p n="P529"><c ana="lettrine2">Q</c>uant il orent ainsi esploitié, <persName key="Mardocheus">Mardocheus</persName> dist a 
    <persName key="Dorus">Dorus</persName> que <said aloud="true" direct="false">il demou<cb n="b"/>rast avec eulz 
       <app><lem wit="#V3 #G #X2">et</lem><rdg wit="#B">et le</rdg></app> 
-      lessast <app><lem wit="#B #G #X2">convenir</lem><rdg wit="#V3">convenist</rdg></app> <!-- Corr? Croix à côté dans V3 --> 
+      lessast <supplied resp="#CC" source="#B #G #X2">convenir</supplied>
       du seurplus</said>. <app><lem wit="#V3 #G #X2">Dont</lem><rdg wit="#B">Dont il</rdg></app> vint au porc ou il gisoit, 
    si grant que bien s’en pot on esmerveillier, mes ne demoura mie longuement que li veneeur ne soient venu, 
    qui moult estoient traveillié et lassé. Lors esgarderent <persName key="Mardocheus">Mardocheus</persName>, si ne le connurent mie, ainz li 
@@ -2293,10 +2293,9 @@
    <app><lem wit="#V3 #G">meismement</lem><rdg wit="#B #X2">meismes</rdg></app> 
    <app><lem wit="#V3 #G #X2">li</lem><rdg wit="#B">si</rdg></app> chevalier. 
    <persName key="Mardocheus">Mardocheus</persName> s’en vint a sa mesniee, qu’il avoit lessiee en 
-   <rs type="place" key="Forêt de Martrai">la fores</rs> (sic) 
-   <!-- Corr? forest dans BGX2 -->. 
+   <rs type="place" key="Forêt de Martrai">la <supplied resp="#CC" source="#B #G #X2">forest</supplied></rs>. 
    Dont les hasta que il se meissent aprés lui, et <app><lem wit="#V3 #G">eulz</lem><rdg wit="#B #X2">il</rdg></app> si firent 
-   et ne finererent (sic) <!-- Corr? finerent dans BGX2 -->, 
+   et ne <supplied resp="#CC" source="#B #G #X2">finerent</supplied>, 
    si vindrent a <persName key="Dorus">Dorus</persName> <app><lem wit="#V3 #B #X2">ou il</lem><rdg wit="#G">qui</rdg></app> les atendoit.</p>
 <p n="P530"><note type="apparat">Pas de nouveau § B</note>
    <c ana="lettrine2">Q</c>uant il furent la venus, il orent leur chose si aprestee qu’il mistrent 
@@ -2335,7 +2334,7 @@
    que <app><lem wit="#V3 #G #X2">je</lem><rdg wit="#B">je avec vous</rdg></app> partout m’en irai ausi debonnerement conme 
       <app><lem wit="#V3 #G #X2">feroit</lem><rdg wit="#B"/></app> la plus simple chose <cb n="d"/>qui soit par tout le monde, 
    car, puisque je sai que vous me deliverrez a mon chier frere <persName key="Helcanus">Helcanus</persName>, 
-   je ne ferai ferai (sic) <!-- Corr? ferai donné par BGX2 --> chose qui soit contre sa volenté.</said>
+      je ne <supplied resp="#CC" source="#B #G #X2">ferai</supplied> chose qui soit contre sa volenté.</said>
    <said aloud="true" direct="true"><persName key="Pelyarmenus">Pelyarmenus</persName>, dist <persName key="Dorus">Dorus</persName>, 
       ne vous vaut chose que vous puissiez faire ne dire, car foy <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B">que je</rdg></app> doi 
    l’ame <rs type="person" key="Cassidorus">mon pere</rs> ne <persName key="Helcanus">Helcanus</persName>, mon frere et le vostre,
@@ -2361,7 +2360,7 @@
    qui seoit en la costiere <app><lem wit="#V3 #G #X2">d’une</lem><rdg wit="#B">de la</rdg></app> montaingne. 
    <persName key="Dorus">Dorus</persName> demanda a <app><lem wit="#V3 #G">ceus</lem><rdg wit="#B #X2">valles</rdg></app> qui les menoient 
    <said aloud="true" direct="false">quel chastel s’<app><lem wit="#V3 #G #X2">estoit</lem><rdg wit="#B">estoit la</rdg></app></said>. 
-   Dont furent cil <app><lem wit="#B #G #X2">esbahi</lem><rdg wit="#V3">esbahi et (sic)</rdg></app> <!-- Corr? -->, 
+   Dont furent cil <supplied resp="#CC" source="#B #G #X2">esbahi</supplied>, 
    car <app><lem wit="#V3 #B #X2"><app><lem wit="#V3 #X2">il</lem><rdg wit="#B"/></app> autre fois i avoient esté, 
       et sorent que</lem><rdg wit="#G"/></app> s’estoit <num>i</num> 
    <rs type="place" key="Renniers"><app><lem wit="#V3 #B #X2">lieu</lem><rdg wit="#G">chastel</rdg></app> ou 
@@ -2369,7 +2368,7 @@
    il n’i <app><lem wit="#V3 #G #X2">fust</lem><rdg wit="#B">fussent</rdg></app>, 
    par quoi <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">il ne</rdg></app> fussent conneu. 
    Lors furent sage et apenssé et ne vodrent mie <rs type="person" key="Dorus">lor seingneur</rs> esmaier. Et nonpourquant 
-   <!-- Corr? avoient il dans BGX2 --> avoient il a-voient il (sic) 
+   <supplied resp="#CC" source="#B #G #X2">avoient il</supplied>  
    <app><lem wit="#V3 #B #X2">aprochié</lem><rdg wit="#G">aprochié de</rdg></app> 
    <placeName key="Rome">Rome</placeName> de la voie de leur chemin, si distrent :
    <said aloud="true" direct="true">Sire, <app><lem wit="#V3 #B #G">nous</lem><rdg wit="#X2"/></app> sonmes bienvenus !</said> 
@@ -2567,8 +2566,8 @@
    <app><lem wit="#V3 #B #X2">tant conme il pot</lem><rdg wit="#G"/></app>. 
    <rs type="person" key="Bourleus">Li dux</rs>, de l’autre part, le conjouy conme cil qui bien le sot faire. 
    Lors le trait a une part et <app><lem wit="#V3 #G #X2">li</lem><rdg wit="#B"/></app> dist :
-   <said aloud="true" direct="true">Par foy, fire (sic) <!-- Corr? Sire dans BGX2 -->, onques mes jour de ma vie n’oÿ si grant merveille 
-      conme de ce que <persName key="Dorus">Dorus</persName> vous a amené en ce païs en tel maniere.</said>
+   <said aloud="true" direct="true">Par foy, <supplied resp="#CC" source="#B #G #X2">sire</supplied>, onques mes jour de ma vie n’oÿ si 
+      grant merveille conme de ce que <persName key="Dorus">Dorus</persName> vous a amené en ce païs en tel maniere.</said>
    <said aloud="true" direct="true">Sire, dist il, je ne cuit mie que tele merveille si avenist mes ne ne doie fere jamés. 
    Et sachiez que <persName key="Dorus">Dorus</persName> est li plus souverains de proesce 
       et de sens <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B">qui</rdg></app> onques jor du monde nasquist de mere, 
@@ -2647,7 +2646,8 @@
       et a moult d'autres les lettres qui li estoient envoiées de son frere. Quant il oyrent ce, si ont li uns l'autre esgardé et n'i ot nul 
       qui ne quidast que ce fust truffe. Et distrent tout a un concille : "Comment puet c'estre voirs que ces letrres dient 
       que Peliarmenus et Dyalogus soient en la prison Dorus ?"</rdg></app></said>
-   <said aloud="true" direct="true">Par foy, dist <persName key="Helcanus">Helca-canus</persName> (sic), de ce sui je touz esbahis ! 
+   <said aloud="true" direct="true">Par foy, dist 
+      <persName key="Helcanus"><supplied resp="#CC" source="#B #G #X2">Helcanus</supplied></persName>, de ce sui je touz esbahis ! 
       Et nonpourquant, <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">cil</rdg></app> ne le m’eust 
       <app><lem wit="#V3 #G">ja</lem><rdg wit="#B #X2"/></app> mandé se ce ne feust voirs.</said>
    <said aloud="true" direct="true">Certes, dient <app><lem wit="#V3 #G #X2">cil baron</lem><rdg wit="#B">il</rdg></app>, 
@@ -2703,7 +2703,7 @@
    <said aloud="true" direct="true">Frere, dist <persName key="Pelyarmenus">Pelyarmenus</persName>, de riens que vous vueilliez dire sachiez
       que jamés ne vous en vueil desdire. Et sachiez que vous du <app><lem wit="#V3 #G">tot</lem><rdg wit="#B #X2">tot en</rdg></app> 
       dites verité, car je du tout y ai mise la descorde. 
-      Et oncore (sic) <!-- Corr? Evidemment encore partout ailleurs -->, <app><lem wit="#V3 #B #G">qui</lem><rdg wit="#X2">se il</rdg></app> 
+      Et <supplied resp="#CC" source="#B #G #X2">encore</supplied>, <app><lem wit="#V3 #B #G">qui</lem><rdg wit="#X2">se il</rdg></app> 
       <app><lem wit="#V3 #G">le</lem><rdg wit="#B #X2"/></app> me <app><lem wit="#V3 #G">lessast</lem><rdg wit="#B #X2">loisist</rdg></app> 
       le feisse je ne ne feusse encore <app><lem wit="#V3 #G #X2">venus</lem><rdg wit="#B"/></app> au repentir, mes que vous me creez. 
    Je veil que vous sachiez que je du tout en sui vrai repentant et appareilliez de fere l’amende tele conme vous la voudrez prendre. 
@@ -2854,7 +2854,7 @@
    <said aloud="true" direct="true">Amis, dites moi se vous savez <app><lem wit="#V3 #G">quant</lem><rdg wit="#B #X2">comment</rdg></app> 
       <rs type="person" key="Pelyarmenus">mon frere</rs> fu pris et menez en <placeName key="Grèce">Gresce</placeName>.</said>
    Cil dist que <said aloud="true" direct="false">mauvessement le savoit, car 
-      <app><lem wit="#V3">il estoit (sic)</lem><rdg wit="#B #G #X2"/></app> <!-- Corr? -->
+      <app><lem wit="#V3">il estoit (sic)</lem><rdg wit="#B #G #X2"/></app> <!-- Corr? Comment j'indique la correction par suppression ? -->
       n’avoit il pas esté au prendre, mes ce qu’il en avoit entendu li diroit il volentiers</said>. 
    Lors li conta <said aloud="true" direct="false">auques pres l’afaire, ainsi conme il avoit alé</said>, 
    mes il onques ne le pot croire, si dist :
@@ -2946,11 +2946,10 @@
    <said aloud="true" direct="false">tout en tele maniere conme il li estoit avenu</said>. 
    Et quant <persName key="Gasus"><app><lem wit="#V3 #G #X2">Gasus</lem><rdg wit="#B">il</rdg></app></persName> oï ce, si dist :
    <said aloud="true" direct="true">Sire, je loeroie que vous feissiez <app><lem wit="#V3 #G">pes</lem><rdg wit="#B #X2">pes qui</rdg></app> 
-      <app><lem wit="#V3 #G">couvenable</lem><rdg wit="#B #X2">couvenable fust</rdg></app> et feussiez bon ami ensemble 
-      ensemble (sic)<!-- Corr? Evidemment ensemble une fois dans BGX2 -->
-      a touzjours <app><lem wit="#V3 #G">mes</lem><rdg wit="#B #X2"/></app>. 
+      <app><lem wit="#V3 #G">couvenable</lem><rdg wit="#B #X2">couvenable fust</rdg></app> et feussiez bon ami 
+      <supplied resp="#CC" source="#B #G #X2">ensemble</supplied> a touzjours <app><lem wit="#V3 #G">mes</lem><rdg wit="#B #X2"/></app>. 
       <app><lem wit="#V3 #G #X2">Mais</lem><rdg wit="#B">Car</rdg></app> 
-      <app><lem wit="#B #G #X2">sachiez</lem><rdg wit="#V3">soiez-sachiez (sic)</rdg></app> <!-- Corr? --> 
+      <supplied resp="#CC" source="#B #G #X2">sachiez</supplied>
       <app><lem wit="#V3 #G #X2">jamés</lem><rdg wit="#B">que</rdg></app> l’une partie ne l’autre n’avra 
       <app><lem wit="#V3 #G">jamés</lem><rdg wit="#B #X2">pais ne</rdg></app> repos se vous painne n’i metez.</said>
    <said aloud="true" direct="true">Certes, <persName key="Gasus">Gasus</persName>, verité dites. Et bien sai que a la concorde avez bien pooir, 
@@ -3015,7 +3014,7 @@
    <said aloud="true" direct="true">Venez avant, se vous voulez avoir chose que j’aie !</said>
                <rs type="person" key="Cassidorus">Li empereres</rs> s’en donna bien garde et vint a lui. 
                Et quant <rs type="person" key="Lion de Cassidorus">li lyons</rs> le vit venir vers li, si se trait ensus. 
-   <rs type="person" key="Cassidorus">Li <app><lem wit="#B #G #X2">empereres</lem><rdg wit="#V3">emperes (sic)</rdg></app></rs> <!-- Corr? --> 
+   <rs type="person" key="Cassidorus">Li <supplied resp="#CC" source="#B #G #X2">empereres</supplied></rs> 
    <app><lem wit="#V3 #G">vit qu’il se traioit ensus, si regarda quele part il aloit. 
       Et lors</lem><rdg wit="#B #X2"/></app> le suivi 
    <rs type="person" key="Cassidorus"><app><lem wit="#V3 #B #G">li empereres</lem><rdg wit="#X2"/></app></rs>, 
@@ -3419,12 +3418,11 @@
       <app><lem wit="#V3 #G #X2">huis</lem><rdg wit="#B">huis moult fort</rdg></app>, et bien sai que ele veult ceens entrer, 
    mes je ne sai se c’est pour bien ou pour mal.</said></p>
 <p n="P567"><c ana="lettrine2">D</c>ont sailli <app><lem wit="#V3 #G #X2">em piez</lem><rdg wit="#B"/></app> 
-   <rs type="person" key="Cassidorus">li empereres</rs> et <app><lem wit="#B #G #X2">sot</lem><rdg wit="#V3">son (sic)</rdg></app> <!-- Corr? -->
+   <rs type="person" key="Cassidorus">li empereres</rs> et <supplied resp="#CC" source="#B #G #X2">sot</supplied>
    <app><lem wit="#V3 #G #X2">maintenant</lem><rdg wit="#B"/></app> que ce estoit <rs type="person" key="Lion de Cassidorus">son lyon</rs> 
    et vint a l’uis et li ouvri et trouva lui et <persName key="Daphus">Daphus</persName>, <said who="#nar">si conme j’ai devant conté</said>.
    Lors prist <rs type="person" key="Cassidorus">li emperieres</rs> <rs type="person" key="Lion de Cassidorus">le lyon</rs>
-   par la teste et le conmença a aplanier et 
-   <app><lem wit="#B #G #X2">dist</lem><rdg wit="#V3">dist a-aplanier et dist (sic)</rdg></app> <!-- Corr? --> 
+   par la teste et le conmença a aplanier et <supplied resp="#CC" source="#B #G #X2">dist</supplied>
    <app><lem wit="#V3 #B #X2">a <persName key="Daphus">Daphus</persName></lem><rdg wit="#G"/></app> :
    <said aloud="true" direct="true">Biau sire, <app><lem wit="#V3">ce</lem><rdg wit="#B #G #X2"/></app> 
       <app><lem wit="#V3 #G">dist <rs type="person" key="Cassidorus">li emperieres</rs></lem><rdg wit="#B #X2"/></app>
@@ -3434,8 +3432,8 @@
    <rs type="person" key="Lion de Cassidorus">mon lyon</rs> <app><lem wit="#V3 #G">estes</lem><rdg wit="#B #X2">estes ci</rdg></app> venus ?</said>
    Lors l’entendi <persName key="Daphus">Daphus</persName>, si le connut a la parolle et li dist :
    <said aloud="true" direct="true">Sire, je sui <persName key="Daphus">Daphus</persName>, vostre ami.</said>
-   Quant <cb n="b"/><rs type="person" key="Cassidorus">li emperieres</rs> l’entendi, fi (sic) <!-- Corr? Evidemment si dans BGX2 --> 
-   fu moult joians qul (sic) <!-- Corr? Evidemment qu'il dans BGX2 --> ne pot mot dire, ainz 
+   Quant <cb n="b"/><rs type="person" key="Cassidorus">li emperieres</rs> l’entendi, <supplied resp="#CC" source="#B #G #X2">si</supplied> 
+   fu moult joians <supplied resp="#CC" source="#B #G #X2">qu'il</supplied> ne pot mot dire, ainz 
    <app><lem wit="#V3 #G">vint</lem><rdg wit="#B #X2">vint a lui</rdg></app> en lermes et en pleurs, si l’embraça si fort que il le fist fremir,
    et ne failli guieres qu’il ne gita <num>i</num> cri de fine doleur de ses bleceures. Si dist :
    <said aloud="true" direct="true">Ha ! sire, pour Dieu merci ! Souffrez que je puisse a vous parler tant que je vous aie conté m’aventure, 
@@ -3454,7 +3452,7 @@
       <persName key="Dorus">Dorus</persName> avoit esploitié de <persName key="Pelyarmenus">Pelyarmenus</persName> 
       et de <persName key="Dialogus">Dyalogus</persName>, que il avoit mis en sa merci du tout, et conment li baron estoi‹t›[e]nt mandé 
       pour la pais asouvir, et <persName key="Dorus">Dorus</persName> n’en 
-      <app><lem wit="#V3">voudroit</lem><rdg wit="#B #G #X2">voloit</rdg></app> <!-- Corr? -->
+      <app><lem wit="#V3">voudroit</lem><rdg wit="#B #G #X2">voloit</rdg></app> <!-- Corr? Meilleure leçon ? -->
       riens fere pour eulz autrement que devant a esté dit, et voloit que il meismes i fust ou a touzjours il 
       <app><lem wit="#V3">le</lem><rdg wit="#B #G">les</rdg><rdg wit="#X2">l'en</rdg></app> tenroit em prison</said>. 
    Et quant il li ot tout ce conté, si li dist <said aloud="true" direct="false">conment 
@@ -3539,7 +3537,7 @@
       <app><lem wit="#V3 #G">en</lem><rdg wit="#B #X2"/></app> orrez bien parler avant que li livres faille</said>. 
    Et ainsi demorerent puis li prince <num>viii</num> jours touz <app><lem wit="#V3 #G">entiers</lem><rdg wit="#B #X2">plains</rdg></app> 
    en cele joie et en si grant feste que jamés ne s’en queissent partir, ne fu ce que chascuns avoit a faire en son pais.</p>
-<p n="P571"><c ana="lettrine2">Q</c>uan (sic) <!-- Corr? Evidemment Quant dans BGX2 --> ce 
+<p n="P571"><supplied resp="#CC" source="#B #G #X2"><c ana="lettrine2">Q</c>uant</supplied> ce 
    <app><lem wit="#V3 #G #X2">fu</lem><rdg wit="#B">vint</rdg></app> que 
    <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">il s'en</rdg></app> durent partir, 
    si <app><lem wit="#V3 #G #X2">firent</lem><rdg wit="#B">fist</rdg></app> <rs type="person" key="Cassidorus">li empereres</rs> 
@@ -3614,7 +3612,8 @@
       et <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">eulz</rdg></app> du tout avec nous, que vous vueilliez rapeler 
       <rs type="person" key="Fastige">l’empereris<app><lem wit="#V3 #G">, nostre mere</lem><rdg wit="#B #X2"/></app></rs>, 
       <app><lem wit="#V3 #G #X2">avec vous</lem><rdg wit="#B"/></app> et <app><lem wit="#V3 #G #X2">que vous</lem><rdg wit="#B"/></app> 
-      soiez li uns avec l’autre, si conme vous <cb n="b"/>si conme vous (sic) <!-- Corr? --> devez, et nous touz vous en requerons que 
+      soiez li uns avec l’autre, <supplied resp="#CC" source="#B #G #X2">si conme vous</supplied> <cb n="b"/>devez, 
+      et nous touz vous en requerons que 
       <app><lem wit="#V3 #G #X2">vous le vueilliez</lem><rdg wit="#B">il vous plaise a</rdg></app> fere.</said>
    Quant <persName key="Helcanus">Helcanus</persName> ot ceste raison dite, <rs type="person" key="Cassidorus">li empereres</rs> 
    se tut <num>i</num> pou<app><lem wit="#V3 #B #X2">, que il <app><lem wit="#V3">pou ne grant</lem><rdg wit="#B #X2">mot</rdg></app> 
@@ -3755,7 +3754,8 @@
    <app><lem wit="#V3 #G #X2">a tout</lem><rdg wit="#B">entre ses bras</rdg></app> <rs type="person" key="Celydus">l’enfant</rs> 
    et <app><lem wit="#V3 #G">s’en</lem><rdg wit="#B #X2"/></app> entra es chambres et vint la ou <rs type="person" key="Fastige">l’empereris</rs>
    estoit et li dist :
-   <said aloud="true" direct="true">Dame, oncore (sic) <!-- Corr? --> est <rs type="person" key="Celydus">cist enfés</rs> miens,
+   <said aloud="true" direct="true">Dame, <supplied resp="#CC" source="#B #G #X2">encore</supplied> est 
+      <rs type="person" key="Celydus">cist enfés</rs> miens,
       dont je vous prie que vous <app><lem wit="#V3 #B #G">le</lem><rdg wit="#X2"/></app> faciez garder conme le vostre.</said>
    Quant <rs type="person" key="Fastige">la dame</rs> oï ce, si sailli sus et prist <rs type="person" key="Celydus">l’enfant</rs> entre ses bras 
    et le baisa moult amiablement et puis dit :
@@ -3772,7 +3772,7 @@
    <rs type="person" key="Cassidorus">l’emperere</rs> et li dist :
    <said aloud="true" direct="true">Par foy, sire, voirs <app><lem wit="#V3 #G">est</lem><rdg wit="#B #X2"/></app> 
       <app><lem wit="#V3 #G #X2">ce</lem><rdg wit="#B"/></app> dist 
-      <persName key="Celidoine"><app><lem wit="#B">Celidoine</lem><rdg wit="#V3 #G #X2">Cassidore</rdg></app></persName><!-- Corr? -->, 
+      <persName key="Celidoine"><app><lem wit="#B">Celidoine</lem><rdg wit="#V3 #G #X2">Cassidore</rdg></app></persName><!-- Corr? B meilleur ?-->, 
    quant elle dist que <seg ana="discoursEnchassé">jamés ne vous verroit ne vous li</seg>.</said>
    <said aloud="true" direct="true"><persName key="Daphus">Daphus</persName>, dist il, voirement le dist ele. Mes 
       <app><lem wit="#V3 #G">or</lem><rdg wit="#B #X2">ce</rdg></app> me dites : conment dient li chevalier qu’ele morut ?</said>
