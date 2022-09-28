@@ -58,6 +58,9 @@
     <xsl:template match="lem">
         <i><span class="lem"><xsl:apply-templates></xsl:apply-templates></span></i>
     </xsl:template>
+    <xsl:template match="supplied">
+        <b><i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@source,'#','')"/>]</i></b>
+    </xsl:template>
     <xsl:template match="note">
         [<i><xsl:apply-templates></xsl:apply-templates></i>]
     </xsl:template>
