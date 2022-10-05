@@ -36,6 +36,13 @@
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
     </xsl:template>
+    <xsl:template match="hi">
+        <xsl:choose>
+            <xsl:when test="@rend='exposant'">
+                <span class="exp"><xsl:apply-templates/></span>
+            </xsl:when>
+        </xsl:choose>        
+    </xsl:template>
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@direct='true'"> 
