@@ -576,14 +576,18 @@
           <elementSpec ident="supplied" module="transcr" mode="change">
             <attList>
               <attDef ident="source" mode="change" usage="req">
-                <valList type="open">
+                <valList type="closed">
                   <valItem ident="#B"/>
-                  <valItem ident="#X"/>
+                  <valItem ident="#G"/>
+                  <valItem ident="#X2"/>
                 </valList>
               </attDef>
               <attDef ident="resp" mode="change" usage="req">
-                <valList type="semi" mode="replace">
+                <valList type="closed" mode="replace">
                   <valItem ident="#Brodtkorb"/>
+                  <valItem ident="#CC"/>
+                  <valItem ident="#SL"/>
+                  <valItem ident="#PD"/>
                 </valList>
               </attDef>
             </attList>

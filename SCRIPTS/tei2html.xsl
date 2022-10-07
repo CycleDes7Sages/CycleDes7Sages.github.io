@@ -36,6 +36,13 @@
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
     </xsl:template>
+    <xsl:template match="hi">
+        <xsl:choose>
+            <xsl:when test="@rend='exposant'">
+                <span class="exp"><xsl:apply-templates/></span>
+            </xsl:when>
+        </xsl:choose>        
+    </xsl:template>
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@direct='true'"> 
@@ -57,6 +64,9 @@
     </xsl:template>
     <xsl:template match="lem">
         <i><span class="lem"><xsl:apply-templates></xsl:apply-templates></span></i>
+    </xsl:template>
+    <xsl:template match="supplied">
+        <b><i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@source,'#','')"/>]</i></b>
     </xsl:template>
     <xsl:template match="note">
         [<i><xsl:apply-templates></xsl:apply-templates></i>]
