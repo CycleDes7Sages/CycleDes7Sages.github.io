@@ -604,8 +604,8 @@
 
           <elementSpec ident="lem" module="textcrit" mode="change">
             <attList>
-              <attDef ident="wit" mode="change" usage="rec">
-                <valList type="open">
+              <attDef ident="wit" mode="change" usage="req">
+                <valList type="closed">
                   <valItem ident="#B"/>
                   <valItem ident="#G"/>
                   <valItem ident="#X2"/>
@@ -624,7 +624,7 @@
           <elementSpec ident="rdg" module="textcrit" mode="change">
             <attList>
               <attDef ident="wit" mode="change" usage="req">
-                <valList type="open">
+                <valList type="closed">
                   <valItem ident="#B"/>
                   <valItem ident="#G"/>
                   <valItem ident="#X2"/>
