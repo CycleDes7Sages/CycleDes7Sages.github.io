@@ -839,9 +839,10 @@
                   <said aloud="true" direct="false">poi avons <cb n="d"/> mespris a nous <app><lem wit="#V2 #B #G">meismes</lem>
                      <rdg wit="#X2">meis<!-- exponctué fin de ligne -->meismes</rdg></app></said>.</said>
                </p>
-            <p n="P194"><app><lem wit="#V2 #G #X2"><c ana="lettrine 2">Q</c>uant <rs type="person" key="Melode">la pucele</rs> l’ot entendu, si dist : 
-   <said aloud="true" direct="true"><persName key="Mirus">Mirrus</persName></lem>
-            <rdg wit="#B">"Myrus! Myrus, dist la pucele</rdg></app>, 
+            <p n="P194"><app><lem wit="#V2 #G #X2"><c ana="lettrine 2">Q</c>uant <rs type="person" key="Melode">la pucele</rs> l’ot entendu, si dist</lem>
+               <rdg wit="#B"/></app>: 
+   <said aloud="true" direct="true"><persName key="Mirus"><app><lem wit="#V2 #G #X2">Mirrus</lem>
+      <rdg wit="#B">"Myrus! Myrus, dist la pucele</rdg></app></persName>, 
                il n’est mie <app><lem wit="#V2 #X2">du tout ainssi</lem>
                <rdg wit="#B">ainsi du tout</rdg>
                   <rdg wit="#G">du tout aussi</rdg></app> 
@@ -937,7 +938,7 @@
                pendirent les escuz aus <app><lem wit="#V2 #G #X2">coulz</lem>
                <rdg wit="#B">cops</rdg></app> 
                et pristrent fors <app><lem wit="#B #G #X2">glaives</lem>
-                  <rdg wit="#V2"></rdg><del rend="exponctuation" hand="#main1">o</del> glaives</app>
+                  <rdg wit="#V2"><del rend="exponctuation" hand="#main1">o</del> glaives</rdg></app>
                et <app><lem wit="#V2 #G #X2">trenchanz</lem>
                <rdg wit="#B">pesanz</rdg></app> 
                et ont <app><lem wit="#V2 #B #X2">les</lem>
@@ -1319,8 +1320,10 @@
                      <rdg wit="#G">savoir de voz</rdg></app>.</said>
                <said aloud="true" direct="true">Sire, dist ele, et je le vous dirai, car bien est droiz que vous le sachiez. 
                   <rs type="person" key="père de Melode">Mes peres<!-- peres avec premier e écrit sur un i B --></rs>, 
-                  qui encore vit, fu <app><lem wit="#X2">freres</lem><rdg wit="#V2">freres <del rend="exponctuation" hand="#main1">i</del></rdg><rdg wit="#B #G">frere</rdg></app>
-                     <persName key="Melsius">Melsius</persName></rs>,
+                  qui encore vit, fu <app><lem wit="#X2">freres</lem>
+                     <rdg wit="#V2">freres <del rend="exponctuation" hand="#main1">i</del></rdg>
+                     <rdg wit="#B #G">frere</rdg></app>
+                  <persName key="Melsius">Melsius</persName>,
                   selui qui <app><lem wit="#V2 #B #X2">tant jours</lem>
                      <rdg wit="#G">tousjours</rdg></app> 
                   servi <app><lem wit="#V2 #G #X2">mon seigneur 
@@ -1339,7 +1342,7 @@
                   <rdg wit="#B"/></app> 
                   courouciee, ou <app><lem wit="#V2 #G #X2">j’ai puis</lem>
                   <rdg wit="#B">je puis ai</rdg></app> 
-                  eu mains courrouz, et tout pour la terre qui a <app><lem wit="">ainssi esté</lem>
+                  eu mains courrouz, et tout pour la terre qui a <app><lem wit="#G">ainssi esté</lem><!-- attention la graphie de G est différente -->
                      <rdg wit="#V2">ainssi estre</rdg>
                   <rdg wit="#B">esté puis ainsi</rdg>
                      <rdg wit="#G">ainsi esté</rdg>
@@ -1370,7 +1373,7 @@
       <persName key="Melode">Melode</persName>.</said>
    <said aloud="true" direct="true"><app><lem wit="#V2 #G #X2">Or me dites, ma douce amie</lem>
    <rdg wit="#B">Melode, dist Helcanus, or me dites</rdg></app>, 
-      <said aloud="true" direct="false">queles nouveles <app><lem ana="#V2 #B #X2">vous me direz</lem>
+      <said aloud="true" direct="false">queles nouveles <app><lem wit="#V2 #B #X2">vous me direz</lem>
          <rdg wit="#G">me dirés vous</rdg></app> 
          de ceulz qui 
          <cb n="e"/> 
@@ -1378,7 +1381,7 @@
    <said aloud="true" direct="true">Sire, dist ele, au passer que <app><lem wit="#V2 #G #X2">li message</lem>
    <rdg wit="#B">il</rdg></app> 
       firent, <persName key="Ascanus">Ascanus</persName> 
-      les fist guetier et bien les cuida faire prendre <app><lem ana="#V2 #B #X2">ou</lem>
+      les fist guetier et bien les cuida faire prendre <app><lem wit="#V2 #B #X2">ou</lem>
          <rdg wit="#G">et</rdg></app> 
       metre a mort, <app><lem wit="#V2 #G #X2">mais</lem>
       <rdg wit="#B"/></app> 
@@ -1514,13 +1517,13 @@
    <rdg wit="#B">de si au</rdg></app> 
    paveillon ou li dui chevalier 
    <app><lem wit="V2 #B #X2">atendoient</lem>
-   <rdg wit="">les actendoient <!--  les exponctué --></rdg></app> 
+   <rdg wit="#G">les actendoient <!--  les exponctué --></rdg></app> 
    <rs type="person" key="Melode">la pucele</rs>, touz armez seur leur chevaus. 
-   <app><lem wit="#V2 #G #X2"><said aloud="true" direct="true">Biaus seigneurs, dist ele, <app><lem wit="#V2 #G">et</lem><rdg wit="#X2"/></app> dont</lem>
+   <said aloud="true" direct="true"><app><lem wit="#V2 #G #X2">Biaus seigneurs, dist ele, <app><lem wit="#V2 #G">et</lem><rdg wit="#X2"/></app> dont</lem>
    <rdg wit="#B">Dont dist ele: "Biaus seigneurs, esgardez</rdg></app> 
-   ne sont cist aussi bel par semblant 
+  ne sont cist aussi bel par semblant 
    comme <app><lem wit="#V2 #G #X2"><persName key="Mirus">Myrrus</persName> et <persName key="Eligius">Eligius</persName> estoient</lem>
-     <rdg wit="#B">erent Myrus et Eligius</rdg></app>?</said>
+     <rdg wit="#B">erent Myrus et Eligius</rdg></app>?
    <said aloud="true" direct="true">Certes, <app><lem wit="#V2 #G #X2">distrent</lem>
    <rdg wit="#B">dient</rdg></app> 
       il, nous creons que oïl, mais nous <app><lem wit="#V2 #B #X2">espoir</lem>
@@ -1564,10 +1567,9 @@
          <rdg wit="#B #X2">en</rdg></app>
       <app><lem wit="#V2 #G #X2">si grant</lem>
       <rdg wit="#B">tel</rdg></app> 
-      annui.</said>
-   </p>
-<note type="apparat">Pas de nouveau § B</note>
-            <p n="P203"><c ana="lettrine 2">Q</c>uant <persName key="Helcanus">Helcanus</persName> vit ce, 
+      annui.</said></said>
+</p>
+            <p n="P203"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine 2">Q</c>uant <persName key="Helcanus">Helcanus</persName> vit ce, 
    si fu touz esbahiz et dist : 
    <said aloud="true" direct="true">Damoisele, grans mercis !</said>
    <app><lem wit="#V2 #G #X2">Dont</lem>
@@ -1664,7 +1666,7 @@
                   tant avez <app><lem wit="#V2 #G #X2"><app><lem wit="#V2 #X2">fait</lem><rdg wit="#G">fet-fait</rdg></app> pour moi</lem>
                   <rdg wit="#B">pour moi fait</rdg></app> 
                   que vous <app><lem wit="#V2 #G #X2">a vostre gré n’en porriez estre <app><lem wit="#G">paiee</lem><rdg wit="#V2">
-                  </rdg>paiei</rdg>
+                  paiei</rdg>
                      <rdg wit="#X2">paié</rdg></app></lem>
                   <rdg wit="#B">de moi n'en serez ja a vostre gré paiee</rdg></app>  
                   <app><lem wit="#V2 #B #X2">se ainssi <app><lem wit="#V2 #X2">n’</lem>
@@ -1682,10 +1684,10 @@
                         <rdg wit="#B #X2">et ai</rdg></app> 
                   eu</lem>
                      <rdg wit="#G"/></app>.</said>
-               <app><lem wit="#V2 #B #X2">Dont li dist : 
+               <app><lem wit="#V2 #B #X2">Dont li dist</lem>
+               <rdg wit="#G">Sire, dist elle</rdg></app>: 
                   <said aloud="true" direct="true"><app><lem wit="#B #X2">Sire</lem>
-                     <rdg wit="#V2"><del rend="exponctuation" hand="#main1">S</del> Sire</rdg></app></lem>
-      <rdg wit="#G">Sire, dist elle</rdg></app>, 
+                     <rdg wit="#V2"><del rend="exponctuation" hand="#main1">S</del> Sire</rdg></app>, 
                encore m’a <app><lem wit="#V2 #B #X2">ci</lem>
                   <rdg wit="#G">ici</rdg></app> 
                amené autre besoing que je compté ne vous <app><lem wit="#V2 #G">ai mie</lem>
@@ -1835,14 +1837,15 @@
                <app><lem wit="#V2 #X2">leur</lem>
                <rdg wit="#B #G">son</rdg></app>
                salut et li demanderent <said aloud="true" direct="false">qui 
-                  il estoit</said>, <app><lem wit="#V2 #G #X2">et il leur dist : 
-   <said aloud="true" direct="true">Biaus seigneurs</lem>
-                  <rdg wit="#B">Par foi, biax seigneurs, dist il</rdg></app>, 
+                  il estoit</said>, <app><lem wit="#V2 #G #X2">et il leur dist</lem>
+                     <rdg wit="#B">Par foi, biax seigneurs, dist il</rdg></app>: 
+   <said aloud="true" direct="true"><app><lem wit="#V2 #G #X2">Biaus seigneurs</lem>
+                  <rdg wit="#B"/></app>, 
                <app><lem wit="#V2 #G #X2">avant</lem>
                <rdg wit="#B">ainz</rdg></app> 
-               me dites, <app><lem wit="#V2 #G #X2">se il vous plest, <said aloud="true" direct="false">a 
+               me dites, <app><lem wit="#V2 #G #X2">se il vous plest, a 
       qui vous estes</lem>
-               <rdg wit="#B">a qui vous estes, se il vous plaist</rdg></app></said>, 
+               <rdg wit="#B">a qui vous estes, se il vous plaist</rdg></app>, 
                car de moi le savrez <app><lem wit="#V2 #B #X2">vous</lem>
                <rdg wit="#G"/></app>, 
                <app><lem wit="#V2 #B #X2">veulle</lem>
