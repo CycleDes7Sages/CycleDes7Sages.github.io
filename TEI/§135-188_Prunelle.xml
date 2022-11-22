@@ -2432,14 +2432,14 @@
                </app>.</p>
             <p n="P159"><note type="app">Pas de nouveau § B</note>
                <said who="#nar"><c ana="lettrine 2">Q</c>ue vous <app>
-                     <lem wit="#V2 #G">diroie</lem>
-                     <!-- à corriger je pense en "yroie", G a tenté de corriger en supprimer le reste -->
-                     <rdg wit="#B #X2">yroie</rdg>
-                  </app> je ?</said>
+                     <lem wit="#B #X2" resp="#PD">yroie</lem>
+                     
+                     <rdg wit="#V2 #G">diroie</rdg>
+                  </app> je?
                <app>
-                  <lem wit="#V2 #B #X2">La besoingne atargant</lem>
+                  <lem wit="#V2 #B #X2">la besoingne atargant</lem>
                   <rdg wit="#G"/>
-               </app>, tant ferirent les uns sus ‹s›[l]es autres<!-- l'un seur l'autre B --> que
+               </app></said> Tant ferirent les uns sus ‹s›[l]es autres<!-- l'un seur l'autre B --> que
                moult fu li plus fors <app>
                   <lem wit="#V2 #B #X2">afebloiez</lem>
                   <rdg wit="#G">foible</rdg>
@@ -2497,7 +2497,7 @@
                      <lem wit="#V2 #X2">n’en ont il fait ce que il en ont fait</lem>
                      <rdg wit="#B">il n'ont fait ce que fait en est</rdg>
                      <rdg wit="#G">ne l'ont ils pas fait</rdg>
-                     <!-- corriger ici -->
+                     <!-- commenter ici -->
                   </app>. Et se il est ainssi que vous puissiez <app>
                      <lem wit="#V2 #G #X2">tenir</lem>
                      <rdg wit="#B">prendre ne tenir</rdg>
@@ -2575,9 +2575,9 @@
                   petit<!-- changer ici la ponctuation? point avant "pour"? -->, mais pour ceulz de
                      <placeName key="Constantinople">Costentinnoble</placeName> qui mort y sont,
                   dont leur ami <app>
-                     <lem wit="#V2">moult</lem>
-                     <rdg wit="#B #G #X2">m'ont</rdg>
-                     <!-- corriger -->
+                     <lem wit="#B #G #X2" resp="#PD">m'ont</lem>
+                     <rdg wit="#V2">moult</rdg>
+                    
                   </app> aprouchié, <app>
                      <lem wit="#V2 #G #X2">dont j’ai grant doute</lem>
                      <rdg wit="#B">de quoi je suis en doute</rdg>
@@ -2585,10 +2585,10 @@
                      <lem wit="#V2 #G #X2">Et</lem>
                      <rdg wit="#B">Car je</rdg>
                   </app> vous commant <app>
-                     <lem wit="#V2">que-que (sic)</lem>
-                     <!-- corriger -->
+                     <lem wit="#G #X2">que</lem>
+                    
                      <rdg wit="#B"/>
-                     <rdg wit="#G #X2">que</rdg>
+                     <rdg wit="#V2">que-que (sic)</rdg>
                   </app>, se vous en pouez nul prendre, que vous leur delivrez.</said>
                <said aloud="true" direct="true">Par Dieu, dist il, bien dites ! Et je le ferai
                   volentiers. <app>
@@ -2692,9 +2692,9 @@
                   key="Gasus">Gasus</persName> tant que il furent bien gueri. Et quant ce vint <cb
                   n="b"/> au congié prendre, <persName key="Gasus">Gasus</persName> leur fist si
                toutes<!-- toute G --> leur besoignes que bien cuidierent <app>
-                  <lem wit="#V2">avoir savoir (sic)</lem>
-                  <rdg wit="#B #G #X2">avoir</rdg>
-               </app><!-- corriger --> sauf conduit par la <app>
+                  <lem wit="#B #G #X2" resp="#PD">avoir</lem>
+                  <rdg wit="#V2">avoir savoir (sic)</rdg>
+               </app> sauf conduit par la <app>
                   <lem wit="#V2 #G">lectre</lem>
                   <rdg wit="#B #X2">terre</rdg>
                </app>, car <persName key="Pelyarmenus">Peliarmenus</persName> avoit envoié <app>
@@ -2776,10 +2776,10 @@
                      <lem wit="#V2 #G #X2">suivent</lem>
                      <rdg wit="#B">suivissent</rdg>
                   </app></said>, et il si firent. Et tant <app>
-                  <lem wit="#V2">chevauchie-que</lem>
-                  <rdg wit="#B #X2">ont chevauchié que</rdg>
-                  <rdg wit="#G">chevauchierent que</rdg>
-               </app><!-- corriger --> il <app>
+                     <lem wit="#B #X2" resp="#PD">ont chevauchié que</lem>
+                     <rdg wit="#V2">chevauchie-que</rdg>
+                  <rdg wit="#G">chevauchierent que</rdg><!-- G essaye de corriger erreur commune V2 -->
+               </app> il <app>
                   <lem wit="#V2 #G #X2">furent moult esloignié</lem>
                   <rdg wit="#B">moult sont loing issi</rdg>
                </app> de leur chemin. Dont les a cil menez en <num>i</num> parfont val ou<!-- la ou B -->
@@ -2793,9 +2793,9 @@
                   <rdg wit="#B">reclaiment</rdg>
                </app> Dieu, car il virent bien que cil les avoit traÿs et que leur vie estoit alee.
                Adont se sont touz<!-- tout X2 --> mis ensemble et cil les ont <app>
-                  <lem wit="#V2">assailliez (sic)</lem>
-                  <rdg wit="#B #G #X2">assaillis</rdg>
-               </app><!-- corriger -->
+                  <lem wit="#B #G #X2" resp="#PD">assaillis</lem>
+                  <rdg wit="#V2">assailliez (sic)</rdg>
+               </app>
                <app>
                   <lem wit="#V2 #B #X2">devant et derriere</lem>
                   <rdg wit="#G">de toutes pars</rdg>
@@ -2848,14 +2848,14 @@
                   <rdg wit="#B"/>
                </app> feru de l’espee qu’il l’abati jus du destrier, vousist ou non. Et bien
                cuidierent li sien <app>
-                  <lem wit="#V2">que il fust que il fust (sic)</lem>
-                  <rdg wit="#B #G #X2">que il fust (qu'il fust mort G)</rdg>
-                  <!-- corriger -->
+                  <lem wit="#B #G #X2" resp="#PD">que il fust</lem>
+                  <rdg wit="V2">que il fust que il fust (sic)</rdg>
+                  
                </app> mors, <app>
-                  <lem wit="#V2"><app>
-                        <lem wit="#V2">m-mais (sic)</lem>
-                        <rdg wit="#G #X2">mais</rdg>
-                     </app><!-- corriger --> non estoit</lem>
+                  <lem wit="#V2 #G #X2"><app>
+                     <lem wit="#G #X2" resp="#PD">mais</lem>
+                     <rdg wit="#V2">m-mais (sic)</rdg>
+                     </app> non estoit</lem>
                   <rdg wit="#B">et sachiez de voir que si eust il esté se il eust esté
                      preudons</rdg>
                </app>. <app>
@@ -2971,11 +2971,11 @@
                      <lem wit="#V2 #X2">conteroie</lem>
                      <rdg wit="#B">celeroie</rdg>
                      <rdg wit="#G">diroie</rdg>
-                  </app> je ?</said><!-- ponctuation : mettre d'eulz dans la phrase précédente? -->
+               </app> je d’eulz ?</said><!-- ponctuation : ok? -->
                <app>
-                  <lem wit="#V2 #X2">D’eulz tel</lem>
-                  <rdg wit="#B #G">Tel</rdg>
-                  <!-- à corriger -->
+                  <lem wit="#V2 #X2">Tel</lem>
+                  <rdg wit="#B #G"/>
+                
                </app> estoient mené que trop grant pitié estoit d’eulz veoir. Dont commencierent
                leur compaignons a regreter et eulz meismes a dementer et<!-- mq et B --> grans
                souspirs et granz lamentacions a faire. Ainssi comme il estoient<!-- erent B --> en
