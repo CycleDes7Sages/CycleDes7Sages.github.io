@@ -39,7 +39,7 @@
     <xsl:template match="hi">
         <xsl:choose>
             <xsl:when test="@rend='exposant'">
-                <span class="exp"><xsl:apply-templates/></span>
+                <sup><span class="exp"><xsl:apply-templates/></span></sup>
             </xsl:when>
         </xsl:choose>        
     </xsl:template>
