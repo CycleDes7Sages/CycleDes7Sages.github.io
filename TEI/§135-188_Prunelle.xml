@@ -1932,7 +1932,7 @@
                      <rdg wit="#B">nul n'i eust</rdg>
                   </app> qui armez fust se ce n’estoit <app>
                      <lem wit="#V2 #G">le</lem>
-                     <rdg wit="#B #X2">par le</rdg>
+                     <rdg wit="#B #X2">par le</rdg><!--SL la construction fonctionne-t-elle dans V2 G? attesté?-->
                   </app> ‹t›[c]ongié du <rs type="person" key="Gasus">baillif</rs></said>. Quant
                   <persName key="Dialogus">Dyalogus</persName> sot ce, <app>
                   <lem wit="#V2 #G #X2">si</lem>
@@ -2123,7 +2123,7 @@
                   <rdg wit="#B #X2">mq</rdg>
                </app> d’euls quatre mis li doi chevalier en leur lieu<unclear reason="faded"
                   >...</unclear>. Dont se sont <app>
-                  <lem wit="#V2">merveilleusement noblement</lem>
+                  <lem wit="#V2">merveilleusement noblement</lem><!--SL ceci est étrange, les deux adverbes en -ment qui se suivent: voir si attesté et sinon je corrigerais d'après G avec une note-->
                   <rdg wit="#B #X2">mq</rdg>
                   <rdg wit="#G">moult noblement</rdg>
                </app> poli en leur armes. Et sachiez que d’eulz <num>ii</num> ne peust on <app>
@@ -2151,9 +2151,9 @@
                </app> tant aigrement li uns <app>
                   <lem wit="#V2 #G">contre</lem>
                   <rdg wit="#B #X2"/>
-               </app> l’autre que <app>
+               </app> l’autre que <app><!--SL ok pour la construction "s'en venir l'un l'autre"?-->
                   <lem wit="#V2 #G">merveilles fu que on ne sot l’eure</lem>
-                  <rdg wit="#B #X2">l'en ne sot l'eure</rdg>
+                  <rdg wit="#B #X2">l'en ne sot l'eure</rdg><!--SL je réduirais ici l'apparat, en excluant "on/l'en ne sot l'eure" dans lem et rdg-->
 
                </app>. Si se <app>
                   <lem wit="#V2 #G #X2">sont</lem>
@@ -2787,7 +2787,7 @@
                   <rdg wit="#V2">avoir savoir (sic)</rdg>
                </app> sauf conduit par la <app>
                   <lem wit="#V2 #G">lectre</lem>
-                  <rdg wit="#B #X2">terre</rdg>
+                  <rdg wit="#B #X2">terre</rdg><!--SL faire une note ici et discuter la variante?-->
                </app>, car <persName key="Pelyarmenus">Peliarmenus</persName> avoit envoié <app>
                   <lem wit="#V2 #G #X2">et mandé</lem>
                   <rdg wit="#B"/>
@@ -3417,7 +3417,7 @@
                      <lem wit="#V2 #G #X2">or</lem>
                      <rdg wit="#B">ce</rdg>
                   </app> me dites <said aloud="true" direct="false"><app>
-                        <lem wit="#V2 #G">puis quant vous ne mengastes</lem>
+                        <lem wit="#V2 #G">puis quant vous ne mengastes</lem><!--SL je ferais porter la variante seulement sur "puis"-->
                         <rdg wit="#B #X2">quant vous menjastes</rdg>
                      </app> ?</said></said><!-- est-ce bien ici du DI? -->
                <said aloud="true" direct="true">Par foi, sire, <app>
@@ -3452,7 +3452,7 @@
                </app> fait, si ont mis <rs type="person" key="ermite de la Forêt de Vulgue">le
                   preudomme</rs> a raison <app>
                   <lem wit="#V2 #G">et li ont demandé</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2">mq</rdg><!--SL commenter la construction ici? tournure similaire dans DMF "Miracle de saint Panthaleon" avec "que"-->
                </app>
                <said aloud="true" direct="false">comment ce avoit esté que <rs type="person"
                      key="Helcana">la mere <persName key="Helcanus">Helcanus</persName></rs> avoit
@@ -3462,7 +3462,7 @@
                      <rdg wit="#B">tout ainsi comment</rdg>
                   </app>
                   <rs type="person" key="Helcana">ele</rs> estoit la venue et comment ele avoit
-                  demoré en l’ermitage, et tout en autele maniere<!-- tout ainsi B --> comme li
+                  demoré en l’ermitage, et tout en autele maniere<!-- tout ainsi B --><!--SL j'ai supprimé les cas et rajouté (au)tele dans notre fichier partagé--> comme li
                   traïteur du paÿs l’avoient traÿe et com<cb n="d"/>ment ele fu arriere en <app>
                      <lem wit="#V2 #G">la</lem>
                      <rdg wit="#B #X2">sa</rdg>
@@ -3525,7 +3525,7 @@
                      <rdg wit="#V2 #G">le pere a la pucele et a la mere</rdg>
                   </app>
                   <app>
-                     <lem wit="#V2 #G">moult</lem>
+                     <lem wit="#V2 #G">moult</lem><!--SL je corrigerais d'après B X2-->
                      <rdg wit="#B #X2">m'ont</rdg>
                   </app>
                   <app>
@@ -3653,7 +3653,7 @@
                      <rdg wit="#B #X2"><said aloud="true" direct="true">Damoisele, <app>
                               <lem wit="#B">dist il</lem>
                               <rdg wit="#X2"/>
-                           </app>, il sont chevalier.</said>
+                           </app>, il sont chevalier.</said><!--SL ici je corrigerais, "dist ele"x2 me semble bizarre et la première question n'a pas de réponse; mais ce n'est pas un saut -->
                         <said aloud="true" direct="true">Et quant sont il?</said></rdg>
                      <rdg wit="#G"/>
 
@@ -3793,7 +3793,7 @@
                   <rdg wit="#B">le jour desi</rdg>
                </app> a heure de vespres, que il ont escouté moult grant <app>
                   <lem wit="#V2 #G">frainte</lem>
-                  <rdg wit="#B #X2">friente</rdg>
+                  <rdg wit="#B #X2">friente</rdg><!--SL faire une note sur les synonymes qui dérivent de deux étymons différents et leurs emplois?-->
 
                </app> de chevaus. Adont ont eu en doute qu’il ne fussent espié, si n’ont eu plus de
                secours <app>
@@ -4178,7 +4178,7 @@
                <cb n="f"/>
                <said next="#P176-1" aloud="true" direct="true">Damoisele, dist il, voirement sui je <app>
                      <lem wit="#V2 #G">ce.</lem>
-                     <rdg wit="#B #X2">ce." "Et ou sont vostre compaignon?" "</rdg>
+                     <rdg wit="#B #X2">ce." "Et ou sont vostre compaignon?" "</rdg><!--SL corriger d'après B X2, il manque une réplique-->
                   </app> Par foi, damoisele, dist il, <app>
                      <lem wit="#V2 #G #X2">la verité</lem>
                      <rdg wit="#B">voirement</rdg>
@@ -4440,7 +4440,7 @@
                </app> failli gueres qu’il ne tresala. Mais <rs type="person" key="Helcanus"
                >cil</rs>, qui ot <app>
                   <lem wit="#V2 #G">cuer et couvenable</lem>
-                  <rdg wit="#B #X2">cuer seur et couvenable</rdg>
+                  <rdg wit="#B #X2">cuer seur et couvenable</rdg><!--SL corriger, il manque le premier adjectif du doublet, ce qui peut s'expliquer par une haplographie-->
                   <!-- corriger je pense -->
                </app>, a geté <num>i</num> moult grant souspir et dist au <rs type="person" key="?"
                   >garçon</rs> : <said aloud="true" direct="true">Lieve sus et ne di mot de ci adont
@@ -5050,7 +5050,7 @@
                </app>, pensa qu’<said aloud="false" direct="false">il ne se lairoit mie assegier
                   sanz <app>
                      <lem wit="#V2 #G">trop</lem>
-                     <rdg wit="#B #X2">cop</rdg>
+                     <rdg wit="#B #X2">cop</rdg><!--SL corriger ou commenter; la leçon de B X2 me paraît supérieure à V2 G, mais voir les attestations-->
 
                   </app> ferir</said>. Il ot sa gent aprestee et furent bien <num>xxx<hi rend="exp"
                      >m</hi></num>, <cb n="d"/> car <persName key="Pelyarmenus"
@@ -5346,7 +5346,7 @@
                </app>
                <pb n="167"/> feri <persName key="Helcanus">Helcanus</persName> et <app>
                   <lem wit="#V2 #G">lui et</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2">mq</rdg><!--SL: commenter? l'omission de "lui et" change le référent de "li sien", si je comprends bien: dans B et X2 on aurait un accord de proximité et "li sien" est sujet aussi de "feri", dont du côté d'Helcanus, tandis que "li sien" est complément d'objet dans V G?-->
                </app> li sien que par droite force <name type="people" key="Italiens">Ytalien</name>
                se sont retrait vers <rs type="place" key="Nise">la cité</rs> avant que <app>
                   <lem wit="#V2 #G #X2">mestier</lem>
@@ -5391,7 +5391,7 @@
                         <lem wit="#V2">tentes</lem>
                         <rdg wit="#G">temptes</rdg>
                      </app> et paveillons partout</lem>
-                  <rdg wit="#B #X2">tendu paveillons et tres partout</rdg>
+                  <rdg wit="#B #X2">tendu paveillons et tres partout</rdg><!--SL supprimer "partout" de la variante dans rdg et lem?-->
                </app> la ou il porent et furent assez tost logiez. En tele maniere fu <rs
                   type="place" key="Nise">la cité</rs> assise de <persName type="people"
                   key="Frisons">ceulz de <placeName key="Frise">Frise</placeName></persName>. Il fu
