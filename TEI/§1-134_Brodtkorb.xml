@@ -9335,9 +9335,9 @@
                             >Clyodorus</persName></lem>
                         <rdg wit="#B">l'entendi</rdg>
                     </app>, si ot moult grant merveille de ce qu'<said aloud="true" direct="false"
-                        >il ot <app>
-                            <lem wit="#V2 #G #X2">dit</lem>
-                            <rdg wit="#B">conté</rdg>
+                        >il <app>
+                            <lem wit="#V2 #G #X2">ot dit</lem>
+                            <rdg wit="#B">li ot conté</rdg>
                         </app>.</said> Dont dist : <said aloud="true" direct="true">Par foy, sire
                         chevaliers, trop ay <app>
                             <lem wit="#V2 #G #X2">oÿ</lem>
@@ -9357,21 +9357,30 @@
                             <rdg wit="#B">le pere de celui</rdg>
                         </app> et avec <rs type="person" key="Euriet"><num>i</num> autre
                             chevalier</rs> qui orendroit est trespassez de cest siecle.</said> Et
-                    quant <persName key="Cliodorus">Clyodorus</persName> l'entendi, <app>
-                        <lem wit="#V2 #G #X2">si ot moult grant talent que il seust son non et de
-                            celui qui mors estoit, et dist</lem>
+                    quant <persName key="Cliodorus">Clyodorus</persName> l'entendi, si ot <app>
+                        <lem wit="#V2 #G">moult</lem>
+                        <rdg wit="#B #X2"/>
+                    </app> grant talent que il seust son non et de celui qui mors estoit, <app>
+                        <lem wit="#V2 #G #X2">et dist</lem>
                         <rdg wit="#B"/>
-                    </app> : <said aloud="true" direct="true">Certes, sire, moult volentiers
-                        savroie, mais qu'il ne vous anuiast, comment vostre non est et de celui qui <app>
+                    </app> : <said aloud="true" direct="true">Certes, sire, moult volentiers <app>
+                            <lem wit="#V2 #B #X2">savroie</lem>
+                            <rdg wit="#G">savroie vostre nom</rdg>
+                        </app>, mais qu'il ne vous anuiast, <app>
+                            <lem wit="#V2 #B #X2">comment vostre non est</lem>
+                            <rdg wit="#G"/>
+                        </app> et de celui qui <app>
                             <lem wit="#V2 #G #X2">est mors</lem>
-                            <rdg wit="#B">fu en nostre terre et comment vous eustes premiers
+                            <rdg wit="#B">o vous fu en nostre terre et comment vous eustes premiers
                                 compaignie</rdg>
                         </app>.</said>
                     <said aloud="true" direct="true">Sire chevaliers, dist il, puis que <app>
                             <lem wit="#V2 #G #X2">vous le voulés</lem>
                             <rdg wit="#B">il vous plaist a</rdg>
-                        </app> savoir, ja paine ne me sera que je ne le vous die, mais<cb n="e"/>
-                        avant veul je savoir <app>
+                        </app> savoir, <app>
+                            <lem wit="#V2 #B #X2">ja paine ne me sera que je ne le vous die</lem>
+                            <rdg wit="#G">je vous le dirai</rdg>
+                        </app>, mais<cb n="e"/> avant veul je savoir <app>
                             <lem wit="#V2 #G #X2">vostre</lem>
                             <rdg wit="#B">le vostre</rdg>
                         </app> non, si ne serai mie <app>
@@ -9384,14 +9393,17 @@
                         dist <app>
                             <lem wit="#V2 #G #X2">il</lem>
                             <rdg wit="#B">le vavassor</rdg>
-                        </app>, on m’apele <persName key="Mirador">Minador d'<placeName
-                                key="Esquarre">Esquarre</placeName></persName>, et cil qui avec moi
-                        fu en <placeName key="Grèce">Grece</placeName> avec l'empereour <persName
-                            key="Laurin">Laurin</persName> ot non <persName key="Euriet">Euriet le
-                            Paoureus</persName>. Il avint <num>i</num> jour qui passez est que <rs
-                            type="person" key="Detriet">uns chevaliers</rs> de ceste terre si <app>
+                        </app>, on m’apele <persName key="Mirador"><app>
+                                <lem wit="#B #G #X2">Mirador</lem>
+                                <rdg wit="#V2">Minador</rdg>
+                            </app> d'<placeName key="Esquarre">Esquarre</placeName></persName>, et
+                        cil qui avec moi fu en <placeName key="Grèce">Grece</placeName> avec
+                        l'empereour <persName key="Laurin">Laurin</persName> ot non <persName
+                            key="Euriet">Euriet le Paoureus</persName>. Il avint <num>i</num> jour
+                        qui passez est que <rs type="person" key="Detriet">uns chevaliers</rs> de
+                        ceste terre si <app>
                             <lem wit="#B #X2" resp="#Brodtkorb">amoit</lem>
-                            <rdg wit="#V2">avoit</rdg>
+                            <rdg wit="#V2 #G">avoit</rdg>
                         </app>
                         <rs type="person" key="Jagonce">une pucele</rs> qui assez pres estoit sa
                         cousine. Li chevaliers <app>
@@ -9400,8 +9412,8 @@
                         </app> non <persName key="Detriet"><app>
                                 <lem wit="#B">Deriet</lem>
                             </app><app>
-                                <rdg wit="#V2">Deniet</rdg>
-                                <!-- deriet le fiers B -->
+                                <rdg wit="#V2 #G #X2">Deniet</rdg>
+                                <!-- deriet li fiers B corriger vraiment?-->
                             </app></persName>, et la pucelle apeloit on <persName key="Jagonce"
                             >Jagonce</persName> et estoit dame du <placeName key="Chatel Radoul"
                             >chastel Radoul</placeName>. Celle ne <app>
@@ -9409,7 +9421,7 @@
                             <rdg wit="#B">adeignoit</rdg>
                         </app> nului chierir, ainçois vous di que cilz <persName key="Detriet"><app>
                                 <lem wit="#V2 #G #X2">Detriet</lem>
-                                <rdg wit="#B">Deriet le fiers</rdg>
+                                <rdg wit="#B">Deriet li fiers</rdg>
                             </app></persName> l'avoit a ce menee que, vousist ou non, ele avoit
                         reclaim de lui <app>
                             <lem wit="#V2 #G #X2">que</lem>
@@ -9421,15 +9433,19 @@
                         </app> la devoit avoir a <app>
                             <lem wit="#V2 #G #X2">femme</lem>
                             <rdg wit="#B">femme qu'ele l'eust</rdg>
-                        </app>. <num>i</num> jour fu pris entre <rs type="person" key="Detriet"><app>
-                                <lem wit="#V2 #G #X2">li</lem>
-                                <rdg wit="#B">le chevalier</rdg>
-                            </app></rs> et <rs type="person" key="Jagonce">la pucelle</rs> que il la
-                        devoit avoir <app>
-                            <lem wit="#V2 #G #X2">a femme</lem>
-                            <rdg wit="#B"/>
-                        </app> se elle ne trouvoit qui la deffendit contre li. Celle ne pooit
-                        trouver chevalier qui <app>
+                        </app>. <app>
+                            <lem wit="#V2 #B #X2"><num>i</num> jour fu pris entre <rs type="person"
+                                    key="Detriet"><app>
+                                        <lem wit="#V2 #X2">li</lem>
+                                        <rdg wit="#B">le chevalier</rdg>
+                                    </app></rs> et <rs type="person" key="Jagonce">la pucelle</rs>
+                                que il la devoit avoir <app>
+                                    <lem wit="#V2 #X2">a femme</lem>
+                                    <rdg wit="#B"/>
+                                </app></lem>
+                            <rdg wit="#G"/>
+                        </app> se elle ne trouvoit qui la deffendit contre li<!-- lui B -->. Celle
+                        ne pooit trouver chevalier qui <app>
                             <lem wit="#V2 #G #X2">contre lui</lem>
                             <rdg wit="#B">por li</rdg>
                         </app> vousist la bataille faire se <app>
@@ -9447,7 +9463,7 @@
                             <lem wit="#V2 #G #X2">lui</lem>
                             <rdg wit="#B"/>
                         </app> deduire, o lui grant plenté de dames et de pu<supplied
-                            source="#B #X2" resp="#Brodtkorb">c</supplied>el<cb n="f"/>les. Li
+                            source="#B #G #X2" resp="#Brodtkorb">c</supplied>el<cb n="f"/>les. Li
                         empereres de <placeName key="Constantinople">Constentinoble</placeName>, qui
                             <persName key="Laurin">Laurin</persName> avoit <app>
                             <lem wit="#V2 #G #X2">a</lem>
@@ -9461,8 +9477,10 @@
                         </app> et <app>
                             <lem wit="#V2 #G #X2">s'en</lem>
                             <rdg wit="#B">il</rdg>
-                        </app> vint a la fontainne, qui plus estoit clere que nule riens, et em but,
-                        et quant il ot ce fait, il <app>
+                        </app> vint a la fontainne, qui plus estoit clere que nule riens, <app>
+                            <lem wit="#V2 #G #X2">et</lem>
+                            <rdg wit="#B">il</rdg>
+                        </app> em but, et quant il ot ce fait, il <app>
                             <lem wit="#V2 #G #X2">ot</lem>
                             <rdg wit="#B">li prist</rdg>
                         </app>
@@ -9483,12 +9501,15 @@
                             <rdg wit="#B"/>
                             <!-- commenter : pas très cohérent différence entre amener et laisser, non? -->
                         </app> et le laissa la dormant en tel point, et s'en vint la ou les <app>
-                            <lem wit="#V2 #G #X2">damoiselles</lem>
-                            <rdg wit="#B">autres damoiseles</rdg>
+                            <lem wit="#V2 #G">damoiselles</lem>
+                            <rdg wit="#B #X2">autres damoiseles</rdg>
                         </app> estoient et compta <seg ana="discoursEnchassé"> comment ele avoit
                             trouvé le chevalier.</seg> Dont avint au chief de <num>iii</num> jourz,
                         a l'eure qu'il s'estoit la endormis, que il sailli sus et ne cuida ou pou ou
-                        nient avoir dormi, et lors cuida trouver son cheval, si fu trop esbahis <app>
+                        nient avoir <app>
+                            <lem wit="#V2 #B #G">dormi</lem>
+                            <rdg wit="#X2">demouré ne dormi</rdg>
+                        </app>, et lors cuida trouver son cheval, si fu trop esbahis <app>
                             <lem wit="#V2 #G #X2">de ce que</lem>
                             <rdg wit="#B">quant</rdg>
                         </app> il ne le vit. Dont commença a aler sus et jus et tant qu'il s'embati
@@ -9505,8 +9526,10 @@
                             key="Jagonce">Jagonce</persName>, qui estoit dame d'elles <app>
                             <lem wit="#V2 #G #X2">toutes</lem>
                             <rdg wit="#B"/>
-                        </app>, vit <rs type="person" key="Laurin">le chevalier</rs>, si li plut et
-                        le prist par la main et le mena d'une part et li enquist qui <seg
+                        </app>, vit <rs type="person" key="Laurin">le chevalier</rs>, si li plut et <app>
+                            <lem wit="#V2 #G #X2">le prist</lem>
+                            <rdg wit="#B">l'a pris</rdg>
+                        </app> par la main et le mena d'une part et li enquist qui <seg
                             ana="discoursEnchassé"> il estoit et son non et<pb n="148"/> l'aventure
                             dont il venoit et ou il aloit.</seg> Il li dist assez tost ce qu'<seg
                             ana="discoursEnchassé">ele demandoit.</seg> Or vous <app>
@@ -9520,18 +9543,25 @@
                         nouvelle, ainz a enquis a <rs type="person" key="Jagonce">la pucelle</rs>
                             s'<seg ana="discoursEnchassé">elle l'avoit veu ou non.</seg>
                         <seg ana="discoursEnchassé">Par foy, dist elle, si fiz. Le jour meismes que
-                            vous a la fontainne venistes vint il yci a nous, mais <app>
-                                <lem wit="#V2 #G #X2">si</lem>
-                                <rdg wit="#B">je</rdg>
-                            </app> sai vraiement qu'il est ore en tel lieu ou vous mauvaisement
-                            porriez a lui parler.</seg> Quant <persName key="Laurin"
-                            >Laurins</persName> entendi <rs type="person" key="Jagonce">la
-                            pucelle</rs>, si fu tous esbahiz de ce que elle <app>
+                            vous a la fontainne venistes vint il yci<!-- y (ci suscrit) iour biffé X2 --> a nous, mais <app>
+                                <lem wit="#V2 #G">si</lem>
+                                <rdg wit="#B #X2">je</rdg>
+                            </app>
+                            <app>
+                                <lem wit="#V2 #B #X2">sai</lem>
+                                <rdg wit="#G"/>
+                            </app> vraiement qu'il est ore en tel lieu ou vous mauvaisement porriez
+                            a lui parler.</seg> Quant <persName key="Laurin">Laurins</persName>
+                        entendi <rs type="person" key="Jagonce">la pucelle</rs>, si fu tous esbahiz
+                        de ce que elle <app>
                             <lem wit="#V2 #G #X2">ot dit</lem>
                             <rdg wit="#B">li dist</rdg>
                         </app> que <seg ana="discoursEnchassé">
                             <rs type="person" key="Baudemagu">ses compains</rs> estoit la venuz le
-                            jour que il y estoit venuz a la fontaine</seg>, si dist : <seg
+                            jour que il <app>
+                                <lem wit="#V2 #G">y</lem>
+                                <rdg wit="#B #X2"/>
+                            </app> estoit venuz a la fontaine</seg>, si dist : <seg
                             ana="discoursEnchassé">Sachiez, damoisele, que je hui a tierce n’i <app>
                                 <lem wit="#V2 #G #X2">avoie</lem>
                                 <rdg wit="#B">avoie je</rdg>
