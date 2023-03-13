@@ -2745,7 +2745,21 @@
                             ainz doit estre aussi <app>
                                 <lem wit="#V2 #B #X2">ounie</lem>
                                 <rdg wit="#G">unis</rdg>
-                                <!-- commenter : Le verbe "honnier" (FEW XIV 47a) sous sa forme de moyen français "ounier" s'emploie depuis ca. 1190 pour évoquer l'action d'aplatir une ville, de la raser. Le verbe reste cependant mal attesté, ce qui explique peut-être la simplification de G en "unir" dont le sémantisme correspond au sens du texte-->
+                                <note type="notecritique">Le copiste de G simplifie ounie en unis ;
+                                    la suppression de la comparaison comme mers va dans le sens de
+                                    ce changement, elle assure la cohérence du propos. Le verbe
+                                    honnier (FEW XIV 47a unire ; Gdf V 605b ; Matsumura 2402b) sous
+                                    sa forme de moyen français ounier s'emploie depuis ca 1190 pour
+                                    évoquer l'action précise d'aplatir une ville, de la raser. Le
+                                    verbe reste cependant mal attesté, ce qui explique peut-être la
+                                    simplification de G en unir, dont le sémantisme correspond au
+                                    sens du texte. Voir au sujet du verbe Zeitschrift für romanische
+                                    Philologie 44, 1924, p. 217-221. Gunnar Tilander décline la
+                                    thèse de Förster d’un traitement dialectal d’uni. Selon lui,
+                                    l’étymologie de l’adjectif onni provient de *omnitus (omni +
+                                    suffixe -tus) et qu’il aurait subi dans son développement de
+                                    sens l’influence de uni. Cette hypothèse est réfutée par
+                                    Wartburg.</note>
                             </app>
                             <app>
                                 <lem wit="#V2 #B #X2">comme mers</lem>
@@ -2948,9 +2962,17 @@
                         du paÿs et li metre en aventure de mort. Mes vous, qui plus en avez afaire
                         que il n'ait, alez en la terre et gardez qu'il n'i ait <app>
                             <lem wit="#V2 #G #X2">deffaut</lem>
-                            <!-- commenter : expression de B "disete" de seigneur est saugrenue / juste après quand même question de "se je y veoie aucune deffaute"-->
+
                             <rdg wit="#B">deffaute</rdg>
-                        </app> par <app>
+                        </app><note type="notecritique">La version “deffaute” de B est celle qui
+                            l’emporte dans la réponse immédiate de l’autre personnage (“se je y
+                            veoie aucune deffaute”). En revanche, l’emploi de “disete” n’est pas
+                            courant. Il désigne le plus souvent un manque de vivres, de choses (FEW
+                            III69b; TL II 1946; GDC IX 389b; Matsumura; DEAFpré). Son élargissement
+                            à des personnes semble plutôt récent : les exemples qui l’attestent se
+                            retrouvent en tout cas dans le DMF. Le premier exemple remonte à ca
+                            1350-1370. Le TL atteste d’une expression similaire “tu seus bien que il
+                            aroient disete de toi” qui remonte au début du XIVe siècle. </note> par <app>
                             <lem wit="#V2 #G #X2">deffaute</lem>
                             <rdg wit="#B">disete</rdg>
                         </app> de seigneur, et sachiez se vous nulles nouveles <app>
@@ -10727,12 +10749,28 @@
                             <persName key="Bourleus">Borleuz</persName>.</said> Il s'est departiz de
                     ses compaignons par leur congié et en vint a <placeName key="Limbourg"
                         >Lembourc</placeName> et trouva <persName key="Bourleus">Borleus</persName>.
-                    Quant il le vit, si est sailliz contre lui de grant joie et li dist : <said
-                        aloud="true" direct="true">Amis, vous soiez li bienvenuz. Me direz vous
-                        nules nouveles qui bonnes soient ?</said>
-                    <said aloud="true" direct="true">Sire, dist il, ouil, teles qui moult vous
-                        deveront plaire. Vous avrez demain <rs type="person" key="Helcanus">le filz
-                            a <rs type="person" key="Cassidorus">l'empereour de <placeName
+                    Quant il le vit, si est sailliz contre lui <app>
+                        <lem wit="#V2 #G #X2">de grant joie</lem>
+                        <rdg wit="#B"/>
+                    </app> et li dist : <said aloud="true" direct="true">Amis, <app>
+                            <lem wit="#V2 #G #X2">vous soiez li bienvenuz</lem>
+                            <rdg wit="#B"/>
+                        </app>. Me direz vous <app>
+                            <lem wit="#V2 #G #X2">nules</lem>
+                            <rdg wit="#B"/>
+                        </app> nouveles qui bonnes soient ?</said>
+                    <said aloud="true" direct="true">Sire, <app>
+                            <lem wit="#V2 #G #X2">dist il</lem>
+                            <rdg wit="#B"/>
+                        </app>, <app>
+                            <lem wit="#V2 #G #X2">ouil</lem>
+                            <rdg wit="#B">si ferai je</rdg>
+                        </app>, teles qui moult vous deveront plaire. Vous avrez demain <rs
+                            type="person" key="Helcanus">le filz <app>
+                                <lem wit="#V2 #G #X2">a</lem>
+                                <rdg wit="#B"/>
+                            </app>
+                            <rs type="person" key="Cassidorus">l'empereour de <placeName
                                     key="Constaninople">Coustentinoble</placeName></rs></rs>, avec
                         lui <num>c</num> chevaliers qui moult font a prisier.</said>
                     <app>
@@ -10743,49 +10781,90 @@
                                 moult desirrans d'aler en <placeName key="Grèce">Grece</placeName>
                                 ou il onques ne furent pour faire aide a <persName key="Helcanus"
                                     >Helcanus</persName>.</said> Meismes <persName key="Mirador"
-                                >Mirador</persName> y fust alez mais viellesce le detint dont il
-                            fist maint grant souspir. Quant il vit que il ni pot aler. Il satirerent
-                            moult affaitiement et pristrent auoir pour euls et cheuaus et armeures
-                            et se mistrent a la voie et nont fine par leur journees. Tant que il
-                            sont venu au duc <persName key="Bourleus">Bourleuz</persName>. Quant
-                                <persName key="Bourleus">Borleuz</persName></rdg>
-                    </app> oÿ ces nouveles, si fu moult liez et ne pot mot dire d'une grant piece,
-                    ainçois commença a souspirer, et aprés dist : <said aloud="true" direct="true"
-                        >Bien soit venuz l’omme du monde que je plus desir a veoir. Et pour Dieu, de
-                            <rs type="person" key="Cassidorus">l'empereor</rs> queles nouveles me
-                        direz vous ?</said>
+                                >Mirador</persName> y fust alez, mais viellesce le detint, dont il
+                            fist maint grant souspir. Quant il vit que il n'i pot aler, il
+                            s'atirerent moult affaitiement et pristrent avoir pour euls et chevaus
+                            et armeures et se mistrent a la voie et n'ont finé par leur journees
+                            tant que il sont venu au duc <persName key="Bourleus"
+                                >Bourleuz</persName>. Quant <persName key="Bourleus"
+                                >Borleuz</persName></rdg>
+                    </app> oÿ <app>
+                        <lem wit="#V2 #G #X2">ces nouveles</lem>
+                        <rdg wit="#B">ce</rdg>
+                    </app>, si fu moult liez <app>
+                        <lem wit="#V2 #G #X2">et</lem>
+                        <rdg wit="#B">qu'il</rdg>
+                    </app> ne pot mot dire <app>
+                        <lem wit="#V2 #G #X2">d'une grant piece</lem>
+                        <rdg wit="#B"/>
+                    </app>, ainçois commença a souspirer et aprés dist : <said aloud="true"
+                        direct="true">Bien soit venuz <app>
+                            <lem wit="#V2 #G #X2">l’omme du</lem>
+                            <rdg wit="#B">celui el</rdg>
+                        </app> monde que je plus desir a veoir. Et pour Dieu, de <rs type="person"
+                            key="Cassidorus">l'empereor</rs> queles nouveles me direz vous ?</said>
                     <said aloud="true" direct="true">Certes, sire, dist il, je n'en sai el fors ce
                         que <rs type="person" key="Helcanus">mon seigneur son filz</rs> m'en a
                         compté.</said></p>
-                <p n="P102"><c ana="lettrine2">L</c>ors dist en tel maniere <said aloud="true"
-                        direct="false">comme <persName key="Helcanus">Helcanus</persName> li avoit
-                        compté qu'<seg ana="discoursEnchassé">il s'estoit partis du <rs
-                                type="person" key="Roi d'Espagne">roy d'<placeName key="Espagne"
+                <p n="P102"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
+                    >L</c>ors <app>
+                        <lem wit="#V2 #G #X2">dist</lem>
+                        <rdg wit="#"/>
+                    </app> en tel maniere <said aloud="true" direct="false">comme <persName
+                            key="Helcanus">Helcanus</persName> li avoit compté qu'<seg
+                            ana="discoursEnchassé">il s'estoit partis du <rs type="person"
+                                key="Roi d'Espagne">roy d'<placeName key="Espagne"
                                     >Espaigne</placeName></rs>, entre lui et <persName key="Daphus"
                                 >Daphus</persName> le bon chevalier.</seg></said> Quant il oÿ ce, si
                     a Dieu moult loé de ces nouveles. Dont fu <persName key="Cliodorus"
                         >Clyodorus</persName> conjoïz de <persName key="Bourleus"
-                        >Bourleuz</persName> et fu fait grant appareil por <persName key="Helcanus"
-                        >Helcanuz</persName> recevoir. A l'endemain fist <persName key="Bourleus"
-                        >Borleuz</persName> crier feste et que tuit alaissent a l'encontre de
-                        <persName key="Helcanus">Helcanuz</persName> et li feissent grant honneur a
-                    leur pooir, et il si firent. Quant <persName key="Helcanus">Helcanus</persName>
-                    vit l'ouneur et la grant feste que il li faisoient, si dist a ses compaignons si
-                    haut que<cb n="e"/> pluisour le porrent bien oïr : <said aloud="true"
-                        direct="true">Par foy, biaus seigneurs, moult me fait cilz homs grant
-                        hounour quant il ne m'est riens ne il onques mais ne me vit, et si ne fis
-                        onques riens pour lui ne autres pour moi, et si me fait si grant honneur
-                        comme vous pouez veoir.</said></p>
-                <p n="P103"><c ana="lettrine2">D</c>e ceste chose se sont moult esmerveillié, et
-                    virent ceus de la ville issir, qui bien estoient <num>x</num> mille ou plus, qui
-                    tuit estoient a cheval et venoient feste faisant et menant grant joie. <persName
-                        key="Bourleus">Borleuz</persName> venoit premiers ou chief devant. Dont vint
-                        <persName key="Cliodorus">Clyodorus</persName> a <persName key="Helcanus"
-                        >Helcanus</persName> et li dist : <said aloud="true" direct="true">Sire, vez
-                        ci <persName key="Bourleus">Borleuz</persName> qui vous vient a l'encontre.
-                        Faites vous connoistre a lui.</said> Dont vint <persName key="Helcanus"
-                        >Helcanus</persName> a <persName key="Bourleus">Borleuz</persName> et li
-                    dist : <said aloud="true" direct="true">Sire, vous soiez li bien venus.</said>
+                        >Bourleuz</persName> et fu fait <app>
+                        <lem wit="#V2 #G #X2">grant</lem>
+                        <rdg wit="#B">moult grant</rdg>
+                    </app> appareil por <persName key="Helcanus">Helcanuz</persName> recevoir. A
+                    l'endemain fist <persName key="Bourleus">Borleuz</persName> crier <app>
+                        <lem wit="#V2 #G #X2">feste et</lem>
+                        <rdg wit="#B">par la ville</rdg>
+                    </app> que tuit <app>
+                        <lem wit="#V2 #G #X2">alaissent a l'encontre de <persName key="Helcanus"
+                                >Helcanuz</persName> et li feissent grant</lem>
+                        <rdg wit="#B">fussent apresté pour faire feste et</rdg>
+                    </app> honneur a <app>
+                        <lem wit="#V2 #G #X2">leur pooir, et li si firent. Quant <persName
+                                key="Helcanus">Helcanus</persName> vit l'ouneur et la grant feste
+                            que il li faisoient, si dist</lem>
+                        <rdg wit="#B">son pooir a son bon ami le filz l'emperereur de
+                            Costentinnoble. Quant cil de la vile ont oÿ le ban, si furent tuit
+                            esbahi qui cil estoit, mais il ne voudrent moult pene de feste faire.
+                            Quant ce vint a l'endemain, dont s'est Clyodorus mis au devant des
+                            compaignons assez pres du chastel. Il leur conta la feste que Borleus
+                            faisoit contre euls. Lors parla Helcanus</rdg>
+                    </app> a ses compaignons si haut que<cb n="e"/> pluisour le porrent bien oïr :
+                        <said aloud="true" direct="true">Par foy, biaus seigneurs, moult <app>
+                            <lem wit="#V2 #G #X2">me</lem>
+                            <rdg wit="#B">m'a</rdg>
+                        </app> fait cilz homs grant hounour quant il ne m'est riens ne il onques <app>
+                            <lem wit="#V2 #G #X2">mais</lem>
+                            <rdg wit="#B"/>
+                        </app> ne me vit, et si ne fis onques riens pour lui ne autres pour moi, et
+                        si me fait si grant honneur comme vous pouez veoir.</said></p>
+                <p n="P103"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">D</c>e
+                    ceste chose se sont moult esmerveillié, et virent ceus de la ville issir, <app>
+                        <lem wit="#V2 #G #X2">qui bien estoient</lem>
+                        <rdg wit="#B">dont cil y ot bien</rdg>
+                    </app>
+                    <num>x</num> mille ou plus, qui tuit estoient a cheval et venoient feste faisant
+                    et menant <app>
+                        <lem wit="#V2 #G #X2">grant</lem>
+                        <rdg wit="#B">moult grant</rdg>
+                    </app> joie. <persName key="Bourleus">Borleuz</persName> venoit premiers ou
+                    chief devant. Dont vint <persName key="Cliodorus">Clyodorus</persName> a
+                        <persName key="Helcanus">Helcanus</persName> et li dist : <said aloud="true"
+                        direct="true">Sire, vez ci <persName key="Bourleus">Borleuz</persName> qui
+                        vous vient a l'encontre. Faites vous connoistre a lui.</said> Dont vint
+                        <persName key="Helcanus">Helcanus</persName> a <persName key="Bourleus"
+                        >Borleuz</persName> et li dist : <said aloud="true" direct="true">Sire, vous
+                        soiez li bien venus.</said>
                     <said aloud="true" direct="true">Ha ! sire, dit <persName key="Bourleus"
                             >Borleuz</persName>, estes vous filz <rs type="person" key="Cassidorus"
                             >l'empereour de <placeName key="Constantinople"
@@ -10794,15 +10873,34 @@
                     ont conjoÿ l'un l'autre en tel maniere <app>
                         <lem wit="#B #X2" resp="#Brodtkorb">qu'il ne fu nuls</lem>
                         <rdg wit="#V2">qu'il ne fu nuls qui ne fust nuls</rdg>
-                    </app> qui moult grant joie n'en deust avoir de leur contenances et de ce qu'il
-                    disoient. En tele maniere se sont retrait ou chastel et y ont fait la greigneur
-                    feste qui onques mais y fust faite de leur temps. <said who="#nar">Du mengier ne
-                        du boire ne veul je pas faire mention, quar il en orrent sanz nombre, mais
-                        des <num>ii</num> enfanz dont j'ai devant parlé veul je dire comment il se
-                        contindrent, quar il furent amené devant <rs type="person" key="Helcanus"
-                            >leur frere</rs>.</said></p>
+                    </app> qui moult <app>
+                        <lem wit="#V2 #G #X2">grant</lem>
+                        <rdg wit="#B"/>
+                    </app> joie n'en <app>
+                        <lem wit="#V2 #G #X2">deust</lem>
+                        <rdg wit="#B">peust</rdg>
+                    </app> avoir de leur contenances et de ce qu'il disoient. En tele maniere se
+                    sont retrait ou chastel et y <app>
+                        <lem wit="#V2 #G #X2">ont</lem>
+                        <rdg wit="#B">ot</rdg>
+                    </app> fait la greigneur feste qui onques mais y <app>
+                        <lem wit="#V2 #G #X2">fust</lem>
+                        <rdg wit="#B">eust esté</rdg>
+                    </app> faite de <app>
+                        <lem wit="#V2 #G #X2">leur</lem>
+                        <rdg wit="#B">cels</rdg>
+                    </app> temps. <said who="#nar">Du mengier ne du boire ne veul je pas faire
+                        mention, quar il en orrent sanz nombre, mais des <num>ii</num> enfanz dont
+                        j'ai devant parlé veul je dire comment il se <app>
+                            <lem wit="#V2 #G #X2">contindrent</lem>
+                            <rdg wit="#B">tindrent</rdg>
+                        </app>, <app>
+                            <lem wit="#V2 #G #X2">quar</lem>
+                            <rdg wit="#B">quant</rdg>
+                        </app> il furent amené devant <rs type="person" key="Helcanus">leur
+                            frere</rs>.</said></p>
             </div>
-            <div>
+            <note type="apparat">Pas d'enluminure B</note><div>
                 <head type="rubrique" n="R6">Comment <persName key="Pelyarmenus"
                         >Pelyarmenus</persName> voult estre <cb n="f"/> empereour de <placeName
                         key="Constantinople">Constentinoble</placeName> et metre <persName
