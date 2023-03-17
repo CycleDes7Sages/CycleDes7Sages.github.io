@@ -2490,8 +2490,7 @@
       grant meschief de toi, <app><lem wit="#V2 #G #X2">car</lem>
          <rdg wit="#B">quant</rdg></app> 
       je sai <!--#B sa--> 
-      bien que ta vie <app><lem wit="#B #G #X2">est</lem>
-         <rdg wit="#V2"/></app> 
+      bien que ta vie <supplied resp="#SL" source="#B #G #X2">est</supplied>
       outree mes que je a toi me soie pris.</said>
    <said aloud="true" direct="true">Ne t’en chaut ! <app><lem wit="#V2">ce</lem>
       <rdg wit="#B #G #X2"/></app> 
@@ -3260,8 +3259,7 @@
    <rdg wit="#B">et dont</rdg></app> 
    <app><lem wit="#V2 #G #X2">y lessa</lem>
    <rdg wit="#B">il lessa il (sic)</rdg></app> 
-   sergenz pour le chastel <app><lem wit="#B #G #X2">garder</lem>
-   <rdg wit="#V2"/></app>, 
+   sergenz pour le chastel <supplied resp="#SL" source="#B #G #X2">garder</supplied>, 
    <app><lem wit="#V2 #G #X2">puis</lem>
    <rdg wit="#B">et</rdg></app> 
    ne volt faire lonc sejour, ainz se <app><lem wit="#V2 #G #X2">sont mis</lem>
@@ -6387,8 +6385,8 @@
          <rdg wit="#B">avez</rdg></app> 
       ainssi mon cheval saisi.</said>
    <persName key="Clerus">Clerus</persName> dist a <persName key="Karus">Karus</persName> : 
-   <said aloud="true" direct="true">Ralez <app><lem wit="#B">vous ent dont</lem>
-      <rdg wit="#V2"/></app><!--saut du même au même #V2--> 
+   <said aloud="true" direct="true">Ralez <supplied resp="#SL" source="#B">vous ent dont</supplied>
+            <!--saut du même au même #V2--> 
       vous <app><lem wit="#V2">estes ci venus</lem>
          <rdg wit="#B">ci venistes</rdg></app>,
       quar, par la foi que je vous doi, <app><lem wit="#V2">cilz chevaus</lem>
@@ -6861,58 +6859,191 @@
    </p>
 <p n="P271"><note type="apparat">Pas de nouveau § B.</note>
    <c ana="lettrine 2">Q</c>uant <persName key="Helcanus">Helcanus</persName> oÿ ce, si se voult esvertuer, 
-   mais il fu saisiz de toutes pars qu’il ne se pot aidier. Si dist : 
+   mais <app><lem wit="#V2">il</lem>
+      <rdg wit="#B">si</rdg></app> 
+   fu saisiz de toutes pars qu’il ne se pot aidier. Si dist : 
    <said aloud="true" direct="true">Ha ! <persName key="Peliarmenus">Pelyarmenus</persName>, traÿ m’avez ! 
-      Gardez moi, puisque tel m’avez mené.</said>
-   Dont li dist <persName key="Peliarmenus">Pelyarmenus</persName> que 
-   <said aloud="true" direct="false">sa vie li sauveroit il, quoi que il fust des siens.</said>
-   Dont li ont, vousist ou non, l’espee ostee des poins et l’escu osté du col, qui mie n’estoit entiers. 
-   Aprés l’ont mené hors de la bataille, et ne volt <persName key="Peliarmenus">Pelyarmenus</persName> plus atendre, 
-   ainz a la bataille guerpie, lui trentisme, et se sont a tout <persName key="Helcanus">Helcanus</persName> mis au 
+      Gardez <app><lem wit="#V2">moi</lem>
+         <rdg wit="#B">moi ma vie</rdg></app>, 
+      <app><lem wit="#V2">puisque</lem>
+         <rdg wit="#B">quant vous</rdg></app> 
+      tel m’avez mené.</said>
+   Dont li dist <persName key="Peliarmenus">Pelyarmenus</persName> <app><lem wit="#V2">que</lem>
+      <rdg wit="#B">que de</rdg></app> 
+   <said aloud="true" direct="false">sa vie <app><lem wit="#V2">li</lem>
+      <rdg wit="#B">le</rdg></app> 
+      sauveroit il, <app><lem wit="#V2">quoi</lem>
+         <rdg wit="#B">que</rdg></app> 
+      que <app><lem wit="#V2">il</lem>
+         <rdg wit="#B"/></app> 
+      fust des siens.</said>
+   Dont <!--lors B-->li ont, vousist ou non, l’espee <app><lem wit="#V2">ostee</lem>
+      <rdg wit="#B">mise hors</rdg></app> 
+   des poins et l’escu <app><lem wit="#V2">osté</lem>
+      <rdg wit="#B"/></app> 
+   du col, qui mie n’estoit entiers. 
+   Aprés l’ont mené hors de la bataille, et ne volt <persName key="Peliarmenus">Pelyarmenus</persName> <app><lem wit="#V2">plus</lem>
+      <rdg wit="#B"/></app> 
+   atendre, ainz a la bataille guerpie, lui <app><lem wit="#V2">trentisme</lem>
+      <rdg wit="#B">centisme</rdg></app>, 
+   et <app><lem wit="#V2">se</lem>
+      <rdg wit="#B"/></app> 
+   sont a tout <persName key="Helcanus">Helcanus</persName> mis <app><lem wit="#V2">au</lem>
+      <rdg wit="#B">le</rdg></app> 
    chemin vers <placeName key="Constantinople">Costentinnoble</placeName>.
 </p>
 <p n="P272"><rs type="person" key="Karus??"><c ana="lettrine 2">L</c>i dus de <placeName key="Nise">
    Nise</placeName></rs>, qui encore riens n’en savoit, se combatoit si fierement que moult estoit 
-   <del rend="exponctuation" hand="#main1">o</del> grant merveille du veoir, car si esforcieement aloit par la 
-   bataille que poi y avoit nulz d’eulz qui <pb n="181"/> ses cops osast atendre. Si ne demoura gueres que 
-   la verité de <persName key="Helcanus">Helcanus</persName> li fu comptee. Et quant il oÿ ce, si fu si yriez 
-   que onques mais a jour de sa vie ne fu si. Si em perdi aussi comme tout son sens, si que bien le peust on avoir sourpris 
-   que ja garde ne s’en fust donnez. Mais quant li traïteur virent que <persName key="Peliarmenus">Pelyarmenus</persName> 
-   s’estoit mis a la voie, si se sont retrait poi et poi. Dont ne demoura gueres que 
-   <rs type="person" key="Karus??">li dus</rs> et sa gent gaaignierent la place. Dont les mena une 
-   grant piece batant, mais riens ne leur valut, car <rs type="person" key="Karus??">li dus</rs> estoit si 
-   navrez et si malmenez### de travail que a grant paine se pouoit il soustenir seur son cheval. Et quant il vit que 
-   il ne pooit mais riens faire de <persName key="Helcanus">Helcanus</persName> secourre, si ot tel duel que plus 
-   grant ne pooit avoir et se pasma desus le col de son cheval, et fust cheuz se il n’eust esté soustenus d’un 
-   chevalier qui tout le jour li avoit esté moult pres. Quant il fu revenus a lui, si geta <num>i</num> m-moult <!--sic--> 
+   <app><lem wit="#B">grant</lem>
+      <rdg wit="#V2"><del rend="exponctuation" hand="#main1">o</del> grant</rdg></app> 
+   merveille <app><lem wit="#V2">du</lem>
+      <rdg wit="#B">de lui</rdg></app> 
+   veoir, car si esforcieement aloit par la 
+   bataille que poi y avoit nulz d’eulz qui <pb n="181"/> ses cops osast atendre. <app><lem wit="#V2">Si</lem>
+      <rdg wit="#B"/></app> 
+   ne demoura <app><lem wit="#V2">gueres</lem>
+      <rdg wit="#B">mie longues</rdg></app> 
+   <app><lem wit="#V2">que</lem>
+      <rdg wit="#B">quant</rdg></app> 
+   <app><lem wit="#V2">la verité de <persName key="Helcanus">Helcanus</persName> li fu comptee</lem>
+      <rdg wit="#B">li fu dit la verité d'Elcanus</rdg></app>. 
+   Et quant il <app><lem wit="#V2">oÿ</lem>
+      <rdg wit="#B">sot</rdg></app> 
+   ce, <app><lem wit="#V2">si</lem>
+      <rdg wit="#B">dont</rdg></app> 
+   fu si yriez que <app><lem wit="#V2">onques</lem>
+      <rdg wit="#B">ainz</rdg></app> 
+   mais <app><lem wit="#V2">a jour de sa vie</lem>
+      <rdg wit="#B"/></app> 
+   ne fu si. Si em perdi aussi comme tout son sens, si que bien le peust on avoir sourpris 
+   <app><lem wit="#V2">que ja</lem>
+      <rdg wit="#B">qui</rdg></app> 
+   garde <app><lem wit="#V2">ne</lem>
+      <rdg wit="#B"/></app> 
+   s’en fust <app><lem wit="#V2">donnez</lem>
+      <rdg wit="#B">pris</rdg></app>. 
+   Mais quant li traïteur virent que <persName key="Peliarmenus">Pelyarmenus</persName> 
+   <app><lem wit="#V2">s’estoit</lem>
+      <rdg wit="#B">s'ert</rdg></app> 
+   mis a la voie, si se sont retrait poi et poi. Dont ne demoura <app><lem wit="#V2">gueres</lem>
+      <rdg wit="#B">mie moult</rdg></app> 
+   que <rs type="person" key="Karus??">li dus</rs> <app><lem wit="#V2">et sa gent</lem>
+      <rdg wit="#B">a tout tant de gent (con)me il li fu remez</rdg></app> 
+   <app><lem wit="#V2">gaaignierent</lem>
+      <rdg wit="#B">gaaigna</rdg></app> 
+   la place. Dont les mena une grant piece batant, mais riens ne <app><lem wit="#V2">leur</lem>
+      <rdg wit="#B">li</rdg></app> 
+   valut, car <app><lem wit="#V2"><rs type="person" key="Karus??">li dus</rs> estoit si navrez et si</lem>
+      <rdg wit="#B">si estoit li dus navrez et</rdg></app> 
+   malmenez de travail que a grant paine se <app><lem wit="#V2">pouoit il soustenir</lem>
+      <rdg wit="#B">soustenoit il</rdg></app> 
+   seur son cheval. Et quant il vit que 
+   il ne pooit mais riens faire de <persName key="Helcanus">Helcanus</persName> secourre, si ot <app><lem wit="#V2">tel</lem>
+      <rdg wit="#B">si grant</rdg></app> 
+   duel que <app><lem wit="#V2">plus grant ne pooit avoir et</lem>
+      <rdg wit="#B">il</rdg></app> 
+   se pasma <app><lem wit="#V2">desus le col de</lem>
+      <rdg wit="#B">seur</rdg></app> 
+   son cheval, et fust cheuz se il n’eust esté <app><lem wit="#V2">soustenus</lem>
+      <rdg wit="#B">secouruz</rdg></app> 
+   d’un chevalier qui tout le jour li <app><lem wit="#V2">avoit</lem>
+      <rdg wit="#B">ot</rdg></app> 
+   esté moult pres. Quant il fu revenus a lui, si geta <num>i</num> <app><lem wit="#B">moult</lem>
+      <rdg wit="#V2">m-moult</rdg></app> 
    grant plaint et dist : 
-   <said aloud="true" direct="true">Ha ! las, chaitiz, que nous est il avenu aujourd’ui, quant par nous est cilz pris 
-      et saisiz ou tant avoit de chevalerie et de sens ? Ha ! <persName key="Dialogus">Dyalogus</persName>, 
-      mauvais traitres ! Qui se donnast garde de la desloial traïson que tu as pourchaciee ?</said>
+   <said aloud="true" direct="true">Ha ! las, chaitiz, que nous est <app><lem wit="#V2">il</lem>
+      <rdg wit="#B"/></app> 
+      avenu <app><lem wit="#V2">aujourd’ui</lem>
+         <rdg wit="#B">a la jornee d'ui</rdg></app>, 
+      quant par nous est cilz pris et saisiz ou tant avoit de chevalerie et de sens ? Ha ! <persName key="Dialogus">Dyalogus</persName>, 
+      mauvais traitres ! Qui se donnast garde de la <app><lem wit="#V2">desloial</lem>
+         <rdg wit="#B">mortel</rdg></app> 
+      traïson que <app><lem wit="#V2">tu as</lem>
+         <rdg wit="#B">vous avez</rdg></app> 
+      pourchaciee ?</said>
 </p>
-<p n="P273"><c ana="lettrine 2">D</c>ont li ont dit ceulz qui entour lui furent : 
+<p n="P273"><note type="apparat">Pas de nouveau § B.</note>
+   <c ana="lettrine 2">D</c>ont li <app><lem wit="#V2">ont dit</lem>
+      <rdg wit="#B">distrent</rdg></app> 
+   ceulz qui entour lui furent : 
    <said aloud="true" direct="true">Sire, de <persName key="Dialogus">Dyalogus</persName> vous pouez vous poi loer, car, 
-      puisque ce vint aus cops ferir, sachiez que il n’i feri onques puis cop, <cb n="b"/> ainçois lui et son compaignon 
+      puisque <app><lem wit="#V2">ce</lem>
+         <rdg wit="#B"/></app> 
+      vint aus cops <app><lem wit="#V2">ferir</lem>
+         <rdg wit="#B">donner</rdg></app>, 
+      <app><lem wit="#V2">sachiez que</lem>
+         <rdg wit="#B"/></app> 
+      il n’i feri <app><lem wit="#V2">onques puis cop</lem>
+         <rdg wit="#B"/></app>, <cb n="b"/> 
+      ainçois <app><lem wit="#V2">lui</lem>
+         <rdg wit="#B">il</rdg></app> 
+      et <app><lem wit="#V2">son compaignon</lem>
+         <rdg wit="#B">si (con)paignon</rdg></app> 
       en vont avec ceulz qui enmainent <persName key="Helcanus">Helcanus</persName>.</said>
-   <said aloud="true" direct="true">Par Dieu, dist <rs type="person" key="??">li dus</rs>, bien le croi et mal sommes 
-      traÿ. Ha ! las,### chaitif, que dira ore <persName key="Japhus">Japhus</persName> et si ami quant il savront ceste 
-      pesme jornee ? Par foy, je ne sai, fors que il meismes porront cuidier que je l’aie traÿ.</said>
-   Lors commence <rs type="person" key="??">li dux</rs> a faire <num>i</num> duel si grant que nulz ne le veist 
-   qui grant pitié n’en deust avoir. Et ses chevaliers, qui moult estoient au dessouz, le reconfortoient de ce 
-   que il pooient, mais onques si faire ne le porent que il ne se vousist occirre de courrous, si que li chevalier qui estoient 
-   a <persName key="Helcanus">Helcanus</persName> li distrent : 
-   <said aloud="true" direct="true">Sire, souffrez vous de tel duel faire, car nous n’en poons autre chose avoir, 
-      ne de traÿson ne se puet nulz garder.</said>
+   <said aloud="true" direct="true">Par <app><lem wit="#V2">Dieu</lem>
+      <rdg wit="#B">foi</rdg></app>, 
+      dist <rs type="person" key="??">li dus</rs>, bien le croi et mal sommes 
+      traÿ. Ha ! las, chaitif, que dira ore <persName key="Japhus">Japhus</persName> et si ami quant il savront ceste 
+      pesme jornee ? Par foy, <app><lem wit="#V2">je</lem>
+         <rdg wit="#B"/></app> 
+      ne sai, fors <app><lem wit="#V2">que</lem>
+         <rdg wit="#B">ce que</rdg></app> 
+      il <app><lem wit="#V2">meismes</lem>
+         <rdg wit="#B"/></app> 
+      porront cuidier que <app><lem wit="#V2">je l’aie</lem>
+         <rdg wit="#B">tu meismes l'as</rdg></app> traÿ.</said>
+   Lors <!--Dont B--><app><lem wit="#V2">commence</lem>
+      <rdg wit="#B">(con)mença</rdg></app> 
+   <rs type="person" key="??">li dux</rs> a faire <num>i</num> duel si grant que <app><lem wit="#V2">nulz ne le veist</lem>
+      <rdg wit="#B">il ne fust nus</rdg></app> 
+   qui grant pitié n’en deust avoir. Et ses chevaliers, qui moult estoient au dessouz, le <app><lem wit="#V2">reconfortoient</lem>
+      <rdg wit="#B">reconforterent</rdg></app> 
+   de ce que il <app><lem wit="#V2">pooient</lem>
+      <rdg wit="#B">porent</rdg></app>, 
+   mais <app><lem wit="#V2">onques</lem>
+      <rdg wit="#B">c'onques</rdg></app> 
+   si faire ne le porent que il ne se vousist occirre de courrous, si que <app><lem wit="#V2">li chevalier qui estoient a</lem>
+      <rdg wit="#B">cil qui erent chevalier</rdg></app> 
+   <persName key="Helcanus">Helcanus</persName> li distrent : 
+   <said aloud="true" direct="true">Sire, souffrez vous de tel duel faire, car nous n’en poons autre chose <app><lem wit="#V2">avoir</lem>
+      <rdg wit="#B">faire</rdg></app>, 
+      ne de traÿson ne se puet <app><lem wit="#V2">nulz</lem>
+         <rdg wit="#B">l'en</rdg></app> 
+      garder.</said>
    <said aloud="true" direct="true">Par foi, biaus seigneurs, c’est voirs, mais trop est li domages grans qui le 
-      porroit amender.</said>
+      <app><lem wit="#V2">porroit</lem>
+         <rdg wit="#B">peust</rdg></app> 
+      amender.</said>
    </p>
-<p n="P274"><c ana="lettrine 2">D</c>ont se mistrent au chemin et virent que de <num>cc</num> il n’en estoit demourez que 
-   <num>xl</num> que tout ne fussent mis a mort. Il cerchierent les renz et mistrent les mors en terre. Et avant 
-   qu’il eussent fait leur vint <persName key="Mirus">Myrrus</persName> a tout <num>v<hi rend="exp">c</hi></num>
-   hommes couvers de fer, si comme celui qui nouveles en avoit oÿes. Mais ce avoit esté trop a tart. Quant il ont 
-   <rs type="person" key="??">le duc</rs> tropvé en tel point, si furent tout esbahi. Mais riens ne valut, car trop estoient 
-   ceulz loing. Et nonpourquant tant les suivirent qu’il s’en <cb n="c"/> durent tenir pour folz, si comme veritez fu. 
-   P <!--sic-->
+            <p n="P274"><c ana="lettrine 2">D</c>ont se mistrent au <app><lem wit="#V2">chemin</lem>
+               <rdg wit="#B">retor</rdg></app> 
+               et virent que <app><lem wit="#V2">de <num>cc</num></lem>
+                  <rdg wit="#B">deuls .C.</rdg></app> 
+               <app><lem wit="#V2">il n’en estoit demourez</lem>
+                  <rdg wit="#B">ne furent</rdg></app> 
+               que <num>xl</num> que <app><lem wit="#V2">tout</lem>
+                  <rdg wit="#B">tuit</rdg></app> 
+               ne fussent mis a mort. Il cerchierent les <app><lem wit="#V2">renz</lem>
+                  <rdg wit="#B">leurs</rdg></app> 
+               et <app><lem wit="#V2">mistrent les mors</lem>
+                  <rdg wit="#B">les mistrent</rdg></app> 
+               en terre. Et avant qu’il eussent fait leur vint <persName key="Mirus">Myrrus</persName> a tout <num>v<hi rend="exp">c</hi></num>
+               <app><lem wit="#V2">hommes</lem>
+                  <rdg wit="B"/></app> 
+               couvers de fer, si comme celui qui nouveles en avoit <app><lem wit="#V2">oÿes</lem>
+                  <rdg wit="#B">oÿ</rdg></app>. 
+               Mais ce avoit esté trop a tart. Quant il ont 
+               <rs type="person" key="??">le duc</rs> tropvé <!--trouvé B-->en tel point, si furent <app><lem wit="#V2">tout</lem>
+                  <rdg wit="#B">tuit</rdg></app> 
+               esbahi. Mais riens ne valut, car trop <app><lem wit="#V2">estoient</lem>
+                  <rdg wit="#B">furent</rdg></app> 
+               ceulz loing. Et nonpourquant <app><lem wit="#V2">tant les suivirent</lem>
+                  <rdg wit="#B">les suivirent il tant</rdg></app> 
+               <app><lem wit="#V2">qu’il s’en <cb n="c"/> durent</lem>
+                  <rdg wit="#B">que bien s'en porent</rdg></app> 
+               tenir pour folz, <said who="#nar">si comme veritez fu</said>. 
+               <app><lem wit="#V2">P <!--sic--></lem>
+                  <rdg wit="#B"/></app>
 </p>
 <p n="P275"><persName key="Peliarmenus"><c ana="lettrine 2">P</c>elyarmenus</persName> avoit ja sa gent raliee, et furent bien 
    <num>vii</num> cens des siens. Et li fu dit que 
