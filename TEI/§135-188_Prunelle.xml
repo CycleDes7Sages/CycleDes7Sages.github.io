@@ -233,6 +233,7 @@
          <change who="#PD" when="2022-04-25">toutes les balises faites, relecture complète à
             faire</change>
          <change who="#PD" when="2022-11-22">changement de mq et corrections des fautes V2</change>
+         <change who="#PD" when="2023-04-26">relecture du fichier</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -246,24 +247,20 @@
                   <rdg wit="#B">des puis que</rdg>
                   <rdg wit="#G">puis</rdg>
                </app> il se furent <app>
-                  <lem wit="#V2"><app>
-                        <lem wit="#V2 #X2">partis</lem>
-                        <rdg wit="#B">departi</rdg>
-                     </app> de lui de chevauchier</lem>
-                  <rdg wit="#G"/><!--SL sic? G a "il se furent"? "Il ne finerent puis il se furent tant..."?-->
+                  <lem wit="#V2 #B #X2">partis de lui de chevauchier</lem>
+                  <rdg wit="#G"/>
+
                </app> tant qu’il oïrent nouveles de <persName key="Pelyarmenus"
                   >Pelyarmenuz</persName>. Dit leur fu que <said aloud="false" direct="false">il
                   estoit a <num>i</num> sien manoir qui <app>
                      <lem wit="#V2 #G #X2">estoit en</lem>
                      <rdg wit="#B">assez pres estoit de</rdg>
                   </app>
-                  <placeName key="Constantinople">Constentinoble</placeName></said>. Il n’ont finé <app>
-                  <lem wit="#V2 #G #X2">l’un jour plus</lem>
-                  <rdg wit="#B">.i. jour plus</rdg><!--SL réduire les variantes; voir, en outre, si on enregistre un/lun, cf. de l'autre part/d'autre part; utiliser balise "num"-->
+                  <placeName key="Constantinople">Constentinoble</placeName></said>. Il n’ont finé
+               l’un jour plus, l’autre mainz, si <app>
+                  <lem wit="#V2 #G #X2">sont venu en</lem>
+                  <rdg wit="#B">ont aprochié</rdg>
 
-               </app>, l’autre mainz, <app>
-                  <lem wit="#V2 #G #X2">si sont venu en</lem>
-                  <rdg wit="#B">si ont aprochié</rdg><!--SL réduire les variantes-->
                </app>
                <rs type="place" key="Constantinople">la cité</rs>. Il <app>
                   <lem wit="#V2">ont eu</lem>
@@ -281,8 +278,9 @@
                      et ont leur</lem>
                   <rdg wit="#G">ont</rdg>
                </app> ostel pris <app>
-                  <!-- verif ms : ? leur hostex pris B -->
-                  <lem wit="#V2 #X2">ou maint autre l’avoient pris<app><!--SL problème de témoins dans la balise-->
+
+                  <lem wit="#V2 #X2">ou maint autre l’avoient pris <app>
+
                         <lem wit="#V2 #X2">qui avoient a besoingnier</lem>
                         <rdg wit="#B">qui besoingnier voloient</rdg>
                      </app> aussi comme <app>
@@ -290,8 +288,8 @@
                         <rdg wit="#B">il meismes faisoient</rdg>
                      </app></lem>
                   <rdg wit="#G"/>
-               </app>. Il fu tart<app>
-                  <lem wit="#V2 G">, si fu temps</lem>
+               </app>. Il fu tart,<app>
+                  <lem wit="#V2 #G">si fu temps</lem>
                   <rdg wit="#B">et tanz</rdg>
                </app> de souper. <persName key="Mirus">Myrus</persName> a fait venir son hoste
                devant lui et li enquist ou <rs type="person" key="Cassidorus">li empereres</rs>
@@ -305,8 +303,10 @@
                   ci.</said>
                <said aloud="true" direct="true">Et quant vendra il, <app>
                      <lem wit="#V2 #X2">biaus hostes ?</lem>
+
+                     <rdg wit="#B">biaus ostes, en ceste vile</rdg>
                      <rdg wit="#G"/>
-                     <rdg wit="#B">biaus ostes, en ceste vile</rdg><!--SL intervertir les variantes de B et G-->
+
                   </app></said>
                <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #B #X2">Par foy</lem>
@@ -316,7 +316,8 @@
                      <rdg wit="#B #X2">sire, dist cil</rdg>
                   </app>, ce ne vous sai je mie a dire, quar il vient quant il veult, et quant il
                   veult il s’en va.</said>
-               <said aloud="true" direct="true">Or. me dites, biaus hostes, foy que vous me devez : <app><!--SL supprimer le point après "Or"?-->
+               <said aloud="true" direct="true">Or me dites, biaus hostes, foy que vous me devez : <app>
+
                      <lem wit="#V2 #G #X2">savez vous</lem>
                      <rdg wit="#B">savez</rdg>
                   </app> nulles nouvelles de <persName key="Gasus">Gasus</persName>, le baillif
@@ -326,9 +327,14 @@
                <said aloud="true" direct="true">Et ou demeure il ? dist <persName key="Mirus"
                      >Myrus</persName>.</said>
                <cb n="b"/>
-               <said aloud="true" direct="true">Sire, <app><lem wit="#V2 #G">il</lem><rdg wit="#B #X2"></rdg></app> demeure ou <app><lem wit="#V2 #G">chastel</lem><rdg wit="#B #X2">chastel lassus</rdg></app>.</said> Quant il oÿ ce, si mist
-               son hoste a conseil et dist : <said aloud="true" direct="true">Amis, se vous nous
-                  vouliez aidier que nous <app>
+               <said aloud="true" direct="true">Sire, <app>
+                     <lem wit="#V2 #G">il</lem>
+                     <rdg wit="#B #X2"/>
+                  </app> demeure ou <app>
+                     <lem wit="#V2 #G">chastel</lem>
+                     <rdg wit="#B #X2">chastel lassus</rdg>
+                  </app>.</said> Quant il oÿ ce, si mist son hoste a conseil et dist : <said
+                  aloud="true" direct="true">Amis, se vous nous vouliez aidier que nous <app>
                      <lem wit="#V2 #G #X2">parlissons a lui</lem>
                      <rdg wit="#B">a lui eussons parlé</rdg>
                   </app> de conseil, moult y avriez grant preu.</said>
@@ -365,20 +371,15 @@
                   </app>, granz <app>
                      <lem wit="#V2 #G #X2">mercis</lem>
                      <rdg wit="#B">mercis, dist Myrus</rdg>
-                  </app>. Je vueil que vous faciez tant qu’il sache qu’il a <app>
-                     <lem wit="#V2 #G #X2">chaiens</lem>
-
-                     <rdg wit="#B">ci</rdg><!--SL supprimer ci/ceanz, cf. liste des exclusions?-->
-
-                  </app>
-                  <num>i</num> chevalier qui est au <persName key="Odonie">roy de <placeName
-                        key="Frise">Frise</placeName></persName>, qui moult volentiers parleroit a
-                  lui <app>
+                  </app>. Je vueil que vous faciez tant qu’il sache qu’il a chaiens <num>i</num>
+                  chevalier qui est au <persName key="Odonie">roy de <placeName key="Frise"
+                        >Frise</placeName></persName>, qui moult volentiers parleroit a lui <app>
                      <lem wit="#V2 #G #X2">anuit</lem>
                      <rdg wit="#B">ou anuit</rdg>
-                  </app> ou demain de quele heure qu’il en seroit aisiez. </said>
-               <said aloud="true" direct="true">Sire, dist il , <app>
-                     <lem wit="#V2 #B">je n’arresterai si <app><!--SL il manque X2 dans la première balise non?-->
+                  </app> ou demain, de quele heure qu’il en seroit aisiez. </said>
+               <said aloud="true" direct="true">Sire, dist il,<app>
+                     <lem wit="#V2 #B #X2">je n’arresterai si<app>
+
                            <lem wit="#V2 #X2">avrai</lem>
                            <rdg wit="#B">en avrai</rdg>
                         </app> fait</lem>
@@ -386,7 +387,8 @@
                   </app> la besoingne a mon pooir.</said> Dont fist mestre li hostes la selle <app>
                   <lem wit="#V2 #X2">seur son palefroy, <app>
                         <lem wit="#V2 #X2">si monta et ne demoura gaires que</lem>
-                        <rdg wit="#B">il monta et ne fist demeure, si</rdg><!--SL je mettrais une majuscule à "Il"-->
+                        <rdg wit="#B">Il monta et ne fist demeure, si</rdg>
+
 
                      </app></lem>
                   <rdg wit="#G">a son cheval et</rdg>
@@ -400,10 +402,8 @@
                      type="person" key="Gasus">li baillis</rs>
                   <cb n="c"/> çaiens ?</said>
                <said aloud="true" direct="true">Ouil, dist il</said>. Dont descendi <rs
-                  type="person" key="Geffroy">li bourgois</rs> et <app>
-                  <lem wit="#V2 #G #X2">vint</lem>
-                  <rdg wit="#B">en vint</rdg>
-               </app> la ou il estoit. Et quant <rs type="person" key="Gasus">li baillis</rs>
+                  type="person" key="Geffroy">li bourgois</rs> et vint<!-- en vint B col? --> la ou
+               il estoit. Et quant <rs type="person" key="Gasus">li baillis</rs>
                <app>
                   <lem wit="#V2">li</lem>
                   <rdg wit="#B #G #X2">le</rdg>
@@ -426,11 +426,14 @@
                      <rdg wit="#B">a leur mesniees y sont</rdg>
                   </app>.</said>
                <said aloud="true" direct="true"><app>
-                     <lem wit="#V2G">Alez vous ent, dist il, tost</lem>
-                     <rdg wit="#B">Alez, dist il, tost chiez vous</rdg>
+                     <lem wit="#V2 #G #X2">Alez vous ent</lem>
+                     <rdg wit="#B">Alez</rdg>
+                  </app>, dist il, <app>
+                     <lem wit="#V2 #G #X2">tost</lem>
+                     <rdg wit="#B">tost chiez vous</rdg>
                   </app>
                   <app>
-                     <lem wit="#V2B">et li dites</lem>
+                     <lem wit="#V2 #B">et li dites</lem>
                      <rdg wit="#G"/>
                   </app> que <said aloud="true" direct="false">je yrai maintenant</said>, mais <app>
                      <lem wit="#V2 #G #X2">ne</lem>
@@ -459,11 +462,12 @@
                      </app> lui <num>i</num> escuier</lem>
                   <rdg wit="#G">li vallés vint et le baillif</rdg>
                </app> sanz plus. Il monta amont et demanda <rs type="person" key="?">l’oste</rs>, <app>
-                  <lem wit="#V2 #G #X2">et il</lem>
-                  <rdg wit="#B">cil</rdg><!--SL: supprimer il/cil, cf. document?-->
-               </app> vint, et l’amene en une chambre ou li chevalier estoient. <said aloud="true"
-                  direct="true">Sire, dist il a <persName key="Mirus">Myrus</persName>, vez ci
-                     <persName key="Gasus">le baillif</persName> que vous <app>
+                  <lem wit="#V2 #G #X2">et</lem>
+                  <rdg wit="#B"/>
+
+               </app> il vint, et l’amene en une chambre ou li chevalier estoient. <said
+                  aloud="true" direct="true">Sire, dist il a <persName key="Mirus">Myrus</persName>,
+                  vez ci <persName key="Gasus">le baillif</persName> que vous <app>
                      <lem wit="#V2 #G #X2">demandiez</lem>
                      <rdg wit="#B">demandez</rdg>
                   </app>.</said> Quant il le virent, dont <app>
@@ -477,11 +481,13 @@
                   <rdg wit="#B">il nul</rdg>
                </app> en connoistroit, mais il n’en y <app>
                   <lem wit="#V2 #G #X2">ot</lem>
-                  <rdg wit="#B">uit (sic)</rdg><!--SL c'est "vit", non?-->
-               </app> nul que <app>
-                  <lem wit="#V2 #G #X2">il eust onques mais veu</lem>
-                  <rdg wit="#B">il onques mais ot veu</rdg><!--SL réduire les variantes-->
-               </app>. Si dist ore : <said aloud="true" direct="true">Biaus seigneurs, vous soiez <app>
+                  <rdg wit="#B">vit</rdg>
+
+               </app> nul que il <app>
+                  <lem wit="#V2 #G #X2">eust onques mais</lem>
+                  <rdg wit="#B">onques mais ot</rdg>
+               </app> veu. Si dist ore : <said aloud="true" direct="true">Biaus seigneurs, vous
+                  soiez <app>
                      <lem wit="#V2">les</lem>
                      <rdg wit="#B">le</rdg>
                   </app> bienvenus ! Je sui venus a vostre mandement.</said>
@@ -489,13 +495,15 @@
                   la vostre grant merciz !</said>
                <cb n="d"/> Dont l’a pris par la main <persName key="Mirus">Myrus</persName> et <app>
                   <lem wit="#V2 #G #X2">l’a trait</lem>
-                  <rdg wit="#B">le tret</rdg><!--SL voir si réduire les variantes dans ce cas, même si c'est 2 temps différents-->
+                  <rdg wit="#B">le tret</rdg>
+
                </app>
                <app>
-                  <lem wit="#V2 #G #X2">a une part et li dist</lem>
-                  <rdg wit="#B">d'une part. Dont li dist</rdg><!--SL réduire les variantes-->
-               </app> : <said aloud="true" direct="true">Sire, vostre bonne renommee me fait en vous
-                  fier.</said>
+                  <lem wit="#V2 #G #X2">a une part et</lem>
+                  <rdg wit="#B">d'une part. Dont</rdg>
+
+               </app> li dist : <said aloud="true" direct="true">Sire, vostre bonne renommee me fait
+                  en vous fier.</said>
                <said aloud="true" direct="true">Sire, dist il, se je estoie pires que je ne soie, si
                   vueil je estre tenus de vous aidier pour la raison de ce que vous avez dit.</said>
                <said aloud="true" direct="true">Sire, dist il, granz merciz !</said>
@@ -532,7 +540,8 @@
                      >Helcanus</persName> estoit repairiez de la ou il avoit conversé, quar les
                   nouveles estoient hors getees partout que il et son pere et <app>
                      <lem wit="#V2 #G #X2">avec</lem>
-                     <rdg wit="#B">encore</rdg><!--SL commenter le texte de VGX? c'est un peu bizarre "et avec", non?-->
+                     <rdg wit="#B">encore</rdg>
+                     <!--commenter le texte de VGX? c'est un peu bizarre "et avec", non?-->
                   </app>
                   <num>ii</num>
                   <app>
@@ -559,20 +568,21 @@
                         <rdg wit="#B"/>
                      </app> il le recevroit, si que ja n’en seroit repris ne blasmez</said>. Li
                   conseuls <persName key="Helcanus">Helcanus</persName> si <app>
-                     <lem wit="V2">et (sic)</lem><!--SL voir si la forme est récurrente et en fonction corriger; il me semble que c'est attesté, en parler avec Simone, référence dans un article en cours de publication dans les mélanges pour Simon Gaunt-->
+                     <lem wit="V2">et (sic)</lem>
+                     <!--corriger? SL voir si la forme est récurrente et en fonction corriger; il me semble que c'est attesté, en parler avec Simone, référence dans un article en cours de publication dans les mélanges pour Simon Gaunt-->
                      <rdg wit="#B #G #X2">est</rdg>
                   </app> tiex que il dist que <said aloud="true" direct="false">il n’enterra <app>
                         <lem wit="#G #X2">jamais</lem>
                         <rdg wit="#B">ja</rdg>
-                        <rdg wit="V2">jamais jamais (sic)</rdg>
+                        <rdg wit="V2">jamais jamais</rdg>
                      </app>
                      <app>
                         <lem wit="#V2 #G #X2">en cest paÿs</lem>
                         <rdg wit="#B"/>
                      </app> devant ce qu’il <cb n="e"/> sera asseurez des barons meismes de <rs
                         type="person" key="Pelyarmenus">son frere</rs> qui les homages en a receuz
-                     autrement qu’il ne deust</said><app>
-                     <lem wit="#V2 #B #X2">, ce dist</lem>
+                     autrement qu’il ne deust</said>,<app>
+                     <lem wit="#V2 #B #X2">ce dist</lem>
                      <rdg wit="#G"/>
                   </app>. Et de <app>
                      <lem wit="#V2 #G #X2">ceuz qui l’ont receu en cest paÿs</lem>
@@ -625,7 +635,7 @@
                   : le matin revendrai a vous priveement et penserai a vostre besoingne tout aussi
                   soingneusement comme se mon cors meismes <app>
                      <lem wit="#V2 #G #X2">estoit</lem>
-                     <rdg wit="#B">y e.</rdg>
+                     <rdg wit="#B">y estoit</rdg>
                   </app> a vostre point.</said>
                <said aloud="true" direct="true">Sire, <app>
                      <lem wit="#V2 #X2">ce</lem>
@@ -650,10 +660,13 @@
                   <lem wit="#V2 #G #X2">sot</lem>
                   <rdg wit="#B">sot il</rdg>
                </app> que moult longuement <app>
-                  <lem wit="#V2 #G #X2">y porroit estre ainz que autres y peust metre le pié</lem>
-                  <rdg wit="#B">la porroit il tenir avant que autres y meist le pié</rdg><!--SL réduire les variantes, et scinder si on n'enregistre pas "ainz que/avant que"-->
-               </app> tant comme cil qui l’avoient asseuré li vousissent aidier. Et il savoit bien
-               que voirement li aideroient il, quar il se sentoient mesfait envers leur <rs
+                  <lem wit="#V2 #G #X2">y porroit estre</lem>
+                  <rdg wit="#B">la porroit il tenir</rdg>
+               </app> ainz que autres y <app>
+                  <lem wit="#V2 #G #X2">peust metre</lem>
+                  <rdg wit="#B">meist</rdg>
+               </app> le pié tant comme cil qui l’avoient asseuré li vousissent aidier. Et il savoit
+               bien que voirement li aideroient il, quar il se sentoient mesfait envers leur <rs
                   type="person" key="Cassidorus">seigneur droiturier</rs>, et pour ce aideroient il
                   <rs type="person" key="Cassidorus">cestui</rs> au miex que il porroient. Aucuns en
                y avoit qui volentiers revendroient a <app>
@@ -670,10 +683,8 @@
                   <lem wit="#V2 #B #G">voie</lem>
                   <rdg wit="#X2">de voie</rdg>
                </app> por lui aidier.</p>
-            <p n="P139"><app>
-                  <lem wit="#V2 #G #X2"><c ana="lettrine 2">E</c>n tele maniere</lem>
-               <rdg wit="#B">Ainsi</rdg><!--SL supprimer la variante-->
-               </app> se dementoit <persName key="Gasus">Gasus</persName> tout par lui. <app>
+            <p n="P139"><c ana="lettrine 2">E</c>n tele maniere se dementoit <persName key="Gasus"
+                  >Gasus</persName> tout par lui. <app>
                   <lem wit="#V2 #G #X2">Lors</lem>
                   <rdg wit="#B">et tant que il</rdg>
                </app> commença a penser <said aloud="false" direct="false">comment il porroient
@@ -685,20 +696,20 @@
                grant merveille. Dont s’apenssa qu’<said aloud="false" direct="false">il les feroit
                   aler au <placeName key="Bel Manoir">Biau Manoir</placeName>, et la porroient il
                   parler <app>
-                     <lem wit="#V2 #G #X2">de la chose et faire aussi comme se ce fust noient</lem>
-                     <rdg wit="#B">et estre ausi com de ce ne fust neent</rdg><!--SL réduire les variantes-->
-                  </app>. Et se aucuns y metoit mal, il les <app>
+                     <lem wit="#V2 #G #X2">de la chose et faire</lem>
+                     <rdg wit="#B">et estre</rdg>
+
+                  </app> aussi comme se ce fust noient. Et se aucuns y metoit mal, il les <app>
                      <lem wit="#V2 #G #X2">deffenderoit</lem>
                      <rdg wit="#B">en destorneroit</rdg>
                   </app>, se il pooit ; et se il <pb n="158"/> ne le pooit faire, si n’aroient il ja
                   mal sanz lui</said>. A l’endemain assez matin <app>
                   <lem wit="#V2 #G #X2">se leva</lem>
                   <rdg wit="#B">s'est levez</rdg>
-               </app>. Dont <app>
-                  <lem wit="#V2 #G">s’en vint par devers les messagiers, avec lui <num>i</num>
-                     escuier, moult priveement,</lem>
-                  <rdg wit="#B">en vint moult priveement a .i. escuier avec lui</rdg>
-               </app> sanz plus de <app>
+               </app>. Dont s’en vint <app>
+                  <lem wit="#V2 #G #X2">par devers</lem>
+                  <rdg wit="#B"/>
+               </app> les messagiers, avec lui <num>i</num> escuier, moult priveement , sanz plus de <app>
                   <lem wit="#V2 #B #X2">compaignons</lem>
                   <rdg wit="#G">compaignie</rdg>
                </app>, et leur <app>
@@ -708,9 +719,10 @@
                      <lem wit="#V2 #G #X2">s’apareillassent</lem>
                      <rdg wit="#B">s'aprestassent</rdg>
                   </app> et <app>
-                     <lem wit="#V2 #G #X2">fussent garniz</lem>
-                     <rdg wit="#B">fust chascuns garnis</rdg><!--SL réduire les variantes-->
-                  </app> priveement dessous <app>
+                     <lem wit="#V2 #G #X2">fussent</lem>
+                     <rdg wit="#B">fust chascuns</rdg>
+
+                  </app> garniz priveement dessous <app>
                      <lem wit="#V2 #G #X2">leur chapes</lem>
                      <rdg wit="#B">sa chape</rdg>
                   </app>
@@ -753,10 +765,11 @@
                            <rdg wit="#X2">que</rdg>
                         </app> lui meismes ne les y menroit</lem>
                      <rdg wit="#B">nes y menroit que il meismes</rdg>
-                  </app></said>. Dont<app>
-                  <lem wit="#V2 #G #X2"> ne finerent</lem>
-                     <rdg wit="#B">se sont mis a la voie et n'ont finé</rdg><!--SL voir Marchello-Nizia 1865 "Dire le si en français médiéval", p. 102, et d'autres exemples sur GBooks: il ne faut finalement pas la virgule, j'ai commencé à la supprimer dans ma partie-->
-               </app>, si vindrent a la porte a heure de tierce. <persName key="Pelyarmenus"
+                  </app></said>. Dont <app>
+                  <lem wit="#V2 #G #X2">ne finerent</lem>
+                  <rdg wit="#B">se sont mis a la voie et n'ont finé</rdg>
+
+               </app> si vindrent a la porte a heure de tierce. <persName key="Pelyarmenus"
                   >Pelyarmenus</persName> estoit repairiez de son oratoire, et estoit <app>
                   <lem wit="#V2 #G #X2"><persName key="Gasus">Gasus</persName></lem>
                   <rdg wit="#B">o lui Gasus</rdg>
@@ -767,7 +780,8 @@
                   </app> entrer</said>. Dont leur demanda li portiers qui il estoient. Il distrent <app>
                   <lem wit="#V2 #G #X2"><app>
                         <lem wit="#V2 #X2">que</lem>
-                     <rdg wit="#G">qui ilz (sic)</rdg><!--SL voir si on a des cas de "qui" pour "que" dans G-->
+                        <rdg wit="#G">qui ilz (sic)</rdg>
+                        <!--SL voir si on a des cas de "qui" pour "que" dans G-->
                      </app> il estoient</lem>
                   <rdg wit="#B"/>
                </app> a <persName key="Helcanus">Helcanus</persName>, filz a <app>
@@ -786,9 +800,10 @@
                   <rs type="person" key="Pelyarmenus">mon seigneur</rs> !</said> Cil en vint a
                   <num>i</num> chevalier et li dist que <said aloud="true" direct="false">tel gent
                   estoient la et que <said aloud="true" direct="false">il le deist a <rs
-                        type="person" key="Pelyarmenus">son seigneur</rs>, se il vouloit qu'<app>
-                        <lem wit="#V2 #G #X2">il</lem>
-                           <rdg wit="#B"/><!--SL dans ce cas je trouve bizarre de ne prendre que "il", ça donne l'impression que B a "qu", même si on comprend-->
+                        type="person" key="Pelyarmenus">son seigneur</rs>, se il vouloit <app>
+                        <lem wit="#V2 #G #X2">qu'il</lem>
+                        <rdg wit="#B">que</rdg>
+
                      </app> les laissast <app>
                         <lem wit="#V2 #G #X2">ens</lem>
                         <rdg wit="#B"/>
@@ -803,29 +818,31 @@
                            <rdg wit="#G"/>
                         </app> entrassent</lem>
                      <rdg wit="#B"/>
-                  </app></said>. <said aloud="true" direct="true">Mal dehais ait, dist il, qui <app>
+                  </app></said>. <said aloud="true" direct="true">Mal dehais ait, dist il, <app>
                      <lem wit="#V2 #G #X2">qui</lem>
-                     <rdg wit="#B">qui onques</rdg><!--SL sic, B a trois fois "qui"?-->
+                     <rdg wit="#B">qui onques</rdg>
+
                   </app> la porte leur vea ! <app>
-                     <lem wit="#V2">Ici</lem><!--SL je corrigerais-->
-                     <rdg wit="#B #G #X2">Ja</rdg>
+                     <lem wit="#B #G #X2">Ja</lem>
+
+                     <rdg wit="#V2">Ici</rdg>
                   </app> est <persName key="Helcanus">Helcanus</persName>, mes freres, et sires et
                   souverains de moi.</said>
                <said aloud="true" direct="true">Certes, distrent cil qui l’oïrent, c’est <app>
                      <lem wit="#V2 #G #X2">moult</lem>
                      <rdg wit="#B"/>
                   </app> bien <app>
-                     <lem wit="#V2">dist .(sic)</lem><!--SL j'enregistrerais la variante mais enlèverais le sic, ce n'est pas rarissime, et intégrer dans l'étude de langue-->
+                     <lem wit="#V2">dist.</lem>
+
                      <rdg wit="#B #G #X2">dit</rdg>
                   </app> !</said>
                <note type="apparat">Nouveau § B</note>Dont fu la porte ouverte aus messages, et
                descendirent maintenant. <app>
                   <lem wit="#V2 #G #X2">Quant <persName key="Pelyarmenus">Pelyarmenus</persName> les
-                     vit, si ne se pot tenir qu’il n’alast encontre<!-- apparat garder: contre G --><!--SL on n'a pas dit qu'on ne gardait pas?-->
-                     euls</lem>
-                  <rdg wit="#B">Peliarmenus, qui les vit, ne volt laissier que il ne soit venus<!--SL réduire les variantes-->
-                     encontre euls</rdg>
-               </app> et les a saluez. Cil qui furent <app>
+                     vit, si ne se pot tenir qu’il n’alast </lem>
+                  <rdg wit="#B">Peliarmenus, qui les vit, ne volt laissier que il ne soit
+                     venus</rdg>
+               </app> encontre euls et les a saluez. Cil qui furent <app>
                   <lem wit="#V2 #G #X2">esbahi</lem>
                   <rdg wit="#B">tuit esbahi</rdg>
                </app> de la belle chiere de lui li ont rendu son salu moult <app>
@@ -840,7 +857,7 @@
                <app>
                   <lem wit="#V2 #G #X2">faisoit</lem>
                   <rdg wit="#B">faisoit et ou il ert</rdg>
-               </app>: <!--SL je mettrais un point au lieu de deux points--><said aloud="true" direct="true">Sire, dist <persName key="Mirus"
+               </app>. <said aloud="true" direct="true">Sire, dist <persName key="Mirus"
                      >Myrus</persName>, <rs type="person" key="Helcanus">messires vostre freres</rs>
                   <app>
                      <lem wit="#V2 #G #X2"><app>
@@ -852,11 +869,10 @@
                      <lem wit="#V2 #B #X2">la merci Dieu</lem>
                      <rdg wit="#G">Dieu merci</rdg>
                   </app> ! Si nous envoie a vous et vous fait sa volenté savoir.</said>
-               <said aloud="true" direct="true">Et ou est il ? dist <persName key="Pelyarmenus"
-                  >Pelyarmenus</persName></said><!-- balise : ou balise avant "dist" --><!--SL oui, avant-->. <said
-                  aloud="true" direct="true"><app>
+               <said aloud="true" direct="true">Et ou est il ?</said> dist <persName
+                  key="Pelyarmenus">Pelyarmenus</persName>. <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Avec son oncle</lem>
-                     <rdg wit="#B">Sire, distrent il, avec s. o.</rdg>
+                     <rdg wit="#B">Sire, distrent il, avec son oncle</rdg>
                   </app>
                   <rs type="person" key="Odonie">le roy de <placeName key="Frise"
                      >Frise</placeName></rs><app>
@@ -871,7 +887,8 @@
                      <rdg wit="#B">sa lettre et par nous la raison por quoi</rdg>
                   </app>.</said>
                <said aloud="true" direct="true">Par foi, dist il, <app>
-                  <lem wit="#V2 #G #X2">et</lem><!--SL je n'ai pas enregistré le "et" comme relance en début de réplique, mais on peut en garder trace pour l'étude linguistique-->
+                     <lem wit="#V2 #G #X2">et</lem>
+                     <!--col le "et" comme relance en début de réplique je n'ai pas enregistré le "et" comme relance en début de réplique-->
                      <rdg wit="#B"/>
                   </app> je <app>
                      <lem wit="#V2 #G #X2">moult</lem>
@@ -880,8 +897,9 @@
                      <lem wit="#V2 #G #X2">savrai sa volenté</lem>
                      <rdg wit="#B">le savroie</rdg>
                   </app> !</said> Dont a <persName key="Mirus">Myrus</persName> sachiee une <app>
-                  <lem wit="#V2">lettee (sic)</lem><!--SL corriger-->
-                  <rdg wit="#B #G #X2">lettre</rdg>
+                  <lem wit="#B #G #X2">lettre</lem>
+
+                  <rdg wit="#V2">lettee</rdg>
 
                </app> qui estoit seellee du seel <app>
                   <lem wit="#V2 #B #G">au</lem>
@@ -899,13 +917,13 @@
                </app>. <app>
                   <lem wit="#V2 #G #X2">Dont l’a <persName key="Pelyarmenus">Pelyar<cb n="c"
                         />menus</persName> prise et a rompu la cyre et puis <app>
-                        <lem wit="#V2 #X2">si a leu l’escript</lem>
+                        <lem wit="#V2 #X2">si a leu</lem>
 
                         <rdg wit="#G">trouva ainsi</rdg>
                      </app></lem>
-                  <rdg wit="#B">Lors a pris Peliarmenus la letre et a froissiee la cire et leu
-                     l'escript</rdg><!--SL réduire les variantes-->
-               </app> , qui dist :</p>
+                  <rdg wit="#B">Lors a pris Peliarmenus la letre et a froissiee la cire et leu </rdg>
+
+               </app> l’escript, qui dist :</p>
             <p n="P141"><note type="apparat">Pas de nouveau § B</note><said aloud="true"
                   direct="true"><app>
                      <lem wit="#V2 #G #X2"><persName key="Helcanus"><c ana="lettrine2"
@@ -923,23 +941,24 @@
                      <lem wit="#V2 #B #X2">lui</lem>
                      <rdg wit="#G">lui lui (sic)</rdg>
                   </app> escondire ou amender des vilonnies <app>
-                     <lem wit="#V2 #G">ou entraites</lem>
-                     <rdg wit="#B">entretes</rdg>
-                     <rdg wit="#X2">entrartes</rdg>
-                  </app> que il a <app>
+                     <lem wit="#V2 #G #X2">ou</lem>
+                     <rdg wit="#B"/>
+
+                  </app> entraites que il a <app>
                      <lem wit="#V2 #B #X2">faites</lem>
                      <rdg wit="#B">fet</rdg>
                   </app> envers moi et les miens. <app>
                      <lem wit="#V2 #G #X2">Et bien sache que je le deffi en quelque lieu</lem>
                      <rdg wit="#B">ou, se ce non, je le deffi de moi et des miens ou</rdg>
-                  </app> que je le truisse, mais que pooir y puisse avoir<app>
-                     <lem wit="#V2 #G #X2">, et bien sache que je en ferai autant de lui comme je
+                  </app> que je le truisse, mais que pooir y puisse avoir,<app>
+                     <lem wit="#V2 #G #X2"> et bien sache que je en ferai autant de lui comme je
                         deveroie faire</lem>
-                     <rdg wit="#B">je autant en ferai com je feroie</rdg><!--SL majuscule à "Je"?-->
+                     <rdg wit="#B">Je autant en ferai com je feroie</rdg>
+
                   </app> de celui qui moi <app>
                      <lem wit="#V2 #B #X2">avroit</lem>
                      <rdg wit="#G">airoit (sic)</rdg>
-                  </app><!-- verif G --> mis a son pooir em peril de mort <app>
+                  </app> mis a son pooir em peril de mort <app>
                      <lem wit="#V2 #G #V2">par pluiseurs foiz et ainsi en a il fait, si comme il le
                         set bien, et a donné conseil et mis grant paine de mon petit frere et ma
                         sereur faire destruire</lem>
@@ -973,15 +992,17 @@
                      <lem wit="#V2 #G #X2">d’omme</lem>
                      <rdg wit="#B">d'ome nul</rdg>
                   </app> qui ne soit <app>
-                     <lem wit="#V2">couve-bles (sic)</lem><!--SL corriger-->
-                     <rdg wit="#B #G #X2">couvenables</rdg>
+                     <lem wit="#B #G #X2">couvenables</lem>
+
+                     <rdg wit="#V2">couve-bles</rdg>
 
                   </app> et preudom en touz <app>
                      <lem wit="#V2 #G #X2">droiz</lem>
                      <rdg wit="#B">endroiz</rdg>
                   </app> et des meilleurs chevaliers du monde.</said></p>
-            <p n="P143"><c ana="lettrine2">P</c>elyarmenus esgarda lors <persName key="Mirus"
-                  >Myrus</persName> et dist : <said aloud="true" direct="true">Biaus sire, <app>
+            <p n="P143"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
+               >P</c>elyarmenus esgarda lors <persName key="Mirus">Myrus</persName> et dist : <said
+                  aloud="true" direct="true">Biaus sire, <app>
                      <lem wit="#V2 #G #X2">je</lem>
                      <rdg wit="#B">bien</rdg>
                   </app> croi que de bons chevaliers ait il en sa compaignie. Mais ce vous veul je
@@ -990,7 +1011,8 @@
                         <rdg wit="#B">quiconques conseil</rdg>
                      </app> ceste letre viengne a moi, <app>
                         <lem wit="#V2 #G #X2">que</lem>
-                        <rdg wit="#B">je di que</rdg><!--SL commenter la reprise du verbe dans B après une incidente?-->
+                        <rdg wit="#B">je di que</rdg>
+                        <!--SL commenter la reprise du verbe dans B après une incidente?-->
                      </app> elle vient de traïtour et de <app>
                         <lem wit="#V2 #G #X2">mauvais</lem>
                         <rdg wit="#B">felon mauvais</rdg>
@@ -1000,7 +1022,8 @@
                      aloud="true" direct="false"><rs type="person" key="Helcanus">mes sires</rs>
                      n’eust droit ou mandement que<app>
                         <lem wit="#V2 #G #X2"> mandé vous a</lem>
-                        <rdg wit="#B">que il fait vous a, que</rdg><!--SL sic, B a deux fois que en début de variante?-->
+                        <rdg wit="#B">il fait vous a, que</rdg>
+
                      </app></said>, je le feroie estable mon cors contre le sien.</said> De ceste
                parole fu <persName key="Pelyarmenus">Pelyarmenus</persName> iriez et regarda environ
                soi et vit <app>
@@ -1015,35 +1038,36 @@
                      <rdg wit="#B">onques</rdg>
                   </app> par quoi <persName key="Helcanus">Helcanus</persName> li deust <app>
                      <lem wit="#V2 #G #X2">avoir mandé <app>
-                           <lem wit="#V2">tel mant</lem>
-                           <rdg wit="#G">de tel mandement</rdg>
-                           <rdg wit="#X2">tel mandement</rdg>
-                        </app> ne onques ne li fist chose que il ne deust avoir faite</lem>
+                           <lem wit="#V2">tel</lem>
+                           <rdg wit="#G">de tel</rdg>
+
+                        </app> mant ne onques ne li fist chose que il ne deust avoir faite</lem>
                      <rdg wit="#B">faire tel mandement que il ne deust faire</rdg>
                   </app> a son bon ami et frere.</said> Dont se mist avant <persName key="Gasus"
                   >Gasus</persName> ou <persName key="Pelyarmenus">Pelyarmenus</persName> recevoit
                les gages <app>
                   <lem wit="#V2 #G #X2">et dist</lem>
                   <rdg wit="#B"/>
-                  <!-- apparat : comment noter "dist il" est déplacé après "ha sire" --><!--SL je scinderais la variante en deux et mettrais "sire, dist il" pour B, si je comprends bien la question-->
-               </app> : <said aloud="true" direct="true">Ha ! sire, ne faites pas tel vilonie !
-                  Laissiez moi parler a vous.</said>
+
+               </app> : <said aloud="true" direct="true">Ha ! <app>
+                     <lem wit="#V2 #G #X2">sire</lem>
+                     <rdg wit="#B">sire, dist il</rdg>
+                  </app>, ne faites pas tel vilonie ! Laissiez moi parler a vous.</said>
                <said aloud="true" direct="true">Que voulez vous <app>
                      <lem wit="#V2 #B #X2">dire</lem>
                      <rdg wit="#G"/>
                   </app> ? dist <persName key="Pelyarmenus">Pelyarmenus</persName>.</said>
                <said aloud="true" direct="true">Je vueil dire, dist il, que messages qui est envoiez
-                  d’omme qui vaille doit dire son message <app>
-                     <lem wit="#V2 #G #X2">en la maniere qu’il</lem>
-                     <rdg wit="#B">ainsi com il</rdg><!--SL réduire les variantes en la maniere/ainsi, et rajouter au document comme c'est un cas de figure particulier?-->
-                  </app> li est enchargiez sanz lui <app>
+                  d’omme qui vaille doit dire son message en la maniere qu’il li est enchargiez sanz
+                  lui <app>
                      <lem wit="#V2 #G #X2">empeeschier de nul homme vivant</lem>
                      <rdg wit="#B">estre empeeschiez d'omme soufisant</rdg>
                   </app>.</said>
-               <said aloud="true" direct="true"><persName key="Gasus">Gasus</persName>, Gasus, <app>
-                     <lem wit="#V2 #G #X2">dist <persName key="Pelyarmenus">Pelyar<cb n="e"
+               <said aloud="true" direct="true"><persName key="Gasus">Gasus</persName>, Gasus, dist <!-- Gasus, Gasus, partout dans la tradition. mais corriger? --><app>
+                     <lem wit="#V2 #G #X2"><persName key="Pelyarmenus">Pelyar<cb n="e"
                            />menus</persName></lem>
-                  <rdg wit="#B">dist il</rdg><!--SL réduire les variantes-->
+                     <rdg wit="#B">il</rdg>
+
                   </app>, <app>
                      <lem wit="#V2 #G #X2">dont</lem>
                      <rdg wit="#B"/>
@@ -1105,11 +1129,11 @@
                      <lem wit="#V2 #G #X2">je vous fais</lem>
                      <rdg wit="#B">ne faiz je</rdg>
                   </app> respondre. Si soiez sages de vostre besoingne.</said>
-               <said aloud="true" direct="true">Et je <app>
-                     <lem wit="#V2 #G #X2">vous fais, dist <persName key="Mirus">Myrus</persName>,
-                        une demande</lem>
-                  <rdg wit="#B">vous ausi, dist Peliarmenus, fais une demande</rdg><!--SL réduire les variantes et commenter confusion de locuteur?-->
-                  </app> : <app>
+               <said aloud="true" direct="true">Et je vous <app>
+                     <lem wit="#V2 #G #X2">fais, dist <persName key="Mirus">Myrus</persName>, </lem>
+                     <rdg wit="#B">ausi, dist Peliarmenus, fais</rdg>
+                     <!--commenter confusion de locuteur?-->
+                  </app> une demande : <app>
                      <lem wit="#V2 #G #X2">se il est ainsi que vous soiez convaincus, le seront
                         aussi cil pour qui vous le faites, quar sachiez que je voudroie bien que
                         ceste chose fiablement fust mise en respit</lem>
@@ -1122,21 +1146,29 @@
                      <lem wit="#V2 #G #X2">d’autre</lem>
                      <rdg wit="#B">de l'autre</rdg>
                   </app> part pour quoi l’une partie et l’autre soit seüre <app>
-                     <lem wit="#V2 #G #X2">de celui qui sera vaincus de ceste emprise <app>
-                           <lem wit="#V2 #G">faire</lem>
-                           <rdg wit="#X2">faite</rdg>
-                        </app>, et l’amende</lem>
-                     <rdg wit="#B">quiconques soit vaincus de ceste emprise face en l'amende</rdg><!--SL réduire les variantes-->
-                  </app> a la volenté de celui qui au desseure en sera.</said>
+                     <lem wit="#V2 #G #X2">de celui qui sera</lem>
+                     <rdg wit="#B">quiconques soit</rdg>
+                  </app> vaincus de ceste emprise <app>
+                     <lem wit="#V2 #G">faire</lem>
+                     <rdg wit="#B">face</rdg>
+                     <rdg wit="#X2">faite</rdg>
+                  </app>, <app>
+                     <lem wit="#V2 #G #X2">et</lem>
+                     <rdg wit="#B">en</rdg>
+                  </app> l'amende a la volenté de celui qui au desseure en sera.</said>
                <said aloud="true" direct="true">Ce ne ferai je mie orendroit, <app>
                      <lem wit="#V2 #G #X2">dist <persName key="Pelyarmenus"
                         >Pelyarmenus</persName></lem>
                      <rdg wit="#B"/>
-                  <!-- apparat : comment dire que d. Pel. est déplacé à la pfind de la phrase? --><!--SL scinder et mettre à l'endroit où il apparaît-->
+
                   </app>, quar mes conseuls ne le <app>
                      <lem wit="#V2 #B #X2">m’a<cb n="f"/>porte</lem>
                      <rdg wit="#G">me porte</rdg>
-                  </app> mie.</said>
+                  </app>
+                  <app>
+                     <lem wit="#V2 #G #X2">mie</lem>
+                     <rdg wit="#B">mie, dist Pelyarmenus</rdg>
+                  </app>.</said>
                <note type="apparat">Nouveau § B</note>
                <said aloud="true" direct="true">Dont vueil je savoir, dist <persName key="Mirus"
                      >Mirus</persName>, de combien je serai avanciez se je fais estable de ma partie
@@ -1173,9 +1205,10 @@
                   <app>
                      <lem wit="#V2 #B #X2">Sire, puisque vous si couvenables estes</lem>
                      <rdg wit="#G"/>
-                  </app> que <app>
-                     <lem wit="#V2 #G #X2">ou <num>i</num></lem><!--SL ou?-->
-                     <rdg wit="#B">l'en</rdg>
+                  </app> que on <app>
+                     <lem wit="#V2 #G #X2"><num>i</num></lem>
+
+                     <rdg wit="#B"/>
                   </app> tel mant <app>
                      <lem wit="#V2 #G #X2">on ne vous osast</lem>
                      <rdg wit="#B">ne vous deust l'en</rdg>
@@ -1213,8 +1246,11 @@
                </app> du commandement <rs type="person" key="Pelyarmenus">son seigneur</rs> qu’il
                avoit eu de lui, vint aus messages et leur dist : <said aloud="true" direct="true"
                   >Biaus seigneurs, vous <app>
-                     <lem wit="#V2">repairez</lem><!--SL je corrigerais, ça peut s'expliquer par une haplographie, commenter-->
-                     <rdg wit="#B #G #X2">repairerez</rdg>
+                     <lem wit="#B #G #X2">repairerez</lem>
+
+                     <rdg wit="#V2">repairez</rdg>
+                     <note type="notecritique">Nous corrigeons ce qui résulte d'une
+                        haplographie.</note>
                   </app> arrieres en <placeName key="Constantinople">Constentinoble</placeName>, et
                   je meismes vous convoierai, car je me doute de vous. Et nonpourquant, n’avez <pb
                      n="159"/> vous garde se bonne non ne <app>
@@ -1228,9 +1264,13 @@
                      <lem wit="#V2 #G #X2">ce vous fai je seürs</lem>
                      <rdg wit="#B">tout ce soiez asseur</rdg>
                   </app>.</said> Il ont <app>
-                  <lem wit="#V2 #G #X2">respondu : <said aloud="true" direct="true">Sire, granz
-                        merciz ! Et sachiez que moult en faites a amer !</said></lem>
-                     <rdg wit="#B">tuit ensamble que de ce faisoit il moult a mercier</rdg><!--SL il manque le verbe "respondu"dans B? si oui, peux-tu me le signaler pour que je l'ajoute à ma liste d'erreurs?-->
+                  <lem wit="#V2 #B #G">respondu</lem>
+                  <rdg wit="#B">respondu tuit ensamble que</rdg>
+               </app> :<app>
+                  <lem wit="#V2 #G #X2"><said aloud="true" direct="true">Sire, granz merciz ! Et
+                        sachiez que moult en faites a amer !</said></lem>
+                  <rdg wit="#B">de ce faisoit il moult a mercier</rdg>
+
                </app>
                <app>
                   <lem wit="#V2 #B #G">Dont</lem>
@@ -1240,7 +1280,8 @@
                   <rdg wit="#B">as</rdg>
                </app> chevaus et monterent et se mistrent <app>
                   <lem wit="#V2 #G #X2">en leur chemin et <app>
-                     <lem wit="#V2 #G #X2">n’ont finé, si</lem><!--SL supprimer virgule cf. ci-dessus-->
+                        <lem wit="#V2 #G #X2">n’ont finé si</lem>
+
                         <rdg wit="#B"/>
                      </app> vindrent a leur hostiex</lem>
                   <rdg wit="#B">vers Costentinnoble. Il n'ont atargié, si sont venus a leur
@@ -1270,11 +1311,9 @@
                      <rdg wit="#B">tele chose que je ne feroie por homme de cest empire qui y
                         soit</rdg>
                   </app>, quar je vous lairai çaiens avec vos compaignons en la garde de vostre
-                  hoste que je ne feroie pas <num>i</num> autre, ainçois seroie saisiz de lui et <app>
-                     <lem wit="#V2 #G #X2">le</lem>
-                     <rdg wit="#B">l'en</rdg><!--SL voir possibilité de comprendre "emmener", sans scinder-->
-                  </app> menroie au <rs type="place" key="Bel Manoir">chastel</rs> amont tant que il
-                  avroit achevé ce <app>
+                  hoste que je ne feroie pas <num>i</num> autre, ainçois seroie saisiz de lui et le
+                  menroie au <rs type="place" key="Bel Manoir">chastel</rs> amont tant que il avroit
+                  achevé ce <app>
                      <lem wit="#V2 #G #X2">qu’il aroit</lem>
                      <rdg wit="#B">que vous avez</rdg>
                   </app> empris.</said> Quant <persName key="Mirus">Myrus</persName> oÿ ce, si dist
@@ -1312,22 +1351,24 @@
                   <rdg wit="#B">Casus</rdg>
                </app>, qui moult engranz estoit <app>
                   <lem wit="#V2 #G">durement</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> de faire courtoisie aus compaignons, prist <persName key="Mirus"
                   >Myrus</persName> et <rs type="person" key="Eligius">son compaignon</rs> et les
                mena <app>
                   <lem wit="#V2">maintenant</lem>
-                  <rdg wit="#B #G #X2">mq</rdg>
+                  <rdg wit="#B #G #X2"/>
                </app> au <rs type="place" key="Bel Manoir">chastel</rs> amont. Li mengiers fu touz
                pres et les tables <app>
                   <lem wit="#V2 #X2">furent</lem>
-                  <rdg wit="#B #G">mq</rdg>
+                  <rdg wit="#B #G"/>
                </app> mises. Il <app>
                   <lem wit="#V2 #G #X2">ont</lem>
-                  <rdg wit="#B">l'ont</rdg><!--SL à quoi réfère le pronom dans B? commenter?-->
+                  <rdg wit="#B">l'ont</rdg>
+                  <!--SL à quoi réfère le pronom dans B? commenter?-->
                </app> lavé puis sont <app>
                   <lem wit="#V2 #G">assis</lem>
-                  <rdg wit="#B #X2">assis au mengier, et sachiez que moult orent et assez</rdg><!--SL faire une note pour indiquer la possibilité d'un saut du même au même dans V2 et G, sans que l'intervention soit nécessaire?-->
+                  <rdg wit="#B #X2">assis au mengier, et sachiez que moult orent et assez</rdg>
+                  <!--corriger? SL faire une note pour indiquer la possibilité d'un saut du même au même dans V2 et G, sans que l'intervention soit nécessaire?-->
                </app>. Quant il orent digné,<app>
                   <lem wit="#V2 #B"> dont furent les tables ostees</lem>
                   <rdg wit="#G"/>
@@ -1360,17 +1401,17 @@
                      >Myrus</persName>, a il non ?</said>
                <said aloud="true" direct="true">Par foy<app>
                      <lem wit="#V2">, sire,</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> dist <persName key="Gasus">Gasus</persName>, son non moustre bien que il
                   soit autres que bons, quar il <app>
-                     <lem wit="#V2">est est (sic)</lem><!--SL corriger-->
-                     <rdg wit="#B #G #X2">est</rdg>
+                     <lem wit="#B #G #X2">est</lem>
+
+                     <rdg wit="#V2">est est</rdg>
                   </app> apelez <persName key="Malcuidant">Malquidant</persName>.</said>
                <said aloud="true" direct="true">Par Dieu, dist <persName key="Mirus"
-                     >Myrus</persName>, je ne me doute de riens que, <app>
-                     <lem wit="#V2 #G #X2">se je en champ le tieng, mais</lem>
-                     <rdg wit="#B"/>
-                     </app> que autres <app><!--SL sic? B a deux fois "que"? si oui, peux-tu me le signaler pour l'ajouter à ma liste d'erreurs?-->
+                     >Myrus</persName>, je ne me doute de riens que, se je en champ le tieng, mais
+                  que autres <app>
+
                      <lem wit="#V2 #G #X2">de lui</lem>
                      <rdg wit="#B"/>
                   </app> ne s’en melle, que <app>
@@ -1396,7 +1437,8 @@
                   <placeName key="Bretagne">Bretaigne</placeName>.</said>
                <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Voire, dist <persName key="Gasus">Gasus</persName></lem>
-                  <rdg wit="#B">En Bretaigne, dist Gasus? Sire, voire.</rdg><!--SL trouver un système pour marquer le changement de locuteur dans la variante de B?-->
+                     <rdg wit="#B">En Bretaigne, dist Gasus? Sire, voire.</rdg>
+                     <!--SL trouver un système pour marquer le changement de locuteur dans la variante de B?-->
                   </app>. Et comment a non vostre compaignon ?</said>
                <said aloud="true" direct="true">Sire, dist cil, on m’apele <app>
                      <lem wit="#V2"><persName key="Eligius">Elygious</persName> (sic)</lem>
@@ -1439,10 +1481,7 @@
                   dites que il vous <app>
                      <lem wit="#V2 #G #X2">est aviz</lem>
                      <rdg wit="#B">siet</rdg>
-                  </app> de cest chevalier qui <app>
-                     <lem wit="#V2 #G #X2">en tele maniere</lem>
-                     <rdg wit="#B">ainsi</rdg><!--SL supprimer la variante-->
-                  </app> s’est pouroffers devant moi.</said>
+                  </app> de cest chevalier qui ainsi s’est pouroffers devant moi.</said>
                <said aloud="true" direct="true">Sire, dist il, sachiez que je sui moult liez de ce
                   que il a empris, quar bien sachiez que moult ert ainz demain heure de <app>
                      <lem wit="#V2 #G #X2">tierce</lem>
@@ -1457,17 +1496,16 @@
                      <rdg wit="#B"/>
                   </app> desseure de lui pouez venir, je vous acroistrai vostre <app>
                      <lem wit="#V2 #G #X2">terre touz les jourz de <num>x</num> besanz</lem>
-                     <rdg wit="#B">rente de .X. b. chascun jor</rdg>
+                     <rdg wit="#B">rente de <num>x</num> b. chascun jor</rdg>
                   </app>.</said>
                <said aloud="true" direct="true">Sire, dit il, granz mercis !</said> Lors ont aucuns
                dit : <said aloud="true" direct="true">Sire, ou volez vous que ceste bataille soit
                   ?</said>
                <said aloud="true" direct="true">Je veul, dist il, <app>
-                     <lem wit="#V2">elle</lem>
+                     <lem wit="#V2">elle <del rend="exponctuation" hand="#main1">ele</del></lem>
                      <rdg wit="#B #G #X2">qu'elle</rdg>
-                  </app>
-                  <del rend="exponctuation" hand="#main1">ele</del> <!--SL donc le scribe barre le deuxième "ele" mais ne corrige pas "elle" en "que"?-->soit en celle praerie ci dehors.
-                  Et mandez a <persName key="Gasus">Gasus</persName> que il <app>
+                  </app> soit en celle praerie ci dehors. Et mandez a <persName key="Gasus"
+                     >Gasus</persName> que il <app>
                      <lem wit="#V2 #G">face <app>
                            <lem wit="#V2">si</lem>
 
@@ -1495,7 +1533,8 @@
                      <rdg wit="#G">menguent</rdg>
                   </app> se il l’en laissent aler a coroies <app>
                      <lem wit="#V2 #G #X2">ointes</lem>
-                     <rdg wit="#B">des ointes</rdg><!--SL commenter et renseigner dans l'étude de langue; de toute façon, si c'est bien un adjectifs, unir "desointes"; "coroies ointes" est connu de La Curne-->
+                     <rdg wit="#B">desointes</rdg>
+                     <!--SL commenter et renseigner dans l'étude de langue "coroies ointes" est connu de La Curne-->
                   </app> !</said></p>
 
             <p n="P148"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine 2">Q</c>uant
@@ -1523,7 +1562,8 @@
                      <rdg wit="#B">le</rdg>
                   </app> lieu <app>
                      <lem wit="#V2 #X2">qui</lem>
-                     <rdg wit="#G">qu'il</rdg><!--SL ou graphie inverse quil pour qui?-->
+                     <rdg wit="#G">quil</rdg>
+                     <!-- analyse ling -->
                      <rdg wit="#B">par quoi il</rdg>
                   </app> fust convenable, si que il n’en fust repris de nului qui vausist</said>.
                   <note type="apparat">Nouveau § B</note><persName key="Gasus">Gasus</persName>, qui
@@ -1555,7 +1595,8 @@
                   </app>, que, <app>
                      <lem wit="#V2 #G #X2">s’il en y a nul qui vilonnie li face ne chose
                         descouvenable</lem>
-                     <rdg wit="#B">se il est nus qui y face chose qui ne soit couvenable</rdg><!--SL réduire les variantes-->
+                     <rdg wit="#B">se il est nus qui y face chose qui ne soit couvenable</rdg>
+
                   </app>, que il n’i avra <app>
                      <lem wit="#V2 #G #X2">nul</lem>
                      <rdg wit="#B"/>
@@ -1593,9 +1634,10 @@
                   </app> soit fait ?</said>
                <said aloud="true" direct="true">Sire, dist il, je non, mais je doute d’aucuns, se il <app>
                      <lem wit="#V2 #G #X2">cuidoient ou</lem>
-                  <rdg wit="#B"/><!--SL sic?-->
-                  </app> que <persName key="Malcuidant">Malcuidant</persName> en eust le pieur,
-                  qu’il ne se metent avant, par quoi vous en soiez blasmez et <app>
+                     <rdg wit="#B"/>
+
+                  </app> veoient que <persName key="Malcuidant">Malcuidant</persName> en eust le
+                  pieur, qu’il ne se metent avant, par quoi vous en soiez blasmez et <app>
                      <lem wit="#V2 #G #X2">que</lem>
                      <rdg wit="#B"/>
                   </app> vous en fussiez trouvez en vostre tort.</said>
@@ -1607,10 +1649,8 @@
                      <lem wit="#V2 #B #G">estre</lem>
                      <rdg wit="#X2"/>
                   </app> fais.</said>
-               <said aloud="true" direct="true">Sire, dist il, <app>
-                     <lem wit="#V2">volentier (sic)</lem><!--SL je supprimeraisl a variante et intégrerais la forme dans l'étude de langue sous chute de consonnes finales-->
-                     <rdg wit="#B #G #X2">volentiers</rdg>
-                  </app> le ferai.</said> Atant s’est de lui <app>
+               <said aloud="true" direct="true">Sire, dist il, volentier le ferai.</said> Atant
+               s’est de lui <app>
                   <lem wit="#V2 #G #X2">departiz</lem>
                   <rdg wit="#B">partiz</rdg>
                </app> et <app>
@@ -1621,13 +1661,13 @@
                   <rdg wit="#B">cuida</rdg>
                </app>
                <del rend="exponctuation" hand="#main1">bien</del> que <app>
-                  <lem wit="#V2 #G #X2">bien se <app>
-                        <lem wit="#V2 #X2">peust</lem>
-                        <rdg wit="#G">deust</rdg>
-                     </app> en euls fier</lem>
-                  <rdg wit="#B">il miex en euls se peust fier</rdg><!--SL réduire les variantes-->
-               </app>. Dont leur commanda que il fussent a l’endemain tout prest pour fournir ceste
-               besoingne dont il les <app>
+                  <lem wit="#V2 #G #X2">bien</lem>
+                  <rdg wit="#B">il miex</rdg>
+               </app> se <app>
+                  <lem wit="#V2 #B #X2">peust</lem>
+                  <rdg wit="#G">deust</rdg>
+               </app> en euls fier. Dont leur commanda que il fussent a l’endemain tout prest pour
+               fournir ceste besoingne dont il les <app>
                   <lem wit="#V2 #G #X2">requeroit</lem>
                   <rdg wit="#B">avoit requis</rdg>
                </app>. Il <app>
@@ -1650,23 +1690,24 @@
                   <lem wit="#V2 #G #X2">, lequel estoit apelez <persName key="Dialogus"
                         >Dyalogus</persName>, cil</lem>
                   <rdg wit="#B"/>
-               </app>oÿ la parole <app>
-                  <lem wit="#V2 #G #X2"><said who="#nar">en tele maniere comme dit est</said></lem>
-                  <rdg wit="#B">ainsi comme il l'ot parlé</rdg><!--SL réduire les variantes avec "en tele maniere/ainsi"-->
+               </app>oÿ la parole en tele maniere comme<app>
+                  <lem wit="#V2 #G #X2"><said who="#nar">dit est</said></lem>
+                  <rdg wit="#B">il l'ot parlé</rdg>
+
                </app> que <said aloud="true" direct="false">tous ceuz fussent honni qui son pain
-                  menjoient s’il en laissoient aler le message a coroies des ointes (sic)</said>, <app><!--SL cf. ci-dessus, mettre "desointes" probablement-->
+                  menjoient s’il en laissoient aler le message a coroies desointes (sic)</said>, <app>
+                  <!--commenter desointes-->
                   <lem wit="#V2 #G #X2">cil a dit a lui meismes que <said aloud="false"
                         direct="false">il fera une partie de la volenté son frere, se il onques
                         puet</said>. Et cil estoit</lem>
-                     <rdg wit="#B">Cil avoit non Dyalogus et estoit</rdg><!--SL réduire les variantes-->
+                  <rdg wit="#B">Cil avoit non Dyalogus et estoit</rdg>
+
                </app> tiex que par raison, se il estoit traitres et mauvais, il ne fourlignoit mie.
                Cil a fait une cueillete de traitres et de mavais ribaus et leur dist que, <said
                   aloud="true" direct="false">se il vouloient servir <persName key="Pelyarmenus"
                      >Pelyarmenus</persName> a gré, que il fussent a l’endemain appareillié pour <rs
-                     type="person" key="Mirus">le chevalier</rs> metre a mort qui <app>
-                     <lem wit="#V2 #G">en tele maniere</lem>
-                     <rdg wit="#B">ainsi</rdg>
-                  </app> s’estoit pouroffers <app>
+                     type="person" key="Mirus">le chevalier</rs> metre a mort qui ainsi s’estoit
+                  pouroffers <app>
                      <lem wit="#V2 B">contre lui et qui la bataille devoit faire</lem>
                      <rdg wit="#G">pour faire la bataille</rdg>
                   </app> contre <persName key="Malcuidant">Malcuidant</persName></said>. Cil ont
@@ -1742,8 +1783,9 @@
                   <rdg wit="#B">qui moult g. estoit</rdg>
                </app> atourné. Il furent grant <app>
                   <lem wit="#V2 #B #G">plenté</lem>
-                  <rdg wit="#X2">plen-de</rdg> <!--SL ne peut-on pas imaginer qu'on a une sonorisation de la consonne et lire "plendé"? X2 a bien la préposition "de" après? un peu tiré par les cheveux, mais commenter?-->
-                  <!-- verif ms X2 -->
+                  <rdg wit="#X2">plen-de</rdg>
+
+
                </app> de chevaucheurs qui devoient le <app>
                   <lem wit="#V2 #G #X2">champ</lem>
                   <rdg wit="#B">parc</rdg>
@@ -1787,27 +1829,28 @@
                      <lem wit="#V2 #B #X2"><num>i</num> tel homme</lem>
                      <rdg wit="#G"/>
                   </app> a <app>
-                     <lem wit="#V2">doutel (sic)</lem>
-                     <rdg wit="#B #X2">douter</rdg>
-                     <rdg wit="#G">doubter</rdg>
-                     <!-- corriger selon quelle graphie? --><!--SL je corrigerais d'après la graphie de B, si on suit toujours ce témoin, ce qui est appuyé ici par le fait que V2 n'a pas de b-->
+                     <lem wit="#B #G #X2">douter</lem>
+
+                     <rdg wit="#V2">doutel (sic)</rdg>
+
                   </app></said> ; et li quars <app>
-                  <lem wit="#V2 #X2">redisoit</lem><!--SL commenter en note l'usage du préfixe "re-" 'pour sa part'-->
+                  <lem wit="#V2 #X2">redisoit</lem>
+                  <!--SL commenter en note l'usage du préfixe "re-" 'pour sa part'-->
                   <rdg wit="#B">prioit</rdg>
                   <rdg wit="#G">disoit</rdg>
                </app> que <said aloud="true" direct="false">Dieus li donnast l’ouneur de la
                   bataille, quar trop estoit <persName key="Malcuidant">Malquidant</persName> felon
                   et outrageus <app>
                      <lem wit="#V2 #G">tenuz de touz</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app></said>. <app>
                   <lem wit="#V2 #B"><app>
                         <lem wit="#V2">En tele maniere <app>
-                              <lem wit="#V2 #B">comme je vous ai dit</lem>
-                              <rdg wit="#X2"/>
-                              <!-- est-ce bien rendu que "en tele maniere avoit "X2 / Ainsi avoit B -->
+                              <lem wit="#V2 #G">comme je vous ai dit</lem>
+                              <rdg wit="#B #X2"/>
+
                            </app></lem>
-                        <rdg wit="#B">Ainsi</rdg>
+
                      </app> avoit g<add place="above" hand="#main2">r</add>a<del
                         rend="exponctuation" hand="#main2">r</del>ce de chascun.</lem>
                   <rdg wit="#G"/>
@@ -1819,7 +1862,7 @@
                   <lem wit="#V2 #G #X2">mis</lem>
                   <rdg wit="#B"/>
                </app>
-               <persName key="Mirus.">Myrus</persName> en son lieu, mais moult pria avant aus dames<!--SL normal qu'il y ait un point après Mirus dans la balise?-->
+               <persName key="Mirus">Myrus</persName> en son lieu, mais moult pria avant aus dames
                et aus damoiseles<app>
                   <lem wit="#V2 #B">, dont il fu moult esgardez et moult <app>
                         <lem wit="#V2 #X2">conjoïs</lem>
@@ -1854,9 +1897,14 @@
                      <rdg wit="#B">a veoir</rdg>
                   </app>, et li cuers me dist que <said aloud="false" direct="false">moult iés
                      preudoms et de <app>
-                        <lem wit="#V2">moult haut</lem><!--SL faire deux variantes différentes pour faire apparaître l'accord de V G X sur "hault"-->
+                        <lem wit="#V2 #G #X2">moult</lem>
+                        <rdg wit="#B"/>
+                     </app>
+                     <app>
+                        <lem wit="#V2 #G #X2">haut</lem>
+
                         <rdg wit="#B">bon</rdg>
-                        <rdg wit="#G #X2">hault</rdg>
+
                      </app> afaire</said>.</said></p>
             <p n="P151"><c ana="lettrine2">A</c> ceste parole vint <persName key="Pelyarmenus"
                   >Pelyarmenus</persName>
@@ -1869,10 +1917,8 @@
                   <rdg wit="#B"/>
                </app> grant plenté de barons. Et moult se contint <persName key="Malcuidant"
                   >Malquidant</persName> gentement a l’entrer ou champ, et bien sambloit homme de
-               grant hardement et de grant prouesce. Dont <app>
-                  <lem wit="#V2">chevacha (sic)</lem><!--SL supprimer la variante et intégrer à l'étude de langue pour les réductions de diphtongues?-->
-                  <rdg wit="#B #G #X2">chevaucha</rdg>
-               </app> tout entour et <cb n="c"/> pria aus dames et aus <app>
+               grant hardement et de grant prouesce. Dont chevacha tout entour et <cb n="c"/> pria
+               aus dames et aus <app>
                   <lem wit="#V2 #B #X2">damoiseles</lem>
                   <rdg wit="#G">pucellez</rdg>
                </app> que <app>
@@ -1902,10 +1948,11 @@
                   key="Gasus">Gasus</persName>
                <app>
                   <lem wit="#V2 #G">et li dist</lem>
-                  <rdg wit="#B #X2">a Peliarmenus et l. d.</rdg><!--SL je m'interroge sur la construction "s'en venir" sans complément, j'interviendrais peut-être ici d'après B et X2, ça pourrait être un saut du même au même sur la finale -us-->
+                  <rdg wit="#B #X2">a Peliarmenus et l. d.</rdg>
+                  <!--corriger? SL je m'interroge sur la construction "s'en venir" sans complément, j'interviendrais peut-être ici d'après B et X2, ça pourrait être un saut du même au même sur la finale -us-->
                </app> : <said aloud="true" direct="true">Sire, je veul que li bans soit <app>
                      <lem wit="#V2 #G">orendroit</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> criez de par vous et de par moi, que il n’i ait nul si hardi <app>
                      <lem wit="#V2 #B #G"><app>
                            <lem wit="#V2 #G">en toute l’<app>
@@ -1932,13 +1979,14 @@
                      <rdg wit="#B">nul n'i eust</rdg>
                   </app> qui armez fust se ce n’estoit <app>
                      <lem wit="#V2 #G">le</lem>
-                     <rdg wit="#B #X2">par le</rdg><!--SL la construction fonctionne-t-elle dans V2 G? attesté?-->
+                     <rdg wit="#B #X2">par le</rdg>
+                     <note type="notecritique">Nous ne corrigeons pas "le congié" en "par le
+                        congié". Dans notre texte "se ce n'estoit" est sémantiquement proche de
+                        "sans" et les dictionnaires attestent l'existence d'une construction "sans
+                        congé de qn" (DMF)</note>
                   </app> ‹t›[c]ongié du <rs type="person" key="Gasus">baillif</rs></said>. Quant
-                  <persName key="Dialogus">Dyalogus</persName> sot ce, <app>
-                  <lem wit="#V2 #G #X2">si</lem>
-                  <rdg wit="#B">dont</rdg>
-                  <!-- apparat : garder ces var? -->
-               </app> ne volt mie trespasser le ban, mais il ne se moustra <app>
+                  <persName key="Dialogus">Dyalogus</persName> sot ce, si ne volt mie trespasser le
+               ban, mais il ne se moustra <app>
                   <lem wit="#V2 #G">en nule maniere</lem>
                   <rdg wit="#B #X2">mie</rdg>
                </app>, ainz <app>
@@ -1956,7 +2004,7 @@
                </app>, repairier en la cité <app>
                   <lem wit="#V2 #G">de <placeName key="Constantinople"
                      >Coustentinoble</placeName></lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> se par euls non.</p>
          </div>
          <div>
@@ -1982,14 +2030,9 @@
                      <lem wit="#V2- #G #X2"><persName key="Mirus">Myrus</persName> et <persName
                            key="Malcuidant">Malquidant</persName></lem>
                      <rdg wit="#B"/>
-                  </app> furent ou champ <app>
-                     <lem wit="#V2 #G #X2">en la maniere comme <app>
-                           <lem wit="#V2">dist</lem><!--SL supprimer la variante et intégrer la forme à l'étude de langue, cf. com. SL ailleurs?-->
-                           <rdg wit="#G #X2">dit</rdg>
-                        </app> est devant</lem>
-                     <rdg wit="#B">ainsi</rdg><!--SL réduire les variantes avec 'en la maniere/ainsi"?-->
-                  </app>, <persName key="Mirus">Myrus</persName> s’en vint a <persName
-                     key="Pelyarmenus">Pelyarmenus</persName> moult <app>
+                  </app> furent ou champ en la maniere comme dist est devant , <persName key="Mirus"
+                     >Myrus</persName> s’en vint a <persName key="Pelyarmenus"
+                     >Pelyarmenus</persName> moult <app>
                      <lem wit="#V2 #G #X2">affaitieement</lem>
                      <rdg wit="#B">a. sus son cheval</rdg>
                   </app> et li dist:</said>
@@ -2020,13 +2063,13 @@
                   </app>
                   <app>
                      <lem wit="#V2 #G">de par lui</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> ne <app>
                      <lem wit="#V2 #B #X2">soit</lem>
                      <rdg wit="#G">estoit</rdg>
                   </app> couvenables <app>
                      <lem wit="#V2 #G">et sousfisans</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> et que onques ne vint de traïtour ne d’omme <app>
                      <lem wit="#V2 #G">nul</lem>
                      <rdg wit="#B #X2"/>
@@ -2035,9 +2078,10 @@
                      <rdg wit="#B"/>
                   </app> souffisanz, je sui cilz qui le ferai de mon cors contre le sien
                   estable.</said> Dont s’en vint <persName key="Malcuidant">Malquidant</persName> a
-               lui et li dit: <said aloud="true" direct="true">Sire, <app>
-                     <lem wit="#V2 #G #X2">vez me ci</lem>
-                  <rdg wit="#B">veez moi</rdg><!--SL réduire les variantes-->
+               lui et li dit: <said aloud="true" direct="true">Sire, vez<app>
+                     <lem wit="#V2 #G #X2">me ci</lem>
+                     <rdg wit="#B">moi</rdg>
+
                   </app>
                   <app>
                      <lem wit="#V2 #G">tout</lem>
@@ -2050,7 +2094,7 @@
                      <rdg wit="#B">et de traïteur</rdg>
                   </app> et que vous ne feistes onques <app>
                      <lem wit="#V2 #G">a nul jour</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> envers lui ne envers les siens <app>
                      <lem wit="#V2 #G #X2">chose nule dont il vous deust <app>
                            <lem wit="#V2 #G">en nule maniere</lem>
@@ -2069,7 +2113,7 @@
                   </app>
                   <app>
                      <lem wit="#V2 #G">devant vous</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app>, ou <cb n="e"/> je meismes <app>
                      <lem wit="#V2 #G #X2">demourrai</lem>
                      <rdg wit="#B">y d.</rdg>
@@ -2078,7 +2122,7 @@
             <p n="P153"><c ana="lettrine 2">Q</c>uant il orent ce dit, si fist on <app>
                   <lem wit="#V2 #G #X2">le ban</lem>
                   <rdg wit="#B">crier</rdg>
-            </app>, <!--SL virgule? voir d'autres attestations?-->qu’il n’i eust nul si hardi qui n’isist du champ <app>
+               </app> qu’il n’i eust nul si hardi qui n’isist du champ <app>
                   <lem wit="#V2 #G #X2">fors</lem>
                   <rdg wit="#B">hors</rdg>
                </app>
@@ -2088,8 +2132,7 @@
                </app>. Il firent <app>
                   <lem wit="#V2 #G">moult</lem>
                   <rdg wit="#B #X2"/>
-               </app> bien cestui commandement<!-- apparat garder? commant B -->, quar nuls n’i
-               demoura <app>
+               </app> bien cestui commandement, quar nuls n’i demoura <app>
                   <lem wit="#V2 #G #X2">fors les <num>ii</num> champions <app>
                         <lem wit="#V2 #G">qui combatre se devoient</lem>
                         <rdg wit="#X2"/>
@@ -2120,13 +2163,16 @@
                   <rdg wit="#G">Mont</rdg>
                </app> furent <app>
                   <lem wit="#V2 #G">maintenant</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> d’euls quatre mis li doi chevalier en leur lieu<unclear reason="faded"
                   >...</unclear>. Dont se sont <app>
-                  <lem wit="#V2">merveilleusement noblement</lem><!--SL ceci est étrange, les deux adverbes en -ment qui se suivent: voir si attesté et sinon je corrigerais d'après G avec une note-->
-                  <rdg wit="#B #X2">mq</rdg>
-                  <rdg wit="#G">moult noblement</rdg>
-               </app> poli en leur armes. Et sachiez que d’eulz <num>ii</num> ne peust on <app>
+                  <lem wit="#G">moult noblement</lem>
+
+                  <rdg wit="#B #X2"/>
+                  <rdg wit="#V2">merveilleusement noblement</rdg>
+               </app><note type="notecritique">Nous corrigeons la version de V2 car la présence de
+                  deux adverbes successifs en "-ment" nous semble signaler une erreur que corrige
+                  G</note> poli en leur armes. Et sachiez que d’eulz <num>ii</num> ne peust on <app>
                   <lem wit="#V2 #G #X2">onques</lem>
                   <rdg wit="#B">ainç mais</rdg>
                </app>
@@ -2141,32 +2187,33 @@
                   <rdg wit="#X2"/>
                </app> plus fiere, <app>
                   <lem wit="#V2 #G #X2">quar</lem>
-                  <rdg wit="#B">car il contes dit que</rdg><!--SL sic "il contes"?-->
+                  <rdg wit="#B">car li contes dit que</rdg>
+
                </app>, quant ce vint aus chevaus poindre <app>
                   <lem wit="#V2 #G">des esperons</lem>
-                  <rdg wit="#B #X2"/>
+                  <rdg wit="#B #X2">et</rdg>
                </app>, il orent les escus embraciez et les glaives empoingniés. Il <app>
                   <lem wit="#V2 #G">s’entrevindrent</lem>
                   <rdg wit="#B #X2">s'en vindrent</rdg>
                </app> tant aigrement li uns <app>
                   <lem wit="#V2 #G">contre</lem>
-                  <rdg wit="#B #X2"/>
-               </app> l’autre que <app><!--SL ok pour la construction "s'en venir l'un l'autre"?-->
-                  <lem wit="#V2 #G">merveilles fu que on ne sot l’eure</lem>
-                  <rdg wit="#B #X2">l'en ne sot l'eure</rdg><!--SL je réduirais ici l'apparat, en excluant "on/l'en ne sot l'eure" dans lem et rdg-->
+                  <rdg wit="#B #X2">vers</rdg>
+               </app> l’autre que <app>
 
-               </app>. Si se <app>
-                  <lem wit="#V2 #G #X2">sont</lem>
+                  <lem wit="#V2 #G">merveilles fu que</lem>
+                  <rdg wit="#B #X2"/>
+
+
+               </app> on ne sot l’eure. Si <app>
+                  <lem wit="#V2 #G #X2">se sont</lem>
                   <rdg wit="#B">furent</rdg>
                </app> entrencontré si cruelment que li escu fendirent et volerent em <cb n="f"/>
                pieces, et s’entrencontrerent de si grant vertu que li cheval <app>
                   <lem wit="#V2 #G #X2">s’entreoccistrent</lem>
                   <rdg wit="#B">s'entrecontrerent de si grant vertu que li cheval
-                     s'entrocistrent</rdg><!--SL sic? si oui, peux-tu me le signaler pour l'ajouter à ma liste?-->
-               </app>, et euls meismes <app>
-                  <lem wit="#V2 #G #X2">de corps et de pis</lem>
-                  <rdg wit="#B">des cors et des piz</rdg><!--SL réduire les variantes-->
-               </app> s’entrehurterent <app>
+                     s'entrocistrent</rdg>
+                  <!--ajouter liste erreus Sophie-->
+               </app>, et euls meismes de corps et de pis s’entrehurterent <app>
                   <lem wit="#V2">si et</lem>
                   <rdg wit="#B #G #X2"/>
                </app> en tele maniere que les hiaumes leur volerent des chiés et furent <app>
@@ -2175,7 +2222,7 @@
                   <rdg wit="#X2">tel</rdg>
                </app> mené que il ne sorent <app>
                   <lem wit="#V2 #G">en nule guise</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> qu’il leur fu avenu. Mais gaires ne furent en tele maniere, et a chascuns <app>
                   <lem wit="#V2 #G">esraument</lem>
                   <rdg wit="#B #X2"/>
@@ -2191,15 +2238,16 @@
                   <rdg wit="#B"/>
                </app> s’en vindrent li uns vers l’autre en <app>
                   <lem wit="#V2 #G #X2">telle</lem>
-                  <rdg wit="#B">autele</rdg><!--SL supprimer des variantes-->
-               </app> maniere comme se il ne <app>
-                  <lem wit="#V2 #G #X2">s’entreredoutassent de nule riens <app>
+                  <rdg wit="#B">autele</rdg>
+
+               </app> maniere comme se il <app>
+                  <lem wit="#V2 #G #X2">ne s’entreredoutassent de nule riens <app>
                         <lem wit="#V2 #G">du monde</lem>
                         <rdg wit="#X2"/>
 
                      </app></lem>
-                  <rdg wit="#B">riens ne s'entredoutassent (sic)</rdg><!--SL (sic) = ne riens ne?; je l'ai intégré: s'il faut l'enlever de la liste, fais-moi signe stp-->
-                  <!-- verif ms B -->
+                  <rdg wit="#B">riens ne s'entredoutassent (sic)</rdg>
+
                </app>.</p>
             <note type="apparat">Pas de nouveau § B</note>
             <p n="P155"><c ana="lettrine2">L</c>ors peust on veoir dure escremie et pesme, quar tout
@@ -2207,11 +2255,8 @@
                morir chascuns par samblant. <note type="apparat">Nouveau § B</note><persName
                   key="Malcuidant">Malquidant</persName>, qui plains estoit de tres grant
                chevalerie, hasta <persName key="Mirus">Myrus</persName> a ce qu’il le meist <app>
-                  <lem wit="#V2 #G">du tout <app>
-                        <lem wit="#C2 #G">esraument</lem>
-                        <rdg wit="#X2"/>
+                  <lem wit="#V2 #G #X2">du tout esraument a</lem>
 
-                     </app> a</lem>
                   <rdg wit="#B">comme du t. au</rdg>
                </app> souffrir mort. Ce virent li auquant <app>
                   <lem wit="#V2 #G">et</lem>
@@ -2222,7 +2267,7 @@
                </app>
                <app>
                   <lem wit="#V2 #G">certainnement</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> qu’il ne deust plus mettre <app>
                   <lem wit="#V2 #G #X2">deffendement</lem>
                   <rdg wit="#B">deffense</rdg>
@@ -2244,24 +2289,23 @@
                qui <app>
                   <lem wit="#V2 #G #X2">de pres le hasta</lem>
                   <rdg wit="#B">son cop sui (sic)</rdg>
-               </app>, li <pb n="161"/> sailli sus la
-               poitrine<!-- verif ms portrine X2? ou "i" bizarre comme pour entrartes alors qui serait bien "entraites" -->
-               en tele maniere qu’il n’ot pooir de lui desfendre. La li dona il tant de cops que il
-               li <app>
+               </app>, li <pb n="161"/> sailli sus la poitrine en tele maniere qu’il n’ot pooir de
+               lui desfendre. La li dona il tant de cops que il li <app>
                   <lem wit="#V2 #G #X2">embati</lem>
                   <rdg wit="#B">embarra</rdg>
                </app> le hyaume en la teste. Et quant il l’ot <app>
                   <lem wit="#V2 #G #X2">en tele maniere</lem>
                   <rdg wit="#B">si</rdg>
-               </app> maistroié, si li deslacha<!-- deslaça BGX2 --> le hyaume et puis li dist que
-                  <said aloud="true" direct="false">il se rendist recreant ou il li couperoit le
-                  chief</said>. Et cil <app>
+               </app> maistroié, si li <app>
+                  <lem wit="#V2">deslacha</lem>
+                  <rdg wit="#B #G #X2">deslaça</rdg>
+               </app> le hyaume et puis li dist que <said aloud="true" direct="false">il se rendist
+                  recreant ou il li couperoit le chief</said>. Et cil <app>
                   <lem wit="#V2 #G">li</lem>
                   <rdg wit="#B #X2"/>
                </app> dist que <said aloud="true" direct="false">de lui pooit il fere son
-                  commandement<!-- commant B -->, car il n’avoit pooir de lui desfendre</said>.
-                  <said aloud="true" direct="true">Dont veul je, dist <persName key="Mirus"
-                     >Mirus</persName>, que tu <app>
+                  commandement, car il n’avoit pooir de lui desfendre</said>. <said aloud="true"
+                  direct="true">Dont veul je, dist <persName key="Mirus">Mirus</persName>, que tu <app>
                      <lem wit="#V2 #G #X2">te desdies de</lem>
                      <rdg wit="#B">desdies</rdg>
                   </app> ceulz que tu as apelez traitres et mauvés et <app>
@@ -2383,7 +2427,8 @@
                      <rdg wit="#B">il yroit il yroient</rdg>
                   </app>, que ja n’en seroit espargniez ne bas ne <app>
                      <lem wit="#V2">fraus</lem>
-                     <rdg wit="#B #G #X2">frans</rdg><!--SL l'expression m'est inconnue; éléments pour corriger V?-->
+                     <rdg wit="#B #G #X2">frans</rdg>
+                     <!--SL l'expression m'est inconnue; éléments pour corriger V?-->
                   </app></said>. Et <cb n="c"/> dont se sont mis <app>
                   <lem wit="#V2 #B #G">a la voie</lem>
                   <rdg wit="#X2">au retour</rdg>
@@ -2451,13 +2496,14 @@
                   </app>, il <app>
                      <lem wit="#V2">en </lem>
                      <rdg wit="#B">mist</rdg>
-                     <rdg wit="#G #X2">en mist</rdg><!--SL commenter la leçon de V2, "il en a mort" 'il en a tué', en mettant en évidence le fait que lss trois autres ont "mist"-->
-                  </app> a mort <app>
-                     <lem wit="#V2 #G #X2">de tiex</lem>
-                     <rdg wit="#B">de ceuls</rdg><!--SL réduire les variantes-->
+                     <rdg wit="#G #X2">en mist</rdg>
+                     <!--SL commenter la leçon de V2, "il en a mort" 'il en a tué', en mettant en évidence le fait que lss trois autres ont "mist"-->
+                  </app> a mort de <app>
+                     <lem wit="#V2 #G #X2">tiex</lem>
+                     <rdg wit="#B">ceuls</rdg>
+
                   </app>
-               </said><!-- ou commencer intervention narrateur à "Qui" début de phrase? il apparut il en mist a mort G / il li parut de ceuls mist a mort B-->
-               le jour qui moult cuidoient estre si ami, mais riens ne <app>
+               </said> le jour qui moult cuidoient estre si ami, mais riens ne <app>
                   <lem wit="#V2 #G">leur</lem>
                   <rdg wit="#B #X2"/>
                </app> valut, car il amoit miex la mort <app>
@@ -2518,14 +2564,22 @@
                </app>.</p>
             <p n="P159"><note type="app">Pas de nouveau § B</note>
                <said who="#nar"><c ana="lettrine 2">Q</c>ue vous <app>
-                     <lem wit="#B #X2" resp="#PD">yroie</lem>
+                     <lem wit="#B #X2">yroie</lem>
 
-                  <rdg wit="#V2 #G">diroie</rdg><!--SL: V conserve la faute et G y réagit, mais "la besoingne atargant" remonte à l'archétype, donc corriger d’après B et X2-->
+                     <rdg wit="#V2 #G">diroie</rdg>
+
                   </app> je? <app>
                      <lem wit="#V2 #B #X2">la besoingne atargant</lem>
                      <rdg wit="#G"/>
-                  </app></said> Tant ferirent les uns sus ‹s›[l]es
-               autres<!-- l'un seur l'autre B --> que moult fu li plus fors <app>
+                  </app>?</said><note type="notecritique">le témoin V2 conserve la faute et le
+                  copiste de G y réagit, mais "la besoingne atargant" remonte à l'archétype, ce qui
+                  justifie notre correction selon B et X2</note> Tant ferirent <app>
+                  <lem wit="#V2 #G #X2">les uns</lem>
+                  <rdg wit="#B">l'un</rdg>
+               </app> sus <app>
+                  <lem wit="#V2 #G #X2">‹s›[l]es autres</lem>
+                  <rdg wit="#B">l'autre</rdg>
+               </app> que moult fu li plus fors <app>
                   <lem wit="#V2 #B #X2">afebloiez</lem>
                   <rdg wit="#G">foible</rdg>
                </app>. Mes en la fin, par la prouesce de <persName key="Gasus">Gasus</persName> et
@@ -2537,7 +2591,7 @@
                      </app> la vie emporter</lem>
                   <rdg wit="#B">quant il en pot la vie porter</rdg>
                </app>. <persName key="Gasus">Gasus</persName> et li sien se sont retrait vers la
-               cité et n’ont finé, si sont venu au chastel<!-- quel est ce château? --> parmi la
+               cité et n’ont finé si sont venu au chastel<!-- quel est ce château? --> parmi la
                ville. La a fait <persName key="Gasus">Gasus</persName> sa gent descendre. Et sachiez
                que moult en y ot de bleciez et de navrez, et meismes des leur en y ot occis
                   <num>vi</num>, dont il ot<!-- yot G --> moult grant douleur en la cité, car leur
@@ -2565,8 +2619,10 @@
                </app> meismes.</p>
             <p n="P160"><c ana="lettrine 2">Q</c>uant <persName key="Pelyarmenus"
                   >Pelyarmenus</persName> oÿ ce, sachiez que moult fu esbahiz. Dont s’apensa que
-                  <said aloud="false" direct="false">il<!-- il mq B --> li couvenoit
-               humilier</said>. <app>
+                  <said aloud="false" direct="false"><app>
+                     <lem wit="#V2 #G #X2">il</lem>
+                     <rdg wit="#B"/>
+                  </app> li couvenoit humilier</said>. <app>
                   <lem wit="#V2 #B #X2">Il en vint a eulz et</lem>
                   <rdg wit="#G">Si</rdg>
                </app> leur dist : <said aloud="true" direct="true">Biaus seigneurs, gardez vous de
@@ -2577,8 +2633,8 @@
                      <lem wit="#V2 #B #X2">prendrons</lem>
                      <rdg wit="#G">prendront</rdg>
                   </app> vengement en tele maniere que ja ne demorrons vostre ami.</said>
-               <said aloud="true" direct="true">Par Dieu, dist il, et je l’otroi, car par mon los
-                  et<!-- ne X2 --> par ma volenté <app>
+               <said aloud="true" direct="true">Par Dieu, dist il, et je l’otroi, car par mon los et
+                  par ma volenté <app>
                      <lem wit="#V2 #X2">n’en ont il fait ce que il en ont fait</lem>
                      <rdg wit="#B">il n'ont fait ce que fait en est</rdg>
                      <rdg wit="#G">ne l'ont ils pas fait</rdg>
@@ -2622,8 +2678,10 @@
                   <lem wit="#V2 #B #X2">en cel jor meismes s’en vint</lem>
                   <rdg wit="#G"> mesmez s'en vint ce jour</rdg>
                </app> au <placeName key="Bel Manoir">Bel Manoir</placeName>. Et quant <persName
-                  key="Pelyarmenus">Pelyarmenus</persName> le vit, si l’apela et li<!-- mq li B -->
-               dist : <said aloud="true" direct="true"><app>
+                  key="Pelyarmenus">Pelyarmenus</persName> le vit, si l’apela et <app>
+                  <lem wit="#V2 #G #X2">li</lem>
+                  <rdg wit="#B"/>
+               </app> dist : <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Amis,</lem>
                      <rdg wit="#B">Amis, por Dieu,</rdg>
                   </app> comment avez vous esploitié ?</said>
@@ -2649,13 +2707,14 @@
                   <app>
                      <lem wit="#V2 #X2">ait faite, je n’en tiens de riens a moi</lem>
                      <rdg wit="#B">ne li autre aient fait, je neent en trai a moi</rdg>
-                     <rdg wit="#G">ait faite, il n'en tiens de moi rien</rdg><!--SL commenter la forme "tiens" de G?-->
+                     <rdg wit="#G">ait faite, il n'en tiens (sic) de moi rien</rdg>
+                     <!--commenter la forme "tiens" de G?-->
                   </app>.</said>
                <said aloud="true" direct="true">Par foi, dist <persName key="Gasus"
                   >Gasus</persName>, <app>
                      <lem wit="#V2 #B #G">toutevoies</lem>
-                     <rdg wit="#X2">toutevois</rdg>
-                     <!-- verif ms X2 -->
+                     <rdg wit="#X2">toute-vois</rdg>
+
                   </app> est ce grant honte a vostre oés<!-- oeuls B eus X2-->, car ce ne <app>
                      <lem wit="#V2 #B #X2">cuident</lem>
                      <rdg wit="#G">cuiderent</rdg>
@@ -2687,15 +2746,18 @@
                <said aloud="true" direct="true">Si n’en faites chose dont vous <app>
                      <lem wit="#V2 #B #X2">soiez</lem>
                      <rdg wit="#G">n'en soiez</rdg>
-                  </app> blasmez, <app>
-                     <lem wit="#V2 #G #X2">je</lem><!--SL je mettrais peut-être deux points ici plutôt qu'une virgule, vu le "car" dans B-->
+                  </app> blasmez: <app>
+                     <lem wit="#V2 #G #X2">je</lem>
+
                      <rdg wit="#B">car je</rdg>
                   </app> le vous lo.</said>
                <said aloud="true" direct="true"><persName key="Gasus">Gasus</persName>, dist
                      <persName key="Pelyarmenus">Peliarmenus</persName>, vous savez bien quel
                   mandement cilz m’a fait. Et sachiez que je moult folz seroie se je hors de ma
-                  force aloie<!-- la aloie hors de ma force B --> pour moi metre en abandon de ma
-                  vie perdre. <pb n="162"/>
+                  force <app>
+                     <lem wit="#V2 #G #X2">aloie</lem>
+                     <rdg wit="#B">la aloie</rdg>
+                  </app> pour moi metre en abandon de ma vie perdre. <pb n="162"/>
                   <app>
                      <lem wit="#V2 #G #X2">Sachiez</lem>
                      <rdg wit="#B">Sachié</rdg>
@@ -2747,7 +2809,10 @@
                            <rdg wit="#B"/>
                         </app> dist <persName key="Mirus">Mirrus</persName>, porce que</lem>
                      <rdg wit="#G">pour ce, dist Mirus, que</rdg>
-                  </app> nous ne savons envers qui nous faisons ne<!-- mq ne B -->
+                  </app> nous ne savons envers qui nous faisons <app>
+                     <lem wit="#V2 #G #X2">ne</lem>
+                     <rdg wit="#B"/>
+                  </app>
                   <del rend="exponctuation" hand="#main1">i</del> mal ne bien, car <app>
                      <lem wit="#V2 #G #X2">nous doutons</lem>
                      <rdg wit="#B">doutions</rdg>
@@ -2782,24 +2847,23 @@
             <p n="P162"><c ana="lettrine2">A</c>inssi avint que li més furent avec <persName
                   key="Gasus">Gasus</persName> tant que il furent bien gueri. Et quant ce vint <cb
                   n="b"/> au congié prendre, <persName key="Gasus">Gasus</persName> leur fist si
-               toutes<!-- toute G --> leur besoignes que bien cuidierent <app>
+               toutes leur besoignes que bien cuidierent <app>
                   <lem wit="#B #G #X2" resp="#PD">avoir</lem>
-                  <rdg wit="#V2">avoir savoir (sic)</rdg>
+                  <rdg wit="#V2">avoir savoir</rdg>
                </app> sauf conduit par la <app>
                   <lem wit="#V2 #G">lectre</lem>
-                  <rdg wit="#B #X2">terre</rdg><!--SL faire une note ici et discuter la variante?-->
+                  <rdg wit="#B #X2">terre</rdg>
+                  <!--SL faire une note ici et discuter la variante?-->
                </app>, car <persName key="Pelyarmenus">Peliarmenus</persName> avoit envoié <app>
                   <lem wit="#V2 #G #X2">et mandé</lem>
                   <rdg wit="#B"/>
                </app> a <persName key="Ascanus">Ascanus</persName> qu’il n’eussent garde de lui.
-               Mais <persName key="Dialogus">Dyalogus</persName>, qui
-               <!-- verif ms "qui"? -->n’estoit mie recreanz de son malice, s’estoit embuschiez en
-               la <placeName key="Forêt de Vulgue">Forest de Vulgue</placeName> a tout <num>c</num>
-               traïteurs, qui touz avoient esté en l’autre aguet <app>
-                  <lem wit="#V2 #G #X2">en tel maniere comme</lem>
-                  <rdg wit="#B">ainsi que</rdg><!--SL réduire les variantes-->
-               </app><!-- ne pas garder ce genre de variantes peut-être? --> vous avez
-               oÿ<!-- intervention nar? -->. <persName key="Gasus">Gasus</persName>, qui <app>
+               Mais <persName key="Dialogus">Dyalogus</persName>, qui n’estoit mie recreanz de son
+               malice, s’estoit embuschiez en la <placeName key="Forêt de Vulgue">Forest de
+                  Vulgue</placeName> a tout <num>c</num> traïteurs, qui touz avoient esté en l’autre
+               aguet en tel maniere comme vous avez
+               oÿ<!-- Camimme : intervention nar 'en tel maniere comme..."? -->. <persName
+                  key="Gasus">Gasus</persName>, qui <app>
                   <lem wit="#V2 #G #X2">les messages avoit asseurez et qui de ce garde ne se
                      donnoit</lem>
                   <rdg wit="#B">mie ne s'en doutoit a les messages asseurez</rdg>
@@ -2844,7 +2908,7 @@
                      >Mirrus</persName>. Amis, et que as tu veu ?</said>
                <said aloud="true" direct="true">Par foi, <app>
                      <lem wit="#V2">ce</lem>
-                     <rdg wit="#B #G #X2">mq</rdg>
+                     <rdg wit="#B #G #X2"/>
                   </app> dist cil, ci devant sont embuschié <num>l</num> armeures de fer qui
                   n’atendent se vous non.</said> Quant <persName key="Mirus">Mirrus</persName> oÿ
                ce, si fu touz esbahiz et dist : <said aloud="true" direct="true">Amis, porrions nous
@@ -2852,14 +2916,15 @@
                      <lem wit="#V2 #G #X2">aler</lem>
                      <rdg wit="#B">passer</rdg>
                   </app> ?</said>
-               <said aloud="true" direct="true">Par Dieu, dist cil, oïl. Je vous
-                  menroie<!-- Vous menroie je B --> bien par ailleurs, mais que ma poine y fust
-                  sauve.</said>
-               <said aloud="true" direct="true">Par <cb n="c"/> Dieu, ce<!-- mq ce BG --> dist
-                     <persName key="Mirus">Mirrus</persName>, amis, bien te sera guerredonné
-                  !</said> Dont s’est cil mis au chemin au travers <app>
+               <said aloud="true" direct="true">Par Dieu, dist cil, oïl. Je vous menroie bien par
+                  ailleurs, mais que ma poine y fust sauve.</said>
+               <said aloud="true" direct="true">Par <cb n="c"/> Dieu, <app>
+                     <lem wit="#V2 #G #X2">ce</lem>
+                     <rdg wit="#B"/>
+                  </app> dist <persName key="Mirus">Mirrus</persName>, amis, bien te sera
+                  guerredonné !</said> Dont s’est cil mis au chemin au travers <app>
                   <lem wit="#V2 #G">de <rs type="place" key="Forêt de Vulgue">la forest</rs></lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app> et <app>
                   <lem wit="#V2 #G #X2">leur</lem>
                   <rdg wit="#B">il</rdg>
@@ -2870,14 +2935,14 @@
                   <lem wit="#B #X2" resp="#PD">ont chevauchié que</lem>
                   <rdg wit="#V2">chevauchie-que</rdg>
                   <rdg wit="#G">chevauchierent que</rdg>
-                  <!-- G essaye de corriger erreur commune V2 -->
+                  <!-- commenter : G essaye de corriger erreur commune V2 -->
                </app> il <app>
                   <lem wit="#V2 #G #X2">furent moult esloignié</lem>
                   <rdg wit="#B">moult sont loing issi</rdg>
-               </app> de leur chemin. Dont les a cil menez en <num>i</num> parfont val ou<!-- la ou B -->
-               <persName key="Dialogus">Dyalogus</persName> estoit a tout<!-- o lui B --> ceulz
-                  <said who="#nar">dont je vous ai devant dit</said>. Quant il y furent, si sont
-               sailli et devant et derriere et ont les messages assailliz.</p>
+               </app> de leur chemin. Dont les a cil menez en <num>i</num> parfont val ou <persName
+                  key="Dialogus">Dyalogus</persName> estoit a tout ceulz <said who="#nar">dont je
+                  vous ai devant dit</said>. Quant il y furent, si sont sailli et devant et derriere
+               et ont les messages assailliz.</p>
             <note type="app">Pas de nouveau § B</note>
             <p n="P163"><c ana="lettrine 2">Q</c>uant <persName key="Mirus">Mirrus</persName> et si
                compaignon ont ce veu, si <app>
@@ -2886,7 +2951,7 @@
                </app> Dieu, car il virent bien que cil les avoit traÿs et que leur vie estoit alee.
                Adont se sont touz mis ensemble et cil les ont <app>
                   <lem wit="#B #G #X2" resp="#PD">assaillis</lem>
-                  <rdg wit="#V2">assailliez (sic)</rdg>
+                  <rdg wit="#V2">assailliez</rdg>
                </app>
                <app>
                   <lem wit="#V2 #B #X2">devant et derriere</lem>
@@ -2899,29 +2964,29 @@
                   <rdg wit="#B">laissierent</rdg>
                </app> approchier, ainz se sont tant deffendu que il leur ont occis <num>x</num> des
                leur avant que nulz <app>
-                  <lem wit="#V2 #G #X2">d’eulz leur</lem><!--SL corriger V ; il me semble qu'il y a un problème dans la notation des témoins-->
-                  <rdg wit="#B">des lor</rdg>
-                  <rdg wit="#G #X2">dez leurs</rdg>
+                  <lem wit="#B #G #X2">des lor</lem>
+
+                  <rdg wit="#V2">d’eulz leur</rdg>
+
 
                </app> y fust bleciez <app>
                   <lem wit="#V2 #B #X2">ne navrez</lem>
                   <rdg wit="#G"/>
                </app>. Et quant <persName key="Dialogus">Dyalogus</persName> vit qu’il se
                desfendoient si aigrement, si a ses traïteurs escriez et dist : <said aloud="true"
-                  direct="true">Seigneurs, vous lairez vous en tel
-                  maniere<!-- en tel maniere = ainsi B --> occirre a ces ribaus ?</said> Dont se
-               sont esvertué et ont feru seur eulz en tele maniere que seur chascun en <app>
+                  direct="true">Seigneurs, vous lairez vous en tel maniere occirre a ces ribaus
+                  ?</said> Dont se sont esvertué et ont feru seur eulz en tele maniere que seur
+               chascun en <app>
                   <lem wit="#V2 #X2">feroient</lem>
                   <rdg wit="#B">ferirent</rdg>
                   <rdg wit="#G">feroit</rdg>
-               </app> bien <num>x</num>, et qui n’i pooit avenir, il y
-               ruoit<!-- y ruoit il G -->.</p>
+               </app> bien <num>x</num>, et qui n’i pooit avenir, il y ruoit.</p>
             <note type="app">Pas de nouveau § B</note>
             <p n="P164">
-               <c ana="lettrine 2">E</c>n tele maniere<!-- Ainsi B --> feroient cil seur les <name
-                  type="people" key="Bretons">Bretons</name>. Et quant <persName key="Mirus"
-                  >Mirrus</persName> vit que morir le couvenoit, si s’est esvertuez et feri cheval
-               des esperons. Il estoit richement montez au miex de touz. Il se feri parmi eulz et <app>
+               <c ana="lettrine 2">E</c>n tele maniere feroient cil seur les <name type="people"
+                  key="Bretons">Bretons</name>. Et quant <persName key="Mirus">Mirrus</persName> vit
+               que morir le couvenoit, si s’est esvertuez et feri cheval des esperons. Il estoit
+               richement montez au miex de touz. Il se feri parmi eulz et <app>
                   <lem wit="#V2 #G #X2">commence a cerchier les rens</lem>
                   <rdg wit="#B">feri</rdg>
                </app> a destre et a senestre, <cb n="d"/> en tele maniere que <app>
@@ -2982,7 +3047,7 @@
                         <rdg wit="#B">recevoient</rdg>
                      </app> que recroire les couvint.</lem>
                   <rdg wit="#G">tuit recreuz</rdg>
-               </app><!-- le saut de G ne s'explique pas d'après la disposition du texte de V en colonne --><!--SL pourquoi un saut?-->
+               </app>
                <app>
                   <lem wit="#V2 #G #X2">Li felon traïteur</lem>
                   <rdg wit="#B">Cil</rdg>
@@ -3009,7 +3074,7 @@
                         <rdg wit="#G"/>
                      </app> les chastierent</lem>
                   <rdg wit="#B">au retour ne les chastiassent</rdg>
-                  <!-- est-ce bien tout le passage de B "au retourner...contre" qui est "au retour ne les chastiassent"--><!--SL en fonction dis-moi-->
+
                </app>, <app>
                   <lem wit="#V2 #B #X2">si</lem>
                   <rdg wit="#G">si bien</rdg>
@@ -3035,9 +3100,13 @@
                </app>beu ne mengié. <app>
                   <lem wit="#V2 #B #X2">Et</lem>
                   <rdg wit="#G">Car</rdg>
-               </app> de leur vie estoit il petit, car <app>
-                  <lem wit="#V2 #G #X2">si blecié estoient et si navré que de nule riens</lem>
-                  <rdg wit="#B">si navré et si blecié se sentoient que d'autre chose </rdg><!--SL réduire les variantes-->
+               </app> de leur vie estoit il petit, car si blecié <app>
+                  <lem wit="#V2 #G #X2">estoient</lem>
+                  <rdg wit="#B">se sentoient</rdg>
+               </app> et si navré que<app>
+                  <lem wit="#V2 #G #X2">de nule riens</lem>
+                  <rdg wit="#B">d'autre chose </rdg>
+
                </app> ne leur <cb n="e"/>souvenoit. <said aloud="true" direct="true">Ha ! <persName
                      key="Mirus">Myrrus</persName>, dist <persName key="Eligius">Elygius</persName>,
                   je me muir !</said> Dont s’est pasmez sus son cheval quant <persName key="Mirus"
@@ -3061,16 +3130,18 @@
                   <rdg wit="#B">qui</rdg>
                </app> moult estoient blecié et navré. Il <app>
                   <lem wit="#V2 #B #X2">leur ont</lem>
-                  <rdg wit="#G">l'ont lez</rdg>
+                  <rdg wit="#G">l'ont</rdg>
                </app> les frains <app>
-                  <lem wit="#V2 #B #X2"><app>
-                        <lem wit="#V2 #X2">ostez et les ont lessié ale<del rend="exponctuation"
-                              hand="#main1">u</del>r</lem><!--SL donner la forme de X2 dans lem et mettre V2 en rdg?-->
-                        <rdg wit="#B">laissiez aler</rdg>
+                  <lem wit="#V2 #B #X2">ostez et les ont <app>
+                        <lem wit="#V2 #X2">lessié ale<del rend="exponctuation" hand="#main1"
+                           >u</del>r</lem>
+
+                        <rdg wit="#B"/>
 
                      </app>, et il se sont pris <app>
-                        <lem wit="#V2 #X2">a paistre l’erbe</lem>
-                        <rdg wit="#B">au paistre de l'erbe</rdg><!--SL réduire les variantes-->
+                        <lem wit="#V2 #X2">a paistre</lem>
+                        <rdg wit="#B">au paistre de l'erbe</rdg>
+
                      </app></lem>
                   <rdg wit="#G">ostez es chevaux et sont alés paistre</rdg>
                </app>. Li dui compaignon sont venu a la fontaine et ont leur hyaumes ostez, qui
@@ -3095,7 +3166,10 @@
                point, <app>
                   <lem wit="#V2 #G #X2">estes</lem>
                   <rdg wit="#B">es</rdg>
-               </app> vous que <num>i</num> joenes hom en habit de relegion a tout<!-- mq a tout B, mettre dans apparat? -->
+               </app> vous que <num>i</num> joenes hom en habit de relegion <app>
+                  <lem wit="#V2 #G #X2">a tout</lem>
+                  <rdg wit="#B"/>
+               </app>
                <num>i</num> baril en sa main est ve‹u›[n]uz a la fontaine. <app>
                   <lem wit="#V2 #G #X2">Quant</lem>
                   <rdg wit="#B">Lors quant</rdg>
@@ -3118,10 +3192,10 @@
                   <lem wit="#V2 #G #X2">crier</lem>
                   <rdg wit="#B">huchier</rdg>
                </app> aprés lui qu’<said aloud="true" direct="false">il n’eust doute</said>. Et
-               quant plus li disoit, et <app>
-                  <lem wit="#V2 #G #X2">mains s’asseuroit cil</lem>
-                  <rdg wit="#B">il mains s'asseuroit de lui</rdg>
-               </app><!-- il s'asseuroit B -->. Et dont<!-- lors B --> se <app>
+               quant plus li disoit, et mains<app>
+                  <lem wit="#V2 #G #X2">s’asseuroit</lem>
+                  <rdg wit="#B">s'asseuroit de lui</rdg>
+               </app> cil. Et dont se <app>
                   <lem wit="#V2 #G">mist <cb n="f"/></lem>
                   <rdg wit="#B #X2">mist grant aleure</rdg>
                </app> a la voie vers <num>i</num> hermitage qui pres d’ileuc estoit; et quant il y
@@ -3175,9 +3249,10 @@
                <said aloud="true" direct="true">Sire, dist il, si ai eu. Mais venez ça parler a <rs
                      type="person" key="ermite de la Forêt de Vulgue">mon mestre</rs>.</said> Dont
                enmena <persName key="Mirus">Mirrus</persName> en une chambre ou <rs type="person"
-                  key="ermite de la Forêt de Vulgue"><app>
-                     <lem wit="#V2 #G #X2">li preudons</lem>
-                     <rdg wit="#B">li vieux hons</rdg><!--SL réduire les variantes-->
+                  key="ermite de la Forêt de Vulgue">li<app>
+                     <lem wit="#V2 #G #X2">preudons</lem>
+                     <rdg wit="#B">vieux hons</rdg>
+
                   </app></rs> se gisoit. Quant il le vit, si <app>
                   <lem wit="#V2 #G #X2">s’assist d’encoste</lem>
                   <rdg wit="#B">s'est assis dejouste</rdg>
@@ -3201,22 +3276,24 @@
                   key="ermite de la Forêt de Vulgue">li preudom</rs> l’<app>
                   <lem wit="#V2 #G #X2">a</lem>
                   <rdg wit="#B">ot</rdg>
-               </app> entendu, si<!-- dont B -->
-               <app>
+               </app> entendu, si <app>
                   <lem wit="#V2 #B #X2">s’est</lem>
                   <rdg wit="#G">est</rdg>
                </app> tournez vers lui, ce que il n’avoit <app>
                   <lem wit="#V2 #G #X2">pieça</lem>
                   <rdg wit="#B">moult grant piece</rdg>
-               </app> fait se on ne li avoit aidié. Dont<!-- Lors B --> dist : <said aloud="true"
-                  direct="true">Sire chevaliers, <app>
+               </app> fait se on ne li avoit aidié. Dont dist : <said aloud="true" direct="true"
+                  >Sire chevaliers, <app>
                      <lem wit="#V2 #G #X2">sachiez que moult ai oÿ parler de celui a qui vous dites
                         que</lem>
                      <rdg wit="#B">par Dieu, bien ai mainte foi oÿ parler de celui que nous dites a
                         qui</rdg>
                   </app> vous estes. Et sachiez que sa mere demoura ceenz avec moi pres de
                      <num>v</num> anz et demi.</said> Quant <persName key="Mirus">Mirrus</persName>
-               oÿ ce, si ot grant merveille, si<!-- si ot si grant merveille que B --> que il <app>
+               oÿ ce, si ot <app>
+                  <lem wit="#V2 #G #X2">grant</lem>
+                  <rdg wit="#B">si grant</rdg>
+               </app> merveille si que il <app>
                   <lem wit="#V2 #G #X2">oublia</lem>
                   <rdg wit="#B">entroublia</rdg>
                </app> toute <app>
@@ -3234,10 +3311,8 @@
                      <lem wit="#V2 #G #X2">vous m’eussiez dit aucunes nouveles</lem>
                      <rdg wit="#B">je seusse de vous aucunes nouveles et aucunes choses</rdg>
                   </app> que je vous veul demander.</said>
-               <said aloud="true" direct="true">Alez, dist il, car vous mais <app>
-                     <lem wit="#V2 #G #X2">hui</lem>
-                  <rdg wit="#B">huimais</rdg><!--SL sic?-->
-                  </app> ne demain ne <app>
+               <said aloud="true" direct="true">Alez, dist il, car vous mais
+                  hui<!-- SL-PD pas erreur hui huimais --> ne demain ne <app>
                      <lem wit="#V2 #G #X2">departirez</lem>
                      <rdg wit="#B">partirez vous</rdg>
                   </app> de ci, se vous <app>
@@ -3248,21 +3323,25 @@
                   <lem wit="#V2 #G #X2">est venus</lem>
                   <rdg wit="#B">s'en vint</rdg>
                </app>
-               <persName key="Mirus">Mirus</persName> a son compaignon et le trouva a
-               grant<!-- moult grant B --> meschief et li dist : <said aloud="true" direct="true"
-                  >Amis, nous yrons ci pres <del rend="exponctuation" hand="#main1">a</del> a
-                     <num>i</num> hermitage. Et la a <num>i</num> saint homme qui nous aidera et
-                  conseillera mais hui.</said> Quant il oÿ ce, si fu moult liez
-               et<!-- dont B --> s’est <app>
+               <persName key="Mirus">Mirus</persName> a son compaignon et le trouva a <app>
+                  <lem wit="#V2 #G #X2">grant</lem>
+                  <rdg wit="#B">moult grant</rdg>
+               </app> meschief et li dist : <said aloud="true" direct="true">Amis, nous yrons ci
+                  pres <del rend="exponctuation" hand="#main1">a</del> a <num>i</num> hermitage. Et
+                  la a <num>i</num> saint homme qui nous aidera et conseillera mais hui.</said>
+               Quant il oÿ ce, si fu moult liez et s’est <app>
                   <lem wit="#V2 #G #X2">levez</lem>
                   <rdg wit="#B">dreciez</rdg>
-               </app> a moult grant paine, et <persName key="Mirus">Mirrus</persName> a pris<!-- prist B -->
-               <app>
+               </app> a moult grant paine, et <persName key="Mirus">Mirrus</persName> a pris <app>
                   <lem wit="#V2 #G #X2">les</lem>
                   <rdg wit="#B">leur</rdg>
-               </app> chevaus, et s’en sont en tele maniere alez<!-- tot ainsi sont alé B --> a pié, <app>
+               </app> chevaus, et s’en <app>
+                  <lem wit="#V2 #G #X2">sont</lem>
+                  <rdg wit="#B">sont tot</rdg>
+               </app> en tele maniere alez a pié, <app>
                   <lem wit="#V2 #X2">tant que il furent a l’ermitage</lem>
-                  <rdg wit="#B">de si a l'ermitage</rdg><!--SL "desi"-->
+                  <rdg wit="#B">desi a l'ermitage</rdg>
+
                   <rdg wit="#G">a l'ermitage</rdg>
                </app>.</p>
             <p n="P168"><c ana="lettrine 2">Q</c>uant il furent la venu, li <rs type="person"
@@ -3271,26 +3350,29 @@
                      <rdg wit="#B">hermites</rdg>
                   </app></rs> a <app>
                   <lem wit="#V2">presentement</lem>
-                  <rdg wit="#B #G #X2">mq</rdg>
-                  <!-- s'il manque ce mot ici aussi dans G, n'est-ce pas le signe qu'il ne s'agit pas d'un descriptus? --><!--SL comme les omissions peuvent par nature être polygénétiques, ce fait seul ne suffit pas, il faudrait une vraie erreur séparative, une plus longue portion erronée, type saut du même au même-->
-               </app> pris<!-- prist B -->
-               <app>
+                  <rdg wit="#B #G #X2"/>
+
+               </app> pris <app>
                   <lem wit="#V2 #B #X2">leur</lem>
                   <rdg wit="#G">les les</rdg>
-               </app> chevaus et les a mis en une açainte<!-- de nouveau a pour en --> et leur donna
-               orge, <app>
-                  <lem wit="#V2 #B #X2">dont il mengierent moult volentiers</lem>
+               </app> chevaus et les a mis en une açainte et leur donna orge, <app>
+                  <lem wit="#V2 #B #X2">dont il <app>
+                        <lem wit="#V2 #X2">mengierent moult</lem>
+                        <rdg wit="#B">ont mengié</rdg>
+                     </app> volentiers</lem>
                   <rdg wit="#G"/>
-               </app><!-- ont volentiers mengié B -->. <app>
+               </app>. <app>
                   <lem wit="#V2 #B #X2">Dont</lem>
+                  <rdg wit="#B">Lors</rdg>
                   <rdg wit="#G">Aprés</rdg>
-               </app><!-- Lors B --> est <app>
+               </app> est <app>
                   <lem wit="#V2 #B #X2">repairiez</lem>
                   <rdg wit="#G">retornez</rdg>
                </app>
                <app>
                   <lem wit="#V2 #X2">arriere</lem>
-                  <rdg wit="#B"/><!--SL et G?-->
+                  <rdg wit="#B #G"/>
+
                </app> a eulz et leur dist : <said aloud="true" direct="true">Biaus seigneurs, <app>
                      <lem wit="#V2 #G #X2">vous aide<cb n="b"/>rai je</lem>
                      <rdg wit="#B">aiderai vous</rdg>
@@ -3298,31 +3380,38 @@
                <said aloud="true" direct="true">Amis, distrent il, bien avrions <del
                      rend="exponctuation" hand="#main1">i</del> mestier d’aide, mais mauvaisement en
                   estes aaisiez.</said> Dont ne sorent que faire de eulz desarmer pour leur plaies,
-               et d’autre part il n’avoient nules robes<!-- nule robe B --> dont il se peussent
-               vestir, et tant qu’il se<!-- s'en B --> sont moult complaint. Et quant <rs
-                  type="person" key="jeune ermite">li jouvenciaus</rs> oÿ ce, si le
-               dist<!-- l'a dit B --> au <rs type="person" key="ermite de la Forêt de Vulgue">viel
-                  homme</rs>. <app>
+               et d’autre part il n’avoient nules robes dont il se peussent vestir, et tant qu’il <app>
+                  <lem wit="#V2 #G #X2">se</lem>
+                  <rdg wit="#B">s'en</rdg>
+               </app> sont moult complaint. Et quant <rs type="person" key="jeune ermite">li
+                  jouvenciaus</rs> oÿ ce, si <app>
+                  <lem wit="#V2 #G #X2">le dist</lem>
+                  <rdg wit="#B">l'a dit</rdg>
+               </app> au <rs type="person" key="ermite de la Forêt de Vulgue">viel homme</rs>. <app>
                   <lem wit="#V2 #G #X2">Et dont apela il <persName key="Mirus">Mirrus</persName>
                      <app>
                         <lem wit="#V2">et li dist, et il vint a lui</lem>
                         <rdg wit="#G">et Mirus vint a lui</rdg>
                         <rdg wit="#X2">et il vint a lui</rdg>
-                        <!-- signe pas G descriptus -->
+
                      </app></lem>
-                     <rdg wit="#B">Et il dont les apela. Myrus y est venus</rdg><!--SL réduire les variantes-->
+                  <rdg wit="#B">Et il dont les apela. Myrus y est venus</rdg>
+                  <!--Camille : comment réduire var? SL réduire les variantes-->
                </app> et dist : <said aloud="true" direct="true">Sire, que vous plaist ? Je sai,
-                  dist il, que vous estes trop<!-- mq trop X2 --> fort navré. <app>
+                  dist il, que vous estes <app>
+                     <lem wit="#V2 #G #X2">trop</lem>
+                     <rdg wit="#B"/>
+                  </app> fort navré. <app>
                      <lem wit="#V2 #G #X2">Desvestez</lem>
                      <rdg wit="#B">Desgarnissiez</rdg>
                   </app> vous de vos armes et vous vestez de tiex <app>
                      <lem wit="#V2 #G">vesteures</lem>
                      <rdg wit="#B">dras</rdg>
                      <rdg wit="#X2">armes biffé vesteures</rdg>
-                     <!-- comment encoder la précision biffé -->
-                  </app> que<!-- com B --> je vous porrai donner <app>
+                     <!-- Camille : comment encoder la précision biffé -->
+                  </app> que je vous porrai donner <app>
                      <lem wit="#V2 #G">dusques a tant</lem>
-                     <rdg wit="#B">de si adont</rdg>
+                     <rdg wit="#B">desi adont</rdg>
                      <rdg wit="#X2">jusques adont</rdg>
                   </app> que je vous ensaignerai qui de vos plaies vous porra <app>
                      <lem wit="#V2 #G #X2">guerir</lem>
@@ -3334,9 +3423,10 @@
                chaude et <num>i</num> gris mantel li a fait <app>
                   <lem wit="#V2 #G #X2">afubler</lem>
                   <rdg wit="#B">vestir</rdg>
-               </app>. Et quant <app>
-                  <lem wit="#V2 #G #X2">il se vit ainssi appareilliez</lem>
-                  <rdg wit="#B">il le fu</rdg><!--SL réduire les variantes-->
+               </app>. Et quant il <app>
+                  <lem wit="#V2 #G #X2">se vit ainssi appareilliez</lem>
+                  <rdg wit="#B">le fu</rdg>
+
                </app>, dont ne se pot tenir que il <app>
                   <lem wit="#V2 #G #X2">ne sourrisist</lem>
                   <rdg wit="#B">n'ait souzriz</rdg>
@@ -3352,13 +3442,17 @@
                   <lem wit="#V2">autretel</lem>
                   <rdg wit="#B #G #X2"> autele</rdg>
                </app> maniere comme <app>
-                  <lem wit="#V2 #G #X2">son compaignon avoit fait</lem>
-                  <rdg wit="#B">cil estoit fait</rdg><!--SL réduire les variantes-->
-               </app>. Quant il furent ainssi atourné, sachiez<!-- intervention nar? --> que
-               moult<!-- mq moult B --> bien semblerent hermite. Dont s’en vindrent devant <rs
-                  type="person" key="ermite de la Forêt de la Vulgue">le preudomme</rs> et li
-               prierent pour Dieu que il les conseillast de leur plaies, se il savoit. <said
-                  aloud="true" direct="true">Par Dieu, dist il, <app>
+                  <lem wit="#V2 #G #X2">son compaignon avoit</lem>
+                  <rdg wit="#B">cil estoit</rdg>
+
+               </app> fait. Quant il furent ainssi atourné,
+               sachiez<!-- Camille : intervention nar? --> que <app>
+                  <lem wit="#V2 #G #X2">moult</lem>
+                  <rdg wit="#B"/>
+               </app> bien semblerent hermite. Dont s’en vindrent devant <rs type="person"
+                  key="ermite de la Forêt de la Vulgue">le preudomme</rs> et li prierent pour Dieu
+               que il les conseillast de leur plaies, se il savoit. <said aloud="true" direct="true"
+                  >Par Dieu, dist il, <app>
                      <lem wit="#V2 #G #X2">bien vous en est avenu</lem>
                      <rdg wit="#B">oïl, bien vous en est cheü</rdg>
                   </app>, car en nul mois de l’an on ne porroit recouvrer de <app>
@@ -3384,7 +3478,7 @@
                   </app> les me lavez moult bien et les triblez entre vos mains, si <app>
                      <lem wit="#V2 #G #X2">espandez le jus sus</lem>
                      <rdg wit="#B">leur espandez en</rdg>
-                  </app> leur plaies partout la ou<!-- ou B --> il les vous mousterront.</said> Cilz <app>
+                  </app> leur plaies partout la ou il les vous mousterront.</said> Cilz <app>
                   <lem wit="#V2 #G #X2">l’a</lem>
                   <rdg wit="#B">a</rdg>
                </app> fait tout en tele maniere comme<!-- Cil a tout ainsi fait com B / Cil l'a fait tout ainsi comme-->
@@ -3393,9 +3487,10 @@
                         preudom</rs> li enseigna</lem>
                   <rdg wit="#G">il l'a dit</rdg>
                </app>. Et quant cil sentirent la medecine, si leur commença <app>
-                  <lem wit="#V2 #G #X2">plus et plus</lem>
-                  <rdg wit="#B">de plus en plus</rdg><!--SL réduire les variantes-->
-               </app> la douleur <app>
+                  <lem wit="#V2 #G #X2">plus et</lem>
+                  <rdg wit="#B">de plus en</rdg>
+
+               </app> plus la douleur <app>
                   <lem wit="#V2 #G #X2">de leur plaies</lem>
                   <rdg wit="#B"/>
                </app>
@@ -3407,20 +3502,25 @@
                      <lem wit="#V2 #G">il leur estoit</lem>
                      <rdg wit="#B">il se sentoient</rdg>
                      <rdg wit="#X2">mq avec une croix dans la marge</rdg>
-                     <!-- comment encoder cette précision? -->
+                     <!-- Camille : comment encoder cette précision? -->
                   </app></said>, et il distrent : <said aloud="true" direct="true">Sire, il nous
                   semble que nous soions em paradis !</said>
                <said aloud="true" direct="true">Or vous souffrez, dist il, car dedenz <num>iii</num>
                   jours <app>
-                     <lem wit="#V2 #G #X2">vous n’en lairez ja a chevauchier</lem>
-                     <rdg wit="#B">ne vous couvendra la por ce laissier a chevauchier</rdg><!--SL réduire les variantes-->
-                  </app>. Mais <app>
+                     <lem wit="#V2 #G #X2">vous n’en lairez ja</lem>
+                     <rdg wit="#B">ne vous couvendra la por ce laissier</rdg>
+
+                  </app> a chevauchier. Mais <app>
                      <lem wit="#V2 #G #X2">or</lem>
                      <rdg wit="#B">ce</rdg>
                   </app> me dites <said aloud="true" direct="false"><app>
-                        <lem wit="#V2 #G">puis quant vous ne mengastes</lem><!--SL je ferais porter la variante seulement sur "puis"-->
-                        <rdg wit="#B #X2">quant vous menjastes</rdg>
-                     </app> ?</said></said><!-- est-ce bien ici du DI? -->
+                        <lem wit="#V2 #G">puis</lem>
+
+                        <rdg wit="#B #X2"/>
+                     </app> quant vous <app>
+                        <lem wit="#V2 #G">ne</lem>
+                        <rdg wit="#B #X2"/>
+                     </app> mengastes ?</said></said>
                <said aloud="true" direct="true">Par foi, sire, <app>
                      <lem wit="#V2 #G #X2">distrent il</lem>
                      <rdg wit="#B"/>
@@ -3433,10 +3533,7 @@
                   </app> de cele fontaine en cele forest.</said> Dont leur a fait aporter li
                hermites blanc pain d’orge et de segle et yaue clere, ytele viande comme il menjoit,
                et dist : <said aloud="true" direct="true">Biaus seigneurs, mengiez de <app>
-                     <lem wit="#V2 #G #X2"><app>
-                           <lem wit="#V2 #X2">cel</lem>
-                           <rdg wit="#G">ce</rdg><!--SL si on n'enregistre pas cest/cel, ne pas enregistrer ce/cel et ci/ici etc.?-->
-                        </app> pain tel comme nous l’avons</lem>
+                     <lem wit="#V2 #G #X2">cel pain tel comme nous l’avons</lem>
                      <rdg wit="#B">tel pain com nous avons</rdg>
                   </app>, <app>
                      <lem wit="#V2 #B #X2">car sachiez, se je miex eusse<!-- se miex eusse B -->,
@@ -3445,15 +3542,17 @@
                   </app></said>
                <said aloud="true" direct="true">Ha ! sire, distrent il grans mercis !</said> Dont
                ont mengié et beu <app>
-                  <lem wit="#V2 #G #X2">a talent</lem>
-                  <rdg wit="#B">par talent</rdg><!--SL réduire les variantes-->
-               </app>. Et quant il <app>
+                  <lem wit="#V2 #G #X2">a</lem>
+                  <rdg wit="#B">par</rdg>
+
+               </app> talent. Et quant il <app>
                   <lem wit="#V2 #G #X2">ont ce</lem>
                   <rdg wit="#B">l'ont</rdg>
                </app> fait, si ont mis <rs type="person" key="ermite de la Forêt de Vulgue">le
                   preudomme</rs> a raison <app>
                   <lem wit="#V2 #G">et li ont demandé</lem>
-                  <rdg wit="#B #X2">mq</rdg><!--SL commenter la construction ici? tournure similaire dans DMF "Miracle de saint Panthaleon" avec "que"-->
+                  <rdg wit="#B #X2"/>
+                  <!--SL commenter la construction ici? tournure similaire dans DMF "Miracle de saint Panthaleon" avec "que"-->
                </app>
                <said aloud="true" direct="false">comment ce avoit esté que <rs type="person"
                      key="Helcana">la mere <persName key="Helcanus">Helcanus</persName></rs> avoit
@@ -3463,14 +3562,15 @@
                      <rdg wit="#B">tout ainsi comment</rdg>
                   </app>
                   <rs type="person" key="Helcana">ele</rs> estoit la venue et comment ele avoit
-                  demoré en l’ermitage, et tout en autele maniere<!-- tout ainsi B --><!--SL j'ai supprimé les cas et rajouté (au)tele dans notre fichier partagé--> comme li
-                  traïteur du paÿs l’avoient traÿe et com<cb n="d"/>ment ele fu arriere en <app>
+                  demoré en l’ermitage, et tout en autele maniere comme li traïteur du paÿs
+                  l’avoient traÿe et com<cb n="d"/>ment ele fu arriere en <app>
                      <lem wit="#V2 #G">la</lem>
                      <rdg wit="#B #X2">sa</rdg>
-                  </app> seignorie</said>. Tout leur c‹...›[o]mpta, que de
-               riens<!-- il de riens B --> n’i failli, <said who="#nar"><app>
-                     <lem wit="#V2 #B #X2">en tele maniere comme<!-- ainsi comme B --> devant est
-                        dit</lem>
+                  </app> seignorie</said>. Tout leur c‹...›[o]mpta, <app>
+                  <lem wit="#V2 #G #X2">que</lem>
+                  <rdg wit="#B">que il</rdg>
+               </app> de riens n’i failli, <said who="#nar"><app>
+                     <lem wit="#V2 #B #X2">en tele maniere comme devant est dit</lem>
                      <rdg wit="#G"/>
                   </app></said>. Et quant il ont ce oÿ, sachiez que moult <app>
                   <lem wit="#V2 #G #X2">s’en merveillierent</lem>
@@ -3481,18 +3581,20 @@
                dont firent leur plaies remuer, et leur sembla qu’il guerissoient <app>
                   <lem wit="#V2 #B #X2">tout</lem>
                   <rdg wit="#G"/>
-               </app><!-- tuit B -->. Dont dist li uns a l’autre : <said aloud="true" direct="true"
-                  >Comment porrons nous partir de cest paÿs ? Nous savons bien que, se nous sommes <app>
+               </app>. Dont dist li uns a l’autre : <said aloud="true" direct="true">Comment porrons
+                  nous partir de cest paÿs ? Nous savons bien que, se nous sommes <app>
                      <lem wit="#V2 #G">aperceuz</lem>
                      <rdg wit="#B #X2">perceu</rdg>
                   </app>, que nous sommes <del rend="exponctuation" hand="#main1">t</del>
                   mort.</said> Dont souvint a <persName key="Mirus">Mirrus</persName> de <rs
-                  type="person" key="Mélode">la pucele</rs> qui si grant bien leur avoit fait <app>
-                  <lem wit="#V2 #G #X2">et puis</lem>
-                     <rdg wit="#B">et que ele</rdg><!--SL réduire les variantes-->
-               </app> leur pria que il <app>
-                  <lem wit="#V2 #G #X2"> par eulz</lem>
-                  <rdg wit="#B">par li</rdg><!--SL réduire les variantes-->
+                  type="person" key="Mélode">la pucele</rs> qui si grant bien leur avoit fait et <app>
+                  <lem wit="#V2 #G #X2">puis</lem>
+                  <rdg wit="#B">que ele</rdg>
+
+               </app> leur pria que il par <app>
+                  <lem wit="#V2 #G #X2">eulz</lem>
+                  <rdg wit="#B">li</rdg>
+
                </app>
                <app>
                   <lem wit="#V2 #B #X2">repairassent</lem>
@@ -3500,10 +3602,13 @@
                </app>, mais puis penserent a ce qu’il avoient <rs type="person" key="Carchus">son
                   frere</rs> mort, si ne sorent que faire : ou d’envoier arriere pour secours a
                   <persName key="Gasus">Gasus</persName>, ou a <rs type="person" key="Mélode">la
-                  pucele</rs> pour savoir qu’ele voudroit dire de ce qu’il devoient<!-- durent B -->
-               <app>
-                  <lem wit="#V2 #G #X2">par la retorner</lem>
-                  <rdg wit="#B">par li revenir</rdg><!--SL réduire les variantes-->
+                  pucele</rs> pour savoir qu’ele voudroit dire de ce qu’il <app>
+                  <lem wit="#V2 #G #X2">devoient</lem>
+                  <rdg wit="#B">durent</rdg>
+               </app> par <app>
+                  <lem wit="#V2 #G #X2">la retorner</lem>
+                  <rdg wit="#B">li revenir</rdg>
+
                </app>. <said aloud="true" direct="true">Par foi, ce dist <persName key="Mirus"
                      >Mirrus</persName>, nous nous en conseillerons a <rs type="person"
                      key="ermite de la Forêt de Vulgue">nostre oste</rs>.</said>
@@ -3514,10 +3619,11 @@
                   <lem wit="#V2 #B #G">li</lem>
                   <rdg wit="#X2">leur</rdg>
                </app> distrent <said aloud="true" direct="false">ceste
-               chose</said><!-- discours narrativisé -->. Quant il l’entendi, si
-               leur<!-- mq leur B --> dist : <said aloud="true" direct="true">Je vous dirai <said
-                     aloud="true" direct="false">que vous ferez</said><!-- discours narrativisé -->.
-                  Bien a passé <num>xxx</num> anz que <app>
+               chose</said><!-- discours narrativisé -->. Quant il l’entendi, si <app>
+                  <lem wit="#V2 #G #X2">leur</lem>
+                  <rdg wit="#B"/>
+               </app> dist : <said aloud="true" direct="true">Je vous dirai <said aloud="true"
+                     direct="false">que vous ferez</said>. Bien a passé <num>xxx</num> anz que <app>
                      <lem wit="#X2"><rs type="person" key="père de Melode">le pere a la pucelle</rs>
                         et la mere</lem>
                      <rdg wit="#B">li peres et <rs type="person" key="mère de Melode">la mere</rs> a
@@ -3526,8 +3632,9 @@
                      <rdg wit="#V2 #G">le pere a la pucele et a la mere</rdg>
                   </app>
                   <app>
-                     <lem wit="#V2 #G">moult</lem><!--SL je corrigerais d'après B X2-->
-                     <rdg wit="#B #X2">m'ont</rdg>
+                     <lem wit="#B #X2">m'ont</lem>
+
+                     <rdg wit="#V2 #G">moult</rdg>
                   </app>
                   <app>
                      <lem wit="#V2 #G #X2">soustenu</lem>
@@ -3544,10 +3651,11 @@
                   que vous estes<!-- ci estes B --> en tel point ci et que ele mete conseil <cb
                      n="e"/> en vous par quoi vous soiez arriere en <placeName key="Frise"
                      >Frise</placeName> sanz le seu <app>
-                     <lem wit="#V2 #G #X2">de celui et de ceulz</lem>
-                        <rdg wit="#B">de ceulz</rdg><!--SL réduire les variantes-->
-                  </app> qui vous ont mis en tel point. Et je sai bien que ele en fera son pooir. Et
-                  puisque ele <app>
+                     <lem wit="#V2 #G #X2">de celui et</lem>
+                     <rdg wit="#B"/>
+
+                  </app> de ceulz qui vous ont mis en tel point. Et je sai bien que ele en fera son
+                  pooir. Et puisque ele <app>
                      <lem wit="#V2 #G #X2">s’en meslera</lem>
                      <rdg wit="#B">le fera</rdg>
                   </app>, dont sai je bien que la besoigne sera<!-- en sera B --> bien faite.</said>
@@ -3565,9 +3673,10 @@
                   <app>
                      <lem wit="#V2 #G #X2">chevaliers</lem>
                      <rdg wit="#B">si grant ami</rdg>
-                  </app> li estoient venu aussi <app>
-                     <lem wit="#V2 #G #X2">comme d’aventure</lem>
-                     <rdg wit="#B">com par grant aventure et chevalier estoient</rdg><!--SL réduire les variantes--><!--SL je mettrais ue virgule après "aventure" dans B-->
+                  </app> li estoient venu aussi comme <app>
+                     <lem wit="#V2 #G #X2">d’aventure</lem>
+                     <rdg wit="#B">par grant aventure, et chevalier estoient</rdg>
+
                   </app>, <app>
                      <lem wit="#V2 #G #X2">liquel estoient a si grant meschief que plus ne pooient
                         estre</lem>
@@ -3575,8 +3684,7 @@
                   </app>, <app>
                      <lem wit="#V2 #G #X2">si qu’ele</lem>
                      <rdg wit="#B">si</rdg>
-                  </app> meist conseil qu’il peussent sauvement
-                  aler<!-- ordre mots que sauvement peussent aler B --> en <placeName key="Frise"
+                  </app> meist conseil qu’il peussent sauvement aler en <placeName key="Frise"
                      >Frise</placeName>, dont il estoient</said>. <said aloud="true" direct="true"
                   >Ha ! sire, pour Dieu, dist <persName key="Mirus">Mirrus</persName>, merci ! Je
                   vous ai dit que <num>i</num> sien frere fu a la bataille occis de l’agait qui nous
@@ -3585,17 +3693,19 @@
                   <app>
                      <lem wit="#V2 #G #X2">qu’ele savra bien</lem>
                      <rdg wit="#B">que maintenant savra</rdg>
-                  </app> que nous soumes<!-- éditer sonmes? --> cil qui <rs type="person"
-                     key="Carchus">son frere</rs>
+                  </app> que nous soumes cil qui <rs type="person" key="Carchus">son frere</rs>
                   <app>
-                     <lem wit="#V2 #G #X2">avons</lem><!--SL signaler dans l'étude de langue-->
+                     <lem wit="#V2 #G #X2">avons</lem>
+
                      <rdg wit="#B">ont</rdg>
                   </app> occis.</said>
                <said aloud="true" direct="true">Ne vous chaut ! dist li preudom. S’il est ainssi
                   qu’ele ne vous veulle aidier, ele ne vous grevera mie, car encore vaudroit ce pis
                   se elle savoit que vous fussiez autres. Et puis quant vous venriez et ele vous
-                  recongneust, si en fust esbahie. Et puis se ele vous vouloit mal, si
-                  en<!-- mq en B --> seriez plus entrepris.</said>
+                  recongneust, si en fust esbahie. Et puis se ele vous vouloit mal, si <app>
+                     <lem wit="#V2 #G #X2">en</lem>
+                     <rdg wit="#B"/>
+                  </app> seriez plus entrepris.</said>
                <said aloud="true" direct="true">Sire, distrent cil, bien dites.</said> Dont fu cil
                bien escolez et se mist a la voie et ne fina si vint a <app>
                   <lem wit="#V2 #B #X2"><placeName key="Gonfort">Gonfort</placeName></lem>
@@ -3646,20 +3756,15 @@
                <said aloud="true" direct="true">Et quel gent sont <app>
                      <lem wit="#V2 #G #X2">il</lem>
                      <rdg wit="#B">ce</rdg>
-                  </app> ? <app>
-                     <lem wit="#V2 #G #X2">dist ele</lem>
-                     <rdg wit="#B"/>
-                  </app>. <app>
-                     <lem wit="#V2">Et quans sont il ? dist ele.</lem>
-                     <rdg wit="#B #X2"><said aloud="true" direct="true">Damoisele, <app>
-                              <lem wit="#B">dist il</lem>
-                              <rdg wit="#X2"/>
-                           </app>, il sont chevalier.</said><!--SL ici je corrigerais, "dist ele"x2 me semble bizarre et la première question n'a pas de réponse; mais ce n'est pas un saut -->
-                        <said aloud="true" direct="true">Et quant sont il?</said></rdg>
-                     <rdg wit="#G"/>
-
-                  </app></said>
-               <said aloud="true" direct="true">Damoisele, <app>
+                  </app>?</said>, dist ele. <said aloud="true" direct="true"><app>
+                     <lem wit="#B #X2">Damoisele, <app>
+                           <lem wit="#B">dist il</lem>
+                           <rdg wit="#X2"/>
+                        </app>, il sont chevalier</lem>
+                     <rdg wit="#V2"/>
+                  </app></said><note type="notecritique">La correction se justifie par la redondance
+                  des paroles.</note>. <said aloud="true" direct="true">Et quans sont il? dist
+                  ele</said>. <said aloud="true" direct="true">Damoisele, <app>
                      <lem wit="#V2 #G #X2">il sont <num>ii</num></lem>
                      <rdg wit="#B">deus</rdg>
                   </app></said>, <app>
@@ -3682,7 +3787,8 @@
                         <lem wit="#V2 #X2">ou plus</lem>
                         <rdg wit="#G"/>
                      </app></lem>
-                  <rdg wit="#B">qui la estoient, mais plus de <num>x</num> estoient</rdg><!--SL réduire les variantes-->
+                  <rdg wit="#B">qui la estoient, mais plus de <num>x</num> estoient</rdg>
+                  <!--SL réduire les variantes-->
                </app>. Si fu aussi comme toute seüre que <app>
                   <lem wit="#V2 #G #X2">ce n’estoient nulz de ceulz</lem>
                   <rdg wit="#B">nul de ceuls n'estoient</rdg>
@@ -3693,7 +3799,8 @@
                </app> ou il devoient passer, que pour ce ne lessassent mie a venir <app>
                   <lem wit="#V2 #G #X2">par ileuc pour cause de <rs type="person" key="Carchus">son
                         frere</rs> se il avoit esté occis</lem>
-                  <rdg wit="#B">par li que ses freres avoit esté mors</rdg><!--SL réduire les variantes-->
+                  <rdg wit="#B">par li que ses freres avoit esté mors</rdg>
+                  <!--SL réduire les variantes-->
                </app> en l’aguet, car il l’avoient fet sus leur droit. <said aloud="true"
                   direct="true"><app>
                      <lem wit="#V2 #G #X2">Amis, dist la pucele <app>
@@ -3712,10 +3819,11 @@
                   </app> bonnement leur requeste.</said> Dont dist cilz : <said aloud="true"
                   direct="true">Dont les atendez a demain <app>
                      <lem wit="#V2 #G #X2">bien tart</lem>
-                     <rdg wit="#B">au soir que il mouveront de nous bien tart</rdg><!--SL réduire les variantes-->
+                     <rdg wit="#B">au soir que il mouveront de nous bien tart</rdg>
+                     <!--SL réduire les variantes-->
                   </app> et <pb n="164"/> aiez le portier tel <app>
                      <lem wit="#V2 #G">atourné</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> que il puissent ceenz entrer sanz <app>
                      <lem wit="#V2 #G #X2">destourbier</lem>
                      <rdg wit="#B">debat</rdg>
@@ -3749,7 +3857,8 @@
                </app>, si en furent moult lié et moult <app>
                   <lem wit="#V2 #B #X2">joiant</lem>
                   <rdg wit="#G">joyeux</rdg>
-               </app>. <note type="app">Nouveau § B</note><app><!--SL on ne note pas "apparat" en toutes lettres?-->
+               </app>. <note type="apparat">Nouveau § B</note><app>
+
                   <lem wit="#V2 #G #X2">Il li</lem>
                   <rdg wit="#B">Lors</rdg>
                </app> enquistrent <said aloud="true" direct="false">comment il avoit
@@ -3791,10 +3900,11 @@
                prendre garde a leur plaies, qui moult bien guerissoient, ce leur sembloit. Et furent
                   <cb n="b"/> toute <app>
                   <lem wit="#V2 #G #X2">jour ileuc jusques</lem>
-                     <rdg wit="#B">le jour desi</rdg>
+                  <rdg wit="#B">le jour desi</rdg>
                </app> a heure de vespres, que il ont escouté moult grant <app>
                   <lem wit="#V2 #G">frainte</lem>
-                  <rdg wit="#B #X2">friente</rdg><!--SL faire une note sur les synonymes qui dérivent de deux étymons différents et leurs emplois?-->
+                  <rdg wit="#B #X2">friente</rdg>
+                  <!--SL commenter faire une note sur les synonymes qui dérivent de deux étymons différents et leurs emplois?-->
 
                </app> de chevaus. Adont ont eu en doute qu’il ne fussent espié, si n’ont eu plus de
                secours <app>
@@ -3809,8 +3919,7 @@
                   <rdg wit="#B"/>
                </app> ne demoura gueres que li hermitages fu touz pourpris de maufeteurs qui par le
                bois avoient quis et queroient les <num>ii</num> compaignons qui eschapez leur
-               estoient. <persName key="Dialogus">Dyalogus</persName>,
-               aussi<!-- ling : aussint X2 --> comme <app>
+               estoient. <persName key="Dialogus">Dyalogus</persName>, aussi comme <app>
                   <lem wit="#B #X2" resp="#PD">par affit</lem>
                   <rdg wit="#V2 #G">affit</rdg>
                </app>, quant il vit l’ermitage, si dist que <said aloud="true" direct="false">il se
@@ -3829,17 +3938,18 @@
                   mon mestre et <num>ii</num> autres preudommes.</said> Dont vint <persName
                   key="Dialogus">Dyalogus</persName> en la chambre et trouva <app>
                   <lem wit="#V2 #G #X2"><rs type="person" key="ermite de la Forêt de Vulgue">le viel
-                        hermite</rs> et les <num>ii</num> chevaliers <app>
-                        <lem wit="#V2 #X2">en l’abit</lem>
-                        <rdg wit="#G">en l'abit dez autres hermitez</rdg><!--SL réduire les variantes-->
+                        hermite</rs> et les <num>ii</num> chevaliers en <app>
+                        <lem wit="#V2 #X2">l’abit</lem>
+                        <rdg wit="#G">l'abit dez autres hermitez</rdg>
+
                      </app></lem>
                   <rdg wit="#B">les <num>ii</num> preudommes qui ainsi estoient en abit</rdg>
                </app>, <said who="#nar"><app>
                      <lem wit="#V2 #B #X2">comme devant est dit</lem>
                      <rdg wit="#G"/>
-                  </app></said>. Dont<!-- Lors B --> cuida qu’<said aloud="false" direct="false">il
-                  fussent hermite</said> et les salua et dist : <said aloud="true" direct="true"
-                  >Liquiex est li maistres <app>
+                  </app></said>. Dont cuida qu’<said aloud="false" direct="false">il fussent
+                  hermite</said> et les salua et dist : <said aloud="true" direct="true">Liquiex est
+                  li maistres <app>
                      <lem wit="#V2 #G">de touz</lem>
                      <rdg wit="#B #X2">de vous</rdg>
                   </app> ?</said>
@@ -3859,7 +3969,7 @@
                   <rdg wit="#X2">ce estoit cil du lit</rdg>
                </app>. Dont sont andui <app>
                   <lem wit="#V2 #G #X2">issu</lem>
-                  <rdg wit="#B">issi (sic)</rdg>
+                  <rdg wit="#B">issi</rdg>
                </app> de la <app>
                   <lem wit="#V2 #G #X2">chambre</lem>
                   <rdg wit="#B">chamble (sic)</rdg>
@@ -3893,9 +4003,10 @@
                      <rdg wit="#B">Ydoine</rdg>
                   </app></persName> (sic)<!-- corriger? --> l’ot escouté, si li dist : <said
                   aloud="true" direct="true">Amis, <app>
-                     <lem wit="#V2 #G #X2">en est ce mal fait?</lem>
-                     <rdg wit="#B">n'est ce mal fet?</rdg><!--SL réduire les variantes-->
-                  </app></said>
+                     <lem wit="#V2 #G #X2">en est</lem>
+                     <rdg wit="#B">n'est</rdg>
+
+                  </app> ce mal fait?</said>
                <said aloud="true" direct="true">Par foi, dist <persName key="Dialogus"
                      >Dyalogus</persName>, je sai bien que ce n’est mie si bien fait <app>
                      <lem wit="#V2 #B #X2">comme une fine merveille</lem>
@@ -3923,13 +4034,11 @@
                   </app>! Je te conjur de par celui <app>
                      <lem wit="#V2 #G #X2">que</lem>
                      <rdg wit="#B">qui</rdg>
-                  </app> j’ai servi grant temps que <app>
-                     <lem wit="#V2 #G #X2">tu n’aies <app>
-                           <lem wit="#V2">nul</lem>
-                           <rdg wit="#G"/>
-                        </app> pooir de ceenz</lem>
-                     <rdg wit="#B">tu çaiens n'aies nul pooir de</rdg><!--SL réduire les variantes-->
-                  </app> plus arrester, se ainssi n’est que <app>
+                  </app> j’ai servi grant temps que tu n'aies<app>
+
+                     <lem wit="#V2 #B #X2">nul</lem>
+                     <rdg wit="#G"/>
+                  </app> pooir de ceenz plus arrester, se ainssi n’est que <app>
                      <lem wit="#V2 #G #X2">tu aies volenté</lem>
                      <rdg wit="#B">volenté més</rdg>
                   </app> de toi amender.</said> Dont sembla a <persName key="Dialogus"
@@ -3986,7 +4095,7 @@
                            <lem wit="#V2">com</lem>
                            <rdg wit="#X2">que</rdg>
                         </app> vous avez oÿ</said></lem>
-                  <rdg wit="#B #G">mq</rdg>
+                  <rdg wit="#B #G"/>
                </app>.</p>
             <p n="P176">
                <c ana="lettrine 2">Q</c>uant li dui compaignon ont ce <app>
@@ -4023,16 +4132,19 @@
 
                   </app>, <app>
                      <lem wit="#B #G #X2" resp="#PD">j'ai</lem>
-                     <rdg wit="#V2">ja</rdg><!--SL voir si on ne peut pas conserver, si la forme "j'a" est isolée?-->
+                     <rdg wit="#V2">ja</rdg>
+                     <!--ne pas corriger je pense voir si on ne peut pas conserver, si la forme "j'a" est isolée?-->
 
-                  </app> ce feu par ce deable qui de ci s’en va, car il venoit a moi a confession et
+                  </app> ce feu par ce deable qui deci s’en va, car il venoit a moi a confession et
                   si n’estoit de riens repentanz. Et Dieu, qui maint bien m’a fait, m’en a
                   delivré.</said> Dont parlerent <said aloud="true" direct="false">de mout de
                   choses</said> et meesmement a la requeste de <rs type="person"
                   key="ermite de la Forêt de Vulgue">l’ermite</rs>
                <app>
                   <lem wit="#V2 #G #X2">se sont li dui compaignon</lem>
-                  <rdg wit="#B">les a an <num>ii</num></rdg><!--SL faire note sur le fait qu'habituellement on écrit andeu en un mot (ici évidemment on ne peut pas le faire)?-->
+                  <rdg wit="#B">les a an <num>ii</num></rdg>
+                  <note type="notrecritique">On écrit habituellement "andeu" en un mot, sauf ici où
+                     cela est impossible</note>
                </app> confessé moult curieusement, et les a <app>
                   <lem wit="#V2 #G #X2"><rs type="person" key="ermite de la Forêt de Vulgue">li
                         sains hom</rs></lem>
@@ -4159,7 +4271,7 @@
                      <rdg wit="#G">Ha! damoiselle</rdg>
                   </app> il me semble que vous m’avez <app>
                      <lem wit="#V2 #G">ja</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> mescongneu, si n’est mie grant merveille.</said>
                <said aloud="true" direct="true">Sire, dist ele, se je vous veoie desarmé, espoir que <app>
                      <lem wit="#V2 #G #X2">je</lem>
@@ -4177,10 +4289,12 @@
                </app> entendu, si l’a congneu a la parole et li dist : <said aloud="true"
                   direct="true">Ha ! <persName key="Mirus">Mirrus</persName>, estes vous ce ?</said>
                <cb n="f"/>
-               <said next="#P176-1" aloud="true" direct="true">Damoisele, dist il, voirement sui je <app>
-                     <lem wit="#V2 #G">ce.</lem>
-                     <rdg wit="#B #X2">ce." "Et ou sont vostre compaignon?" "</rdg><!--SL corriger d'après B X2, il manque une réplique-->
-                  </app> Par foi, damoisele, dist il, <app>
+               <said next="#P176-1" aloud="true" direct="true">Damoisele, dist il, voirement sui je
+                  ce. </said><said aloud="true" direct="true"><app>
+                     <lem wit="#B #X2">Et ou sont vostre compaignon?</lem>
+                     <rdg wit="#V2 #G"/>
+                  </app></said>
+               <said aloud="true" direct="true">Par foi, damoisele, dist il, <app>
                      <lem wit="#V2 #G #X2">la verité</lem>
                      <rdg wit="#B">voirement</rdg>
                   </app>
@@ -4244,7 +4358,8 @@
                   <app>
                      <lem wit="#V2 #G #X2">avez</lem>
                      <rdg wit="#B">vous avez</rdg>
-                  </app> eu mauvés encontre puisque vous de ci partistes ! <app><!--SL je pense que c'est une question-->
+                  </app> eu mauvés encontre puisque vous de ci partistes?<app>
+
                      <lem wit="#V2 #G #X2">Dites moi comment ce a esté.</lem>
                      <rdg wit="#B"/>
                   </app></said>
@@ -4303,7 +4418,8 @@
                   malices ! Mais au derrenier paiez vous a chascun sa desserte.</said> Lors dist :
                   <said aloud="true" direct="true">Biaus seigneurs, <app>
                      <lem wit="#V2 #G #X2">loez</lem>
-                     <rdg wit="#B">toutes voies loez</rdg><!--SL toutesvoies en un mot?-->
+                     <rdg wit="#B">toutes voies loez</rdg>
+
                   </app> Dieu de ce que il vous a <app>
                      <lem wit="#V2 #G #X2">jusques</lem>
                      <rdg wit="#B"/>
@@ -4317,8 +4433,12 @@
                   </app> destruit. Et <app>
                      <lem wit="#V2 #G #X2">sachiez</lem>
                      <rdg wit="#B">bien sai</rdg>
-                  </app> que il ne sera jamais<!-- mais B --> heure <app>
-                     <lem wit="#V2 #G #X2">de ci a</lem><!--SL deci en un mot (cf. ci-dessus desi B)-->
+                  </app> que il ne sera <app>
+                     <lem wit="#V2 #G #X2">jamais</lem>
+                     <rdg wit="#B">mais</rdg>
+                  </app> heure <app>
+                     <lem wit="#V2 #G #X2">deci a</lem>
+
                      <rdg wit="#B">devant</rdg>
                   </app>
                   <num>i</num> mois que li chemin ne soient aguetié, soit de <persName
@@ -4329,7 +4449,8 @@
                   </app> soit de <persName key="Ascanus">Ascanus</persName>. Mais il vous pueent
                   bien aguetier pour noient, car vous de ceenz n’istrez <app>
                      <lem wit="#V2 #G #X2">devant</lem>
-                     <rdg wit="#B">de si adont</rdg><!--SL idem ci-dessus: desi?-->
+                     <rdg wit="#B">desi adont</rdg>
+
                   </app> que vous <app>
                      <lem wit="#V2 #G #X2">soiez</lem>
                      <rdg wit="#B">serez</rdg>
@@ -4415,14 +4536,15 @@
                   Frise</rs>. Il li fu <app>
                   <lem wit="#V2 #B #X2">enseignié</lem>
                   <rdg wit="#G">dit</rdg>
-               </app> en <num>i</num> chastel, et <app>
-                  <lem wit="#V2 #X2">cilz ne fina tant que il y est venus</lem><!--SL "y est venus" deux fois, le retirer de la balise?-->
-                  <rdg wit="#B">il ne fina si</rdg>
-                  <rdg wit="#G">cil</rdg>
+               </app> en <num>i</num> chastel, et cilz<app>
+                  <lem wit="#V2 #B #X2">ne fina tant que il</lem>
+
+
+                  <rdg wit="#G"/>
                </app> y est venus. Et la trouva touz yceulz que il demandoit. Et quant li <app>
                   <lem wit="#V2 #X2">auquant</lem>
-                  <rdg wit="#B">aucun</rdg>
-                  <rdg wit="#G">aucuns</rdg><!--SL rassembler B et G?-->
+                  <rdg wit="#B #G">aucun</rdg>
+
                </app> l’ont veu, si li ont enquis nouveles. Il dist <app>
                   <lem wit="#V2 #G #X2">que il n’en savoit</lem>
                   <rdg wit="#B"/>
@@ -4440,12 +4562,13 @@
                   <rdg wit="#B">ne</rdg>
                </app> failli gueres qu’il ne tresala. Mais <rs type="person" key="Helcanus"
                >cil</rs>, qui ot <app>
-                  <lem wit="#V2 #G">cuer et couvenable</lem>
-                  <rdg wit="#B #X2">cuer seur et couvenable</rdg><!--SL corriger, il manque le premier adjectif du doublet, ce qui peut s'expliquer par une haplographie-->
-                  <!-- corriger je pense -->
-               </app>, a geté <num>i</num> moult grant souspir et dist au <rs type="person" key="?"
-                  >garçon</rs> : <said aloud="true" direct="true">Lieve sus et ne di mot de ci adont
-                  que je <app>
+                  <lem wit="#B #X2">cuer seur et couvenable</lem>
+                  <rdg wit="#V2 #G">cuer et couvenable</rdg>
+
+               </app><note type="notecritique">Il manque le premier adjectif du doublet, ce qui peut
+                  s'expliquer par une haplographie que nous corrigeons.</note>, a geté <num>i</num>
+               moult grant souspir et dist au <rs type="person" key="?">garçon</rs> : <said
+                  aloud="true" direct="true">Lieve sus et ne di mot deci adont que je <app>
                      <lem wit="#V2 #B #X2">t’en</lem>
                      <rdg wit="#G">te</rdg>
                   </app>semondrai.</said> Lors a apelé le <rs type="person" key="?">duc de
@@ -4479,7 +4602,8 @@
                   aloud="true" direct="false">comment <persName key="Gasus">Gasus</persName> avoit <app>
                      <lem wit="#V2 #G #X2">esté en <placeName key="Constantinople"
                            >Costentinnoble</placeName> conseillier les messages</lem>
-                     <rdg wit="#B">avoit en Costentinnoble conseillié les messages</rdg><!--SL sic B, deux fois "avoit"? si oui je l'intégrerai à ma liste-->
+                     <rdg wit="#B">en Costentinnoble conseillié les messages</rdg>
+
                   </app> et comment <persName key="Mirus">Mirrus</persName> prist bataille <app>
                      <lem wit="#V2 #G #X2">contre</lem>
                      <rdg wit="#B">a</rdg>
@@ -4497,7 +4621,8 @@
                   </app> partirent de <placeName key="Constantinople">Costentinnoble</placeName> et
                   s’en vindrent <app>
                      <lem wit="#V2 #G #X2">en</lem>
-                     <rdg wit="#B">de si a</rdg><!--SL cf. ci-dessus: desi-->
+                     <rdg wit="#B">desi a</rdg>
+
                   </app> la <placeName key="Forêt de Vulgue">Forest de Vulgue</placeName>, et la
                   furent <del rend="exponctuation" hand="#main1">i</del>
                   <app>
@@ -4547,15 +4672,17 @@
 
                      <rdg wit="#B">il</rdg>
                   </app> furent sorpris, et devant et desriere, et que bien <app>
-                     <lem wit="#V2 #G #X2">furent <num>c</num></lem>
-                     <rdg wit="#B">en y ot plus de <num>c</num></rdg><!--SL réduire les variantes; question, on met des balises num dans les rdg?-->
+                     <lem wit="#V2 #G #X2">furent</lem>
+                     <rdg wit="#B">en y ot plus de</rdg>
 
-                  </app> seur eulz <num>x</num>.</said> Et quant il oÿrent ce, si sorent bien que il
-               s’estoient mis a desfense et que avant se feissent occirre qu’il <app>
-                  <lem wit="#V2 #G #X2">se fussent rendu</lem>
-                  <rdg wit="#B">s'estoient mis a desfense et avant se feissent il occire qu'il se
-                     fussent rendu</rdg><!--SL sic?-->
-               </app>. <said aloud="true" direct="true">Par Dieu, dist <app>
+                  </app>
+                  <num>c</num> seur eulz <num>x</num>.</said> Et quant il oÿrent ce, si sorent bien
+               que il s’estoient mis a desfense et <app>
+                  <lem wit="#V2 #G #X2">que</lem>
+                  <rdg wit="#B"/>
+               </app> avant se feissent occirre qu’il se fussent rendu
+               <!--SL-PD ok sic? pas erreur en fait--> . <said aloud="true" direct="true">Par Dieu,
+                  dist <app>
                      <lem wit="#V2 #G #X2"><persName key="Helcanus">Helcanus</persName></lem>
                      <rdg wit="#B">chascun</rdg>
                   </app>, ce est tout voir.</said></p>
@@ -4604,11 +4731,12 @@
                      <rdg wit="#B">foi</rdg>
                   </app>, <app>
                      <lem wit="#V2">ce</lem>
-                     <rdg wit="#B #G #X2">mq</rdg>
+                     <rdg wit="#B #G #X2"/>
 
                   </app> dist <persName key="Cliodorus">Cliodorus</persName>, c’est <num>i</num> des <app>
                      <lem wit="#V2 #G #X2">plus</lem>
-                     <rdg wit="#B"/><!--SL commenter l'absence de superlatif dans B ou le mettre dans l'étude de langue?-->
+                     <rdg wit="#B"/>
+                     <!--SL commenter l'absence de superlatif dans B ou le mettre dans l'étude de langue?-->
                   </app> souffisanz chevaliers du monde. Et vous di que <said aloud="true"
                      direct="false">il est preudom de son cors et est souve<cb n="e"/>rain baillif
                      de toute la terre de Costentinnoble</said> et me dist <num>i</num> jour qui
@@ -4624,9 +4752,10 @@
                         <lem wit="#V2 #G #X2">fors pource</lem>
                         <rdg wit="#B">fors que</rdg>
                      </app> qu’il ne vouloit mie que autres y fust qui le paÿs destruisist</said>.
-                  Et bien me <app>
-                     <lem wit="#V2 #G #X2">dist</lem>
-                     <rdg wit="#B">a dit</rdg><!--SL "me a dit" sans élision B?-->
+                  Et bien <app>
+                     <lem wit="#V2 #G #X2">me dist</lem>
+                     <rdg wit="#B">m'a dit</rdg>
+
                   </app> que, <said aloud="true" direct="false">de quele heure qu’il <app>
                         <lem wit="#V2 #G #X2">puisse savoir</lem>
                         <rdg wit="#B">puist</rdg>
@@ -4634,7 +4763,8 @@
                      <app>
                         <lem wit="#V2 #G #X2">qu’il y ait nul homicide ne que l’en veulle faire nul
                            tort aus hoirs</lem>
-                        <rdg wit="#B">que nul y ait des hoirs</rdg><!--SL réduire les variantes-->
+                        <rdg wit="#B">que nul y ait des hoirs</rdg>
+
                      </app> de <placeName key="Galilée">Galilee</placeName>, que ja puis confort ne
                      aide <app>
                         <lem wit="#V2 #G #X2">n’en avra</lem>
@@ -4666,11 +4796,12 @@
                </app> : <said aloud="true" direct="true">Quele aide avrai je de vous ?</said>
                <said aloud="true" direct="true">Cousin, dist il, toute l’aide <app>
                      <lem wit="#V2 #G #X2">que je vous porrai faire et de moi et des miens, je la
-                        vous ferai volentiers</lem><!--SL dislocation à signaler dans l'étude de langue-->
+                        vous ferai volentiers</lem>
+
                      <rdg wit="#B">et le confort de moi et des miens que nous porrons faire, cousin,
                         sachiés que nous le vous ferons</rdg>
-                  </app>, et vous parlerez a <rs type="person" key="?">mon seigneur de
-                  pere</rs><!-- key="?" : nom du père de Japhus? --> et vous <app>
+                  </app>, et vous parlerez a <rs type="person" key="?">mon seigneur de pere</rs> et
+                  vous <app>
                      <lem wit="#V2 #G #X2">humelierez</lem>
                      <rdg wit="#B">humiliez</rdg>
                   </app> contre lui et li dites que <said aloud="true" direct="false">il ne vous
@@ -4679,7 +4810,7 @@
                   en ferions nostre pooir.</said>
                <said aloud="true" direct="true">Biaus cousins, <app>
                      <lem wit="#V2 #X2">ce</lem>
-                     <rdg wit="#B #G">mq</rdg>
+                     <rdg wit="#B #G"/>
                   </app> dist <persName key="Helcanus">Helcanus</persName>, grans mercis
                !</said></p>
             <p n="P181"><c ana="lettrine2">D</c>ont orent conseil que il yroient au <rs
@@ -4691,7 +4822,8 @@
                   <lem wit="#V2 #G #X2">l’endemain</lem>
                   <rdg wit="#B">a l'endemain</rdg>
                </app> et <app>
-                  <lem wit="#V2 #G #X2">n’ont finé, si</lem><!--SL supprimer la virgule, cf. ci-dessus-->
+                  <lem wit="#V2 #G #X2">n’ont finé si</lem>
+
                   <rdg wit="#G"/>
                </app> vindrent la ou li roys estoit. <app>
                   <lem wit="#V2 #B">Et quant il furent la venu, si li ont acointié</lem>
@@ -4703,7 +4835,8 @@
                   <rdg wit="#B">ot</rdg>
                </app> esploitié <app>
                   <lem wit="#B #G #X2" resp="#PD">des</lem>
-                  <rdg wit="#V2">de (sic)</rdg><!--SL voir si on ne peut pas conserver "dé" et intégrer la forme à l'étude de langue dans chute des consonnes finales-->
+                  <rdg wit="#V2">de (sic)</rdg>
+                  <!--SL voir si on ne peut pas conserver "dé" et intégrer la forme à l'étude de langue dans chute des consonnes finales-->
 
                </app> messages et <app>
                   <lem wit="#V2 #G #X2">comment</lem>
@@ -4724,7 +4857,8 @@
                      <rdg wit="#B">vous</rdg>
                   </app>, car de ma personne n’en puis je <app>
                      <lem wit="#V2 #G #X2">autre chose</lem>
-                     <rdg wit="#B">el</rdg><!--SL intégrer l'indéfini "el" dans le document sur la langue?-->
+                     <rdg wit="#B">el</rdg>
+
                   </app> faire.</said> Quant Japhus oÿ ce, si dist : <said aloud="true"
                   direct="true">Et je el ne demant.</said> Dont fist signe a <persName
                   key="Helcanus">Helcanus</persName> qu’il en merciast son pere, et il si fist de ce
@@ -4748,7 +4882,7 @@
                </app> mille. Quant <rs type="person" key="Bourleus">li dus de <placeName
                      key="Lembourg">Lembourc</placeName></rs> vit ce, si en fu <app>
                   <lem wit="#V2 #G">moult</lem>
-                  <rdg wit="#B #X2">mq</rdg>
+                  <rdg wit="#B #X2"/>
                </app>
                <app>
                   <lem wit="#V2 #B #X2">joians</lem>
@@ -4816,8 +4950,7 @@
                </app>
                <num>iii</num> messages vindrent, qui Grece avoient cerchiee et aportoient la
                response de<del rend="exponctuation" hand="#main1">c</del> chascun. Mais tout en tele
-               maniere comme<!-- garder apparat ? mais tout en tele maniere : mais ainsi com B -->
-               li uns mandoit ne <app>
+               maniere comme li uns mandoit ne <app>
                   <lem wit="#V2 #G #X2">mandoit</lem>
                   <rdg wit="#B">faisoit</rdg>
                </app> mie li autres. <app>
@@ -4829,7 +4962,8 @@
                   </app> li emperieres Ca‹r›[s]sidorus vendra en sa terre, si comme il devra, nous
                   ferons de lui comme de <app>
                      <lem wit="#V2 #G #X2">nostre</lem>
-                     <rdg wit="#B">no (sic)</rdg><!--SL l'enlèverais le sic et l'intégrerais dans le document linguistique, rare cf. Buridant §134-->
+                     <rdg wit="#B">no</rdg>
+
                   </app> seigneur</said>, li secons <app>
                   <lem wit="#V2 #G #X2">mandoit</lem>
                   <rdg wit="#B">remandoit</rdg>
@@ -4863,13 +4997,12 @@
                      <rdg wit="#X2"/>
                   </app> il yroit a l’encontre de <app>
                      <lem wit="#V2 #G #X2">lui a tout</lem>
-                     <rdg wit="#B"/><!--SL commenter la variante de B, qui, à moins qu'il s'agisse d'une erreur, renverse la perspective-->
+                     <rdg wit="#B"/>
+                     <!--SL commenter la variante de B,  renverse la perspective-->
                   </app>
-                  <num>vi</num> mille hommes, qui touz li seroient contraires de <app>
-                     <lem wit="#V2 #G #X2">jusques</lem>
-                     <rdg wit="#B">si</rdg>
-                  </app> a la mort</said>. <!--SL sic apparat (de jusques)?; et agglutiner "desi"?-->De ceulz y ot le plus qui ce li ont mandé, et si en y ot
-               d’autres qui le contraire <app>
+                  <num>vi</num> mille hommes, qui touz li seroient contraires de jusques a la
+                  mort</said>. De ceulz y ot le plus qui ce li ont mandé, et si en y ot d’autres qui
+               le contraire <app>
                   <lem wit="#V2 #G #X2">remanderent</lem>
                   <rdg wit="#B">reremanderent (sic)</rdg>
                </app>, mais il ne voudrent mie que <cb n="b"/> touz le seussent que hardiement
@@ -4931,7 +5064,8 @@
                </app> les nés prestes. Dont entrerent enz et orent <app>
                   <lem wit="#V2 #G #X2">bon</lem>
                   <rdg wit="#B"/>
-               </app> vent a leur volenté, et n’ont finé, si sont <app><!--SL supprimer la virgule avant "si"-->
+               </app> vent a leur volenté, et n’ont finé si sont <app>
+
                   <lem wit="#V2 #B #X2">arrivé <app>
                         <lem wit="#V2 #X2">et venu a terre</lem>
                         <rdg wit="#B">bien et bel</rdg>
@@ -4957,7 +5091,8 @@
                         <lem wit="#V2 #G">la</lem>
                         <rdg wit="#X2">jusques la</rdg>
                      </app></lem>
-                  <rdg wit="#B">alerent de si la</rdg><!--SL idem, desi?-->
+                  <rdg wit="#B">alerent desi la</rdg>
+
                </app> et estoient <app>
                   <lem wit="#V2 #G #X2">aussi comme tout</lem>
                   <rdg wit="#B">ja aussi com</rdg>
@@ -4982,14 +5117,11 @@
                </app> par leur jornees <app>
                   <lem wit="#V2 #G #X2">tant</lem>
                   <rdg wit="#B"/>
-               </app> qu’il sont entré en <app>
-                  <lem wit="#V2 #G #X2"><placeName key="Italie Majour">Ytalie
-                     Majour</placeName></lem>
-                  <rdg wit="#B">Ytale la Major</rdg><!--SL réduire les variantes-->
-               </app> – ce estoit la terre ou <persName key="Ascanus">Ascanus</persName> demouroit.
-               Lors sont <name type="people" key="Frisons">Frison</name> enz entré et ont couru par
-                  <rs type="place" key="Italie Majour">le paÿs</rs> et fait moult grans domages a
-               ceulz de la terre. Dont envaïrent villes et chastiaus <app>
+               </app> qu’il sont entré en <placeName key="Italie Majour">Ytalie Majour</placeName> –
+               ce estoit la terre ou <persName key="Ascanus">Ascanus</persName> demouroit. Lors sont
+                  <name type="people" key="Frisons">Frison</name> enz entré et ont couru par <rs
+                  type="place" key="Italie Majour">le paÿs</rs> et fait moult grans domages a ceulz
+               de la terre. Dont envaïrent villes et chastiaus <app>
                   <lem wit="#V2 #G #X2">et</lem>
                   <rdg wit="#B"/>
                </app> n’en trouvoient nulz qui longuement se peust tenir contre eulz, si que nul
@@ -5018,12 +5150,11 @@
                      <lem wit="#V2 #G #X2">il eussent gueres de repos ne de sejour</lem>
                      <rdg wit="#B">pou eussent de repos</rdg>
                   </app>.</said></p>
-            <p n="P186"><persName key="Helcanus"><c ana="lettrine2">H</c>elcanus</persName> et <app>
-                  <lem wit="#V2 #G #X2">son cousin</lem>
-               <rdg wit="#B">ses cousins</rdg><!--SL je supprimerais CR CS-->
-               </app> ne <app>
-                  <lem wit="#V2 #G #X2">finerent</lem>
-                  <rdg wit="#B">ont finé</rdg><!--SL B a "ne ont finé" sans élision?-->
+            <p n="P186"><persName key="Helcanus"><c ana="lettrine2">H</c>elcanus</persName> et son
+               cousin <app>
+                  <lem wit="#V2 #G #X2">ne finerent</lem>
+                  <rdg wit="#B">n'ont finé</rdg>
+
                </app>, <app>
                   <lem wit="#V2 #G #X2">ainz vindrent la terre destrui<del rend="exponctuation"
                         hand="#main1">s</del>sant et</lem>
@@ -5051,7 +5182,8 @@
                </app>, pensa qu’<said aloud="false" direct="false">il ne se lairoit mie assegier
                   sanz <app>
                      <lem wit="#V2 #G">trop</lem>
-                     <rdg wit="#B #X2">cop</rdg><!--SL corriger ou commenter; la leçon de B X2 me paraît supérieure à V2 G, mais voir les attestations-->
+                     <rdg wit="#B #X2">cop</rdg>
+                     <!--SL corriger ou commenter; la leçon de B X2 me paraît supérieure à V2 G, mais voir les attestations-->
 
                   </app> ferir</said>. Il ot sa gent aprestee et furent bien <num>xxx<hi rend="exp"
                      >m</hi></num>, <cb n="d"/> car <persName key="Pelyarmenus"
@@ -5078,7 +5210,8 @@
                <app>
                   <lem wit="#V2 #G #X2">issu</lem>
 
-                  <rdg wit="#B">issi</rdg><!--SL ci-dessus dans le même cas tu indiquais (sic)-->
+                  <rdg wit="#B">issi</rdg>
+
 
                </app> hors et se mistrent contre eulz. Li dui <app>
                   <lem wit="#V2 #G #X2">frere</lem>
@@ -5104,11 +5237,16 @@
                   <lem wit="#V2 #G #X2">avoit bien <num>xx<hi rend="exp">m</hi></num></lem>
                   <rdg wit="#B">ravoit <num>v<hi rend="exp">m</hi></num></rdg>
                </app> qui <app>
-                  <lem wit="#V2 #G #X2">assez li estoient pres</lem>
-                  <rdg wit="#B">adés li estoient moult pres</rdg><!--SL réduire les variantes-->
+                  <lem wit="#V2 #G #X2">assez</lem>
+                  <rdg wit="#B">adés</rdg>
+
+               </app> li estoient <app>
+                  <lem wit="#V2 #G #X2">pres</lem>
+                  <rdg wit="#B">moult pres</rdg>
                </app>. Dont chevaucha premiers <persName key="Nazarus">Nazareus</persName> et <app>
                   <lem wit="#V2 #G #X2">vit</lem>
-                  <rdg wit="#B">virent sa gent</rdg><!--SL commenter l'accord de B dans l'étude de langue?-->
+                  <rdg wit="#B">virent sa gent</rdg>
+
                </app> que cil de <rs type="place" key="Nise">la cité</rs> estoient issu <app>
                   <lem wit="#V2 #B #G">dehors</lem>
                   <rdg wit="#B">hors</rdg>
@@ -5118,7 +5256,8 @@
                   <rdg wit="#B">Il l'ont fait</rdg>
                </app> assavoir a leur gent qu’il aroient estour. Dont <app>
                   <lem wit="#B #G #X2" resp="#PD">chevauchierent</lem>
-                  <rdg wit="#V2">chevauchieret (sic)</rdg><!--SL laisser la forme, c'est un trait linguistique attesté dans l'Est je pense, voir document linguistique-->
+                  <rdg wit="#V2">chevauchieret (sic)</rdg>
+                  <!--SL corriger? laisser la forme, c'est un trait linguistique attesté dans l'Est je pense, voir document linguistique-->
 
                </app> serré et tant que <app>
                   <lem wit="#V2 #G #X2">entre</lem>
@@ -5146,21 +5285,15 @@
                </app> en asteles et les hiaumes hors des chiez, mes <app>
                   <lem wit="#V2 #G #X2">onques</lem>
                   <rdg wit="#B">il onques</rdg>
-               </app> pis ne se firent, ainz passerent <app>
-                  <lem wit="#V2 #G #X2">chascuns <del rend="exponctuation" hand="#main1">o</del>
-                     outre, joinz </lem>
-                  <rdg wit="#B">outre chascuns joinz</rdg><!--SL réduire les variantes-->
-               </app> en <app>
+               </app> pis ne se firent, ainz passerent chascuns <del rend="exponctuation"
+                  hand="#main1">o</del> outre, joinz en <app>
                   <lem wit="#V2 #G #X2">leur</lem>
                   <rdg wit="#B">ses</rdg>
                </app> armes. A ce cop sont feruz ensemble. <app>
-                  <lem wit="#V2 #G #X2">La ot <num>i</num> estour moult <app>
-                        <lem wit="#V2 #G">tres</lem>
-                        <rdg wit="#X2"/>
-                     </app>
-                     <cb n="e"/> dur</lem>
-                  <rdg wit="#B">Si y ot la <num>i</num> estor moult dur</rdg><!--SL réduire les variantes-->
-               </app>. <persName key="Nazarus"><app>
+                  <lem wit="#V2 #G #X2">La</lem>
+                  <rdg wit="#B">Si y</rdg>
+
+               </app> ot <num>i</num> estour tres <cb n="e"/> dur. <persName key="Nazarus"><app>
                      <lem wit="#V2 #G #X2">Nazareus</lem>
                      <rdg wit="#B">Nazarus</rdg>
                   </app></persName>, qui moult estoit fort et plains de grant chevalerie, s’est
@@ -5209,7 +5342,7 @@
                   <rdg wit="#B"/>
                </app> en la plaine. <persName key="Melior">Melior</persName>, qui les rens aloit <app>
                   <lem wit="#V2">assez</lem>
-                  <rdg wit="#B #G #X2">mq</rdg>
+                  <rdg wit="#B #G #X2"/>
                </app> cerchant, n’estoit pas oiseus, ainçois, <said who="#nar">si comme <app>
                      <lem wit="#V2 #G #X2">li comptes <app>
                            <lem wit="#V2 #G">raconte</lem>
@@ -5222,9 +5355,10 @@
                </app>
                <persName key="Dialogus">Dyalogus</persName>. A celui estour eust esté pais <app>
                   <lem wit="#V2 #G #X2">de <persName key="Dialogus">Dyalogus</persName> le traitre
-                     se n’eussent esté li sien</lem>
-                  <rdg wit="#B">du traïteur, ne fussent li sien</rdg><!--SL réduire les variantes-->
-               </app>, qui le secorurent. <app>
+                     se n’eussent esté</lem>
+                  <rdg wit="#B">du traïteur, ne fussent</rdg>
+
+               </app>li sien, qui le secorurent. <app>
                   <lem wit="#V2 #G #X2">Moult</lem>
                   <rdg wit="#B">Ainsi</rdg>
                </app> se maintenoient l’une partie et l’autre <app>
@@ -5238,7 +5372,8 @@
                   <rdg wit="#B"/>
                </app> la gent <persName key="Ascanus">Ascanus</persName> furent au dessouz, <app>
                   <lem wit="#V2 #B #X2"><said who="#nar">si comme <app>
-                     <lem wit="#V2 #G #X2">l’en</lem><!--SL problème de balise ici: il n'y a pas G si je comprends bien-->
+                           <lem wit="#V2 #X2">l’en</lem>
+
                            <rdg wit="#B">le</rdg>
                         </app> pot bien veoir</said></lem>
                   <rdg wit="#G"/>
@@ -5257,7 +5392,7 @@
                      <rdg wit="#B">soing</rdg>
                   </app> que <cb n="f"/> nul tort l’en <app>
                      <lem wit="#V2 #G">li</lem>
-                     <rdg wit="#B #X2">mq</rdg>
+                     <rdg wit="#B #X2"/>
                   </app> face !</said>, car il aloit par la bataille ferant a destre et a senestre.
                   <said who="#nar">Que mal de celui qui voie ne li feist !</said>
                <app>
@@ -5282,7 +5417,8 @@
                         <rdg wit="#V2">s’entrenconrent (sic)</rdg>
                      </app></lem>
 
-                  <rdg wit="#B">il avinrent l'un contre l'autre Helcanus et celui Ascanus</rdg><!--SL renseigner dislocation dans l'étude de langue?-->
+                  <rdg wit="#B">il avinrent l'un contre l'autre Helcanus et celui Ascanus</rdg>
+
                </app>. <app>
                   <lem wit="#V2 #G #X2"><app>
                         <lem wit="#V2 #X2">Adont ne s’entrecongnurent mie</lem>
@@ -5293,8 +5429,8 @@
                   <rdg wit="#B">Dont ne s'entreconnurent mie comme ceuls qui n'estoient pas garni de
                      leur connoissances, ainz se doutoient que il ne fussent conneus par quoi l'en
                      meist plus grant force a euls occire ou prendre et il voloient faire d'armes,
-                     et il le jour en firent tant que bien fist a recorder, por ce<!--SL unir porce--> que il avoient
-                     veu comment il uns faisoit damage a l'autre</rdg>
+                     et il le jour en firent tant que bien fist a recorder, porce que il avoient veu
+                     comment il uns faisoit damage a l'autre</rdg>
                </app> Il s’entrevindrent de si grant force <app>
                   <lem wit="#V2 #B #X2">et de <app>
                         <lem wit="#V2 #X2">si grant</lem>
@@ -5318,20 +5454,23 @@
                         <persName key="Asacanus">Ascanus</persName> fu si durement ferus d’un cop
                      merveilleus que <persName key="Helcanus">Helcanus</persName> li douna en tel
                      maniere et de si grant force que il ne pot le cop endurer, ainz trebuscha a
-                     terre, lui et le cheval tout en <num>i</num> mont.</lem>
+                     terre</lem>
                   <rdg wit="#B">que bien le pot l'en veoir entour euls. Et cil qui miex fu ferus et
-                     de braz plus couvenable, ce fu Ascanus, qui le cop ne pot endurer, ainz couvint
-                     lui et le cheval cheoir tout en <num>i</num> mont</rdg><!--SL réduire les variantes-->
-               </app>
-               <app>
+                     de braz plus couvenable, ce fu Ascanus, qui le cop ne pot endurer, ainz couvint </rdg>
+
+               </app>, lui et le <app>
+                  <lem wit="#V2 #G #X2">cheval</lem>
+                  <rdg wit="#B">cheval cheoir</rdg>
+               </app> tout en <num>i</num> mont.<app>
                   <lem wit="#V2 #G #X2">Lors</lem>
                   <rdg wit="#B">La</rdg>
                </app> s’arresta <persName key="Helcanus">Helcanus</persName> seur lui <app>
-                  <lem wit="#V2 #G #X2">et le cuida metre a mort</lem>
-                  <rdg wit="#B">qui le cuida du tout metre a mort</rdg><!--SL réduire les variantes-->
-               </app>, mais tant y ot des siens que bien y parut, car, <said who="#nar">se li
-                  comptes ne ment</said>, la eust <persName key="Helcanus">Helcanus</persName> esté
-               mort ou pris se il ne s’i <app>
+                  <lem wit="#V2 #G #X2">et le cuida</lem>
+                  <rdg wit="#B">qui le cuida du tout</rdg>
+
+               </app> metre a mort, mais tant y ot des siens que bien y parut, car, <said who="#nar"
+                  >se li comptes ne ment</said>, la eust <persName key="Helcanus"
+                  >Helcanus</persName> esté mort ou pris se il ne s’i <app>
                   <lem wit="#V2 #B #X2">fust</lem>
                   <rdg wit="#G">fu</rdg>
                </app> si bien maintenu, et meesmement li sien, qui partout le suioient, si comme
@@ -5347,7 +5486,8 @@
                </app>
                <pb n="167"/> feri <persName key="Helcanus">Helcanus</persName> et <app>
                   <lem wit="#V2 #G">lui et</lem>
-                  <rdg wit="#B #X2">mq</rdg><!--SL: commenter? l'omission de "lui et" change le référent de "li sien", si je comprends bien: dans B et X2 on aurait un accord de proximité et "li sien" est sujet aussi de "feri", dont du côté d'Helcanus, tandis que "li sien" est complément d'objet dans V G?-->
+                  <rdg wit="#B #X2"/>
+                  <!--SL: commenter? l'omission de "lui et" change le référent de "li sien", si je comprends bien: dans B et X2 on aurait un accord de proximité et "li sien" est sujet aussi de "feri", dont du côté d'Helcanus, tandis que "li sien" est complément d'objet dans V G?-->
                </app> li sien que par droite force <name type="people" key="Italiens">Ytalien</name>
                se sont retrait vers <rs type="place" key="Nise">la cité</rs> avant que <app>
                   <lem wit="#V2 #G #X2">mestier</lem>
@@ -5382,7 +5522,8 @@
                         <lem wit="#V2">perilleus</lem>
                         <rdg wit="#B">crueus</rdg>
                      </app> chaple <app>
-                        <lem wit="#V2 #G #X2">y ot que on n’avoit pieça veu</lem><!--SL problème de balisage, il n'y a pas G-->
+                        <lem wit="#V2 #B #X2">y ot que on n’avoit pieça veu</lem>
+
                         <rdg wit="#B">que l'en eust veu pieça</rdg>
                      </app></lem>
                   <rdg wit="#G"/>
@@ -5391,9 +5532,10 @@
                   <lem wit="#V2 #G">tendu <app>
                         <lem wit="#V2">tentes</lem>
                         <rdg wit="#G">temptes</rdg>
-                     </app> et paveillons partout</lem>
-                  <rdg wit="#B #X2">tendu paveillons et tres partout</rdg><!--SL supprimer "partout" de la variante dans rdg et lem?-->
-               </app> la ou il porent et furent assez tost logiez. En tele maniere fu <rs
+                     </app> et paveillons</lem>
+                  <rdg wit="#B #X2">tendu paveillons et tres</rdg>
+
+               </app> partout la ou il porent et furent assez tost logiez. En tele maniere fu <rs
                   type="place" key="Nise">la cité</rs> assise de <persName type="people"
                   key="Frisons">ceulz de <placeName key="Frise">Frise</placeName></persName>. Il fu
                tart, car la bataille avoit grant piece duré. Li pluseur qui navré se sentirent se
@@ -5403,9 +5545,12 @@
                   <rdg wit="#B">se durent entremetre</rdg>
                </app> le firent. Et quant il fu temps de souper, <app>
                   <lem wit="#V2 #G #X2">si s’assistrent et mengierent cil qui mestier en avoient,
-                     puis fu commandé le gait</lem>
-                  <rdg wit="#B">si l'ont moult tost fait comme cil qui el ne queroient, ainz fu
-                     commandé l'agait</rdg><!--SL réduire les variantes-->
+                     puis</lem>
+                  <rdg wit="#B">si l'ont moult tost fait comme cil qui el ne queroient, ainz</rdg>
+                  
+               </app> fu commandé <app>
+                  <lem wit="#V2 #G #X2">le gait</lem>
+                  <rdg wit="#B">l'agait</rdg>
                </app> a <num>x<hi rend="exp">m</hi></num>
                <name type="people" key="Frisons">Frisons</name>, et en fu souverains <num>i</num>
                duc <app>
@@ -5425,7 +5570,8 @@
                </app>
                <app>
                   <lem wit="#V2 #G #X2">pour assaut</lem>
-                  <rdg wit="#B">que pour assaut</rdg><!--SL je mettrais une virgule après "que", même s'il n'est pas répété-->
+                  <rdg wit="#B">que, pour assaut</rdg>
+                  
                </app> que l’en y feist <app>
                   <lem wit="#V2 #G #X2">que</lem>
                   <rdg wit="#B"/>
@@ -5437,8 +5583,8 @@
                   <lem wit="#V2 #G #X2"><said aloud="true" direct="true">Or ne vous esma<add
                            place="above" hand="main1">i</add>ez, car encore n’i avrons nous em piece
                         esté <num>ix</num> anz ne <num>x</num>. Et sachiez certainement que je ne
-                     m’en quier jamais partir, si <!--SL supprimer virgule avant "si"-->avrai <del rend="exponctuation" hand="#main1"
-                           >i</del>
+                        m’en quier jamais partir si avrai
+                           <del rend="exponctuation" hand="#main1">i</del>
                         <cb n="b"/> mis <persName key="Ascanus">Ascanus</persName> au dessouz ou il
                         moi.</said>
                   </lem>
