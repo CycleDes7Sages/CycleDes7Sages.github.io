@@ -196,22 +196,22 @@
                <p>Cas de corrections à indiquer</p>
             </correction>
             <normalization>
-               <p>Dissimilation i/j u/v</p>
-               <p>Résolution des abréviations</p>
-               <p>Segmentation des mots (cas particuliers à indiquer)</p>
+               <p>Dissimilation i/j u/v <!-- à revoir : indiquer comment cf. intro --></p>
+               <p>Résolution des abréviations <!-- à revoir : indiquer comment cf. intro --></p>
+               <p>Segmentation des mots <!-- à revoir : indiquer comment cf. intro --></p>
                <p>Le copiste du ms. V que nous suivons présente systématiquement ou presque des y avec des points suscrits,
-                  que nous avons choisi, comme la précédente éditrice, de ne pas rendre</p>
+                  que nous avons choisi, comme la précédente éditrice, de ne pas rendre <!-- à revoir : indiquer dans intro aussi ? --></p>
             </normalization>
             <punctuation>
-               <p>Ponctuation modernisée (choix à indiquer)</p>
+               <p>Ponctuation modernisée <!-- à revoir : indiquer comment cf. intro / nécessaire ici ? --></p>
             </punctuation>
          </editorialDecl>
          <projectDesc>
             <p>Le présent document s'intègre dans le projet FNS/FNRS consacré à la canonisation du cycle des continuations en prose 
                du Roman des Sept Sages de <placeName key="Rome">Rome</placeName>.
                Nous souhaitons offrir une édition complète du roman encore partiellement inédit de <persName key="Pelyarmenus">Pelyarmenus</persName>. 
-               Ce document traite des f.1 à 50 du manuscrit V3 (et autres sections dans les autres manuscrits à indiquer)
-               </p>
+               Ce document en particulier traite des f.1 à 50 du manuscrit V3, témoin principal, et des manuscrits B (f.431vb-f.482rb),
+               X2 (f.89vb-f.134vc) et G (f.439va-f.491v).</p>
          </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -1198,8 +1198,7 @@
    ou <rs type="person" key="Ermite de Cassidorus">li sains hermites</rs> 
    <app><lem wit="#V3 #B #X2">demouroit</lem><rdg wit="#G">estoit</rdg></app>, 
    dont il avoit oï parler. Quant il fu la venus, bien cuida <app><lem wit="#V3 #G">estre assenez </lem><rdg wit="#B #X2">assener</rdg></app>
-   <app><lem wit="#V3 #B #X2">u (sic)</lem><rdg wit="#G">du</rdg></app> 
-   <!-- Sic? On trouve "u" pour "ou" à plusieurs reprises, dans B par exemple. Doit-on garder le sic ? --> lieu ou il 
+   <app><lem wit="#V3 #B #X2">u </lem><rdg wit="#G">du</rdg></app> lieu ou il 
    <app><lem wit="#V3 #B #G">conversoit</lem><rdg wit="#X2">conversoit conversoit</rdg></app>, 
    mes onques tant ne sot <app><lem wit="#V3 #B #X2">aler</lem><rdg wit="#G">aler ne venir</rdg></app> 
    ne sus ne jus que il onques le peust trouver, 
@@ -1330,7 +1329,7 @@
    <said aloud="true" direct="true">De moi connoistre 
       <app><lem wit="#V3 #G">autrement</lem>
          <rdg wit="#B #X2">autrement que vous <app><lem wit="#B">ne</lem><rdg wit="#X2">ore</rdg></app> faites</rdg></app> 
-      n’avez vous <app><lem wit="#V3 #G">orendroit</lem><rdg wit="#B #X2">ore</rdg></app> <!-- Coll? --> mestier, 
+      n’avez vous <app><lem wit="#V3 #G">orendroit</lem><rdg wit="#B #X2">ore</rdg></app> mestier, 
       <app><lem wit="#V3 #G">que</lem><rdg wit="#B #X2">car</rdg></app> auques 
       <app><lem wit="#V3 #B #G">poez</lem><rdg wit="#X2">poez ore</rdg></app> savoir que 
    je ne sui mie de grant affaire, car je sui <num>i</num> povre chevalier 
@@ -1415,7 +1414,7 @@
    <said aloud="false" direct="false">par sa grace <app><lem wit="#V3 #G #X2">le feist aler</lem><rdg wit="#B">l'envoiast</rdg></app> en 
       <app><lem wit="#V3">tel</lem><rdg wit="#B #X2"/></app> lieu par coi le cors ne perisist a ce qu’il 
       eust <cb n="f"/>peture a faire la penitance dont il l’avoit courroucié</said>.</p>
-<p n="P513"><note type="apparat">Pas de nouveau § B</note><!-- Coll? Lettrine oubliée dans G -->
+<p n="P513"><note type="apparat">Pas de nouveau § B</note><note type="apparat">Lettrine oubliée dans G</note>
    <c ana="lettrine2">Q</c>uant 
    <rs type="person" key="Cassidorus"><app><lem wit="#V3 #G #X2">li empereres</lem><rdg wit="#B">il</rdg></app></rs> ot ce dit, 
    si li vint une famine si grant que a pou qu’il ne crioit aussi com s’il fust hors <app><lem wit="#V3 #B #X2">de son</lem><rdg wit="#G">du</rdg></app> sens. 
@@ -1790,7 +1789,7 @@
    <placeName key="Rome">Rome</placeName>. Quant <persName key="Dorus">Dorus</persName>
    <app><lem wit="#V3 #B #X2">le sot,</lem><rdg wit="#G"/></app> si fu moult 
    <app><lem wit="#V3 #G">liez</lem><rdg wit="#B #X2">joians</rdg></app>, 
-   car bien vousist qu’i le peust <app><lem wit="#V3 #G">deschevauchier</lem><rdg wit="#B #X2">entrechevauchier</rdg></app>, <!-- Coll? -->
+   car bien vousist qu’i le peust <app><lem wit="#V3 #G">deschevauchier</lem><rdg wit="#B #X2">entrechevauchier</rdg></app>,
    si li eust cousté toute sa terre. 
    Lors atournerent leur affaire, et <persName key="Pelyarmenus">Pelyarmenus</persName> fist ses chevauche<cb n="d"/>eurs venir 
    devant lui, si leur dist qu’<said aloud="true" direct="false">il s’aprestassent a l’endemain, car il avoit oï nouvelles 
@@ -3190,7 +3189,7 @@
    <app><lem wit="#V3 #B #X2">le</lem><rdg wit="#G">se</rdg></app> leva, si n’ot pooir de respondre fors en larmes et en pleurs, et dist :
    <said aloud="true" direct="true">Ha ! gentilz <app><lem wit="#V3 #B #X2">sire</lem><rdg wit="#G">homs</rdg></app>, 
       conme gente requeste a ci ! <app><lem wit="#V3 #B #X2">Or</lem><rdg wit="#G">Car</rdg></app> sai je bien que <cb n="f"/>Deux a oï 
-      priere que je ai tant desirree et covoitiee (sic) <!-- Sic? -->. Si vous en dirai mon avis selonc ce que tout le monde en iert joians 
+      priere que je ai tant desirree et covoitiee. Si vous en dirai mon avis selonc ce que tout le monde en iert joians 
       et vous en prisera, si que bien le verrez.</said>
    Lors li dist :
    <said aloud="true" direct="true">Sire, et puisqu’il est ainsi que Nostre Sire Deux vous a donné tele volenté, je irai a mes damoisiaux de 
