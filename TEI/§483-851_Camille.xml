@@ -227,7 +227,7 @@
    </teiHeader>
   <text>
       <body>
-         <pb n="1"/> <!-- Transcription: deux trois lignes effacées à baliser comment ? -->
+         <pb n="1"/><note type="apparat">Trois lignes sont effacées avant le début du texte donné dans V3</note> <!-- Transcription: indication OK ? -->
          <div> <head type="rubrique" n="R29">Comment <cb n="b"/><persName key="Helcanus">Helcanus</persName> issi de prison et ala en la queste
          de <persName key="Néra"><persName key="Néra"><persName key="Néra">Nera</persName></persName></persName>, <del rend="exponctuation" hand="#main1">sa</del> s'amie.</head>
             <figure>
@@ -1550,7 +1550,6 @@
       <app><lem wit="#V3 #G #X2">en</lem><rdg wit="#B">que il l'ot en</rdg></app> couvent 
       par coi il peussent demourer <app><lem wit="#V3 #G #X2">em pes et</lem><rdg wit="#B"/></app> bon ami</said>.</p>
 <p n="P518"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oï
-   (sic) <!-- sic ? idem dans BGX2 --> 
    <app><lem wit="#V3 #B #X2">, si fet</lem><rdg wit="#G">ce</rdg></app> mandement, si dist que 
    <said aloud="true" direct="false">ja ne seroit en leu ou <persName key="Dialogus">Dyalogus</persName> receust de ceste 
       chose pis que il meismes feroit</said>. Dont fu leur response tele que, 
@@ -2356,7 +2355,7 @@
       <app><lem wit="#V3 #B #X2">par</lem><rdg wit="#G">pour</rdg></app> 
       quoi la venjance fust <app><lem wit="#V3 #G #X2">prise</lem><rdg wit="#B">faite</rdg></app> couvenable et 
    que li frere peussent demourer bon ami ensemble</said>. Dont n’i ot nul d’eulz qui la voie peust trouver, 
-   car <app><lem wit="#V3 #G">il n’i avoit cil qui</lem><rdg wit="#B #X2">nulz ne</rdg></app> pleiast (sic) <!-- Sic? idem BGX2 -->
+   car <app><lem wit="#V3 #G">il n’i avoit cil qui</lem><rdg wit="#B #X2">nulz ne</rdg></app> pleiast
    <persName key="Pelyarmenus">Pelyarmenus</persName>. 
    Si l’avoient trouvé faus et traïteur et plain de mal enging, car il ne tenoit chose qu’il eust en couvent, 
    <app><lem wit="#V3 #G #X2">car</lem><rdg wit="#B">et</rdg></app> bien savoient que ainsi 
@@ -3913,7 +3912,7 @@
    <said aloud="true" direct="false">le chief de <placeName key="Rome">Rome</placeName> n’estoit pas esbahis por la venue de tel gent</said>.
    Lors entrerent <app><lem wit="#V3 #G">ens</lem><rdg wit="#B #X2">en Romme</rdg></app> a grant harnois, conme cil qui aprés eulz faisoient traire et mener le plus 
    <app><lem wit="#V3 #G #X2">bel</lem><rdg wit="#B">grant</rdg></app> charroy du monde, 
-   si qu’il avint que <name type="people">Ronmains</name>, qui moult sont covoiteus (sic)<!-- sic? --> d’avoir, distrent,
+   si qu’il avint que <name type="people">Ronmains</name>, qui moult sont covoiteus d’avoir, distrent,
    quant il virent <app><lem wit="#V3 #B #G">tele</lem><rdg wit="#X2">te</rdg></app> <!-- SL: X2 bête :) --> richesce : 
    <said aloud="true" direct="true">De ces <app><lem wit="#V3 #G">choses</lem><rdg wit="#B #X2"/></app> 
       nous couvient avoir !</said></p>
@@ -4210,7 +4209,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <app><lem wit="#V3 #G #X2">estoit</lem><rdg wit="#B">fu</rdg></app> sus un fort cheval, 
    lors se feri es plus <app><lem wit="#V3 #G #X2">fors</lem><rdg wit="#B">grans</rdg></app> batailles que il veoit, 
    si qu’il li avint a cele fois que si chevalier le tindrent plus pres que il n’avoient fet en tout le jour, 
-   si que en la fin n’ot <app><lem wit="#V3 #G #X2">a qui</lem><rdg wit="#B"/></app> avoir (sic) 
+   si que en la fin n’ot <app><lem wit="#V3 #G #X2">a qui</lem><rdg wit="#B"/></app> avoir 
    l’estrif fors <app><lem wit="#V3 #B #X2">que</lem><rdg wit="#G"/></app> au 
    <rs type="person" key="Robert">conte de <placeName key="Flandres">Flandres</placeName></rs>,
    qui estoit de sa <app><lem wit="#V3 #G #X2">partie</lem><rdg wit="#B">partie. A celui se prist il, mais en poi d'eure eust cousté
@@ -6982,7 +6981,8 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    et il dist :
    <said aloud="true" direct="true">Or voi je bien que <rs type="person" key="Alerie">ma suer</rs> 
       voudroit avoir <num>i</num> tel chevalier <cb n="d"/>de mesniee.</said>
-   <said aloud="true" direct="true">En non Dieu, frere, si l’avrai se il veult, et vous aussit (sic) <!-- Sic? On corrige via supplied ou enlève le sic ? -->.</said>
+   <said aloud="true" direct="true">En non Dieu, frere, si l’avrai se il veult, et vous 
+      <supplied resp="#CC" source="#B #G #X2">aussi</supplied>.</said>
    <said aloud="true" direct="true">En moi, dist <rs type="person" key="Melchis">li princes</rs>, ne demourra il pas.</said>
    <said aloud="true" direct="true">Non fera il en moi</said>, <app><lem wit="#V3">ce</lem><rdg wit="#B #G #X2"/></app> 
    dist <persName key="Celydus">Celidus</persName>.</p>
@@ -7736,7 +7736,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <app><lem wit="#V3 #G #X2">uns</lem><rdg wit="#B">l'</rdg></app> espevriers entre les menus oissillons, 
    et il le vont fuiant ; autresi li fesoient voie li pluseur. Et cil qui contre lui se metoient n’i avoient duree. 
    Si avint que tuit li firent 
-   <app><lem wit="#B #G #X2">voie</lem><rdg wit="#V3">joie</rdg></app><!-- Corr>supplied? --> 
+   <supplied resp="#CC" source="#B #G #X2">voie</supplied>
    <app><lem wit="#V3 #G #X2">par</lem><rdg wit="#B">partout</rdg></app> la ou il vouloit aler. 
    <app><lem wit="#V3 #G #X2">La fesoit <rs type="person" key="Helcanus">li gentilz empereres</rs> 
    merveilles si tres grans que tuit cil qui le veoient, fust des siens ou des autres, en trembloient de paour, 
@@ -8044,11 +8044,10 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    peussent tant fere conme il fist ier tout seul.</said>
    Moult alerent loant <app><lem wit="#V3 #B #X2">la chevalerie de <persName key="Dorus">Dorus</persName></lem>
       <rdg wit="#G">le chevalier</rdg></app>. Mes de ce qu’il ne sorent qu’il 
-   <app><lem wit="#B #G #X2">fu</lem><rdg wit="#V3">furent</rdg></app><!-- Corr>supplied? --> devenus furent merveilleusement esbahy. 
+   <supplied resp="#CC" source="#B #G #X2">furent</supplied> devenus furent merveilleusement esbahy. 
    Lors se mistrent ensemble li grant seingneur pour avoir conseil qu’il avoient trouvé d’aler avant pour oïr nouvelles de lui. 
    Cil qui miex l’amoient erent engrant de lui suivre, et li autre disoient que <said aloud="true" direct="false">ce n’estoit nul esploit 
-      de folement enchaucier</said>. Et d’autre part, il nel 
-   <app><lem wit="#B #G #X2">savoient</lem><rdg wit="#V3">savoie</rdg></app><!-- Corr>supplied? --> 
+      de folement enchaucier</said>. Et d’autre part, il nel <supplied resp="#CC" source="#B #G #X2">savoient</supplied>
    en quel lieu querre.
    <said aloud="true" direct="true">Avoi ! dist <persName key="Mardocheus">Mardocheus</persName>. De quoi sonmes nous en debat ? 
       <app><lem wit="#V3 #G #X2">Que</lem><rdg wit="#B">Car</rdg></app> chascun voit bien que nous n’avons aujourd’ui plus de chief que 
@@ -8642,7 +8641,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <supplied resp="#CC" source="#B #G #X2">que <persName key="Dorus">Dorus</persName></supplied> 
    <app><lem wit="#V3 #G #X2">ne</lem><rdg wit="#B"/></app> sonnast <num>ii</num> mos, et <persName key="Abylon">Abylon</persName> 
    l’entendi, si dist :
-   <said aloud="true" direct="true">Sire, je oi <!-- Transcription: oï? --> <rs type="person" key="Dorus">vostre frere</rs> qui m’apelle. 
+   <said aloud="true" direct="true">Sire, je oï <rs type="person" key="Dorus">vostre frere</rs> qui m’apelle. 
       Or esgardez se 
       <app><lem wit="#V3 #G #X2">vous voulez</lem><rdg wit="#B">il vous plaist</rdg></app> que je voise a lui.</said>
    <said aloud="true" direct="true">Et conment ? dist <persName key="Pelyarmenus">Pelyarmenus</persName>. 
@@ -8691,8 +8690,8 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    les <num>ii</num> chevaliers qui s’estoient partis <app><lem wit="#V3 #G #X2">d’<persName key="Abylon">Abylon</persName></lem>
       <rdg wit="#B">d'Abylon ainssi comme je ai dit dessus</rdg></app> quant il presenta son cheval a 
    <persName key="Dorus">Dorus</persName> vindrent cele partie, 
-   aussi conme par aventure, qu’il avoient ouy le son du moiennel que <persName key="Dorus">Dorus</persName> avoit sonné. 
-   Et quant <persName key="Abylon">Abylon</persName> les oi <!-- Transcription: ici et au-dessus, tréma ? -->venir, si 
+   aussi conme par aventure, qu’il avoient ouÿ le son du moiennel que <persName key="Dorus">Dorus</persName> avoit sonné. 
+   Et quant <persName key="Abylon">Abylon</persName> les oï venir, si 
    <app><lem wit="#V3">est trait</lem><rdg wit="#B">se trait</rdg><rdg wit="#G #X2">s'est trait</rdg></app> 
    ensus de <persName key="Dorus">Dorus</persName>. Et <app><lem wit="#V3 #G #X2">quant</lem><rdg wit="#B"/></app> i 
    <app><lem wit="#V3 #B #X2">l’</lem><rdg wit="#G"/></app>ont aperceu, 
