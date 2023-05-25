@@ -434,6 +434,9 @@
                   <valItem ident="exp">
                     <desc>indication des chiffres en exposant</desc>
                   </valItem>
+                  <valItem ident="italique">
+                    <desc>indication en italique, dans les notes critiques en particulier</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
@@ -542,6 +545,7 @@
               <attDef ident="type" mode="change" usage="req">
                 <valList type="closed">
                   <valItem ident="apparat"/>
+                  <valItem ident="notecritique"/>
                 </valList>
               </attDef>
             </attList>
