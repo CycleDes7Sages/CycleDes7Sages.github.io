@@ -601,15 +601,8 @@
                   <valItem ident="#G"/>
                   <valItem ident="#X2"/>
                 </valList>
-              </attDef>
-              <attDef ident="resp" mode="change" usage="req">
-                <valList type="closed" mode="replace">
-                  <valItem ident="#Brodtkorb"/>
-                  <valItem ident="#CC"/>
-                  <valItem ident="#SL"/>
-                  <valItem ident="#PD"/>
-                </valList>
-              </attDef>
+              </attDef> 
+              <attDef ident="resp" mode="delete"/>
             </attList>
           </elementSpec>
 
@@ -631,11 +624,6 @@
                   <valItem ident="#X2"/>
                   <valItem ident="#V2"/>
                   <valItem ident="#V3"/>
-                </valList>
-              </attDef>
-              <attDef ident="resp" mode="change" usage="opt">
-                <valList type="semi" mode="replace">
-                  <valItem ident="#Brodtkorb"/>
                 </valList>
               </attDef>
             </attList>
