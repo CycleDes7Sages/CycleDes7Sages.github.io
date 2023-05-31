@@ -12066,7 +12066,7 @@
                             <rdg wit="#G">le</rdg>
                         </app> plaignoient il mie</said>, <said aloud="true" direct="true"><app>
                             <lem wit="#V2 #G #X2">Et pourquoi dites vous ce, biaus sire?</lem>
-                            <rdg wit="#B">Porquoi disoit il ce?</rdg>
+                            <rdg wit="#B">Porquoi disoit il ce ?</rdg>
                         </app></said>
                     <said aloud="true" direct="true"><app>
                             <lem wit="#V2 #G #X2">Seigneurs, dist il</lem>
@@ -12074,7 +12074,7 @@
                         </app>, je le vous dirai. Veritez est que j'ai entendu <app>
                             <lem wit="#V2 #G #X2">que</lem>
                             <rdg wit="#B">de</rdg>
-                        </app> mon oncle le <rs type="person" key="Roi de Frise">roy de <placeName
+                        </app> <rs type="person" key="Roi de Frise">mon oncle le roy de <placeName
                                 key="Frise">Frise</placeName></rs>
                         <app>
                             <lem wit="#V2 #G #X2">m'a</lem>
@@ -12452,10 +12452,10 @@
                         </app> pour vous <app>
                             <lem wit="#V2 #G #X2">ou</lem>
                             <rdg wit="#B">que</rdg>
-                        </app> por autrui, sont gent enbuschié au <rs type="place" key="Mal Pas"><app>
+                        </app> por autrui, sont gent enbuschié au <placeName key="Mal Pas"><app>
                                 <lem wit="#V2 #B #X2">Vil</lem>
                                 <rdg wit="#G">Mal</rdg>
-                            </app> Pas</rs>. Je ne sai se vous riens en savez.</said> Et quant
+                            </app> Pas</placeName>. Je ne sai se vous riens en savez.</said> Et quant
                         <persName key="Mirus">Myrus</persName> oÿ ce, si s'arresta et <app>
                         <lem wit="#V2 #G #X2">demanda</lem>
                         <rdg wit="#B">dist</rdg>
@@ -12504,7 +12504,7 @@
                             <lem wit="#V2 #B #X2">ne seroit se bon non</lem>
                             <rdg wit="#G">seroit bien</rdg>
                         </app>.</said> Donques enquistrent au paÿsant <said aloud="true"
-                        direct="false">se il porroient ce pas eschiver.</said>
+                        direct="false">se il porroient <rs type="place" key="Mal Pas">ce pas</rs> eschiver.</said>
                     <said aloud="true" direct="true">Par foy, biaus seigneurs, pour ce qu'il sevent
                         bien que par ailleurs ne poez passer, se sont il mis au pas que je vous ai
                         dit.</said> Et quant il oÿrent ce, si n'i ot nul qui <app>
@@ -12537,10 +12537,10 @@
                     <app>
                         <lem wit="#V2 #G #X2">vindrent</lem>
                         <rdg wit="#B">sont venu</rdg>
-                    </app> au <rs type="place" key="Mal Pas"><app>
+                    </app> au <placeName key="Mal Pas"><app>
                             <lem wit="#V2 #B #X2">Vil</lem>
                             <rdg wit="#G">Mal</rdg>
-                        </app> Pas</rs>. C'estoit <num>i</num>
+                        </app> Pas</placeName>. C'estoit <num>i</num>
                     <app>
                         <lem wit="#V2 #G #X2">pont</lem>
                         <rdg wit="#B">pont de fust</rdg>
@@ -12633,7 +12633,7 @@
                     </app> navré. Meismes <persName key="Mirus">Myrus</persName> le fu, mais il n'ot
                     pas plaie dont<!-- par quoi B --> il laissast le chevauchier. Dont se mistrent
                     en leur chemin et errerent tant qu'il fu tart. <cb n="e"/>Dont ont esgardé en
-                    leur chemin et ont veu un chastel trop bien seant. Dont mist <persName
+                    leur chemin et ont veu <rs type="place" key="Gonfort">un chastel trop bien seant</rs>. Dont mist <persName
                         key="Mirus">Myrus</persName> ses compaignons a raison et leur dist qu'<said
                         aloud="true" direct="false"><app>
                             <lem wit="#V2 #G #X2">il</lem>
@@ -12658,12 +12658,12 @@
                         </app>.</said> Il ont tant <app>
                         <lem wit="#V2 #G #X2">chevauchié</lem>
                         <rdg wit="#B">alé</rdg>
-                    </app> que il ont le chastel aprochié. <app>
+                    </app> que il ont <rs type="place" key="Gonfort">le chastel</rs> aprochié. <app>
                         <lem wit="#V2 #G #X2">Il sont venu</lem>
                         <rdg wit="#B">Dont vindrent</rdg>
                     </app> a la porte <supplied source="#B">et ont
                         huchié</supplied><!-- correction ne me semble pas nécessaire, en plus seul B donne cette partie -->
-                    que on les laissast ens entrer. Li portiers les vit garnis de leur armes, si
+                    que on les laissast ens entrer. <rs type="person" key="Portier de Gonfort">li portiers</rs> les vit garnis de leur armes, si
                     leur <app>
                         <lem wit="#V2 #G #X2">demanda</lem>
                         <rdg wit="#B">enquist</rdg>
@@ -12674,11 +12674,13 @@
                         et aloient en la cité de <placeName key="Constantinople"
                             >Coustentinoble</placeName>.</said>
                     <said aloud="true" direct="true">Biaus seigneurs, dist il, vous ne poez çaiens
-                        entrer si avrai parlé a mon seigneur, et ne vous anuit, quar tantost <app>
+                        entrer si avrai parlé a <rs type="person" key="Seigneur de Gonfort">mon seigneur</rs>, et ne vous anuit, 
+                        quar tantost <app>
                             <lem wit="#V2 #X2">vous</lem>
                             <rdg wit="#B #G">a vous</rdg>
                         </app> revenrai.</said> Lors s'en vint cilz <app>
-                        <lem wit="#V2 #B #X2">amont ou chastel ou li sires estoit</lem>
+                        <lem wit="#V2 #B #X2">amont ou <rs type="place" key="Gonfort">chastel</rs> ou 
+                            <rs type="person" key="Seigneur de Gonfort">li sires</rs> estoit</lem>
                         <rdg wit="#G">au seigneur</rdg>
                     </app>, qui estoit <app>
                         <lem wit="#V2 #X2">moult</lem>
@@ -12691,7 +12693,7 @@
                         <lem wit="#V2">d'aage</lem>
                         <rdg wit="#B #X2">et de grant aage</rdg>
                         <rdg wit="#G"/>
-                    </app>, et delez lui seoit une pucelle qui moult avoit grant biauté. <app>
+                    </app>, et delez lui seoit <rs type="person" key="Mélode">une pucelle</rs> qui moult avoit grant biauté. <app>
                         <lem wit="#V2 #B #X2">Cilz dist</lem>
                         <rdg wit="#G"/>
                     </app> : <said aloud="true" direct="true"><app>
@@ -12705,11 +12707,9 @@
                                 <rdg wit="#B">anuit mais çaiens</rdg>
                             </app> herbergier, se il vous plaist.</seg></said>
                     <!-- commenter Les changements de G dans cette phrase et les suivantes facilitent la compréhension du texte en indiquant plus clairement qui parle à qui -->
-                    <said aloud="true" direct="true">Biaus amis, dist li <app>
+                    <said aloud="true" direct="true">Biaus amis, dist <rs type="person" key="Seigneur de Gonfort">li <app>
                             <lem wit="#V2 #B #X2">chevaliers</lem>
-                            <rdg wit="#G">sires</rdg>
-
-                        </app>, garde que il dient verité, quar trop est li paÿs maintenant esmeuz,
+                            <rdg wit="#G">sires</rdg></app></rs>, garde que il dient verité, quar trop est li paÿs maintenant esmeuz,
                         si crieng qu'il ne <app>
                             <lem wit="#V2 #G #X2">vueillent</lem>
                             <rdg wit="#B">vousissent</rdg>
@@ -12725,16 +12725,16 @@
                         <app>
                             <lem wit="#V2 #B #X2">et fervestu</lem>
                             <rdg wit="#G"/>
-                        </app>.</said> Dont dist <app>
+                        </app>.</said> Dont dist <rs type="person" key="Seigneur de Gonfort"><app>
                         <lem wit="#V2 #B #X2">li chevaliers</lem>
                         <rdg wit="#G">le seigneur</rdg>
-                    </app> qu'<said aloud="true" direct="false">il <app>
+                    </app></rs> qu'<said aloud="true" direct="false">il <app>
                             <lem wit="#V2 #G #X2">ne</lem>
                             <rdg wit="#B">ne voloit mie que laienz</rdg>
                         </app> les laissast <app>
                             <lem wit="#V2 #G #X2">ens</lem>
                             <rdg wit="#B"/>
-                        </app> entrer.</said> Quant la pucelle oÿ ce, si dist : <said aloud="true"
+                        </app> entrer.</said> Quant <rs type="person" key="Mélode">la pucelle</rs> oÿ ce, si dist : <said aloud="true"
                         direct="true">Ha ! sire, qu'est ce que vous dites ? Espoir pour ce que le
                         paÿs <cb n="f"/>est esmeu se gardent il. Sire, <app>
                             <lem wit="#V2 #G #X2">vous</lem>
@@ -12743,18 +12743,18 @@
                             key="Roi de Frise">roy de <placeName key="Frise">Frise</placeName></rs>
                         que vous a ses chevaliers veez l'ostel tant comme vous sachiez que il soient
                         a lui.</said>
-                    <said aloud="true" direct="true">Par Dieu, fille, dist <app>
+                    <said aloud="true" direct="true">Par Dieu, fille, dist <rs type="person" key="Seigneur de Gonfort"><app>
                             <lem wit="#V2 #B #X2">li chevaliers</lem>
                             <rdg wit="#G">le seigneur</rdg>
-                        </app>, <app>
+                        </app></rs>, <app>
                             <lem wit="#V2 #G"><add place="above" hand="#main1">se</add> ne</lem>
                             <rdg wit="#B #X2">non</rdg>
                         </app> feroie je tant<!-- por tant B --> que je <app>
                             <lem wit="#V2 #G #X2">seusse qu'il fussent a lui</lem>
                             <rdg wit="#B">le seusse</rdg>
                         </app>.</said>
-                    <said aloud="true" direct="true">Je le vous ferai bien asavoir, dist
-                        elle.</said> Lors s'est levee <app>
+                    <said aloud="true" direct="true">Je le vous ferai bien asavoir</said>, dist
+                        elle. Lors s'est levee <app>
                         <lem wit="#V2 #B #X2">de</lem>
                         <rdg wit="#G"/>
                     </app> delez <app>
@@ -12786,8 +12786,8 @@
                         <rdg wit="#B">et armé</rdg>
                     </app> comme pour leur cors deffendre. Dont les a saluez moult gentement et leur
                     demanda <said aloud="true" direct="false">a qui il estoient et qu'il
-                        vouloient.</said> Quant <persName key="Mirus">Myrus</persName> vit la
-                    pucelle, si se traist celle part et <app>
+                        vouloient.</said> Quant <persName key="Mirus">Myrus</persName> vit <rs type="person" key="Mélode">la
+                    pucelle</rs>, si se traist celle part et <app>
                         <lem wit="#V2 #B #X2">li a respondu</lem>
                         <rdg wit="#G">respondi</rdg>
                     </app> moult affaitiement : <said aloud="true" direct="true">Ma damoisele,
@@ -12797,7 +12797,7 @@
                             <placeName key="Constantinople">Coustentinoble</placeName> parler a
                             <persName key="Pelyarmenus">Pelyarmenus</persName> de <placeName
                             key="Rome">Romme</placeName>.</said></p>
-                <p n="P126"><c ana="lettrine2">Q</c>uant la pucelle <app>
+                <p n="P126"><c ana="lettrine2">Q</c>uant <rs type="person" key="Mélode">la pucelle</rs> <app>
                         <lem wit="#V2 #G #X2">entendi ce</lem>
                         <rdg wit="#B">l'entendi</rdg>
                     </app>, si sot bien a <app>
@@ -12846,10 +12846,10 @@
                                 <rdg wit="#G">de leurs</rdg>
                             </app> chevaus establer</lem>
                         <rdg wit="#B">de traire les a estable</rdg>
-                    </app>. La pucelle descendi de la tournelle et prist les chevaliers par <app>
+                    </app>. <rs type="person" key="Mélode">La pucelle</rs> descendi de la tournelle et prist les chevaliers par <app>
                         <lem wit="#V2 #G">les mains</lem>
                         <rdg wit="#B #X2">la main</rdg>
-                    </app> et les mena amont ou chastel en une chambre et les a fait desarmer, et <app>
+                    </app> et les mena amont ou <rs type="place" key="Gonfort">chastel</rs> en une chambre et les a fait desarmer, et <app>
                         <lem wit="#V2 #B #X2">furent</lem>
                         <rdg wit="#G"/>
                     </app> leur robes <app>
@@ -12860,12 +12860,12 @@
                         <lem wit="#V2 #G #X2">il</lem>
                         <rdg wit="#B"/>
                     </app> se sont vestu et appareillié. <app>
-                        <lem wit="#V2 #B #X2">Dont les en a la damoisele menez</lem>
+                        <lem wit="#V2 #B #X2">Dont les en a <rs type="person" key="Mélode">la damoisele</rs> menez</lem>
                         <rdg wit="#G">et sont venu</rdg>
-                    </app> en la sale ou <app>
+                    </app> en la sale ou <rs type="person" key="Seigneur de Gonfort"><app>
                         <lem wit="#V2 #B #X2">son pere</lem>
                         <rdg wit="#G">le seigneur de leans</rdg>
-                    </app> estoit. Lors <app>
+                    </app></rs> estoit. Lors <app>
                         <lem wit="#V2 #B #X2">li dist</lem>
                         <rdg wit="#G">dist la pucelle</rdg>
                     </app> : <said aloud="true" direct="true"><app>
@@ -12877,16 +12877,16 @@
                             <lem wit="#V2 #G #X2">que</lem>
                             <rdg wit="#B"/>
                         </app> par euls ne devez vous avoir nule grevance.</said>
-                    <said aloud="true" direct="true">Bien soient il venu, dist <app>
+                    <said aloud="true" direct="true">Bien soient il venu, dist <rs type="person" key="Seigneur de Gonfort"><app>
                             <lem wit="#V2 #B #X2">li chevaliers</lem>
                             <rdg wit="#G">il</rdg>
-                        </app></said>, qui a moult grant paine se leva <app>
+                        </app></rs></said>, qui a moult grant paine se leva <app>
                         <lem wit="#V2 #G #X2">encontre euls</lem>
                         <rdg wit="#B">entr'euls</rdg>
                     </app>. Il li ont rendu son salut et <app>
                         <lem wit="#V2 #G #X2">se sont assis </lem>
                         <rdg wit="#B">s'asistrent</rdg>
-                    </app>tout communement. La pucelle aperçut <app>
+                    </app>tout communement. <rs type="person" key="Mélode">La pucelle</rs> aperçut <app>
                         <lem wit="#V2 #G #X2">moult</lem>
                         <rdg wit="#B"/>
                     </app> bien que <persName key="Mirus">Myrus</persName>
@@ -12923,7 +12923,7 @@
                                             <placeName key="Constantinople"
                                             >Costentinnoble</placeName></rdg>
                                     <!-- j'ai supprimé la correction de Brod peut-être motivé par lecture d'un saut du même au même "Constentinoble" -->
-                                </app></placeName></rs>.</said> Quant la pucele entendi que il
+                                </app></placeName></rs>.</said> Quant <rs type="person" key="Mélode">la pucele</rs> entendi que il
                     estoient a celui dont il parloient, si ne se pot tenir que elle ne <app>
                         <lem wit="#V2 #X2">tressausist</lem>
                         <rdg wit="#B">trasaillist euls el</rdg>
@@ -12972,10 +12972,10 @@
                             <lem wit="#V2 #G #X2">nous a lui</lem>
                             <rdg wit="#B"/>
                         </app>.</said>
-                    <said aloud="true" direct="true">Et est il en vie ? dist la pucelle.</said>
+                    <said aloud="true" direct="true">Et est il en vie ? dist <rs type="person" key="Mélode">la pucelle</rs>.</said>
                     <said aloud="true" direct="true">Damoiselle, dist il, il n'a pas <num>i</num>
                         mois que nous le laissames en <placeName key="Frise">Frise</placeName> tout
-                        sain et tout haitié.</said> Lors joint la damoisele ses mains par devers le
+                        sain et tout haitié.</said> Lors joint <rs type="person" key="Mélode">la damoisele</rs> ses mains par devers le
                     ciel <app>
                         <lem wit="#V2 #G #X2">en</lem>
                         <rdg wit="#B">gemissant en</rdg>
@@ -13007,10 +13007,10 @@
                             <rdg wit="#B">soient</rdg>
                         </app> mort.</said></p>
                 <p n="P128"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
-                    >Q</c>uant <app>
+                    >Q</c>uant <rs type="person" key="Mélode"><app>
                         <lem wit="#V2 #G #X2">la pucelle</lem>
                         <rdg wit="#B">ele</rdg>
-                    </app> oÿ ce, si dist : <said aloud="true" direct="true">Ha, biaus seigneurs,
+                    </app></rs> oÿ ce, si dist : <said aloud="true" direct="true">Ha, biaus seigneurs,
                         pour Dieu merci, or me samble que ce soit <cb n="c"/>tout truffle que vous
                         m'avez <app>
                             <lem wit="#V2 #G #X2">ci</lem>
@@ -13031,8 +13031,8 @@
                         <lem wit="#V2 #G #X2">plus grant</lem>
                         <rdg wit="#B">greigneur</rdg>
                         <!-- col? -->
-                    </app> que nule femme peust faire, si que li peres s'en aperçut et dist : <said
-                        aloud="true" direct="true">Comment, damoisele ? Quiex nouveles avez vous
+                    </app> que nule femme peust faire, si que <rs type="person" key="Seigneur de Gonfort">li peres</rs> s'en aperçut et dist : 
+                    <said aloud="true" direct="true">Comment, damoisele ? Quiex nouveles avez vous
                         oïes ? Recommenciez vous le duel que vous <app>
                             <lem wit="#V2 #G #X2">avez mené</lem>
                             <rdg wit="#B">faites</rdg>
@@ -13042,12 +13042,12 @@
                             <lem wit="#V2 #G #X2">souvient</lem>
                             <rdg wit="#B">souvenist</rdg>
                         </app>.</said></p>
-                <p n="P129"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et
-                    si compaignon ont ce entendu, si furent touz esbahiz de ceste chose. Dont dist
-                    il a la pucele : <said aloud="true" direct="true">Il me samble
+                <p n="P129"><c ana="lettrine2">Q</c>uant <persName key="Mirus">Myrus</persName> et si compaignon ont ce entendu, si furent touz 
+                    esbahiz de ceste chose. Dont dist il a <rs type="person" key="Mélode">la pucele</rs> : 
+                    <said aloud="true" direct="true">Il me samble
                             <!-- ajout de si comme vous m'avez dit X2 biggé en rouge --><supplied
-                            source="#B #G #X2">que</supplied> vous faites duel et
-                        joie sanz raison.</said> Lors reprist la pucelle son corage et dist <app>
+                            source="#B #G #X2">que</supplied> vous faites duel et joie sanz raison.</said> 
+                    Lors reprist <rs type="person" key="Mélode">la pucelle</rs> son corage et dist <app>
                         <lem wit="#V2 #G #X2">a son pere</lem>
                         <rdg wit="#B"/>
                     </app> : <said aloud="true" direct="true">Ha ! <app>
@@ -13247,7 +13247,7 @@
                                 connoissent</lem>
                             <rdg wit="#B">tesmoingne que vous m'avez conté ci ce que vous en
                                 savez</rdg>
-                        </app>.</said> Quant la pucelle oÿ ce, si sot et crut que ce estoit veritez,
+                        </app>.</said> Quant <rs type="person" key="Mélode">la pucelle</rs> oÿ ce, si sot et crut que ce estoit veritez,
                     meesmement par <persName key="Cliodorus">Cleodorus</persName>, que il <app>
                         <lem wit="#V2 #G #X2">avoit nommé</lem>
                         <rdg wit="B">nommerent</rdg>
@@ -13257,7 +13257,7 @@
                     </app> fu grant la <app>
                         <lem wit="#V2 #G #X2">leesce</lem>
                         <rdg wit="#B">pitié de la joie</rdg>
-                    </app> que elle ot en li. Dont en vint a son pere et mena avec lui <persName
+                    </app> que elle ot en li. Dont en vint a <rs type="person" key="Seigneur de Gonfort">son pere</rs> et mena avec lui <persName
                         key="Mirus">Myrus</persName> par la main. <said aloud="true" direct="true"
                         >Voirement, <app>
                             <lem wit="#V2 #G #X2">dist ele</lem>
@@ -13276,7 +13276,7 @@
                         </app> que Diex a pooir de faire, et je croi qu'il soit ainssi comme j'ai
                         entendu.</said></p>
                 <p n="P131"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
-                    >Q</c>uant li preudoms oÿ sa fille, si ot <app>
+                    >Q</c>uant <rs type="person" key="Seigneur de Gonfort">li preudoms</rs> oÿ <rs type="person" key="Mélode">sa fille</rs>, si ot <app>
                         <lem wit="#V2 #G">moult</lem>
                         <rdg wit="#B #X2"/>
                     </app> grant merveille qu'elle li vouloit dire, si dist : <said aloud="true"
@@ -13288,7 +13288,7 @@
                     <said who="#nar">si comme devant est dit <app>
                             <lem wit="#V2 #B #X2">ou compte</lem>
                             <rdg wit="#G"/>
-                        </app></said>.<note type="apparat">Nouveau § B</note> Li preudoms, quant il
+                        </app></said>.<note type="apparat">Nouveau § B</note> <rs type="person" key="Seigneur de Gonfort">Li preudoms</rs>, quant il
                     ot entendu <persName key="Mirus">Myrus</persName>, si s'est moult esleesciez et
                     a <app>
                         <lem wit="#V2 #G #X2">moult</lem>
@@ -13307,7 +13307,7 @@
                     </app>. Quant il orent soupé, <app>
                         <lem wit="#V2 #B #X2">les tables furent traites arrieres</lem>
                         <rdg wit="#G"/>
-                    </app>. Dont s'est la pucele traite pres de <persName key="Mirus"
+                    </app>. Dont s'est <rs type="person" key="Mélode">la pucele</rs> traite pres de <persName key="Mirus"
                         >Myrus</persName> et li dist : <said aloud="true" direct="true">Ha ! sire,
                         pour Dieu, gardez vous de <persName key="Pelyarmenus">Pelyarmenus</persName>
                         et ne li dites chose qui li anuit, quar je vous di seur m'ame : il est tant
@@ -13319,8 +13319,8 @@
                     <said aloud="true" direct="true">Sire, dist elle, sachiez qu'il nous eust pieça <app>
                             <lem wit="#V2 #B #X2">touz</lem>
                             <rdg wit="#G"/>
-                        </app> destruis se ne fust <num>i</num> sien baillif, qui ot moult chier mon
-                        oncle. Et meismes <rs type="person" key="Cassidorus">l'empereour</rs>
+                        </app> destruis se ne fust <rs type="person" key="?Gasus"><num>i</num> sien baillif</rs>, qui ot moult chier 
+                        <rs type="person" key="Melsius">mon oncle</rs>. Et meismes <rs type="person" key="Cassidorus">l'empereour</rs>
                         <app>
                             <lem wit="#V2 #G #X2">amoit il moult</lem>
                             <rdg wit="#B"/>
@@ -13373,14 +13373,14 @@
                         <rdg wit="#B">pluseurs</rdg>
                     </app> choses et tant que il fu heure d'aler <app>
                         <lem wit="#V2 #G #X2">couchier</lem>
-                        <rdg wit="#B">couchier. Dont a pris la pucele les chevaliers et ont pris
-                            congié au seigneur qui moult les avoit conjoïz</rdg>
+                        <rdg wit="#B">couchier. Dont a pris <rs type="person" key="Mélode">la pucele</rs> les chevaliers et ont pris
+                            congié au <rs type="person" key="Seigneur de Gonfort">seigneur</rs> qui moult les avoit conjoïz</rdg>
                     </app>. Dont <app>
                         <lem wit="#B #X2" resp="#Brodtkorb">les</lem>
                         <rdg wit="#V2 #G">le</rdg>
                     </app>
                     <app>
-                        <lem wit="#V2 #G #X2">mena la damoisele</lem>
+                        <lem wit="#V2 #G #X2">mena <rs type="person" key="Mélode">la damoisele</rs></lem>
                         <rdg wit="#B">a menez</rdg>
                     </app> en une chambre trop riche ou il ot pluiseurs liz. Dont <app>
                         <lem wit="#V2 #G #X2">leur</lem>
@@ -13420,7 +13420,7 @@
                         </app>, dist elle, et vous m'avrez bien a gré servie.</said> Dont a pris
                     congié a euls et s'en est atant partie. Dont ont chascun entendu a leur plaies
                     pour ce qu'il ne <supplied source="#B #X2">le</supplied>
-                    vodrent mie faire devant la pucele pour toutes aventures. Il orent bons
+                    vodrent mie faire devant <rs type="person" key="Mélode">la pucele</rs> pour toutes aventures. Il orent bons
                     oingnemens, si s'en est chascuns oins et se sont <app>
                         <lem wit="#V2 #G #X2">bendé</lem>
                         <rdg wit="#B">bendé, comme cil qui touz jorz en estoient porveu</rdg>
@@ -13456,9 +13456,7 @@
                     </app> dist <cb n="c"/>que <said aloud="true" direct="false">il aportoit
                         mauvaises nouveles, quar <persName key="Carchus"><app>
                                 <lem wit="#V2 #G #X2">Cerchus</lem>
-                                <rdg wit="#B">Kercus</rdg>
-
-                            </app></persName>
+                                <rdg wit="#B">Kercus</rdg>                            </app></persName>
                         <app>
                             <lem wit="#B #X2" resp="#Brodtkorb">estoit</lem>
                             <rdg wit="#V2 #G">est</rdg>
@@ -13479,7 +13477,7 @@
                     <said aloud="true" direct="true"><app>
                             <lem wit="#V2 #G #X2">En non Dieu</lem>
                             <rdg wit="#B">Par la foi que je vous doi</rdg>
-                        </app>, dist li portiers, ainçois <app>
+                        </app>, dist <rs type="person" key="Portier de Gonfort">li portiers</rs>, ainçois <app>
                             <lem wit="#V2 #B #X2">croi</lem>
                             <rdg wit="#G">croi je</rdg>
                         </app> qu'il <app>
@@ -13497,7 +13495,7 @@
                         </app> fai nulle mention, <app>
                             <lem wit="#V2 #G #X2">mais fai moi</lem>
                             <rdg wit="#B">car je vois</rdg>
-                        </app> parler a ma damoisele et <app>
+                        </app> parler a <rs type="person" key="Mélode">ma damoisele</rs> et <app>
                             <lem wit="#V2 #G #X2">je</lem>
                             <rdg wit="#B"/>
                         </app> les ferai tant demourer çaiens qu'il seront tuit pris <app>
@@ -13505,7 +13503,7 @@
                             <rdg wit="#V2 #G">au</rdg>
                             <!-- corriger vraiment? on rencontre ce trait dans d'autres textes -->
                         </app> mains.</said> Dont est cilz descendus en la court et en vint en la
-                    chambre a la damoisele, et quant elle le vit, si le nomma et dist : <said
+                    chambre a <rs type="person" key="Mélode">la damoisele</rs>, et quant elle le vit, si le nomma et dist : <said
                         aloud="true" direct="true">Quelles nouveles ? Que fait <rs type="person"
                             key="Carchus">mes freres</rs> ?</said>
                     <said aloud="true" direct="true">En non <app>
@@ -13517,14 +13515,14 @@
                         </app> qui <app>
                             <lem wit="#V2 #G #X2">trestout l'ont</lem>
                             <rdg wit="#B">hui l'ont tout</rdg>
-                        </app> detrenchié.</said> Quant la pucelle oÿ ce, si est cheue pasmee et au <app>
-                        <lem wit="#V2 #G #X2">revenir</lem>
+                        </app> detrenchié.</said> Quant <rs type="person" key="Mélode">la pucelle</rs> oÿ ce, si est cheue pasmee 
+                    et au <app><lem wit="#V2 #G #X2">revenir</lem>
                         <rdg wit="#B">repairier</rdg>
                     </app> dist : <said aloud="true" direct="true">Ha ! lasse chetive, comme est ore
                         tost ma joie <app>
                             <lem wit="#V2 #G #X2">muee</lem>
                             <rdg wit="#B">tornee</rdg>
-                        </app> en tristresce.</said> Yluec mena la pucele <num>i</num> merveilleus
+                        </app> en tristresce.</said> Yluec mena <rs type="person" key="Mélode">la pucele</rs> <num>i</num> merveilleus
                     duel, quant cil la prist a reconforter et dist : <said aloud="true"
                         direct="true">Damoisele, reconfortez vous, quar ci n'a autre <app>
                             <lem wit="#V2 #G #X2">conseil</lem>
@@ -13661,8 +13659,8 @@
                         </app> pooit prendre, il les penderoit touz.</said> Il se mist a la voie <app>
                         <lem wit="#V2 #B #X2">a cele heure et ne fina</lem>
                         <rdg wit="#G"/>
-                    </app> si vint a <placeName key="Gonfort">Gonfort</placeName>. La <cb n="e"
-                    />pucelle, qui bien savoit qu'il n'avoit nule bone raison a euls faire <app>
+                    </app> si vint a <placeName key="Gonfort">Gonfort</placeName>. <rs type="person" key="Mélode">La <cb n="e"
+                    />pucelle</rs>, qui bien savoit qu'il n'avoit nule bone raison a euls faire <app>
                         <lem wit="#V2 #G">morir</lem>
                         <rdg wit="#B #X2">mort recevoir</rdg>
                     </app>, s'estoit levee <app>
@@ -13703,7 +13701,7 @@
                     s'en est venuz <app>
                         <lem wit="#V2 #G #X2">au</lem>
                         <rdg wit="#B">droit au</rdg>
-                    </app> chastel et dist que <said aloud="true" direct="false">on le laissast <app>
+                    </app> <rs type="place" key="Gonfort">chastel</rs> et dist que <said aloud="true" direct="false">on le laissast <app>
                             <lem wit="#V2 #G #X2">enz</lem>
                             <rdg wit="#B">laienz</rdg>
                         </app> entrer et on si fist.</said>
@@ -13720,7 +13718,7 @@
                     <said aloud="true" direct="false">cil qui laiens avoient geu <app>
                             <lem wit="#V2 #B #X2">estoient devenu</lem>
                             <rdg wit="#G"/>
-                        </app>.</said> Li portiers dist qu'<said aloud="true" direct="false">il s'en
+                        </app>.</said> <rs type="person" key="Portier de Gonfort">li portiers</rs> dist qu'<said aloud="true" direct="false">il s'en
                         estoient partis <app>
                             <lem wit="#V2 #G #X2">des</lem>
                             <rdg wit="#B">tres</rdg>
@@ -13735,7 +13733,7 @@
                         </app>.</said> Dont commanda que on la feist venir <app>
                         <lem wit="#V2 #B #X2">devant lui, et on si fist</lem>
                         <rdg wit="#G"/>
-                    </app>. Quant la damoisele sot que <app>
+                    </app>. Quant <rs type="person" key="Mélode">la damoisele</rs> sot que <app>
                         <lem wit="#B #X2" resp="#Brodtkorb"><persName key="Ascanus"
                                 >Ascanus</persName></lem>
                         <rdg wit="#V2"><persName key="Helcanus"><del rend="effacé" hand="#main1"
@@ -13784,7 +13782,7 @@
                         <lem wit="#V2 #B #X2">qui</lem>
                         <rdg wit="#G"/>
                     </app> distrent : <said aloud="true" direct="true">Ha ! sire, ce ne ferez vous
-                        mie, quar la pucelle a esté autre foiz hors de <app>
+                        mie, quar <rs type="person" key="Mélode">la pucelle</rs> a esté autre foiz hors de <app>
                             <lem wit="#V2 #G #X2">son memoire</lem>
                             <rdg wit="#B">li meesmes</rdg>
                         </app>, et sachiez que <app>
