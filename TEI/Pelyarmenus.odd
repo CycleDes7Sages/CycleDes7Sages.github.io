@@ -537,6 +537,9 @@
                   <valItem ident="people"/>
                 </valList>
               </attDef>
+              <attDef ident="key" mode="change" usage="req">
+                <valList type="open"/>
+              </attDef>
             </attList>
           </elementSpec>
 

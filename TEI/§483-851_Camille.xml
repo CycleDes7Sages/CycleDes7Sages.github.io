@@ -3206,7 +3206,8 @@
    <rs type="person" key="Robert">le conte de <placeName key="Flandres">Flandres</placeName></rs> 
    <app><lem wit="#V3 #G #X2">et sus <rs type="person" key="Karus">le duc de <placeName key="Nise">Nise</placeName></rs></lem><rdg wit="#B"/></app>, 
    <app><lem wit="#V3 #G #X2">et</lem><rdg wit="#B">et le duc</rdg></app> <persName key="Josias">Josyas</persName> 
-   d’<placeName key="Espagne">Espaingne</placeName> et <persName key="Japhus">Japhus</persName> le <name type="people">Frison</name> et 
+   d’<placeName key="Espagne">Espaingne</placeName> et <persName key="Japhus">Japhus</persName> le 
+   <name type="people" key="Frisons">Frison</name> et 
    <rs type="person" key="Bourleus">le duc de <placeName key="Luxembourg">Lucembourc</placeName></rs>, cil <num>v</num> 
    pour l’une partie ; et pour l’autre pristrent la seurté 
    <app><lem wit="#V3 #B #X2">de l’une partie et de l’autre</lem><rdg wit="#G">des deux parties</rdg></app> de tenir tout ce que 
@@ -3299,7 +3300,7 @@
    <rs type="person" key="Bourleus">duc de <placeName key="Luxembourg">Lucembourc</placeName></rs>, 
    si li firent ceste <app><lem wit="#V3 #B #G">requeste</lem><rdg wit="#X2">requeste requeste</rdg></app> ; aprés au 
    <rs type="person" key="Robert">conte de <placeName key="Flandres">Flandres</placeName></rs> 
-   et a <persName key="Japhus">Japhus</persName> le <name type="people">Frison</name>, et aussi a touz les autres, 
+   et a <persName key="Japhus">Japhus</persName> le <name type="people" key="Frisons">Frison</name>, et aussi a touz les autres, 
    qui furent moult lié de ceste requeste ; et adonc s’en vindrent a <persName key="Helcanus">Helcanus</persName> et 
    a <persName key="Dorus">Dorus</persName>. Lors parla <persName key="Daphus">Daphus</persName> mout couvenablement pour 
    les damoisiaus de <placeName key="Rome">Rome</placeName>. Maintenant vindrent tout ensemble a 
@@ -3910,7 +3911,8 @@
       <app><lem wit="#V3 #G #X2">bien</lem><rdg wit="#B">bien qu'en tout le mont n'eust son pareil et</rdg></app> 
       <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B">qu'en</rdg></app> tout le jour ne li 
       <app><lem wit="#V3 #G #X2">fausist</lem><rdg wit="#B">faudroit il mie se il ne li failloit</rdg></app></said>.</p>
-<p n="P593"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">C</c>este parolle oï <num>i</num> <name type="people">Henuier</name>,
+<p n="P593"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">C</c>este parolle oï <num>i</num> 
+   <name type="people" key="Hennuyers">Henuier</name>,
    qui moult prisa le mot que <persName key="Dorus">Dorus</persName> dist, et dist :
    <said aloud="true" direct="true">Sire, se je estoie aussi riche honme de valeur conme vous estes,
       moult ameroie <num>i</num> tel cheval.</said>
@@ -3990,7 +3992,7 @@
    <said aloud="true" direct="false">le chief de <placeName key="Rome">Rome</placeName> n’estoit pas esbahis por la venue de tel gent</said>.
    Lors entrerent <app><lem wit="#V3 #G">ens</lem><rdg wit="#B #X2">en Romme</rdg></app> a grant harnois, conme cil qui aprés eulz faisoient traire et mener le plus 
    <app><lem wit="#V3 #G #X2">bel</lem><rdg wit="#B">grant</rdg></app> charroy du monde, 
-   si qu’il avint que <name type="people">Ronmains</name>, qui moult sont covoiteus d’avoir, distrent,
+   si qu’il avint que <name type="people" key="Romains">Ronmains</name>, qui moult sont covoiteus d’avoir, distrent,
    quant il virent <app><lem wit="#V3 #B #G">tele</lem><rdg wit="#X2">te</rdg></app> <!-- SL: X2 bête :) --> richesce : 
    <said aloud="true" direct="true">De ces <app><lem wit="#V3 #G">choses</lem><rdg wit="#B #X2"/></app> 
       nous couvient avoir !</said></p>
@@ -4207,7 +4209,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
       dont Envie est joieuse de ce qu’il est <app><lem wit="#V3 #G #X2">trespassez</lem><rdg wit="#B">trespassez et mors.
       Qu'ele nous pardonra tous mautalens ja soit ce chose que nous vueillons le sien non essaucier. Q</rdg></app>.</said>
    <said aloud="true" direct="true"><app><lem wit="#V3 #G #X2">Sire</lem><rdg wit="#B">Sire, sire</rdg></app>, dist 
-      <rs type="person" key="Hayno">cil <name type="people"><app><lem wit="#V3 #G">Hanuiers</lem><rdg wit="#B #X2">Henaut</rdg></app></name>
+      <rs type="person" key="Hayno">cil <name type="people" key="Hennuyers"><app><lem wit="#V3 #G">Hanuiers</lem><rdg wit="#B #X2">Henaut</rdg></app></name>
       dont <said who="#nar">j’avoie devant parlé</said></rs>, ne nous preeschiez mie, car nous le sonmes 
       <app><lem wit="#V3 #G #X2">tout</lem><rdg wit="#B">tout et bien devons chascun de nous savoir que nous devons faire 
       pour vostre honneur sauver et la vostre." Quant Dorus ot entendu Henaut qui ainsi avoit respondu, si li dist : </rdg></app>.</said>
@@ -6422,7 +6424,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <app><lem wit="#V3 #G #X2">d’<placeName key="Antioche">Antyoche</placeName></lem><rdg wit="#B"/></app>.</p>
 <p n="P694"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c> icel temps <said who="#nar">dont je parolle</said> avoit 
    <num>i</num> prince en la ville qui avoit a non <persName key="Melchis">Melchis</persName> et avoit le los d’estre le plus 
-   <app><lem wit="#V3 #G">riche</lem><rdg wit="#B #X2">sage</rdg></app> <name type="people">Sarrazin</name> qu’il feust en la terre. 
+   <app><lem wit="#V3 #G">riche</lem><rdg wit="#B #X2">sage</rdg></app> <name type="people" key="Sarrasins">Sarrazin</name> qu’il feust en la terre. 
    Il estoit joennes et biaus et plain de tres grant proesce. Li dui cousin <persName key="Celydus">Celydus</persName> et 
    <persName key="Dyanor">Dyanor</persName> oïrent moult de bien retraire de lui et furent tempté de lui veoir, 
    si firent <cb n="f"/>tant que il le virent <num>i</num> jour en <app><lem wit="#V3 #B #X2">sa</lem><rdg wit="#G">la</rdg></app> sale 
@@ -6483,7 +6485,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
       <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B">car</rdg></app> je n’em prendroie <app><lem wit="#V3 #G #X2">autre avoir <cb n="b"/>ne</lem><rdg wit="#B"/></app> autre tresor.</said>
    Rien ne <app><lem wit="#V3 #G">valoit</lem><rdg wit="#B #X2">valut chose</rdg></app> qu’il deissent, car demourer couvint les <num>ii</num> 
    chevaliers devers le <rs type="person" key="Melchis">prince</rs>. 
-   Et avint ainsint <said who="#nar">conme l’estoire le conte</said> que tout li grant seingneur <name type="people">sarrazin</name> 
+   Et avint ainsint <said who="#nar">conme l’estoire le conte</said> que tout li grant seingneur <name type="people" key="Sarrasins">sarrazin</name> 
    si ont plusseurs fenmes et touzjours en <app><lem wit="#V3 #G #X2">ainment</lem><rdg wit="#B">ainment il</rdg></app> plus l’une 
    que toutes les autres, et de cele sont il trop volentiers jalous. 
    Dont il en <app><lem wit="#V3">avroit</lem><rdg wit="#B #G #X2">avoit</rdg></app> <!-- Corr? --> 
@@ -6980,7 +6982,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <said who="#nar">Que vous diroie je <app><lem wit="#V3 #B #X2">plus</lem><rdg wit="#G"/></app> 
       <app><lem wit="#V3 #X2">lonc conte</lem><rdg wit="#B #G"/></app> ?</said> 
    Ainsi fu que <rs type="person" key="Melchis">li princes</rs> se fia en <persName key="Celydus">Celydus</persName> et en 
-   <persName key="Dyanor">Dyanor</persName> et leur charga <num>v<hi rend="exposant">c</hi></num> <name type="people">Sarrazins</name>. 
+   <persName key="Dyanor">Dyanor</persName> et leur charga <num>v<hi rend="exposant">c</hi></num> <name type="people" key="Sarrasins">Sarrazins</name>. 
    Et il meismes d’autre part en ot <num>x</num> mille. 
    Si se mistrent a chevauchier devers <rs type="place" key="Dyerlo">le chas<cb n="e"/>tel devant nonmé</rs>. 
    Novelles vindrent en l’ost <rs type="person" key="Roi de Jérusalem">le roy</rs> que <rs type="person" key="Melchis">li princes</rs> 
@@ -7013,7 +7015,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <cb n="f"/>a nostre gent que mal de celi qui desfensse meist en lui qu’il ne couvenist reculer 
    <rs type="person" key="Roi de Jérusalem"><app><lem wit="#V3 #G #X2">le</lem><rdg wit="#B">nostre</rdg></app> roy</rs> et 
    <app><lem wit="#V3 #G #X2">sa</lem><rdg wit="#B">nostre</rdg></app> gent, si que tel cuer et 
-   <app><lem wit="#V3 #G #X2">tele</lem><rdg wit="#B">si grant</rdg></app> force donnerent aus <name type="people">Sarrazins</name> 
+   <app><lem wit="#V3 #G #X2">tele</lem><rdg wit="#B">si grant</rdg></app> force donnerent aus <name type="people" key="Sarrasins">Sarrazins</name> 
    qu’il ocistrent tant des nos que li remanans <app><lem wit="#V3 #B #X2">se</lem><rdg wit="#G"/></app> mist a la voie. 
    <said who="#nar">Et trouvons en la fin que</said> <rs type="person" key="Roi de Jérusalem">li roys</rs> eust esté detenu 
    se <persName key="Dyanor">Dyanor</persName> n’eust esté, qui pas ne <app><lem wit="#V3 #B #X2">s’en</lem><rdg wit="#G">se</rdg></app> 
@@ -7030,7 +7032,8 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <said aloud="true" direct="true">Il n’est pas poins que vous m’en diez ore la reson. Mes or nous en retraions, et puis si 
       <app><lem wit="#V3 #G">parlerons</lem><rdg wit="#B">parlez</rdg><rdg wit="#X2">parlons</rdg></app> 
       <app><lem wit="#V3 #G">ensemble d’autre chose</lem><rdg wit="#B #X2">d'el</rdg></app>.</said></p> 
-<p n="P718"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>tant se retraitrent li <name type="people">Sarrazin</name>, 
+<p n="P718"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>tant se retraitrent li 
+   <name type="people" key="Sarrasins">Sarrazin</name>, 
    et <rs type="person" key="Melchis">li prince</rs> se mist ou <rs type="place" key="Dyerlo">chastel</rs>, o lui 
    <app><lem wit="#V3 #G">ses</lem><rdg wit="#B #X2">les</rdg></app> <num>ii</num> cousins et plusseurs autres barons. 
    Quant touz furent desarmez, si en i ot de bleciez et de navrez, et meismement <persName key="Celydus">Celydus</persName> et 
@@ -7104,7 +7107,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <rs type="place" key="Antioche">la ville</rs> qu’il n’i eust honme qui a cheval peust monter quil n’isist aus chans en aucuns 
    acesmemens encontre <rs type="person" key="Alerie"><app><lem wit="#V3 #G #X2">sa</lem><rdg wit="#B">la</rdg></app> suer</rs>, 
    qui n’avoit esté en <rs type="place" key="Antioche">la ville</rs> grant temps avoit. Adonc n’i ot nul qui cheval eust qui n’ait fet 
-   son pooir de joie fere. Et mistrent <name type="people">Sarrazin</name> tel painne a ce <cb n="c"/>que on parlast d’eulz de joie faire 
+   son pooir de joie fere. Et mistrent <name type="people" key="Sarrasins">Sarrazin</name> tel painne a ce <cb n="c"/>que on parlast d’eulz de joie faire 
    que il en durent estre a touzjours grevé, si conme de richesces et de nobles paremens. <persName key="Celydus">Celydus</persName>, 
    <app><lem wit="#V3 #B #X2"><said who="#nar">de qui je tieng mon conte</said></lem><rdg wit="#G"/></app>, ne se mist pas en oubli, 
    entre lui et <rs type="person" key="Dyanor">son compaingnon</rs>, car il estoient 
@@ -7365,7 +7368,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <rs type="person" key="Melchis">le prince</rs> <rs type="person" key="Alerie">la pucele</rs> 
    <app><lem wit="#V3 #G #X2">et la</lem><rdg wit="#B"/></app> mist a conseil et dist :
    <said aloud="true" direct="true">Ma tres chiere suer, je me fie moult en vous, car ces <num>ii</num> 
-      <name type="people">François</name> vous ai mis en main pour ce que je vous ai dit.</said>
+      <name type="people" key="Français">François</name> vous ai mis en main pour ce que je vous ai dit.</said>
    <said aloud="true" direct="true">Frere, dist elle, ce est si grant chose d’eulz. 
       <app><lem wit="#V3 #G #X2">Ce</lem><rdg wit="#B">Ce me semble qu'il</rdg></app> 
       m’est avis que trop avroit a faire qui de leur propre volenté les voudroit jeter, pour quoi il me semble que ce seroit 
@@ -7441,7 +7444,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
 <p n="P737"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>tant ont leurs parolles a ce menees que 
    <persName key="Celydus">Celydus</persName> <app><lem wit="#V3 #B #X2">atourna</lem><rdg wit="#G">atira</rdg></app> son affaire, 
    et prist congié il et <persName key="Dyanor">Dyanor</persName> et orent sauf conduit du <rs type="person" key="Melchis">prince</rs> 
-   parmi la terre des <name type="people">Sarrazins</name> jusques <app><lem wit="#V3 #G #X2">a tant que il 
+   parmi la terre des <name type="people" key="Sarrasins">Sarrazins</name> jusques <app><lem wit="#V3 #G #X2">a tant que il 
       <app><lem wit="#V3 #G">vindrent</lem><rdg wit="#X2">furent</rdg></app></lem><rdg wit="#B"/></app> en la terre des crestiens. 
    <said who="#nar">Si me vueil <app><lem wit="#V3 #B #X2">ore atant</lem><rdg wit="#G"/></app> taire d’eulz et 
       <app><lem wit="#V3 #B #X2">vueil</lem><rdg wit="#G"/></app> venir a</said> 
@@ -7691,7 +7694,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <app><lem wit="#V3 #G #X2">autre</lem><rdg wit="#B">autre ne conchieroit</rdg></app>. Il ne fu pas pereceus 
    <app><lem wit="#V3 #G #X2">que</lem><rdg wit="#B"/></app> partout la ou il cuidoit avoir secours et aide 
    <app><lem wit="#V3 #G #X2">il envoia</lem><rdg wit="#B"/></app>. 
-   A celui temps estoit mors le bon conte <persName key="Robert">Robert de <placeName key="Flandres">Flandres</placeName></persName>, 
+   A celui temps estoit mors le bon conte <persName key="Robert">Robert</persName> de <placeName key="Flandres">Flandres</placeName>, 
    qui la concorde avoit faite, <said who="#nar">si conme devant <app><lem wit="#V3 #G #X2">a esté dit</lem>
       <rdg wit="#B">il est contenu en cest livre</rdg></app></said>. Mes <num>i</num> autre prince qui avoit 
    la fille au <rs type="person" key="Robert">bon conte</rs>, qui <persName key="Mardocheus">Mardocheus</persName> estoit apelez, 
@@ -7702,7 +7705,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    si fu moult couvoiteus de faire secours au bon <persName key="Helcanus">Helcanus</persName>, si prist tant pou de bonne chevalerie 
    conme il avoit et <app><lem wit="#V3 #G #X2">vint</lem><rdg wit="#B">vint sans sejor</rdg></app> en <placeName key="Grèce">Grece</placeName>.</p>
 <p n="P748"><persName key="Daphus"><app><lem wit="#V3 #B #X2"><c ana="lettrine2">D</c>aphus</lem><rdg wit="#G">Japhus</rdg></app></persName> 
-   li <name type="people">Frizons</name> et maint autre baron que il amena o lui 
+   li <name type="people" key="Frisons">Frizons</name> et maint autre baron que il amena o lui 
    ne se mistrent pas derriere. <persName key="Josias">Josyas</persName> d’<placeName key="Espagne">Espaingne</placeName>, 
    qui autre fois avoit esté ou paÿs, si avoit mis son cuer en la femne 
    <persName key="Leus"><app><lem wit="#V3 #G #X2">Leus</lem><rdg wit="#B">Leris</rdg></app></persName>, 
@@ -8016,7 +8019,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <rs type="person" key="Seigneur de Terre Labour">vassal</rs> 
    emporterent <rs type="person" key="Seigneur de Terre Labour">leur seingneur</rs> devant <persName key="Pelyarmenus">Pelyarmenus</persName>, 
    qui conmanda au <rs type="person" key="Duc de Pouilles">duc de <placeName key="Pouilles">Puille</placeName></rs> que il s’abandonnast, et il si fist, entalentez de chevalerie faire, 
-   si que <app><lem wit="#V3 #G">li</lem><rdg wit="#B #X2"/></app> <name type="people">Grieu</name> en orent le pyeur en pou d’eure. 
+   si que <app><lem wit="#V3 #G">li</lem><rdg wit="#B #X2"/></app> <name type="people" key="Grecs">Grieu</name> en orent le pyeur en pou d’eure. 
    Quant <persName key="Mirus">Mirrus</persName> vint, il et li sien, qui ne furent pas a aprendre a qui il devoient avoir le tournoy, 
    car <said who="#nar">nous trouvons ou conte, qui assez briefment em parolle pource que il ne puet pas raconter le fet de chascun,</said> 
    que <persName key="Mirus">Mirrus</persName> et li sien mistrent ci au desous en leur 
@@ -8078,14 +8081,14 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <persName key="Mirus">Mirrus</persName> ou sien. <app><lem wit="#V3 #B #X2">Meismes ainsint n’eussent eu garde nos 
    <app><lem wit="#V3 #G #X2">frans</lem><rdg wit="#B">françois</rdg></app> chevaliers tant 
       <app><lem wit="#V3 #G #X2">conme</lem><rdg wit="#B">que</rdg></app> li autre se fussent ainsi prouvé.</lem><rdg wit="#G"/></app></p>
-<p n="P764"><c ana="lettrine2">Q</c>uant <name type="people">Fabonnois</name> et cil de <placeName key="Montyr">Montyr</placeName> 
+<p n="P764"><c ana="lettrine2">Q</c>uant <name type="people" key="Fabonnais">Fabonnois</name> et cil de <placeName key="Montyr">Montyr</placeName> 
    sorent que leurs seingneurs furent ainsi <app><lem wit="#V3 #B #X2">mis a mort</lem><rdg wit="#G">occis</rdg></app>, 
    si furent moult esbahy et n’orent cuer de puis faire bien. Adonc ont tourné les dos, 
    et ceus les ont menez jusques a leur gent, qui a ce ont recouvré, <app><lem wit="#V3 #G #X2">car</lem><rdg wit="#B">que</rdg></app> 
    <rs type="person" key="Comte de Pise">li quens de <placeName key="Pise">Pise</placeName></rs> et 
    <rs type="person" key="Vicomte de Naples">li quens de <placeName key="Naples">Naples</placeName></rs> et meismes l’estandart 
    <persName key="Pelyarmenus">Pelyarmenus</persName> se sont ferus <app><lem wit="#V3 #B #X2">entre</lem><rdg wit="#G">entre les</rdg></app> 
-   <name type="people">Grejois</name>, 
+   <name type="people" key="Grecs">Grejois</name>, 
    si a une <app><lem wit="#V3">en</lem><rdg wit="#B #X2">envaïe que</rdg><rdg wit="#G">ot</rdg></app><!-- Corr? --> 
    <pb n="40"/>moult en y ot 
    d’occis et d’asfolez. <said who="#nar">Que vous diroie je ? <app><lem wit="#V3 #G #X2">Je</lem><rdg wit="#B"/></app> 
@@ -8160,12 +8163,12 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    – si sembleroit ce oiseuse aus miex entendans –, si m’en passeré outre au miex que je pourrai et vueil venir a ce que,</said>
    quant il furent <app><lem wit="#V3 #G">pelle et melle</lem><rdg wit="#B #X2">perle et merle</rdg></app>, si 
    <app><lem wit="#V3 #B #X2">y</lem><rdg wit="#G"/></app> ot moult plus des uns que des autres 
-   et ne fu ore pas li giex a droit partis, mes ce n’eust esté le droit aus <name type="people">Grejois</name> qu’il avoient, 
+   et ne fu ore pas li giex a droit partis, mes ce n’eust esté le droit aus <name type="people" key="Grecs">Grejois</name> qu’il avoient, 
    <app><lem wit="#V3 #G #X2">et d’autre part il estoient</lem><rdg wit="#B"/></app> trop 
    <app><lem wit="#V3 #G #X2">bonne</lem><rdg wit="#B">mieudre</rdg></app> chevalierie par quoi, se Dieu leur eust destiné, 
-   <name type="people">Ronmain</name> n’i eussent <app><lem wit="#V3 #G #X2">eu</lem><rdg wit="#B"/></app> duree. Et nonpourquant 
+   <name type="people" key="Romains">Ronmain</name> n’i eussent <app><lem wit="#V3 #G #X2">eu</lem><rdg wit="#B"/></app> duree. Et nonpourquant 
    n’en orent il mie en la fin le meilleur, <said who="#nar">car li contes dist que</said>, quant il furent tuit assemblé, la partie aus 
-   <name type="people">Griex</name> si avoit cuer recouvré de ce que li frans <persName key="Mardocheus">Mardocheus</persName>, 
+   <name type="people" key="Grecs">Griex</name> si avoit cuer recouvré de ce que li frans <persName key="Mardocheus">Mardocheus</persName>, 
    qui avoit fet l’arriere garde, tresperça les rens et vint a toute sa gent en la bataille 
    <persName key="Pelyarmenus">Pelyarmenus</persName>, qui tant se fesoit garder curieusement que nul ne le peust aprochier 
    <app><lem wit="#V3 #G #X2">se</lem><rdg wit="#B">se ce</rdg></app> ne fust de trop loing. Et nonpourquant, a cele envaïe 
@@ -8184,7 +8187,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <app><lem wit="#V3 #G">fu</lem><rdg wit="#B #X2">lor estoit</rdg></app> resqueus. Si n’en fu pas bien paiez. Et que fist il ? 
    Onques nuls homs ne se mist en plus grant <app><lem wit="#V3 #G #X2">painne</lem><rdg wit="#B">peril</rdg></app> ne ne fit plus 
    <app><lem wit="#V3 #G #X2">de</lem><rdg wit="#B">grant</rdg></app> proesce fors que <num>i</num> chevalier qui ot a non 
-   <persName key="Eleazar">Eleazar</persName>, qui fu des <name type="people">Macabiex</name>, qui ocist l’olifant entre ceus qui le 
+   <persName key="Eleazar">Eleazar</persName>, qui fu des <name type="people" key="Macchabées">Macabiex</name>, qui ocist l’olifant entre ceus qui le 
    gardoient. Tout <app><lem wit="#V3 #B #X2">aussi</lem><rdg wit="#G">aussi le</rdg></app> fist <persName key="Sodore">Sodores</persName>
    parmi touz ceus <app><lem wit="#V3">que</lem><rdg wit="#B #G #X2">qui</rdg></app> <persName key="Pelyarmenus">Pelyarmenus</persName> 
    <app><lem wit="#V3 #B #X2">avoient a garder</lem><rdg wit="#G">gardoient</rdg></app>, vint a lui et li donna <num>i</num> cop en tel 
@@ -8203,7 +8206,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    qu’il avoit sorti que a cele journee <app><lem wit="#V3 #G">cuida</lem><rdg wit="#B #X2">devoit</rdg></app> il avoir victoire. 
    Si se conmença a desesperer. Mes aussi conme le proverbe dit : <cb n="e"/><seg ana="proverbe">Aler ne puet qui les piez a cuis</seg>, 
    tout en tele maniere avint il de <app><lem wit="#V3 #G #X2">son</lem><rdg wit="#B">cestui</rdg></app> sort. Car quant 
-   <name type="people">Grieu</name> virent que <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">Rommain</rdg></app> resortissoient petit a 
+   <name type="people" key="Grecs">Grieu</name> virent que <app><lem wit="#V3 #G #X2">il</lem><rdg wit="#B">Rommain</rdg></app> resortissoient petit a 
    petit, si cueillirent si grant orgueil em pou de temps qu’il cuidierent avoir du tout seurmonté 
    <app><lem wit="#V3 #G #X2">la</lem><rdg wit="#B">lor</rdg></app> partie adverse. Adonc se sont esforcié d’eulz mettre a destruiction, 
    si le firent si aigrement que en ce se conmencierent si fort a haster qu’il se departirent de leur conrois et 
@@ -8345,7 +8348,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    aprés l’autre, ainsi conme il m’est avis</said>, <persName key="Mirus">Myrrus</persName>, qui toute autre chose avoit mise arriere 
    pour garder de pres <persName key="Helcanus">Helcanus</persName>, <said who="#nar">si conme je ai desus dit qu’</said>il s’estoit 
    habandonnez a fere ce qu’il couvenist <app><lem wit="#V3 #G #X2">a</lem><rdg wit="#B"/></app> lessier, 
-   car il aloient <name type="people">Ronmains</name> chastoiant en tele maniere que mal de celui qu’il ne fouist devant eulz, 
+   car il aloient <name type="people" key="Romains">Ronmains</name> chastoiant en tele maniere que mal de celui qu’il ne fouist devant eulz, 
    dont il avint que tant y ot des occis que nuls n’en cuidoit vif eschaper. Li traitres, <said who="#nar">de qui li contes ne fait ore 
       pas <app><lem wit="#V3 #G">ci</lem><rdg wit="#B #X2">ci endroit</rdg></app> mencion</said> 
    <app><lem wit="#V3 #G">qu’il firent</lem><rdg wit="#B #X2">qui il furent</rdg></app> pource que trop vilz chose 
@@ -8551,7 +8554,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    et coupa les cengles et les <app><lem wit="#V3 #G #X2">mist</lem><rdg wit="#B">prist</rdg></app> en la main senestre et la gita amont 
    sus son chief, et a la destre tint l’espee, dont il <app><lem wit="#V3 #G">avoit</lem><rdg wit="#B #X2">avoit le jor</rdg></app> 
    maint <app><lem wit="#V3 #G">honme</lem><rdg wit="#B #X2"/></app> <app><lem wit="#V3 #G #X2">abatu</lem><rdg wit="#B"/></app> 
-   <name type="people">Ronmain</name> <app><lem wit="#V3 #B #X2">et</lem><rdg wit="#G">ot</rdg></app> mis a mort. Quant cil virent que il ot ce fet, si ont ensus sachiez leurs frains, 
+   <name type="people" key="Romains">Ronmain</name> <app><lem wit="#V3 #B #X2">et</lem><rdg wit="#G">ot</rdg></app> mis a mort. Quant cil virent que il ot ce fet, si ont ensus sachiez leurs frains, 
    et n’i ot <app><lem wit="#V3 #G #X2">nul</lem><rdg wit="#B">nul d'euls</rdg></app> si hardi qui l’osast aprochier, dont li un d’eulz dist <num>i</num> mot moult covenable :
    <said aloud="true" direct="true">Ha ! chevalier de parfaite honneur et de tres haute grace, je me rendisse a vous, 
    mes que vous me vousissiez recevoir a merci.</said>
@@ -9782,7 +9785,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    <persName key="Mardocheus">Mardocheus</persName> <app><lem wit="#V3 #G #X2">ne</lem><rdg wit="#B"/></app> 
    <app><lem wit="#V3 #G #X2">venist</lem><rdg wit="#B">vint</rdg></app> au 
    <rs type="person" key="Karus">duc de <placeName key="Nise">Nice</placeName></rs>, qui estoit son pere, et meismes a 
-   <persName key="Japhus">Japhus</persName> le <name type="people">Frison</name>, car il dui fesoient l’arriere garde, qui furent moult 
+   <persName key="Japhus">Japhus</persName> le <name type="people" key="Frisons">Frison</name>, car il dui fesoient l’arriere garde, qui furent moult 
    joiant <app><lem wit="#V3 #B #X2">et moult lié</lem><rdg wit="#G"/></app> quant i l’ont veu. Lors li dist 
    <rs type="person" key="Karus">le duc, son pere</rs> :
    <said aloud="true" direct="true">Biau filz, de sagement esploitier d’ore en avant ne seroit 
@@ -9792,7 +9795,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
    Car vez ci <rs type="person" key="Dyomarques">le roy d’<placeName key="Arragon">Arragon</placeName></rs> qui nous suit. 
    Et quant il verra que nous serons entrez en ces montaingnes, il se ferra en la queue de nostre gent, si n’avrons pooir d’eulz aidier. 
    Si avrons ainsi perdu nostre honnor et <app><lem wit="#V3 #G #X2">la</lem><rdg wit="#B">le</rdg></app> vostre.</said>
-   Lors respondi <persName key="Japhus">Japhus</persName> le <name type="people">Frison</name> et dist :
+   Lors respondi <persName key="Japhus">Japhus</persName> le <name type="people" key="Frisons">Frison</name> et dist :
    <said aloud="true" direct="true">Conment ! N’est il nulz qui sache que <persName key="Dorus">Dorus</persName> 
       <app><lem wit="#V3 #G">soit</lem><rdg wit="#B #X2">est</rdg></app> devenus ?</said>
    <said aloud="true" direct="true">Nennil, dist <persName key="Mardocheus">Mardocheus</persName>, 
@@ -9915,7 +9918,7 @@ si le meilleur que l'autre s'ele se vousist deffendre que il ne peussent estre f
 <p n="P839"><note type="apparat">Pas de nouveau § B</note>
    <app><lem wit="#V3 #B #X2"><c ana="lettrine2">T</c>out</lem><rdg wit="#G">Dont</rdg></app> ainsi fu le jour pris 
    <app><lem wit="#V3 #B #X2"><said who="#nar">conme j’ai devisé</said></lem><rdg wit="#G"/></app>. Si avint que 
-   <persName key="Japhus">Japhus</persName> le <name type="people">Frison</name> 
+   <persName key="Japhus">Japhus</persName> le <name type="people" key="Frisons">Frison</name> 
    et <rs type="person" key="Dyomarques">le roy d’<placeName key="Arragon">Arragon</placeName></rs> 
    <app><lem wit="#V3 #G">pristrent</lem><rdg wit="#B #X2">pristrent le</rdg></app> jour de parlement de la endroit au jour saint Jehan 
    aprés en <app><lem wit="#V3 #G #X2">suivant</lem><rdg wit="#B">suivant a venir</rdg></app>, et parmi grans asseurances faites. 
