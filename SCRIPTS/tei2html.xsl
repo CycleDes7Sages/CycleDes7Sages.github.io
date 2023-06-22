@@ -37,8 +37,10 @@
         .<span class="num"><xsl:apply-templates/></span>.        
     </xsl:template>
     <xsl:template match="hi[@type='exp']">
-        <sup><span class="exp"><xsl:apply-templates/></span></sup>        
-      <!--  <xsl:choose>
+        <sup><span class="exp"><xsl:apply-templates/></span></sup> 
+    </xsl:template>
+    <xsl:template match="hi">
+        <xsl:choose>
             <xsl:when test="@rend='exp'">
                 <sup><span class="exp"><xsl:apply-templates/></span></sup>
             </xsl:when>
