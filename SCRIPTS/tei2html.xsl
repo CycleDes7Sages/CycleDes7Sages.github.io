@@ -34,15 +34,24 @@
         <span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="num">
-        .<span class="num"><xsl:apply-templates></xsl:apply-templates></span>.        
+        .<span class="num"><xsl:apply-templates/></span>.        
     </xsl:template>
-    <xsl:template match="hi">
-        <xsl:choose>
-            <xsl:when test="@rend='exposant'">
+    <xsl:template match="hi[@type='exp']">
+        <sup><span class="exp"><xsl:apply-templates/></span></sup>        
+      <!--  <xsl:choose>
+            <xsl:when test="@rend='exp'">
                 <sup><span class="exp"><xsl:apply-templates/></span></sup>
             </xsl:when>
-        </xsl:choose>        
+        </xsl:choose>  
+        <xsl:choose>
+            <xsl:when test="@rend='italique'">
+                <i><xsl:apply-templates/></i>
+            </xsl:when>
+        </xsl:choose> -->
     </xsl:template>
+    <xsl:template match="hi[@type='italique']">
+        <i><xsl:apply-templates/></i> 
+    </xsl:template>    
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@direct='true'"> 
@@ -54,26 +63,25 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="del"> 
-        <span class="del"><xsl:apply-templates></xsl:apply-templates></span>
+        <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="add"> 
         <b>[<xsl:apply-templates></xsl:apply-templates>]</b>
     </xsl:template>
     <xsl:template match="rdg"> 
-        <i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
+        <i>[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
     </xsl:template>
     <xsl:template match="lem">
-        <i><span class="lem"><xsl:apply-templates></xsl:apply-templates></span></i>
+        <i><span class="lem"><xsl:apply-templates/></span></i>
     </xsl:template>
     <xsl:template match="supplied">
-        <b><i>[<xsl:apply-templates></xsl:apply-templates><xsl:text> </xsl:text><xsl:value-of select="translate(@source,'#','')"/>]</i></b>
+        <b><i>[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@source,'#','')"/>]</i></b>
     </xsl:template>
     <xsl:template match="note">
-        [<i><xsl:apply-templates></xsl:apply-templates></i>]
+        [<b><span class="note"><xsl:apply-templates/></span></b>]
     </xsl:template>
     <xsl:template match="c">    
-        <i><span class="c">         
-            <xsl:apply-templates/></span></i>
+        <i><span class="c"><xsl:apply-templates/></span></i>
     </xsl:template>
     <xsl:template match="persName">
         <span class="persName"><xsl:apply-templates/></span>
@@ -81,8 +89,19 @@
     <xsl:template match="placeName">
         <span class="placeName"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="rs">
-        <span class="rs"><xsl:apply-templates/></span>
+    <xsl:template match="rs[@type='people']">
+        <span class="people"><xsl:apply-templates/></span> 
+        <!-- <xsl:choose>
+            <xsl:when test="@type='people'">
+                <span class="people"><xsl:apply-templates/></span>
+            </xsl:when>
+            <xsl:when test="@type='place'">
+                <span class="place"><xsl:apply-templates/></span>
+            </xsl:when>
+        </xsl:choose> -->
+    </xsl:template>
+    <xsl:template match="rs[@type='place']">
+        <span class="place"><xsl:apply-templates/></span> 
     </xsl:template>
     <xsl:template match="seg">
         '<xsl:apply-templates></xsl:apply-templates>'

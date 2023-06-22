@@ -16,7 +16,7 @@ body {
 
 .cb {
     font-size:15px;
-    color:fuchsia;
+    color:red;
 }
 
 .pb {
@@ -32,8 +32,12 @@ body {
     color:orange;
 }
 
-.rs {
+.place {
     color:green;
+}
+
+.people {
+    color:pink;
 }
 
 .c {
@@ -46,14 +50,14 @@ body {
     font-variant:small-caps;
 }
 
-.exp{
-    font-variant:small-caps;
-}
-
 .del {
     text-decoration:line-through;
     }
     
 .lem {
+    text-decoration:underline;
+}
+
+.note {
     text-decoration:underline;
 }
