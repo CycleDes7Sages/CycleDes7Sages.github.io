@@ -37,8 +37,10 @@
         .<span class="num"><xsl:apply-templates/></span>.        
     </xsl:template>
     <xsl:template match="hi[@type='exp']">
-        <sup><span class="exp"><xsl:apply-templates/></span></sup>        
-      <!--  <xsl:choose>
+        <sup><span class="exp"><xsl:apply-templates/></span></sup> 
+    </xsl:template>
+    <xsl:template match="hi">
+        <xsl:choose>
             <xsl:when test="@rend='exp'">
                 <sup><span class="exp"><xsl:apply-templates/></span></sup>
             </xsl:when>
@@ -47,7 +49,7 @@
             <xsl:when test="@rend='italique'">
                 <i><xsl:apply-templates/></i>
             </xsl:when>
-        </xsl:choose> -->
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="hi[@type='italique']">
         <i><xsl:apply-templates/></i> 
@@ -89,16 +91,19 @@
     <xsl:template match="placeName">
         <span class="placeName"><xsl:apply-templates/></span>
     </xsl:template>
+    <xsl:template match="rs">
+        <span class="rs"><xsl:apply-templates/></span>
+    </xsl:template>
     <xsl:template match="rs[@type='people']">
         <span class="people"><xsl:apply-templates/></span> 
-        <!-- <xsl:choose>
+        <xsl:choose>
             <xsl:when test="@type='people'">
                 <span class="people"><xsl:apply-templates/></span>
             </xsl:when>
             <xsl:when test="@type='place'">
                 <span class="place"><xsl:apply-templates/></span>
             </xsl:when>
-        </xsl:choose> -->
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="rs[@type='place']">
         <span class="place"><xsl:apply-templates/></span> 
