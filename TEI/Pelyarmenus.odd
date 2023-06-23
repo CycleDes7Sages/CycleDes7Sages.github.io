@@ -580,11 +580,13 @@
 
           <elementSpec ident="del" module="core" mode="change">
             <attList>
-              <attDef ident="rend" mode="change" usage="req">
+              <attDef ident="rend" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="strikethrough"/>
                   <valItem ident="exponctuation"/>
                   <valItem ident="scraped"/>
+                  <valItem ident="exponctuation+strikethrough"/>
+                  <valItem ident="faded"/>
                 </valList>
               </attDef>
               <attDef ident="hand" mode="change" usage="req">
