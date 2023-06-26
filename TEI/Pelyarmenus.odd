@@ -62,28 +62,34 @@
       </div>
       <div>
         <head>Logiques d'encodage du texte</head>
-        <p>Dans le suivi du texte, nous avons souhaité garder trace des décisions éditoriales de la première éditrice 
-          de la première partie (§1-134) du roman, Lorna Bullwinkle Brodtkorb.
-          <!-- à revoir -->Celles-ci sont indiquées via les balises <gi>app</gi> et <gi>supplied</gi> avec la valeur d'attribut @resp au nom de
-          Brodtkorb pour offrir la trace la plus sûre de ses interventions en amont de notre propre travail de collation</p>
-        <p> <!-- à revoir dans section spécifique ? -->Dans notre travail de collation, nous avons utilisé les balises <gi>app</gi>, incluant celles de <gi>lem</gi> et <gi>rdg</gi>, 
-          mais aussi la balise <gi>supplied</gi> pour pallier aux oublis dans notre manuscrit de base 
-          <!-- à revoir : préciser emploi supplied -->. 
-          Dans tous les cas, le témoin cité a été spécifié par l'attribut @wit ou @source dans le cas de la balise <gi>supplied</gi>. 
-          <!-- à revoir : supplied pour correction, non ? -->Nous avons veillé à distinguer, en les indiquant avec l'attribut @type, 
-          les balises d'apparat selon qu'elles relèvent de variantes ou de corrections du manuscrit de base.
-        Nous avons recouru aux balises <gi>del</gi> et <gi>add</gi> pour les modifications de la main du copiste 
+        <p><title>Apparat critique</title>
+          Les variantes retenues dans chacun de nos 3 manuscrits témoins, B, G et X2 
+          (nous renvoyons pour cela au protocole de collation) ont été indiquées via les balises,  
+          <gi>app</gi>, incluant celles de <gi>lem</gi> pour noter la leçon retenue et <gi>rdg</gi> pour les variantes.
+          Une première couche d'apparat concerne les leçons de notre manuscrit de base que nous avons préféré rejeter, 
+          formalisée par une balise <gi>rdg</gi> dont le témoin @wit cité est premièrement le manuscrit V. 
+          Parmi ces corrections à apporter au manuscrit de base, se trouvent toutes les occurrences d'auto-corrections 
+          incluses dans le manuscrit. Nous avons recouru aux balises <gi>del</gi> et <gi>add</gi> pour les modifications de la main du copiste 
           dans le manuscrit de base, ou du second officiant aussi sur ce manuscrit.   
           Dans la mesure du possible, nous avons veillé à rendre la réalité du manuscrit de base sur lequel nous
-          travaillons, ces corrections ont donc été justifiées par l'attribut @rend ou @place, 
+          avons travaillé, ces corrections ont donc été justifiées par l'attribut @rend ou @place, 
           selon qu'elles relèvent d'exponctuations ou de biffures, d'ajouts marginaux
-        et par l'attribut @hand pour spécifier la main à laquelle nous avons jugé bon de rattacher ces modifications.</p> 
-          <p>Nous avons souhaité offrir un accès le plus complet possible au manuscrit que nous avons transcrit 
+          et par l'attribut @hand pour spécifier la main à laquelle nous avons jugé bon de rattacher ces modifications.
+          Dans cette première couche d'apparat figurent également les balises <gi>supplied</gi> qui viennent 
+          pallier aux oublis dans notre manuscrit de base. Elles conserves, par @source, le(s) témoin(s) cité(s). 
+          La seconde couche d'apparat présente pour sa part toutes les autres occurrences de variantes lues dans nos manuscrits témoins.
+          Les différences dans la mise en page du texte ont été indiquées pour chaque manuscrit dans notre travail de collation. 
+          En particulier, nous avons gardé trace des absences ou ajouts de paragraphes, ou d'enluminures, 
+          assez spécifiques au témoin B notamment, par le biais 
+          d'une balise <gi>note</gi>, au @type "apparat", indiquée après la mention de chaque paragraphe concerné.
+        Un autre @type de note a également été introduit pour présenter ce qui relève de "notecritique".</p> 
+          <p><title>Mise en page et structuration du texte</title>
+            Nous avons souhaité offrir un accès le plus complet possible au manuscrit que nous avons transcrit 
             et avons pour cela balisé les éléments les plus saillants de sa mise en page. Aux balises <gi>pb</gi> qui indiquent les folios 
-            travaillés, s'ajoutent celles des <gi>cb</gi> qui gardent trace de la structure en trois colonnes de chaque folio. 
+            présentés, s'ajoutent celles des <gi>cb</gi> qui gardent trace de la structure en trois colonnes de chaque folio. 
             Nous les avons numérotées b, c, d, e, f; la première étant indiquée par le changement de folio avec <gi>pb</gi>. 
             Nous avons créé une <gi>div</gi> spécifique pour chaque section présentée comme telle dans le manuscrit, 
-            indiquée par une rubrique (rendue par la balise <gi>head</gi>, avec la valeur d'attribut @type de rubrique), 
+            indiquée par une rubrique (rendue par la balise <gi>head</gi>, avec la valeur d'attribut @type "rubrique"), 
             et une illustration dans l'immense majorité des cas présentés dans notre manuscrit de base 
             (rendue par la balise <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son @url vers le site de Gallica 
             de la Bibliothèque nationale de France), et un <gi>figDesc</gi> permettent d'offrir accès à la composante iconographique 
@@ -93,32 +99,37 @@
             Le texte est organisé, outre ces grandes subdivisions, en paragraphes, eux-mêmes indiqués par une lettrine, 
             de la taille de deux réglures dans le manuscrit, 
             comme nous l'avons systématiquement précisé de la même manière que celle décrite ci-dessus.            
-            Les différences dans la mise en page du texte ont été indiquées pour chaque manuscrit dans notre travail de collation. 
-            En particulier, nous avons gardé trace des absences ou ajouts de manuscrits, assez spécifiques au témoin B, par le biais 
-            d'une balise <gi>note</gi>, au @type "apparat", indiquée après la mention de chaque paragraphe concerné.
             Si nous avons écarté toute indication formelle de décoloration, trou dans le parchemin, variation d'encre anodine, 
             nous avons conservé trace de chacune de ces altérations de la qualité du manuscrit quand elles ne permettaient pas une lecture 
             assurée du texte. Nous les avons rendues par la balise <gi>unclear</gi>, systématiquement précisées par l'attribut @reason 
             selon la cause exacte que nous détections pour cette altération.
             Si cela ne nous paraissait pas possible de trancher, nous l'avons précisé de manière explicite par la valeur de cet attribut 
             "uncertain".</p>
-          <p>Dans notre analyse d'un roman aussi fourmillant que l'est le "Roman de Pelyarmenus", nous avons décidé de rendre tout 
-            l'intérêt et la richesse de l'étude des personnages mis en présence et des lieux parcourus par les balises <gi>persName</gi> 
-            et <gi>placeName</gi> pour chaque occurrence présentée. Nous avons à chaque fois précisé par l'attribut @key l'identité exacte, 
-            à l'orthographe uniformisée, du personnage ou du lieu à identifier. 
+          <p><title>Identification des personnages et lieux et index</title>
+            Dans notre analyse d'un roman aussi fourmillant que l'est le <hi rend="italique">Roman de Pelyarmenus</hi>, 
+            nous avons décidé de rendre tout l'intérêt et la richesse de l'étude des personnages mis en présence et des lieux parcourus 
+            par les balises <gi>persName</gi> et <gi>placeName</gi> pour chaque occurrence présentée. Nous avons à chaque fois précisé 
+            par l'attribut @key l'identité exacte, à l'orthographe uniformisée (selon sa forme la plus récurrente dans 
+            le manuscrit), du personnage ou du lieu à identifier. <!-- compléter pour l'orthographe des placeName -->
             Au vu du grand nombre de personnages et de lieux mobilisés, sous des
             étiquettes et des titres variables en outre, nous avons souhaité conservé trace des
             identités de chacun-e grâce aux balises <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne
             désigner un personnage ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés, mais aussi évoqués 
-            (par exemple pour les ducs de Lembourc ou empereurs de Rome, aux identités floues ou multiples selon les cas). 
-            Nous y avons intégré le même attribut @key pour en préciser l'identité, 
-            créant ainsi une base d'informations stables en vue de l'index nominum et de l'index locorum de notre édition.
+            (par exemple pour les duc de Lembourc ou empereur de Rome, aux identités floues ou multiples selon les cas).
+            Nous y avons intégré le même attribut @key pour en préciser l'identité (dans ce cas, la key renvoie soit à 
+            l'orthographe majoritaire retenue pour les <gi>persName</gi> soit à l'orthographe des noms données dans 
+            les autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons également nous-mêmes dénommé ou étiqueté 
+            les personnages anonymes ou les lieux dits qui apparaissaient à plusieurs reprises dans la narration,
+            sous une forme standardisée dans une orthographe moderne.) <!-- compléter pour les placeName -->,
+            créant ainsi une base d'informations stables en vue de l'<hi rend="italique">index nominum</hi> et de 
+            l'<hi rend="italique">index locorum</hi> de notre édition.
             Nous n'avons néanmoins pas intégré cette balise <gi>rs</gi> dans les cas où le personnage en question
             fait l'objet d'une adresse directe dans le cadre d'un dialogue qui le verrait explicitement nommé juste avant ou après. 
             N'ont également pas été indiquées par cette balise les mentions de personnages par pronoms ou les groupes de personnages. 
-            Les personnages ou lieux cités de manière abstraite (comme "li mires", "la pucele") et apparus une seule fois n'ont eux aussi 
-            pas été référencés de la sorte pour ne pas polluer excessivement les index.</p>
-        <p>Nous avons également souhaité prêter attention aux formes du discours dont procède la trame narrative. 
+            Les personnages et lieux apparus une seule fois n'ont eux aussi pas été référencés de la sorte pour ne pas polluer 
+            excessivement les index.</p>
+        <p><title>Formes du discours</title>
+          Nous avons également souhaité prêter attention aux formes du discours dont procède la trame narrative. 
           Nous avons précisé dans chacune des balises <gi>said</gi> si elles présentaient un discours prononcé 
           à haute voix ou non avec l'attribut @aloud, direct ou non avec l'attribut @direct. 
           Pour attester la complexité des discours et l'importance des échos intertextuels dans ce cyle narratif, mais aussi 
@@ -136,7 +147,7 @@
           indiquée pour sa part par un xml:id auquel est adressée la référence dans la balise précédente.</p>
        </div>
       <div>
-        <head>Protocole de collation</head> <!-- à revoir -->
+        <head>Protocole de collation</head> <!-- à revoir : ici ou pas ? > revoir organisation du propos-->
         <p>Détailler ici les logiques de collation, tout court (ou intégrer présentation donnée par Sophie) (nécessaire ici?)
         et critères de mise en page numérique ? </p>
       </div>
