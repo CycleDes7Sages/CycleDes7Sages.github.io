@@ -135,6 +135,8 @@
           Pour attester la complexité des discours et l'importance des échos intertextuels dans ce cyle narratif, mais aussi 
           les jeux de pouvoir entre personnages, nous avons également recouru à une balise <tag>seg ana="discoursEnchassé"</tag>
           pour indiquer quand un discours est intégré dans un autre discours direct. 
+          Eu égard à l'importance dont elles peuvent aussi être investies, les lettres et chansons ont également été indiquées par ce
+          type de balise <tag>seg ana="lettre"</tag> et <tag>seg ana="chanson"</tag>.
           Dans le même ordre d'idées, et surtout pour illustrer la portée sapientiale du cycle, 
           nous avons indiqué les insertions, dans le discours ou la narration, de proverbes par la balise <tag>seg ana="proverbe"</tag>. 
           Nous avons également voulu donner du relief aux interventions narratoriales,
@@ -715,6 +717,8 @@
                 <valList type="closed">
                   <valItem ident="proverbe"/>
                   <valItem ident="discoursEnchassé"/>
+                  <valItem ident="lettre"/>
+                  <valItem ident="chanson"/>
                 </valList>
               </attDef>
             </attList>

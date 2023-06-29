@@ -109,7 +109,17 @@
         <span class="place"><xsl:apply-templates/></span> 
     </xsl:template>
     <xsl:template match="seg">
-        '<xsl:apply-templates></xsl:apply-templates>'
+        <xsl:choose>
+            <xsl:when test="@ana='lettre'"> 
+                "<xsl:apply-templates/>"
+            </xsl:when>
+            <xsl:when test="@ana='chanson'">
+                "<xsl:apply-templates/>"
+            </xsl:when>
+            <xsl:otherwise>
+                '<xsl:apply-templates/>'
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
         <i>[<xsl:apply-templates/>]</i>
