@@ -557,7 +557,7 @@
      <said aloud="true" direct="true">Par Dieu, sire chevaliers, dist ele, moult vous ai ore bien escouté. 
         Et sachiez que en vous a trop de refui. Moult fussiez bons 
         chastiaus, car me dites ore <said aloud="true" direct="false">quiex vos cuers <app><lem wit="#B #X2">est</lem>
-           <rdg wit="#V2 #G"/></app> <!--quel vous cuers G-->
+           <rdg wit="#V2 #G"/></app> 
            - il est autres que vous n’avez moustré - 
            et queles sont ces <num>ii</num> choses
            que vous <app><lem wit="#V2 #G #X2">avez tant douté</lem>
@@ -1255,7 +1255,7 @@
                   nous avons oÿ <app><lem wit="#V2 #G #X2">dire</lem>
                   <rdg wit="#B"/></app> 
                   que <said aloud="true" direct="false"><persName key="Ascanus">Ascanus</persName> 
-                     les a fait <!-- fais #X2, voir les autres? -->occirre</said>.</said>
+                     les a fait occirre</said>.</said>
                <said aloud="true" direct="true">Par Dieu, sire, dist ele, ce <app><lem wit="#V2 #G #X2">n’a pas <cb n="d"/>fait</lem>
                <rdg wit="#B">n'est pas</rdg></app> 
                   <persName key="Ascanus">Ascanus</persName>, ainz <app><lem wit="#V2 #G #X2">a ce fait</lem>
@@ -1983,7 +1983,7 @@
    <rdg wit="#B"/></app> 
    <app><lem wit="#V2 #G">en</lem>
    <rdg wit="#B #X2"/></app>
-   chaïrent des escuz<!--sic B-->, <app><lem wit="#V2 #G #X2">n’onques</lem>
+   chaïrent des escuz, <app><lem wit="#V2 #G #X2">n’onques</lem>
    <rdg wit="#B">Il</rdg></app> 
    pis ne <app><lem wit="#V2">s’entrefirent</lem>
       <rdg wit="#B #G">se firent</rdg>
@@ -2160,8 +2160,9 @@
          <rdg wit="#B">Nise la cité</rdg></app>, 
                il ne fina de chevauchier le chemin de 
       <placeName key="Costentinnoble">Costentinnoble</placeName> puis que il ot encontré 
-               <app><lem wit="#B #G #X2"><!--Myrus B, Mirus G, Myrrus X2--><persName key="Mirrus">Mirrus</persName></lem>
-          <rdg wit="#V2"><del rend="exponctuation" hand="main1">M</del> Mirrus</rdg></app>, 
+               <app><lem wit="#B #G #X2"><persName key="Mirrus">Mirrus</persName></lem>
+          <rdg wit="#V2"><del rend="exponctuation" hand="main1">M</del> Mirrus</rdg>
+               <rdg wit="#B">Myrus</rdg></app>, 
                si comme <app><lem wit="#V2 #G #X2">devant est dit</lem>
                <rdg wit="#B">dist est devant</rdg></app>, 
                <app><lem wit="#V2 #G #X2">et il vit que il en fu eschapez</lem>
@@ -2620,10 +2621,10 @@ encore en marge de la dernière ligne de la colonne.</note>
       <persName key="Karus">Karus</persName> et sui freres <persName key="Ascanus">Ascanus</persName>, 
       <app><lem wit="#V2 #G #X2">a</lem>
          <rdg wit="#B"/></app> 
-      qui ceste terre <!--rature #X2--> 
+      qui ceste terre  
       est et cest
       paÿs.</said>
-   <said aloud="true" direct="true">Bien ai <!--rature #X2--> 
+   <said aloud="true" direct="true">Bien ai  
       oÿ parler de vous, ce dist <persName key="Mirrus">Mirrus</persName>. 
       Or sui je liez quant je <app><lem wit="#V2 #G #X2">me porrai vengier</lem>
          <rdg wit="#B">vengier me porrai</rdg></app> 
@@ -5016,8 +5017,9 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#B">autrement</rdg></app> 
       qu’il cuidoient que ele fust envoiee
       en <placeName key="Grece">Grece</placeName></said>. 
-   Et <app><lem wit="#B #G #X2"><persName key="Mirrus">Myrrus</persName><!--B a Myrus; #G Mirus; #X2 Myrrus--></lem>
-      <rdg wit="#V2">Myrris</rdg></app> 
+   Et <app><lem wit="#B #G #X2"><persName key="Mirrus">Myrrus</persName></lem>
+      <rdg wit="#V2">Myrris</rdg>
+   <rdg wit="#B">Myrus</rdg></app> 
    ot conseil que il demorroit el
    chastel et <app><lem wit="#V2 #G #X2">qu’il remanderoit</lem>
       <rdg wit="#B">feroit savoir</rdg></app> 
@@ -5176,7 +5178,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <app><lem wit="#V2 #G #X2">et conjoié (<hi rend="italique">sic</hi>)</lem>
          <rdg wit="#B"/></app> 
                   de lui quant il me commanda a faire ce que je fis. <app><lem wit="#V2 #G #X2">Et</lem>
-         <rdg wit="#B"/></app><!---B a "Quant il me commanda a faire ce que je fis, pour lui escuser me mist...--> 
+         <rdg wit="#B"/></app><note type="notecritique">B donne une syntaxe différente: <hi rend="italique">Quant il me commanda a faire ce que je fis, pour lui escuser me mist...</hi></note> 
                   pour lui <app><lem wit="#V2 #G #X2">meismes</lem>
          <rdg wit="#B"/></app> 
                   escuser <app><lem wit="#V2 #G #X2">le m’a fait metre</lem>
@@ -5910,7 +5912,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">le commanderent</rdg></app> 
                a Dieu ; et moult y ot de tiex qui grans souspirs geterent, car moult <app><lem wit="#V2 #G #X2">s’en</lem>
                   <rdg wit="#B">le</rdg></app> 
-               douterent pour le pris de celui <persName key="Clerus">Clerus</persName><!--Clarus #X2-->.
+               douterent pour le pris de celui <persName key="Clerus"><app><lem wit="#V2 #B #G">Clerus</lem>
+               <rdg wit="#X2">Clarus</rdg></app></persName>.
 </p>
             <p n="P258"><rs type="person" key="Borleuz"><c ana="lettrine 2">L</c>i dus de <placeName key="Lembourc">Lembourc</placeName></rs>, 
                qui moult estoit <app><lem wit="#V2 #G #X2">sages et soutilz de</lem>
@@ -6012,7 +6015,7 @@ encore en marge de la dernière ligne de la colonne.</note>
 </p>
 <p n="P259">
    <note type="apparat">Pas de nouveau § B</note>
-   <c ana="lettrine 2">Q</c>uant <persName key="Clerus">Clerus</persName> l’entendi, si se repenti de l’athaÿne<!-- Help question de Prunelle à Sophie : tréma ici?  --> qu’il 
+   <c ana="lettrine 2">Q</c>uant <persName key="Clerus">Clerus</persName> l’entendi, si se repenti de l’athayne qu’il 
    <app><lem wit="#V2 #G #X2">avoit faite</lem>
       <rdg wit="#B">ot fait</rdg></app>, 
    quar il savoit bien qu’il avoit <app><lem wit="#B #G #X2">droit</lem>
@@ -7748,7 +7751,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <app><lem wit="#V2 #G #X2"><num>i</num></lem>
                      <rdg wit="#B"><num>i</num> sien</rdg></app> 
                   filz qui puis ot mestier a <rs type="person" key="Roi d'Espagne">vostre seigneur</rs>.</said>
-               Quant il ot ce oÿ<!--o réécrit sur un l ou une haste ascendante #X2-->, 
+               Quant il ot ce oÿ, 
                si sot bien maintenant que il demandoit. Lors li fist une <app><lem wit="#V2 #G #X2">joie</lem>
                   <rdg wit="#B">feste</rdg></app> 
                merveilleuse <app><lem wit="#V2 #G #X2">et puis aprés le mena</lem>
@@ -8649,7 +8652,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       quant il vous plaira.</said>
    <said aloud="true" direct="true">Amis, dist il, grans mercis. Dites moi <said aloud="true" direct="false">ou il est</said>.</said>
    <said aloud="true" direct="true">Sire, dist il, en la chappele pouez vous a lui parler.</said>
-   Dont se mist <persName key="Clyodorus">Clyodorus</persName> <!--Cleodorus #X2-->cele part et 
+   Dont se mist <persName key="Clyodorus"><app><lem wit="#V2 #B #G">Clyodorus</lem>
+   <rdg wit="#X2">Cleodorus</rdg></app></persName> cele part et 
    trouva <rs type="person" key="Ermite de Mignot">l’ermite</rs>, qui viex 
    estoit a merveilles. Quant il le vit, si se volt contre lui drecier, mais a <app><lem wit="#V2 #G #X2">grant</lem>
       <rdg wit="#B">tel</rdg></app> 
@@ -8953,7 +8957,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                <said who="#nar">ainssi comme vous avez oÿ</said>. 
                Quant ele le vit, si retorna dont ele estoit issue. Et ne demora <app><lem wit="#V2 #G #X2">gaires</lem>
                   <rdg wit="#B">pas longues</rdg></app> 
-               que <rs type="person" key="Chevalier de Mignot"><num>i</num> chevalier</rs>, aussi comme d’aage<!--deuxième a dans l'interligne#X2-->, vint la ou 
+               que <rs type="person" key="Chevalier de Mignot"><num>i</num> chevalier</rs>, aussi comme d’aage, vint la ou 
                <persName key="Clyodorus">Clyodorus</persName> gisoit et le trouva dormant. Il <app><lem wit="#V2 #G #X2">s’assist</lem>
                   <rdg wit="#B">sist</rdg></app> 
                delez lui, <app><lem wit="#V2">comme</lem>
@@ -9017,7 +9021,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#G"/></app>, 
       sire?</said> dist il. <said aloud="true" direct="true">Certes, oÿl. 
          Mais que vous <app><lem wit="#B #G #X2">preudons</lem>
-            <rdg wit="#V2"><del rend="exponctuation" hand="#main1">i</del> preudons <!--preudo(n)mB preudoms #Ge--></rdg></app>
+            <rdg wit="#V2"><del rend="exponctuation" hand="#main1">i</del> preudons</rdg>
+         <rdg wit="#B">preudo(n)m (<hi rend="italique">sic</hi>)</rdg></app>
          soiez.</said>
    <said aloud="true" direct="true">Sire, dist il, <app><lem wit="#V2 #G #X2">Diex y parface les desfautes</lem>
       <rdg wit="#B">ce que y faut, Dieus le parface</rdg></app>!</said>
@@ -9597,9 +9602,10 @@ encore en marge de la dernière ligne de la colonne.</note>
    tant fait par art, 
    dont ele set plus <cb n="f"/>que fame qui <app><lem wit="#V2 #G #X2">vive</lem>
       <rdg wit="#B">vive aujourd'ui</rdg></app>, 
-   que ele a ceenz fait venir <app><lem wit="#B #X2"><rs type="person" key="Cassidorus">l'empereour<!--l'em(per)eur#B--></rs></lem>
+   que ele a ceenz fait venir <app><lem wit="#B #X2"><rs type="person" key="Cassidorus">l'empereour</rs></lem>
       <rdg wit="#V2"><del rend="strikethrough" hand="main1">et son compaingnon</del> l’empereour</rdg>
-       <rdg wit="#G">et son compaignon l'empereur</rdg></app>
+      <rdg wit="#B">l'empereur</rdg> 
+      <rdg wit="#G">et son compaignon l'empereur</rdg></app>
    <app><lem wit="#V2 #B #X2">et <rs type="person" key="Daphus">son compaignon</rs></lem>
       <rdg wit="#G"/></app>, 
    pource que elle set bien qu’il sont quis par toutes terres. 
@@ -10135,7 +10141,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#V2"><del rend="exponctuation" hand="#main1">i</del>Clyodorus</rdg></app></persName> 
    qu’<said aloud="true" direct="false">il avoit son cheval lessié pres de l’entree de <rs type="place" key="Citerne">la cisterne</rs></said>, 
    <said aloud="true" direct="true">mais tel joie <app><lem wit="#V2 #B #X2">avoie</lem>
-      <rdg wit="#G">avoit</rdg></app><!--sic B avant changement, dans B donc--> 
+      <rdg wit="#G">avoit</rdg></app> 
       <app><lem wit="#V2 #G #X2">eue</lem>
       <rdg wit="#B">eu</rdg></app> 
       <app><lem wit="#V2 #G #X2">quant</lem>
@@ -10747,7 +10753,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                aide, car, <said who="#nar">si comme l’ystoire dit</said>, 
                en petit d’eure firent <num>i</num> part <app><lem wit="#V2 #G #X2">si grant entour eulz</lem>
                   <rdg wit="#B">entour euls tel</rdg></app> 
-               que bien le pot on veoir. <app><lem wit="#V2 #G #X2">Et</lem><!--Et précédé d'un signe??#G-->
+               que bien le pot on veoir. <app><lem wit="#V2 #G #X2">Et</lem>
                   <rdg wit="#B">car</rdg></app> 
                il furent suiviz de leur compaignons en tele maniere que mal fust de nul de 
                ceulz de la ville qui les <app><lem wit="#V2 #G #X2">osasent</lem>
@@ -11243,7 +11249,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#X2"/></app> 
                baron furent a <app><lem wit="#V2 #G">grant</lem>
                   <rdg wit="#X2"/></app> 
-               meschief de ce que il ne sorent que <!--q avec tilde réécrit sur un h#X2-->
+               meschief de ce que il ne sorent que 
                <persName key="Helcanus">Helcanus</persName> estoit devenus, 
                <app><lem wit="#V2"><said who="#nar">si comme vous avez devant oÿ</said></lem>
                   <rdg wit="#G #X2"/></app></lem>
@@ -11825,7 +11831,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                et l’eust tot pourfendu <app><lem wit="#V2">se</lem>
                   <rdg wit="#B #X2"/>
                   <rdg wit="#G">si</rdg></app> 
-               ne fust l’armeure, qui moult <!--mout #X2 toutes lettres deux fois dans ce feuillet-->li ot grant mestier. 
+               ne fust l’armeure, qui moult li ot grant mestier. 
                Aprés celui cop en feri maint autre, dont il ne failli mie que 
                <app><lem wit="#V2 #G #X2">maint n’en occeist</lem>
                   <rdg wit="#B">il a maint ne tolist la vie</rdg></app>. 
@@ -11872,7 +11878,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    pluseurs le mistrent du cheval a terre, <app><lem wit="#V2 #G #X2"><said who="#nar"> si que li comptes dist</said> 
       que, <said next="#P341-1" aloud="true" direct="false">se</said></lem>
       <rdg wit="#B">et dit li contes</rdg>
-      <rdg wit="#G">s'i<!--ou "si" pour G--></rdg></app>
+      <rdg wit="#G">s'i</rdg></app>
    <said xml:id="P341-1" aloud="true" direct="false">n’eust esté <persName key="Elygius">Elygius</persName>, 
       qui adés li estoit pres, <app><lem wit="#V2 #G #X2">il</lem>
          <rdg wit="#B">tost y</rdg></app> 
@@ -11885,7 +11891,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    entrepris que <app><lem wit="#V2 #G #X2">tost</lem>
       <rdg wit="#B">touz</rdg></app> 
    fust <app><lem wit="#V2 #G #X2">pris <app><lem wit="#V2 #X2">se</lem>
-      <rdg wit="#G">s'i <!--ou si #G--></rdg></app> 
+      <rdg wit="#G">s'i </rdg></app> 
       n’eust esté sa</lem>
       <rdg wit="#B">detenuz, ne fust la seue</rdg></app> 
    chevalerie, <said who="#nar">dont j’ai fait <app><lem wit="#V2 #G #X2">autre</lem>
@@ -11931,7 +11937,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    lui <num>x<hi rend="exp">m</hi></num>, que a cheval que a pié, et vint droit a la bataille. 
                <persName key="Borleuz">Borleuz</persName>, qui <app><lem wit="#V2 #B #X2">n’atendoit</lem>
                   <rdg wit="#G">n'entendoit</rdg></app> 
-               el, quant il les virent <!--sic V2 #B#X2--> <app><lem wit="#V2 #G #X2">venir</lem>
+               el, quant il les virent <app><lem wit="#V2 #G #X2">venir</lem>
       <rdg wit="#B"/></app>, 
                si <app><lem wit="#V2 #G #X2">tourna</lem>
       <rdg wit="#B">tornerent</rdg></app> 
@@ -11980,7 +11986,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#V2">moult</rdg></app>, 
                <app><lem wit="#V2 #B">et chevaus et chevaliers</lem>
                   <rdg wit="#G"/>
-                  <rdg wit="#X2">et cheval et chevalier</rdg></app>.<!--enregistrer variante?-->
+                  <rdg wit="#X2">et cheval et chevalier</rdg></app>.
 </p>
 <p n="P343">
    <note type="apparat">Pas de nouveau § B</note>
@@ -12650,7 +12656,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                <said aloud="true" direct="true"><app><lem wit="#V2 #G #X2">Sire</lem>
                   <rdg wit="#B">Sire, dist il</rdg></app>, 
                   ce est <persName key="Karus">Karus</persName>, li dus de <placeName key="Nise">Nise</placeName>, 
-                  car <persName key="Ascanus">Ascanus</persName><!--Escanus#B-->, ses freres, 
+                  car <persName key="Ascanus"><app><lem wit="#V2 #G #X2">Ascanus</lem>
+                  <rdg wit="#B">Escanus</rdg></app></persName>, ses freres, 
                   est mors <app><lem wit="#V2 #G #X2">en</lem>
                      <rdg wit="#B">de</rdg></app> 
                   ceste guerre, et il leur a rendu <rs type="place" key="Nise">la ville</rs>, 
@@ -12719,8 +12726,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    dist il.
    <note type="apparat">Nouveau § B</note>
    Dont firent atorner leur affaire, et manda <persName key="Pelyarmenus">Peliarmenus</persName> tant de gent que bien 
-   en fist metre ensemble <num>xlv<hi rend="exp">m</hi></num> par conte. <!--lettrine Q décorée #B même encre, à étudier pour cette 
-   unité codicologique-->Et quant il orent ceste gent assemblee, si 
+   en fist metre ensemble <num>xlv<hi rend="exp">m</hi></num> par conte. Et quant il orent ceste gent assemblee, si 
    s’atornerent pour venir a <placeName key="Laomedon">Laomedon</placeName>. 
    Et <persName key="Borleuz">Borleuz</persName> et li autre sorent 
    ceste venue, si furent moult esbahi, car il n’estoient pas encore de leur plaies gueriz. Si redouterent 
@@ -12733,7 +12739,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">amené</rdg></app>.
 </p>
 <p n="P351">
-   <note type="apparat">Pas de nouveau § B</note><!--mais lettrine décorée #B même encre-->
+   <note type="apparat">Pas de nouveau § B</note>
    <c ana="lettrine 2">Q</c>uant <persName key="Dorus">Dorus</persName> oÿ et sot que il ert en sa grevance, si 
    ot moult grant duel et dist oiant touz : 
    <said aloud="true" direct="true">Ha ! <app><lem wit="#B #G #X2">biaus</lem>
@@ -12758,7 +12764,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       qu’ele soit <app><lem wit="#V2 #G #X2">par</lem>
          <rdg wit="#B">a</rdg></app> 
       moi otroiee par <cb n="b"/>maniere que je sai que ja ne vous en repentirez.</said> 
-   <!--lettre Q #B même encore décorée-->Et quant <persName key="Borleuz">Borleuz</persName> l’entendi, si dist : 
+   Et quant <persName key="Borleuz">Borleuz</persName> l’entendi, si dist : 
    <said aloud="true" direct="true"><app><lem wit="#V2 #G">Et</lem>
       <rdg wit="#B #X2"/></app> 
       quele seroit la requeste ? Dites le nous.</said> 
@@ -12821,7 +12827,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                      <rdg wit="#B">David, dont j'ai oÿ aucunes fois parler</rdg></app>.</said>
 </p>
 <p n="P353">
-   <note type="apparat">Pas de nouveau § B</note><!--lettre Q décorée #B même encre-->
+   <note type="apparat">Pas de nouveau § B</note>
    <c ana="lettrine 2">Q</c>uant li baron oïrent <app><lem wit="#V2 #G">ce</lem>
       <rdg wit="#B #X2">ceste parole</rdg></app>, 
    si fondirent touz en lermes. Et <app><lem wit="#V2 #G #X2">en</lem>
@@ -13244,8 +13250,10 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">li anuis du raconter grans</rdg></app></said>. 
                Quant <name type="people" key="Grecs">Grieu</name> <app><lem wit="#V2 #G #X2">virent qu’il</lem>
                   <rdg wit="#B"/></app> 
-               orent cest encontre, si ne <app><lem wit="#V2 #G">leur porent</lem>
-                  <rdg wit="#B #X2">le porent contrester</rdg></app>,<!--corriger faute--> 
+               orent cest encontre, si ne <app><lem wit="#V2 #G">leur</lem>
+                  <rdg wit="#B #X2">le</rdg></app> 
+               porent 
+               <supplied source="#B #X2">contrester</supplied>, 
                <app><lem wit="#V2 #G #X2">mais</lem>
                   <rdg wit="#B">ains</rdg></app> 
                se mistrent arriere comme cil qui moult estoient au dessouz. Et les mena 
@@ -13993,7 +14001,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          que ce soit savrai je el</lem>
          <rdg wit="#B">car, avant que connoistre me faice savrai el que je ne sai</rdg></app>.</said> 
    <said aloud="true" direct="true">Sire, dist il, dont ne vous metez mie en lieu ou vous soiez recongneuz.</said> 
-   <said aloud="true" direct="true">Non<!--nen barré devant Non #X2--> ferai je</said>, dist il. 
+   <said aloud="true" direct="true">Non ferai je</said>, dist il. 
    Dont se mistrent a la voie <app><lem wit="#V2 #G #X2">lui et</lem>
       <rdg wit="#B">o lui</rdg></app> 
    <persName key="Daphus">Daphus</persName> et <app><lem wit="#V2 #G #X2">alerent</lem>
@@ -14420,7 +14428,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#B">a</rdg></app> 
       la terre tenir.</said> 
    <said aloud="true" direct="true">Sire, dist il, je vous di verité, tant comme 
-      <persName key="Helcanus">Helcanus</persName> vive <!--presque toujours Elcanus #B-->
+      <persName key="Helcanus">Helcanus</persName> vive 
       ne <persName key="Dorus">Dorus</persName>, <app><lem wit="#V2 #G #X2">son frere</lem>
          <rdg wit="#B"/></app>, 
       qui maintenant est devant <placeName key="Laomedon">Laomedon</placeName>.</said> 
@@ -14896,9 +14904,10 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#B">porrez vous</rdg></app> 
       savoir plus vraies nouveles.</said> 
    Lors ot <rs type="person" key="Borleuz">li dus</rs> tel joie que bien le pot on veoir, car 
-   <app><lem wit="#G #X2">ainz</lem><!--ains#G-->
+   <app><lem wit="#G #X2">ainz</lem>
       <rdg wit="#V2">ainz <del rend="exponctuation" hand="#main1">i</del></rdg>
-      <rdg wit="#B">onques</rdg></app> 
+      <rdg wit="#B">onques</rdg>
+   <rdg wit="#G">ains</rdg></app> 
    mais <app><lem wit="#V2 #G #X2">nulz</lem>
       <rdg wit="#B"/></app> 
    hom ne le pot faire <app><lem wit="#V2 #G #X2">plus lié que</lem>
@@ -15048,7 +15057,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                que il a tout tant de gent comme il orent 
                ne chevauchassent contre <persName key="Pelyarmenus">Pelyarmenus</persName> 
                et seur ceulz qui en s’aide estoient. 
-               Cil n’estoient <cb n="e"/><!--avant l'enluminure-->mie en point que il peussent issir. Si 
+               Cil n’estoient <cb n="e"/>mie en point que il peussent issir. Si 
                se tindrent en la cité, qui moult estoit fors, et <rs type="person" key="Cassidorus">li emperieres</rs> 
                se <app><lem wit="#V2 #B #G">retraist</lem>
                   <rdg wit="#X2">retrait</rdg></app> 
@@ -15056,7 +15065,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                et fist la tour assaillir, qui si fors estoit qu’il <app><lem wit="#V2 #G #X2">ne</lem>
                   <rdg wit="#B">n'i</rdg></app> 
                porent riens faire. Si n’i firent pas moult grant force pour les navrez, 
-               dont la ville es<cb n="f"/><!--avant l'enluminure-->toit <app><lem wit="#V2 #B #X2">moult</lem>
+               dont la ville es<cb n="f"/>toit <app><lem wit="#V2 #B #X2">moult</lem>
                   <rdg wit="#G"/></app> 
                porprise, <app><lem wit="#V2 #B #X2">par</lem>
                   <rdg wit="#G">pour</rdg></app> 
@@ -15175,7 +15184,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                      <rdg wit="#X2">‹...›[v]raiement</rdg></app>.</said>
 </p>
 <p n="P385"><c ana="lettrine 2">Q</c>uant <rs type="person" key="Fastige">l’empereriz</rs> oÿ ce, 
-   si<!--se barré devant si #X2--> fu toute esbahie et dist : 
+   si fu toute esbahie et dist : 
    <said aloud="true" direct="true">Dont me dites <said aloud="true" direct="false">en quel 
       lieu il vous laissa et vous lui</said>.</said> 
    Dont esgarda <app><lem wit="#V2 #G"><rs type="person" key="Fastige">l’empereriz</rs> <persName key="Helcanus">Helcanus</persName></lem>
@@ -15258,7 +15267,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       par quoi il deust estre repairiez a moi et me tenist comme sa chiere amie, si comme je sui, 
       et fussent mi enfant plus couvenable, ce que il me <app><lem wit="#V2 #B #X2">semble</lem>
          <rdg wit="#G">sembla</rdg></app> 
-      que il<!--que avec "il" réécrit sur le -e #X2--> 
+      que il 
       les veulle faire <app><lem wit="#V2 #B #G">bastars</lem>
          <rdg wit="#X2">lustars (<hi rend="italique">sic</hi>)</rdg></app>. 
       Si ne fait pas bien <app><lem wit="#V2 #G #X2">ne</lem>
@@ -15303,7 +15312,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#X2"/></app> 
       avra <app><lem wit="#V2 #B #G">esté</lem>
          <rdg wit="#X2">a esté (<hi rend="italique">sic</hi>)</rdg></app>, 
-      bien le ferai amender si plainement <pb n="201"/>que <!--hic dans la marge-->
+      bien le ferai amender si plainement <pb n="201"/>que 
       bien vous devra souffire.</said> 
    <said aloud="true" direct="true">Dame, dist adonc <rs type="person" key="Helcanus">li damoisiaus</rs>, 
       dont yra bien li afaires, mais 
@@ -15331,7 +15340,8 @@ encore en marge de la dernière ligne de la colonne.</note>
    <said aloud="true" direct="true">Qu’en est il avenu ? Dites le moi.</said> 
    <said aloud="true" direct="true">Dame, dist il, bien en savez la verité. A quoi faire le vous conteroie <app><lem wit="#V2 #B #G">je</lem>
       <rdg wit="#X2"/></app> ?</said> 
-   <said aloud="true" direct="true">Foy que je doi a l’ame de <persName key="Fissee">Fissee</persName><!--Fisee#B-->, 
+   <said aloud="true" direct="true">Foy que je doi a l’ame de <persName key="Fissee"><app><lem wit="#V2 #G #X2">Fissee</lem>
+   <rdg wit="#B">Fisee</rdg></app></persName>, 
       mon pere, <app><lem wit="#V2 #G">que</lem>
          <rdg wit="#B #X2"/></app> 
       non fais, ainz veul que vous m’en dites la verité.</said> 
@@ -15353,7 +15363,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    et yriee : 
    <app><lem wit="#V2 #B #X2">joianz</lem>
       <rdg wit="#G">joyeuse</rdg></app> 
-   de ce qu’il erent <!--estoient#G; entent avec premier n exponctué et r sur le premier t #X2-->
+   de ce qu’il erent 
    en vie; dolente de ce qu’il avoient ainssi esté <app><lem wit="#V2 #G #X2">mené</lem>
       <rdg wit="#B"/></app>. 
    Adont ne se pot tenir que ele moult fort ne souspirast. Et lors li issirent les 
@@ -15426,7 +15436,8 @@ encore en marge de la dernière ligne de la colonne.</note>
    cele pres de <rs type="person" key="Ysodore">sa suer</rs> et dist : 
    <said aloud="true" direct="true">Voirement est il ce, 
       mais ne cuidions mie que ce fust si grant chose de lui.</said> 
-   <said aloud="true" direct="true">Ha ! dist <persName key="Ysodore">Ysidore</persName><!--Ysodore#G#X2-->, 
+   <said aloud="true" direct="true">Ha ! dist <persName key="Ysodore"><app><lem wit="#V2 #B">Ysidore</lem>
+   <rdg wit="#G #X2">Ysodore</rdg></app></persName>, 
       bien le pooit on <app><lem wit="#V2 #B #X2">veoir</lem>
          <rdg wit="#G">veoir de lui</rdg></app> 
       et savoir, car, se il ne fust de si souffisant lieu venus, il n’eust pooir de faire ce que il fist.</said> 
@@ -15881,7 +15892,8 @@ encore en marge de la dernière ligne de la colonne.</note>
 </p></div>
          <div>
             <head type="rubrique" n="R22">Comment <persName key="Aphode">Aphode</persName> et 
-               <persName key="Ysodore">Ysodore</persName><!--Yssidoire#B--> <app><lem wit="#V2 #G #X2">furent a grant meschief 
+               <persName key="Ysodore"><app><lem wit="#V2 #G #X2">Ysodore</lem>
+               <rdg wit="#B">Yssidoire</rdg></app></persName> <app><lem wit="#V2 #G #X2">furent a grant meschief 
                pour <persName key="Helcanus">Helcanus</persName></lem>
                   <rdg wit="#B">parolent ensemble</rdg></app>.</head>
             <figure>
@@ -15892,7 +15904,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                <rdg wit="#V2"><del rend="exponctuation" hand="#main1">i</del> dit</rdg>
                <rdg wit="#G #X2">dist</rdg></app> 
                li contes</said> que, 
-               quant <persName key="Aphode">Aphode</persName><!--Affode#X2--> <app><lem wit="#V2 #G #X2">ot</lem>
+               quant <persName key="Aphode">Aphode</persName> <app><lem wit="#V2 #G #X2">ot</lem>
                   <rdg wit="#B">sot et ot</rdg></app> 
                parlé a <persName key="Helcanus">Helcanus</persName>, <said who="#nar"><app><lem wit="#B #G #X2">ainsi</lem>
                   <rdg wit="#V2">aussi</rdg>
@@ -15936,7 +15948,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                Et passa grant terme que <persName key="Aphode">Aphode</persName> ot moult 
                de temptacions de <app><lem wit="#V2 #G #X2">par</lem>
                   <rdg wit="#B">parler a</rdg></app> 
-               <persName key="Helcanus">Helcanus</persName>,<!--Helchanus#X2--> 
+               <persName key="Helcanus">Helcanus</persName>, 
                et tout aussi avoit <persName key="Ysodore">Ysodore</persName>. Ele ne 
                porent avoir achoison de parler a lui, et il ne <app><lem wit="#V2 #B #G">venoit</lem>
                   <rdg wit="#X2">venoient</rdg></app> 
@@ -16163,7 +16175,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">averai respons (<hi rend="italique">sic, répété</hi>)</rdg>
          <rdg wit="#X2">avererai (<hi rend="italique">sic</hi>)</rdg></app> 
       de ceste chose, car je sai bien que moult a envis feroit 
-      la grant chose qui la petite<!--pet‹e›[i]te #X2--> 
+      la grant chose qui la petite 
       ne feroit.</said> 
    <said aloud="true" direct="true">Sire, dist ele, bien dites.</said> 
    Dont li devisa <persName key="Helcanus">Helcanus</persName> ce qu’il vouloit mander aus barons 
@@ -16383,7 +16395,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#X2"/></app> 
    aise que <rs type="person" key="Aphode">sa suer</rs> l’avoit ainsi entre <app><lem wit="#V2 #B #G">ses</lem>
       <rdg wit="#X2"/></app> 
-   mains<!--subitement écriture plus petite #B-->, 
+   mains, 
    car ele savoit bien que, 
    <app><lem wit="#V2 #G #X2">s’il</lem>
       <rdg wit="#B">il</rdg></app> 
@@ -16658,7 +16670,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#X2"/></app> 
          ce est voirs. Et</rdg></app> 
       <app><lem wit="#V2 #B #G">je</lem>
-         <rdg wit="#X2">je et je <!--sic #X2 double leçon?--></rdg></app> 
+         <rdg wit="#X2">je et je</rdg></app> 
       aussi seroie faus <app><lem wit="#V2 #B #X2">se</lem>
          <rdg wit="#G">si</rdg></app> 
       je a <app><lem wit="#V2 #G #X2">autre</lem>
@@ -16693,7 +16705,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">visiter et que pour Dieu bien gardaissent que il ne lor eschapast, 
          quar il avroit tout perdu quanques il y avroit mis</rdg></app></said>. 
    Et eles distrent que <said aloud="true" direct="false">de ce estoient eles 
-      toutes proïes <cb n="e"/><!--avant l'enluminure--></said>. 
+      toutes proïes <cb n="e"/></said>. 
    <app><lem wit="#V2 #G #X2">De l’autre part, <persName key="Fastidorus">Fastidorus</persName> avoit 
       <app><lem wit="#V2 #G">le</lem>
          <rdg wit="#X2"/></app> 
@@ -16710,7 +16722,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <app><lem wit="#V2 #G">revenir</lem>
          <rdg wit="#B #X2">venir</rdg></app> 
       a <rs type="person" key="Cassidorus">l’empereour 
-         de <placeName key="Costentinnoble">Costentinno<cb n="f"/><!--avant l'enluminure-->ble</placeName></rs> 
+         de <placeName key="Costentinnoble">Costentinno<cb n="f"/>ble</placeName></rs> 
       et a sa gent, que <app><lem wit="#V2 #B #X2">je</lem>
          <rdg wit="#G"/></app> 
       laissai devant <placeName key="Laomedon">Laomedon</placeName>.</said>
@@ -16884,7 +16896,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       de <name type="people" key="Romains">Rommains</name>, et l’asega  
       <persName key="Fiseus">Fisee</persName>, qui peres fu 
       <rs type="person" key="Fastige">vostre mere</rs><note type="notecritique">###Note pour expliciter la référence.</note>.
-      Et pristrent cil dehors <num>i</num> bouhourt a ceulz <!--a exponctué devant dedens #X2-->dedenz. 
+      Et pristrent cil dehors <num>i</num> bouhourt a ceulz dedenz. 
       Mais je vous di que <said aloud="true" direct="false">ceulz dedenz soustindrent 
          mauvesement leur fais</said>, 
       si comme <app><lem wit="#V2 #G #X2">j’ai oÿ</lem>
@@ -16956,7 +16968,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    el ventre et sailli em piez moult vistement, si dist : 
    <said aloud="true" direct="true">Sire, moult a bien dit <rs type="person" key="??Leus>non">le duc</rs>. Et sachiez 
       que je l’en sai bon gré. 
-      Si li dites de par moi qu’<said aloud="true" direct="false">ele sera dedenz demain <!-- #Binverse-->
+      Si li dites de par moi qu’<said aloud="true" direct="false">ele sera dedenz demain 
          fichiee el plus couvenable lieu que je porrai ça hors trouver</said>.</said> 
    <said aloud="true" direct="true">Sire, <app><lem wit="#V2 #B #G">dist</lem>
       <rdg wit="#X2">dit</rdg></app> 
@@ -17127,7 +17139,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       plus souffisans qu’il ne soit, car je sui filz <app><lem wit="#V2 #B #X2">d’empereour</lem>
          <rdg wit="#G">de l'empereur</rdg></app> 
       et de roy. Et <rs type="person" key="Mirrus">cilz qui vous <app><lem wit="#V2 #G #X2">aimme</lem>
-         <rdg wit="#B">amez</rdg></app></rs><!--sic q(ui) vous amez #B--> 
+         <rdg wit="#B">amez (<hi rend="italique">sic</hi>)</rdg></app></rs> 
       est <num>i</num> povre chevalier, et ne savez qui il est.</said> 
    <said aloud="true" direct="true">Sire, <app><lem wit="#V2 #G #X2">dist</lem>
       <rdg wit="#B">disoit</rdg></app> 
@@ -17344,7 +17356,9 @@ encore en marge de la dernière ligne de la colonne.</note>
    au ferir des esperons. Si le fist si adroit que <said who="#nar">bien s’en doit on esmerveillier</said>, 
    car en tele maniere <app><lem wit="#V2 #G #X2">le</lem>
       <rdg wit="#B"/></app> 
-   feri en l’estache que il ne consuivi hauberc ni<!--ne#B#G; ni #X2--> escu. Et pour ce ne demoura mie 
+   feri en l’estache que il ne consuivi hauberc <app><lem wit="#V2 #X2">ni</lem>
+   <rdg wit="#B #G">ne</rdg></app> 
+   escu. Et pour ce ne demoura mie 
    que li fers n’entrast en l’estache de si grant vertu que <app><lem wit="#V2 #B #G">la</lem>
       <rdg wit="#X2"/></app> 
    pointe en issi de l’autre part dehors. 
@@ -17538,7 +17552,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#G">dot (<hi rend="italique">sic</hi>)</rdg></app> 
    il bien que par lui porroit il faire son gré de 
    <rs type="person" key="Melode">la pucele</rs>. 
-   Si prist <num>i</num> chevalier<!--glaive exponctué et chlr' dans l'interligne #G--> 
+   Si prist <num>i</num> chevalier 
    et <app><lem wit="#V2 #G #X2">li</lem>
       <rdg wit="#B"/></app> 
    dist : 
@@ -17623,7 +17637,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    et <app><lem wit="#B #G #X2">li</lem>
       <rdg wit="#V2">‹...›[l]i</rdg></app> 
    dist : 
-   <said aloud="true" direct="true">Sire dus, qui<!--qu‹i›[e] mini croix dans l'interligne, avec un blanc (fenêtre?--> 
+   <said aloud="true" direct="true">Sire dus, qui 
       est cilz qui <rs type="person" key="Melode">la pucele</rs> 
       doit desraisnier de <app><lem wit="#V2 #G #X2">vostre</lem>
          <rdg wit="#B">la vostre</rdg></app> 
@@ -17730,7 +17744,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    <num>ii</num> lances par acort ensemble, et il si firent. 
                Et quant ce sot <persName key="Melode">Melode</persName>, qui delez 
                <rs type="person" key="Duchesse d'Athènes"><app><lem wit="#V2 #G #X2">la</lem>
-      <rdg wit="#B">sa<!--s réécrit sur l pilou--></rdg></app> 
+      <rdg wit="#B">sa</rdg></app> 
                   duschesse</rs> esto, 
    si pria Dieu <cb n="e"/>moult devotement 
    que il la delivrast de vilain soignage, 
@@ -17767,7 +17781,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    son piz et sa lance empoingnïe moult fort. Et s’affichierent es estriers, 
    que li cuer leur <app><lem wit="#V2 #G #X2">engroissierent</lem>
       <rdg wit="#B">esgroissierent</rdg></app> 
-               es ventres a merveilles. Dont s’adrecierent en tel maniere que<!--qu‹i›[e]#X2--> 
+               es ventres a merveilles. Dont s’adrecierent en tel maniere que 
                li sans des chevaus issoit <app><lem wit="#V2 #G #X2">a</lem>
       <rdg wit="#B">as</rdg></app> 
    grans ruis. Quant il sentirent les cops, 
@@ -17858,7 +17872,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                      laissier</said>. 
                   Et ce pouez vous savoir <app><lem wit="#V2 #G #X2">que</lem>
                      <rdg wit="#B">par</rdg></app> 
-                  ceste jouste que vous avez maintenant veue <!--sic; #B-->, 
+                  ceste jouste que vous avez maintenant veue, 
                   car je di qui bien <app><lem wit="#V2 #G #X2">regarderoit</lem>
                      <rdg wit="#B">y regarderoit</rdg></app> 
                   <app><lem wit="#V2 #G #X2">que</lem>
@@ -17890,7 +17904,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">de poi</rdg></app> 
                   se pooient cil dehors vanter que li leur ne l’eussent aussi bien fait, 
                   <app><lem wit="#V2 #B #X2">ne</lem>
-         <rdg wit="#G">s'i ne</rdg></app><!--ou si #G--> 
+         <rdg wit="#G">s'i ne</rdg></app> 
                   fust l’aventure <app><lem wit="#V2 #G #X2">qui</lem>
          <rdg wit="#B">que</rdg></app> 
       a <persName key="Mirrus">Mirrus</persName> estoit avenue</said>. 
@@ -18600,7 +18614,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">tout</rdg></app> 
                asseur, et dist <rs type="person" key="Nera">la damoisele</rs> a 
    <rs type="person" key="Demoiselle de Nera">sa meschine</rs> : 
-               <said aloud="true" direct="true">Douce<!--bizzare, a réécrit un deuxième o sur le u #X2--> 
+               <said aloud="true" direct="true">Douce 
                   amie, or <app><lem wit="#V2 #G #X2">pouez</lem>
                   <rdg wit="#B">poez bien</rdg></app> 
                   veoir se Diex nous a <app><lem wit="#V2 #G #X2">bien</lem>
@@ -18647,7 +18661,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    <note type="apparat">Pas de nouveau § B</note>
    <c ana="lettrine 2">L</c>ors saillirent li aucun a la nef 
    et cuidiere  
-   que grant avoir<!--avo‹r›[i]rs #X2--> y fust arrivez, 
+   que grant avoir y fust arrivez, 
    <app><lem wit="#V2 #G">mais il n’i avoit</lem>
       <rdg wit="#B">si n'i</rdg>
       <rdg wit="#X2"/></app> 
@@ -18689,7 +18703,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    Adonc s’esmerveilla <rs type="person" key="Seigneur de Cartageus">li sires</rs> et dist que ce vouloit 
    il veoir. Dont s’en vint au <app><lem wit="#B #G #X2">rivage</lem>
       <rdg wit="#V2">rivage et dist</rdg></app> 
-   et entra<!--dist barré devant entra #X2--> en la nef, 
+   et entra en la nef, 
    <app><lem wit="#V2 #B #X2">si esgarda</lem>
       <rdg wit="#G">et regarda</rdg></app> 
    les <app><lem wit="#V2 #G #X2"><num>ii</num></lem>
@@ -18807,7 +18821,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          <div>
             <head type="rubrique" n="R25"><app><lem wit="#V2 #G #X2">Comment li chevalier 
                se mistrent a la voie pour querre <persName key="Nera">Nera</persName>, 
-               la suer<!--sieer devenur suer #X2--> 
+               la suer 
                <persName key="Josyas">Josyas</persName> d’<placeName key="Espaigne">Espaigne</placeName></lem>
                <rdg wit="#B">Ci vient li contes ensi com li chevalier se mirent a la voie pour querre Nera, la suer Josyas d'Espaigne</rdg></app>.</head>
 <figure>
@@ -18929,7 +18943,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                <said aloud="true" direct="true">Ha ! <app><lem wit="#V2 #G #X2">dist</lem>
                   <rdg wit="#B">dit</rdg></app> 
                   <persName key="Aphode">Aphode</persName>, comme je croi que vous seriez <app><lem wit="#V2 #B #G">tost</lem>
-                     <rdg wit="#X2">tot<!--rature sous le -t--></rdg></app> 
+                     <rdg wit="#X2">tot</rdg></app> 
                   <app><lem wit="#V2 #G #X2">acordee</lem>
                      <rdg wit="#B">assentie</rdg></app> 
                   a lui, mais que parler y peussiez a 
@@ -19205,7 +19219,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       pour savoir nouveles de li</said>. 
    Et lors quant il entendi ce, si <app><lem wit="#V2 #G">en</lem>
       <rdg wit="#B"/>
-      <rdg wit="#X2">ent <!--avec t effacé--></rdg></app> 
+      <rdg wit="#X2">ent</rdg></app> 
    ot une douleur si grant a son cuer que il ne pot mot dire, 
    ainz commença moult fort a souspirer. Et <persName key="Ysodore">Ysodore</persName> 
    n’osa demorer delez lui, ainz s’en leva et s’en parti pour la paour qu’ele 
@@ -19525,7 +19539,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    <app><lem wit="#V2 #G #X2">la sisieme</lem>
       <rdg wit="#B">si ot la siste</rdg></app> ; 
    <rs type="person" key="Demoisel de Thebes">li damoisiaus de <placeName key="Thebes">Thebes</placeName></rs> 
-   la septiesme<!--septime #B#X2; viie #G; -->; 
+   la septiesme; 
    et en la desreniere fu <rs type="person" key="Cassidorus">li emperieres</rs> et 
    <rs type="person" key="Robert">li cuens de <placeName key="Flandres">Flandres</placeName></rs>, 
    <persName key="Dorus">Dorus</persName>, <persName key="Daphus">Daphus</persName> 
@@ -19602,7 +19616,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B #G"/></app> 
    <app><lem wit="#V2 #B #G">comme</lem>
       <rdg wit="#X2">que</rdg></app> 
-   pour recevoir leur<!--lueurs avec premier u exponctué #X2--> anemis.
+   pour recevoir leur anemis.
 </p>
             <p n="P452"><c ana="lettrine 2">E</c>n ce qu’il erent en tel point 
    esgarderent cil de l’ost et virent venir <num>x</num> chevaliers, dont chascuns 
@@ -19959,7 +19973,8 @@ encore en marge de la dernière ligne de la colonne.</note>
          mi frere.
                      <app><lem wit="#V2 #G #X2">Veez</lem>
       <rdg wit="#B">Veez ci</rdg></app> 
-                     <persName key="Atrax">Atrax</persName><!--Artax #B-->, 
+                     <persName key="Atrax"><app><lem wit="#V2 #G #X2">Atrax</lem>
+                     <rdg wit="#B">Artax</rdg></app></persName>, 
                      mon frere l’ainsné<note type="notecritique">###Mais c'est l'aîné des deux fils de la deuxième femme, 
                      si l'on s'en tient à ce que dit le texte précédemment.</note>. 
                      Il a ja tant fait 
@@ -20005,7 +20020,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                      <app><lem wit="#B #G #X2">n'est</lem>
          <rdg wit="#V2"><del rend="exponctuation" hand="#main1">n</del> n’est</rdg></app> 
                      ainssi que je donner <app><lem wit="#V2">la</lem>
-                        <rdg wit="#B #G #X2">le<!--rature?--></rdg></app> 
+                        <rdg wit="#B #G #X2">le</rdg></app> 
                      te veille .</seg> 
                   <seg next="#P456-1" ana="discoursEnchassé">Certes, dist cil, ce sai je bien,</seg> 
                   <app><lem wit="#V2 #B #X2"><seg xml:id="P456-1" ana="discoursEnchassé">et 
@@ -20061,7 +20076,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                      <rdg wit="#B #X2"/></app> 
                   pensa que <said aloud="false" direct="false">il le metroit a mort</said>. 
                <num>i</num> jour avint que il vint
-                  a <rs type="person" key="Artigier">son pere<!--frere barré devant pere #X2--></rs> et li dist : 
+                  a <rs type="person" key="Artigier">son pere</rs> et li dist : 
                   <seg ana="discoursEnchassé">Peres, 
                      <persName key="Atrax">Atrax</persName> pourchace vostre mort. 
                      Je me veul gesir en vostre chambre, 
@@ -20495,7 +20510,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    et <rs type="person" key="Borleuz">le duc de <placeName key="Lembourc">Lemborc</placeName></rs> 
    <app><lem wit="#V2 #G">aussi</lem>
       <rdg wit="#B #X2">aussi comme au souffrir</rdg></app>, 
-   quar <!--sic; car #B#G--> cil dedenz virent qu’il<!--qui/qu'i #G--> en orent aussi comme 
+   quar cil dedenz virent qu’il en orent aussi comme 
    le milleur, si issirent hors qui miex miex. Et adonc y ot moult de ceulz dehors occis et pris ; 
    meismes <persName key="Licorus">Licorus</persName> fu atains <app><lem wit="#V2 #G">et pris</lem>
       <rdg wit="#B #X2"/></app> 
@@ -21483,7 +21498,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">s'efforça</rdg></app> 
    li criz <app><lem wit="#V2 #G">merveilleus et pesme</lem>
       <rdg wit="#B #X2"/></app>. 
-   Si firent moult grant frainte<!--friente #B--> de braire et de crier. 
+   Si firent moult grant frainte de braire et de crier. 
    Et quant ce oÿrent li autre, si y vindrent <app><lem wit="#V2 #G">tuit</lem>
       <rdg wit="#B #X2"/></app> 
    qui miex miex. Dont y vint <app><lem wit="#V2 #B #X2">meismes</lem>
