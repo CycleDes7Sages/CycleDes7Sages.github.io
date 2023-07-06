@@ -661,7 +661,8 @@
    <said aloud="true" direct="true">Ma damoisele, <app><lem wit="#V2 #G #X2">or</lem>
    <rdg wit="#B"/></app> 
       ne soiez <app><lem wit="#V2 #G #X2">pas</lem>
-      <rdg wit="#B"/></app><note type="notecritique">###Il manque ici un adjectif dans toute la tradition. Proposer une correction.</note>,
+      <rdg wit="#B"/></app> 
+      <supplied source="#SL">courouciee</supplied><note type="notecritique">L'adjectif, que nous réintroduisons par conjecture, manque dans toute la tradition.</note>,
       car je n’ai chose <app><lem wit="#V2 #G">dite</lem>
          <rdg wit="#B #X2">dit</rdg></app> 
       que je ne l’aie fait pour vous metre en voie <cb n="b"/>de ce que je vous <app><lem wit="#V2 #B #G">veul</lem>
@@ -956,8 +957,9 @@
                   y estoit venus</said>. 
                Dont ne fi<cb n="f"/>nerent si vindrent au <app><lem wit="#V2 #G #X2">chastel</lem>
                <rdg wit="#B">chastel amont</rdg></app>. 
-               <persName key="Licorus">Licorus</persName><note type="notecritique">###La première mention du nom dans V<hi rend="exposant">2</hi> X<hi rend="exposant">2</hi> et G est
-                abrupte; remarquer la variante de B plus haut, qui mentionne le nom de l'ami de Mélode.</note> 
+               <persName key="Licorus">Licorus</persName><note type="notecritique">Il est étrange que le nom de Licorus 
+                  apparaisse subitement dans V<hi rend="exposant">2</hi> X<hi rend="exposant">2</hi> et G sans que le narrateur dise précédemment 
+                  comment le personnage se nomme ; remarquer la variante de B plus haut, qui mentionne le nom de l'ami de Mélode.</note> 
                vit <rs type="person" key="Melode">la pucele</rs>, 
    si la congnut maintenant et est sailliz contre 
    li <app><lem wit="#V2 #G #X2">et li a fait</lem>
@@ -989,7 +991,7 @@
             <p n="P196"><note type="app">Pas de nouveau § B</note><c ana="lettrine 2">D</c>ont a enquis <persName key="Licorus">Licorus</persName>
                <app><lem wit="#V2 #X2">qui</lem>
                <rdg wit="#B">a la pucele qui</rdg>
-               <rdg wit="#G">a qui</rdg></app><note type="notecritique">###La forme <hi rend="italique">qui</hi> pourrait être une forme 
+               <rdg wit="#G">a qui</rdg></app><note type="notecritique">La forme <hi rend="italique">qui</hi> pourrait être une forme 
                   pour <hi rend="italique">cui</hi>, cf. la variante de G et la réponse de Mélode ci après: "il sont a moi".</note> 
                cil chevalier estoient, et ele dist : 
                <said aloud="true" direct="true">Sire, il sont a moi. Ja savez vous que il a guerre en cest
@@ -8573,7 +8575,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    Donques <app><lem wit="#V2 #G #X2">se</lem>
       <rdg wit="#B"/></app> 
    jut <app><lem wit="#V2 #B #X2"><persName key="Clyodorus">Clyodorus</persName></lem>
-      <rdg wit="#G">Dorus (avec "clio" dans l'interligne###)</rdg></app> 
+      <rdg wit="#G">Dorus <add hand="main1" place="above">clio</add></rdg></app> 
    <app><lem wit="#V2 #G #X2">touz armez</lem>
       <rdg wit="#B"/></app>, 
    <app><lem wit="#V2 #B #X2">toute la nuit</lem>
@@ -9879,7 +9881,8 @@ encore en marge de la dernière ligne de la colonne.</note>
    li fu avenu et <app><lem wit="#V2 #G #X2">se rassist</lem>
       <rdg wit="#B">s'asist</rdg></app> 
    arriere et fu aussi comme sus le pasmer
-   <note type="notecritique">### Commenter la construction, inconnue de DMF (seul vérifié à ce stade)</note>. 
+   <note type="notecritique">###Comprendre "et fut presque sur le point de s'évanouir". La construction est inconnue de DMF, qui enregistre la locution 
+      <hi rend="italique">estre pour</hi> + inf. 'être sur le point de' (s.s. <hi rend="italique">estre</hi>.###(seul vérifié à ce stade)</note>. 
    Et quant <persName key="Daphus">Daphus</persName> et 
    les puceles virent ce, si saillirent <app><lem wit="#V2 #G #X2">sus</lem>
       <rdg wit="#B">en piez</rdg></app>, 
@@ -13237,7 +13240,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">de qui</rdg></app> 
                   nous avons <app><lem wit="#V2 #G #X2">parlé devant</lem>
                      <rdg wit="#B">oÿ compter</rdg></app>
-               <note type="notecritique">###Noter que la variante de B implique le narrateur dans le <hi rend="italique">nous</hi>.</note></said>, 
+               <note type="notecritique">Remarquer que la leçon de B, de manière inhabituelle, implique le narrateur dans le <hi rend="italique">nous</hi>.</note></said>, 
                <app><lem wit="#V2 #G #X2">fu</lem>
                   <rdg wit="#B">furent</rdg></app> 
                moult conjoïz des princes. 
@@ -13302,8 +13305,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">Josias, qui</rdg></app> 
                vit que <rs type="person" key="Nera">sa suer</rs> <app><lem wit="#V2 #G #X2">estoit</lem>
                   <rdg wit="#B">estoit ainsi</rdg></app> 
-               tressaillie<note type="notecritique">###Un comportement "de femme" fait noter à Bourleus qu'il s'agit bien d'une femme; en parallèle, le narrateur
-                  ne dit plus <hi rend="italique">frere</hi>, tout comme Josias (?).</note>, 
+               tressaillie<note type="notecritique">Remarquer qu'un comportement "de femme" fait noter à Bourleus qu'il s'agit bien d'une femme ; 
+                  en parallèle, le narrateur n'emploie plus <hi rend="italique">frere</hi>, de même que Josias (?###).</note>, 
                si fu aussi comme tous esbahiz. Donc la prist entre ses braz et dist : 
    <said aloud="true" direct="true">Biaus frere, souffrez vous de duel faire, car ja <persName key="Pelyarmenus">Peliarmenus</persName> 
       ne sera tiex que il li face se <app><lem wit="#V2 #G #X2">tout</lem>
@@ -13912,7 +13915,7 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#B"/></app> 
       vous est <app><lem wit="#V2 #G #X2">et</lem>
          <rdg wit="#B"/></app> 
-      duquel empereour parlez vous<note type="notecritique">###Commenter la syntaxe.</note>.</said> 
+      duquel empereour parlez vous<note type="notecritique">Remarquer l'inversion du sujet dans une interrogation indirecte.</note>.</said> 
    <said aloud="true" direct="true">Sire, dist il, de mon seigneur que je vi ore, si com moi semble.</said> 
    Dont y ot aucuns qui moult fort <app><lem wit="#V2 #G #X2">plorerent</lem>
       <rdg wit="#B">souspirerent</rdg></app>, 
@@ -13968,14 +13971,15 @@ encore en marge de la dernière ligne de la colonne.</note>
    <said aloud="true" direct="true">Sire, dist il, <persName key="Cassidorus">Cassidorus</persName> 
       doit estre mon pere, voirement, 
       et <persName key="Helcanus">Helcanus</persName>, mon frere germain, que <persName key="Pelyarmenus">Peliarmenus</persName> 
-      tient en <app><lem wit="#V2 #G">prison</lem>
-         <rdg wit="#B #X2">prison par sa desloiaulté et par sa grant traïson</rdg></app>.</said><note type="notecritique">###Expliquer 
-            qu'il y a un saut à cheval sur les §§ dans V<hi rend="exposant">2</hi> et G.</note> 
-   <app><lem wit="#V2 #G">Si en ot moult grant merveille et demanda <said aloud="true" direct="false">comment il 
-      avoit esté pris par sa grant desloiauté et <app><lem wit="#V2">par sa grant</lem>
-         <rdg wit="#G"/></app> 
-      traïson</said></lem>
-      <rdg wit="#B #X2"/></app>.
+      tient en <app><lem wit="#B #X2">prison</lem>
+         <rdg wit="#V2 #G">prison, si en ot moult grant merveille et demanda comment il 
+            avoit esté pris</rdg></app>
+      par sa <app><lem wit="#V2 #G">grant</lem>
+      <rdg wit="#B #X2"/></app> 
+      desloiauté et <app><lem wit="#V2 #B #X2">par sa grant</lem>
+      <rdg wit="#G"/></app> 
+      traïson.</said><note type="notecritique">Saut du même au même de V<hi rend="exposant">2</hi> et G sur 
+            <hi rend="italique">prison</hi> (§ 372: "prison, si en ot...").</note>.
 </p>
             <p n="P372">
                <note type="apparat">Pas de nouveau § B</note>
@@ -14009,7 +14013,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                      <rdg wit="#B"/></app></said></lem>
                   <rdg wit="#G">et</rdg></app> 
                   <said xml:id="P363-1" aloud="true" direct="true">dist que nulz ne se puet 
-                     de traïson gaitier!<note type="notecritique">###Voir si expression sentencieuse/tour proverbial.</note></said> 
+                     de traïson gaitier!<note type="notecritique">Expression sentencieuse inconnue de 
+                        Morawski et Le Roux de Lincy.</note></said> 
                <said aloud="true" direct="true">Ha ! sire, dist <app><lem wit="#V2 #B #X2">adont</lem>
                   <rdg wit="#G"/></app> 
                   <persName key="Dorus">Dorus</persName>, se vous saviez comment il me cuidierent 
@@ -14580,7 +14585,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                Et quant <persName key="Dorus">Dorus</persName> oÿ parler de 
                <rs type="person" key="Cassidorus">l’empereour</rs>, si fu touz esbahiz, 
                car il ne cuidoit mie que ce fust de <rs type="person" key="Cassidorus">son pere</rs> dont il parlast
-               <note type="notecritique">###Note sur l'utilisation pléonastique de la négation dans toute la tradition.</note>. 
+               <note type="notecritique">Remarquer l'expression pléonastique du génitif dans toute la tradition.</note>. 
                Si respondi et dist : 
                <said aloud="true" direct="true">Sire, qui est cilz emperieres que vous dites qui me mande ?</said> 
                <said aloud="true" direct="true">Sire, dist <persName key="Daphus">Daphus</persName>, 
@@ -14672,8 +14677,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   souffrance doit estre souffraiteuse, et par souffrir vient 
                   on <app><lem wit="#V2 #G #X2">a la</lem>
                      <rdg wit="#B">mainte</rdg></app> 
-                  foiz a ce que on ne feroit pas pour la greigneur force du monde<note type="notecritique">###Voir si 
-                  expression sentencieuse/tour proverbial.</note>. 
+                  foiz a ce que on ne feroit pas pour la greigneur force du monde<note type="notecritique">Expression sentencieuse 
+                     inconnue de Morawski et Le Roux de Lincy.</note>. 
                   Or pouez vous congnoistre vos amis et savoir <app><lem wit="#V2 #G #X2">qui sont</lem>
                      <rdg wit="#B"/></app> 
                   vos anemis.</said> 
@@ -15557,7 +15562,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    <said aloud="true" direct="true">Dame, celui que vous dites congnui je bien, 
       mais de riens ne resemble cestui, ne, <app><lem wit="#V2 #B #X2">que je sache</lem>
          <rdg wit="#G"/></app>, 
-      onques mais ne le vi.</said><note type="notecritique">###Note sur cette suite ainsi donnée au jeu du déni des identités</note>
+      onques mais ne le vi.</said><note type="notecritique">###CC>Note sur cette suite ainsi donnée au jeu du déni des identités</note>
 </p>
 <p n="P393">
    <note type="apparat">Pas de nouveau § B</note>
@@ -15740,7 +15745,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B"/></app> 
    ot moult grant merveille et dist : 
    <said aloud="true" direct="true">Voirement ne puet nus perir qui Diex veult <app><lem wit="#V2 #B #X2">sauver</lem>
-      <rdg wit="#G">aidier</rdg></app><note type="notecritique">###Voir si tour proverbial.</note>. 
+      <rdg wit="#G">aidier</rdg></app><note type="notecritique">Expression sentencieuse inconnue de Morawski et 
+         Le Roux de Lincy.</note>. 
       Et sanz faille tout ce pourchaça <persName key="Pelyarmenus">Pelyarmenus</persName> 
       par le conseil <persName key="Dyalogus">Dyalogus</persName>, <app><lem wit="#V2 #G #X2">cui</lem>
          <rdg wit="#B">qui</rdg></app> 
@@ -15937,7 +15943,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">comment</rdg></app> 
    ele avoit parlé a <rs type="person" key="Fastidorus">son seigneur</rs>. 
    Quant il ot entendu <rs type="person" key="Aphode">la dame</rs>, si dist : 
-   <said aloud="true" direct="true">Voirement trueve moult d’achoisons qui la chose veult faire!<note type="notecritique">###Voir si proverbe.</note> 
+   <said aloud="true" direct="true">Voirement trueve moult d’achoisons qui la chose veult faire!<note type="notecritique">Expression sentencieuse 
+      inconnue de Morawski et Le Roux de Lincy.</note> 
       Mais ce me dites 
       <said aloud="true" direct="false">comment ce est que vous n’amenastes avec vous 
          <rs type="person" key="Ysodore">vostre suer</rs></said>.</said> 
@@ -16479,7 +16486,9 @@ encore en marge de la dernière ligne de la colonne.</note>
    qui moult piteusement <app><lem wit="#V2 #G">se</lem>
       <rdg wit="#B #X2"/></app> 
    seoit delez lui, et lors li dist : 
-   <said aloud="true" direct="true">Ma dame, voirement pert il bien qui est amis au besoing<note type="notecritique">###Proverbe?</note> : 
+   <said aloud="true" direct="true">Ma dame, voirement pert il bien qui est amis au besoing<note type="notecritique">Détournement du proverbe 
+      "Au besoing (voit on) l'ami" (Morawski, n<hi rend="exposant">o</hi> 170 ; Le Roux de Lincy, p. 657) ; "Au besoing voit on qui amis est" (Morawski, n<hi rend="exposant">o</hi> 171 ; 
+      Le Roux de Lincy, p. 657) ; "Au besoin voit-on son ami" (Le Roux de Lincy, p. 657).</note> : 
       vostre frere <persName key="Josyas">Josyas</persName> ne m’a pas mis en oubli.</said> 
    <said aloud="true" direct="true">Sire, <app><lem wit="#V2 #B #X2">dist ele</lem>
       <rdg wit="#G"/></app>, 
@@ -17242,8 +17251,8 @@ encore en marge de la dernière ligne de la colonne.</note>
    <said aloud="true" direct="true">Sire, bien doit gesir <app><lem wit="#V2 #G #X2">entre</lem>
       <rdg wit="#B">en</rdg></app> 
       braz de dame souffisant qui tel cop <app><lem wit="#V2 #B #X2">set</lem>
-         <rdg wit="#G">s'en (ou seu)</rdg></app> 
-      donner sanz menacier<note type="notecritique">###Tour proverbial?</note>.</said>
+         <rdg wit="#G">s'en (<hi rend="italique">ou</hi> seu)</rdg></app> 
+      donner sanz menacier<note type="notecritique">Expression sentencieuse inconnue de Morawski et Le Roux de Lincy.</note>.</said>
 </p>
 <p n="P418"><c ana="lettrine 2">A</c>prés ceste jouste s’abandonna 
    <rs type="person" key="Robert">li cuens de <placeName key="Flandres">Flandres</placeName></rs>. 
@@ -17258,7 +17267,8 @@ encore en marge de la dernière ligne de la colonne.</note>
    cil qui le virent, car touz estoit couvers, <app><lem wit="#V2 #G #X2">lui</lem>
       <rdg wit="#B">il</rdg></app> 
    et ses chevaus, de ses armes. 
-   Li soleus, qui gitoit sa clarté, feri en lor [...]<note type="notecritique">###Attention, supposer faute d'archétype ici (il manquerait le substantif)?</note> 
+   Li soleus, qui gitoit sa clarté, feri en lor <note type="notecritique">Le pronom tonique <hi rend="italique">lor</hi>, après préposition, équivaut 
+      ici à <hi rend="italique">eus</hi>, cf. Ménard, § 39b.</note> 
    et getoit <app><lem wit="#V2 #G #X2">tel</lem>
       <rdg wit="#B">si grant</rdg></app> 
    resplendeur que <app><lem wit="#V2 #G">il</lem>
@@ -17411,7 +17421,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    et <app><lem wit="#V2 #G #X2">li</lem>
       <rdg wit="#B"/></app> 
    dist : 
-   <said aloud="true" direct="true">Va moi de la<note type="notecritique">###Commenter la syntaxe.</note> et saches
+   <said aloud="true" direct="true">Va moi de la<note type="notecritique">Datif éthique marquant l'intérêt, cf. Ménard, § 126b, rem. ; Moignet, p. 130, 2A, rem. 2.</note> et saches
       qui cil est qui a la guimple <app><lem wit="#B #G #X2">enportee</lem>
          <rdg wit="#V2">enpor‹c›[t]ee</rdg>
       <rdg wit="#B">emportee</rdg></app>. 
@@ -17447,7 +17457,7 @@ encore en marge de la dernière ligne de la colonne.</note>
       <app><lem wit="#V2 #G">a</lem>
          <rdg wit="#B #X2"/></app> 
       non <persName key="Mirrus">Mirrus</persName>. Et bien dites <app><lem wit="#V2 #G">a</lem>
-         <rdg wit="#B #X2"/></app><note type="notecritique">###Commenter la construction de B et X<hi rend="exposant">2</hi>.</note>
+         <rdg wit="#B #X2"/></app>
        <rs type="person" key="Pelyarmenus">vostre seigneur</rs> que je sui amis a 
       <rs type="person" key="Melode">la pucele</rs>, et ele par droit 
       doit estre moie et je siens. 
@@ -17788,7 +17798,8 @@ encore en marge de la dernière ligne de la colonne.</note>
          <rdg wit="#G">est allee vers</rdg></app> 
       <placeName key="Rome">Romme</placeName>.</said> 
    <said aloud="true" direct="true">Qu’est ce, sire, dist il, que vous dites ?</said> 
-   <said aloud="true" direct="true">Je me di voir<note type="notecritique">###Commenter la syntaxe et traduire.</note>, dist il. Mais ce me dites 
+   <said aloud="true" direct="true">Je me di voir<note type="notecritique">Pronominal de sens moyen marquant la participation du sujet à l'action, cf. Ménard, § 126b et rem.: 
+      "<hi rend="italique">soi dire</hi> [...], c'est prononcer des paroles et les prendre en compte".</note>, dist il. Mais ce me dites 
       <said aloud="true" direct="false">qui va avec lui</said>.</said> 
    <said aloud="true" direct="true">Sire, dist il, <rs type="person" key="Demoiselle de Nera">une damoisele</rs> sanz plus.</said> 
                <said aloud="true" direct="true">Alez, <app><lem wit="#V2 #B #G">dist</lem>
@@ -17983,7 +17994,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   par amours <app><lem wit="#V2 #G #X2">ne sont</lem>
                      <rdg wit="#B">n'est</rdg></app> 
                   pas du tout a <app><lem wit="#V2 #G #X2">eulz</lem>
-                     <rdg wit="#B">soi</rdg></app><note type="notecritique">###Proverbe?</note></said>. 
+                     <rdg wit="#B">soi</rdg></app><note type="notecritique">Expression sentencieuse inconnue de Morawski et 
+                        Le Roux de Lincy.</note></said>. 
                Et sanz faille par y<cb n="e"/>ceste raison non estoit <rs type="person" key="Nera">la pucele</rs>, 
                car, <said who="#nar"><app><lem wit="#V2 #G #X2">comme</lem>
                   <rdg wit="#B">si comme</rdg></app> 
@@ -18934,8 +18946,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       vous otroi.</said> Atant <app><lem wit="#V2 #G #X2">s’en est</lem>
          <rdg wit="#B">s'est</rdg></app> 
    <app><lem wit="#V2 #B #X2">cele de lui partie et en</lem>
-      <rdg wit="#G">cellui partis et elle s'en</rdg></app><note type="notecritique">###Remarquer la variante 
-      de G, qui n'a pas de sens (Helcanus reste en prison).</note> 
+      <rdg wit="#G">cellui partis et elle s'en</rdg></app><note type="notecritique">Remarquer la variante 
+      de G, privée de sens (Helcanus restant en prison).</note> 
    vint <app><lem wit="#V2 #B #X2">arriere</lem>
       <rdg wit="#G"/></app> 
    a <rs type="person" key="Fastige">l’empereriz</rs> et <app><lem wit="#V2 #G #X2">dist</lem>
@@ -19105,8 +19117,7 @@ encore en marge de la dernière ligne de la colonne.</note>
    tele que nulz ne le <app><lem wit="#V2 #G #X2">pot</lem>
          <rdg wit="#B">peust</rdg></app> 
    veoir tant comme il l’eust en son poing enclose et fu invisibles.
-   <note type="notecritique">###C'est l'anneau unique...>CC: merci pour ce joli fou rire ! L'auteur du Pelyarmenus en 
-   précurseur de Tolkien, on va définitivement leur rendre leur panache à nos romans !</note> 
+   <note type="notecritique">###C'est l'anneau unique...</note> 
    Si fu tost de laiens issus et ne sot on qu’il <app><lem wit="#V2 #G">fu</lem>
       <rdg wit="#B">estoit</rdg>
       <rdg wit="#X2">fust</rdg></app> 
@@ -19417,8 +19428,7 @@ encore en marge de la dernière ligne de la colonne.</note>
                   souverains, car <app><lem wit="#V2 #G #X2">aussi</lem>
                      <rdg wit="#B">ainsi</rdg></app> 
                   le veult cele a qui vous m’avez <app><lem wit="#V2 #G #X2">donné</lem>
-                     <rdg wit="#B">donnee</rdg></app>.</said><note type="notecritique">###Attirer l'attention 
-                     sur la variante de B, qui ne fait pas référence au bon personnage.</note> 
+                     <rdg wit="#B">donnee</rdg></app>.</said><note type="notecritique">La forme féminine de B implique une référence au mauvais personnage.</note> 
                <said aloud="true" direct="true">Par Dieu, sire, dist il, 
                   et je l’otroi.</said> 
                Dont fu <persName key="Mirrus">Mirrus</persName> joians et dist que 
@@ -19584,7 +19594,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   metre paine comme freres.</said> 
                <said aloud="true" direct="true">Par foi, dist 
                   <rs type="person" key="Cassidorus">li emperieres</rs>, 
-                  <seg ana="proverbe">moult est grans li meffais dont on ne puet venir a amende</seg>. 
+                  moult est grans li meffais dont on ne puet venir a amende<note type="notecritique">Expression proverbiale inconnue de 
+                  Morawski et Le Roux de Lincy.</note>. 
                   Et tout <app><lem wit="#V2 #B #X2">aussi</lem>
                      <rdg wit="#G"/></app> 
                   est cestui si grant que je ne puis veoir comment 
@@ -19750,7 +19761,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                   <rdg wit="#B">pour el fors</rdg></app> 
                   que, se nous nous metons en sa merci, <persName key="Artigier">Artigier</persName> ne fist ce 
                   de <rs type="person" key="Atrax">son filz</rs> qu’il fera de nous.</said> 
-                  <said aloud="true" direct="true">Or me dites<note type="notecritique">###Commenter l'emploi de la 2e p.p.</note> 
+                  <said aloud="true" direct="true">Or me dites<note type="notecritique">Sur l'emploi (et parfois le passage "déconcertant") de 
+                     <hi rend="italique">tu</hi> à <hi rend="italique">vous</hi>, cf. Ménard, § 59, 2°.</note> 
                      oiant ces barons <said aloud="true" direct="false">qui cil furent</said>, et 
                      je y prendrai garde, se je voi que raisons <app><lem wit="#V2 #G #X2">soit</lem>
                      <rdg wit="#B">soit. - Par foi, dist il, volentiers</rdg></app>.</said> 
@@ -19798,12 +19810,13 @@ encore en marge de la dernière ligne de la colonne.</note>
       Et tant fu li uns avec l’autre que <app><lem wit="#V2 #G #X2">ele</lem>
       <rdg wit="#B">il</rdg></app> 
                   en ot <app><lem wit="#V2 #B #X2">enfans</lem>
-                     <rdg wit="#G"><num>i</num> enfant</rdg></app><note type="notecritique">###Faute de sens de G, qui dit 
-                     qu'il n'y a qu'un enfant.</note>, 
+                     <rdg wit="#G"><num>i</num> enfant</rdg></app><note type="notecritique">L'analogie avec la situation de Pelyarmenus et Fastidorus, ainsi que la suite 
+                        du récit enchâssé, indiquent que deux enfants sont conçus. L'innovation de G est en ce sens fautive.</note>, 
                   et morut <rs type="person" key="Deuxième épouse d'Artigier">la mere</rs>, 
                   tout aussi comme <rs type="person" key="Première épouse d'Artigier">la premiere</rs>.
-                  <note type="notecritique">###Sauf que le texte 
-                  ne mentionne pas que la première femme meurt.</note> 
+                  <note type="notecritique">Dans son récit, Pelyarmenus ne mentionne pas le fait que la première femme meure ; 
+                     il faut le déduire du contexte et, surtout, 
+                     de l'analogie que Pelyarmenus fait par ce récit avec sa propre situation familiale.</note> 
                   Quant elle fu morte,
       <rs type="person" key="Artigier">li Sarrazins</rs> commença a envieillir. 
                   Li enfant qui furent de <rs type="person" key="Deuxième épouse d'Artigier">la 
@@ -19826,8 +19839,8 @@ encore en marge de la dernière ligne de la colonne.</note>
       <rdg wit="#B">Veez ci</rdg></app> 
                      <persName key="Atrax"><app><lem wit="#V2 #G #X2">Atrax</lem>
                      <rdg wit="#B">Artax</rdg></app></persName>, 
-                     mon frere l’ainsné<note type="notecritique">###Mais c'est l'aîné des deux fils de la deuxième femme, 
-                     si l'on s'en tient à ce que dit le texte précédemment.</note>. 
+                     mon frere l’ainsné<note type="notecritique">Comprendre "l'aîné des deux fils de la deuxième femme", 
+                        si l'on s'en réfère à ce que dit le texte précédemment.</note>. 
                      Il a ja tant fait 
                      que touz nos amis a tornez vers lui. 
                      Je sai de voir que, se vous estiez mors, <app><lem wit="#V2 #G #X2">qu’il</lem>
@@ -20235,7 +20248,8 @@ encore en marge de la dernière ligne de la colonne.</note>
                aigrement comme se il <app><lem wit="#V2 #B #X2">et li sien</lem>
                   <rdg wit="#G"/></app> 
                ne les doutassent <num>i</num> <app><lem wit="#V2 #B #G">bouton</lem>
-                  <rdg wit="#X2">baston</rdg></app>.<note type="notecritique">###Commenter la leçon de X<hi rend="exposant">2</hi>.</note> 
+                  <rdg wit="#X2">baston</rdg></app>.<note type="notecritique">Emploi adverbial de <hi rend="italique">un bouton</hi> 'rien du tout'. 
+                     La leçon de X<hi rend="exposant">2</hi> <hi rend="italique">douter qn. un baston</hi>, qui n'est pas lexicalisée, dérive probablement d'une faute de lecture.</note> 
                La endroit ot <num>i</num> tournoi moult merveilleus et pesme, car dit fu a 
    <persName key="Pelyarmenus">Peliarmenus</persName> que <said aloud="true" direct="false"><rs type="person" key="Mirrus">cil 
       a qui il avoit jousté</rs> <app><lem wit="#V2 #G #X2">estoit</lem>
