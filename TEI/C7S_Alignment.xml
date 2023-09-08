@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title type="main">C7S Alignment_Pelyarmenus</title>
+                  </titleStmt>
+                  <editionStmt>
+                        <edition>Responsable:Camille Carnaille</edition>                        
+                  </editionStmt>
+                  <publicationStmt>
+                      <publisher>C7S</publisher>
+                      <date>08-09-2023</date>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <listWit>
+                              <witness xml:id="V2">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Paris</settlement>
+                                                <repository>BNF</repository>
+                                                <idno>fr.22549</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="131r" to="216v"/> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>                                          
+                                    </msDesc>
+                              </witness>
+                              <witness xml:id="V3">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Paris</settlement>
+                                                <repository>BNF</repository>
+                                                <idno>fr.22550</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="1r" to="50v"/> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>
+                                          </msDesc>
+                              </witness>
+                              <witness xml:id="B">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Bruxelles</settlement>
+                                                <repository>KBR</repository>
+                                                <idno>MS.9245</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="348v" to="483v"/> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>
+                                    </msDesc>
+                              </witness>
+                              <witness xml:id="X2">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Londres</settlement>
+                                                <repository>BL</repository>
+                                                <idno>Harley 4903</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="16r" to="134v"/> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>
+                                    </msDesc>
+                              </witness>
+                              <witness xml:id="G">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Paris</settlement>
+                                                <repository>BNF</repository>
+                                                <idno>fr.93</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="351v" to="491r"/> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>
+                                    </msDesc>
+                              </witness>
+                              <witness xml:id="C">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Paris</settlement>
+                                                <repository>BNF</repository>
+                                                <idno>fr.1446</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="2v" to="26v"/> 
+                                                      <title>part du Roman de Pelyarmenus sous forme allongée/condensée
+                                                            (équivalent des §446-842)</title>
+                                                </msItem>
+                                          </msContents>
+                                    </msDesc>
+                              </witness>
+                              <witness xml:id="R">
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <settlement>Turin</settlement>
+                                                <repository>BN</repository>
+                                                <idno>1650</idno>
+                                          </msIdentifier>
+                                          <msContents>
+                                                <msItem>
+                                                      <locus from="?" to="?"/><!-- Les ff. n'étant pas organisés, il est compliqué de préciser --> 
+                                                      <title>Pelyarmenus</title>
+                                                </msItem>
+                                          </msContents>
+                                    </msDesc>
+                              </witness>
+                        </listWit>
+                  </sourceDesc>     
+            </fileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <div type="alignments">
+                        <!-- template for alignment -->
+                        <!--
+                <div type="alignment" xml:id="fr20125_xxxxx">
+                    <ab type="ms_instance" subtype=base corresp="#edfr20125_xxxxx">
+                        <seg type="ms_name">Fr20125</seg>
+                        <seg type="rubric">x</seg>
+                        <seg type="location">x</seg>
+                        <seg type="note">x</seg>
+                    </ab>
+                    <ab type="ms_instance">
+                        <seg type="ms_name">BR10175</seg>
+                        <seg type="rubric">x</seg>
+                        <seg type="location">x</seg>
+                        <seg type="note">x</seg>
+                    </ab>
+                    <ab type="ms_instance" corresp="edRoyal20D1_xxxxx">
+                        <seg type="ms_name">Royal_20_D_1</seg>
+                        <seg type="rubric">x</seg>
+                        <seg type="location">x</seg>
+                        <seg type="note">x</seg>
+                    </ab>
+                </div>
+                -->
+                        <!-- end -->
+                        <milestone n="1" unit="chapter" xml:id="Pelyarmenus_chap.1" />
+                        <div type="alignment" xml:id="pelyarmenus_01">
+                              <ab corresp="#pelyarmenus_01" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Ci fine li livres de Cassydorus. Si parlerons aprés de Pelyarmenus de Romme.
+                                    Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
+                                    .ii. enfanz petiz a l'empereour.</seg>
+                                    <seg type="location">130vc</seg>
+                                    <seg type="note">Rubric+miniature(131ra-b)+initial</seg>
+                              </ab>
+                        </div>
+                       <milestone n="2" unit="chapter" xml:id="Pelyarmenus_chap.2"/>
+                        <div type="alignment" xml:id="pelyarmenus_18">
+                              <ab corresp="#pelyarmenus_18" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenuz se fu partis d'Espaigne et puis ala en Bretaigne la Menour 
+                                          querre l'empereour son pere, et comment il revint a Romme a l'empereriz sa mere dire nouvelles 
+                                          de ce qu'il ot trouvé de l'empereour.</seg>
+                                    <seg type="location">133vc</seg>
+                                    <seg type="note">Rubric+miniature(133vc)+initial</seg>
+                              </ab> 
+                        </div>
+                        <milestone n="3" unit="chapter" xml:id="Pelyarmenus_chap.3"/>
+                        <div type="alignment" xml:id="pelyarmenus_32">
+                              <ab corresp="#pelyarmenus_32" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment li enfant a l'empereour furent reconnut par un chevalier qui 
+                                          les vit chiez le duc Bourleuz ou aventure le mena.</seg>
+                                    <seg type="location">136vc</seg>
+                                    <seg type="note">Rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="4" unit="chapter" xml:id="Pelyarmenus_chap.4"/>
+                        <div type="alignment" xml:id="pelyarmenus_66">
+                              <ab corresp="#pelyarmenus_66" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Helcanus fu remis en la prison par le commandement Josias.</seg>
+                                    <seg type="location">142rb</seg>
+                                    <seg type="note">rubric+miniature(142rc)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="5" unit="chapter" xml:id="Pelyarmenus_chap.5"/>
+                        <div type="alignment" xml:id="pelyarmenus_87">
+                              <ab corresp="#pelyarmenus_87" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Ci vient li comptes a Clyodorus, comment il se fu partis du duc Bourleuz, 
+                                          si comme devant est dit, pour aler au chastel, la ou il trova Fremor.</seg>
+                                    <seg type="location">146vb</seg>
+                                    <seg type="note">rubric+miniature(146vc)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="6" unit="chapter" xml:id="Pelyarmenus_chap.6"/>
+                        <div type="alignment" xml:id="pelyarmenus_104">
+                              <ab corresp="#pelyarmenus_104" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenus voult estre empereour de Constentinoble et metre 
+                                          Helcanus son frere a mort.</seg>
+                                    <seg type="location">150vb-c</seg>
+                                    <seg type="note">rubric+miniature(150vc)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="7" unit="chapter" xml:id="Pelyarmenus_chap.7"/>
+                        <div type="alignment" xml:id="pelyarmenus_116">
+                              <ab corresp="#pelyarmenus_116" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenus se voult faire empereour de Constentinoble et 
+                                          que li baron le receussent et li aidassent.</seg>
+                                    <seg type="location">153rc</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="8" unit="chapter" xml:id="Pelyarmenus_chap.8"/>
+                        <div type="alignment" xml:id="pelyarmenus_135">
+                              <ab corresp="#pelyarmenus_135" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Coment Mirus se parti du chastel par le conseil a la damoisele 
+                                          et ala en son message, lui et ses compaignons.</seg>
+                                    <seg type="location">156vc</seg>
+                                    <seg type="note">rubric+miniature+initial(157ra)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="9" unit="chapter" xml:id="Pelyarmenus_chap.9"/>
+                        <div type="alignment" xml:id="pelyarmenus_152">
+                              <ab corresp="#pelyarmenus_152" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Myrus se combati encontre Malquidant 
+                                          por Helcanus son seigneur deffendre.</seg>
+                                    <seg type="location">160rc</seg>
+                                    <seg type="note">rubric+miniature(160rb-c)+initial(160va)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="10" unit="chapter" xml:id="Pelyarmenus_chap.10"/>
+                        <div type="alignment" xml:id="pelyarmenus_178">
+                              <ab corresp="#pelyarmenus_178" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment le garçon eschapa des traïteurs et s’en ala en Frise a Japhus, 
+                                          le filz au roy de Frise.</seg>
+                                    <seg type="location">165rb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="11" unit="chapter" xml:id="Pelyarmenus_chap.11"/>
+                        <div type="alignment" xml:id="pelyarmenus_189">
+                              <ab corresp="#pelyarmenus_189" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Mirrus est demouré avec la pucele 
+                                          et y demoura par .ii. mois entre lui et son compaignon.</seg>
+                                    <seg type="location">167rb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="12" unit="chapter" xml:id="Pelyarmenus_chap.12"/>
+                        <div type="alignment" xml:id="pelyarmenus_209">
+                              <ab corresp="#pelyarmenus_209" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Myrrus se parti pour porter le message a Pelyarmenus de par 
+                                          Helcanus, son frere.</seg>
+                                    <seg type="location">171rb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="13" unit="chapter" xml:id="Pelyarmenus_chap.13"/>
+                        <div type="alignment" xml:id="pelyarmenus_229">
+                              <ab corresp="#pelyarmenus_229" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Karus se parti de Mirrus et s’en ala en la cité de Nise, si comme vous orrez.</seg>
+                                    <seg type="location">174vb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="14" unit="chapter" xml:id="Pelyarmenus_chap.14"/>
+                        <div type="alignment" xml:id="pelyarmenus_279">
+                              <ab corresp="#pelyarmenus_279" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenus trahy Helcanus son frere et l’enmena pris en Costentinnoble, 
+                                          si comme il est contenu en l’ystoire.</seg>
+                                    <seg type="location">181vc</seg>
+                                    <seg type="note">rubric+miniature(181vb-c)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="15" unit="chapter" xml:id="Pelyarmenus_chap.15"/>
+                        <div type="alignment" xml:id="pelyarmenus_283">
+                              <ab corresp="#pelyarmenus_283" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Clyodorus se parti de Helcanus et s’en ala en Espaigne 
+                                          et au roy d’Arragon pour querre secours.</seg>
+                                    <seg type="location">182va</seg>
+                                    <seg type="note">rubric+miniature+initial(182vb)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="16" unit="chapter" xml:id="Pelyarmenus_chap.16"/>
+                        <div type="alignment" xml:id="pelyarmenus_320">
+                              <ab corresp="#pelyarmenus_320" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment li emperieres se parti de la cisterne 
+                                          et s’en ala tout a pié au Chastel Mignot.</seg>
+                                    <seg type="location">188vb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="17" unit="chapter" xml:id="Pelyarmenus_chap.17"/>
+                        <div type="alignment" xml:id="pelyarmenus_333">
+                              <ab corresp="#pelyarmenus_333" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Borleuz et li autre baron furent a grant meschief de ce que il ne sorent 
+                                          que Helcanus estoit devenus, si comme vous avez devant oÿ.</seg>
+                                    <seg type="location">190rc</seg>
+                                    <seg type="note">rubric+miniature+initial(190va)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="18" unit="chapter" xml:id="Pelyarmenus_chap.18"/>
+                        <div type="alignment" xml:id="pelyarmenus_340">
+                              <ab corresp="#pelyarmenus_340" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Mirrus abati Dubius de cop de lance.</seg>
+                                    <seg type="location">191vc</seg>
+                                    <seg type="note">rubric+miniature(191vb-c)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="19" unit="chapter" xml:id="Pelyarmenus_chap.19"/>
+                        <div type="alignment" xml:id="pelyarmenus_348">
+                              <ab corresp="#pelyarmenus_348" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenus se parti de la bataille et comment il revint.</seg>
+                                    <seg type="location">193rc</seg>
+                                    <seg type="note">rubric+miniature(193rb-c)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="20" unit="chapter" xml:id="Pelyarmenus_chap.20"/>
+                        <div type="alignment" xml:id="pelyarmenus_364">
+                              <ab corresp="#pelyarmenus_364" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Ci repaire li comptes au roy d'Arragon et a Pelyarmenus.</seg>
+                                    <seg type="location">196rb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="21" unit="chapter" xml:id="Pelyarmenus_chap.21"/>
+                        <div type="alignment" xml:id="pelyarmenus_384">
+                              <ab corresp="#pelyarmenus_384" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Pelyarmenus envoia Helcanus, son frere, a Romme a Fastidorus et a sa mere.</seg>
+                                    <seg type="location">200rc</seg>
+                                    <seg type="note">rubric+miniature(200rb-c)+initial(200rb)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="22" unit="chapter" xml:id="Pelyarmenus_chap.22"/>
+                        <div type="alignment" xml:id="pelyarmenus_396">
+                              <ab corresp="#pelyarmenus_396" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Aphode et Ysodore furent a grant meschief pour Helcanus.</seg>
+                                    <seg type="location">202va</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="23" unit="chapter" xml:id="Pelyarmenus_chap.23"/>
+                        <div type="alignment" xml:id="pelyarmenus_407">
+                              <ab corresp="#pelyarmenus_407" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Ci vient li comptes a Cassydorus comment lui et sa gent vindrent de Laomedon 
+                                          devant Costentinnoble pour combatre.</seg>
+                                    <seg type="location">204vc</seg>
+                                    <seg type="note">rubric+miniature(204vb-c)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="24" unit="chapter" xml:id="Pelyarmenus_chap.24"/>
+                        <div type="alignment" xml:id="pelyarmenus_430">
+                              <ab corresp="#pelyarmenus_430" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Nera se parti de Laomedon et s’en ala a Romme pour querre Helcanus, 
+                                          son bon ami.</seg>
+                                    <seg type="location">208va</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="25" unit="chapter" xml:id="Pelyarmenus_chap.25"/>
+                        <div type="alignment" xml:id="pelyarmenus_440">
+                              <ab corresp="#pelyarmenus_440" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment li chevalier se mistrent a la voie pour querre Nera, la suer Josyas d’Espaigne.</seg>
+                                    <seg type="location">210rb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="26" unit="chapter" xml:id="Pelyarmenus_chap.26"/>
+                        <div type="alignment" xml:id="pelyarmenus_448">
+                              <ab corresp="#pelyarmenus_448" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment li emperieres fu devant Costentinnoble.</seg>
+                                    <seg type="location">211vb</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="27" unit="chapter" xml:id="Pelyarmenus_chap.27"/>
+                        <div type="alignment" xml:id="pelyarmenus_456">
+                              <ab corresp="#pelyarmenus_456" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment Peliarmenus raconte .i. mauvais example a Fastidorus, son frere.</seg>
+                                    <seg type="location">212vb</seg>
+                                    <seg type="note">rubric+miniature(212vc)+initial</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="28" unit="chapter" xml:id="Pelyarmenus_chap.28"/>
+                        <div type="alignment" xml:id="pelyarmenus_475">
+                              <ab corresp="#pelyarmenus_475" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22549</seg>
+                                    <seg type="rubric">Comment li seneschaus volt amer Nera et avoir par force.</seg>
+                                    <seg type="location">215vc</seg>
+                                    <seg type="note">rubric+miniature+initial(216ra)</seg>
+                              </ab>  
+                        </div>
+                        <milestone n="29" unit="chapter" xml:id="Pelyarmenus_chap.29"/>
+                        <div type="alignment" xml:id="pelyarmenus_481">
+                              <ab corresp="#pelyarmenus_481" subtype="base" type="ms_instance">
+                                    <seg type="ms_name">Fr22550</seg>
+                                    <seg type="rubric">Comment Helcanus issi de prison et ala en la queste de Nera, s'amie.</seg>
+                                    <seg type="location">1ra-b</seg>
+                                    <seg type="note">rubric+miniature(1ra-b)+initial(1ra)</seg>
+                              </ab>  
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>
