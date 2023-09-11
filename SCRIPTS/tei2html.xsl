@@ -21,6 +21,9 @@
     <xsl:template match="head[@type='rubrique']">
         <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1> 
     </xsl:template>
+    <xsl:template match="head[@type='explicit']">
+        <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1>
+    </xsl:template>
     <xsl:template match="figDesc">
         <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>

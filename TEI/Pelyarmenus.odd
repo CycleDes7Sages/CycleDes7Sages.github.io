@@ -502,9 +502,10 @@
               <attDef ident="type" mode="change" usage="req">
                 <valList type="closed">
                   <valItem ident="rubrique"/>
+                  <valItem ident="explicit"/>
                 </valList>
               </attDef>
-              <attDef ident="n" mode="change" usage="req"/>
+              <attDef ident="n" mode="change" usage="rec"/>
             </attList>
           </elementSpec>
 
