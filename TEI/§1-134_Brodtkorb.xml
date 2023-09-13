@@ -254,8 +254,8 @@
                     <app><lem wit="#V2 #G #X2">metre a mort</lem><rdg wit="#B">murtrir</rdg></app> les 
                     <app><lem wit="#V2 #G #X2"><num>ii</num></lem><rdg wit="#B"/></app> enfanz 
                     <app><lem wit="#V2 #G #X2">petiz a</lem><rdg wit="#B"/></app> 
-                    <rs type="person" key="Cassidorus"><app><lem wit="#V2 #G #X2">l'empereour</lem>
-                        <rdg wit="#B">l'empereour de Constantinoble</rdg></app></rs>.</head>
+                    <rs type="person" key="Cassidorus"><app><lem wit="#V2 #X2">l'empereour</lem>
+                        <rdg wit="#B">l'empereour de Constantinoble</rdg><rdg wit="#G">l'empereur son pere</rdg></app></rs>.</head>
                 <pb n="131"/>
                 <figure>
                     <graphic url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
@@ -1830,11 +1830,13 @@
                             refuse, sans que le récit n'en précise la raison.</note></said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R2"><app><lem wit="#V2 #G #X2">Comment</lem><rdg wit="#B">Ci vient li contes a</rdg></app> 
-                    <persName key="Pelyarmenus">Pelyarmenuz</persName> 
-                    <app><lem wit="#V2 #G #X2">se fu partis d'<placeName key="Espaigne"
-                        >Espaigne</placeName> et puis ala en <placeName key="Bretaigne">Bretaigne la
-                        Menour</placeName> querre <rs type="person" key="Cassidorus"
+                <head type="rubrique" n="R2"><app><lem wit="#V2 #G">Comment</lem><rdg wit="#B #X2">Ci vient li contes a</rdg></app> 
+                    <app><lem wit="#V2 #G"><persName key="Pelyarmenus">Pelyarmenuz</persName></lem><rdg wit="#X2">Pelyarmenuz qui</rdg></app> 
+                    <app><lem wit="#V2 #G #X2">se <app><lem wit="#V2 #X2">fu partis</lem><rdg wit="#G">partis</rdg></app> 
+                        d'<placeName key="Espaigne">Espaigne</placeName> et <app><lem wit="#V2 #X2">puis</lem><rdg wit="#G"/></app> 
+                        ala en <placeName key="Bretaigne">Bretaigne la <app><lem wit="#V2 #X2">Menour</lem>
+                            <rdg wit="#G">Grant</rdg></app></placeName> 
+                        <app><lem wit="#V2 #G">querre</lem><rdg wit="#X2">pour querre</rdg></app> <rs type="person" key="Cassidorus"
                         >l'empereour</rs> son pere</lem><rdg wit="#B"/></app>, 
                     <app><lem wit="#V2 #G #X2">et comment</lem><rdg wit="#B">ensi comme</rdg></app> il revint a <placeName key="Rome"
                         >Romme</placeName> 
@@ -3385,7 +3387,8 @@
                         enfanz faisoit garder, si comme devant est dit</said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R3"><app><lem wit="#V2 #G #X2">Comment li enfant a <rs type="person" key="Cassidorus"
+                <head type="rubrique" n="R3"><app><lem wit="#V2 #G #X2"><app><lem wit="#V2 #G">Comment</lem>
+                <rdg wit="#X2">Ci devise li histoire comment</rdg></app> li enfant a <rs type="person" key="Cassidorus"
                         >l'empereour</rs>   <app><lem wit="#X2">furent congneu</lem>
                         <rdg wit="#V2 #G">reconnut</rdg>
                     </app> par <rs type="person" key="Clyodorus">un chevalier</rs> qui les vit chiez
@@ -6493,7 +6496,8 @@
                         </app></persName>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R4"><app><lem wit="#V2 #G #X2">Comment</lem><rdg wit="#B">Ci endroit revient li contes a </rdg></app> 
+                <head type="rubrique" n="R4"><app><lem wit="#V2 #G">Comment</lem><rdg wit="#B">Ci endroit revient li contes a</rdg>
+                <rdg wit="#X2">Ci dist comment</rdg></app> 
                     <persName key="Helcanus">Helcanus</persName> 
                     <app><lem wit="#V2 #G #X2">fu remis en la prison par le commandement <persName key="Josyas"
                     >Josias</persName></lem><rdg wit="#B"/></app>.</head>
@@ -9218,7 +9222,8 @@
                         >Clyodorus</persName>, <app><lem wit="#V2 #G #X2">comment il se fu partis du duc <persName
                         key="Borleuz">Bourleuz</persName>, <said who="#nar">si comme devant est
                         dit,</said> pour aler au chastel, la ou il trova <persName key="Fremor"
-                            >Fremor</persName></lem><rdg wit="#B">ainsi comme il il aloit en la queste de Helcanus</rdg></app>.</head>
+                            ><app><lem wit="#V2 #X2">Fremor</lem><rdg wit="#G">Fremor, le chevalier</rdg></app></persName></lem>
+                            <rdg wit="#B">ainsi comme il il aloit en la queste de Helcanus</rdg></app>.</head>
                 <cb n="f"/>
                 <figure>
                     <graphic
@@ -11187,8 +11192,8 @@
             </div>
             <div>
                 <head type="rubrique" n="R6"><app><lem wit="#V2 #G #X2">Comment <persName key="Pelyarmenus"
-                        >Pelyarmenus</persName> voult estre <cb n="f"/>empereour de <placeName
-                        key="Costentinnoble">Constentinoble</placeName> et metre <persName
+                        >Pelyarmenus</persName> voult estre <cb n="f"/>empereour <app><lem wit="#V2 #G">de <placeName
+                        key="Costentinnoble">Constentinoble</placeName></lem><rdg wit="#X2"/></app> et metre <persName
                         key="Helcanus">Helcanus</persName> son frere a mort.</lem><rdg wit="#B"/></app></head>
                 <figure>
                     <graphic
@@ -14300,8 +14305,9 @@
                 <head type="rubrique" n="R8"><app><lem wit="#V2 #G #X2">Coment</lem><rdg wit="#B">Ci endroit revient li contes a</rdg></app> 
                     <persName key="Mirrus">Mirus</persName> <app><lem wit="#V2 #G #X2">se parti
                     du chastel par le conseil a <rs type="person" key="Melode">la damoisele </rs>et
-                    ala en son message, lui</lem><rdg wit="#B"></rdg></app> et <app><lem wit="#V2 #G #X2">ses compaignons</lem>
-                        <rdg wit="#B">se compagnie</rdg></app>.</head>
+                    ala en son message, <app><lem wit="#V2 #X2">lui</lem><rdg wit="#G"/></app></lem><rdg wit="#B"></rdg></app> et 
+                    <app><lem wit="#V2 #X2">ses compaignons</lem>
+                        <rdg wit="#B">se compagnie</rdg><rdg wit="#G">ses gens</rdg></app>.</head>
             </div>
             <figure>
                 <graphic
