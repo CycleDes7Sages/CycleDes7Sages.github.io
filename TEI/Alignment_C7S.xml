@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">C7S Alignment_C7S</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Responsable:Camille Carnaille</edition>                        
+            </editionStmt>
+            <publicationStmt>
+                <publisher>C7S</publisher>
+                <date>XXX</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V1">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.22548</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="14vc"/>
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="15ra" to="56ra"/>
+                                    <title>Roman de Marques</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="56ra" to="172rc"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="172rc" to="206vc"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                            </msContents>                                          
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="V2">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.22549</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="74rb"/>
+                                    <title>Cassidorus-suite</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="74rb" to="130vc"/>
+                                    <title>Helcanus</title>
+                                    <note>Cette section, éditée comme un roman spécifique, n'est pas indiquée par un 
+                                    implicit ou explicit spécifique dans le manuscrit</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="131r" to="216v"/> 
+                                    <title>Pelyarmenus</title>
+                                </msItem>
+                            </msContents>                                          
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="V3">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.22550</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="50v"/> 
+                                    <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="50rb-c" to="163vb"/> 
+                                    <title>Kanor</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Bruxelles</settlement>
+                                <repository>KBR</repository>
+                                <idno>MS.9245</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1ra" to="17rc"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="17rc" to="60vc"/> 
+                                    <title>Marques</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="60vc" to="184va"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="184va" to="296ra"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="296ra" to="348vb-c"/> 
+                                    <title>Helcanus</title>
+                                    <note>Cette section, éditée comme un roman spécifique, n'est pas indiquée par un 
+                                        implicit ou explicit spécifique dans le manuscrit</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="348vb-c" to="483va"/> 
+                                    <title>Pelyarmenus</title>
+                                    <note>Ce manuscrit ne donne ni implicit ni explicit à ce roman. Plus encore, la transition au roman 
+                                    suivant n'est pas parfaitement identifiable dans le récit fourni par ce témoin.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="483va" to="593vb"/> 
+                                    <title>Kanor</title>
+                                    <note>Ce manuscrit ne donne pas d'implicit spécifique à ce roman. Plus encore, la transition depuis
+                                        le roman précédent n'est pas parfaitement identifiable dans le récit fourni par ce témoin.</note>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="X1">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BnF</repository>
+                                <idno>fr.17000</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="2ra" to="39ra"/> 
+                                    <title>Marques</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="39ra" to="147vb"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="147vb" to="234v"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="234v" to="266va"/> 
+                                    <title>Helcanus</title>
+                                    <note>Cette section, éditée comme un roman spécifique, n'est pas indiquée par un 
+                                        implicit ou explicit spécifique dans le manuscrit</note>
+                                </msItem>
+                             </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="X2">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Londres</settlement>
+                                <repository>BL</repository>
+                                <idno>Harley 4903</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="16rc"/> 
+                                    <title>Helcanus-suite</title>
+                                    <note>Cette section, éditée comme un roman spécifique, n'est pas indiquée par un 
+                                        implicit ou explicit spécifique dans le manuscrit</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="16rc" to="134vc"/> 
+                                    <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="134vc" to="231vb"/> 
+                                    <title>Kanor</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="G">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.93</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1ra" to="17ra"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="17ra" to="60rb"/> 
+                                    <title>Marques</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="60rb" to="186r"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="186r" to="294v"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="294v" to="351vb"/> 
+                                    <title>Helcanus</title>
+                                    <note>Cette section, éditée comme un roman spécifique, n'est pas indiquée par un 
+                                        implicit ou explicit spécifique dans le manuscrit</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="351vb" to="491va-b"/> 
+                                    <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="491va-b" to="601vb"/> 
+                                    <title>Kanor</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.1446</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="2v"/> 
+                                    <title>Cassidorus et Helcanus sous forme résumée</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="2v" to="26v"/> 
+                                    <title>Pelyarmenus sous forme allongée/condensée
+                                        (équivalent des §446-842)</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="26v" to="fin"/> 
+                                    <title>Kanor</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="R">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Turin</settlement>
+                                <repository>BN</repository>
+                                <idno>1650</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="?" to="?"/><!-- Les ff. n'étant pas organisés, il est compliqué de préciser --> 
+                                    <title>Pelyarmenus</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>     
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="alignments">                       
+                <milestone n="1-1" unit="chapter" xml:id="R7S_V_chap.1"/>
+                <div type="alignment" xml:id="R7S_V_01">
+                    <ab corresp="#R7S_V_01" subtype="base" type="ms_instance">
+                        <seg type="ms_name">Fr22548</seg>
+                        <seg type="rubric"><unclear reason="faded"/></seg>
+                        <seg type="location">1ra-b-c</seg>
+                        <seg type="note">Rubric+miniature(1ra-b-c)+initial(1ra)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_01" type="ms_instance">
+                        <seg type="ms_name">KBR9245</seg>
+                        <seg type="rubric">Ci vient li contes a Dyalogus le bastart si com il cuida murtrir les enfanz
+                            l'empereour de Constantinoble.</seg>
+                        <seg type="location">348vc</seg>
+                        <seg type="note">rubric+miniature+initial(349ra)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_01" type="ms_instance">
+                        <seg type="ms_name">Fr93</seg>
+                        <seg type="rubric">Ci fine ly livres de Cassydorus. Si parlerons aprés de Pelyarmenus de Romme.
+                            Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
+                            .ii. enfanz petiz a l'empereur son pere.</seg>
+                        <seg type="location">351vb</seg>
+                        <seg type="note">rubric+miniature(351va-b)+initial(351va)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_01" type="ms_instance">
+                        <seg type="ms_name">Fr17000</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus. Si parlerons aprés de Pelyarmenus de Romme.
+                            Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
+                            .ii. enfanz petiz a l'empereour.</seg>
+                        <seg type="location">16rc</seg>
+                        <seg type="note">rubric+miniature(16rb-c)+initial(16rc)</seg>
+                    </ab>
+                </div>
+            </div>                  
+        </body>
+    </text>
+</TEI>
