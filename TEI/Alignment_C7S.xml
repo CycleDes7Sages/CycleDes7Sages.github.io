@@ -189,7 +189,7 @@
                             <msIdentifier>
                                 <settlement>Paris</settlement>
                                 <repository>BNF</repository>
-                                <idno>fr.93</idno>
+                                <idno>Fr.93</idno>
                             </msIdentifier>
                             <msContents>
                                 <msItem>
@@ -272,35 +272,536 @@
         <body>
             <div type="alignments">                       
                 <milestone n="1-1" unit="chapter" xml:id="R7S_V_chap.1"/>
-                <div type="alignment" xml:id="R7S_V_01">
-                    <ab corresp="#R7S_V_01" subtype="base" type="ms_instance">
-                        <seg type="ms_name">Fr22548</seg>
-                        <seg type="rubric"><unclear reason="faded"/></seg>
+                <div type="alignment" xml:id="R7S_V_1">
+                    <ab corresp="#R7S_V_1" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="implicit"><unclear reason="faded"/></seg>
                         <seg type="location">1ra-b-c</seg>
-                        <seg type="note">Rubric+miniature(1ra-b-c)+initial(1ra)</seg>
+                        <seg type="note">Miniature(1ra-b-c)+rubric+initial(1ra)</seg>
                     </ab>
-                    <ab corresp="#R7S_V_01" type="ms_instance">
-                        <seg type="ms_name">KBR9245</seg>
-                        <seg type="rubric">Ci vient li contes a Dyalogus le bastart si com il cuida murtrir les enfanz
-                            l'empereour de Constantinoble.</seg>
-                        <seg type="location">348vc</seg>
-                        <seg type="note">rubric+miniature+initial(349ra)</seg>
+                    <ab corresp="#R7S_V_1" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="implicit">Ci commence li livres des .vii. sages de Romme et de Marques, le seneschal.
+                        Et aprés de Laurin et de Cassydorus. et de Pelyarmenus. Et aprés li fait des empereurs de Romme et 
+                        de Coustantinoble.</seg>
+                        <seg type="location">1ra</seg>
+                        <seg type="note">Miniature(1ra-b-c)+rubric+initial.
+                        Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
+                        concentration on Pelyarmenus, whose romance does not start with any implicit</seg>
                     </ab>
-                    <ab corresp="#R7S_V_01" type="ms_instance">
-                        <seg type="ms_name">Fr93</seg>
-                        <seg type="rubric">Ci fine ly livres de Cassydorus. Si parlerons aprés de Pelyarmenus de Romme.
-                            Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
-                            .ii. enfanz petiz a l'empereur son pere.</seg>
-                        <seg type="location">351vb</seg>
-                        <seg type="note">rubric+miniature(351va-b)+initial(351va)</seg>
+                    <ab corresp="#R7S_V_1" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="implicit">absent</seg>
+                        <seg type="note">Miniature(1ra-b)+initial(1ra)</seg>
                     </ab>
-                    <ab corresp="#R7S_V_01" type="ms_instance">
-                        <seg type="ms_name">Fr17000</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus. Si parlerons aprés de Pelyarmenus de Romme.
-                            Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
-                            .ii. enfanz petiz a l'empereour.</seg>
-                        <seg type="location">16rc</seg>
-                        <seg type="note">rubric+miniature(16rb-c)+initial(16rc)</seg>
+                    <ab corresp="#R7S_V_1" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="implicit">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-2" unit="chapter" xml:id="R7S_V_chap.2"/>
+                <div type="alignment" xml:id="R7S_V_2">
+                    <ab corresp="#R7S_V_2" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris met l’empereour a raison que il mande son filz et les .vii. sages.</seg>
+                        <seg type="location">2ra</seg>
+                        <seg type="note">Rubric+miniature+initial(2rb)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_2" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 1vc</seg>
+                        <!-- revoir ici : difficulté posée tout au long du R7S de l'inscription des rubriques en fin de section 
+                        dans V et au début pour B-->
+                    </ab>
+                    <ab corresp="#R7S_V_2" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Dioclesien, empereur de Romme, a la requeste de l'empereris sa femme qui moult
+                            estoit malicieuse et plaine de mal art, envoya querir son filz que les sept sages introduisoient en toutes 
+                            sciences et de la grant mauvaistié que l'empereris, sa marrastre, se pensa, car l'enfent ne parloit point, 
+                            car il avoit veu en la lune que le premier mot qu'il diroit de .vii. jors luy et ses mestres. 
+                            <!-- revoir ici -->soient d'estre ytz.</seg>
+                        <seg type="location">2ra</seg>
+                        <seg type="note">rubric+miniature(2rb)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_2" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-3" unit="chapter" xml:id="R7S_V_chap.3"/>
+                <div type="alignment" xml:id="R7S_V_3">
+                    <ab corresp="#R7S_V_3" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment li empereres commanda que son filz fu remis en chartre pour 
+                            la vergongne que il avoit faite a l’empereris sa femme.</seg>
+                        <seg type="location">3ra</seg>
+                        <seg type="note">Rubric+miniature+initial(3rb)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_3" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Even no new paragraph linked to this new chapter in V1. ca 2vc</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_3" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'empereur commanda que son filz feust mis en chartre pour l'empereris sa femme.</seg>
+                        <seg type="location">3rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_3" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-4" unit="chapter" xml:id="R7S_V_chap.4"/>
+                <div type="alignment" xml:id="R7S_V_4">
+                    <ab corresp="#R7S_V_4" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris dist a l’emperour que aussi li puist il avenir de son filz comme 
+                            il fist au pin de son piniau.</seg>
+                        <seg type="location">3va</seg>
+                        <seg type="note">Rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_4" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence la dame son conte du petit pinel qui essorba le grain pin.</seg>
+                        <seg type="location">3ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_4" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'empereris dist a l'empereur que aussi li puist il avenir de son filz
+                            comme il fist au pin de son piniau.</seg>
+                        <seg type="location">3vb</seg>
+                        <seg type="note">rubric+miniature+initial(4ra)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_4" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-5" unit="chapter" xml:id="R7S_V_chap.5"/>
+                <div type="alignment" xml:id="R7S_V_5">
+                    <ab corresp="#R7S_V_5" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Bancillas salue l’empereour et li dist que aussi li puist il avenir de son filz 
+                            comme au vavassour de son levrier.</seg>
+                        <seg type="location">4ra</seg>
+                        <seg type="note">Rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_5" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ici commence Bancillas un conte du chevalier qui tua son levrier.</seg>
+                        <seg type="location">3vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <!-- revoir ici comment indiquer ajout de rubrique -->
+                        <seg type="rubric">Ici commence la dame son conte du varlet qui tua le sengler en gratant.
+                            (Addition, corresponding to the text given in V1 XXX<!-- revoir ici: compléter -->)</seg>
+                        <seg type="location">4rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_5" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Bancillas salue l'empereur et li dist que aussi ly puist il avenir de son filz
+                            comme au vavassour de son levrier.</seg>
+                        <seg type="location">4rb</seg>
+                        <seg type="note">rubric+miniature+initial(4va)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_5" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-6" unit="chapter" xml:id="R7S_V_chap.6"/>
+                <div type="alignment" xml:id="R7S_V_6">
+                    <ab corresp="#R7S_V_6" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Anciles salue l’emperour et li dist que aussi li puist il avenir de son filz 
+                            que il fist Ypocras de son neveu.</seg>
+                        <seg type="location">5rb</seg>
+                        <seg type="note">Rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_6" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence Augustes .i. conte du neveu Ypocras.</seg>
+                        <seg type="location">4vc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_6" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Ancilles salue l'empereur et li dist que aussi li puist il avenir de son filz com
+                            il fist a Ypocras de son neveu.</seg>
+                        <seg type="location">5vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_6" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-7" unit="chapter" xml:id="R7S_V_chap.7"/>
+                <div type="alignment" xml:id="R7S_V_7">
+                    <ab corresp="#R7S_V_7" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris dist a l’emperour que ainssi li puist il avenir de croire le conseil 
+                            des .vii. sages comme il fist a celui qui ot sa teste getee en la longaigne par son filz.</seg>
+                        <seg type="location">5vc</seg>
+                        <seg type="note">Rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_7" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence la dame .i. conte de celui qui geta la teste son pere en une longaigne.</seg>
+                        <seg type="location">6rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_7" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'empereris dist a l'empereur que ainssi li puist il avenir de croire le conseil 
+                            des .vii. sages comme il fist a celui qui ot sa teste gettee en la longaigne par son filz.</seg>
+                        <seg type="location">6va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_7" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-8" unit="chapter" xml:id="R7S_V_chap.8"/>
+                <div type="alignment" xml:id="R7S_V_8">
+                    <ab corresp="#R7S_V_8" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Lentulus salue l’emperour et dist que aussi li puist venir de son filz 
+                            que au vavassour de sa femme.</seg>
+                        <seg type="location">6vc</seg>
+                        <seg type="note">miniature(6vb)+rubric+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_8" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence maistres Lentulles son conte de la dame qui fist fuster son seigneur 
+                            vilainement.</seg>
+                        <seg type="location">6rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <!-- revoir ici -->
+                        <seg type="rubric">Ci commence l'empereys un conte de celui qui livra sa femme au gros roy de Puille.
+                        (Addition, corresponding to the text given in V1 XXX <!-- revoir ici: compléter --></seg>
+                        <seg type="location">7ra</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_8" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Lentulus salue l'empereur et dist que aussi li puist il avenir de son filz
+                            comme au vavassour de sa femme.</seg>
+                        <seg type="location">7va</seg>
+                        <seg type="note">rubric+miniature+initial(7vb)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_8" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-9" unit="chapter" xml:id="R7S_V_chap.9"/>
+                <div type="alignment" xml:id="R7S_V_9">
+                    <ab corresp="#R7S_V_9" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Manonidas li tors salue l’emperour et li dist que se il fait morir son filz sanz 
+                            jugement que aussi l’en puist il avenir que il fist au riche ancien sage de sa femme.</seg>
+                        <seg type="location">8ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence maistre Malquidans un conte de l'ancien sage qui fist sa femme sainier de 
+                            .ii. bras.</seg>
+                        <seg type="location">7vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.
+                        Subject: different name for the wise one</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Manonidas li tors salue l'empereur et li dist que s'il fait morir son filz sans
+                            jugement que aussi l'en puist il avenir com il fist au riche ancien sage de sa femme.</seg>
+                        <seg type="location">9ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-10" unit="chapter" xml:id="R7S_V_chap.10"/>
+                <div type="alignment" xml:id="R7S_V_10">
+                    <ab corresp="#R7S_V_10" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris conte a l’empereour comment on fist fondre or en la bouche et es oreille 
+                            l’empereour Crassus pour sa convoitise.</seg>
+                        <seg type="location">9ra</seg>
+                        <seg type="note">rubric+miniature+initial(9rb)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence la dame son conte.</seg>
+                        <seg type="location">8vc</seg>
+                        <seg type="note">rubric+initial. Miniature absent</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'empereris conte a l'empereur comment on fist fondre or en la bouche et en l'oreille
+                            l'empereur Crassus pour sa convoitise.</seg>
+                        <seg type="location">10rb</seg>
+                        <seg type="note">miniature(10ra)+rubric(10rb)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_9" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-11" unit="chapter" xml:id="R7S_V_chap.11"/>
+                <div type="alignment" xml:id="R7S_V_11">
+                    <ab corresp="#R7S_V_11" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Catons salue l’empereour et li dist que aussi li puist il avenir de son filz 
+                            que au bourgois qui tua sa pie qui voir li disoit pour les paroles de sa femme.</seg>
+                        <seg type="location">10ra</seg>
+                        <seg type="note">rubric+miniature+initial(10rb)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_11" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence maistre Catons .i. conte du bourgois qui tua sa pie.</seg>
+                        <seg type="location">10ra</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_11" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Catons salue l'empereur et li dist que aussi li puist il avenir de son filz
+                            qu'il fist au bourgois qui tua sa pie qui voir li disoit pour les paroles de sa femme.</seg>
+                        <seg type="location">11rb</seg>
+                        <seg type="note">miniature(11ra)+rubric(11rb)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_11" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-12" unit="chapter" xml:id="R7S_V_chap.12"/>
+                <div type="alignment" xml:id="R7S_V_12">
+                    <ab corresp="#R7S_V_12" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris dist a l’empereour que ainssi li puist il avenir de son filz 
+                            que il fist au roy Herode qui perdi sa veue par le conseil des .vii. sages.</seg>
+                        <seg type="location">10vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_12" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence la dame un conte du roy Herode qui perdi sa veue.</seg>
+                        <seg type="location">10vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_12" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'empereris dist a l'empereur que ainsi li puist il avenir de son filz 
+                            que il fist au roy Herodes qui perdi sa veue par le conseil dez .vii. sages.</seg>
+                        <seg type="location">11vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_12" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-13" unit="chapter" xml:id="R7S_V_chap.13"/>
+                <div type="alignment" xml:id="R7S_V_13">
+                    <ab corresp="#R7S_V_13" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Jesse li sages salue l’empereour et li dist que ainssi li puist il avenir de son filz 
+                            que il fist au visconte qui morut por sa femme qui le pendi puis qu’il fu mors.</seg>
+                        <seg type="location">11rc</seg>
+                        <seg type="note">rubric+miniature(11va)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_13" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence li sages son conte.</seg>
+                        <seg type="location">11vc</seg>
+                        <seg type="note">rubric+initial. Miniature absent</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_13" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Jesse li sages salue l'empereur et li dist que ainsi li puist il avenir de son filz
+                            que il fist au visconte qui morut pour sa femme qui le pendi puis qu'il fu mors.</seg>
+                        <seg type="location">12vb</seg>
+                        <seg type="note">miniature(12va)+rubric(12vb)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_13" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-14" unit="chapter" xml:id="R7S_V_chap.14"/>
+                <div type="alignment" xml:id="R7S_V_14">
+                    <ab corresp="#R7S_V_14" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment l’empereris devise a l’empereour de Jenus que il fist par son enging une beste 
+                            si merveilleuse qu’il en chaça les Sarrasins qui estoient venus assir Romme.</seg>
+                        <seg type="location">12rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_14" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence la fausse emperereys son conte.</seg>
+                        <seg type="location">13ra</seg>
+                        <seg type="note">rubric+initial. Miniature absent</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_14" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Coment l'empereris devise a l'empereur de Jenus que il fist par son enging une beste 
+                            si merveilleuse qu'il en chaça les Sarrazins qui estoient venus assir Romme.</seg>
+                        <seg type="location">13va</seg>
+                        <seg type="note">rubric+miniature(13vb)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_14" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-15" unit="chapter" xml:id="R7S_V_chap.15"/>
+                <div type="alignment" xml:id="R7S_V_15">
+                    <ab corresp="#R7S_V_15" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment Mereneus salue l’empereour et li dist que aussi li puist il avenir de son filz
+                            comme il fist a cellui qui miex creoit les paroles sa femme que ce qu'il veoit.</seg>
+                        <seg type="location">12vc</seg>
+                        <seg type="note">rubric(hors-réglure)<!-- revoir ici -->+miniature(13ra)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_15" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Ci commence li sages son conte de celui qui crut miex sa femme que ce que il veoit as yex.</seg>
+                        <seg type="location">13vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_15" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment Mereneus salue l'empereur et li dist que aussi ly puist il avenir de son filz
+                            comme il fist a cellui qui mieulx creoit les paroles de sa femme que ce qu'il veoit.</seg>
+                        <seg type="location">14rb</seg>
+                        <seg type="note">rubric+miniature(14va)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_15" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-16" unit="chapter" xml:id="R7S_V_chap.16"/>
+                <div type="alignment" xml:id="R7S_V_16">
+                    <ab corresp="#R7S_V_16" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="rubric">Comment li damoisiaus espont au roy le cri des .ii. corbiaus et de la corbe.</seg>
+                        <seg type="location">14va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_16" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
+                            geta en mer.</seg>
+                        <seg type="location">15va</seg>
+                        <seg type="note">rubric+miniature+initial.
+                        Subject : different story told by the son <!-- revoir ici : déplacer et indiquer comme autre chapitre 
+                        et celui-ci manquant ?--></seg>
+                        <!-- revoir ici comment indiquer ajout de rubrique -->
+                        <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.
+                            (Addition, corresponding to the text given in V1 XXX<!-- revoir ici: compléter -->)</seg>
+                        <seg type="location">16vb-c</seg>
+                        <seg type="note">rubric(16vb-c)+miniature(16vb-c)+initial 16vc</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_16" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Comment l'enfant espouse au roy le cry des deux corbiaux et de la corbe.</seg>
+                        <seg type="location">16rb</seg>
+                        <seg type="note">rubric+miniature(16va)+initial</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_16" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">R7S is entirely missing</seg>
+                    </ab>
+                </div>
+                <milestone n="1-17" unit="chapter" xml:id="R7S_V_chap.17"/>
+                <div type="alignment" xml:id="R7S_V_17">
+                    <ab corresp="#R7S_V_17" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="explicit">Ci fine li livres des .vii. sages de Romme et de la marrastre qui fu arse.
+                        (+implicit)</seg>
+                        <seg type="location">15ra-b</seg>
+                        <seg type="note">miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_17" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="explicit">Explicit.
+                        (+implicit)</seg>
+                        <seg type="location">17rc</seg>
+                        <seg type="note">explicit(brown)+incipit(red)+miniature(17va-b)+initial(17va)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_17" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="explicit">Ci fine le livre des .vii. sages de Romme et de la marrastre qui fu arse.
+                            (+implicit)</seg>
+                        <seg type="location">17ra-b</seg>
+                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                    </ab>
+                    <ab corresp="#R7S_V_17" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="explicit"><unclear reason="faded">Ci fine li livres</unclear> des .vii. sages de Romme et de la
+                            marrastre quy fu arse.</seg>
+                        <seg type="location">2ra-b-c</seg>
+                        <seg type="note">rubric+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
+                            Beginning of ms. on f. 2r. and R7S missing before its explicit</seg>
+                    </ab>
+                </div>
+                <milestone n="2-1" unit="chapter" xml:id="Marques_V_chap.1"/>
+                <div type="alignment" xml:id="Marques_V_1">
+                    <ab corresp="#Marques_V_1" subtype="base" type="ms_instance">
+                        <seg type="witness">V1</seg>
+                        <seg type="implicit">(explicit+)Et commence li livres de Marques de Romme. 
+                            Comment Dyoclesiens regna aprés la mort son pere en grant painne.</seg>
+                        <seg type="location">15ra-b</seg>
+                        <seg type="note">miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
+                    </ab>
+                    <ab corresp="#Marques_V_1" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
+                            le seneschal de Romme.</seg>
+                        <seg type="location">17rc</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                    </ab>
+                    <ab corresp="#Marques_V_1" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
+                            son pere en grant paynne, si comme vous orres.</seg>
+                        <seg type="location">17ra-b</seg>
+                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                    </ab>
+                    <ab corresp="#Marques_V_1" type="ms_instance">
+                        <seg type="witness">X1</seg>
+                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
+                            de son pere en grant painne.</seg>
+                        <seg type="location">2ra-b-c</seg>
+                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
+                            Beginning of ms. on f. 2r.</seg>
                     </ab>
                 </div>
             </div>                  
