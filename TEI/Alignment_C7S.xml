@@ -392,7 +392,10 @@
                         <seg type="rubric">Comment Bancillas salue l’empereour et li dist que aussi li puist il avenir de son filz 
                             comme au vavassour de son levrier.</seg>
                         <seg type="location">4ra</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">Rubric+miniature+initial.
+                        The rubric given in B, corresponding to the one given in V1, is not indicated at the same place : 
+                        B associates this rubric to a previous paragraph in V1, given 3vc. The paragraphs do not correspond between 
+                        these two witnesses in this section.</seg>
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -401,7 +404,7 @@
                         <seg type="note">rubric+initial. Miniature absent.</seg>
                         <!-- revoir ici comment indiquer ajout de rubrique -->
                         <seg type="rubric">Ici commence la dame son conte du varlet qui tua le sengler en gratant.
-                            (Addition, corresponding to the text given in V1 XXX<!-- revoir ici: compléter -->)</seg>
+                            (Addition, corresponding to the text given in V1 4vb (no initial, miniature, nor new paragraph)</seg>
                         <seg type="location">4rc</seg>
                         <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
@@ -491,7 +494,7 @@
                         <seg type="note">rubric+initial. Miniature absent.</seg>
                         <!-- revoir ici -->
                         <seg type="rubric">Ci commence l'empereys un conte de celui qui livra sa femme au gros roy de Puille.
-                        (Addition, corresponding to the text given in V1 XXX <!-- revoir ici: compléter --></seg>
+                        (Addition, corresponding to the text given in V1 7rc (new paragraph, without any initial or miniature)</seg>
                         <seg type="location">7ra</seg>
                         <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
@@ -692,6 +695,12 @@
                         <seg type="rubric">Ci commence li sages son conte de celui qui crut miex sa femme que ce que il veoit as yex.</seg>
                         <seg type="location">13vb</seg>
                         <seg type="note">rubric+initial. Miniature absent</seg>
+                        <!-- revoir ici: comment indiquer un ajout de rubrique? -->
+                        <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
+                            geta en mer.</seg>
+                        <seg type="location">15va</seg>
+                        <seg type="note">rubric+miniature+initial.
+                            (Addition, corresponding to the text given in V1 14rb (new paragraph, but no initial or anything)</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -716,15 +725,12 @@
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
-                            geta en mer.</seg>
-                        <seg type="location">15va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                        Subject : different story told by the son <!-- revoir ici : déplacer et indiquer comme autre chapitre 
-                        et celui-ci manquant ?--></seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">15vc without any new paragraph, rubric, miniature or initial<!-- revoir ici --></seg>
                         <!-- revoir ici comment indiquer ajout de rubrique -->
                         <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.
-                            (Addition, corresponding to the text given in V1 XXX<!-- revoir ici: compléter -->)</seg>
+                            (Addition to the text given in V1, kind of extended version of the end of the R7S)
+                        <!-- revoir ici: analyse de cet ajout avec bataille, sorte de duel judiciaire, etc. ? --></seg>
                         <seg type="location">16vb-c</seg>
                         <seg type="note">rubric(16vb-c)+miniature(16vb-c)+initial 16vc</seg>
                     </ab>
@@ -744,22 +750,20 @@
                 <div type="alignment" xml:id="R7S_V_17">
                     <ab corresp="#R7S_V_17" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="explicit">Ci fine li livres des .vii. sages de Romme et de la marrastre qui fu arse.
-                        (+implicit)</seg>
-                        <seg type="location">15ra-b</seg>
-                        <seg type="note">miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
+                        <seg type="explicit">Explicit les .vii. sages de Romme. 
+                            Ci fine li livres des .vii. sages de Romme et de la marrastre qui fu arse.</seg>
+                        <seg type="location">14vc+15ra-b</seg>
+                        <seg type="note">explicit(14vc)+miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_17" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="explicit">Explicit.
-                        (+implicit)</seg>
+                        <seg type="explicit">Explicit.</seg>
                         <seg type="location">17rc</seg>
                         <seg type="note">explicit(brown)+incipit(red)+miniature(17va-b)+initial(17va)</seg>
                     </ab>
                     <ab corresp="#R7S_V_17" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="explicit">Ci fine le livre des .vii. sages de Romme et de la marrastre qui fu arse.
-                            (+implicit)</seg>
+                        <seg type="explicit">Ci fine le livre des .vii. sages de Romme et de la marrastre qui fu arse.</seg>
                         <seg type="location">17ra-b</seg>
                         <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
                     </ab>
@@ -776,28 +780,28 @@
                 <div type="alignment" xml:id="Marques_V_1">
                     <ab corresp="#Marques_V_1" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques de Romme. 
+                        <seg type="implicit">Et commence li livres de Marques de Romme. 
                             Comment Dyoclesiens regna aprés la mort son pere en grant painne.</seg>
                         <seg type="location">15ra-b</seg>
                         <seg type="note">miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
+                        <seg type="implicit">Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
                             le seneschal de Romme.</seg>
                         <seg type="location">17rc</seg>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
+                        <seg type="implicit">Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
                             son pere en grant paynne, si comme vous orres.</seg>
                         <seg type="location">17ra-b</seg>
                         <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_1" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
+                        <seg type="implicit">Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
                             de son pere en grant painne.</seg>
                         <seg type="location">2ra-b-c</seg>
                         <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
@@ -808,31 +812,26 @@
                 <div type="alignment" xml:id="Marques_V_2">
                     <ab corresp="#Marques_V_1" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="rubric">Du songe et de l’avision que li empereres vit en son dormant.</seg>
+                        <seg type="rubric">Du songe et de l'avision que li empereres vit en son dormant.</seg>
                         <seg type="location">18va</seg>
                         <seg type="note">rubric+miniature+initial(18vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 21rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Du songe et de l'avision que l'empereur vit en dormant.</seg>
+                        <seg type="location">20va</seg>
+                        <seg type="note">rubric+miniature(20vb)+initial(20vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Du songe et de l'avision que li empereres vit en dormant.</seg>
+                        <seg type="location">5va</seg>
+                        <seg type="note">miniature(5va-b)+rubric+initial(5va)</seg>
                     </ab>
                 </div>
                 <milestone n="2-3" unit="chapter" xml:id="Marques_V_chap.3"/>
@@ -845,25 +844,20 @@
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 23rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques le seneschal de Romme fist aporter lez huchez du tresor au temple.</seg>
+                        <seg type="location">22vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques li seneschaus de Romme fist aporter les huches du tresor au temple.</seg>
+                        <seg type="location">7rc</seg>
+                        <seg type="note">rubric+miniature(7va-b)+initial(7va)</seg>
                     </ab>
                 </div>
                 <milestone n="2-4" unit="chapter" xml:id="Marques_V_chap.4"/>
@@ -876,25 +870,21 @@
                     </ab>
                     <ab corresp="#Marques_V_4" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment l'empereis volt coper le poing a Marques, le seneschal, par grande traÿson.</seg>
+                        <seg type="location">25rc</seg>
+                        <seg type="note">rubric+miniature+initial(25va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_4" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris voult copper le poing a Marques.</seg>
+                        <seg type="location">24vb</seg>
+                        <seg type="note">rubric+miniature+initial(25ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_4" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Ci dit comment l'empereriz si volt coper le poing a Marques.</seg>
+                        <seg type="location">9rc</seg>
+                        <seg type="note">rubric+miniature(9va-b)+initial(9va)</seg>
                     </ab>
                 </div>
                 <milestone n="2-5" unit="chapter" xml:id="Marques_V_chap.5"/>
@@ -907,25 +897,20 @@
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 27rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques jousta a la quintaine et tous ses compaignons.</seg>
+                        <seg type="location">26va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques jousta a la quitaine et touz ses compaingnons.</seg>
+                        <seg type="location">11rb</seg>
+                        <seg type="note">rubric+miniature(11ra-b)+initial(11ra)</seg>
                     </ab>
                 </div>
                 <milestone n="2-6" unit="chapter" xml:id="Marques_V_chap.6"/>
@@ -939,25 +924,23 @@
                     </ab>
                     <ab corresp="#Marques_V_6" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques mist a mort tous les larrons qui estoient en la roche.</seg>
+                        <seg type="location">30rb</seg>
+                        <seg type="note">rubric+miniature(30rb-c)+initial(30rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques de Romme parole aux damoiselles. 
+                            Et comment il coupa la teste au maistre et a tous sez compaignons.</seg>
+                        <seg type="location">29va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_6" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Ici dit comment Marques de Romme si parolle aus damoyselles. 
+                            Et comment il copa la teste au mestre et a touz ses compaingnons.</seg>
+                        <seg type="location">14vb</seg>
+                        <seg type="note">rubric+miniature(14va-b)+initial(14va)</seg>
                     </ab>
                 </div>
                 <milestone n="2-7" unit="chapter" xml:id="Marques_V_chap.7"/>
@@ -970,25 +953,21 @@
                     </ab>
                     <ab corresp="#Marques_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques abati la quintaine.</seg>
+                        <seg type="location">34ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques s'en ala en Constantinoble.</seg>
+                        <seg type="location">33ra</seg>
+                        <seg type="note">rubric+miniature(33rb)+initial(33rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_7" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques si s'en ala en Costantinnoble.</seg>
+                        <seg type="location">16vc</seg>
+                        <seg type="note">rubric+miniature(16vb-c)+initial(16vb)</seg>
                     </ab>
                 </div>
                 <milestone n="2-8" unit="chapter" xml:id="Marques_V_chap.8"/>
@@ -1001,57 +980,59 @@
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques et Laurine parlerent ensemble en .i. vregier.</seg>
+                        <seg type="location">35vc</seg>
+                        <seg type="note">rubric+miniature+initial
+                            Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen</seg>
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques et la royane allerent ensemble en un vargier et parlerent de pluseurs choses.
+                            Ainsi comme s'en suit.</seg>
+                        <seg type="location">35ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques et Laurine parollent ensamble en .i. vergier de plusieurs choses.</seg>
+                        <seg type="location">18rc</seg>
+                        <seg type="note">rubric+miniature(18va-b)+initial(18va)
+                        Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen
+                        Stemma: proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-9" unit="chapter" xml:id="Marques_V_chap.9"/>
                 <div type="alignment" xml:id="Marques_V_9">
                     <ab corresp="#Marques_V_9" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="rubric">Comment Marques revint a la royne et entra ou chastel de bel manoir 
+                        <seg type="rubric">Comment Marques revint a la royne et entra ou chastel de Bel Manoir 
                             et une pucelle si li vint a l’encontre.</seg>
                         <seg type="location">34vc</seg>
                         <seg type="note">rubric+miniature(35ra)+initial(35ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques vint a Bel Manoir ou la suer a l'empereeur de Coustantinoble estoit.</seg>
+                        <seg type="location">38vb</seg>
+                        <seg type="note">rubric+miniature+initial.
+                            Subject: intersting precision of Laurine's actual status; 
+                            rectification of V/G's misconsideration of Laurine as a queen</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques revint a la royne et entra ou chastel de Bel Manoir 
+                            et une pucelle si ly vint a l'encontre.</seg>
+                        <seg type="location">37vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques revint a Laurine et entra u chastel de Bel Manoir
+                            et une pucelle si li vint a l'encontre.</seg>
+                        <seg type="location">20vc</seg>
+                        <seg type="note">rubric+miniature(20vb-c)+initial(20vb).
+                            Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen
+                            Stemma: intersting position of X between B and V</seg>
                     </ab>
                 </div>
                 <milestone n="2-10" unit="chapter" xml:id="Marques_V_chap.10"/>
@@ -1065,25 +1046,23 @@
                     </ab>
                     <ab corresp="#Marques_V_10" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment l'empereys se parti de Romme.</seg>
+                        <seg type="location">42va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris de Romme s'en ala en Lombardie au duc son pere. 
+                            Et comment l'empereur la fist querre.</seg>
+                        <seg type="location">41rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_10" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment l'empereriz de Romme s'en ala en Lombardie au duc son pere. 
+                            Et comment li empereres la fist querre.</seg>
+                        <seg type="location">24rb</seg>
+                        <seg type="note">rubric+miniature(24ra-b)+initial(24ra)</seg>
                     </ab>
                 </div>
                 <milestone n="2-11" unit="chapter" xml:id="Marques_V_chap.11"/>
@@ -1097,25 +1076,23 @@
                     </ab>
                     <ab corresp="#Marques_V_11" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment li empereres de Romme envoia son seneschal a l'empereeur de Coustantinoble.</seg>
+                        <seg type="location">44vb</seg>
+                        <seg type="note">rubric+miniature(44vb-c)+initial(44vc)</seg>
                     </ab>
                     <ab corresp="#Marques_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereur de Constantinoble envoya unes lectres a l'empereur de 
+                            Romme qui estoit son cousin germain.</seg>
+                        <seg type="location">43rb</seg>
+                        <seg type="note">miniature(43ra)+rubric+initial(43rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_11" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment li empereres de Costantinnoble envoie unnes lectres a l'empereeur de 
+                            Romme quy estoit son cousin germain.</seg>
+                        <seg type="location">25vb</seg>
+                        <seg type="note">rubric+miniature(25va-b)+initial(25va)</seg>
                     </ab>
                 </div>
                 <milestone n="2-12" unit="chapter" xml:id="Marques_V_chap.12"/>
@@ -1129,25 +1106,24 @@
                     </ab>
                     <ab corresp="#Marques_V_12" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment li rois de Frise manda a l'empereeur de Coustantinoble que il li venist merci crier
+                            nus pies et en chemise.</seg>
+                        <seg type="location">47vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_12" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment le roy de Frise manda a l’empereur de Constantinoble par .i. message 
+                            que il se viengne rendre a lui et crier merci.</seg>
+                        <seg type="location">46rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_12" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment li roys de Frise si manda a l'empereeur de Costantinnoble par .i. message
+                            que il se reveingne rendre et crier mercy a luy.</seg>
+                        <seg type="location">28rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-13" unit="chapter" xml:id="Marques_V_chap.13"/>
@@ -1162,57 +1138,55 @@
                     </ab>
                     <ab corresp="#Marques_V_13" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques et Patans se combatent ensembless(sic).</seg>
+                        <seg type="location">48vc</seg>
+                        <seg type="note">miniature(48vb)+rubric+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Marques se combat a Pathan de Frise dehors lez murs de Constantinoble 
+                            et comment il couppa a Pathan le bras destre et le pié destre et l’oustra et vainqui. 
+                            Et comment il s’en revint en Constantinoble sain et haitié. Ainsi comme vous orres.</seg>
+                        <seg type="location">47rb</seg>
+                        <seg type="note">rubric+miniature+initial(47va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_13" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment Marques se combat a Patan de Frise dehors les murs de Costantinnoble
+                        et comment il copa a Patan le braz destre et le pié destre et l'oustra et vainqui. 
+                        Et comment il se revint en Costantinnoble sain et hestiez.</seg>
+                        <seg type="location">29rc</seg>
+                        <seg type="note">rubric+miniature(29rb-c)+initial(29rb)</seg>
                     </ab>
                 </div>
                 <milestone n="2-14" unit="chapter" xml:id="Marques_V_chap.14"/>
                 <div type="alignment" xml:id="Marques_V_14">
                     <ab corresp="#Marques_V_14" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="rubric">Comment l’empereiz compte a l’empereeur comment li damoisiaus de Romme fu de ceuz 
+                        <seg type="rubric">Comment l’empereiz compte a l’empereeur comment li damoisiaus de Romme fu deceuz 
                             par son escuier qui li embla son anel.</seg>
                         <seg type="location">45vc</seg>
                         <seg type="note">rubric+miniature+initial(46ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph linked 
+                            to this new chapter starting 50vb</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte a l'empereur comment li damoisiaux de Romme fu deceu
+                            par son escuier qui li embla son anuel. Ainsi comme s'en suit.</seg>
+                        <seg type="location">49rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph linked
+                            to this new chapter starting 31ra
+                        Stemma: proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-15" unit="chapter" xml:id="Marques_V_chap.15"/>
@@ -1226,25 +1200,23 @@
                     </ab>
                     <ab corresp="#Marques_V_15" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment li .vii. sage prierent a l'empereour pour Marques.</seg>
+                        <seg type="location">51va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment les .vii. sages de Romme s'agenoillierent davant l'empereur
+                            et ly prierent a joinctes mains qu'il eust pitié de Marques et caetera.</seg>
+                        <seg type="location">50ra</seg>
+                        <seg type="note">rubric+miniature+initial(50rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_15" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment les .vii. sages de Romme s'agenouillierent devant l'empereur
+                            et li prierent a jointes mains qu'il eust pitié et merci de Marques.</seg>
+                        <seg type="location">31vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-16" unit="chapter" xml:id="Marques_V_chap.16"/>
@@ -1258,25 +1230,21 @@
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 52rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte a l'empereur et aux barons qu'il fu .i. empereur a Romme
+                            qui molt se fioit en son seneschal, lequel seneschal deçut l'empereur et sa femme qu'il avoit fiancee.</seg>
+                        <seg type="location">50vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 32rb (no initial or miniature)</seg>
                     </ab>
                 </div>
                 <milestone n="2-17" unit="chapter" xml:id="Marques_V_chap.17"/>
@@ -1290,57 +1258,49 @@
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 52vc</seg>
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Maistre Ancilles compte a l'empereur que la fille d'un bourgois mist sus a Marin,
+                            qui moines estoit qu'il l'avoit engroissée et il estoit femme. Comme s'en suit.</seg>
+                        <seg type="location">51va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 32vc (no initial or miniature)</seg>
                     </ab>
                 </div>
                 <milestone n="2-18" unit="chapter" xml:id="Marques_V_chap.18"/>
                 <div type="alignment" xml:id="Marques_V_18">
                     <ab corresp="#Marques_V_18" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="rubric">Comment l’empereris compte a l’empereeur de Ypocras qui avoit grandi son neveu de mort par 
+                        <seg type="rubric">Comment l’empereris compte a l’empereeur de Ypocras qui avoit garandi son neveu de mort par 
                             herbes, et que ausi li .vii. sage garandiroient Marques de mort par leurs paroles.</seg>
                         <seg type="location">48va</seg>
                         <seg type="note">rubric+miniature(48vb)+initial(48vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 53rc</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte a l'empereur de Ypocras qui avoit garandi son nepveu de mort par
+                            herbes, et que aussi les .vii. sages garandiroient Marques de mort par leurs paroles.</seg>
+                        <seg type="location">52rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Paragraph linked to this new chapter starting 33rc (no initial or miniature)</seg>
                     </ab>
                 </div>
                 <milestone n="2-19" unit="chapter" xml:id="Marques_V_chap.19"/>
@@ -1354,25 +1314,23 @@
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 54rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Maistre Tules compte a l'empereur de Herodias qui fist demander
+                            par sa fille le chief saint Jehan Baptiste a Herodes.</seg>
+                        <seg type="location">53ra</seg>
+                        <seg type="note">rubric+miniature+initial(53rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                        linked to this new chapter starting 34ra.
+                        Stemma: proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-20" unit="chapter" xml:id="Marques_V_chap.20"/>
@@ -1385,25 +1343,21 @@
                     </ab>
                     <ab corresp="#Marques_V_20" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment monta en la tour pour veoir s'amie. Et comment il fu guetiés.</seg>
+                        <seg type="location">54va</seg>
+                        <seg type="note">rubric+miniature(54vb)+initial(54vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_20" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte son compte a l'empereur pour faire mettre Marques a mort.</seg>
+                        <seg type="location">53va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_20" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment l'empereriz compte son compte a l'empereeur pour faire mectre Marques a mort.</seg>
+                        <seg type="location">34rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-21" unit="chapter" xml:id="Marques_V_chap.21"/>
@@ -1417,25 +1371,25 @@
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 55vc</seg>
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereur fait lire par .i. clerc l'exemple que Malcuidans bailla
+                            pour ce qu'il ne pot entrer en la sale.</seg>
+                        <seg type="location">54vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
+                            Following approximately the same layout as in V1, X1 gives, on f. 34vc, the paragraph given
+                            in V1 f. 50rc and gives, on f. 35ra, what V1 gives on f. 51vb (starting at the beginning of this new column)
+                            <!-- revoir ici: formulation et analyse. Une fois encore, c'est une erreur claire, sans retrait volontaire d'une part
+                            de la matière-->.</seg>
                     </ab>
                 </div>
                 <milestone n="2-22" unit="chapter" xml:id="Marques_V_chap.22"/>
@@ -1443,32 +1397,30 @@
                     <ab corresp="#Marques_V_22" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris compte a l’empereeur et aus barons comment Jorres li empereres fu 
-                            de ceuz par sa debonnaireté par son seneschal qui fist couper la teste au filz l’empereeur et l’empereeur 
+                            deceuz par sa debonnaireté par son seneschal qui fist couper la teste au filz l’empereeur et l’empereeur 
                             son pere desposer de l’empire et lui faire faire empereeur par ses dons.</seg>
                         <seg type="location">51vc</seg>
                         <seg type="note">rubric+miniature(52ra)+initial(52ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 56vb</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte a l'empereur et aux barons comment Jorres ly empereres fu
+                            deceuz par sa debonnaireté par son seneschal qui fist coupper la teste au filz l'empereur et l'empereur
+                            son pere desposer de l'empire et lui faire faire empereur par ses dons. Comme s'ensuit.</seg>
+                        <seg type="location">55vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter stating 35rb</seg>
                     </ab>
                 </div>
                 <milestone n="2-23" unit="chapter" xml:id="Marques_V_chap.23"/>
@@ -1482,25 +1434,23 @@
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
+                        <seg type="rubric">absent</seg>
                         <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 57va</seg>
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment Jesse vint a la court et ne pot entrer ens et bailla au portier .i. briefz a
+                            qui il dit qu'il le baillast a l'empereur et qu'il le feist lire par un clerc. Et dit ainsi comme s'en suit.</seg>
+                        <seg type="location">56va</seg>
+                        <seg type="note">rubric+miniature(56vb)+initial(56vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter stating 35vc</seg>
                     </ab>
                 </div>
                 <milestone n="2-24" unit="chapter" xml:id="Marques_V_chap.24"/>
@@ -1513,25 +1463,23 @@
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 58rb</seg>
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris compte a l'empereur et aux barons comment Clyges deçut son oncle de sa femme.
+                            Comme s'en suit.</seg>
+                        <seg type="location">57rb</seg>
+                        <seg type="note">rubric+miniature(57va)+initial(57va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
+                        <seg type="location">37va</seg>
+                        <seg type="note">rubric+miniature+initial.
+                        Stemma: proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-25" unit="chapter" xml:id="Marques_V_chap.25"/>
@@ -1545,25 +1493,29 @@
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">Initial (without any miniature) marking the paragraph 
+                            linked to this new chapter starting 58vb</seg>
+                        <!-- revoir ici comment indiquer ajout de rubrique -->
+                        <seg type="rubric">Comment li .vii. sage se firent amener en une tonne a la court l'empereor.
+                            (Addition, corresponding to the text given in V1 54va)</seg>
+                        <seg type="location">59rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Cy dit comment les .vii. sages de Romme se firent amener a la court l'empereur de 
+                            Romme dedenz une grant tonne.</seg>
+                        <seg type="location">58ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">Ci dist comment li .vii. sages de Romme se firent amener a la court a l'empereeur de 
+                            Romme dedenz une grant tonne.</seg>
+                        <seg type="location">38rb</seg>
+                        <seg type="note">rubric+miniature(38ra-b)+initial(38ra)
+                        Stemma: proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-26" unit="chapter" xml:id="Marques_V_chap.26"/>
@@ -1577,25 +1529,27 @@
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="rubric">Comment Marques reconnut au passer le norri a la dame.</seg>
+                        <seg type="location">60ra</seg>
+                        <seg type="note">rubric+miniature(60rb)+initial(60rb)
+                        Subject : intersting presentation of Marques' role in the discovery</seg>
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="rubric">Comment l'empereris de Romme et Othebons son nourris furent ars pour 
+                            la grande desloyauté qu'ilz avoient faicte et pourpensée envers Marques le seneschal de Romme.</seg>
+                        <seg type="location">59va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="note">There is a gap in X1: the section given in f. 55rv is lacking. 
+                        Following approximately the same layout as in V1, X1 gives, on f. 38vc, the beginning of the paragraph given
+                        in V1 f. 54vc and gives, on f. 56ra, what V1 gives on f. 56ra, which is the last paragraph before the explicit.
+                        <!-- Revoir ici : commenter davantage, c'est une erreur évidente de X2, le texte ne pouvant pas se suivre logiquement.
+                        Oubli donc de transcription d'un folio entier, avec une correspondance dans la mise en page qui explique sûrement cet oubli.
+                        La proximité de la mise en page entre X1 et V1 me paraîtrait intéressante aussi peut-être dans le cadre de l'analyse stemmatique--></seg>
                     </ab>
                 </div>
                 <milestone n="2-27" unit="chapter" xml:id="Marques_V_chap.27"/>
@@ -1608,25 +1562,23 @@
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="explicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="explicit">Explicit. Ci endroit fenist le livre de Marques le seneschal de Romme qui ot a femme Laurine,
+                        la suer a l'empereor de Constentinoble.</seg>
+                        <seg type="location">60vc</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)
+                        Subject : intersting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="explicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="explicit">Explicit. Ici fine le Rommans et la vie de Marques le seneschal de Romme.</seg>
+                        <seg type="location">60rb</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(60va-b)+initial(60va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="explicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="explicit">Explycit. Icy fine le rommanz et la vie de Marques le seneschal de Romme</seg>
+                        <seg type="location">39ra</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(39rb-c)+initial(39rb)</seg>
                     </ab>
                 </div>
                 <milestone n="1-1" unit="chapter" xml:id="Laurin_V_chap.1"/>
@@ -1640,25 +1592,25 @@
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">(explicit+)Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
+                        <seg type="implicit">Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
                             le seneschal de Romme.</seg>
                         <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va).
+                            Subject: intersting mention of Marques' part in le Roman de Laurin</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="implicit">(explicit+)Et commence le livre de Marques de Romme comment Dyocleciens regna aprés la mort
-                            son pere en grant paynne, si comme vous orres.</seg>
-                        <seg type="location">17ra-b</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(17ra-b)+initial(17ra)</seg>
+                        <seg type="implicit">Cy commence le livre de l'empereur Fiseus qui fu filz a l'empereur Dyoclesiens 
+                            qui ot moult a faire tant comme il vesqui en ce siecle.</seg>
+                        <seg type="location">60rb</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(60va-b)+initial(60va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">(explicit+)Et commence li livres de Marques comment Dyoclesiens regna aprés la mort 
-                            de son pere en grant painne.</seg>
-                        <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="implicit">Ci commence li livres de l'empereeur Fyseus quy fuilz (sic) a l'empereeur Dyoclesyens
+                            quy ot moult a faire tant comme il vesquy en ce siecle.</seg>
+                        <seg type="location">39ra</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(39rb-c)+initial(39rb)</seg>
                     </ab>
                 </div>
             </div>                  
