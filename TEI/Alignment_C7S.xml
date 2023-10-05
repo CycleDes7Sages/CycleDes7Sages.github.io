@@ -1586,7 +1586,7 @@
                         <seg type="note">explicit(brown)+implicit(red)+miniature(39rb-c)+initial(39rb)</seg>
                     </ab>
                 </div>
-                <milestone n="1-1" unit="chapter" xml:id="Laurin_V_chap.1"/>
+                <milestone n="3-1" unit="chapter" xml:id="Laurin_V_chap.1"/>
                 <div type="alignment" xml:id="Laurin_V_1">
                     <ab corresp="#Laurin_V_1" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
@@ -1597,11 +1597,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="implicit">Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
-                            le seneschal de Romme.</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va).
-                            Subject: intersting mention of Marques' part in le Roman de Laurin</seg>
+                        <seg type="implicit">Ci commence li livres de Laurin, le fils Marques le seneschal de Romme.</seg>
+                        <seg type="location">60vc</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)
+                        Subject : concentration on Laurin himself instead of Fiseus</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1622,15 +1621,17 @@
                 <div type="alignment" xml:id="Laurin_V_2">
                     <ab corresp="#Laurin_V_2" subtype="base" type="ms_instance">
                         <seg type="witness">V1</seg>
-                        <seg type="rubric">Comment li empereres et li roys de Sezille entrerent dedenz une chapelle pour parler li .i. a l’autre.</seg>
+                        <seg type="rubric">Comment li empereres et li roys de Sezille entrerent dedenz une chapelle pour parler 
+                            li .i. a l’autre.</seg>
                         <seg type="location">60rb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_2" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment li empereres et li rois de Sezille s'en vont au moustier pour oÿr messe.
+                        Et comment li rois se parti de l'empereeur.</seg>
+                        <seg type="location">65ra</seg>
+                        <seg type="note">rubric+miniature(65ra-b)+initial(65ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_2" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1658,9 +1659,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment un message dist a la damoisele de Consorre que ele se gardaa de ses anemis.</seg>
+                        <seg type="location">68ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1687,9 +1688,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_4" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment li sires de Gorre fu mis a desconsfiture par bataille entre lui et sa gent.
+                        Et comment il fu pris et mis en prison.</seg>
+                        <seg type="location">69vb</seg>
+                        <seg type="note">rubric+miniature(69vb-c)+initial(69vb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_4" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1717,9 +1719,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Synador, le fils au roy de Puille, se parti de Galienne s'amie.</seg>
+                        <seg type="location">74vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>                        
                     </ab>
                     <ab corresp="#Laurin_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1747,9 +1749,14 @@
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment li sires de Gorre et Synador s'en viennent ou champ pour combatre.</seg>
+                        <seg type="location">76ra</seg><!-- revoir ici : déplacement du propos ? 
+                            Présenter cette rubrique comme absente, et ajout de celle-ci avant, de pair avec rubrique précédente ? 
+                            Même contenu environ, mais rubrique pas donnée au même endroit donc -->
+                        <seg type="note">rubric+miniature(76rb)+initial(76rb).
+                        This new chapter is given at another point than in V1 : the rubric is given in V1 in association 
+                        with a paragraph given in B 76vc. And this rubric, in B, is associated with a section, not presented as 
+                        a new paragraph in V1 70rc.</seg>
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1779,8 +1786,20 @@
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="note">Paragraph linked to this new chapter (in V1) starting (in B) 77ra</seg><!-- revoir ici: 
+                            harmoniser formule si OK -->
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment Palu de Coustantinoble et sa gent se combatirent a ceuls de Romme. 
+                            Et comment il fu rescous aprés ce qu'il fu pris.
+                            (Addition, corresponding to the text given in V1 73rc)</seg>
+                        <seg type="location">79ra</seg>
+                        <seg type="note">rubric+miniature(79ra-b)+initial(79rb)</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment Dyogenne, la fille au roy d'Arragon, envoia unes letres a Marques, 
+                            le seneschal de Romme.
+                        (Addition, corresponding to the text given in V1 76vb)</seg>
+                        <seg type="location">82vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1807,9 +1826,15 @@
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Ainssi comme Castor fu mors au joster et comment li Rommain le troverent gisant tot mort
+                        et son cheval decoste lui.</seg>
+                        <seg type="location">87ra</seg>
+                        <seg type="note">rubric+miniature(87rb-c)+initial(87rb)</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment Laurins se combati a Palus et le mist a outrance.
+                            (Addition, corresponding to the text given in V1 85va)</seg>
+                        <seg type="location">91vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1837,10 +1862,25 @@
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment li .vii. sage de Romme furent pris et amené devant l'empereor les mains liees.
+                        Et comment on leur creva les yex et perca les mains.</seg>
+                        <seg type="location">94va</seg>
+                        <seg type="note">rubric+miniature(94va-b)+initial(94va)</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment li tornois et la tale reonde furent crié.
+                            (Addition, corresponding to the text given in V1 90va)</seg>
+                        <seg type="location">97ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment uns chevaliers ala querre Marques le seneschal en Coustantinoble.
+                            (Addition, corresponding to the text given in V1 91vb)</seg>
+                        <seg type="location">98rc</seg>
+                        <seg type="note">rubric+miniature+initial(98va)</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment Marques mist a outrance le conte de Provence a la jouste.
+                            (Addition, corresponding to the text given in V1 95va)</seg>
+                        <seg type="location">120rb-c</seg>
+                        <seg type="note">rubric+miniature(102rb-c)+initial(102rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1868,9 +1908,7 @@
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="note">No rubric, miniature, initial nor new paragraph linked to this new chapter(in V1). ca 103rb</seg>
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1895,13 +1933,17 @@
                             et ceulz de la cité li firent grant feste a sa venue.</seg>
                         <seg type="location">100rb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
+                        <!-- revoir ici pour ajout -->
+                        <seg type="rubric">Comment Marques et Synador pristrent congié a l'empereor.
+                            (Addition, corresponding to the text given in V1 102va)</seg>
+                        <seg type="location">109va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Marques fu honnorez a Bonivent quant il y vint.</seg>
+                        <seg type="location">107ra-b</seg>
+                        <seg type="note">rubric+miniature(107ra-b)+initial(107rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1930,9 +1972,8 @@
                     <ab corresp="#Laurin_V_12" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
                         <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                            linked to this new chapter starting 111rc</seg>
                     </ab>
                     <ab corresp="#Laurin_V_12" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1960,10 +2001,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_13" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Alyenors conquist un chevalier par la volenté de Nostre Seigneur qui se combatoit encontre
+                        .i. autre chevalier qui goute ne veoit.</seg>
+                        <seg type="location">112ra</seg>
+                        <seg type="note">rubric+miniature(112ra-b)+initial(112ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1991,10 +2032,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_14" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment le roy Baudemagu et Laurin se combatent as murdriers et les metent au desous.</seg>
+                        <seg type="location">114rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_14" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2022,10 +2062,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_15" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Baudemagu vait querant .i. chevalier qui s'estoit partis de lui.
+                        Et comment une damoisele li vint a l'encontre qui li ensaigna comment il troveroit le chevalier qu'il aloit querant.</seg>
+                        <seg type="location">111vc</seg>
+                        <seg type="note">rubric+miniature(112ra)+initial(112ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2053,10 +2093,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Laurins dormi .iii. jours a la fontaine.</seg>
+                        <seg type="location">118vb</seg>
+                        <seg type="note">rubric+miniature(118vb-c)+initial(118vb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2084,10 +2123,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_17" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Laurins se mist a voie pour trouver .i. hermite.</seg>
+                        <seg type="location">121rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_17" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2115,10 +2153,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_18" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Mirador li fax se rent prison a Jagonsse de par Laurin.</seg>
+                        <seg type="location">122rc</seg>
+                        <seg type="note">rubric+miniature(122va)+initial(122va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_18" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2146,10 +2183,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_19" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Laurin se combati a Desriet pour une damoisele.</seg>
+                        <seg type="location">124vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_19" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2178,10 +2214,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_20" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Baudemagu et si compaignon encontrerent la pucele.</seg>
+                        <seg type="location">127rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_20" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2209,10 +2244,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_21" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Euries enmaine .i. varlet lié sus .i. cheval et Baudemagu et Mirador
+                        chevauchent un destrier.</seg>
+                        <seg type="location">129ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_21" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2240,10 +2275,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Laurin se parti de ses compaignons et enmena Mirador avecques lui.</seg>
+                        <seg type="location">131vb-c</seg>
+                        <seg type="note">rubric+miniature(131vb-c)+initial(131vc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_22" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2272,10 +2306,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_23" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Mirador de Puille mist a mort par son art et par son enging pluseurs larrons puis les pendi.</seg>
+                        <seg type="location">135vb</seg>
+                        <seg type="note">rubric+miniature(135vb-c)+initial(135vb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_23" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2303,10 +2336,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_24" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Laurin vait querant Baudemagus.</seg>
+                        <seg type="location">137rc</seg>
+                        <seg type="note">rubric+miniature(137va)+initial(137a)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_24" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2334,10 +2366,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_25" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Euries vint en la court a un vavassour.</seg>
+                        <seg type="location">138vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_25" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2365,10 +2396,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_26" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Marques le seneschal de Romme et Synador de Puille se mistrent au chemin
+                        pour aler a Saint Jaques en Galisse.</seg>
+                        <seg type="location">140rb</seg>
+                        <seg type="note">rubric+miniature(140rb-c)+initial(140rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2396,10 +2427,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_27" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">absent</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">Initial (without any miniature) marking the paragraph 
-                            linked to this new chapter starting 58rb</seg>
+                        <seg type="rubric">Comment Baudemagus se parti du chastel de Prosperpine et encontra .v. chevaliers qui
+                        bien le connurent.</seg>
+                        <seg type="location">142rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
