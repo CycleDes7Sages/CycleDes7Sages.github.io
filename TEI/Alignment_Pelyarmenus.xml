@@ -142,7 +142,7 @@
                                     <seg type="location">130vc</seg>
                                     <seg type="note">Rubric+miniature(131ra-b)+initial(131ra)</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg> <!-- revoir ici : 
-                                          comment coupler indication rubrique et début de paragraphe? -->
+                                          comment coupler indication rubrique et début de paragraphe? (A1) -->
                               </ab>
                               <ab corresp="#pelyarmenus_V_01" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -186,10 +186,10 @@
                                     <seg type="paragraph">Quant Dyalogus oÿ les norrisces</seg>
                                     <seg type="location">XXX</seg><!-- revoir ici: est-ce nécessaire d'indiquer la localisation de chaque paragraphe
                                     dans chaque manuscrit ? ou les rubriques suffisent-elles ? Je préfère demander avant de préciser, je le fais 
-                                    cependant déjà pour V-->
+                                    cependant déjà pour V (A2)-->
                                     <seg type="note">no new paragraph+ paragraph added a bit later in this same, in V2, paragraph</seg><!-- revoir ici
                                     comment indiquer l'absence de nv paragraphe ? comme paragraph indiqué absent ? ou comme ceci ? 
-                                    et indiquer les ajouts de paragraphe ? et si oui, comment ?-->
+                                    et indiquer les ajouts de paragraphe ? et si oui, comment ? (A3)-->
                               </ab>
                               <ab corresp="#pelyarmenus_V_02" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -235,7 +235,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li peschieres ot entendu Dyalogus</seg>
                                     <seg type="location">XXX</seg>
-                                    <seg type="note">no new paragraph</seg><!-- revoir ici -->
+                                    <seg type="note">no new paragraph</seg><!-- revoir ici (A3)-->
                               </ab>
                               <ab corresp="#pelyarmenus_V_04" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -303,7 +303,7 @@
                                     <seg type="paragraph">Quant li preudons oÿ ce,</seg>
                                     <seg type="location">XXX</seg>
                                     <seg type="note">no new paragraph+ paragraph added a bit later in this same, in V2, paragraph</seg><!-- revoir ici
-                                    indiquer ceci ? et si oui, comment ?-->
+                                    indiquer ceci ? et si oui, comment ? (A3)-->
                               </ab>
                               <ab corresp="#pelyarmenus_V_07" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -506,7 +506,7 @@
                                     <seg type="paragraph">Fille, dist ele, quele part est ce ?</seg>
                                     <seg type="location">XXX</seg>
                                     <seg type="note">no new paragraph+ paragraph added a bit later in this same, in V2, paragraph</seg><!-- revoir ici
-                                    indiquer ceci ? et si oui, comment ?-->
+                                    indiquer ceci ? et si oui, comment ? (A3)-->
                               </ab>
                               <ab corresp="#pelyarmenus_V_16" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -550,7 +550,7 @@
                                           de ce qu'il ot trouvé de l'empereour.</seg>
                                     <seg type="location">133vc</seg>
                                     <seg type="note">Rubric+miniature+initial</seg>
-                                    <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis d'Espaigne,</seg><!-- revoir ici: comment coupler? -->
+                                    <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis d'Espaigne,</seg><!-- revoir ici: comment coupler? (A1) -->
                               </ab> 
                               <ab corresp="#pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -612,7 +612,7 @@
                                     <seg type="paragraph">Quant l'empereriz l'entendi,</seg>
                                     <seg type="location">XXX</seg>
                                     <seg type="note">no new paragraph + paragraph added a bit later in this same, in V2, paragraph</seg><!-- revoir ici
-                                    indiquer ceci ? et si oui, comment ?-->
+                                    indiquer ceci ? et si oui, comment ? (A3)-->
                               </ab>
                               <ab corresp="#pelyarmenus_V_20" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -1373,7 +1373,8 @@
                               </ab>
                               <ab corresp="#pelyarmenus_V_104" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">rubric+miniature absent. Initial (small one) <!-- revoir ici --> 368rc</seg>
+                                    <seg type="rubric">absent</seg>
+                                    <seg type="note">Paragraph linked to this new chapter (in V1) starting (in B) 368rc</seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_104" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -1387,7 +1388,7 @@
                                     <seg type="rubric">Comment Pelyarmenus volt estre empereor et metre 
                                           Helcanus son frere a mort.</seg>
                                     <seg type="location">32vc</seg>
-                                    <seg type="note">rubric+initial. Miniature absent. Initial not-colored<!-- revoir ici --></seg>
+                                    <seg type="note">rubric+initial. Miniature absent. Initial not-colored<!-- revoir ici Q6 --></seg>
                               </ab>
                         </div>
                         <milestone n="7" unit="chapter" xml:id="pelyarmenus_V_chap.7"/>
@@ -1464,9 +1465,10 @@
                                     <seg type="rubric">Ensi comme Mirus fist la bataille en Constantinoble contre Malcuidant.</seg>
                                     <seg type="location">376vb</seg>
                                     <seg type="note">rubric+miniature(376vb-c)+initial.
-                                          Displaced: 2§ later (§154)<!-- revoir ici :Comment faire ? 
+                                          Displaced: 2§ later (§154)
+                                          <!-- revoir ici :Comment faire ? 
                                     Indiquer la rubrique absente et créer une nouvelle section
-                              rubrique plutôt que seulement paragraphe au §154 ?--></seg>
+                              rubrique plutôt que seulement paragraphe au §154 ? Q5--></seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_152" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -1730,7 +1732,7 @@
                               </ab>
                               <ab corresp="#pelyarmenus_V_340" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">rubric+miniature absent. Initial (small one) 406rb<!-- revoir ici --></seg>
+                                    <seg type="note">Paragraph linked to this new chapter (in V1) starting (in B) 406rb<!-- revoir ici Q3--></seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_340" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -1899,7 +1901,7 @@
                                     <seg type="rubric">Comment li empereres et li autre baron envoierent a Romme.</seg>
                                     <seg type="location">423ra</seg>
                                     <seg type="note">rubric+miniature+initial.
-                                    Different subject<!-- revoir ici --></seg>
+                                    Subject : focus on a different subject<!-- revoir ici --></seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_430" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2198,7 +2200,7 @@
                                     <seg type="witness">X2</seg>
                                     <seg type="rubric">Comment li prince et li baron vindrent au jour qui leur fu mis de la pais.</seg>
                                     <seg type="location">99rb</seg>
-                                    <seg type="note">rubric+initial. Miniature absent. Initial not-colored<!-- revoir ici --></seg>
+                                    <seg type="note">rubric+initial. Miniature absent. Initial not-colored<!-- revoir ici Q6 --></seg>
                               </ab>
                         </div>
                         <milestone n="35" unit="chapter" xml:id="pelyarmenus_V_chap.35"/>
@@ -2213,7 +2215,7 @@
                               </ab>
                               <ab corresp="#pelyarmenus_V_580" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">rubric+miniature absent. Initial (small one) 446vb<!-- revoir ici --></seg>
+                                    <seg type="note">Paragraph linked to this new chapter (in V1) starting (in B) 446vb</seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_580" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2268,7 +2270,7 @@
                                           et les chevaliers qui furent au tournoy. Et fu Dorus un des miex faisans.</seg>
                                     <seg type="location">106ra-b</seg>
                                     <seg type="note">rubric+miniature(106ra-b)+initial(106ra).
-                                          Reduplication from 105rb<!-- revoir ici --></seg>
+                                          Reduplication from 105rb<!-- revoir ici Q7 --></seg>
                               </ab>
                         </div>
                         <milestone n="37" unit="chapter" xml:id="pelyarmenus_V_chap.37"/>
@@ -2375,7 +2377,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">Comment Celidus et Dyanor, son cousin, vindrent a Romme pour savoir nouveles du pere Celydus.</seg>
                                     <seg type="location">460ra-b</seg>
-                                    <seg type="note">addition of rubric+miniature(460rb)+initial<!-- revoir ici: comment indiquer ceci? --></seg>
+                                    <seg type="note">addition of a rubric+miniature(460rb)+initial<!-- revoir ici: comment indiquer ceci? Q1'--></seg>
                               </ab>
                         </div>
                         <milestone n="40" unit="chapter" xml:id="pelyarmenus_V_chap.40"/>
@@ -2386,7 +2388,7 @@
                                           et ses .iiii. enfans, et aprés conment il se partirent de lui pour aler en Jherusalem,
                                           et devise conment il alerent par Antyoche et le prince les detint.</seg>
                                     <seg type="location">31ra-b</seg>
-                                    <seg type="note">rubric+miniature(31rb)+rubric+initial(sic)<!-- revoir ici: dire autrement? --></seg>
+                                    <seg type="note">rubric+miniature(31rb)+rubric+initial<!-- revoir ici: dire autrement? Q8--></seg>
                               </ab>                            
                               <ab corresp="#pelyarmenus_V_689" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -2424,7 +2426,7 @@
                                     <seg type="rubric">Comment li princes d'Antioche ala contre le roy de Jerusalem au parlement.</seg>
                                     <seg type="location">464va</seg>
                                     <seg type="note">rubric+miniature+initial.
-                                    Different subject <!-- revoir ici: dire ainsi? --></seg>
+                                    Subject : focus on a different subject <!-- revoir ici: dire ainsi? --></seg>
                               </ab> 
                               <ab corresp="#pelyarmenus_V_710" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2484,7 +2486,7 @@
                               </ab>                            
                               <ab corresp="#pelyarmenus_V_752" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">rubric+miniature absent. Initial (small one) 469rb</seg>
+                                    <seg type="note">Paragraph linked to this new chapter (in V1) starting (in B) 469rb</seg>
                               </ab>
                               <ab corresp="#pelyarmenus_V_752" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2645,7 +2647,7 @@
                                     <seg type="rubric">Ci vient li contes a l'empereour Cassidorus ainssic comme il morut
                                           par la traÿson a la chastelaine.</seg>
                                     <seg type="location">133vc</seg>
-                                    <seg type="note">rubric+initial(134ra). Miniature absent. Initial not-colored<!-- revoir ici --></seg>
+                                    <seg type="note">rubric+initial(134ra). Miniature absent. Initial not-colored<!-- revoir ici Q6 --></seg>
                               </ab>
                         </div>
                         <milestone n="49" unit="explicit" xml:id="pelyarmenus_V_chap.49"/>
