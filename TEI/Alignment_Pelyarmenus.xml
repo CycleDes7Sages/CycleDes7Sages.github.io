@@ -132,11 +132,117 @@
                         </listWit>
                   </sourceDesc>
             </fileDesc>
-                  <encodingDesc>
-                        <projectDesc>
-                              <p>XXX</p>
-                        </projectDesc>
-                  </encodingDesc>
+            <encodingDesc>
+                  <projectDesc>
+                        <p><title>Alignement du Roman de Pelyarmenus</title>
+                              Ce document vise à donner accès à la macrostructure et à l'organisation en paragraphes 
+                              du Roman de Pelyarmenus, tel qu'il se présente dans les quatre principaux manuscrits qui donnent à lire 
+                              l'ensemble du cycle, listés dans le <gi>sourceDesc</gi> ci-dessus. 
+                              En parallèle au document Alignment_C7S, nous avons ici procédé à l'alignement plus détaillé de l'ensemble
+                              des chapitres et des paragraphes qui organisent la matière du Roman de Pelyarmenus, 
+                              selon les rubriques données dans chacun des manuscrits, les informations paratextuelles qui 
+                              viennent aussi les structurer (miniatures, initiales, etc.), ainsi que par les lettrines qui indiquent un 
+                              nouveau paragraphe. 
+                              L'organisation est fondée sur celle que présente le manuscrit siglé V, qui a servi de manuscrit de base 
+                              au travail d'édition que nous avons mené sur ce même roman.
+                              Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
+                              comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
+                              de l'organisation comme des nuances présentées dans les autres témoins<!-- revoir ici: formulation à affiner! --></p>
+                        <p><title>Enjeux et pratique de travail</title>
+                              Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre 
+                              (c'est-à-dire chaque rubrique), indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, 
+                              suivant la mention indicative, donnée dans une <gi>milestone</gi> via un autre @xml:id se référant au 
+                              roman et au numéro de chapitre dans ledit roman. 
+                              Chacune de ces <gi>div</gi> contient la présentation du chapitre en question dans chacun des quatre témoins 
+                              répertoriés, repris dans une balise <gi>ab</gi> qui renvoie au chapitre en question et précise, 
+                              dans le cas du premier de ces <gi>ab</gi>, qu'il s'agit du manuscrit considéré comme base de ce travail
+                              d'alignement. À ces quatre entrées ont pu être adjointes les mentions de rubriques supplémentaires données 
+                              dans d'autres manuscrits. Nous avons également référencé chaque nouveau paragraphe, c'est-à-dire chaque 
+                              nouvelle portion de texte introduite par une lettrine, selon la même logique organisationnelle, en indiquant
+                              d'abord ce que le manuscrit V donne comme nouveau paragraphe, puis en listant ce que les trois autres témoins 
+                              présentent eux-mêmes. 
+                              L'objectif, pour chacune de ces références, était de présenter l'organisation
+                              macrostructurelle du cycle, soit d'identifier, pour chacun des quatre témoins, la rubrique et le paragraphe, si 
+                              une rubrique ou un paragraphe sont donnés en correspondance avec ce que présente le manuscrit V donc, 
+                              le lieu où celle-ci se trouve dans le témoin, et quelques indications paratextuelles.
+                              <title>Relevé et organisation des informations</title>
+                              Chacune de ces entrées précise tour à tour, 
+                              dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, 
+                              c'est-à-dire la rubrique (@rubric) dans les cas de nouveaux chapitres, le début du paragraphe (@paragraph), 
+                              sa localisation dans le manuscrit traité (@location) et une note (@note).
+                              Cette note, systématique dans les cas de nouveaux chapitres et optionnelle dans les cas de nouveaux 
+                              paragraphes - selon la nécessité ou non de préciser un élément paratextuel ou son absence surtout dans 
+                              les autres témoins -, vise à préciser l'organisation et mise 
+                              en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial") et 
+                              la précision du lieu exact de ces trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même 
+                              folio du manuscrit dépeint. 
+                              D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces 
+                              quatre manuscrits. 
+                              Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.</p>
+                        <p><title>Cas particuliers présentés</title>
+                              1)Rubriques ajoutées: 
+                              Dans plusieurs cas, des rubriques ont été ajoutées par rapport à l'organisation des chapitres donnée dans le manuscrit V. 
+                              Nous avons choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au @corresp renvoyant au xml:id du chapitre qui 
+                              donne, dans V, la section contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note précise, 
+                              de manière systématique et volontairement concise : "addition of rubric+miniature+initial (corresponding to V XXX)". 
+                              <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate -->
+                              Le terme "addition" nous a semblé la meilleure solution terminologique, mais nous paraît cependant comporter le risque 
+                              d'une mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous souhaitions seulement par-là indiquer que 
+                              la rubrique en question ne se lit pas dans le manuscrit V, ni dans la plupart des autres témoins donc (la plupart de ces cas 
+                              spécifiques sont liés au témoin B).
+                              À la mention de la portion de texte dans V à laquelle se rattache ce chapitre supplémentaire dans cet autre témoin, 
+                              nous avons au besoin adjoint celle de la propre macrostructure de V, c'est-à-dire si la portion de texte correspondante 
+                              en question est présentée par un nouveau paragraphe en particulier.</p>
+                        <p>2)Rubriques absentes:
+                              Quand la rubrique n'est pas donnée dans un témoin (qu'elle soit ou non en réalité déplacée, selon le cas de figure 
+                              présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", le <gi>seg</gi> @location a été supprimé 
+                              (puisque la localisation est associée à une rubrique qui est absente) et le <gi>seg</gi> @note vient préciser le lieu où 
+                              l'on peut lire, dans ce témoin, la portion de texte associée à ce que le manuscrit V présente dans un nouveau chapitre. 
+                              De manière systématique et volontairement concise, nous avons indiqué : "Paragraph linked to chapter XXX starting XXX".
+                              L'idée était ainsi de détailler que la structure par rubrique dans V n'était pas suivie dans cet autre témoin, mais que la 
+                              portion de texte correspondante était présentée par un simple nouveau chapitre. 
+                              <!-- SV:
+                    -La mention du chapitre est-elle vraiment nécessaire si l'information est donnée dans le @corresp de l'ab
+                    en question ? 
+                    -En outre, la formule que nous avons décidée ne me paraît pas forcément recouvrir toutes les réalités. Il y a en effet
+                    des cas de figure où le texte dans B n'est pas même associé à un nouveau paragraphe, auquel cas le "paragraph linked" 
+                    ne peut pas être adéquat. Favoriser "Text linked to chapter XXX starting (with/without new paragraph) XXX" ?--></p>
+                        <p>3)Rubriques déplacées: 
+                              Il arrive également que des rubriques, liées à tel paragraphe et donc à tel lieu du texte dans V, soient plutôt associées 
+                              à un pararaphe donné plus tôt/tard dans un autre témoin. Par souci de précision, nous avons donc noté comme 
+                              absentes les rubriques présentées de pair avec le texte lu dans V (tout en précisant, dans le <gi>seg</gi> @note, 
+                              que la rubrique en question a été déplacée, selon la formule "rubric displaced later/before (XXX in V1)") 
+                              <!-- SV: que penses-tu de cette solution que je me suis permise d'ajouter ? Il me semblait manquer une information 
+                        sans cela -->
+                              et ajouté une nouvelle section <gi>ab</gi> pour indiquer cette rubrique ajoutée, en réalité déplacée. 
+                              Dans ces cas, le <gi>seg</gi> @note précise, de manière systématique et volontairement concise : 
+                              "displaced rubric from XXX (XXX in V)". L'idée est ainsi de préciser le chapitre auquel cette rubrique est associée dans 
+                              le manuscrit V, mais aussi la portion de texte exacte de V avec laquelle cette rubrique telle que donnée dans cet autre 
+                              témoin est associée.</p>
+                        <p>4)Chapitres introduits par une initiale: <!-- revoir ici: est-ce que le cas se présente ? Je ne pense pas -->
+                              Dans certains cas de figure (surtout associés avec la technique, commune au cycle dès son roman-souche, du récit enchâssé),
+                              ce que le manuscrit V présente comme un nouveau chapitre introduit par une rubrique, une miniature et une initiale 
+                              n'est indiqué dans d'autres témoins que par une initiale. Nous avons présenté comme suit cette information :
+                              "Initial corresponding to chapter XXX starting XXX”.
+                              <!-- SV : tout comme pour les rubriques absentes, la mention du "chapter XXX" est-elle vraiment nécessaire
+                si cela est indiqué dans le @corresp de la balise ab qui reprend cette information ?--></p>
+                        <p>5)Paragraphes absents et/ou ajoutés dans d'autres témoins:
+                              Dans notre relevé des paragraphes, nous avons parfois pu noter qu'un témoin ne présentait pas de nouveau 
+                              paragraphe, c'est-à-dire qu'il n'associait pas cette portion de texte à une lettrine. 
+                              De manière systématique et volontairement concise, nous avons indiqué cela comem suit:
+                              "no new paragraph"
+                              Il arrive également qu'un nouveau paragraphe soit intégré dans cette portion de texte, c'est-à-dire qu'une 
+                              lettrine soit présentée pour une portion de texte qui n'est pas introduite comme tel dans le manuscrit V.
+                              Dans ce cas, nous avons ajouté la mention, systématique et volontairement concise elle aussi :
+                              "paragraph added XXX", en précisant le lieu où ce nouveau paragraphe est donné dans ce témoin.
+                              Ces deux informations, quand elles vont de pair, sont données à la suite et coordonnées par un simple "+". 
+                              <!-- SV: 
+                              Que penses-tu, plutôt que "paragraph added" de "supplementary paragraph", tout comme dans le cas des rubriques ?
+                              Nous avions pensé préciser "(no paragraph in V2)", mais cela me paraît aller de soi, qu'en penses-tu ?
+                              Peut-être pourrions-nous cependant indiquer "paragraph added XXX (V2 XXX)" pour indiquer également 
+                              où se trouve cette portion de texte dans V? --></p>
+                  </projectDesc>
+            </encodingDesc>
             <revisionDesc>
                   <change who="#CC" when="2023-09-13">Alignement des rubriques du Pelyarmenus</change>
                   <change who="#CC" when="2023-10-01">Alignement des §1-50 du Pelyarmenus</change>
