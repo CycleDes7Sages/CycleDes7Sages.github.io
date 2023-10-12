@@ -229,8 +229,13 @@
                         <p>5)Paragraphes absents et/ou ajoutés dans d'autres témoins:
                               Dans notre relevé des paragraphes, nous avons parfois pu noter qu'un témoin ne présentait pas de nouveau 
                               paragraphe, c'est-à-dire qu'il n'associait pas cette portion de texte à une lettrine. 
-                              De manière systématique et volontairement concise, nous avons indiqué cela comem suit:
-                              "no new paragraph"
+                              De manière systématique et volontairement concise, nous avons indiqué cela comme suit:
+                              "no new paragraph" dans le <gi>seg</gi> @note. Nous n'avons pas pour autant supprimé la mention 
+                              du <gi>seg</gi> @paragraph ni du @location, mais préféré transcrire ce qui se lit, même si sans passage à un
+                              nouveau paragraphe, dans ce témoin. La localisation indiquée est celle à laquelle se lit cette portion de texte.
+                              <!-- SV: qu'en penses-tu ? Ce n'est pas la même logique qu'avec les rubriques, mais cela me paraît plus économique 
+                              ainsi, et ce n'est pas exactement la même logique : la rubrique offre une portion de texte tout à fait absente, 
+                              que dans ce cas le texte est présent, mais non précédé d'une lettrine. Mais je peux modifier évidemment -->
                               Il arrive également qu'un nouveau paragraphe soit intégré dans cette portion de texte, c'est-à-dire qu'une 
                               lettrine soit présentée pour une portion de texte qui n'est pas introduite comme tel dans le manuscrit V.
                               Dans ce cas, nous avons ajouté la mention, systématique et volontairement concise elle aussi :
@@ -260,16 +265,16 @@
                                     <seg type="rubric">Ci fine li livres de Cassydorus. Si parlerons aprés de Pelyarmenus de Romme.
                                     Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
                                     .ii. enfanz petiz a l'empereour.</seg>
-                                    <seg type="location">130vc</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
+                                    <seg type="location">130vc</seg>
                                     <seg type="note">Rubric+miniature(131ra-b)+initial(131ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_01" type="ms_instance">
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">Ci vient li contes a Dyalogus le bastart si com il cuida murtrir les enfanz
                                     l'empereour de Constantinoble.</seg>
-                                    <seg type="location">348vc</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
+                                    <seg type="location">348vc</seg>
                                     <seg type="note">rubric+miniature+initial(349ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_01" type="ms_instance">
@@ -277,8 +282,8 @@
                                     <seg type="rubric">Ci fine ly livres de Cassydorus. Si parlerons aprés de Pelyarmenus de Romme.
                                           Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
                                           .ii. enfanz petiz a l'empereur son pere.</seg>
-                                    <seg type="location">351vb</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
+                                    <seg type="location">351vb</seg>
                                     <seg type="note">rubric+miniature(351va-b)+initial(351va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_01" type="ms_instance">
@@ -286,8 +291,8 @@
                                     <seg type="rubric">Ci fine li livres de Cassidorus. Si parlerons aprés de Pelyarmenus de Romme.
                                           Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
                                           .ii. enfanz petiz a l'empereour.</seg>
-                                    <seg type="location">16rc</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
+                                    <seg type="location">16rc</seg>
                                     <seg type="note">rubric+miniature(16rb-c)+initial(16rc)</seg>
                               </ab>
                         </div>
@@ -300,7 +305,7 @@
                               <ab corresp="#Pelyarmenus_V_02" type="ms_instance">
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Dyalogus oÿ les norrisces</seg>
-                                    <seg type="location">XXX</seg>
+                                    <seg type="location">XXX</seg><!-- iciii -->
                                     <seg type="note">no new paragraph + paragraph added XXX</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_02" type="ms_instance">
