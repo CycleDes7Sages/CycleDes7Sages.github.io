@@ -257,7 +257,7 @@
                         selon les critères établis pour notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.
                         Tous ces extraits du roman ont été tirés de notre édition, raison pour laquelle nous avons décidé, 
                         au contraire de ce que présente l'alignement du cycle entier (Alignment_C7S), de ne pas donner les variantes 
-                        orthographiques, conformément aux critères de collation qui ont été les nôtres.<!-- SV: ok --></p>
+                        orthographiques, conformément aux critères de collation qui ont été les nôtres.<!-- SV: ok? --></p>
                   </projectDesc>
             </encodingDesc>
             <revisionDesc>
@@ -3387,6 +3387,28 @@
                                     <seg type="paragraph">Or dist li comptes que moult ouvra la pucelle courtoisement envers Myrus et ses compaignons.</seg>
                                     <seg type="location">37vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_136">
+                              <ab corresp="#Pelyarmenus_V_136" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Ascanus, qui bien cuida ceuz trouver dedans Gonfort,</seg>
+                                    <seg type="location">156vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_136" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Ascanus, qui bien cuida ceuz trouver dedans Gonfort,</seg>
+                                    <seg type="location">373va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_136" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Ascanus, qui bien cuida ceuz trouver dedans Gonfort,</seg>
+                                    <seg type="location">378va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_136" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Ascanus, qui bien cuida ceuz trouver dedans Gonfort,</seg>
+                                    <seg type="location">37va</seg>
                               </ab>
                         </div>
                         <milestone n="9" unit="chapter" xml:id="Pelyarmenus_V_chap.9"/>

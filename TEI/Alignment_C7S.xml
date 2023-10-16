@@ -178,7 +178,8 @@
                      Nous avons également précisé, pour la mention du lieu correspondant dans V, si ce manuscrit ne présentait pas cette 
                      portion de texte dans un nouveau paragraphe par l'indication "(no §)". En effet, dans la majorité des cas, les ajouts
                      de rubriques dans d'autres témoins correspondent à un nouveau paragraphe dans ce manuscrit. 
-                     <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate -->
+                     <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate
+                     Cf. discussion avec PD: toujours notion d'ajout dans la pratique éditoriale-->
                      Le terme "addition" nous a semblé la meilleure solution terminologique, mais nous paraît cependant comporter le risque 
                      d'une mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous souhaitions seulement par-là indiquer que 
                      la rubrique en question ne se lit pas dans le manuscrit V, ni dans la plupart des autres témoins donc (la plupart de ces cas 
@@ -309,6 +310,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="note">No rubric, miniature, initial nor new paragraph linked to this new chapter in V1. ca 2vc</seg>
+                        <!-- revoir ici -->
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -956,7 +958,7 @@
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="rubric">Comment Marques et la royane allerent ensemble en un vargier et parlerent de pluseurs choses.
+                        <seg type="rubric">Comment Marques et la royne allerent ensemble en un vargier et parlerent de pluseurs choses.
                             Ainsi comme s'en suit.</seg>
                         <seg type="location">35ra</seg>
                         <seg type="note">rubric+miniature+initial</seg>
