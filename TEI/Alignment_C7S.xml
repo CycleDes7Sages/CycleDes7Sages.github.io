@@ -145,7 +145,10 @@
                 Pelyarmenus (en cours d'élaboration par notre équipe de recherche) et Kanor (par M. McMunn).
                 Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
                 comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
-                    de l'organisation comme des nuances présentées dans les autres témoins<!-- revoir ici: formulation à affiner! --></p>
+                    de l'organisation comme des nuances présentées dans les autres témoins.                    
+                    Nous avons dans ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id correspondant, 
+                    par un renvoi à ce manuscrit V, pour indiquer la distance critique qui se doit d'être considérée face 
+                    à cette organisation et cette numérotation de chacun des romans. <!-- revoir ici: formulation à affiner! --></p>
                 <p><title>Enjeux et pratique de travail</title>
                     Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre (c'est-à-dire chaque rubrique), 
                     indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant la mention indicative, 
@@ -171,7 +174,10 @@
                      Dans plusieurs cas, des rubriques ont été ajoutées par rapport à l'organisation des chapitres donnée dans le manuscrit V. 
                      Nous avons choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au @corresp renvoyant au xml:id du chapitre qui 
                      donne, dans V, la section contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note précise, 
-                     de manière systématique et volontairement concise : "addition of rubric+miniature+initial (corresponding to V XXX)". 
+                     de manière systématique et volontairement concise : "addition of rubric+miniature+initial (corresponding to V XXX".
+                     Nous avons également précisé, pour la mention du lieu correspondant dans V, si ce manuscrit ne présentait pas cette 
+                     portion de texte dans un nouveau paragraphe par l'indication "(no §)". En effet, dans la majorité des cas, les ajouts
+                     de rubriques dans d'autres témoins correspondent à un nouveau paragraphe dans ce manuscrit. 
                      <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate -->
                      Le terme "addition" nous a semblé la meilleure solution terminologique, mais nous paraît cependant comporter le risque 
                      d'une mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous souhaitions seulement par-là indiquer que 
@@ -215,6 +221,9 @@
                 "Initial corresponding to chapter XXX starting XXX”.
                 <!-- revoir ici: SV : tout comme pour les rubriques absentes, la mention du "chapter XXX" est-elle vraiment nécessaire
                 si cela est indiqué dans le @corresp de la balise ab qui reprend cette information ?--></p>
+                <p><title>Précisions de présentation</title>
+                Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
+                notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.<!-- SV: ok ? --></p>
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
@@ -362,7 +371,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ici commence la dame son conte du varlet qui tua le sengler en gratant.</seg>
                         <seg type="location">4rc</seg>
-                        <seg type="note">addition of rubric+initial (corresponding to V1 4vb)</seg>
+                        <seg type="note">addition of rubric+initial (corresponding to V1 4vb (no §)</seg>
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -453,7 +462,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence l'empereys un conte de celui qui livra sa femme au gros roy de Puille.</seg>
                         <seg type="location">7ra</seg>
-                        <seg type="note">addition of rubric+initial (corresponding to V1 7rc (new paragraph)</seg>
+                        <seg type="note">addition of rubric+initial (corresponding to V1 7rc (§)</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -658,7 +667,7 @@
                         <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
                             geta en mer.</seg>
                         <seg type="location">15va</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 14rb (new paragraph)</seg>
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 14rb (§)</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -690,7 +699,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.</seg>
                         <seg type="location">16vb-c</seg>
-                        <seg type="note">addition of rubric+miniature(16vb-c)+initial 16vc (kind of extended version of the end of R7S</seg>
+                        <seg type="note">addition of rubric+miniature(16vb-c)+initial 16vc (kind of extended version of the end of R7S)</seg>
                         <!-- revoir ici: cas plus spécifique -->
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
@@ -1448,7 +1457,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li .vii. sage se firent amener en une tonne a la court l'empereor.</seg>
                         <seg type="location">59rb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 54va)</seg>
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 54va (§)</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1495,11 +1504,25 @@
                         <seg type="note">There is a gap in X1: the section given, in V1, on f. 55rv is lacking. 
                         Following approximately the same layout as in V1, X1 gives, on f. 38vc, the beginning of the paragraph given
                         in V1 f. 54vc and gives, on f. 56ra, what V1 gives on f. 56ra, which is the last paragraph before the explicit.
+                        Actually, this whole section seems to have been displaced later on, at the beginning of Laurin, 2 ff. later.
+                        X1 40rv is corresponding with V1 55rv. X1 41rv is, adequately, corresponding to V1 57rv. Just one folio seems to
+                        have been displaced.
+                        Rubric displaced later, cf. Laurin_V_2.  
                         <!-- Revoir ici: cas plus spécifique > commenter davantage, c'est une erreur évidente de X2, 
                             le texte ne pouvant pas se suivre logiquement. Oubli donc de transcription d'un folio entier, 
                             avec une correspondance dans la mise en page qui explique sûrement cet oubli.
                         La proximité de la mise en page entre X1 et V1 me paraîtrait intéressante aussi peut-être 
-                        dans le cadre de l'analyse stemmatique --></seg>
+                        dans le cadre de l'analyse stemmatique > Je revois ici : en réalité ce f. 55rv dans V1 est donné 2 ff. plus tard 
+                        dans X1, après le début de Laurin (le f. 40rv semble déplacé donc).--></seg>
+                    </ab>                    
+                    <ab corresp="#Marques_V_26" type="ms_instance"><!-- revoir ici : je donne ici, mais à discuter -->
+                        <seg type="witness">X1</seg>
+                        <seg type="rubric">Ci dist comment l’empereriz de Romme et Othesbons son nourri furent ars pour 
+                            la grande desloyauté qu'il avoient fecte et pourpensée envers Marques le preudomme seneschal.</seg>
+                        <seg type="location">40rc</seg>
+                        <seg type="note">rubric+miniature+initial.
+                            Displaced rubric given after Laurin_V_1 and before Laurin_V_2. 
+                            This whole section (X1 40rv) seems to have been displaced.</seg>
                     </ab>
                 </div>
                 <milestone n="2-27" unit="chapter" xml:id="Marques_V_chap.27"/>
@@ -1587,10 +1610,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_2" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li empereres et li roys de Sezille entrerent dedenz unne chapelle pour parler 
+                            li .i. a l’autre.</seg>
+                        <seg type="location">44ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-3" unit="chapter" xml:id="Laurin_V_chap.3"/>
@@ -1617,10 +1640,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_3" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Synador parolle a Galyenne, la fille au duc de Consorre. 
+                            Et comment elle li compte du chevallier qui le veult avoir a force.</seg>
+                        <seg type="location">46vb</seg>
+                        <seg type="note">rubric+miniature+initial(46vc)</seg>
                     </ab>
                 </div>
                 <milestone n="3-4" unit="chapter" xml:id="Laurin_V_chap.4"/>
@@ -1646,10 +1669,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_4" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Synador si parle au sires de Gorre et le fet metre en unne fort pryson.</seg>
+                        <seg type="location">47vc</seg>
+                        <seg type="note">rubric+miniature(48ra)+initial(48ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-5" unit="chapter" xml:id="Laurin_V_chap.5"/>
@@ -1683,10 +1705,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_5" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Cy lerai a parler de Synador et de ses compaingnons et vendray a Galyenne 
+                            que Synador lessa en tel point comme vous avez oÿ devant.</seg>
+                        <seg type="location">52rb</seg>
+                        <seg type="note">rubric+miniature(52rc)+initial(52rc)</seg>
                     </ab>
                 </div>
                 <milestone n="3-6" unit="chapter" xml:id="Laurin_V_chap.6"/>
@@ -1712,10 +1734,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Synador de Puille se combati au seingneur de Gorre qui vouloit avoir Galyenne a force. 
+                            Et le conquist Synador et l’eust occis se en ne li eust osté.</seg>
+                        <seg type="location">53vc</seg>
+                        <seg type="note">rubric+miniature(54ra-b)+initial(54ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-7" unit="chapter" xml:id="Laurin_V_chap.7"/>
@@ -1723,8 +1745,7 @@
                     <ab corresp="#Laurin_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Ci vient li comptes au garçon Synador qui estoit eschapez de la bataille de Maupertuis 
-                            et estoit revenuz a Romme dire a l’empereeur comment Synador avoit esté assaillis 
-                            si comme dessus est dit.</seg>
+                            et estoit revenuz a Romme dire a l’empereeur comment Synador avoit esté assaillis, si comme dessus est dit.</seg>
                         <seg type="location">71rc</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
@@ -1738,14 +1759,14 @@
                         <seg type="rubric">Comment Palu de Coustantinoble et sa gent se combatirent a ceuls de Romme. 
                             Et comment il fu rescous aprés ce qu'il fu pris.</seg>
                         <seg type="location">79ra</seg>
-                        <seg type="note">addition of rubric+miniature(79ra-b)+initial(79rb) (corresponding to V1 73rc)</seg>
+                        <seg type="note">addition of rubric+miniature(79ra-b)+initial(79rb) (corresponding to V1 73rc (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Dyogenne, la fille au roy d'Arragon, envoia unes letres a Marques, 
                             le seneschal de Romme.</seg>
                         <seg type="location">82vb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 76vb)</seg>
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 76vb (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1756,10 +1777,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li comptes au garçon Synador qui estoit eschapez de la bataille de Maupertuis 
+                            et si estoit revenuz a Romme dire a l’empereeur comment Synador avoit esté assaillis, si comme dessus est dit.</seg>
+                        <seg type="location">54rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-8" unit="chapter" xml:id="Laurin_V_chap.8"/>
@@ -1781,7 +1802,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurins se combati a Palus et le mist a outrance.</seg>
                         <seg type="location">91vc</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 85va)</seg>
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 85va (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1791,10 +1812,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Marques se combat a Castor pour Gallyenne de Consorre.</seg>
+                        <seg type="location">63ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-9" unit="chapter" xml:id="Laurin_V_chap.9"/>
@@ -1817,19 +1837,19 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li tornois et la tale reonde furent crié.</seg>
                         <seg type="location">97ra</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 90va)</seg>                        
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 90va (§)</seg>                        
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment uns chevaliers ala querre Marques le seneschal en Coustantinoble.</seg>
                         <seg type="location">98rc</seg>
-                        <seg type="note">addition of rubric+miniature+initial(98va) (corresponding to V1 91vb)</seg>                      
+                        <seg type="note">addition of rubric+miniature+initial(98va) (corresponding to V1 91vb (§)</seg>                      
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques mist a outrance le conte de Provence a la jouste.</seg>
                         <seg type="location">120rb-c</seg>
-                        <seg type="note">addition of rubric+miniature(102rb-c)+initial(102rc) (corresponding to V1 95va)</seg>
+                        <seg type="note">addition of rubric+miniature(102rb-c)+initial(102rc) (corresponding to V1 95va (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1840,10 +1860,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Fiseum l’empereres conquist Romme contre Othesbons et contre les .vii. sages. 
+                            Et comment il leur fist crever les iex et percier le mains.</seg>
+                        <seg type="location">69vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-10" unit="chapter" xml:id="Laurin_V_chap.10"/>
@@ -1867,10 +1887,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Marques espousa Dyogenne.
+                        Et comment il conquist le conte de Prouvence au tournoi et aus joustes par sa prouesce.</seg>
+                        <seg type="location">77vc</seg>
+                        <seg type="note">rubric+miniature(78ra-b)+initial(78ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-11" unit="chapter" xml:id="Laurin_V_chap.11"/>
@@ -1892,7 +1912,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques et Synador pristrent congié a l'empereor.</seg>
                         <seg type="location">109va</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 102va)</seg>
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 102va (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1903,10 +1923,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Synador recongnut Marques quant il vint a Bonyvent et que luy 
+                            et ceulz de la cyté li firent grant feste a sa venue.</seg>
+                        <seg type="location">81va</seg>
+                        <seg type="note">rubric+miniature(81vb-c)+initial(81vb)</seg>
                     </ab>
                 </div>
                 <milestone n="3-12" unit="chapter" xml:id="Laurin_V_chap.12"/>
@@ -1932,10 +1952,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_12" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Lauryns se party de Costantinnoble 
+                            et s’en alla en estrange terre pour querir adventures.</seg>
+                        <seg type="location">85va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-13" unit="chapter" xml:id="Laurin_V_chap.13"/>
@@ -1963,10 +1983,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_13" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Alyenor s’en vint aprés ceulz qui enmenoient le chevalier dont li comptes parolle 
+                            et si le voult rescourre.</seg>
+                        <seg type="location">86rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-14" unit="chapter" xml:id="Laurin_V_chap.14"/>
@@ -1993,10 +2013,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_14" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Laurins et ses compaingnons se combatent aus robeeurs en leur chastel tout a pié 
+                            et comment il rescoustrent .i. chevalier a qui li maufeteur vouloient tollir s’amie.</seg>
+                        <seg type="location">88rb</seg>
+                        <seg type="note">rubric+miniature(88rc)+initial(88rc)</seg>
                     </ab>
                 </div>
                 <milestone n="3-15" unit="chapter" xml:id="Laurin_V_chap.15"/>
@@ -2024,10 +2044,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_15" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li rois Baudemagus va aprés le chevalier que il vit et puis le perdi. 
+                            Et comment il encontra la pucelle qui chantoit.</seg>
+                        <seg type="location">90rc</seg>
+                        <seg type="note">rubric+miniature(90va)+initial(90va)</seg>
                     </ab>
                 </div>
                 <milestone n="3-16" unit="chapter" xml:id="Laurin_V_chap.16"/>
@@ -2054,10 +2074,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_16" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Lauryn si se esveilla et s’assist sus la fontainne ou il avoit dormy. 
+                            Et comment il regarde la pucelle et parolle a luy.</seg>
+                        <seg type="location">91vc</seg>
+                        <seg type="note">rubric+miniature(92ra)+initial(92ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-17" unit="chapter" xml:id="Laurin_V_chap.17"/>
@@ -2084,10 +2104,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_17" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Lauryn s’en vint parler a l’ermite que Jagonce li avoit ensaingnié. 
+                            Et comment il jousta au revenir a .iii. chevalliers qui en enmenoient unne pucelle.</seg>
+                        <seg type="location">94rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-18" unit="chapter" xml:id="Laurin_V_chap.18"/>
@@ -2115,10 +2135,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_18" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Myrador le faus se presenta a Jagonce. 
+                            Et comment Desyers en est venuz touz armez devant luy pour combattre a Lauryn qui encore n’estoit venuz.</seg>
+                        <seg type="location">95rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-19" unit="chapter" xml:id="Laurin_V_chap.19"/>
@@ -2145,10 +2165,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_19" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Lauryn se combat u pré encontre Desyer et l’a abatu par .ii. foys a terre par 
+                            devant Jagonce que Desyer si vouloit avoir a force.</seg>
+                        <seg type="location">97rc</seg>
+                        <seg type="note">rubric+miniature(97va-b)+initial(97va)</seg>
                     </ab>
                 </div>
                 <milestone n="3-20" unit="chapter" xml:id="Laurin_V_chap.20"/>
@@ -2177,10 +2197,11 @@
                     </ab>
                     <ab corresp="#Laurin_V_20" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Lauryn et si compaignon encontrerent la pucelle et ainsi comme il virent dedenz 
+                            la forest ou il virent au matin le tournoy des chevalliers qui couvertures avoient de .ii. couleurs. 
+                            Et comment il tournoient avecques eulz.</seg>
+                        <seg type="location">100ra</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-21" unit="chapter" xml:id="Laurin_V_chap.21"/>
@@ -2206,12 +2227,12 @@
                         <seg type="location">129va</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
-                    <ab corresp="#Laurin_V_21" type="ms_instance">
+                    <ab corresp="#Laurin_V_20" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Euriet en enmainne le vallet sus son cheval et Baudemagus et Mirador 
+                            sont sus un autre. Et comment il se prennent a unne grant compaingnie de gent qu'il encontrerent.</seg>
+                        <seg type="location">101va</seg>
+                        <seg type="note">rubric+miniature(101vb)+initial(101vb)</seg>
                     </ab>
                 </div>
                 <milestone n="3-22" unit="chapter" xml:id="Laurin_V_chap.22"/>
@@ -2238,10 +2259,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_22" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Mirador et ses compaingnons se departent l’un de l’autre. 
+                            Et comment Myrador perdi .i. brachet qu’il avoit et se mist en la queste de Lauryn de Costantinoble.</seg>
+                        <seg type="location">104ra-b</seg>
+                        <seg type="note">rubric+miniature(104rb)+initial(104rb)</seg>
                     </ab>
                 </div>
                 <milestone n="3-23" unit="chapter" xml:id="Laurin_V_chap.23"/>
@@ -2270,10 +2291,11 @@
                     </ab>
                     <ab corresp="#Laurin_V_23" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Myrador si ot ocis les murtriers. 
+                            Et comment il fist trousser tout l’avoir et ramena au vavassour sa fille qu'il li avoie ravie. 
+                            Et comment il trouvera Lauryn que il queroit.</seg>
+                        <seg type="location">107vc</seg>
+                        <seg type="note">rubric+miniature(108ra-b)+initial(108ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-24" unit="chapter" xml:id="Laurin_V_chap.24"/>
@@ -2300,10 +2322,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_24" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Baudemagus si se fu partiz de ses compaingnons et encontra .i. chevallier armé 
+                            qui enmenoit une pucelle tout a pié.</seg>
+                        <seg type="location">109rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-25" unit="chapter" xml:id="Laurin_V_chap.25"/>
@@ -2330,10 +2352,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_25" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Euryet se party de Baudemagus et se mist en la queste de Lauryn 
+                            qui de ses compaingnons si comme devant est dit.</seg>
+                        <seg type="location">110rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-26" unit="chapter" xml:id="Laurin_V_chap.26"/>
@@ -2361,10 +2383,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_26" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Marques et Synador qui se estoient partiz d’Arragon pour querre Lauryn vindrent 
+                            en Galice et se combatirent pour le corps .S. Jasque que en en vouloit emporter a vive force.</seg>
+                        <seg type="location">111vc</seg>
+                        <seg type="note">rubric+miniature(111vb-c)+initial(111vb)</seg>
                     </ab>
                 </div>
                 <milestone n="3-27" unit="chapter" xml:id="Laurin_V_chap.27"/>
@@ -2392,10 +2414,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_27" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li roys Baudemagus se parti de Proserpyne quant il li ot rendue sa pucelle 
+                            et puis se mist ou chemin pour querre le roy Artus.</seg>
+                        <seg type="location">113vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-28" unit="chapter" xml:id="Laurin_V_chap.28"/>
@@ -2420,10 +2442,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_28" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment .ii. chevalliers se combatent ensamble dont li .i. recognut l’autre.</seg>
+                        <seg type="location">115a-b</seg>
+                        <seg type="note">rubric+initial(115rb). Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-29" unit="chapter" xml:id="Laurin_V_chap.29"/>
@@ -2450,10 +2471,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_29" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li comptes a Lauryn et a Myrador que Euryez a consuivi 
+                            et se mist avecques euz au chemin pour aler au roys Artus.</seg>
+                        <seg type="location">116ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-30" unit="chapter" xml:id="Laurin_V_chap.30"/>
@@ -2476,7 +2497,7 @@
                         <seg type="rubric">Comment une damoisele vient crier au roy Artu merci et se rent coupable de la mort monseigneur
                             Gauvain.</seg>
                         <seg type="location">150ra</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 139vc §)</seg><!-- revoir ici -->
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 139vc (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_30" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2487,10 +2508,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_30" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li comptes au tournoiement que li roys Artus fist crier. 
+                            Et comment Marques et Synador le firent si bien quer (sic) il en orent le pris de touz.</seg>
+                        <seg type="location">117vc</seg>
+                        <seg type="note">rubric+miniature(118ra-b)+initial(118ra)</seg>
                     </ab>
                 </div>
                 <milestone n="3-31" unit="chapter" xml:id="Laurin_V_chap.31"/>
@@ -2517,10 +2538,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_31" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes a Laurin si comme il se parti de Wincestre 
+                            et ala aprés un chevalier et une pucele.</seg>
+                        <seg type="location">121va</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-32" unit="chapter" xml:id="Laurin_V_chap.32"/>
@@ -2542,7 +2563,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurins se combati au chevalier du paveillon.</seg>
                         <seg type="location">155vb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 145ra §)</seg><!-- revoir ici -->
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 145ra (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_32" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2553,10 +2574,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_32" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Laurins mist a outrance le chevalier qui menoit la damoiselle. 
+                            Et comment elle s’arma pour combatre a Laurin.</seg>
+                        <seg type="location">123rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-33" unit="chapter" xml:id="Laurin_V_chap.33"/>
@@ -2572,7 +2593,8 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Maligne se combati encontre Kex le seneschal et le mist en sa merci.</seg>
                         <seg type="location">157ra</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial.
+                        Subject: different subject</seg>
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2583,10 +2605,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Marques de Romme et Synador se furent parti du tournoiement 
+                            et ont tant erré qu’il ont ataint Laurin.</seg>
+                        <seg type="location">125va</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-34" unit="chapter" xml:id="Laurin_V_chap.34"/>
@@ -2607,7 +2629,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurin se combati au chevalier aus blanches armes.</seg>
                         <seg type="location">158vc</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 148ra §)</seg><!-- revoir ici -->
+                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 148ra (§)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_34" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2618,10 +2640,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_34" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li roys Artus vint a Wincestre pour faire honnour 
+                            et feste au roy d’Arragon et a ses compaignons.</seg>
+                        <seg type="location">126vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-35" unit="chapter" xml:id="Laurin_V_chap.35"/>
@@ -2646,10 +2668,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_35" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Laurins se combati en la court le roy Artus a Gauvain et le conquist et 
+                            et ne savoit on qui il estoit jusques atant qu'il li rendi s'espee.</seg>
+                        <seg type="location">127vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-36" unit="chapter" xml:id="Laurin_V_chap.36"/>
@@ -2676,10 +2698,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_36" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes au roy Marque et a Synador. 
+                            Coment il se partirent eulz .ii. de Galyenne et de Dyogenne.</seg>
+                        <seg type="location">129rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-37" unit="chapter" xml:id="Laurin_V_chap.37"/>
@@ -2706,10 +2728,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_37" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li roys de Cartage avoit assis la royne d’Arragon 
+                            quant il sot que Marques n’y estoit mie et se combatoit chascun jour a sa gent.</seg>
+                        <seg type="location">130va</seg>
+                        <seg type="note">rubric+miniature(130vb-c)+initial(130vb)</seg>
                     </ab>
                 </div>
                 <milestone n="3-38" unit="chapter" xml:id="Laurin_V_chap.38"/>
@@ -2736,10 +2758,11 @@
                     </ab>
                     <ab corresp="#Laurin_V_38" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Marques envoia .i. chevalier a Kamaalot au roy Artus. 
+                            Et comment il se parti de Gomer a tout les chevalier que la pucelle li bailla en son conduit et pour les
+                            meneroit la ou il li plairoit.</seg>
+                        <seg type="location">132rc</seg>
+                        <seg type="note">rubric+initial(132va). Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-39" unit="chapter" xml:id="Laurin_V_chap.39"/>
@@ -2766,10 +2789,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_39" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes au marquis de Nerbonne qui avoit assis le roy Marque en Erragon. 
+                            Et comment Gauvain et si compaignon le vindrent aidier.</seg>
+                        <seg type="location">132vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
             </div>       
                 <milestone n="3-40" unit="chapter" xml:id="Laurin_V_chap.40"/>
@@ -2796,10 +2819,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_40" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes a monseigneur Gauvain et as compaignons de la table roonde 
+                            qui vindrent en l’aide au roy Marques roy d'Arragon.</seg>
+                        <seg type="location">134va</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-41" unit="chapter" xml:id="Laurin_V_chap.41"/>
@@ -2824,10 +2847,9 @@
                     </ab>
                     <ab corresp="#Laurin_V_41" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Syrrien quistrent leur seigneur entre les mors et le trouverent.</seg>
+                        <seg type="location">135rb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-42" unit="chapter" xml:id="Laurin_V_chap.42"/>
@@ -2854,10 +2876,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_42" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li roys Marques laissa sa fame et s’en vint a Romme et devint convers 
+                            et comment la royne se dormoit son orillier entre ses bras.</seg>
+                        <seg type="location">137ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-43" unit="chapter" xml:id="Laurin_V_chap.43"/>
@@ -2885,10 +2907,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_43" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes a Laurins et a ses compaignons qui vindrent au chastel de Gomer, 
+                            la ou il avoit moult grant duel.</seg>
+                        <seg type="location">137va</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-44" unit="chapter" xml:id="Laurin_V_chap.44"/>
@@ -2915,10 +2937,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_44" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Laurin et si compaignon se partirent de Radoul 
+                            et s’en vindrent a Vincestre jouster a la table roonde et enmenerent leurs amies aveques eulz.</seg>
+                        <seg type="location">140ra</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-45" unit="chapter" xml:id="Laurin_V_chap.45"/>
@@ -2945,10 +2967,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_45" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment Laurins s’en revint de Bretaingne et emmena Jagonce et s’en revint 
+                            par Romme et par Coustentinnoble.</seg>
+                        <seg type="location">142rc</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-46" unit="chapter" xml:id="Laurin_V_chap.46"/>
@@ -2956,7 +2978,7 @@
                     <ab corresp="#Laurin_V_46" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la suer Marques se fist amener a Romme par devant l’apostole 
-                            et confessa par devant tous sa traison.</seg>
+                            et confessa par devant tous sa traïson.</seg>
                         <seg type="location">167rb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
@@ -2975,10 +2997,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_46" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment la suer Marques se fist amener a Romme par devant l’apostole 
+                            et confessa par devant tous sa traïson.</seg>
+                        <seg type="location">143rb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-47" unit="chapter" xml:id="Laurin_V_chap.47"/>
@@ -3005,10 +3027,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_47" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment li roys Marques fu revenus en Arragon et ne trouva mie sa fame 
+                            et comment il le fist querre par toute sa terre.</seg>
+                        <seg type="location">144rb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-48" unit="chapter" xml:id="Laurin_V_chap.48"/>
@@ -3035,10 +3057,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_48" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Comment la royne passa mer et l’amena on en Sezille. 
+                            Et comment Gaurris li enmainne son enfant et sa pucelle en Cartage.</seg>
+                        <seg type="location">145rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="3-49" unit="chapter" xml:id="Laurin_V_chap.49"/>
@@ -3063,10 +3085,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_49" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="rubric">Ci vient li contes a la royne d’Arragon qui estoit a Narus 
+                            comment uns borgois le voloit avoir a fame.</seg>
+                        <seg type="location">146ra</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
                     </ab>
                 </div>
                 <milestone n="3-50" unit="chapter" xml:id="Laurin_V_chap.50"/>
@@ -3093,10 +3115,10 @@
                     </ab>
                     <ab corresp="#Laurin_V_50" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="explicit">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="explicit">Ci fine li livres de Marques le seneschal de Romme 
+                            et de Laurin son filz empereeur de Coustentinnoble.</seg>
+                        <seg type="location">147vb</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(147va-b)+initial(147va)</seg>
                     </ab>
                 </div>
                 <milestone n="4-1" unit="chapter" xml:id="Cassidorus_V_chap.1"/>
@@ -3121,10 +3143,9 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_1" type="ms_instance">
                         <seg type="witness">X1</seg>
-                        <seg type="implicit">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
-                        <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Stemma: proximity VX</seg>
+                        <seg type="implicit">Ci commence li livres de Cassidorus empereour de Coustentinoble.</seg>
+                        <seg type="location">147vb</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(147va-b)+initial(147va)</seg>
                     </ab>
                 </div>
             </div>                  

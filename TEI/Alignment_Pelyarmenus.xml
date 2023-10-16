@@ -147,7 +147,11 @@
                               au travail d'édition que nous avons mené sur ce même roman.
                               Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
                               comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
-                              de l'organisation comme des nuances présentées dans les autres témoins<!-- revoir ici: formulation à affiner! --></p>
+                              de l'organisation comme des nuances présentées dans les autres témoins.
+                              Nous avons dans ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id correspondant, 
+                              par un renvoi à ce manuscrit V, pour indiquer la distance critique qui se doit d'être considérée face 
+                              à cette organisation et cette numérotation du roman. 
+                              <!-- revoir ici: formulation à affiner! --></p>
                         <p><title>Enjeux et pratique de travail</title>
                               Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre 
                               (c'est-à-dire chaque rubrique), indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, 
@@ -185,6 +189,9 @@
                               Nous avons choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au @corresp renvoyant au xml:id du chapitre qui 
                               donne, dans V, la section contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note précise, 
                               de manière systématique et volontairement concise : "addition of rubric+miniature+initial (corresponding to V XXX)". 
+                              Nous avons également précisé, pour la mention du lieu correspondant dans V, si ce manuscrit ne présentait pas cette 
+                              portion de texte dans un nouveau paragraphe par l'indication "(no §)". En effet, dans la majorité des cas, les ajouts
+                              de rubriques dans d'autres témoins correspondent à un nouveau paragraphe dans ce manuscrit. 
                               <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate -->
                               Le terme "addition" nous a semblé la meilleure solution terminologique, mais nous paraît cependant comporter le risque 
                               d'une mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous souhaitions seulement par-là indiquer que 
@@ -244,7 +251,13 @@
                               Que penses-tu, plutôt que "paragraph added" de "supplementary paragraph", tout comme dans le cas des rubriques ?
                               Nous avions pensé préciser "(no paragraph in V2)", mais cela me paraît aller de soi, qu'en penses-tu ?
                               Peut-être pourrions-nous cependant indiquer "paragraph added XXX (V2 XXX)" pour indiquer également 
-                              où se trouve cette portion de texte dans V? --></p>
+                              où se trouve cette portion de texte dans V? --></p>                        
+                        <p><title>Précisions de présentation</title>
+                        Dans notre relevé des rubriques et paragraphes, nous avons suivi la logique d'une édition interprétative, 
+                        selon les critères établis pour notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.
+                        Tous ces extraits du roman ont été tirés de notre édition, raison pour laquelle nous avons décidé, 
+                        au contraire de ce que présente l'alignement du cycle entier (Alignment_C7S), de ne pas donner les variantes 
+                        orthographiques, conformément aux critères de collation qui ont été les nôtres.<!-- SV: ok --></p>
                   </projectDesc>
             </encodingDesc>
             <revisionDesc>
