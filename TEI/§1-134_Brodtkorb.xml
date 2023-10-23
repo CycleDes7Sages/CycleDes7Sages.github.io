@@ -245,20 +245,40 @@
         <body>
             <div>
                 <pb n="130v"/>
-                <head type="rubrique" n="R1"><app><lem wit="#V2 #G #X2">Ci fine li livres de <persName key="Cassidorus"
-                        >Cassydorus</persName>, si parlerons aprés de <persName key="Pelyarmenus"
-                        >Pelyarmenus</persName> de <placeName key="Rome">Romme</placeName> comment
-                    il avoit pourchacié vers</lem><rdg wit="#B">Ci vient li contes a</rdg></app> <persName key="Dyalogus">Dyalogus</persName> 
-                    <app><lem wit="#V2 #G #X2">son frere</lem><rdg wit="#B"/></app>
-                    le bastart <app><lem wit="#V2 #G #X2">de</lem><rdg wit="#B">si com il cuida</rdg></app> 
-                    <app><lem wit="#V2 #G #X2">metre a mort</lem><rdg wit="#B">murtrir</rdg></app> les 
-                    <app><lem wit="#V2 #G #X2"><num>ii</num></lem><rdg wit="#B"/></app> enfanz 
-                    <app><lem wit="#V2 #G #X2">petiz a</lem><rdg wit="#B"/></app> 
-                    <rs type="person" key="Cassidorus"><app><lem wit="#V2 #X2">l'empereour</lem>
-                        <rdg wit="#B">l'empereour de Constantinoble</rdg><rdg wit="#G">l'empereur son pere</rdg></app></rs>.</head>
+                <head type="rubrique" n="R1"><app>
+                        <lem wit="#V2 #G #X2">Ci fine li livres de <persName key="Cassidorus"
+                                >Cassydorus</persName>, si parlerons aprés de <persName
+                                key="Pelyarmenus">Pelyarmenus</persName> de <placeName key="Rome"
+                                >Romme</placeName> comment il avoit pourchacié vers</lem>
+                        <rdg wit="#B">Ci vient li contes a</rdg>
+                    </app>
+                    <persName key="Dyalogus">Dyalogus</persName>
+                    <app>
+                        <lem wit="#V2 #G #X2">son frere</lem>
+                        <rdg wit="#B"/>
+                    </app> le bastart <app>
+                        <lem wit="#V2 #G #X2">de</lem>
+                        <rdg wit="#B">si com il cuida</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#V2 #G #X2">metre a mort</lem>
+                        <rdg wit="#B">murtrir</rdg>
+                    </app> les <app>
+                        <lem wit="#V2 #G #X2"><num>ii</num></lem>
+                        <rdg wit="#B"/>
+                    </app> enfanz <app>
+                        <lem wit="#V2 #G #X2">petiz a</lem>
+                        <rdg wit="#B"/>
+                    </app>
+                    <rs type="person" key="Cassidorus"><app>
+                            <lem wit="#V2 #X2">l'empereour</lem>
+                            <rdg wit="#B">l'empereour de Constantinoble</rdg>
+                            <rdg wit="#G">l'empereur son pere</rdg>
+                        </app></rs>.</head>
                 <pb n="131"/>
                 <figure>
-                    <graphic url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
+                    <graphic
+                        url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
                     <figDesc>Enluminure de 15 UR, sur deux colonnes. Assis, à gauche, deux
                         personnages (probablement Pelyarmenus et Dialogus) discutent, pendant qu'à
                         droite une nourrice s'occupe de deux jeunes enfants (probablement Cassidore
@@ -1830,22 +1850,53 @@
                             refuse, sans que le récit n'en précise la raison.</note></said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R2"><app><lem wit="#V2 #G">Comment</lem><rdg wit="#B #X2">Ci vient li contes a</rdg></app> 
-                    <app><lem wit="#V2 #G"><persName key="Pelyarmenus">Pelyarmenuz</persName></lem><rdg wit="#X2">Pelyarmenuz qui</rdg></app> 
-                    <app><lem wit="#V2 #G #X2">se <app><lem wit="#V2 #X2">fu partis</lem><rdg wit="#G">partis</rdg></app> 
-                        d'<placeName key="Espaigne">Espaigne</placeName> et <app><lem wit="#V2 #X2">puis</lem><rdg wit="#G"/></app> 
-                        ala en <placeName key="Bretaigne">Bretaigne la <app><lem wit="#V2 #X2">Menour</lem>
-                            <rdg wit="#G">Grant</rdg></app></placeName> 
-                        <app><lem wit="#V2 #G">querre</lem><rdg wit="#X2">pour querre</rdg></app> <rs type="person" key="Cassidorus"
-                        >l'empereour</rs> son pere</lem><rdg wit="#B"/></app>, 
-                    <app><lem wit="#V2 #G #X2">et comment</lem><rdg wit="#B">ensi comme</rdg></app> il revint a <placeName key="Rome"
-                        >Romme</placeName> 
-                    <app><lem wit="#V2 #G #X2">a <rs type="person" key="Fastige">l'empereriz sa
-                        mere</rs> dire nouvelles</lem><rdg wit="#B">quant il se fu partis du roy d'Espagne de faire la queste</rdg></app> 
-                    <app><lem wit="#B #G #X2">de</lem><rdg wit="#V2">de <del rend="exponctuation" hand="#main1">qui</del></rdg>
-                        </app> <app><lem wit="#V2 #G #X2">ce qu'il ot trouvé de</lem><rdg wit="#B"/></app> 
-                    <rs type="person" key="Cassidorus"><app><lem wit="#V2 #G #X2">l'empereour</lem>
-                        <rdg wit="#B">l'empereur de Constantinoble</rdg></app></rs>.</head>
+                <head type="rubrique" n="R2"><app>
+                        <lem wit="#V2 #G">Comment</lem>
+                        <rdg wit="#B #X2">Ci vient li contes a</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#V2 #G"><persName key="Pelyarmenus">Pelyarmenuz</persName></lem>
+                        <rdg wit="#X2">Pelyarmenuz qui</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#V2 #G #X2">se <app>
+                                <lem wit="#V2 #X2">fu partis</lem>
+                                <rdg wit="#G">partis</rdg>
+                            </app> d'<placeName key="Espaigne">Espaigne</placeName> et <app>
+                                <lem wit="#V2 #X2">puis</lem>
+                                <rdg wit="#G"/>
+                            </app> ala en <placeName key="Bretaigne">Bretaigne la <app>
+                                    <lem wit="#V2 #X2">Menour</lem>
+                                    <rdg wit="#G">Grant</rdg>
+                                </app></placeName>
+                            <app>
+                                <lem wit="#V2 #G">querre</lem>
+                                <rdg wit="#X2">pour querre</rdg>
+                            </app>
+                            <rs type="person" key="Cassidorus">l'empereour</rs> son pere</lem>
+                        <rdg wit="#B"/>
+                    </app>, <app>
+                        <lem wit="#V2 #G #X2">et comment</lem>
+                        <rdg wit="#B">ensi comme</rdg>
+                    </app> il revint a <placeName key="Rome">Romme</placeName>
+                    <app>
+                        <lem wit="#V2 #G #X2">a <rs type="person" key="Fastige">l'empereriz sa
+                                mere</rs> dire nouvelles</lem>
+                        <rdg wit="#B">quant il se fu partis du roy d'Espagne de faire la
+                            queste</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#B #G #X2">de</lem>
+                        <rdg wit="#V2">de <del rend="exponctuation" hand="#main1">qui</del></rdg>
+                    </app>
+                    <app>
+                        <lem wit="#V2 #G #X2">ce qu'il ot trouvé de</lem>
+                        <rdg wit="#B"/>
+                    </app>
+                    <rs type="person" key="Cassidorus"><app>
+                            <lem wit="#V2 #G #X2">l'empereour</lem>
+                            <rdg wit="#B">l'empereur de Constantinoble</rdg>
+                        </app></rs>.</head>
                 <figure>
                     <graphic
                         url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f272.item.r=fran%C3%A7ais%2022549.zoom"/>
@@ -2142,9 +2193,9 @@
                             <lem wit="#V2 #G #X2">vers</lem>
                             <rdg wit="#B">de</rdg>
                         </app> l'autre, si ferons que sage.</said></p>
-                <p n="P21"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">Q</c>uant <persName key="Pelyarmenus"
-                        >Pelyarmenus</persName> oÿ ce, si sot bien que il avoit raison en ce qu'ele
-                    disoit, et <app>
+                <p n="P21"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
+                    >Q</c>uant <persName key="Pelyarmenus">Pelyarmenus</persName> oÿ ce, si sot bien
+                    que il avoit raison en ce qu'ele disoit, et <app>
                         <lem wit="#V2 #G #X2">d'autre</lem>
                         <rdg wit="#B">de l'autre</rdg>
                     </app> part il <app>
@@ -2347,10 +2398,17 @@
                         </app>, <seg ana="proverbe">qui son nez cope, il <app>
                                 <lem wit="#V2 #G #X2">deshouneure</lem>
                                 <rdg wit="#B">vergonde</rdg>
-                            </app> son vis</seg>.</said><note type="notecritique">Ce proverbe
-                        fonctionne probablement comme une réminiscence des aventures d'Helcana, qui,
-                        déguisée en ermite, reçoit une vision diabolique l'intimant de couper son
-                        nez.<!--Help aucune référence dans Morawski et co.? le mentionner en début de note?--></note>
+                            </app> son vis</seg><note type="notecritique">Le proverbe du roman
+                            dérive de "Qui son nés cope sa face enledist" (Morawski, 2148, manuscrit
+                            A, 416 proverbes et locutions rangés par initiales et accompagéns de
+                            commentaire bibliques et allégoriques). Pelyarmenus met ici en valeur la
+                            faute sociale qu'il désigne comme telle. Par cet emploi proverbial,
+                            Pelyarmenus tente d'ériger une vision personnelle du monde en vérité
+                            générale et ainsi imposer sa propre position.</note>.</said><note
+                        type="notecritique">Ce proverbe fonctionne probablement comme une
+                        réminiscence des aventures d'Helcana, qui, déguisée en ermite, reçoit une
+                        vision diabolique l'intimant de couper son
+                        nez.</note>
                     <said aloud="true" direct="true">Filz, dist elle, c'est voirs. Pourquoi l'avez
                         vous dit ?</said>
                     <said aloud="true" direct="true">Par <app>
@@ -2398,8 +2456,8 @@
                             </app> son cors en <app>
                                 <lem wit="#V2 #G #X2">aville</lem>
                                 <rdg wit="#B">avillissoit</rdg>
-                            </app></seg><!--Help idem, ouvrages de réf.? Morawski-->. Quant vous
-                        souffristes que <app>
+                            </app></seg><note type="notecritique">Sur ce proverbe, voir la note
+                            XXX</note>. Quant vous souffristes que <app>
                             <lem wit="#V2 #G #X2"><persName key="Dyalogus">Dyalogus</persName> fu
                                 mis em prison par le commandement de <persName key="Fastidorus"
                                     >Fastydorus</persName></lem>
@@ -2443,9 +2501,17 @@
                             amer sa personne <app>
                                 <lem wit="#V2 #G #X2">plus</lem>
                                 <rdg wit="#B">miex</rdg>
-                            </app> que l'autrui</seg>. Quant <rs type="person" key="Cassidore">la
-                            meschinete</rs> dit que <said aloud="true" direct="false"><persName
-                                key="Dyalogus">Dyalogus</persName> en avoit en tele maniere <app>
+                            </app> que l'autrui</seg><note type="notecritique">L'aphorisme se
+                            retrouve mais sous une forme plus imagée dans le proverbe "Qui mius
+                            aimme autrui que soi au molin du morz de suef" (Cotgr, Morawski, 1992).
+                            On en relève également un similaire "Cil est fous, suluns la lei, ki nul
+                            autre aime plus de sei (Di Stefano, 743b, <hi rend="italique"
+                                >Ipomedon</hi> 9431). Le ton sentencieux de Fastige tient surtout à
+                            la réponse qu'elle veut donner à Pelyarmenus, à la hauteur de sa propre
+                            propension à l'aphorisme .</note>. Quant <rs type="person"
+                            key="Cassidore">la meschinete</rs> dit que <said aloud="true"
+                            direct="false"><persName key="Dyalogus">Dyalogus</persName> en avoit en
+                            tele maniere <app>
                                 <lem wit="#X2">enporté</lem>
                                 <rdg wit="#V2">emporé</rdg>
                                 <rdg wit="#B #G">porté</rdg>
@@ -2762,18 +2828,24 @@
                             <rdg wit="#B">a</rdg>
                         </app> la volenté de mon amant : il n'est mie tenus que il moi ait a femme
                         se il ne veult, quar <seg ana="proverbe">en amour ne doit avoir ne val ne
-                                ter<supplied source="#B #G #X2">t</supplied>re, ainz doit estre
-                            aussi <app>
+                                ter<supplied source="#B #G #X2">t</supplied>re<note
+                                type="notecritique">Le proverbe n'est pas répertorié. Il semble même
+                                aller à l'encontre des proverbes sur l'amour, qui constatent
+                                l'absence de limites de l'amour plutôt qu'ils n'invitent à cet
+                                excès. On retrouve ici une valorisation de l'amour qui reprend la
+                                forme du proverbe, pour contrer Pelyarmenus, en apportant une touche
+                                d'humanité, qui manquerait, selon Fastige, à son fils.</note>, ainz
+                            doit estre aussi <app>
                                 <lem wit="#V2 #B #X2">ounie</lem>
                                 <rdg wit="#G">unis</rdg>
-                                <note type="notecritique">Le copiste de G simplifie ounie en unis ;
-                                    la suppression de la comparaison comme mers va dans le sens de
-                                    ce changement, elle assure la cohérence du propos. Le verbe
-                                    honnier (FEW XIV 47a unire ; Gdf V 605b ; Matsumura 2402b) sous
-                                    sa forme de moyen français ounier s'emploie depuis ca 1190 pour
-                                    évoquer l'action précise d'aplatir une ville, de la raser. Le
-                                    verbe reste cependant mal attesté, ce qui explique peut-être la
-                                    simplification de G en unir, dont le sémantisme correspond au
+                                <note type="notecritique">Le copiste de G simplifie "ounie" en
+                                    "unis" ; la suppression de la comparaison comme mers va dans le
+                                    sens de ce changement, elle assure la cohérence du propos. Le
+                                    verbe honnier (FEW XIV 47a unire ; Gdf V 605b ; Matsumura 2402b)
+                                    sous sa forme de moyen français ounier s'emploie depuis ca 1190
+                                    pour évoquer l'action précise d'aplatir une ville, de la raser.
+                                    Le verbe reste cependant mal attesté, ce qui explique peut-être
+                                    la simplification de G en unir, dont le sémantisme correspond au
                                     sens du texte. Voir au sujet du verbe Zeitschrift für romanische
                                     Philologie 44, 1924, p. 217-221. Gunnar Tilander décline la
                                     thèse de Förster d’un traitement dialectal d’uni. Selon lui,
@@ -2922,7 +2994,11 @@
                             <rdg wit="#B">el</rdg>
                             <rdg wit="#X2">en cest</rdg>
                         </app> monde, quar <seg ana="proverbe">li peres ne doit espargnier le filz
-                            ne li filz le pere</seg>, et qui ce fait, il <app>
+                            ne li filz le pere</seg><note type="notecritique">La locution rappelle
+                            le <hi rend="italique">Livre des Proverbes</hi>, 23,13 qui invite à ne
+                            pas épargner la correction à son fils. On pense aussi au jugement de
+                            Dieu qui n'a pas épargné son fils, Jésus, qu'il a laissé souffrir la
+                            Passion (voir Romains, 8,32).</note>, et qui ce fait, il <app>
                             <lem wit="#V2 #G #X2">ne</lem>
                             <rdg wit="#B">n'en</rdg>
                         </app> doit estre repris en ses oeuvres.</said>
@@ -3387,13 +3463,20 @@
                         enfanz faisoit garder, si comme devant est dit</said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R3"><app><lem wit="#V2 #G #X2"><app><lem wit="#V2 #G">Comment</lem>
-                <rdg wit="#X2">Ci devise li histoire comment</rdg></app> li enfant a <rs type="person" key="Cassidorus"
-                        >l'empereour</rs>   <app><lem wit="#X2">furent congneu</lem>
-                        <rdg wit="#V2 #G">reconnut</rdg>
-                    </app> par <rs type="person" key="Clyodorus">un chevalier</rs> qui les vit chiez
-                    le duc <persName key="Borleuz">Bourleuz</persName> ou aventure le mena</lem><rdg wit="#B">Ci endroit
-                    vient li contes a Borleus et as enfans l'empereor de Constantinoble</rdg></app>.</head>
+                <head type="rubrique" n="R3"><app>
+                        <lem wit="#V2 #G #X2"><app>
+                                <lem wit="#V2 #G">Comment</lem>
+                                <rdg wit="#X2">Ci devise li histoire comment</rdg>
+                            </app> li enfant a <rs type="person" key="Cassidorus">l'empereour</rs>
+                            <app>
+                                <lem wit="#X2">furent congneu</lem>
+                                <rdg wit="#V2 #G">reconnut</rdg>
+                            </app> par <rs type="person" key="Clyodorus">un chevalier</rs> qui les
+                            vit chiez le duc <persName key="Borleuz">Bourleuz</persName> ou aventure
+                            le mena</lem>
+                        <rdg wit="#B">Ci endroit vient li contes a Borleus et as enfans l'empereor
+                            de Constantinoble</rdg>
+                    </app>.</head>
                 <figure>
                     <graphic
                         url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f278.item.r=fran%C3%A7ais%2022549.zoom"/>
@@ -3972,8 +4055,10 @@
                             duel faire ne trop grant joie <app>
                                 <lem wit="#V2 #G #X2">demener</lem>
                                 <rdg wit="#B">mener</rdg>
-                            </app></seg>, quar aussi tost a Dieus l'omme comforté comme li mau<pb
-                            n="138"/>vais <app>
+                            </app></seg><note type="notecritique">Le proverbe n'apparaît pas comme
+                            tel dans les recueils, mais il fait appel à une juste mesure souvent à
+                            l'oeuvre dans les locutions.</note>, quar aussi tost a Dieus l'omme
+                        comforté comme li mau<pb n="138"/>vais <app>
                             <lem wit="#V2 #G">le courouce</lem>
                             <rdg wit="#B #X2">l'a couroucié</rdg>
 
@@ -4851,8 +4936,11 @@
                             ana="proverbe">besoing fait maint <app>
                                 <lem wit="#V2 #G #X2">homme</lem>
                                 <rdg wit="#B">preudomme</rdg>
-                            </app> restraindre</seg>.</said> Dont l'esgarda <rs type="person"
-                        key="Borleuz">li dus</rs> et <app>
+                            </app> restraindre</seg><note type="notecritique">Le proverbe n'est pas
+                            connu. Il énonce comme une vérité générale un aspect très pragmatique,
+                            signe de l'importance de cette dimension dans notre
+                        roman.</note>.</said> Dont l'esgarda <rs type="person" key="Borleuz">li
+                        dus</rs> et <app>
                         <lem wit="#V2 #G #X2">li</lem>
                         <rdg wit="#B"/>
                     </app> dist : <said aloud="true" direct="true">Sire, quel <app>
@@ -6199,7 +6287,9 @@
                             >li dux</rs>, <seg ana="proverbe">li ami se mous<cb n="f"/>trent bien <app>
                                 <lem wit="#V2 #G">ou</lem>
                                 <rdg wit="#B #X2">la ou</rdg>
-                            </app> il sont</seg>.</said> Dont <app>
+                            </app> il sont</seg><note type="notecritique">Sans être connu des
+                            recueils, le proverbe reprend une image bien ancrée, celle de la
+                            fidélité de l'amitié.</note>.</said> Dont <app>
                         <lem wit="#V2 #G #X2">a</lem>
                         <rdg wit="#B">li a</rdg>
                     </app>
@@ -6496,16 +6586,23 @@
                         </app></persName>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R4"><app><lem wit="#V2 #G">Comment</lem><rdg wit="#B">Ci endroit revient li contes a</rdg>
-                <rdg wit="#X2">Ci dist comment</rdg></app> 
-                    <persName key="Helcanus">Helcanus</persName> 
-                    <app><lem wit="#V2 #G #X2">fu remis en la prison par le commandement <persName key="Josyas"
-                    >Josias</persName></lem><rdg wit="#B"/></app>.</head>
-                <cb n="c"/><figure>
+                <head type="rubrique" n="R4"><app>
+                        <lem wit="#V2 #G">Comment</lem>
+                        <rdg wit="#B">Ci endroit revient li contes a</rdg>
+                        <rdg wit="#X2">Ci dist comment</rdg>
+                    </app>
+                    <persName key="Helcanus">Helcanus</persName>
+                    <app>
+                        <lem wit="#V2 #G #X2">fu remis en la prison par le commandement <persName
+                                key="Josyas">Josias</persName></lem>
+                        <rdg wit="#B"/>
+                    </app>.</head>
+                <cb n="c"/>
+                <figure>
                     <graphic
                         url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f289.item.r=fran%C3%A7ais%2022549#"/>
                     <figDesc>Enluminure de 14 UR, sur une colonne. Helcanus remis en prison par
-                        Josias.</figDesc>                    
+                        Josias.</figDesc>
                 </figure>
                 <p n="P66"><said who="#nar"><app>
                             <lem wit="#V2 #G #X2"><c ana="lettrine6">C</c>i endroit dist li
@@ -7533,11 +7630,11 @@
                                     ausi une de mes sereurs</rdg>
                                 <rdg wit="#G">seurs a femme</rdg>
 
-                        </app></rs><note type="notecritique">La précision de B n'est pas superflue
-                            pour répondre à une question identitaire épineuse. Le retour de
-                            "sereurs" nous pousse même à croire qu'un tel détail se trouvait
-                            dans l'archétype, comme s'il y avait eu un saut du même au
-                            même.</note>.</said>
+                            </app></rs><note type="notecritique">La précision de B n'est pas
+                            superflue pour répondre à une question identitaire épineuse. Le retour
+                            de "sereurs" nous pousse même à croire qu'un tel détail se trouvait dans
+                            l'archétype, comme s'il y avait eu un saut du même au
+                        même.</note>.</said>
                     <said aloud="true" direct="true">Comment ? dit il. Est <rs type="person"
                             key="Cassidorus">li empereres</rs> mors ?</said>
                     <said aloud="true" direct="true">Par <app>
@@ -7878,16 +7975,18 @@
                             oeuvres (Machaut, <hi rend="italique">Voir</hi>, 694, DMF).</note>
                         nee.</said></p>
 
-                <p n="P75"><c ana="lettrine2">Q</c>uant <persName key="Josyas">Josias</persName> oÿ
-                        <app>
-                            <lem wit="#V2 #G #X2"><rs type="person" key="Nera">sa sereur</rs></lem>
-                            <rdg wit="#B">ce</rdg>
-                        </app>, si dist : <said aloud="true" direct="true">Par Dieu, voirement
-                        dites vous verité <app>
+                <p n="P75"><c ana="lettrine2">Q</c>uant <persName key="Josyas">Josias</persName> oÿ <app>
+                        <lem wit="#V2 #G #X2"><rs type="person" key="Nera">sa sereur</rs></lem>
+                        <rdg wit="#B">ce</rdg>
+                    </app>, si dist : <said aloud="true" direct="true">Par Dieu, voirement dites
+                        vous verité <app>
                             <lem wit="#V2 #G #X2">ou</lem>
                             <rdg wit="#B">et</rdg>
                         </app> mençonge ? Et <seg ana="proverbe">fols est li homs qui femme croist
-                            se elle n'est moult bien esprouvee</seg>. <app>
+                            se elle n'est moult bien esprouvee</seg><note type="notecritique">Le
+                            proverbe est ici plus précis que "Fil est qui a feme se prent" (Di
+                            Stefano, 743a, COLIN MUSET XX, 17). Josias ne condamne pas toutes les
+                            femmes.</note>. <app>
                             <lem wit="#V2 #G #X2">Mais</lem>
                             <rdg wit="#B">Et</rdg>
                         </app> or me dites, <app>
@@ -8695,8 +8794,8 @@
                         type="person" key="Roi d'Espagne">li roys</rs> : <said aloud="true"
                         direct="true"><persName key="Helcanus">Helcanuz</persName>, je vous
                         salu.</said></p>
-                <p n="P80"><cb n="c"/><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2"
-                    >Q</c>uant <persName key="Helcanus"><app>
+                <p n="P80"><cb n="c"/><note type="apparat">Pas de nouveau § B</note><c
+                        ana="lettrine2">Q</c>uant <persName key="Helcanus"><app>
                             <lem wit="#V2 #G #X2">Helcanuz</lem>
                             <rdg wit="#B">il</rdg>
                         </app></persName>
@@ -9217,13 +9316,19 @@
                         </app> je me sui grant piece teuz</said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R5">Ci <app><lem wit="#V2 #G #X2">vient</lem><rdg wit="#B">endroit revient</rdg></app> li comptes a 
-                    <persName key="Clyodorus"
-                        >Clyodorus</persName>, <app><lem wit="#V2 #G #X2">comment il se fu partis du duc <persName
-                        key="Borleuz">Bourleuz</persName>, <said who="#nar">si comme devant est
-                        dit,</said> pour aler au chastel, la ou il trova <persName key="Fremor"
-                            ><app><lem wit="#V2 #X2">Fremor</lem><rdg wit="#G">Fremor, le chevalier</rdg></app></persName></lem>
-                            <rdg wit="#B">ainsi comme il il aloit en la queste de Helcanus</rdg></app>.</head>
+                <head type="rubrique" n="R5">Ci <app>
+                        <lem wit="#V2 #G #X2">vient</lem>
+                        <rdg wit="#B">endroit revient</rdg>
+                    </app> li comptes a <persName key="Clyodorus">Clyodorus</persName>, <app>
+                        <lem wit="#V2 #G #X2">comment il se fu partis du duc <persName key="Borleuz"
+                                >Bourleuz</persName>, <said who="#nar">si comme devant est
+                                dit,</said> pour aler au chastel, la ou il trova <persName
+                                key="Fremor"><app>
+                                    <lem wit="#V2 #X2">Fremor</lem>
+                                    <rdg wit="#G">Fremor, le chevalier</rdg>
+                                </app></persName></lem>
+                        <rdg wit="#B">ainsi comme il il aloit en la queste de Helcanus</rdg>
+                    </app>.</head>
                 <cb n="f"/>
                 <figure>
                     <graphic
@@ -11191,10 +11296,16 @@
 
             </div>
             <div>
-                <head type="rubrique" n="R6"><app><lem wit="#V2 #G #X2">Comment <persName key="Pelyarmenus"
-                        >Pelyarmenus</persName> voult estre <cb n="f"/>empereour <app><lem wit="#V2 #G">de <placeName
-                        key="Costentinnoble">Constentinoble</placeName></lem><rdg wit="#X2"/></app> et metre <persName
-                        key="Helcanus">Helcanus</persName> son frere a mort.</lem><rdg wit="#B"/></app></head>
+                <head type="rubrique" n="R6"><app>
+                        <lem wit="#V2 #G #X2">Comment <persName key="Pelyarmenus"
+                                >Pelyarmenus</persName> voult estre <cb n="f"/>empereour <app>
+                                <lem wit="#V2 #G">de <placeName key="Costentinnoble"
+                                        >Constentinoble</placeName></lem>
+                                <rdg wit="#X2"/>
+                            </app> et metre <persName key="Helcanus">Helcanus</persName> son frere a
+                            mort.</lem>
+                        <rdg wit="#B"/>
+                    </app></head>
                 <figure>
                     <graphic
                         url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f306.item.r=fran%C3%A7ais%2022549.zoom"/>
@@ -12016,9 +12127,13 @@
                         </app> nous sommes ci venus.</said>
                     <said aloud="true" direct="true">Voire, dist <persName key="Borleuz"
                             >Borleuz</persName>, mais <seg ana="proverbe">de celui qui fausseté
-                            fait, de celui se doit on touz jours garder.</seg> S'il estoit ore ainsi
-                        que <persName key="Helcanus">Helcanus</persName> venist en cest paÿs ou
-                            <persName key="Pelyarmenus">Pelyarmenus</persName> a force de lui faire <app>
+                            fait, de celui se doit on touz jours garder.</seg><note
+                            type="notecritique">Bourleus érige ici en vérité générale un propos qui
+                            n'est pas connu des proverbe. Il use du proverbe, comme Pelyarmenus,
+                            mais pour mieux contrer ce dernier et rétablir une morale
+                            honnête.</note> S'il estoit ore ainsi que <persName key="Helcanus"
+                            >Helcanus</persName> venist en cest paÿs ou <persName key="Pelyarmenus"
+                            >Pelyarmenus</persName> a force de lui faire <app>
                             <lem wit="#V2 #G #X2">prendre</lem>
                             <rdg wit="#B">prendre et le feist metre en prison</rdg>
                         </app>, sachiez que moult y avroit grant debat avant que il fust
@@ -12392,10 +12507,13 @@
                         </app>.</said></p>
             </div>
             <div>
-                <head type="rubrique" n="R7"><app><lem wit="#V2 #G #X2">Comment <persName key="Pelyarmenus"
-                        >Pelyarmenus</persName> se voult faire empereour de <placeName
-                        key="Costentinnoble">Constentinoble</placeName> et que li baron le
-                    receussent et li aidassent.</lem><rdg wit="#B">Ci endroit revient li contes a Peliarmenus</rdg></app></head>
+                <head type="rubrique" n="R7"><app>
+                        <lem wit="#V2 #G #X2">Comment <persName key="Pelyarmenus"
+                                >Pelyarmenus</persName> se voult faire empereour de <placeName
+                                key="Costentinnoble">Constentinoble</placeName> et que li baron le
+                            receussent et li aidassent.</lem>
+                        <rdg wit="#B">Ci endroit revient li contes a Peliarmenus</rdg>
+                    </app></head>
                 <figure>
                     <graphic
                         url="https://gallica.bnf.fr/ark:/12148/btV2b52513516p/f311.item.r=22549.zoom"/>
@@ -12623,8 +12741,7 @@
                         </app>, <app>
                             <lem wit="#V2 #G #X2">pource</lem>
                             <rdg wit="#B">pour</rdg>
-                        </app> que
-                        volentiers savroie s'il <app>
+                        </app> que volentiers savroie s'il <app>
                             <lem wit="#V2 #G #X2">a nul</lem>
                             <rdg wit="#B">nient avroit</rdg>
                         </app> droit en ce que il veult demander.</said>
@@ -13019,7 +13136,7 @@
                         >Myrus</persName> oÿ ce, si s'est moult esmerveilliez et dist que <said
                         aloud="true" direct="false">voirement <seg ana="proverbe">n'estoit mie seuls
                             en une terre <num>i</num> traïtour que il n'eust des
-                        compaignons</seg>.</said>
+                        compaignons</seg><note type="notecritique">La tournure quasi proverbiale s'applique ici à une situation particulière, qui tend vers la généralité.</note>.</said>
                     <note type="apparat">Nouveau § B</note>Quant il furent en tele maniere delivré
                     de celle maisnie, si y ot de <app>
                         <lem wit="#V2 #G #X2">tiex</lem>
@@ -13339,13 +13456,15 @@
                         nous sommes a <persName key="Helcanus">Helcanus</persName>, filz <app>
                             <lem wit="#V2 #G #X2">a</lem>
                             <rdg wit="#B"/>
-                        </app> l'<app><lem wit="#V2 #G #X2"><rs type="person" key="Cassidorus">empereour de <placeName
-                                key="Costentinnoble">Coustentinoble</placeName></rs></lem>
-                                    <rdg wit="#B">Coustentinoble et nous envoie a <persName
-                                            key="Pelyarmenus">Peliarmenus</persName> son frere en
-                                            Costentinnoble</rdg></app>.</said> Quant <rs type="person" key="Melode"
-                        >la pucele</rs> entendi que il estoient a celui dont il parloient, si ne se
-                    pot tenir que elle ne <app>
+                        </app> l'<app>
+                            <lem wit="#V2 #G #X2"><rs type="person" key="Cassidorus">empereour de
+                                        <placeName key="Costentinnoble"
+                                    >Coustentinoble</placeName></rs></lem>
+                            <rdg wit="#B">Coustentinoble et nous envoie a <persName
+                                    key="Pelyarmenus">Peliarmenus</persName> son frere en
+                                Costentinnoble</rdg>
+                        </app>.</said> Quant <rs type="person" key="Melode">la pucele</rs> entendi
+                    que il estoient a celui dont il parloient, si ne se pot tenir que elle ne <app>
                         <lem wit="#V2 #X2">tressausist</lem>
                         <rdg wit="#B">trasaillist euls el</rdg>
                         <rdg wit="#G">traisist</rdg>
@@ -14298,12 +14417,23 @@
                         </app> de lui et repairerai aus messages</said>.</p>
             </div>
             <div>
-                <head type="rubrique" n="R8"><app><lem wit="#V2 #G #X2">Coment</lem><rdg wit="#B">Ci endroit revient li contes a</rdg></app> 
-                    <persName key="Mirrus">Mirus</persName> <app><lem wit="#V2 #G #X2">se parti
-                    du chastel par le conseil a <rs type="person" key="Melode">la damoisele </rs>et
-                    ala en son message, <app><lem wit="#V2 #X2">lui</lem><rdg wit="#G"/></app></lem><rdg wit="#B"></rdg></app> et 
-                    <app><lem wit="#V2 #X2">ses compaignons</lem>
-                        <rdg wit="#B">se compagnie</rdg><rdg wit="#G">ses gens</rdg></app>.</head>
+                <head type="rubrique" n="R8"><app>
+                        <lem wit="#V2 #G #X2">Coment</lem>
+                        <rdg wit="#B">Ci endroit revient li contes a</rdg>
+                    </app>
+                    <persName key="Mirrus">Mirus</persName>
+                    <app>
+                        <lem wit="#V2 #G #X2">se parti du chastel par le conseil a <rs type="person"
+                                key="Melode">la damoisele </rs>et ala en son message, <app>
+                                <lem wit="#V2 #X2">lui</lem>
+                                <rdg wit="#G"/>
+                            </app></lem>
+                        <rdg wit="#B"/>
+                    </app> et <app>
+                        <lem wit="#V2 #X2">ses compaignons</lem>
+                        <rdg wit="#B">se compagnie</rdg>
+                        <rdg wit="#G">ses gens</rdg>
+                    </app>.</head>
             </div>
             <figure>
                 <graphic
