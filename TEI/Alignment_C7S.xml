@@ -7151,24 +7151,24 @@
                               </ab>
                         </div>
                         <milestone n="6-49" unit="explicit" xml:id="Pelyarmenus_V_chap.49"/>
-                        <div type="alignment" xml:id="Pelyarmenus_V_explicit">
-                              <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance"
+                        <div type="alignment" xml:id="Pelyarmenus_V_49">
+                              <ab corresp="#Pelyarmenus_V_49" type="ms_instance"
                                     subtype="base">
                                     <seg type="witness">V3</seg>
                                     <seg type="explicit">Ci fenist le livre de Cassydorus, empereeur
                                           de Rome et de Constentinoble, et aprés conmence li
                                           derreains de ses enfans.</seg>
-                                    <seg type="location">50b-c</seg>
-                                    <seg type="note">explicit(XXX)+incipit(XXX)+miniature(50rb-c)+initial</seg>
+                                    <seg type="location">50rb-c</seg>
+                                    <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50va)</seg>
                               </ab>
-                              <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
+                              <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
                                     <seg type="witness">B</seg>
                                   <seg type="explicit">absent</seg>
                                     <seg type="note">explicit absent. Initial corresponding
                                           (approx.) to chapter Pelyarmenus_V_explicit starting
                                           482rc</seg>
                               </ab>
-                              <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
+                              <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
                                     <seg type="witness">G</seg>
                                     <seg type="explicit">Ci fenist le livre de Cassidorus, empereur
                                           de Romme et de Constantinoble, et aprés conmence li
@@ -7176,7 +7176,7 @@
                                     <seg type="location">491va-b</seg>
                                     <seg type="note">explicit(XXX)+incipit(XXX)+miniature(491va-b)+initial(492ra)</seg>
                               </ab>
-                              <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
+                              <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
                                     <seg type="witness">X2</seg>
                                     <seg type="explicit">Ci fine li livres de Cassidorus, empereour
                                           de Romme et de Coustentinoble, aprés conmence li deerrains
@@ -7185,6 +7185,947 @@
                                     <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
                               </ab>
                         </div>
+                <milestone n="7-1" unit="incipit" xml:id="Kanor_V_chap.1"/>
+                <div type="alignment" xml:id="Kanor_V_1">
+                    <ab corresp="#Kanor_V_1" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="incipit">Ci devise l'ystoire que aprés ce que li empereres fu mis en terre avint que cele qui gardoit
+                            les .iiii. enfans a l'empereris ala ou chastel pour savoir que il demouroient tant. Et endementres il avint que
+                            li lyons emporta les .iiii. enfans l'un aprés l'autre a tous les berceus en .i. hermitage la ou li hermites 
+                            les bercoit et nourrissoit.</seg>
+                        <seg type="location">50rb-c</seg>
+                        <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50va)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_1" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="incipit">absent</seg>
+                        <seg type="note">incipit absent. Initial corresponding
+                            (approx.) to chapter Kanor_V_incipit starting
+                            482rc</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_1" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="incipit">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">explicit(XXX)+incipit(XXX)+miniature(491va-b)+initial(492ra)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_1" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="incipit">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
+                    </ab>
+                </div>
+                <milestone n="7-2" unit="chapter" xml:id="Kanor_V_chap.2"/>
+                <div type="alignment" xml:id="Kanor_V_2">
+                    <ab corresp="#Kanor_V_2" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment Nichole trouva les .iiii. enfans chiez l'ermite et comment .i. cerf 
+                            blanc et une biche venoient tous les jours a l'ermitage pour avoir du lait a nourrir les enfans.</seg>
+                        <seg type="location">51va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_2" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_2" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_2" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-3" unit="chapter" xml:id="Kanor_V_chap.3"/>
+                <div type="alignment" xml:id="Kanor_V_3">
+                    <ab corresp="#Kanor_V_3" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment Celydus et Dyanor son cousin vindrent au chastel de Rohais et comment
+                            li princes du chastel les fist bienveignans.</seg>
+                        <seg type="location">53rc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_3" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_3" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_3" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-4" unit="chapter" xml:id="Kanor_V_chap.4"/>
+                <div type="alignment" xml:id="Kanor_V_4">
+                    <ab corresp="#Kanor_V_4" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment li roys de Jherusalem mourut aprés ce que Celydus et Dyanor orent outré 
+                            ceus de Perse et ceus de Mede. Et devise que aprés la mort du roy fu Celydus esleu a estre roy de Jherusalem
+                            et puis comment les barons alerent a conseil pour li donner fenme et il leur dist qu'il n'auroit ja autre 
+                            que Alerie, la suer au prince d'Antyoche.</seg>
+                        <seg type="location">55va</seg>
+                        <seg type="note">rubric+miniature(55vb)+initial(55vb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_4" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_4" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_4" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-5" unit="chapter" xml:id="Kanor_V_chap.5"/>
+                <div type="alignment" xml:id="Kanor_V_5">
+                    <ab corresp="#Kanor_V_5" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise li contes comment les princes de Constentinoble se combatirent au roy d'Arragon
+                            et comment Mardocheus et Josyas d'Espaingne et un leur compaingnon alerent en la Forest Perilleuse eulz 
+                            aventurer. Et endementres le roy d'Arragon fist tant envers l'empereris de Constentinoble, fenme Helcanus
+                            qui estoit mort, qui les envoia chiez sa fenme et la duchesse de Lembourc avec lui. Et de qu'il en avint
+                            si com vous orrez ou conte ci aprés.</seg>
+                        <seg type="location">61va</seg>
+                        <seg type="note">rubric+miniature(61vb)+initial(61vb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_5" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_5" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_5" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-6" unit="chapter" xml:id="Kanor_V_chap.6"/>
+                <div type="alignment" xml:id="Kanor_V_6">
+                    <ab corresp="#Kanor_V_6" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment l'empereris fist venir .i. phylosophe pour savoir mon qui estoit l'enfant
+                            qu'ele avoit et comment il conta la verité a la duchesse.</seg>
+                        <seg type="location">69vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_6" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_6" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_6" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-7" unit="chapter" xml:id="Kanor_V_chap.7"/>
+                <div type="alignment" xml:id="Kanor_V_7">
+                    <ab corresp="#Kanor_V_7" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci revient li contes aus .iiii. enfans Cassydorus qui estoient en la roche avec l'ermite
+                            et avec Nichole et devise comment li enfant alerent en la forest vestus des piaus des bestes et trouverent 
+                            veneeurs et chevaliers qui chacoient le cerf blanc.</seg>
+                        <seg type="location">72vb</seg>
+                        <seg type="note">rubric+miniature+initial(72vc)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_7" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_7" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_7" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-8" unit="chapter" xml:id="Kanor_V_chap.8"/>
+                <div type="alignment" xml:id="Kanor_V_8">
+                    <ab corresp="#Kanor_V_8" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment les chevaliers au roy de Hongrie vindrent querre les .iiii. enfans qui
+                            estoient chiez l'ermite et estoient touz armez. Et comment la pucele Nichole ala avec euls.</seg>
+                        <seg type="location">75rb</seg>
+                        <seg type="note">miniature(75ra)+rubric+initial(75rb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_8" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_8" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_8" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-9" unit="chapter" xml:id="Kanor_V_chap.9"/>
+                <div type="alignment" xml:id="Kanor_V_9">
+                    <ab corresp="#Kanor_V_9" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise que quant l'ermite fu revenus, il trouva le lyon qui avoit amenee l'empereris et 
+                        le chastelain pour oïr nouvelles de ses .iiii. enfans et comment il leur conta comment il en estoit alé, si comme il 
+                        est desus dit.</seg>
+                        <seg type="location">76va</seg>
+                        <seg type="note">rubric+miniature(76vb)+initial(76vb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_9" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_9" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_9" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-10" unit="chapter" xml:id="Kanor_V_chap.10"/>
+                <div type="alignment" xml:id="Kanor_V_10">
+                    <ab corresp="#Kanor_V_10" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment les .iiii. damoisiaus furent amenez au roy de Hongrie et Nichole avec eulz
+                            et comment le roy les enmena la ou la royne sa fame estoit et devise comment on les bailla a endoctriner.</seg>
+                        <seg type="location">78vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_10" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_10" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_10" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-11" unit="chapter" xml:id="Kanor_V_chap.11"/>
+                <div type="alignment" xml:id="Kanor_V_11">
+                    <ab corresp="#Kanor_V_11" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci endroit devise comment les mesages Celydus revindrent du prince d'Antyoche, dont li uns
+                            li aporta une lettre et l'autre li aporta un petit coffinet que nuls ne pot ne ne sot ouvrir que Celydus.
+                            Et devise comment le prince d'Antyoche ala parler a sa suer qu'il avoit fet mettre en la tour avec ses concubines,
+                            ainsi com vous orrez.</seg>
+                        <seg type="location">81ra</seg>
+                        <seg type="note">rubric+miniature+initial(81rb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_11" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_11" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_11" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-12" unit="chapter" xml:id="Kanor_V_chap.12"/>
+                <div type="alignment" xml:id="Kanor_V_12">
+                    <ab corresp="#Kanor_V_12" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise li contes de la meschine, qui ot enfant du chanoine devant dit a qui son enfant fu 
+                            changiez, comment elle se mist a voie d'aler au .S. Sepucre et devise comment vous orrez qu'il avint ci aprés.</seg>
+                        <seg type="location">86vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_12" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_12" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_12" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-13" unit="chapter" xml:id="Kanor_V_chap.13"/>
+                <div type="alignment" xml:id="Kanor_V_13">
+                    <ab corresp="#Kanor_V_13" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci devise comment la duchesse de Lembourc mainne grant duel por l'empereris qui s'en iert alee
+                            et comment le roy d'Arragon l'ala reconforter. Et comment il penssa a donner li Raimfort son filz a mariage 
+                            et s'en conseilla a Edypus et quele en fu la responsse.</seg>
+                        <seg type="location">88va</seg>
+                        <seg type="note">rubric+miniature(88vb)+initial(88vb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_13" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_13" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_13" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-14" unit="chapter" xml:id="Kanor_V_chap.14"/>
+                <div type="alignment" xml:id="Kanor_V_14">
+                    <ab corresp="#Kanor_V_14" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci endroit devise comment l'empereris et Belyns chevauchierent ensemble et aloient querant l'enfant
+                            et la meschine et tant qu'il en oïrent nouvelles en Cartage ou il les trouverent.</seg>
+                        <seg type="location">92va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_14" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_14" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_14" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-15" unit="chapter" xml:id="Kanor_V_chap.15"/>
+                <div type="alignment" xml:id="Kanor_V_15">
+                    <ab corresp="#Kanor_V_15" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes a Japhus, a Josyas et a Mardocheus comment il entrerent en la Forest Perilleuse 
+                            pour querre aventures.</seg>
+                        <seg type="location">100va-b</seg>
+                        <seg type="note">miniature(100va-b)+rubric+initial(100va)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_15" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_15" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_15" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-16" unit="chapter" xml:id="Kanor_V_chap.16"/>
+                <div type="alignment" xml:id="Kanor_V_16">
+                    <ab corresp="#Kanor_V_16" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Comment Josyas d'Espaigne trouva une chace de chiens qui couroient aprés .i. cerf que la royne 
+                            de Ripleurjoie chacoit et ses puceles.</seg>
+                        <seg type="location">107vc</seg>
+                        <seg type="note">rubric+miniature(107vb-c)+initial(107vb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_16" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_16" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_16" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-17" unit="chapter" xml:id="Kanor_V_chap.17"/>
+                <div type="alignment" xml:id="Kanor_V_17">
+                    <ab corresp="#Kanor_V_17" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci endroit vient li contes a Mardocheus qui s'estoit mis en la Forest Perilleuse pour querre
+                            aventures. Et comment il commença a chanter et comment il encontra en son chemin .i. chevalier navré trop durement
+                            d'un gros espié quarré parmi le cors.</seg>
+                        <seg type="location">112rc</seg>
+                        <seg type="note">rubric+miniature(112rb-c)+initial(112rb)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_17" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_17" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_17" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-18" unit="chapter" xml:id="Kanor_V_chap.18"/>
+                <div type="alignment" xml:id="Kanor_V_18">
+                    <ab corresp="#Kanor_V_18" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes a Japhus de Frise comment les puceles l'enmenerent en prison et comment
+                            il chantoient toutes de joie.</seg>
+                        <seg type="location">121vc</seg>
+                        <seg type="note">rubric+miniature+initial(122ra)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_18" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_18" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_18" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-19" unit="chapter" xml:id="Kanor_V_chap.19"/>
+                <div type="alignment" xml:id="Kanor_V_19">
+                    <ab corresp="#Kanor_V_19" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes aus .iiii. damoisiaus les filz a l'empereour Cassydorus de Costentinnoble
+                            comment li roys de Hongrie les fist norrir.</seg>
+                        <seg type="location">123vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_19" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_19" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_19" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-20" unit="chapter" xml:id="Kanor_V_chap.20"/>
+                <div type="alignment" xml:id="Kanor_V_20">
+                    <ab corresp="#Kanor_V_20" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes au chastelain de Gomor comment il parole aus .iiii. filz l'empereour Cassidorus.</seg>
+                        <seg type="location">125vb</seg>
+                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_20" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_20" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_20" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-21" unit="chapter" xml:id="Kanor_V_chap.21"/>
+                <div type="alignment" xml:id="Kanor_V_21">
+                    <ab corresp="#Kanor_V_21" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Comment les .iiii. damoisel qui en la tour estoient firent tant qu'il orent la chastelainne et avec
+                            li une de ses puceles.</seg>
+                        <seg type="location">127vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_21" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_21" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_21" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-22" unit="chapter" xml:id="Kanor_V_chap.22"/>
+                <div type="alignment" xml:id="Kanor_V_22">
+                    <ab corresp="#Kanor_V_22" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li comptes as .iiii. freres conment il orent la chastelaine de Chyno avec eulz en la tor
+                            et une de ses puceles. Et comment li sires de Princefueil fist assaillir la tour et puis comment li rois de Hongrie
+                            delivra les .iiii. damoisiaus et la chastelaine. Et comment li sires de Princefueil s'en foui de paour.</seg>
+                        <seg type="location">129vb</seg>
+                        <seg type="note">rubric+miniature(129va-b)+initial(129va)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_22" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_22" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_22" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-23" unit="chapter" xml:id="Kanor_V_chap.23"/>
+                <div type="alignment" xml:id="Kanor_V_23">
+                    <ab corresp="#Kanor_V_23" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes au roy Celidus de Jherusalem et a Dyanor son bon cousin.</seg>
+                        <seg type="location">134va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_23" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_23" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_23" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-24" unit="chapter" xml:id="Kanor_V_chap.24"/>
+                <div type="alignment" xml:id="Kanor_V_24">
+                    <ab corresp="#Kanor_V_24" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes du prince de Bethsaïda comment il voult donner a Raimfort la duchesse afaitié, 
+                            si comme Dyomarques li rois d'Arragon l'avoit pourchacié.</seg>
+                        <seg type="location">138vb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_24" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_24" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_24" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-25" unit="chapter" xml:id="Kanor_V_chap.25"/>
+                <div type="alignment" xml:id="Kanor_V_25">
+                    <ab corresp="#Kanor_V_25" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes comment li rois de Hongrie delivra les .iiii. damoisiaus du chastel de Cyno.
+                            Et comment il les fist chevaliers.</seg>
+                        <seg type="location">141rb</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_25" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_25" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_25" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-26" unit="chapter" xml:id="Kanor_V_chap.26"/>
+                <div type="alignment" xml:id="Kanor_V_26">
+                    <ab corresp="#Kanor_V_26" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci dit li contes comment Dorus et ses freres encontrent .i. char et comment il entrerent dedenz
+                            et pendirent leur escus au char.</seg>
+                        <seg type="location">146va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_26" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_26" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_26" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-27" unit="chapter" xml:id="Kanor_V_chap.27"/>
+                <div type="alignment" xml:id="Kanor_V_27">
+                    <ab corresp="#Kanor_V_27" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci vient li contes a l'empereriz de Costentinnoble comment ele parole a son filz Libanor
+                            que ele avoit norri et comment ele li conte l'aventure.</seg>
+                        <seg type="location">152rb-c</seg>
+                        <seg type="note">rubric+miniature(152rb-c)+initial(152va)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_27" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_27" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_27" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-28" unit="chapter" xml:id="Kanor_V_chap.28"/>
+                <div type="alignment" xml:id="Kanor_V_28">
+                    <ab corresp="#Kanor_V_28" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="rubric">Ci dist li contes comment les .ii. damoisiaus se partirent de la princesse de Cartage et de la grant
+                            feste que l'en fist a Romme de Libanor.</seg>
+                        <seg type="location">156va</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_28" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="rubric">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_28" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="rubric">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_28" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
+                <milestone n="7-29" unit="explicit" xml:id="Kanor_V_chap.29"/>
+                <div type="alignment" xml:id="Kanor_V_29">
+                    <ab corresp="#Kanor_V_29" type="ms_instance" subtype="base">
+                        <seg type="witness">V3</seg>
+                        <seg type="explicit">Cy fine le livre de Marques de Romme, de Laurin, de Cassidorus et de Peliarmenus, et des fiaz 
+                            de pluseurs empereurs de Romme et de Costentinnoble si comme il est devant contenu en l'istoire.</seg>
+                        <seg type="location">163va</seg>
+                        <seg type="note">explicit(brown)</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_29" type="ms_instance">
+                        <seg type="witness">B</seg>
+                        <seg type="explicit">absent</seg>
+                        <seg type="location">XXX</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_29" type="ms_instance">
+                        <seg type="witness">G</seg>
+                        <seg type="explicit">Ci fenist le livre de Cassidorus, empereur
+                            de Romme et de Constantinoble, et aprés conmence li
+                            derreains de ses enfans.</seg>
+                        <seg type="location">491va-b</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                    <ab corresp="#Kanor_V_29" type="ms_instance">
+                        <seg type="witness">X2</seg>
+                        <seg type="explicit">Ci fine li livres de Cassidorus, empereour
+                            de Romme et de Coustentinoble, aprés conmence li deerrains
+                            de ses enfans. Explicit.</seg>
+                        <seg type="location">134vc</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                    </ab>
+                </div>
             </div>                  
         </body>
     </text>
