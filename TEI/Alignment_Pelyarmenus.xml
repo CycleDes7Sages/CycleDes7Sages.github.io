@@ -163,7 +163,9 @@
                               correspondant, par un renvoi à ce manuscrit V, pour indiquer la
                               distance critique qui se doit d'être considérée face à cette
                               organisation et cette numérotation du
-                              roman<!-- PD Je me demande ici s'il n'y a pas une différence entre "cette organisation" (celle du manuscrit, avec ses rubriques, etc) et "cette numérotation" est me semble être la "nôtre". Non? -->.
+                              roman<!-- PD Je me demande ici s'il n'y a pas une différence entre "cette organisation" (
+                                    celle du manuscrit, avec ses rubriques, etc) et "cette numérotation" est me semble être la "nôtre". 
+                                    Non? -->.
                               <!-- revoir ici: formulation à affiner! --></p>
                         <p><title>Enjeux et pratique de travail</title> Au fil de ce travail
                               d'alignement, nous avons donc listé chaque nouveau chapitre
@@ -7569,6 +7571,7 @@
                                     <seg type="rubric">Comment Pelyarmenus trahy Helcanus son frere
                                           et l’enmena pris en Costentinnoble, si comme il est
                                           contenu en l’ystoire.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant Helcanus fu ainssi traÿz comme devant est dit,</seg>
                                     <seg type="location">181vc</seg>
                                     <seg type="note">rubric+miniature(181vb-c)+initial(181vc)</seg>
                               </ab>
@@ -7576,6 +7579,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">Ensi comme Peliarmenus ot pris Helcanus, son
                                           frere, par traison et le fist devant li venir.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant Helcanus fu ainssi traÿz comme devant est dit,</seg>
                                     <seg type="location">396vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7584,6 +7588,7 @@
                                     <seg type="rubric">Comment Peliarmenus trahi Helcanus son frere
                                           et l’enmena en Constantinnoble, ainsi comme il est contenu
                                           en l’istoire.</seg>
+                                    <seg type="paragraph">Or dit li comptes que, quant Helcanus fu ainssi traÿz comme devant est dit,</seg>
                                     <seg type="location">403vb</seg>
                                     <seg type="note">rubric+miniature+initial(404ra)</seg>
                               </ab>
@@ -7591,8 +7596,76 @@
                                     <seg type="witness">X2</seg>
                                     <seg type="rubric">C'est comment Pelyarmenus ot traï Helcanus
                                           son frere et le mena pris en Coustantinoble.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant Helcanus fu ainssi traÿz comme devant est dit,</seg>
                                     <seg type="location">58vc</seg>
                                     <seg type="note">rubric+miniature(59ra-b)+initial(59ra)</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_280">
+                              <ab corresp="#Pelyarmenus_V_280" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Dont le commanda a metre en une fort prison et dist que on ne li donnast que pain et yaue a mengier.</seg>
+                                    <seg type="location">182ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_280" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont le commanda a metre en une fort prison et dist que on ne li donnast que pain et yaue a mengier.</seg>
+                                    <seg type="location">396vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_280" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Dont le commanda a metre en une fort prison et dist que on ne li donnast que pain et yaue a mengier.</seg>
+                                    <seg type="location">404ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_280" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Dont le commanda a metre en une fort prison et dist que on ne li donnast que pain et yaue a mengier.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_281">
+                              <ab corresp="#Pelyarmenus_V_281" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Gasus ot ce dit, si fu Pelyarmenus si courreciez</seg>
+                                    <seg type="location">182rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_281" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Gasus ot ce dit, si fu Pelyarmenus si courreciez</seg>
+                                    <seg type="location">397ra</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_281" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Gasus ot ce dit, si fu Pelyarmenus si courreciez</seg>
+                                    <seg type="location">404rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_281" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Gasus ot ce dit, si fu Pelyarmenus si courreciez</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_282">
+                              <ab corresp="#Pelyarmenus_V_282" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant l’empereriz entendi Gasus, si li respondi :</seg>
+                                    <seg type="location">182rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_282" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant l’empereriz entendi Gasus, si l'a mis a conseil et dist :</seg>
+                                    <seg type="location">397rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_282" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant l’empereriz entendi Gasus, si li respondi :</seg>
+                                    <seg type="location">404va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_282" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant l’empereriz entendi Gasus, si li respondi :</seg>
+                                    <seg type="location">XXX</seg>
                               </ab>
                         </div>
                         <milestone n="15" unit="chapter" xml:id="Pelyarmenus_V_chap.15"/>
@@ -7602,6 +7675,7 @@
                                     <seg type="rubric">Comment Clyodorus se parti de Helcanus et
                                           s’en ala en Espaigne et au roy d’Arragon pour querre
                                           secours.</seg>
+                                    <seg type="paragraph">Or dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">182va</seg>
                                     <seg type="note">rubric+miniature+initial(182vb)</seg>
                               </ab>
@@ -7609,6 +7683,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">Ensi comme Clyodorus ala en la queste del
                                           empereour Cassidorus de Constantinoble.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">397rc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7617,6 +7692,7 @@
                                     <seg type="rubric">Comment Cliodorus se parti de Helcanus et
                                           s’en ala en Espaigne au roy d’Arragon pour querre
                                           secours.</seg>
+                                    <seg type="paragraph">Or dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">404va</seg>
                                     <seg type="note">rubric+miniature(404vb)+initial(404vb)</seg>
                               </ab>
@@ -7624,8 +7700,821 @@
                                     <seg type="witness">X2</seg>
                                     <seg type="rubric">Comment Cliodorus se parti de Helcanus et
                                           s’en ala en Espaigne et au roy d’Arragon.</seg>
+                                    <seg type="paragraph">Or dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">59vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_284">
+                              <ab corresp="#Pelyarmenus_V_284" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li roys l’entendi et il vit Clyodorus, si fu moult esbahis.</seg>
+                                    <seg type="location">182vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_284" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li roys l’entendi et vit Clyodorus, si fu moult esbahis.</seg>
+                                    <seg type="location">397va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_284" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li roys l’entendi et il vit Clyodorus, si fu moult esbahis.</seg>
+                                    <seg type="location">405ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_284" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li roys l’entendi et vit Clyodorus, si fu moult esbahis.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_285">
+                              <ab corresp="#Pelyarmenus_V_285" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li rois l’a entendu, si ot moult grant merveille de ce qu’il ot dit et qu’il ot oÿ.</seg>
+                                    <seg type="location">182vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_285" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li rois l’ot entendu, si ot moult grant merveille de ce qu’il ot oÿ.</seg>
+                                    <seg type="location">397vb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_285" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li rois l’a entendu, si ot moult grant merveille de ce qu’il ot dit et qu’il ot oÿ.</seg>
+                                    <seg type="location">405ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_285" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li rois l’a entendu, si ot moult grant merveille de ce qu’il ot dit et qu’il ot oÿ.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_286">
+                              <ab corresp="#Pelyarmenus_V_286" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Dont ala la nouvele partout, et se mistrent aucun en la queste,</seg>
+                                    <seg type="location">183rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_286" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont ala la nouvele partout, et se mistrent li aucun en la queste,</seg>
+                                    <seg type="location">398ra</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_286" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Dont ala la nouvele partout, et se mistrent aucun en la queste,</seg>
+                                    <seg type="location">405va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_286" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Dont ala la nouvele partout, et se mistrent aucun en la queste,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_287">
+                              <ab corresp="#Pelyarmenus_V_287" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant la pucele vit son frere, si fu moult joiant,</seg>
+                                    <seg type="location">183rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_287" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant ele vit son frere, si fu moult joiant,</seg>
+                                    <seg type="location">398ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_287" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant la pucele vit son frere, si fu moult liee,</seg>
+                                    <seg type="location">405va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_287" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant la pucele vit son frere, si fu moult joiant,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_288">
+                              <ab corresp="#Pelyarmenus_V_288" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant la damoisele ot entendu son frere, si mua une tres grant couleur</seg>
+                                    <seg type="location">183va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_288" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant la damoisele ot entendu son frere, si mua une tres grant couleur</seg>
+                                    <seg type="location">398rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_288" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant la damoisele ot entendu son frere, si mua une tres grant couleur</seg>
+                                    <seg type="location">405va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_288" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant la damoisele ot entendu son frere, si mua une tres grant couleur </seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_289">
+                              <ab corresp="#Pelyarmenus_V_289" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il ot tout dit, si s’esmerveillierent moult et dist la pucele a son frere :</seg>
+                                    <seg type="location">183vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_289" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il ot tout ce dit, si s’esmerveillierent moult et dist la pucele a son chier frere :</seg>
+                                    <seg type="location">398rc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_289" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il ot tout dit, si s’esmerveillierent moult et dist la pucele a son frere :</seg>
+                                    <seg type="location">405vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_289" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il ot tout dit, si s’esmerveillierent moult et dist la pucele a son frere :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_290">
+                              <ab corresp="#Pelyarmenus_V_290" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult liez.</seg>
+                                    <seg type="location">183vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_290" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult liez.</seg>
+                                    <seg type="location">398rc</seg>
+                                    <seg type="note">no new paragraph + added paragraph 398va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_290" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult liez.</seg>
+                                    <seg type="location">406ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_290" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult liez.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_291">
+                              <ab corresp="#Pelyarmenus_V_291" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Ainssi couvint la pucele vestir robe de chevalier et le fist si couvertement</seg>
+                                    <seg type="location">184ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_291" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Ainssi couvint la pucele vestir robe de chevalier et le fist si couvertement</seg>
+                                    <seg type="location">398vb</seg>
+                                    <seg type="note">added paragraph 398vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_291" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Ainssi couvint la pucele vestir robe de chevalier et le fist si couvertement</seg>
+                                    <seg type="location">406ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_291" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Ainssi couvint la pucele vestir robe de chevalier et le fist si couvertement</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_292">
+                              <ab corresp="#Pelyarmenus_V_292" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Dont a veu Clyodorus la chapele a l’ermite.</seg>
+                                    <seg type="location">184rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_292" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont ot veu Clyodorus la chapele a l’ermite.</seg>
+                                    <seg type="location">399ra</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_292" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Dont a veu Clyodorus la chapele a l’ermite.</seg>
+                                    <seg type="location">406va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_292" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Dont a veu Clyodorus la chapele a l’ermite.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_293">
+                              <ab corresp="#Pelyarmenus_V_293" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">En tele maniere se sist Clyodorus a la table, et cilz li ot aporté vin qui bons li fu a son goust.</seg>
+                                    <seg type="location">184va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_293" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">En tele maniere se sist Clyodorus a la table, et cilz li ot aporté vin qui bons fu a son goust.</seg>
+                                    <seg type="location">399ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_293" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">En tele maniere se sist Clyodorus a la table, et cilz li ot aporté vin qui bons li fu a son goust.</seg>
+                                    <seg type="location">406va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_293" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">En tele maniere se sist Clyodorus a la table, et cilz li ot aporté vin qui bons li fu a son goust.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_294">
+                              <ab corresp="#Pelyarmenus_V_294" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus l’entendi, si sot et s’apensa que Diex l’avoit leenz amené</seg>
+                                    <seg type="location">184vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_294" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Clyodorus l’entendi, s’apensa que Diex l’avoit la amené</seg>
+                                    <seg type="location">399rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_294" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus l’entendi, si sot et s’apensa que Diex l’avoit leenz amené</seg>
+                                    <seg type="location">406vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_294" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus l’entendi, si sot et s’apensa que Diex l’avoit leenz amené</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_295">
+                              <ab corresp="#Pelyarmenus_V_295" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Dont se mist a costoier la montaigne, si vint au lieu ou la clarté li demoustra.</seg>
+                                    <seg type="location">183vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_295" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont se mist a costoier la montaigne d'une part. Il n'ot mie longue alé quant il vit issir</seg>
+                                    <seg type="location">399vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_295" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Dont se mist a costoier la montaigne, si vint au lieu ou la clarté li demoustra.</seg>
+                                    <seg type="location">407rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_295" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Dont se mist a costoier la montaigne, si vint au lieu ou la clarté li moustra.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_296">
+                              <ab corresp="#Pelyarmenus_V_296" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que nulz ne se moustroit de nul sens,</seg>
+                                    <seg type="location">185rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_296" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que nulz ne se moustroit de nul sens,</seg>
+                                    <seg type="location">399vb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_296" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que nulz ne se moustroit de nul sens,</seg>
+                                    <seg type="location">407rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_296" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que nulz ne se moustroit de nul sens,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_297">
+                              <ab corresp="#Pelyarmenus_V_297" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il fu en tele maniere assis, il regarda en la cheminee</seg>
+                                    <seg type="location">185rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_297" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il ainsi se fu assis, si esgarda en la cheminee</seg>
+                                    <seg type="location">399vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_297" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il fu en tele maniere assis, il regarda en la cheminee</seg>
+                                    <seg type="location">407va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_297" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il fu en tele maniere assis, il regarda en la cheminee</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_298">
+                              <ab corresp="#Pelyarmenus_V_298" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Ainssi comme il pensoit a ceste chose, estes vous que uns varlez vint a cel point leenz,</seg>
+                                    <seg type="location">185rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_298" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Ainssi comme il pensoit a ceste chose, estes vous que uns varlez vint a cel cop leenz,</seg>
+                                    <seg type="location">399vc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_298" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Ainssi comme il pensoit a ceste chose, estes vous que uns varlez vint a cel point leenz,</seg>
+                                    <seg type="location">407va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_298" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Ainssi comme il pensoit a ceste chose, estes vous que uns varlez vint a cel point leenz,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_299">
+                              <ab corresp="#Pelyarmenus_V_299" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li chevaliers l’entendi, si se mervella moult de ceste aventure</seg>
+                                    <seg type="location">185va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_299" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li chevaliers l’entendi, si se mervella moult de ceste aventure</seg>
+                                    <seg type="location">400ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_299" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li chevaliers l’entendi, si se mervella moult de ceste aventure</seg>
+                                    <seg type="location">407vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_299" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li chevaliers l’entendi, si se mervella moult de ceste aventure</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_300">
+                              <ab corresp="#Pelyarmenus_V_300" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">185vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_300" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">400rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_300" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">407vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_300" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_301">
+                              <ab corresp="#Pelyarmenus_V_301" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Maintenant esgarda Clyodorus et vit en une chambre .ii. chevaliers seoir,</seg>
+                                    <seg type="location">185vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_301" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Maintenant esgarda Clyodorus et vit en une chambre .ii. chevaliers seoir,</seg>
+                                    <seg type="location">400rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_301" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Maintenant esgarda Clyodorus et vit en une chambre .ii. chevaliers seoir,</seg>
+                                    <seg type="location">408ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_301" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Maintenant esgarda Clyodorus et vit en une chambre .ii. chevaliers seoir,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_302">
+                              <ab corresp="#Pelyarmenus_V_302" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Lors en vindrent a la cheminee arriere et se sont assis derechief.</seg>
+                                    <seg type="location">185vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_302" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Lors en vindrent a la cheminee arriere et sont assis derechief.</seg>
+                                    <seg type="location">400rc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_302" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Lors s'en vindrent a la cheminee arriere et se sont assis derechief.</seg>
+                                    <seg type="location">408ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_302" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Lors en vindrent a la cheminee arriere et se sont assis derechief.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_303">
+                              <ab corresp="#Pelyarmenus_V_303" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Grant temps a passé que en ceste forest pres de ci avoit .i. hermite demorant.</seg>
+                                    <seg type="location">185vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_303" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Jadis grant temps a passé que en ceste forest pres de ci avoit .i. hermite demorant.</seg>
+                                    <seg type="location">400va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_303" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Qrant temps a passé que en ceste forest pres de ci avoit .i. hermite demorant.</seg>
+                                    <seg type="location">408ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_303" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Grant temps a passé que en ceste forest pres de ci avoit .i. hermite demorant.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_304">
+                              <ab corresp="#Pelyarmenus_V_304" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Ainssi s’acorderent ensemble et huchierent ceulz qui ceste chose atendoient.</seg>
+                                    <seg type="location">186rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_304" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Ainssi s’acorderent ensemble et huchierent ceulz qui ceste chose atendoient. Il vindrent.</seg>
+                                    <seg type="location">400vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_304" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Ainssi s’acorderent ensemble et huchierent ceulz qui ceste chose atendoient.</seg>
+                                    <seg type="location">408rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_304" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Ainssi s’acorderent ensemble et huchierent ceulz qui ceste chose atendoient.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_305">
+                              <ab corresp="#Pelyarmenus_V_305" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li hermites oÿ ceste voiz, si cuida que ele venist de Dieu.</seg>
+                                    <seg type="location">186rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_305" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li hermites oÿ ceste voiz, si cuida que ele venist de Dieu.</seg>
+                                    <seg type="location">400vc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_305" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li hermites oÿ ceste voiz, si cuida que ele venist de Dieu.</seg>
+                                    <seg type="location">408va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_305" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li hermites oÿ ceste voiz, si cuida que ele venist de Dieu.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_306">
+                              <ab corresp="#Pelyarmenus_V_306" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Li soudans avoit une fille si bele que en tout le paÿs n’avoit sa ppareille de biauté.</seg>
+                                    <seg type="location">186rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_306" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Li soudans avoit une damoisele a fille si bele que en tout le paÿs n’avoit sa ppareille de biauté.</seg>
+                                    <seg type="location">400vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_306" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">408va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_306" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Veritez est que celui que vous alez querant est en cest hostel.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_307">
+                              <ab corresp="#Pelyarmenus_V_307" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant la damoisele oÿ ce, si ne li souffist mie, ainz li dist, ainssi comme en grant conseil :</seg>
+                                    <seg type="location">186rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_307" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant la damoisele oÿ ce, si ne li souffist mie, ainz li dist, ainssi comme en grant conseil :</seg>
+                                    <seg type="location">401ra</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_307" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant la damoisele oÿ ce, si ne li souffist mie, ainz li dist, ainssi comme en grant conseil :</seg>
+                                    <seg type="location">408vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_307" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant la damoisele oÿ ce, si ne li souffist mie, ainz li dist, ainssi comme en grant conseil :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_308">
+                              <ab corresp="#Pelyarmenus_V_308" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant la damoisele vit ce, si fu moult courouciee et mua tres grant couleur,</seg>
+                                    <seg type="location">186va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_308" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant la damoisele oÿ ce, si devint courouciee et mua tres grant couleur,</seg>
+                                    <seg type="location">401ra</seg>
+                                    <seg type="note">no new paragraph + added paragraph 401rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_308" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant la damoisele vit ce, si fu moult iree et mua tres grant couleur,</seg>
+                                    <seg type="location">408vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_308" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant la damoisele vit ce, si fu moult courouciee et mua tres grant couleur,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_309">
+                              <ab corresp="#Pelyarmenus_V_309" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">186vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_309" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">401rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_309" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">408vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_309" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_310">
+                              <ab corresp="#Pelyarmenus_V_310" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si loa son Sauveour et dist :</seg>
+                                    <seg type="location">186vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_310" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si loa son Sauveour et dist :</seg>
+                                    <seg type="location">401rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_310" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si loa son Sauveour et dist :</seg>
+                                    <seg type="location">409ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_310" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si loa son Sauveour et dist :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_311">
+                              <ab corresp="#Pelyarmenus_V_311" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Celydoine et sa cousine, qui estoient a leur volenté,</seg>
+                                    <seg type="location">187ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_311" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Celydoine et sa cousine Dyane, qui estoient a leur volenté,</seg>
+                                    <seg type="location">401vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_311" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult esbaïz. Celydoine et sa cousine, qui estoient a leur volenté,</seg>
+                                    <seg type="location">409rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_311" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Celydoine et sa cousine, qui estoient a leur volenté,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_312">
+                              <ab corresp="#Pelyarmenus_V_312" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si dist : Certes, sire, gent conseil a ci.</seg>
+                                    <seg type="location">187rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_312" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Sire, dist Clyodorus, gent conseil a ci.</seg>
+                                    <seg type="location">401vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_312" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si dist : Certes, sire, gent conseil a ci.</seg>
+                                    <seg type="location">409va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_312" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ce, si dist : Certes, sire, gent conseil a ci.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_313">
+                              <ab corresp="#Pelyarmenus_V_313" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que autre chose il ne trairoit de l’empereour,</seg>
+                                    <seg type="location">187rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_313" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que autre chose il n'en treroit,</seg>
+                                    <seg type="location">401vc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_313" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que autre chose il ne trairoit de l’empereour,</seg>
+                                    <seg type="location">409vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_313" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus vit que autre chose il ne trairoit de l’empereour,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_314">
+                              <ab corresp="#Pelyarmenus_V_314" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ parler de Clyodorus et il ot l’anel hors de son doit,</seg>
+                                    <seg type="location">187va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_314" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il oÿ parler de Clyodorus et il ot l’anel hors du doit,</seg>
+                                    <seg type="location">402ra</seg>
+                                    <seg type="note">no new paragraph + added paragraph 402ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_314" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ parler de Clyodorus et il ot l’anel hors de son doit,</seg>
+                                    <seg type="location">409vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_314" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ parler de Clyodorus et il ot l’anel hors de son doit,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_315">
+                              <ab corresp="#Pelyarmenus_V_315" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il s’entretindrent, dont ne fust chevalier el monde qui, tant eust grant cuer ne dur,</seg>
+                                    <seg type="location">187va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_315" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il s’entretindrent, dont ne fust nul chevaliers el monde, tant eust cuer vilain ne dur,</seg>
+                                    <seg type="location">402ra</seg>
+                                    <seg type="note">no new paragraph + added paragraph 402rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_315" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il s’entretindrent, dont ne fust chevalier el monde qui, tant eust grant cuer ne dur,</seg>
+                                    <seg type="location">409vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_315" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il s’entretindrent, dont ne fust chevalier el monde qui, tant eust grant cuer ne dur,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_316">
+                              <ab corresp="#Pelyarmenus_V_316" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Maintenant que il furent a leur volenté s’en vindrent au chevalier en qui garde il estoient</seg>
+                                    <seg type="location">187vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_316" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Maintenant que il furent a leur volenté s’en vindrent au chevalier en qui garde il estoient</seg>
+                                    <seg type="location">402rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_316" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Maintenant que il furent a leur volenté s’en vindrent au chevalier en qui garde il estoient</seg>
+                                    <seg type="location">410ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_316" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Maintenant que il furent a leur volenté s’en vindrent au chevalier en qui garde il estoient</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_317">
+                              <ab corresp="#Pelyarmenus_V_317" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ces nouveles, si fu moult joianz et dist a l'empereour :</seg>
+                                    <seg type="location">188ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_317" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont fu joianz Clyodorus quant il oÿ ceste nouvele, si dist a l'empereour :</seg>
+                                    <seg type="location">402va</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_317" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ces nouveles, si fu moult joianz et dist a l'empereour :</seg>
+                                    <seg type="location">410rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_317" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Clyodorus oÿ ces nouveles, si fu moult joianz et dist a l'empereour :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_318">
+                              <ab corresp="#Pelyarmenus_V_318" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Dont li desfendi que pour riens il ne deist que il l’eust trouvé</seg>
+                                    <seg type="location">188rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_318" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Dont li desfendi que pour riens qui fust il ne parlast que il l’eust trouvé</seg>
+                                    <seg type="location">402vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_318" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">410va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_318" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li hermites s’en fu partiz, li deables, qui ot grant pooir</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_319">
+                              <ab corresp="#Pelyarmenus_V_319" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il oÿ ceste nouvele, si fu moult yriez.</seg>
+                                    <seg type="location">188rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_319" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il oÿ ceste nouvele, si fu moult yriez.</seg>
+                                    <seg type="location">402vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_319" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il oÿ ceste nouvele, si fu moult yriez.</seg>
+                                    <seg type="location">410va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_319" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il oÿ ceste nouvele, si fu moult yriez.</seg>
+                                    <seg type="location">XXX</seg>
                               </ab>
                         </div>
                         <milestone n="16" unit="chapter" xml:id="Pelyarmenus_V_chap.16"/>
@@ -7634,6 +8523,7 @@
                                     <seg type="witness">V2</seg>
                                     <seg type="rubric">Comment li emperieres se parti de la cisterne
                                           et s’en ala tout a pié au Chastel Mignot.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant li emperieres et Daphus se furent partiz de la cisterne</seg>
                                     <seg type="location">188vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7641,6 +8531,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">Ensi comme li empereres et Daphus furent
                                           delivré de la cisterne et vinrent a Chastel Mignot.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant li emperieres et ses compains Daphus se furent partiz de la cisterne</seg>
                                     <seg type="location">403ra</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7649,6 +8540,7 @@
                                     <seg type="rubric">Comment l'empereur se parti de la cisterne et
                                           s’en ala tout a pié au Chastel Mignot, si comme vos
                                           orres.</seg>
+                                    <seg type="paragraph">Ci endroit dit li comptes que, quant li emperieres et Daphus se furent partiz de la cisterne</seg>
                                     <seg type="location">410vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7657,8 +8549,280 @@
                                     <seg type="rubric">Comment li emperieres se parti de la cisterne
                                           et s’en ala tout a pié li et sa compaignie au Chastel
                                           Mignot.</seg>
+                                    <seg type="paragraph">Ci endroit li comptes que, quant li emperieres et Daphus se furent partiz de la cisterne</seg>
                                     <seg type="location">64vc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_321">
+                              <ab corresp="#Pelyarmenus_V_321" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant eles furent levees de pasmoisons, si geterent grans criz et distrent :</seg>
+                                    <seg type="location">188va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_321" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant eles furent revenues, si geterent grans criz et distrent :</seg>
+                                    <seg type="location">403rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_321" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant eles furent levees de pasmoisons, si geterent grans criz et distrent :</seg>
+                                    <seg type="location">411ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_321" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant eles furent levees de pasmoisons, si geterent grans criz et distrent :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_322">
+                              <ab corresp="#Pelyarmenus_V_322" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ ce, si li atendria li cuers et dist :</seg>
+                                    <seg type="location">188vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_322" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ ce, si li atendri li cuers et dist :</seg>
+                                    <seg type="location">403rc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_322" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ ce, si li atendria li cuers et dist :</seg>
+                                    <seg type="location">411ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_322" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li emperieres oÿ ce, si li atendria li cuers et dist :</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_323">
+                              <ab corresp="#Pelyarmenus_V_323" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Que vous feroie je lonc compte ?</seg>
+                                    <seg type="location">188vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_323" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Que vous feroie je lonc compte ?</seg>
+                                    <seg type="location">403rc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_323" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Que vous diroie je ?</seg>
+                                    <seg type="location">411rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_323" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Que vous feroie je lonc compte ?</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_324">
+                              <ab corresp="#Pelyarmenus_V_324" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Aprés ce que celes se furent cessees du tres grant duel faire,</seg>
+                                    <seg type="location">188vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_324" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Celes qui se furent cessees de tres grant duel faire,</seg>
+                                    <seg type="location">403va</seg>
+                                    <seg type="note">no new paragraph + added paragraph 403va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_324" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Aprés ce que celes se furent cessees du tres grant duel faire,</seg>
+                                    <seg type="location">411rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_324" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Aprés ce que celes se furent cessees du tres grant duel faire,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_325">
+                              <ab corresp="#Pelyarmenus_V_325" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant Daphus leur oÿ si orgueilleuses paroles dire, il leur cria en haut,</seg>
+                                    <seg type="location">189rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_325" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Lors quant Daphus leur oÿ ceste superbieté dire, si leur cria en haut,</seg>
+                                    <seg type="location">403vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_325" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant Daphus leur oÿ si orgueilleuses paroles dire, il leur cria en haut,</seg>
+                                    <seg type="location">411va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_325" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant Daphus leur oÿ si orgueilleuses paroles dire, il leur cria en haut,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_326">
+                              <ab corresp="#Pelyarmenus_V_326" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il virent qu’il feroient d’eulz aussi comme a leur volenté,</seg>
+                                    <seg type="location">189rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_326" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il virent qu’il feroient d’eulz aussi comme a leur volenté,</seg>
+                                    <seg type="location">404ra</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_326" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il virent qu’il feroient d’eulz a leur volenté,</seg>
+                                    <seg type="location">411vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_326" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il virent qu’il feroient d’eulz aussi comme a leur volenté,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_327">
+                              <ab corresp="#Pelyarmenus_V_327" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant il se furent ainssi apaisié, li prevoz meismes, qui auques savoit le tort de ceulz de la ville,</seg>
+                                    <seg type="location">189va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_327" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant il se furent ainssi apaisié, li prevoz meismes, qui auques savoit le tort de ceulz de la ville,</seg>
+                                    <seg type="location">404ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_327" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant il se furent ainssi apaisié, li prevoz mesques, qui auques savoit le tort de ceulz de la ville,</seg>
+                                    <seg type="location">412ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_327" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant il se furent ainssi apaisié, li prevoz meismes, qui auques savoit le tort de ceulz de la ville,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_328">
+                              <ab corresp="#Pelyarmenus_V_328" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li contes oÿ ce, si ot la plus grande merveille que il eust onques mais jour de sa vie,</seg>
+                                    <seg type="location">189va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_328" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li contes oÿ ce, si ot la greigneur merveille que il eust mais jour de sa vie,</seg>
+                                    <seg type="location">404rb</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_328" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li contes oÿ ce, si ot la plus grande merveille que il eust onques mais jour de sa vie,</seg>
+                                    <seg type="location">412ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_328" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li contes oÿ ce, si ot la plus grande merveille que il eust onques mais jour de sa vie,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_329">
+                              <ab corresp="#Pelyarmenus_V_329" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Veritez est que, en quel point que je soie, je sui li emperieres de Costentinnoble.</seg>
+                                    <seg type="location">189vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_329" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Veritez est que, en quel point que je soie, je sui li emperieres de Costentinnoble.</seg>
+                                    <seg type="location">404rc</seg>
+                                    <seg type="note">no new paragraph</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_329" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Veritez est que, en quel point que je soie, je sui li emperieres de Costentinnoble.</seg>
+                                    <seg type="location">412ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_329" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Veritez est que, en quel point que je soie, je sui li emperieres de Costentinnoble.</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_330">
+                              <ab corresp="#Pelyarmenus_V_330" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li cuens ot entendu l’empereour, si fu trop esbahiz,</seg>
+                                    <seg type="location">189vc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_330" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li cuens ot entendu l’empereour, si fu trop esbahiz,</seg>
+                                    <seg type="location">404rc</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_330" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li cuens ot entendu l’empereour, si fu trop esbahiz,</seg>
+                                    <seg type="location">412rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_330" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li cuens ot entendu l’empereour, si fu trop esbahiz,</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_331">
+                              <ab corresp="#Pelyarmenus_V_331" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Veritez est que nous en cest chastel nous embatismes en tele maniere</seg>
+                                    <seg type="location">190ra</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_331" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Veritez est que nous en chastel nous embatismes tout en tele maniere</seg>
+                                    <seg type="location">404va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_331" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Veritez est que nous en cest chastel nous embatismes en tele maniere</seg>
+                                    <seg type="location">412rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_331" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Veritez est que nous en chastel nous embatismes en tele maniere</seg>
+                                    <seg type="location">XXX</seg>
+                              </ab>
+                        </div>
+                        <div type="alignment" xml:id="Pelyarmenus_V_332">
+                              <ab corresp="#Pelyarmenus_V_332" type="ms_instance" subtype="base">
+                                    <seg type="witness">V2</seg>
+                                    <seg type="paragraph">Quant li cuens oÿ l’empereour, si le crut assez, car il le savoit creable,</seg>
+                                    <seg type="location">190rb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_332" type="ms_instance">
+                                    <seg type="witness">B</seg>
+                                    <seg type="paragraph">Quant li cuens oÿ l’empereour, si le crut assez, car il le savoit creable,</seg>
+                                    <seg type="location">404vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_332" type="ms_instance">
+                                    <seg type="witness">G</seg>
+                                    <seg type="paragraph">Quant li cuens oÿ l’empereour, si le crut assez, car il le savoit creable,</seg>
+                                    <seg type="location">412va</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_332" type="ms_instance">
+                                    <seg type="witness">X2</seg>
+                                    <seg type="paragraph">Quant li cuens oÿ l’empereour, si le crut assez, car il le savoit creable,</seg>
+                                    <seg type="location">XXX</seg>
                               </ab>
                         </div>
                         <milestone n="17" unit="chapter" xml:id="Pelyarmenus_V_chap.17"/>
@@ -7668,6 +8832,7 @@
                                     <seg type="rubric">Comment Borleuz et li autre baron furent a
                                           grant meschief de ce que il ne sorent que Helcanus estoit
                                           devenus, si comme vous avez devant oÿ.</seg>
+                                    <seg type="paragraph">Ci endroit dit li compte que, quant Borleuz et li autre baron qui devant Laomedon estoient</seg>
                                     <seg type="location">190rc</seg>
                                     <seg type="note">rubric+miniature+initial(190va)</seg>
                               </ab>
@@ -7676,6 +8841,7 @@
                                     <seg type="rubric">Ainsi comme Myrus vint a Borleus et li dist
                                           que il cuidoit que Karus le duc de Scise eust traÿ
                                           Helcanus.</seg>
+                                    <seg type="paragraph">Ci endroit dit li compte que, quant Borleuz et li autre baron qui devant Laomedon estoient</seg>
                                     <seg type="location">404vc</seg>
                                     <seg type="note">rubric+miniature(405ra-b)+initial(405ra)</seg>
                               </ab>
@@ -7684,6 +8850,7 @@
                                     <seg type="rubric">Comment Bourleus et les autres barons furent
                                           a grant meschief de ce que ilz ne sorent que Helcanus
                                           estoit devenus.</seg>
+                                    <seg type="paragraph">Ci endroit dit li compte que, quant Borleuz et li autre baron qui devant Laomedon estoient</seg>
                                     <seg type="location">412vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
@@ -7692,6 +8859,7 @@
                                     <seg type="rubric">Comment Borleuz et li autre baron furent a
                                           meschief de ce que il ne sorent que Helcanus estoit
                                           devenuz.</seg>
+                                    <seg type="paragraph">Ci endroit dit li compte que, quant Borleuz et li autre baron qui devant Laomedon estoient</seg>
                                     <seg type="location">66vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
