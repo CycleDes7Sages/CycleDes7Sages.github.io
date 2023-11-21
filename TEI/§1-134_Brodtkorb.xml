@@ -1759,8 +1759,9 @@
                         </app> venir se vous voulez, quar les enfanz <app>
                             <lem wit="#V2 #G #X2">je enmenrai</lem>
                             <rdg wit="#B">enmenrai je</rdg>
-                        </app>
-                        <!--Help note sur la syntaxe et l'absence d'inversion? usage archaïque?-->avecques
+                        </app><note type="notecritique">Sur le type complément direct-sujet-verbe,
+                            cf. Ménard §37, rem., qui note la rareté du tour. Remarquer la variante
+                            de B, qui donne l'ordre qui représente le type habituel.</note> avecques
                         moi, comme <app>
                             <lem wit="#V2 #B #X2">ceuz</lem>
                             <rdg wit="#G">de ceulx</rdg>
@@ -2263,8 +2264,8 @@
                         <lem wit="#V2 #G #X2">dist</lem>
                         <rdg wit="#B">li dist</rdg>
                     </app> que <said aloud="true" direct="false"><persName key="Fastidorus"
-                            >Fastygorus</persName><!-- Help : laisser le nom ainsi et faire une note ou corriger? -->
-                        l'avoit fait metre en prison pour ceste chose.</said>
+                            >Fastygorus</persName><!-- PDHelp : corriger --> l'avoit fait metre en
+                        prison pour ceste chose.</said>
                     <said aloud="true" direct="true">Par Dieu, dit il, mal a fait, <app>
                             <lem wit="#V2 #G #X2">quar</lem>
                             <rdg wit="#B">ne</rdg>
@@ -2420,10 +2421,10 @@
                             </app></persName> est <app>
                             <lem wit="#V2 #G #X2">nostre</lem>
                             <rdg wit="#B">votre filz et nostre</rdg>
-                        </app><note type="notecritique">La précision apportée par B rappelle que
-                            Dyalogus fait malgré eux bien partie de la famille, soulignant
-                            implicitement sa bâtardise.</note> frere. Dont par ceste raison, nous
-                        qui sommes issu <cb n="f"/>de vostre <app>
+                        </app><note type="notecritique">La précision apportée par B rappelle que,
+                            malgré Fastige et Fastidorus, Dyalogus fait bien partie de la famille,
+                            soulignant implicitement sa bâtardise.</note> frere. Dont par ceste
+                        raison, nous qui sommes issu <cb n="f"/>de vostre <app>
                             <lem wit="#B #G #X2">char</lem>
                             <rdg wit="#V2"><del rend="exponctuation" hand="#main1">chevalier</del>
                                 char</rdg>
@@ -2441,11 +2442,10 @@
                             <lem wit="#X2">avrions</lem>
                             <rdg wit="#V2 #G">avriez</rdg>
                             <rdg wit="#B">ariez</rdg>
-                        </app> point d'ouneur<note type="notecritique">"Ainsi pour cette raison,
-                            parce que nous sommes le fruit de votre chair, là où vous auriez de la
-                            honte nous n'y aurions pas
-                        d'honneur."</note>,<!-- Help : ok avec la note? Je ne sais pas trop comment commenter la structure.-->
-                        et por ce vous di je <app>
+                        </app> point d'ouneur<note type="notecritique">Comprendre que la honte de
+                            Dialogus s'étendrait aux membres de sa famille. Pelyarmenus affirme ici
+                            son propos de manière sentencieuse au moyen de la litote, en jouant sur
+                            le couple "honte" et "absence d'honneur".</note>, et por ce vous di je <app>
                             <lem wit="#V2 #G #X2">que</lem>
                             <rdg wit="#B"/>
                         </app>
@@ -3742,7 +3742,7 @@
                         </app> mort ? Et vous, damoiselle <persName key="Cassidore"
                             >Cassydoire</persName>, qui perie en estes, et si ne pooient avoir de
                         vous nulle
-                        doute<!--Help je pense que la question est elliptique mais s'adresse aussi à Cassidore: je mettrais
+                        doute<!--SVHelp je pense que la question est elliptique mais s'adresse aussi à Cassidore: je mettrais
                         un point d'interrogation-->.</said> Dont se <app>
                         <lem wit="#V2 #G">commença</lem>
                         <rdg wit="#B #X2">commence</rdg>
@@ -4554,7 +4554,7 @@
                             <rdg wit="#B">feissent</rdg>
                         </app><note type="notecritique">Si l'on considère que le sujet est
                             "Pelyarmenus", alors l'accord singulier du verbe n'est pas un problème,
-                            contrairement à ce que laisse penser la version de B.</note> supploier.
+                            contrairement à ce que laisse penser la variante de B.</note> supploier.
                         Et il ont poi de force de par <rs type="person" key="Cassidorus">leur
                             pere</rs> que cil ne l'aient aussi bien, et avec <app>
                             <lem wit="#V2 #G #X2">tot</lem>
@@ -4593,15 +4593,18 @@
                                     <rdg wit="#G #X2"/>
                                 </app> filz d'ycelui prince</lem>
                             <rdg wit="#B">qui fu filz celui</rdg>
-                        </app>, et est oncles a ceulz se il en y a nul vif, et ce <app>
+                        </app>, et est oncles a ceulz, se il en y a nul vif<note type="notecritique"
+                            >Référence au début du roman où les jumeaux sont portés pour
+                            mort.</note>. Et ce <app>
                             <lem wit="#V2 #G #X2">n'est</lem>
                             <rdg wit="#B">est</rdg>
                         </app>nule chose <app>
                             <lem wit="#V2 #G #X2">quant</lem>
                             <rdg wit="#B"/>
-                        </app> a ce<!--Help note pour le sens de la fin de la phrase?-->. Sanz
-                        faille, se <rs type="person" key="Roi d'Aragon">li roys d'<placeName
-                                key="Arragon">Arragon</placeName></rs>
+                        </app> a ce<note type="notecritique">PDHelp commenter la variante de B, le
+                            sens et vérifier B</note>. Sanz faille, se <rs type="person"
+                            key="Roi d'Aragon">li roys d'<placeName key="Arragon"
+                                >Arragon</placeName></rs>
                         <app>
                             <lem wit="#V2 #G #X2">estoit</lem>
                             <rdg wit="#B">voloit estre</rdg>
@@ -4919,9 +4922,9 @@
                     il estoit et se fist connoistre a lui, <app>
                         <lem wit="#V2 #G #X2">si</lem>
                         <rdg wit="#B"/>
-                    </app> ne fu onques la joie que on li
-                    fist<!--Help expliciter le sens? on n'attendrait pas un superlatif 
-                    ou autre?-->. Dont li enquist l'achoison pour quoi il <app>
+                    </app> ne fu onques la joie que on li fist<note type="notecritique">Le verbe
+                        "être" a ici le sens d'"exister". Comprendre : "Il n'y eut jamais un si bon
+                        accueil".</note>. Dont li enquist l'achoison pour quoi il <app>
                         <lem wit="#V2 #G">estoit</lem>
                         <rdg wit="#B">ert venus et aloit</rdg>
                         <rdg wit="#X2">estoit venuz</rdg>
@@ -5524,11 +5527,10 @@
                             <rdg wit="#B">puet puet (<hi rend="italique">sic</hi>)</rdg>
                         </app> ce estre ?</said>
                     <said aloud="true" direct="true">Sire, dist <supplied source="#G #X2"
-                            >cil</supplied><note type="notecritique">Nous pallions le manque du
-                            pronom en corrigeant selon GX2 plutôt que B (<hi rend="italique"
-                                >cil</hi>), selon l'homogénéité du groupe
-                            V2GX2<!--Help ce n'est pas rare dans les textes, je dois te retrouver une référence 
-                                que j'avais utilisée pour le Guy-->.</note>, <app>
+                            >cil</supplied><note type="notecritique">PDHelp revoir variante. Ici et
+                            ailleurs le pronom personnel manque dans les incises marquant le
+                            changement de locuteur. Sur cette structure insolite, cf. ZinkMorphPron,
+                            p. 89.</note>, <app>
                             <lem wit="#V2 #G #X2">je</lem>
                             <rdg wit="#B"/>
                         </app> ne sai, mais ainssi l'ai oÿ dire.</said>
@@ -5731,8 +5733,8 @@
                             <lem wit="#V2 #G #X2">et</lem>
                             <rdg wit="#B"/>
                         </app> quant vous voudrez que je mete mes hommes ensamble, et
-                        <!--Help note sur le "et" après une temporelle?-->je le ferai par maniere
-                        que, quant je l'irai veoir, <app>
+                        <!--SVHelp structure à ajouter dans analyse linguistique : "et" après une temporelle-->je
+                        le ferai par maniere que, quant je l'irai veoir, <app>
                             <lem wit="#V2 #G #X2">m'enseigne</lem>
                             <rdg wit="#B">que m'enseigne</rdg>
                         </app> ne sera desploïe desci adont que <app>
@@ -6373,10 +6375,10 @@
                             <rdg wit="#B">pour</rdg>
                         </app> estre contre vous et il leur sambloit que raison n’i eust, si n'en
                         feroient il noient, et pource que je ne sui mie a ma volenté, je<note
-                            type="notecritique">L'emploi de "je" est redondant avec "mes cors". Il y
-                            a peut-être ici une erreur commune à partir de
-                        "ja".</note><!-- Help : que faire? corriger? --> mes cors ne m'en mouverai
-                        devant que je <app>
+                            type="notecritique">Il ne peut s'agir du pronom sujet "je" : l'emploi
+                            seraitbredondant avec "mes cors". Lire "je" = "ja", cf. analyse
+                            linguistique.</note><!-- SVHelp : "je" = "ja" à intégrer à analyse linguistique -->
+                        mes cors ne m'en mouverai devant que je <app>
                             <lem wit="#V2 #G #X2">en</lem>
                             <rdg wit="#B"/>
                         </app> savrai el.</said></p>
@@ -6682,7 +6684,11 @@
                         fist <app>
                             <lem wit="#V2 #G #X2">en ne fist dont</lem>
                             <rdg wit="#B">ne fu ce dont tu puis as esté sages</rdg>
-                        </app><!--Help expliciter le sens-->. <app>
+                        </app><note type="notecritique">On retrouve une omission du "que" complétif
+                            après "semble" (cf. analyse linguistique); "que" = "ce
+                            que". La place de "dont" dans la phrase reste rare. Lire : "Il me
+                            semble bien que ce qu'elle fit pour moi on ne le fit jamais".
+                        "</note><!--PDHelp vérif "dont" en fin de phrase -->. <app>
                             <lem wit="#V2 #G #X2">Certes ouil</lem>
                             <rdg wit="#B">Et quoi? De ce que tu noient ne savoies a cel temps</rdg>
                         </app>. Dont <app>
@@ -8560,7 +8566,7 @@
                             <lem wit="#V2 #G #X2">faissel</lem>
                             <rdg wit="#B">fardel</rdg>
                         </app>, et en faites ce qu'il vous en
-                        serra<!--Help note linguistique-->.</said>
+                        serra<!--SVHelp : ajouter dans l'analyse linguistique le redoublement du "r"-->.</said>
                     <said aloud="true" direct="true">Sire, dist il, dont n'i a il <app>
                             <lem wit="#V2 #G #X2">fors</lem>
                             <rdg wit="#B">el fors</rdg>
@@ -8655,7 +8661,7 @@
                             de "ai", car, conformément à la précédente correction, nous épousons la
                             leçon de BX2 qui ne pratiquent pas comme V2 l'emploi de telles formes
                             pour la
-                            P1<!--Help donc il y a une hésitation entre P1 et P3 au moins dans un témoin? Ca remonte où?-->.</note>
+                            P1<!--PDHelp revoir la var de G si "metra" aussi. SVHelp réduction de la diphtongue à ajouter donc il y a une hésitation entre P1 et P3 au moins dans un témoin? Ca remonte où?-->.</note>
                         a sa volenté de mort a recevoir et le deliverrai de toutes peines, soit bel <app>
                             <lem wit="#V2 #G #X2">a</lem>
                             <rdg wit="#B"/>
