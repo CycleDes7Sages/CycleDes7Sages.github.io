@@ -309,8 +309,9 @@
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">No rubric, miniature, initial nor new paragraph linked to this new chapter in V1. ca 2vc</seg>
-                        <!-- revoir ici -->
+                        <seg type="localisation">2vc</seg>
+                        <seg type="note">Rubric+miniature+initial absent. No §</seg>
+                        <!-- revoir ici A2 -->
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -657,7 +658,7 @@
                         <seg type="rubric">Comment Mereneus salue l’empereour et li dist que aussi li puist il avenir de son filz
                             comme il fist a cellui qui miex creoit les paroles sa femme que ce qu'il veoit.</seg>
                         <seg type="location">12vc</seg>
-                        <seg type="note">rubric(hors-réglure)<!-- revoir ici: formulation -->+miniature(13ra)+initial</seg>
+                        <seg type="note">rubric(hors-réglure)<!-- revoir ici: nécessaire?+formulation? -->+miniature(13ra)+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -1506,12 +1507,12 @@
                         <seg type="rubric">absent</seg>
                         <seg type="note">There is a gap in X1: the section given, in V1, on f. 55rv is lacking. 
                         Following approximately the same layout as in V1, X1 gives, on f. 38vc, the beginning of the paragraph given
-                        in V1 f. 54vc and gives, on f. 56ra, what V1 gives on f. 56ra, which is the last paragraph before the explicit.
+                        in V1 f. 54vc and gives, on f. 39ra, what V1 gives on f. 56ra, which is the last paragraph before the explicit.
                         Actually, this whole section seems to have been displaced later on, at the beginning of Laurin, 2 ff. later.
                         X1 40rv is corresponding with V1 55rv. X1 41rv is, adequately, corresponding to V1 57rv. Just one folio seems to
                         have been displaced.
                         Rubric displaced later, cf. Laurin_V_2.  
-                        <!-- Revoir ici: cas plus spécifique > commenter davantage, c'est une erreur évidente de X2, 
+                        <!-- Revoir ici: cas plus spécifique > commenter davantage, c'est une erreur évidente de X1, 
                             le texte ne pouvant pas se suivre logiquement. Oubli donc de transcription d'un folio entier, 
                             avec une correspondance dans la mise en page qui explique sûrement cet oubli.
                         La proximité de la mise en page entre X1 et V1 me paraîtrait intéressante aussi peut-être 
@@ -1880,7 +1881,8 @@
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Text linked to chapter Laurin_V_10 starting 103rb (no §)</seg><!-- revoir ici Q2 -->
+                        <seg type="localisation">103rb</seg>
+                        <seg type="note">Rubric+miniature+initial absent. no §</seg><!-- revoir ici A2 -->
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2660,7 +2662,8 @@
                     <ab corresp="#Laurin_V_35" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to chapter Laurin_V_35 starting approx. 159vc</seg><!-- revoir ici: 
+                        <seg type="location">159vc</seg>
+                        <seg type="note">Rubric+miniature+initial absent. no §</seg><!-- revoir ici: plus spécifique:
                             le § ne correspond pas exactement -->
                     </ab>
                     <ab corresp="#Laurin_V_35" type="ms_instance">
@@ -3715,7 +3718,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">Comment il moustre plus ens le tref <!-- revoir ici -->.</seg>
+                        <seg type="rubric">Comment il moustre plus ens le tref <!-- revoir ici: Transcription -->.</seg>
                         <seg type="location">213va</seg>
                         <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
                     </ab>
@@ -6717,7 +6720,7 @@
                                           faisans.</seg>
                                     <seg type="location">106ra-b</seg>
                                     <seg type="note">rubric+miniature(106ra-b)+initial(106ra).
-                                          Duplication of rubric on 105rb<!-- revoir ici, cas particulier --></seg>
+                                          Doubling of rubric already on 105rb</seg>
                               </ab>
                         </div>
                         <milestone n="6-37" unit="chapter" xml:id="Pelyarmenus_V_chap.37"/>
