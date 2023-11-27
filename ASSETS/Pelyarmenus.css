@@ -1,3 +1,7 @@
+p{
+    text-indent:1em;
+    text-align:justify;
+}
 h1 {
     color:red;
     font-size:30px;
@@ -12,6 +16,7 @@ h2 {
 body {
     background-color:white;
     text-align:justify;
+    margin:12em;
 }
 
 .cb {
@@ -24,20 +29,27 @@ body {
     color:red;
 }
 
+.url{
+    font-size:15px;
+    color:red;
+}
+
 .persName {
     color:blue;
 }
 
 .placeName {
-    color:orange;
+    color:green;
 }
 
 .rs {
-    color:fuchsia;
+    color:navy;    
+    cursor: pointer;
 }
 
 .place {
-    color:green;
+    color:olive;    
+    cursor: pointer;
 }
 
 .people {
@@ -46,7 +58,7 @@ body {
 
 .c {
     font-variant:small-caps; 
-    font-size:20px;
+    font-size:30px;
     color:red;
 }
 
@@ -59,9 +71,10 @@ body {
     }
     
 .lem {
-    text-decoration:underline;
+    color:darkgrey;
 }
 
 .note {
-    text-decoration:underline;
+    text-decoration:underline;    
+    cursor: pointer;
 }

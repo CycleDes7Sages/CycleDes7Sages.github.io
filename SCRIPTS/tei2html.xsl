@@ -27,14 +27,17 @@
     <xsl:template match="figDesc">
         <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>
+    <xsl:template match="graphic[@url]"> <!-- SG: help -->
+        <i><span class="url"></span><xsl:text></xsl:text><xsl:apply-templates/></i>
+    </xsl:template>
     <xsl:template match="p">
-        <p><span class="paraNum">[<xsl:value-of select="substring-after(@n,'P')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></p>
+        <p><b>§<span class="paraNum"><xsl:value-of select="substring-after(@n,'P')"/></span></b><xsl:text></xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="pb">
-        <span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
+        <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></sup>
     </xsl:template>
     <xsl:template match="cb">
-        <span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/>
+        <sup><span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
     </xsl:template>
     <xsl:template match="num">
         .<span class="num"><xsl:apply-templates/></span>.        
@@ -59,9 +62,10 @@
     </xsl:template>    
     <xsl:template match="said">
         <xsl:choose>
-            <xsl:when test="@direct='true'"> 
-                "<xsl:apply-templates/>"
-            </xsl:when>
+            <xsl:when test="@direct='true'"> <!-- SG: je voudrais ici dédoubler les conditions aloud+direct -->
+               <!-- SG: y a-t-il moyen de faire passer l'affaire à la ligne ? -->
+                « <xsl:apply-templates/> »
+            </xsl:when> <!-- SG: quid quand deux direct/aloud se suivent pour tourner ça en tiret ? -->
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
@@ -71,19 +75,19 @@
         <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="add"> 
-        <b>[<xsl:apply-templates></xsl:apply-templates>]</b>
+        <b><xsl:apply-templates></xsl:apply-templates></b>
     </xsl:template>
     <xsl:template match="rdg"> 
         <i>[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
     </xsl:template>
     <xsl:template match="lem">
-        <i><span class="lem"><xsl:apply-templates/></span></i>
+        <span class="lem"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="supplied">
-        <b><i>[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@source,'#','')"/>]</i></b>
+        ‹<xsl:apply-templates/><xsl:text></xsl:text> <xsl:value-of select="translate(@source,'#','')"/>›
     </xsl:template>
     <xsl:template match="note">
-        [<b><span class="note"><xsl:apply-templates/></span></b>]
+        [<i><span class="note"><xsl:apply-templates/></span></i>]
     </xsl:template>
     <xsl:template match="c">    
         <i><span class="c"><xsl:apply-templates/></span></i>
