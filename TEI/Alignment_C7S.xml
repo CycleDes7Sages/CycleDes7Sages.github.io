@@ -146,9 +146,13 @@
                 Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
                 comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
                     de l'organisation comme des nuances présentées dans les autres témoins.                    
-                    Nous avons dans ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id correspondant, 
-                    par un renvoi à ce manuscrit V, pour indiquer la distance critique qui se doit d'être considérée face 
-                    à cette organisation et cette numérotation de chacun des romans. <!-- revoir ici: formulation à affiner! --></p>
+                    Nous avons dans
+                    ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id
+                    correspondant, par un renvoi à ce manuscrit V, pour indiquer la
+                    distance critique qui se doit d'être considérée face à cette
+                    organisation et cette numérotation du
+                    roman telle que nous l'avons établie sur la base des différents paragraphes 
+                    lus dans ce manuscrit.</p>
                 <p><title>Enjeux et pratique de travail</title>
                     Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre (c'est-à-dire chaque rubrique), 
                     indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant la mention indicative, 
@@ -169,62 +173,64 @@
                     trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même folio du manuscrit dépeint. 
                     D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces quatre manuscrits. 
                     Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.</p>
-                 <p><title>Cas particuliers présentés</title>
-                     1)Rubriques ajoutées: 
-                     Dans plusieurs cas, des rubriques ont été ajoutées par rapport à l'organisation des chapitres donnée dans le manuscrit V. 
-                     Nous avons choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au @corresp renvoyant au xml:id du chapitre qui 
-                     donne, dans V, la section contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note précise, 
-                     de manière systématique et volontairement concise : "addition of rubric+miniature+initial (corresponding to V XXX".
-                     Nous avons également précisé, pour la mention du lieu correspondant dans V, si ce manuscrit ne présentait pas cette 
-                     portion de texte dans un nouveau paragraphe par l'indication "(no §)". En effet, dans la majorité des cas, les ajouts
-                     de rubriques dans d'autres témoins correspondent à un nouveau paragraphe dans ce manuscrit. 
-                     <!-- revoir ici SV : je me demande si "supplementary rubric+miniature+initial" ne serait pas une formule plus adéquate
-                     Cf. discussion avec PD: toujours notion d'ajout dans la pratique éditoriale-->
-                     Le terme "addition" nous a semblé la meilleure solution terminologique, mais nous paraît cependant comporter le risque 
-                     d'une mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous souhaitions seulement par-là indiquer que 
-                     la rubrique en question ne se lit pas dans le manuscrit V, ni dans la plupart des autres témoins donc (la plupart de ces cas 
-                     spécifiques sont liés au témoin B).
-                 À la mention de la portion de texte dans V à laquelle se rattache ce chapitre supplémentaire dans cet autre témoin, 
-                 nous avons au besoin adjoint celle de la propre macrostructure de V, c'est-à-dire si la portion de texte correspondante 
-                 en question est présentée par un nouveau paragraphe en particulier.</p>
-                <p>2)Rubriques absentes:
-                    Quand la rubrique n'est pas donnée dans un témoin (qu'elle soit ou non en réalité déplacée, selon le cas de figure 
-                    présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", le <gi>seg</gi> @location a été supprimé 
-                    (puisque la localisation est associée à une rubrique qui est absente) et le <gi>seg</gi> @note vient préciser le lieu où 
-                    l'on peut lire, dans ce témoin, la portion de texte associée à ce que le manuscrit V présente dans un nouveau chapitre. 
-                    De manière systématique et volontairement concise, nous avons indiqué : "Paragraph linked to chapter XXX starting XXX".
-                    L'idée était ainsi de détailler que la structure par rubrique dans V n'était pas suivie dans cet autre témoin, mais que la 
-                    portion de texte correspondante était présentée par un simple nouveau chapitre. 
-                    <!-- SV:
-                    -La mention du chapitre est-elle vraiment nécessaire si l'information est donnée dans le @corresp de l'ab
-                    en question ? 
-                    -En outre, la formule que nous avons décidée ne me paraît pas forcément recouvrir toutes les réalités. Il y a en effet
-                    des cas de figure où le texte dans B n'est pas même associé à un nouveau paragraphe, auquel cas le "paragraph linked" 
-                    ne peut pas être adéquat. Favoriser "Text linked (to chapter XXX (si on le juge utile) 
-                    starting (with/without new paragraph) XXX" cf. Q2 pour exemple ici d'ailleurs ?--></p>
+                <p><title>Cas particuliers présentés</title> 
+                    1)Rubriques ajoutées: 
+                    Dans plusieurs cas, des rubriques ont été ajoutées dans certains manuscrits par rapport à
+                    l'organisation des chapitres donnée dans le manuscrit V. Nous avons
+                    choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au
+                    @corresp renvoyant au xml:id du paragraphe qui donne, dans V, la section
+                    contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
+                    précise, de manière systématique et volontairement concise : 
+                    "extra rubric+miniature+initial". 
+                Par souci de précision, nous avons indiqué où se situe dans V la portion de texte que ce témoin associe 
+                à une nouvelle rubrique, par la mention "corresponding to V XXX".
+                Le plus communément, ces rubriques ajoutées correspondent à une portion de texte donnée comme un 
+                nouveau paragraphe dans V, mais si tel n'est pas le cas, cette mention est précisée par celle "(no §)".</p>
+                <p>2)Rubriques absentes: 
+                    Quand la rubrique n'est pas donnée dans un témoin
+                    (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
+                    présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", mais
+                    le <gi>seg</gi> @location n'a pas été supprimé si le paragraphe qui
+                    suit cette rubrique est bien donné (au contraire de ce qui a été
+                    pratiqué dans l'alignement du cycle entier). Le <gi>seg</gi> @note
+                    vient préciser que les rubrique, miniature et initiale sont absentes,
+                    selon la formule systématique et volontairement concise : 
+                    "no rubric+miniature+initial". L'idée était ainsi de
+                    détailler que la structure par rubrique dans V n'était pas suivie dans
+                    cet autre témoin, mais que la portion de texte correspondante était
+                    présentée par un simple nouveau paragraphe dans ce témoin. 
+                    Dans les cas, rares, où la portion de texte concernée n'est pas même donnée 
+                    dans un nouveau paragraphe. La note se conclut sur "no §".</p>
                 <p>3)Rubriques déplacées: 
-                 Il arrive également que des rubriques, liées à tel paragraphe et donc à tel lieu du texte dans V, soient plutôt associées 
-                à un pararaphe donné plus tôt/tard dans un autre témoin. Par souci de précision, mais aussi de conformité avec le travail fourni
-                de manière plus détaillée pour le Roman de Pelyarmenus (voir document xml Alignment_Pelyarmenus), nous avons donc noté comme 
-                absentes les rubriques présentées de pair avec le texte lu dans V (tout en précisant, dans le <gi>seg</gi> @note, 
-                    que la rubrique en question a été déplacée, selon la formule "rubric displaced later/before (XXX in V1)") 
-                    <!-- SV: que penses-tu de cette solution que je me suis permise d'ajouter ? Il me semblait manquer une information 
-                        sans cela -->
-                    et ajouté une nouvelle section <gi>ab</gi> pour indiquer cette rubrique ajoutée, en réalité déplacée. 
-                    Dans ces cas, le <gi>seg</gi> @note précise, de manière systématique et volontairement concise : 
-                    "displaced rubric from XXX (XXX in V)". L'idée est ainsi de préciser le chapitre auquel cette rubrique est associée dans 
-                    le manuscrit V, mais aussi la portion de texte exacte de V avec laquelle cette rubrique telle que donnée dans cet autre 
-                    témoin est associée.</p>
-                <p>4)Chapitres introduits par une initiale: 
-                Dans certains cas de figure (surtout associés avec la technique, commune au cycle dès son roman-souche, du récit enchâssé),
-                ce que le manuscrit V présente comme un nouveau chapitre introduit par une rubrique, une miniature et une initiale 
-                n'est indiqué dans d'autres témoins que par une initiale. Nous avons présenté comme suit cette information :
-                "Initial corresponding to chapter XXX starting XXX”.
-                <!-- revoir ici: SV : tout comme pour les rubriques absentes, la mention du "chapter XXX" est-elle vraiment nécessaire
-                si cela est indiqué dans le @corresp de la balise ab qui reprend cette information ?--></p>
+                    Il arrive également que des rubriques, liées à tel
+                    paragraphe et donc à tel lieu du texte dans V, soient plutôt associées
+                    à un pararaphe donné plus tôt/tard dans un autre témoin. Par souci de
+                    précision, nous avons donc noté comme absentes les rubriques
+                    présentées de pair avec le texte lu dans V (tout en précisant, dans le
+                    <gi>seg</gi> @note, que la rubrique en question a été déplacée,
+                    selon la formule "rubric displaced later/before (XXX in V)") 
+                    et ajouté, au niveau du paragraphe concerné, un <gi>seg</gi> @rubrique
+                    pour indiquer cette rubrique ajoutée, en réalité
+                    déplacée. Dans ces cas, le <gi>seg</gi> @note précise, de manière
+                    systématique et volontairement concise : "displaced rubric from XXX
+                    (XXX in V)". L'idée est ainsi de préciser le chapitre auquel cette
+                    rubrique est associée dans le manuscrit V, mais aussi la portion de
+                    texte exacte de V avec laquelle cette rubrique telle que donnée dans
+                    cet autre témoin est associée.</p>
+                <p>4)Décoration manquante:
+                    Il arrive également que, dans la mise en page du manuscrit, 
+                    tous les éléments généralement réunis pour marquer ce que nous lisons comme un nouveau chapitre
+                    ne soient pas donnés. Il peut ainsi manquer la miniature qui suit souvent une rubrique. 
+                    Dans ces cas, le relevé "rubric"miniature+initial" habituel est adapté comme suit : "rubric+initial. no miniature".
+                    Dans certains cas de figure (surtout associés avec la technique, commune au cycle dès son roman-souche, 
+                    du récit enchâssé qui ne requiert pas de manière systématique d'être introduit par un nouveau chapitre, surtout
+                    quand ceux-ci se suivent rapidement comme c'est le cas dans le Roman des Sept Sages de Rome, celui de Marques et 
+                    encore celui de Cassidorus), il arrive que ce que V présente comme un nouveau chapitre introduit par une rubrique, 
+                    une miniature et une initiale n'est indiqué dans d'autres témoins que par une initiale. 
+                    Nous avons présenté comme suit cette information : "initial. no rubric+miniature"</p>
                 <p><title>Précisions de présentation</title>
                 Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
-                notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.<!-- SV: ok ? --></p>
+                notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.</p>
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
@@ -234,6 +240,8 @@
             <change who="#CC" when="2023-10-10">Harmonisation des formulations de cas spécifiques posés dans l'alignement,
                 cf. réunion avec SV</change>
             <change who="#CC" when="2023-10-16">Alignement des rubriques du Roman de Laurin</change>
+            <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées du ms. X2 inaccessible</change>
+            <change who="#CC" when="2023-11-27">Introduction revue</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -245,7 +253,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="implicit"><unclear reason="faded"/></seg>
                         <seg type="location">1ra-b-c</seg>
-                        <seg type="note">Miniature(1ra-b-c)+rubric+initial(1ra)</seg>
+                        <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -253,14 +261,15 @@
                         Et aprés de Laurin et de Cassydorus. et de Pelyarmenus. Et aprés li fait des empereurs de Romme et 
                         de Coustantinoble.</seg>
                         <seg type="location">1ra</seg>
-                        <seg type="note">Miniature(1ra-b-c)+rubric+initial.
+                        <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)
                         Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
                         concentration on Pelyarmenus, whose romance does not start with any implicit</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="implicit">absent</seg>
-                        <seg type="note">Miniature(1ra-b)+initial(1ra)</seg>
+                        <seg type="location">1ra-b</seg>
+                        <seg type="note">miniature(1ra-b)+initial(1ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -274,12 +283,13 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris met l’empereour a raison que il mande son filz et les .vii. sages.</seg>
                         <seg type="location">2ra</seg>
-                        <seg type="note">Rubric+miniature+initial(2rb)</seg>
+                        <seg type="note">rubric+miniature+initial(2rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_2" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 1vc</seg>
+                        <seg type="location">1vc</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_2" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -287,9 +297,9 @@
                             estoit malicieuse et plaine de mal art, envoya querir son filz que les sept sages introduisoient en toutes 
                             sciences et de la grant mauvaistié que l'empereris, sa marrastre, se pensa, car l'enfent ne parloit point, 
                             car il avoit veu en la lune que le premier mot qu'il diroit de .vii. jors luy et ses mestres. 
-                            <!-- revoir ici: Transcription compliquée -->soient d'estre ytz.</seg>
+                            <!-- Transcription -->soient d'estre ytz.</seg>
                         <seg type="location">2ra</seg>
-                        <seg type="note">rubric+miniature(2rb)+initial</seg>
+                        <seg type="note">rubric+miniature(2rb)+initial(2rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_2" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -304,14 +314,13 @@
                         <seg type="rubric">Comment li empereres commanda que son filz fu remis en chartre pour 
                             la vergongne que il avoit faite a l’empereris sa femme.</seg>
                         <seg type="location">3ra</seg>
-                        <seg type="note">Rubric+miniature+initial(3rb)</seg>
+                        <seg type="note">rubric+miniature+initial(3rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="localisation">2vc</seg>
-                        <seg type="note">Rubric+miniature+initial absent. No §</seg>
-                        <!-- revoir ici A2 -->
+                        <seg type="location">2vc</seg>
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -332,7 +341,7 @@
                         <seg type="rubric">Comment l’empereris dist a l’emperour que aussi li puist il avenir de son filz comme 
                             il fist au pin de son piniau.</seg>
                         <seg type="location">3va</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_4" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -360,22 +369,22 @@
                         <seg type="rubric">Comment Bancillas salue l’empereour et li dist que aussi li puist il avenir de son filz 
                             comme au vavassour de son levrier.</seg>
                         <seg type="location">4ra</seg>
-                        <seg type="note">Rubric+miniature+initial.
+                        <seg type="note">rubric+miniature+initial
                         The rubric given in B, corresponding to the one given in V1, is not indicated at the same place : 
                         B associates this rubric to a previous paragraph in V1, given in 3vc. The paragraphs do not correspond between 
-                        these two witnesses in this section.</seg>
+                        these two witnesses in this section.</seg><!-- SV: cas plus spécifique: bizarrerie de B -->
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ici commence Bancillas un conte du chevalier qui tua son levrier.</seg>
                         <seg type="location">3vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ici commence la dame son conte du varlet qui tua le sengler en gratant.</seg>
                         <seg type="location">4rc</seg>
-                        <seg type="note">addition of rubric+initial (corresponding to V1 4vb (no §)</seg>
+                        <seg type="note">extra rubric+initial corresponding to V1 4vb (no §)</seg>
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -397,13 +406,13 @@
                         <seg type="rubric">Comment Anciles salue l’emperour et li dist que aussi li puist il avenir de son filz 
                             que il fist Ypocras de son neveu.</seg>
                         <seg type="location">5rb</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_6" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence Augustes .i. conte du neveu Ypocras.</seg>
                         <seg type="location">4vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature.</seg>
                     </ab>
                     <ab corresp="#R7S_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -425,13 +434,13 @@
                         <seg type="rubric">Comment l’empereris dist a l’emperour que ainssi li puist il avenir de croire le conseil 
                             des .vii. sages comme il fist a celui qui ot sa teste getee en la longaigne par son filz.</seg>
                         <seg type="location">5vc</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame .i. conte de celui qui geta la teste son pere en une longaigne.</seg>
                         <seg type="location">6rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -460,13 +469,13 @@
                         <seg type="rubric">Ci commence maistres Lentulles son conte de la dame qui fist fuster son seigneur 
                             vilainement.</seg>
                         <seg type="location">6rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence l'empereys un conte de celui qui livra sa femme au gros roy de Puille.</seg>
                         <seg type="location">7ra</seg>
-                        <seg type="note">addition of rubric+initial (corresponding to V1 7rc (§)</seg>
+                        <seg type="note">extra rubric+initial corresponding to V1 7rc</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -495,7 +504,7 @@
                         <seg type="rubric">Ci commence maistre Malquidans un conte de l'ancien sage qui fist sa femme sainier de 
                             .ii. bras.</seg>
                         <seg type="location">7vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.
+                        <seg type="note">rubric+initial. no miniature
                         Subject: different name for the wise one</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
@@ -524,14 +533,14 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame son conte.</seg>
                         <seg type="location">8vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment l'empereris conte a l'empereur comment on fist fondre or en la bouche et en l'oreille
                             l'empereur Crassus pour sa convoitise.</seg>
                         <seg type="location">10rb</seg>
-                        <seg type="note">miniature(10ra)+rubric(10rb)+initial</seg>
+                        <seg type="note">miniature(10ra)+rubric(10rb)+initial(10rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -552,14 +561,14 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence maistre Catons .i. conte du bourgois qui tua sa pie.</seg>
                         <seg type="location">10ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Catons salue l'empereur et li dist que aussi li puist il avenir de son filz
                             qu'il fist au bourgois qui tua sa pie qui voir li disoit pour les paroles de sa femme.</seg>
                         <seg type="location">11rb</seg>
-                        <seg type="note">miniature(11ra)+rubric(11rb)+initial</seg>
+                        <seg type="note">miniature(11ra)+rubric(11rb)+initial(11rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_11" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -580,7 +589,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame un conte du roy Herode qui perdi sa veue.</seg>
                         <seg type="location">10vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_12" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -608,14 +617,14 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence li sages son conte.</seg>
                         <seg type="location">11vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Jesse li sages salue l'empereur et li dist que ainsi li puist il avenir de son filz
                             que il fist au visconte qui morut pour sa femme qui le pendi puis qu'il fu mors.</seg>
                         <seg type="location">12vb</seg>
-                        <seg type="note">miniature(12va)+rubric(12vb)+initial</seg>
+                        <seg type="note">miniature(12va)+rubric(12vb)+initial(12vb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_13" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -636,14 +645,14 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la fausse emperereys son conte.</seg>
                         <seg type="location">13ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_14" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Coment l'empereris devise a l'empereur de Jenus que il fist par son enging une beste 
                             si merveilleuse qu'il en chaça les Sarrazins qui estoient venus assir Romme.</seg>
                         <seg type="location">13va</seg>
-                        <seg type="note">rubric+miniature(13vb)+initial</seg>
+                        <seg type="note">rubric+miniature(13vb)+initial(13vb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_14" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -658,27 +667,27 @@
                         <seg type="rubric">Comment Mereneus salue l’empereour et li dist que aussi li puist il avenir de son filz
                             comme il fist a cellui qui miex creoit les paroles sa femme que ce qu'il veoit.</seg>
                         <seg type="location">12vc</seg>
-                        <seg type="note">rubric(hors-réglure)<!-- revoir ici: nécessaire?+formulation? -->+miniature(13ra)+initial</seg>
+                        <seg type="note">rubric+miniature(13ra)+initial(13ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence li sages son conte de celui qui crut miex sa femme que ce que il veoit as yex.</seg>
                         <seg type="location">13vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
                             geta en mer.</seg>
                         <seg type="location">15va</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 14rb (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 14rb</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Mereneus salue l'empereur et li dist que aussi ly puist il avenir de son filz
                             comme il fist a cellui qui mieulx creoit les paroles de sa femme que ce qu'il veoit.</seg>
                         <seg type="location">14rb</seg>
-                        <seg type="note">rubric+miniature(14va)+initial</seg>
+                        <seg type="note">rubric+miniature(14va)+initial(14va)</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -703,14 +712,15 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.</seg>
                         <seg type="location">16vb-c</seg>
-                        <seg type="note">addition of rubric+miniature(16vb-c)+initial 16vc (kind of extended version of the end of R7S)</seg>
-                        <!-- revoir ici: cas plus spécifique -->
+                        <seg type="note">extra rubric+miniature(16vb-c)+initial(16vc) 
+                            (kind of extended version of the end of R7S)</seg>
+                        <!-- SV: cas plus spécifique: version étendue de la fin du R7S dans B -->
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment l'enfant espouse au roy le cry des deux corbiaux et de la corbe.</seg>
                         <seg type="location">16rb</seg>
-                        <seg type="note">rubric+miniature(16va)+initial</seg>
+                        <seg type="note">rubric+miniature(16va)+initial(16va)</seg>
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">X1</seg>
@@ -1002,7 +1012,7 @@
                         <seg type="rubric">Comment Marques revint a Laurine et entra u chastel de Bel Manoir
                             et une pucelle si li vint a l'encontre.</seg>
                         <seg type="location">20vc</seg>
-                        <seg type="note">rubric+miniature(20vb-c)+initial(20vb).
+                        <seg type="note">rubric+miniature(20vb-c)+initial(20vb)
                             Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen
                             Stemma: intersting position of X between B and V</seg>
                     </ab>
@@ -1143,7 +1153,8 @@
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_14 starting 50vb</seg>
+                        <seg type="location">50vb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1155,7 +1166,8 @@
                     <ab corresp="#Marques_V_14" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_14 starting 31ra.
+                        <seg type="location">31ra</seg>
+                        <seg type="note">initial. no rubric+miniature
                         Stemma: proximity BX</seg>
                     </ab>
                 </div>
@@ -1201,7 +1213,8 @@
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_16 starting 52rb</seg>
+                        <seg type="location">52rb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1213,7 +1226,8 @@
                     <ab corresp="#Marques_V_16" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 32rb (no initial or miniature)</seg>
+                        <seg type="location">32rb</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-17" unit="chapter" xml:id="Marques_V_chap.17"/>
@@ -1228,7 +1242,8 @@
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_17 starting 52vc</seg>
+                        <seg type="location">52vc</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1240,7 +1255,8 @@
                     <ab corresp="#Marques_V_17" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 32vc (no initial or miniature)</seg>
+                        <seg type="location">32vc</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-18" unit="chapter" xml:id="Marques_V_chap.18"/>
@@ -1255,7 +1271,8 @@
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_18 starting 53rc</seg>
+                        <seg type="location">53rc</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1267,7 +1284,8 @@
                     <ab corresp="#Marques_V_18" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 33rc (no initial or miniature)</seg>
+                        <seg type="location">33rc</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="2-19" unit="chapter" xml:id="Marques_V_chap.19"/>
@@ -1282,7 +1300,8 @@
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_19 starting 54rb</seg>
+                        <seg type="location">54rb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1294,7 +1313,8 @@
                     <ab corresp="#Marques_V_19" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_19 starting 34ra.
+                        <seg type="location">34ra</seg>
+                        <seg type="note">initial. no rubric+miniature
                         Stemma: proximity BX</seg>
                     </ab>
                 </div>
@@ -1337,7 +1357,8 @@
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_21 starting 55vc</seg>
+                        <seg type="location">55vc</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1349,11 +1370,11 @@
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
+                        <seg type="note">no rubric+miniature+initial
+                            There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
                             Following approximately the same layout as in V1, X1 gives, on f. 34vc, the paragraph given
-                            in V1 f. 50rc and gives, on f. 35ra, what V1 gives on f. 51vb (starting at the beginning of this new column)
-                            <!-- revoir ici: cas plus spécifique, voir formulation et analyse. 
-                                Une fois encore, c'est une erreur claire, sans retrait volontaire d'une part de la matière-->.</seg>
+                            in V1 on f. 50rc and gives, on f. 35ra, what V1 gives on f. 51vb (starting at the beginning of this new column).
+                            <!-- SV: cas plus spécifique: trou dans X1-->.</seg>
                     </ab>
                 </div>
                 <milestone n="2-22" unit="chapter" xml:id="Marques_V_chap.22"/>
@@ -1369,7 +1390,8 @@
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_22 starting 56vb</seg>
+                        <seg type="location">56vb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1382,7 +1404,8 @@
                     <ab corresp="#Marques_V_22" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_22 starting 35rb.
+                        <seg type="location">35rb</seg>
+                        <seg type="note">initial. no rubric+miniature
                         Stemma: proximity BX</seg>
                     </ab>
                 </div>
@@ -1398,8 +1421,8 @@
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="location">17rc</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_22 starting 57va</seg>
+                        <seg type="location">57va</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1411,7 +1434,8 @@
                     <ab corresp="#Marques_V_23" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_23 starting 35vc.
+                        <seg type="location">35vc</seg>
+                        <seg type="note">initial. no rubric+miniature
                         Stemma: proximity BX</seg>
                     </ab>
                 </div>
@@ -1426,7 +1450,8 @@
                     <ab corresp="#Marques_V_24" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_24 starting 58rb</seg>
+                        <seg type="location">58rb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1439,7 +1464,7 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
                         <seg type="location">37va</seg>
-                        <seg type="note">rubric+miniature+initial.
+                        <seg type="note">rubric+miniature+initial
                         Stemma: proximity VX</seg>
                     </ab>
                 </div>
@@ -1455,13 +1480,14 @@
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Marques_V_25 starting 58vb</seg>
+                        <seg type="location">58vb</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li .vii. sage se firent amener en une tonne a la court l'empereor.</seg>
                         <seg type="location">59rb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 54va (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 54va</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1505,28 +1531,25 @@
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">There is a gap in X1: the section given, in V1, on f. 55rv is lacking. 
-                        Following approximately the same layout as in V1, X1 gives, on f. 38vc, the beginning of the paragraph given
-                        in V1 f. 54vc and gives, on f. 39ra, what V1 gives on f. 56ra, which is the last paragraph before the explicit.
-                        Actually, this whole section seems to have been displaced later on, at the beginning of Laurin, 2 ff. later.
-                        X1 40rv is corresponding with V1 55rv. X1 41rv is, adequately, corresponding to V1 57rv. Just one folio seems to
-                        have been displaced.
-                        Rubric displaced later, cf. Laurin_V_2.  
-                        <!-- Revoir ici: cas plus spécifique > commenter davantage, c'est une erreur évidente de X1, 
-                            le texte ne pouvant pas se suivre logiquement. Oubli donc de transcription d'un folio entier, 
-                            avec une correspondance dans la mise en page qui explique sûrement cet oubli.
-                        La proximité de la mise en page entre X1 et V1 me paraîtrait intéressante aussi peut-être 
-                        dans le cadre de l'analyse stemmatique > Je revois ici : en réalité ce f. 55rv dans V1 est donné 2 ff. plus tard 
-                        dans X1, après le début de Laurin (le f. 40rv semble déplacé donc).--></seg>
+                        <seg type="note">rubric displaced later, cf. Marques_V_26 '
+                            X1 seems to have inverted two folios, 39rv and 40rv, on this section.
+                            Presenting approximately the same layout, which could explain the inversion, 
+                            V1 54vc is corresponding to X1 38vc; V1 55rv to X1 40rv; V1 56rv to X1 39r; and, back to normal, V1 57ra to X1 41ra. 
+                            It is of course an important section, considering the transition from Marques to Laurin.
+                            </seg>
                     </ab>                    
-                    <ab corresp="#Marques_V_26" type="ms_instance"><!-- revoir ici : je donne ici, mais à discuter -->
+                    <ab corresp="#Marques_V_26" type="ms_instance"><!-- SV: cas plus spécifique: inversion dans X1.
+                        J'ai préféré donner cette rubrique déplacée par cette inversion 
+                    de folios en lien avec la rubrique où elle est censée apparaître, et non dans le corps du texte de Laurin, mais je peux
+                    modifier bien sûr. Revoir aussi les notes ci-dessus et ci-dessous svp. -->
                         <seg type="witness">X1</seg>
                         <seg type="rubric">Ci dist comment l’empereriz de Romme et Othesbons son nourri furent ars pour 
                             la grande desloyauté qu'il avoient fecte et pourpensée envers Marques le preudomme seneschal.</seg>
                         <seg type="location">40rc</seg>
-                        <seg type="note">rubric+miniature+initial.
-                            Displaced rubric given after Laurin_V_1 and before Laurin_V_2. 
-                            This whole section (X1 40rv) seems to have been displaced.</seg>
+                        <seg type="note">displaced rubric+miniature+initial from Marques_V_26 
+                            In X1, the rubric is given, on f.40rc, supposely after Laurin_V_1 and before Laurin_V_2. 
+                            Considering that this whole section (X1 40rv) seems to have been displaced, we have prefered 
+                            to present these data here, in connection to Roman de Marques and not to the next novel.</seg>
                     </ab>
                 </div>
                 <milestone n="2-27" unit="chapter" xml:id="Marques_V_chap.27"/>
@@ -1697,8 +1720,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li sires de Gorre et Synador s'en viennent ou champ pour combatre.</seg>
                         <seg type="location">76ra</seg>
-                        <seg type="note">rubric+miniature(76rb)+initial(76rb)
-                            Displaced rubric from Laurin_V_6 (corresponding to V1 70rc)</seg>
+                        <seg type="note">displaced rubric+miniature(76rb)+initial(76rb) from Laurin_V_6 (corresponding to V1 70rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1763,14 +1785,14 @@
                         <seg type="rubric">Comment Palu de Coustantinoble et sa gent se combatirent a ceuls de Romme. 
                             Et comment il fu rescous aprés ce qu'il fu pris.</seg>
                         <seg type="location">79ra</seg>
-                        <seg type="note">addition of rubric+miniature(79ra-b)+initial(79rb) (corresponding to V1 73rc (§)</seg>
+                        <seg type="note">extra rubric+miniature(79ra-b)+initial(79rb) corresponding to V1 73rc</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Dyogenne, la fille au roy d'Arragon, envoia unes letres a Marques, 
                             le seneschal de Romme.</seg>
                         <seg type="location">82vb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 76vb (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 76vb</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1806,7 +1828,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurins se combati a Palus et le mist a outrance.</seg>
                         <seg type="location">91vc</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 85va (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 85va</seg>
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1841,19 +1863,19 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li tornois et la tale reonde furent crié.</seg>
                         <seg type="location">97ra</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 90va (§)</seg>                        
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 90va</seg>                        
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment uns chevaliers ala querre Marques le seneschal en Coustantinoble.</seg>
                         <seg type="location">98rc</seg>
-                        <seg type="note">addition of rubric+miniature+initial(98va) (corresponding to V1 91vb (§)</seg>                      
+                        <seg type="note">extra rubric+miniature+initial(98va) corresponding to V1 91vb</seg>                      
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques mist a outrance le conte de Provence a la jouste.</seg>
                         <seg type="location">120rb-c</seg>
-                        <seg type="note">addition of rubric+miniature(102rb-c)+initial(102rc) (corresponding to V1 95va (§)</seg>
+                        <seg type="note">extra rubric+miniature(102rb-c)+initial(102rc) corresponding to V1 95va</seg>
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1881,8 +1903,8 @@
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="localisation">103rb</seg>
-                        <seg type="note">Rubric+miniature+initial absent. no §</seg><!-- revoir ici A2 -->
+                        <seg type="location">103rb</seg>
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1917,7 +1939,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques et Synador pristrent congié a l'empereor.</seg>
                         <seg type="location">109va</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 102va (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 102va</seg>
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1946,7 +1968,8 @@
                     <ab corresp="#Laurin_V_12" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Initial corresponding to chapter Laurin_V_12 starting 111rc</seg>
+                        <seg type="location">111rc</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Laurin_V_12" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2206,7 +2229,7 @@
                             la forest ou il virent au matin le tournoy des chevalliers qui couvertures avoient de .ii. couleurs. 
                             Et comment il tournoient avecques eulz.</seg>
                         <seg type="location">100ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-21" unit="chapter" xml:id="Laurin_V_chap.21"/>
@@ -2360,7 +2383,7 @@
                         <seg type="rubric">Comment Euryet se party de Baudemagus et se mist en la queste de Lauryn 
                             qui de ses compaingnons si comme devant est dit.</seg>
                         <seg type="location">110rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-26" unit="chapter" xml:id="Laurin_V_chap.26"/>
@@ -2449,7 +2472,7 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">Comment .ii. chevalliers se combatent ensamble dont li .i. recognut l’autre.</seg>
                         <seg type="location">115a-b</seg>
-                        <seg type="note">rubric+initial(115rb). Miniature absent.</seg>
+                        <seg type="note">rubric+initial(115rb). no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-29" unit="chapter" xml:id="Laurin_V_chap.29"/>
@@ -2502,7 +2525,7 @@
                         <seg type="rubric">Comment une damoisele vient crier au roy Artu merci et se rent coupable de la mort monseigneur
                             Gauvain.</seg>
                         <seg type="location">150ra</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 139vc (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 139vc</seg>
                     </ab>
                     <ab corresp="#Laurin_V_30" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2546,7 +2569,7 @@
                         <seg type="rubric">Ci vient li contes a Laurin si comme il se parti de Wincestre 
                             et ala aprés un chevalier et une pucele.</seg>
                         <seg type="location">121va</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-32" unit="chapter" xml:id="Laurin_V_chap.32"/>
@@ -2568,7 +2591,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurins se combati au chevalier du paveillon.</seg>
                         <seg type="location">155vb</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 145ra (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 145ra</seg>
                     </ab>
                     <ab corresp="#Laurin_V_32" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2582,7 +2605,7 @@
                         <seg type="rubric">Comment Laurins mist a outrance le chevalier qui menoit la damoiselle. 
                             Et comment elle s’arma pour combatre a Laurin.</seg>
                         <seg type="location">123rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-33" unit="chapter" xml:id="Laurin_V_chap.33"/>
@@ -2613,7 +2636,7 @@
                         <seg type="rubric">Comment Marques de Romme et Synador se furent parti du tournoiement 
                             et ont tant erré qu’il ont ataint Laurin.</seg>
                         <seg type="location">125va</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-34" unit="chapter" xml:id="Laurin_V_chap.34"/>
@@ -2634,7 +2657,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Laurin se combati au chevalier aus blanches armes.</seg>
                         <seg type="location">158vc</seg>
-                        <seg type="note">addition of rubric+miniature+initial (corresponding to V1 148ra (§)</seg>
+                        <seg type="note">extra rubric+miniature+initial corresponding to V1 148ra</seg>
                     </ab>
                     <ab corresp="#Laurin_V_34" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2648,7 +2671,7 @@
                         <seg type="rubric">Comment li roys Artus vint a Wincestre pour faire honnour 
                             et feste au roy d’Arragon et a ses compaignons.</seg>
                         <seg type="location">126vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-35" unit="chapter" xml:id="Laurin_V_chap.35"/>
@@ -2663,8 +2686,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">159vc</seg>
-                        <seg type="note">Rubric+miniature+initial absent. no §</seg><!-- revoir ici: plus spécifique:
-                            le § ne correspond pas exactement -->
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Laurin_V_35" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2768,7 +2790,7 @@
                             Et comment il se parti de Gomer a tout les chevalier que la pucelle li bailla en son conduit et pour les
                             meneroit la ou il li plairoit.</seg>
                         <seg type="location">132rc</seg>
-                        <seg type="note">rubric+initial(132va). Miniature absent.</seg>
+                        <seg type="note">rubric+initial(132va). no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-39" unit="chapter" xml:id="Laurin_V_chap.39"/>
@@ -2798,7 +2820,7 @@
                         <seg type="rubric">Ci vient li contes au marquis de Nerbonne qui avoit assis le roy Marque en Erragon. 
                             Et comment Gauvain et si compaignon le vindrent aidier.</seg>
                         <seg type="location">132vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
             </div>       
                 <milestone n="3-40" unit="chapter" xml:id="Laurin_V_chap.40"/>
@@ -2828,7 +2850,7 @@
                         <seg type="rubric">Ci vient li contes a monseigneur Gauvain et as compaignons de la table roonde 
                             qui vindrent en l’aide au roy Marques roy d'Arragon.</seg>
                         <seg type="location">134va</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-41" unit="chapter" xml:id="Laurin_V_chap.41"/>
@@ -2855,7 +2877,7 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">Comment Syrrien quistrent leur seigneur entre les mors et le trouverent.</seg>
                         <seg type="location">135rb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-42" unit="chapter" xml:id="Laurin_V_chap.42"/>
@@ -2916,7 +2938,7 @@
                         <seg type="rubric">Ci vient li contes a Laurins et a ses compaignons qui vindrent au chastel de Gomer, 
                             la ou il avoit moult grant duel.</seg>
                         <seg type="location">137va</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-44" unit="chapter" xml:id="Laurin_V_chap.44"/>
@@ -2976,7 +2998,7 @@
                         <seg type="rubric">Comment Laurins s’en revint de Bretaingne et emmena Jagonce et s’en revint 
                             par Romme et par Coustentinnoble.</seg>
                         <seg type="location">142rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-46" unit="chapter" xml:id="Laurin_V_chap.46"/>
@@ -3006,7 +3028,7 @@
                         <seg type="rubric">Comment la suer Marques se fist amener a Romme par devant l’apostole 
                             et confessa par devant tous sa traïson.</seg>
                         <seg type="location">143rb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-47" unit="chapter" xml:id="Laurin_V_chap.47"/>
@@ -3036,7 +3058,7 @@
                         <seg type="rubric">Comment li roys Marques fu revenus en Arragon et ne trouva mie sa fame 
                             et comment il le fist querre par toute sa terre.</seg>
                         <seg type="location">144rb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-48" unit="chapter" xml:id="Laurin_V_chap.48"/>
@@ -3094,7 +3116,7 @@
                         <seg type="rubric">Ci vient li contes a la royne d’Arragon qui estoit a Narus 
                             comment uns borgois le voloit avoir a fame.</seg>
                         <seg type="location">146ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="3-50" unit="chapter" xml:id="Laurin_V_chap.50"/>
@@ -3254,7 +3276,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">192rc</seg>
-                        <seg type="note">rubric+miniature absent. Initial</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3339,7 +3361,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">200va</seg>
-                        <seg type="note">rubric+miniature absent. Initial</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3394,7 +3416,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit parole li contes du prince de Soffos qui fu deceus par sa femme.</seg>
                         <seg type="location">202vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3421,7 +3443,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la pucele son conte.</seg>
                         <seg type="location">203vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_11" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3448,7 +3470,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">204vb</seg>
-                        <seg type="note">rubric+miniature absent. Initial</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_12" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3475,8 +3497,8 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit commence l'un des princes son conte.</seg>
                         <seg type="location">205ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.
-                            Subject : en réalité, le texte suit bien avec le récit d'Helcana</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature
+                            Subject : en réalité, le texte suit bien avec le récit d'Helcana</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3530,7 +3552,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la pucele son conte.</seg>
                         <seg type="location">207va</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_15" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3557,7 +3579,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence .i. des princes son conte.</seg>
                         <seg type="location">208vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3584,7 +3606,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci dist la damoisele son conte du sot qui fu a son pere.</seg>
                         <seg type="location">209vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_17" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3612,7 +3634,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit conte li princes son conte.</seg>
                         <seg type="location">210rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_18" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3639,7 +3661,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit parole la damoisele a Cassydorus en son dormant.</seg>
                         <seg type="location">210vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_19" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3660,7 +3682,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li septismes commence son compte.</seg>
                         <seg type="location">198ra</seg>
-                        <seg type="note">miniature(197vc)+rubric+initial</seg>
+                        <seg type="note">miniature(197vc)+rubric+initial(198ra)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_20" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -3693,7 +3715,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la damoisele son conte.</seg>
                         <seg type="location">212vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_21" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3718,9 +3740,9 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">Comment il moustre plus ens le tref <!-- revoir ici: Transcription -->.</seg>
+                        <seg type="rubric">Comment il moustre plus ens le tref <!-- Transcription -->.</seg>
                         <seg type="location">213va</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_22" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3748,7 +3770,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci dist la pucele son conte.</seg>
                         <seg type="location">214ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_23" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3776,7 +3798,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit conte .i. des princes son conte.</seg>
                         <seg type="location">214vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_24" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3831,7 +3853,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">217ra</seg>
-                        <seg type="note">no rubric, miniature, initial nor new paragraph</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3858,7 +3880,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">217rb</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3885,7 +3907,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit commence la pucele a conter un conte d'un marcheant de Lombardie.</seg>
                         <seg type="location">217vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_28" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3912,7 +3934,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">218ra</seg>
-                        <seg type="note">no rubric, miniature, initial nor new paragraph</seg> <!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_29" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3939,7 +3961,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence l'estoire de Cassydorus qui fu empereres de Coustantinoble.</seg>
                         <seg type="location">218vb</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_30" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3993,7 +4015,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">219rc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_32" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4020,7 +4042,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit conte li princes un conte d'un roy breton.</seg>
                         <seg type="location">220ra</seg>
-                        <seg type="note">rubric+initial(220rb). Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial(220rb). no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_33" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4048,19 +4070,19 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci conte la pucele son conte.</seg>
                         <seg type="location">221vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_34" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment une damoisele qui estoit de Cartage se mist au chemin pour querre homme qui li pleust.</seg>
                         <seg type="location">222ra</seg>
-                        <seg type="note">additional rubric+miniature(222ra-b)+initial(222ra) corresponding to V2 2vb</seg>
+                        <seg type="note">extra rubric+miniature(222ra-b)+initial(222ra) corresponding to V2 2vb</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_34" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit conte li contes d'un damoisel d'Alixandre.</seg>
                         <seg type="location">223rb</seg>
-                        <seg type="note">additional rubric+miniature(222ra-b)+initial(222ra) corresponding to V2 3va</seg>
+                        <seg type="note">extra rubric+miniature(222ra-b)+initial(222ra) corresponding to V2 3va</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_34" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4116,7 +4138,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">227vc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_36" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4143,7 +4165,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">228vc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_37" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4199,7 +4221,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit revient li contes a Helcana quant ele engendra.</seg>
                         <seg type="location">231va</seg>
-                        <seg type="note">rubric+initial(231vb). Miniature absent.</seg>
+                        <seg type="note">rubric+initial(231vb). no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_39" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4226,7 +4248,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">233vc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_40" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4339,7 +4361,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Ydoines ot ses dois par la proiere Helcanor.</seg>
                         <seg type="location">241rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_44" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4422,7 +4444,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">247rc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_47" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4615,7 +4637,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">265va</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_54" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4669,7 +4691,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">270rb</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_56" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4696,7 +4718,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ce est d'un marcheant qui de son serf fist son compaignon et en fu destruis.</seg>
                         <seg type="location">271ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_57" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4723,7 +4745,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li maistres parole.</seg>
                         <seg type="location">272rb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmonisr -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_58" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4777,7 +4799,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ce est d'un bregois de Coustantinoble.</seg>
                         <seg type="location">275ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_60" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4804,7 +4826,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li enfes parole a son pere.</seg>
                         <seg type="location">276rb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_61" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4831,7 +4853,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci dist li maistres son conte.</seg>
                         <seg type="location">277ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4885,7 +4907,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ce est du duc de Loeraine.</seg>
                         <seg type="location">281rc</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_64" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4912,7 +4934,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">283vc</seg>
-                        <seg type="note">Initial. Rubric and miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_65" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -5020,7 +5042,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ce est uns contes que Helcanor dist.</seg>
                         <seg type="location">291ra</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_69" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -5047,7 +5069,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">293rb</seg>
-                        <seg type="note">Initial. Rubric and miniature absent.</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_70" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -5321,7 +5343,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Daphus fu souspris d'amours.</seg>
                         <seg type="location">322vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -5432,7 +5454,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">330va</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -5577,7 +5599,7 @@
                             pere, et comment il revint a Romme a l'empereriz sa mere
                             dire nouvelles de ce qu'il ot trouvé de l'empereour.</seg>
                         <seg type="location">133vc</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_2" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -5615,7 +5637,7 @@
                             un chevalier qui les vit chiez le duc Bourleuz ou aventure
                             le mena.</seg>
                         <seg type="location">136vc</seg>
-                        <seg type="note">Rubric+miniature+initial</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -5630,8 +5652,7 @@
                             un chevalier qui lez vit chiez le duc Bourleuz ou aventure
                             le mena.</seg>
                         <seg type="location">358ra</seg>
-                        <seg type="note">rubric+miniature(358rb)+initial + paragraph
-                            added 358rb</seg>
+                        <seg type="note">rubric+miniature(358rb)+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance">
                         <seg type="witness">X2</seg>
@@ -5735,7 +5756,7 @@
                         <seg type="rubric">Comment Pelyarmenus volt estre empereor et
                             metre Helcanus son frere a mort.</seg>
                         <seg type="location">32vc</seg>
-                        <seg type="note">rubric+initial. Miniature absent</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="6-7" unit="chapter" xml:id="Pelyarmenus_V_chap.7"/>
@@ -5769,7 +5790,7 @@
                             de Coustantinoble et que li baron le receussent et li
                             aidassent.</seg>
                         <seg type="location">34vb</seg>
-                        <seg type="note">rubric+miniature(34vc)+initial</seg>
+                        <seg type="note">rubric+miniature(34vc)+initial(34vc)</seg>
                     </ab>
                 </div>
                 <milestone n="6-8" unit="chapter" xml:id="Pelyarmenus_V_chap.8"/>
@@ -5819,7 +5840,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="paragraph">Quant li dui champion furent</seg>
-                        <seg type="localisation">376va</seg>
+                        <seg type="location">376va</seg>
                         <seg type="note">Rubric displaced later (160vb in V2 (§154)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
@@ -6522,7 +6543,7 @@
                                     <seg type="rubric">Comment Dorus prist Peliarmenus pour ce que
                                           il ne li avoit mie envoié Dialogus, le bastart.</seg>
                                     <seg type="location">437ra</seg>
-                                    <seg type="note">rubric+miniature(437rb)+initial</seg>
+                                    <seg type="note">rubric+miniature(437rb)+initial(437rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_31" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6632,14 +6653,14 @@
                                           le frere germain Peliarmenus, et toute sa baronnie aveques
                                           luy. Si comme s'ensuit aprés.</seg>
                                     <seg type="location">451vb</seg>
-                                    <seg type="note">rubric+miniature(452ra)+initial</seg>
+                                    <seg type="note">rubric+miniature(452ra)+initial(452ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_34" type="ms_instance">
                                     <seg type="witness">X2</seg>
                                     <seg type="rubric">Comment li prince et li baron vindrent au
                                           jour qui leur fu mis de la pais.</seg>
                                     <seg type="location">99rb</seg>
-                                    <seg type="note">rubric+initial. Miniature absent.</seg>
+                                    <seg type="note">rubric+initial. no miniature</seg>
                               </ab>
                         </div>
                         <milestone n="6-35" unit="chapter" xml:id="Pelyarmenus_V_chap.35"/>
@@ -6685,7 +6706,7 @@
                                           tournoient ensemble a cheval perdre et a cheval
                                           gaaingnier.</seg>
                                     <seg type="location">20vc</seg>
-                                    <seg type="note">rubric+miniature(21ra-b)+initial</seg>
+                                    <seg type="note">rubric+miniature(21ra-b)+initial(21ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -6709,8 +6730,8 @@
                                           es armes Leus et des princes et des chevaliers qui y
                                           furent.</seg>
                                     <seg type="location">105rb</seg>
-                                    <seg type="note">rubric+miniature+initial. Different
-                                          subject</seg>
+                                    <seg type="note">rubric+miniature+initial
+                                        Suject: different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -6719,8 +6740,7 @@
                                           qui furent au tournoy. Et fu Dorus un des miex
                                           faisans.</seg>
                                     <seg type="location">106ra-b</seg>
-                                    <seg type="note">rubric+miniature(106ra-b)+initial(106ra).
-                                          Doubling of rubric already on 105rb</seg>
+                                    <seg type="note">doublign rubric+miniature(106ra-b)+initial(106ra) already on 105rb</seg>
                               </ab>
                         </div>
                         <milestone n="6-37" unit="chapter" xml:id="Pelyarmenus_V_chap.37"/>
@@ -6737,9 +6757,8 @@
                                     <seg type="rubric">Comment li baron se partirent de l'empereeur
                                           de Romme et de l'emperris.</seg>
                                     <seg type="location">451rc</seg>
-                                    <seg type="note">rubric+miniature+initial. 
-                                        Different
-                                          subject</seg>
+                                    <seg type="note">rubric+miniature+initial
+                                        Subject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_37" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6819,8 +6838,7 @@
                                     vindrent a Romme pour savoir nouveles du pere
                                     Celydus.</seg>
                                 <seg type="location">460ra-b</seg>
-                                <seg type="note">addition of
-                                    rubric+miniature(460rb)+initial(460rb) corresponding to V3 29rc</seg>
+                                <seg type="note">extra rubric+miniature(460rb)+initial(460rb) corresponding to V3 29rc</seg>
                             </ab>
                               <ab corresp="#Pelyarmenus_V_39" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6901,15 +6919,15 @@
                                           sa guaite, que Dyanor avoit ocis, et en fu mis en prison,
                                           et Celidus l'en delivra. Si comme s'ensuit.</seg>
                                     <seg type="location">472rb</seg>
-                                    <seg type="note">miniature(472ra)+rubric(472rb)+initial</seg>
+                                    <seg type="note">miniature(472ra)+rubric(472rb)+initial(472rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_41" type="ms_instance">
                                     <seg type="witness">X2</seg>
                                     <seg type="rubric">Ci vient li contes au prince d'Antyoche
                                           comment il ala au parlement a Rohais.</seg>
                                     <seg type="location">118va</seg>
-                                    <seg type="note">rubric+miniature+initial. Different subject //
-                                          B</seg>
+                                    <seg type="note">rubric+miniature+initial 
+                                        Subject : different subject // B</seg>
                               </ab>
                         </div>
                         <milestone n="6-42" unit="chapter" xml:id="Pelyarmenus_V_chap.42"/>
@@ -6974,7 +6992,7 @@
                                           comment Mirus ala en mesage a Peliarmenus de par
                                           Helcanus.</seg>
                                     <seg type="location">477rb</seg>
-                                    <seg type="note">rubric+miniature(477va)+initial</seg>
+                                    <seg type="note">rubric+miniature(477va)+initial(477va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_43" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -7006,7 +7024,7 @@
                                     <seg type="rubric">Ci revient ly contes a Helcanus, qui s'est
                                           remis en sa queste. Ainsi comme s'ensuit.</seg>
                                     <seg type="location">481ra</seg>
-                                    <seg type="note">rubric+initial+miniature(481rb)</seg>
+                                    <seg type="note">rubric+initial(481ra)+miniature(481rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_44" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -7024,7 +7042,7 @@
                                           chevalier qui si bien le fist conme nulz le pot faire,
                                           conme cil qui aloit querant Dorus.</seg>
                                     <seg type="location">45rc</seg>
-                                    <seg type="note">rubric+miniature(45va)+initial</seg>
+                                    <seg type="note">rubric+miniature(45va)+initial(45va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_45" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -7071,7 +7089,7 @@
                                           comment la damoiselle avoit detenu Dorus en son
                                           chastel.</seg>
                                     <seg type="location">488va</seg>
-                                    <seg type="note">rubric+miniature(488vb)+initial</seg>
+                                    <seg type="note">rubric+miniature(488vb)+initial(488vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_46" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -7113,7 +7131,7 @@
                                     <seg type="rubric">Ci vient li contes a Mardocheus, si commne il
                                           se mist aprés Dorus aprés ce que Helcanus fu mors.</seg>
                                     <seg type="location">132vc</seg>
-                                    <seg type="note">rubric+miniature(133ra)+initial</seg>
+                                    <seg type="note">rubric+miniature(133ra)+initial(133ra)</seg>
                               </ab>
                         </div>
                         <milestone n="6-48" unit="chapter" xml:id="Pelyarmenus_V_chap.48"/>
@@ -7132,7 +7150,7 @@
                                     <seg type="rubric">Ci vient li contes a l'empereor Cassidorus
                                           comment il morut.</seg>
                                     <seg type="location">481rb</seg>
-                                    <seg type="note">rubric+miniature(481rc)+initial</seg>
+                                    <seg type="note">rubric+miniature(481rc)+initial(481rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_48" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7150,7 +7168,7 @@
                                           ainssic comme il morut par la traÿson a la
                                           chastelaine.</seg>
                                     <seg type="location">133vc</seg>
-                                    <seg type="note">rubric+initial(134ra). Miniature absent.</seg>
+                                    <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
                         </div>
                         <milestone n="6-49" unit="explicit" xml:id="Pelyarmenus_V_chap.49"/>
@@ -7166,10 +7184,9 @@
                               </ab>
                               <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                  <seg type="explicit">absent</seg>
-                                    <seg type="note">explicit absent. Initial corresponding
-                                          (approx.) to chapter Pelyarmenus_V_explicit starting
-                                          482rc</seg>
+                                    <seg type="explicit">absent</seg>
+                                  <seg type="location">482rc</seg>
+                                    <seg type="note">no explicit+implicit+miniature. initial (approximately corresponding)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7203,7 +7220,7 @@
                         <seg type="witness">B</seg>
                         <seg type="incipit">absent</seg>
                         <seg type="location">482rc</seg>
-                        <seg type="note">incipit, miniature, initial absent. No new paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no incipit+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Kanor_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7300,7 +7317,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">488ra</seg>
-                        <seg type="note">no rubric, miniature, initial. No new paragraph</seg>
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Kanor_V_4" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7370,7 +7387,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">503ra</seg>
-                        <seg type="note">no rubric, miniature, initial. No new paragraph</seg>
+                        <seg type="note">no rubric+miniature+initial. no §</seg>
                     </ab>
                     <ab corresp="#Kanor_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7402,7 +7419,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci parole des .iiii. enfans que le lyon aporta en la roche.</seg>
                         <seg type="location">505vc</seg>
-                        <seg type="note">rubric+miniature(505vb-c)+initial</seg>
+                        <seg type="note">rubric+miniature(505vb-c)+initial(505vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_7" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7467,7 +7484,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">509va</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7812,13 +7829,13 @@
                         <seg type="witness">V3</seg>
                         <seg type="rubric">Ci vient li contes au chastelain de Gomor comment il parole aus .iiii. filz l'empereour Cassidorus.</seg>
                         <seg type="location">125vb</seg>
-                        <seg type="note">rubric+initial. Miniature absent.</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Kanor_V_20" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">557rb</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_20" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7849,7 +7866,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">559vb</seg>
-                        <seg type="note">initial. Rubric and miniature absent.</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Kanor_V_21" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7881,7 +7898,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">561rc</seg>
-                        <seg type="note">no rubric, miniature, initial. New paragraph</seg><!-- revoir ici pour harmoniser -->
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_22" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -8102,7 +8119,7 @@
                         <seg type="witness">G</seg>
                         <seg type="explicit">Cy fine le livre de Marques de Romme, de Laurin, de Cassidorus et de Peliarmenus, et des faiz 
                             de pluseurs empereurs de Romme et de Constantinoble si comme il est devant contenu en l'istoire. 
-                            L'an mil .cccclxvi. fu escript cest rommant par Micheau Gonnot, pbre demourant a Crosant. <!-- revoir ici --></seg>
+                            L'an mil .cccclxvi. fu escript cest rommant par Micheau Gonnot, pbre demourant a Crosant. <!-- Transcription --></seg>
                         <seg type="location">601vb</seg>
                         <seg type="note">explicit(brown)+signature(brown)</seg>
                     </ab>

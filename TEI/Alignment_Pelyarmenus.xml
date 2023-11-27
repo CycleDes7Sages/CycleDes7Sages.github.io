@@ -149,10 +149,9 @@
                               du Roman de Pelyarmenus, selon les rubriques données dans chacun des
                               manuscrits, les informations paratextuelles qui viennent aussi les
                               structurer (miniatures, initiales, etc.), ainsi que
-                              par<!-- PD"ainsi que selon", pour reprendre la suite de "selon les rubriques"?-->
-                              les lettrines qui indiquent un nouveau paragraphe. L'organisation est
+                              selon les lettrines qui marquent un nouveau paragraphe. L'organisation est
                               fondée sur celle que présente le manuscrit siglé
-                              V<!-- PD ensuite, dans le noms des manuscrits, tu parles de "V2". Peut-être pourrais-tu simplement dire que V est le manuscrit entier du cycle et qu'ici ce sont les témoins V2 et V3 qui servent de référence? Comme tu le sens -->,
+                              V (V2 puis V3 selon la répartition de ce manuscrit cyclique conservé en 3 tomes),
                               qui a servi de manuscrit de base au travail d'édition que nous avons
                               mené sur ce même roman. Dans notre travail d'édition comme dans ce
                               travail d'alignement, nous n'avons pas pour autant considéré ce
@@ -163,14 +162,12 @@
                               correspondant, par un renvoi à ce manuscrit V, pour indiquer la
                               distance critique qui se doit d'être considérée face à cette
                               organisation et cette numérotation du
-                              roman<!-- PD Je me demande ici s'il n'y a pas une différence entre "cette organisation" (
-                                    celle du manuscrit, avec ses rubriques, etc) et "cette numérotation" est me semble être la "nôtre". 
-                                    Non? -->.
-                              <!-- revoir ici: formulation à affiner! --></p>
+                              roman telle que nous l'avons établie sur la base des différents paragraphes 
+                              lus dans ce manuscrit.</p>
                         <p><title>Enjeux et pratique de travail</title> Au fil de ce travail
                               d'alignement, nous avons donc listé chaque nouveau chapitre
-                              (c'est-à-dire chaque rubrique)<!-- PD : je me demande ici si nous ne collons pas une vision moderne (chapitre) et une vision ancienne (rubrique). Ce n'est pas grave et c'est même nécessaire de le faire, mais on pourrait peut-être juste prendre une précaution en "nous avons donc listé chaque rubrique, que nous considérons comme la marque d'un nouveau chapitre,... -->, indiqué dans une <gi>div</gi>
-                              spécifique, précisée par un @xml:id, suivant la mention indicative,
+                              (que nous avons considéré à chaque nouvelle rubrique présentée dans le manuscrit), 
+                              indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant la mention indicative,
                               donnée dans une <gi>milestone</gi> via un autre @xml:id se référant au
                               roman et au numéro de chapitre dans ledit roman. Chacune de ces
                                     <gi>div</gi> contient la présentation du chapitre en question
@@ -184,7 +181,7 @@
                               texte introduite par une lettrine, selon la même logique
                               organisationnelle, en indiquant d'abord ce que le manuscrit V donne
                               comme nouveau paragraphe, puis en
-                              listant<!-- PD "relevant", pour changer? --> ce que les trois autres
+                              relevant ce que les trois autres
                               témoins présentent eux-mêmes. L'objectif, pour chacune de ces
                               références, était de présenter l'organisation macrostructurelle du
                               cycle, soit d'identifier, pour chacun des quatre témoins, la rubrique
@@ -199,108 +196,84 @@
                               le manuscrit traité (@location) et une note (@note). Cette note,
                               systématique dans les cas de nouveaux chapitres et optionnelle dans
                               les cas de nouveaux paragraphes - selon la nécessité ou non de
-                              préciser un élément paratextuel ou son absence surtout dans les autres
-                              témoins -, vise à préciser l'organisation et
-                              <!-- PD la mise... -->mise en page exacte de ce nouveau chapitre (le
+                              préciser un élément paratextuel, son absence ou toute autre particularité dans les autres
+                              témoins -, vise à préciser l'organisation et la mise en page exacte de ce nouveau chapitre (le
                               plus communément "rubric+miniature+initial") et la précision du lieu
                               exact de ces trois éléments quand ils ne se trouvent pas tous sur la
-                              même colonne ou le même folio du manuscrit
-                              dépeint<!-- PD : je ne sais pas si "dépeint" peut s'employer pour un manuscrit, pour un objet inanimé, non? On pourrait dire "concerné"? -->.
+                              même colonne ou le même folio du manuscrit concerné.
                               D'autres précisions ont pu y être données, selon les quelques cas
-                              particuliers qui ont été relevés au fil<!-- PD "au fil de l'étude de...", il me semblait manquer quelque chose --> de ces quatre manuscrits. Pour
+                              particuliers qui ont été relevés au fil de l'étude de ces quatre manuscrits. Pour
                               clarifier la présentation qui en sera donnée, nous listons ici ces
                               divers cas de figure.</p>
-                        <p><title>Cas particuliers présentés</title> 1)Rubriques ajoutées: Dans
-                              plusieurs cas, des rubriques <!-- PD : je dirais peut-être "dans les manuscrits" pour qu'on ne pense pas que nous les avons nous-mêmes ajoutées. Mais c'est comme tu veux, car ça alourdit peut-être. -->ont été ajoutées par rapport à
+                        <p><title>Cas particuliers présentés</title> 
+                              1)Rubriques ajoutées: 
+                              Dans plusieurs cas, des rubriques ont été ajoutées dans certains manuscrits par rapport à
                               l'organisation des chapitres donnée dans le manuscrit V. Nous avons
                               choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au
-                              @corresp renvoyant au xml:id du chapitre qui donne, dans V, la section
+                              @corresp renvoyant au xml:id du paragraphe qui donne, dans V, la section
                               contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
-                              précise, de manière systématique et volontairement concise : "addition
-                              of rubric+miniature+initial (corresponding to V XXX)". Nous avons
-                              également précisé, pour la mention du lieu correspondant dans V, si ce
-                              manuscrit ne présentait pas cette portion de texte dans un nouveau
-                              paragraphe par l'indication "(no §)". En effet, dans la majorité des
-                              cas, les ajouts de rubriques dans d'autres témoins correspondent à un
-                              nouveau paragraphe dans ce manuscrit.
-                              <!-- revoir ici SV : je me demande si "extra rubric+miniature+initial" ne serait pas une formule plus adéquate PD : personnellement, je trouve plus clair et économique de dire "supplementary"-->
-                              Le terme "addition" <!-- PD : je suis tout à fait d'accord avec toi. L'addition est une entreprise forte. En fait, en effet, "B" n'ajoute pas, il a fonctionnement différent. -->nous a semblé la meilleure solution
-                              terminologique, mais nous paraît cependant comporter le risque d'une
-                              mélecture de ce que nous avons voulu voir de chaque manuscrit. Nous
-                              souhaitions seulement par-là indiquer que la rubrique en question ne
-                              se lit pas dans le manuscrit V, ni dans la plupart des autres témoins
-                              donc (la plupart de ces cas spécifiques sont liés au témoin B). À la
-                              mention de la portion de texte dans V à laquelle se rattache ce
-                              chapitre supplémentaire dans cet autre témoin, nous avons au besoin
-                              adjoint celle de la propre macrostructure de V, c'est-à-dire si la
-                              portion de texte correspondante en question est présentée par un
-                              nouveau paragraphe en particulier.</p>
-                        <p>2)Rubriques absentes: Quand la rubrique n'est pas donnée dans un témoin
-                              (qu'elle soit ou non en réalité déplacée, selon le cas de figure
-                              présenté ci-dessous),<!-- PD Pardon, je suis un peu perdue car ici ce sont les rubriques absentes, mais on parle de celles déplacées aussi. je me demande si ici il ne faudrait pas mettre "les rubriques absentes" et "déplacée" sous un même paragraphe. Il me semble que les deux cas se rejoignent, dans les parallèles que tu fais entre elles, mais il me manque sans doute des éléments. Pardon si ma remarque est bête.  --> le <gi>seg</gi> @rubric est donné "absent", mais
+                              précise, de manière systématique et volontairement concise : 
+                              "extra rubric+miniature+initial".</p>
+                        <p>2)Rubriques absentes: 
+                              Quand la rubrique n'est pas donnée dans un témoin
+                              (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
+                              présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", mais
                               le <gi>seg</gi> @location n'a pas été supprimé si le paragraphe qui
                               suit cette rubrique est bien donné (au contraire de ce qui a été
                               pratiqué dans l'alignement du cycle entier). Le <gi>seg</gi> @note
                               vient préciser que les rubrique, miniature et initiale sont absentes,
-                              selon la formule systématique et volontairement concise, nous avons
-                              indiqué : "Rubric+miniature+initial absent". L'idée était ainsi de
+                              selon la formule systématique et volontairement concise : 
+                              "no rubric+miniature+initial". L'idée était ainsi de
                               détailler que la structure par rubrique dans V n'était pas suivie dans
                               cet autre témoin, mais que la portion de texte correspondante était
-                              présentée par un simple nouveau chapitre.
-                              <!-- SV: Je me suis permise de revoir la logique et la formule ici, par rapport à ce que nous avions décidé dans 
-                                    le cas de l'alignement du cycle complet. Conformément à la décision que j'ai prise (mais que nous pouvons discuter)
-                                    pour les cas de paragraphe absent, pour lesquels j'ai préféré garder mention de @localisation, je trouvais 
-                                    plus cohérent de garder la mention de la @localisation liée au paragraphe donc et de préciser avec la formule ci-dessus.
-                                    Cf. Q1 pour le cas qui m'a fait changer d'avis dans le corps de l'alignement.--></p>
-                        <p>3)Rubriques déplacées: Il arrive également que des rubriques, liées à tel
+                              présentée par un simple nouveau paragraphe dans ce témoin. 
+                              Dans les cas, rares, où la portion de texte concernée n'est pas même donnée 
+                              dans un nouveau paragraphe. La note se conclut sur "no §".</p>
+                        <p>3)Rubriques déplacées: 
+                              Il arrive également que des rubriques, liées à tel
                               paragraphe et donc à tel lieu du texte dans V, soient plutôt associées
                               à un pararaphe donné plus tôt/tard dans un autre témoin. Par souci de
                               précision, nous avons donc noté comme absentes les rubriques
                               présentées de pair avec le texte lu dans V (tout en précisant, dans le
                                     <gi>seg</gi> @note, que la rubrique en question a été déplacée,
-                              selon la formule "rubric displaced later/before (XXX in V1)")
-                              <!-- SV: que penses-tu de cette solution que je me suis permise d'ajouter ? Il me semblait manquer une information 
-                        sans cela --> et ajouté une nouvelle section
-                                    <gi>ab</gi> pour indiquer cette rubrique ajoutée, en réalité
+                              selon la formule "rubric displaced later/before (XXX in V)") 
+                              et ajouté, au niveau du paragraphe concerné, un <gi>seg</gi> @rubrique
+                               pour indiquer cette rubrique ajoutée, en réalité
                               déplacée. Dans ces cas, le <gi>seg</gi> @note précise, de manière
                               systématique et volontairement concise : "displaced rubric from XXX
                               (XXX in V)". L'idée est ainsi de préciser le chapitre auquel cette
                               rubrique est associée dans le manuscrit V, mais aussi la portion de
                               texte exacte de V avec laquelle cette rubrique telle que donnée dans
                               cet autre témoin est associée.</p>
-                        <p>4)Chapitres introduits par une initiale:
-                              <!-- revoir ici: est-ce que le cas se présente ? Je ne pense pas -->
-                              Dans certains cas de figure (surtout associés avec la technique,
-                              commune au cycle dès son roman-souche, du récit enchâssé), ce que le
-                              manuscrit V présente comme un nouveau chapitre introduit par une
-                              rubrique, une miniature et une initiale n'est indiqué dans d'autres
-                              témoins que par une initiale. Nous avons présenté comme suit cette
-                              information : "Initial corresponding to chapter XXX starting XXX”.
-                              <!-- SV : tout comme pour les rubriques absentes, la mention du "chapter XXX" est-elle vraiment nécessaire
-                si cela est indiqué dans le @corresp de la balise ab qui reprend cette information ?--></p>
-                        <p>5)Paragraphes absents et/ou ajoutés dans d'autres témoins: Dans notre
+                        <p>4)Décoration manquante:
+                              Il arrive également que, dans la mise en page du manuscrit, manque la miniature
+                              généralement associée à une rubrique et précédant l'initiale. 
+                              Dans ces cas, le relevé "rubric"miniature+initial"
+                              habituel est adapté comme suit "rubric+initial. no miniature".</p>
+                        <p>5)Paragraphes absents et/ou ajoutés dans d'autres témoins: 
+                              Dans notre
                               relevé des paragraphes, nous avons parfois pu noter qu'un témoin ne
-                              présentait pas de nouveau paragraphe, c'est-à-dire qu'il n'associait
-                              pas cette portion de texte à une lettrine. De manière systématique et
+                              présentait pas de nouveau paragraphe, c'est-à-dire qu'il n'introduisait
+                              pas cette portion de texte par une lettrine. De manière systématique et
                               volontairement concise, nous avons indiqué cela comme suit: "no new
                               paragraph" dans le <gi>seg</gi> @note. Nous n'avons pas pour autant
                               supprimé la mention du <gi>seg</gi> @paragraph ni du @location, mais
-                              préféré transcrire ce qui se lit, même si sans passage<!-- PD "même s'il n'y a pas de passage" pour clarifier? --> à un nouveau
+                              préféré transcrire ce qui se lit, même s'il n'y a pas de passage à un nouveau
                               paragraphe, dans ce témoin. La localisation indiquée est celle à
-                              laquelle se lit cette portion de texte.
-                              
-                              Il arrive également qu'un nouveau paragraphe soit intégré dans cette
+                              laquelle se lit cette portion de texte.                               
+                              Il arrive également qu'un nouveau paragraphe, supplémentaire, soit intégré dans cette
                               portion de texte, c'est-à-dire qu'une lettrine soit présentée pour une
                               portion de texte qui n'est pas introduite comme tel dans le manuscrit
                               V. Dans ce cas, nous avons ajouté la mention, systématique et
-                              volontairement concise elle aussi : "paragraph added XXX", en
-                              précisant le lieu où ce nouveau paragraphe est donné dans ce témoin<!-- PD : est-ce que si plus haut tu choisis "supplementary", il faudrait le faire ici aussi? (ah tu en parles après!) -->.
+                              volontairement concise elle aussi : "extra paragraph XXX", en
+                              précisant le lieu où ce nouveau paragraphe est donné dans ce témoin.
                               Ces deux informations, quand elles vont de pair, sont données à la
-                              suite et coordonnées par un simple "+". <!-- SV: 
-                              Que penses-tu, plutôt que "paragraph added" de "supplementary paragraph", tout comme dans le cas des rubriques ?
-                              Nous avions pensé préciser "(no paragraph in V2)", mais cela me paraît aller de soi, qu'en penses-tu ?
-                              Peut-être pourrions-nous cependant indiquer "paragraph added XXX (V2 XXX)" pour indiquer également 
-                              où se trouve cette portion de texte dans V? --></p>
+                              suite et coordonnées par un simple "+".</p>
+                        <p>6)Lettrine absente: 
+                              Dans certains cas, la lettrine semble avoir été omise lors de la réalisation
+                              du manuscrit, bien que l''espace semble clairement avoir été prévu pour qu'elle soit ajoutée
+                              pour indiquer ce nouveau paragraphe.
+                              Ce cas de figure a été référencé comme suit : "lettrine absent".</p>                        
                         <p><title>Précisions de présentation</title> Dans notre relevé des rubriques
                               et paragraphes, nous avons suivi la logique d'une édition
                               interprétative, selon les critères établis pour notre édition du Roman
@@ -309,7 +282,7 @@
                               décidé, au contraire de ce que présente l'alignement du cycle entier
                               (Alignment_C7S), de ne pas donner les variantes orthographiques,
                               conformément aux critères de collation qui ont été les
-                              nôtres.<!-- SV: ok? --></p>
+                              nôtres.</p>
                   </projectDesc>
             </encodingDesc>
             <revisionDesc>
@@ -319,6 +292,8 @@
                   <change who="#CC" when="2023-10-10">Harmonisation des formulations de cas
                         spécifiques posés dans l'alignement, cf. réunion avec SV</change>
                   <change who="#CC" when="2023-10-12">Alignement des §50-100 du Pelyarmenus</change>
+                  <change who="#CC" when="2023-11-17">Alignement complet du Pelyarmenus, en l'attente de la reprise du site de la BL</change>
+                  <change who="#CC" when="2023-11-27">Introduction revue</change>
             </revisionDesc>
       </teiHeader>
       <text>
@@ -334,7 +309,7 @@
                                           .ii. enfanz petiz a l'empereour.</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
                                     <seg type="location">130vc</seg>
-                                    <seg type="note">Rubric+miniature(131ra-b)+initial(131ra)</seg>
+                                    <seg type="note">rubric+miniature(131ra-b)+initial(131ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_01" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -375,8 +350,8 @@
                               <ab corresp="#Pelyarmenus_V_02" type="ms_instance">
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Dyalogus oÿ les norrisces</seg>
-                                    <seg type="location">439rc</seg>
-                                    <seg type="note">no new paragraph + paragraph added 438vc</seg>
+                                    <seg type="location">438rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 438vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_02" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -501,7 +476,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li preudons oÿ ce,</seg>
                                     <seg type="location">350rc</seg>
-                                    <seg type="note">no new paragraph + paragraph added 350rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 350rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_07" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -716,7 +691,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Fille, dist ele, quele part est ce ?</seg>
                                     <seg type="location">3501rc</seg>
-                                    <seg type="note">no new paragraph + paragraph added 351va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 351va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_16" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -764,7 +739,7 @@
                                     <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis
                                           d'Espaigne,</seg>
                                     <seg type="location">133vc</seg>
-                                    <seg type="note">Rubric+miniature+initial</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -774,7 +749,7 @@
                                     <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis
                                           d'Espaigne,</seg>
                                     <seg type="location">351vc</seg>
-                                    <seg type="note">rubric+miniature(352ra)+initial</seg>
+                                    <seg type="note">rubric+miniature(352ra)+initial(352ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -785,7 +760,7 @@
                                     <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis
                                           d'Espaigne,</seg>
                                     <seg type="location">354vb</seg>
-                                    <seg type="note">rubric+miniature(355ra)+initial</seg>
+                                    <seg type="note">rubric+miniature(355ra)+initial(355ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -832,7 +807,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Pelyarmenus oÿ ceste nouvele,</seg>
                                     <seg type="location">352rb</seg>
-                                    <seg type="note">no new paragraph + paragraph added 352rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 352rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_20" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -1129,7 +1104,7 @@
                                     <seg type="paragraph">Or dist li comptes que Borleuz estoit ducs
                                           et quens</seg>
                                     <seg type="location">136vc</seg>
-                                    <seg type="note">Rubric+miniature+initial</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -1148,8 +1123,7 @@
                                     <seg type="paragraph">Or dist li comptes que Borleuz estoit ducs
                                           et quens</seg>
                                     <seg type="location">358ra</seg>
-                                    <seg type="note">rubric+miniature(358rb)+initial + paragraph
-                                          added 358rb</seg>
+                                    <seg type="note">rubric+miniature(358rb)+initial(358rb) + extra paragraph 358rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -1765,7 +1739,7 @@
                                     <seg type="paragraph">Quant li damoisiaus l'entendi, si fu moult
                                           joianz de ceste chose et dist :</seg>
                                     <seg type="location">358rb</seg>
-                                    <seg type="note">no new paragraph + paragraph added 358rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 358rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_56" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2019,7 +1993,7 @@
                                           fu renforciee a Helcanus, si comme devant vous ai
                                           dit.</seg>
                                     <seg type="location">142rb</seg>
-                                    <seg type="note">rubric+miniature(142rc)+initial</seg>
+                                    <seg type="note">rubric+miniature(142rc)+initial(142rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_66" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -2028,7 +2002,7 @@
                                     <seg type="paragraph">Dont il fu ainsi que la prison fu
                                           renforciee a Helcanus, si comme devant vous ai dit.</seg>
                                     <seg type="location">359vc</seg>
-                                    <seg type="note">rubric+miniature(360ra-b)+initial</seg>
+                                    <seg type="note">rubric+miniature(360ra-b)+initial(360ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_66" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2378,8 +2352,8 @@
                                           onques Helcanuz jour de sa vie n'ot mesfaiture vers
                                           lui,</seg>
                                     <seg type="location">363ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 363rb +
-                                          added paragraph 363rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 363rb +
+                                          extra paragraph 363rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_79" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2587,7 +2561,7 @@
                                     <seg type="paragraph">Ci endroit dist li comptes que, quant
                                           Clyodorus se fu partiz de Borleuz,</seg>
                                     <seg type="location">146vb</seg>
-                                    <seg type="note">rubric+miniature(146vc)+initial</seg>
+                                    <seg type="note">rubric+miniature(146vc)+initial(146vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_87" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -2715,7 +2689,7 @@
                                     <seg type="paragraph">Quant ele l'entendi, si commença a
                                           sousrire et dist :</seg>
                                     <seg type="location">365vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 365vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 365vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_91" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -2768,7 +2742,7 @@
                                     <seg type="paragraph">La premiere aventure que Laurins achevast
                                           en cest paÿs,</seg>
                                     <seg type="location">366va</seg>
-                                    <seg type="note">added paragraph 366vb</seg>
+                                    <seg type="note">extra paragraph 366vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_93" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3060,7 +3034,7 @@
                                     <seg type="paragraph">Ci endroit dist li comptes de Bourleuz que
                                           il avoit eu grant cure des .ii. enfanz,</seg>
                                     <seg type="location">150vb-c</seg>
-                                    <seg type="note">rubric+miniature(150vc)+initial</seg>
+                                    <seg type="note">rubric+miniature(150vc)+initial(150vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_104" type="ms_instance">
                                     <seg type="witness">B</seg>
@@ -3068,7 +3042,7 @@
                                     <seg type="paragraph">Lorleus (sic) que il avoit eu grant cure
                                           des .ii. enfanz,</seg>
                                     <seg type="location">368rc</seg>
-                                    <seg type="note">rubric+miniature+initial absent</seg><!-- SV: cf. Q1 -->
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_104" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3086,7 +3060,7 @@
                                     <seg type="paragraph">Ci endroit dist li comptes de Bourleuz que
                                           il avoit eu grant cure des .ii. enfanz,</seg>
                                     <seg type="location">32vc</seg>
-                                    <seg type="note">rubric+initial. Miniature absent</seg>
+                                    <seg type="note">rubric+initial. no miniature</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_105">
@@ -3129,7 +3103,7 @@
                                           l'autre regardé et furent tuit esbahy de ceste
                                           nouvele.</seg>
                                     <seg type="location">368vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 368vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 368vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_106" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3185,7 +3159,7 @@
                                     <seg type="paragraph">Lors firent grant joie et ont li baron
                                           parlé ensamble tant que les tables furent mises.</seg>
                                     <seg type="location">369ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 369ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 369ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_108" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3291,7 +3265,7 @@
                                     <seg type="paragraph">Lors quant Pelyarmenus oÿ ce, si sot
                                           vraiement que en tel maniere pot il bien estre.</seg>
                                     <seg type="location">369vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 369vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 369vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_112" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3421,7 +3395,7 @@
                                     <seg type="paragraph">Or dist li comptes que, quant li roys se
                                           fu partis de Pelyarmenus,</seg>
                                     <seg type="location">34vb</seg>
-                                    <seg type="note">rubric+miniature(34vc)+initial</seg>
+                                    <seg type="note">rubric+miniature(34vc)+initial(34vc)</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_117">
@@ -3650,7 +3624,7 @@
                                     <seg type="paragraph">Quant Myrus et si compaignon virent ce, se
                                           sont retrait et mistrent les mors ensamble</seg>
                                     <seg type="location">371vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 371vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 371vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_125" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3804,7 +3778,7 @@
                                     <seg type="paragraph">Quant li preudoms oÿ sa fille, si ot grant
                                           merveille qu'elle li vouloit dire, si dist :</seg>
                                     <seg type="location">372vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 372vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 372vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_131" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -3919,8 +3893,7 @@
                                           pucelle courtoisement envers Myrus et ses
                                           compaignons.</seg>
                                     <seg type="location">373vb</seg>
-                                    <seg type="note">rubric+miniature(373vc)+initial(373vc) + added
-                                          paragraph 374ra</seg>
+                                    <seg type="note">rubric+miniature(373vc)+initial(373vc) + extra paragraph 374ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_135" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4062,7 +4035,7 @@
                                     <seg type="paragraph">Quant cil entendi ce, si fu touz esbahiz
                                           et dist :</seg>
                                     <seg type="location">374vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 374vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 374vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_140" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4090,7 +4063,7 @@
                                           filz a l'empereur Cassidorus de Romme et de
                                           Constentinnoble,</seg>
                                     <seg type="location">375ra</seg>
-                                    <seg type="note">lettrine absent</seg><!-- revoir ici A1-->
+                                    <seg type="note">lettrine absent</seg><!-- SV ?-->
                               </ab>
                               <ab corresp="#Pelyarmenus_V_141" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4170,7 +4143,7 @@
                                     <seg type="paragraph">Quant Gasus oÿ ce, si esgarda Myrus et li
                                           fist semblant qu’il parlast,</seg>
                                     <seg type="location">375rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 375rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 375rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_144" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4275,7 +4248,7 @@
                                     <seg type="paragraph">Quant li ancien l’ont oÿ, si se sont
                                           arriere trait et distrent que non feroit il.</seg>
                                     <seg type="location">375vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 376ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 376ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_148" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4383,12 +4356,8 @@
                                     <seg type="witness">B</seg>
                                     <seg type="rubric">absent</seg>
                                     <seg type="paragraph">Quant li dui champion furent</seg>
-                                    <seg type="localisation">376va</seg><!-- SV : ici, j'ai été obligée, par souci de confirmité avec les autres 
-                                    paragraphes absents, de donner la localisation. Ne serait-il donc peut-être pas mieux de rtropédaler dans les 
-                                    cas de rubrique absente et de toujours indiquer, par le biais de la balise @localisation plutôt que celle @note
-                                    où se trouve la section de texte liée, paragraphe ou non, rubrique ou non ? -->
-                                    <seg type="note">Rubric displaced later (160vb in V2 (§154) no
-                                          new paragraph</seg>
+                                    <seg type="location">376va</seg>
+                                    <seg type="note">rubric+miniature+initial displaced later (160vb in V2 (§154). no new paragraph</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_152" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4451,7 +4420,7 @@
                                     <seg type="paragraph">Dont furent d’euls quatre mis li doi
                                           chevalier en leur lieu.</seg>
                                     <seg type="location">376vb</seg>
-                                    <seg type="note">Displaced rubric+miniature(376vb-c)+initial
+                                    <seg type="note">displaced rubric+miniature(376vb-c)+initial
                                           from Pelyarmenus_V_152 (160rc in V2)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_154" type="ms_instance">
@@ -4479,7 +4448,7 @@
                                     <seg type="paragraph">Lors peust on veoir dure escremie et
                                           pesme, quar tout aussi feroient li uns seur l’autre</seg>
                                     <seg type="location">376vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 377ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 377ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_155" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4919,7 +4888,7 @@
                                     <seg type="paragraph">Quant la pucele oÿ celui si faitement
                                           parler,</seg>
                                     <seg type="location">379va</seg>
-                                    <seg type="note">+ added paragraph 379vb</seg>
+                                    <seg type="note">extra paragraph 379vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_172" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -5543,7 +5512,7 @@
                                     <seg type="paragraph">Dont s’apresta la pucele et prist .ii.
                                           armeures de fer moult beles</seg>
                                     <seg type="location">384ra</seg>
-                                    <seg type="note">added paragraph 384rb</seg>
+                                    <seg type="note">extra paragraph 384rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_195" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -5914,7 +5883,7 @@
                                           freres Ascanus, se fu parti de la cité de Nise la
                                           cité,</seg>
                                     <seg type="location">386rc</seg>
-                                    <seg type="note">rubric+miniature(386va)+initial</seg>
+                                    <seg type="note">rubric+miniature(386va)+initial(368va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_209" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -5932,7 +5901,7 @@
                                     <seg type="paragraph">Ci endroit dit li contes que, quant Karus,
                                           li freres Ascanus, se fu partiz de la cité de Nise,</seg>
                                     <seg type="location">49va</seg>
-                                    <seg type="note">rubric+miniature(49vb)+initial</seg>
+                                    <seg type="note">rubric+miniature(49vb)+initial(49vb)</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_210">
@@ -6006,7 +5975,7 @@
                                     <seg type="paragraph">ont se sont andui esloingnié li .i. de-de
                                           l’autre et sont venu as chevaus poindre.</seg>
                                     <seg type="location">393va</seg>
-                                    <seg type="note">no initial</seg>
+                                    <seg type="note">lettrine absent</seg><!-- SV ? -->
                               </ab>
                               <ab corresp="#Pelyarmenus_V_212" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -6493,7 +6462,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Ascanus l’oÿ, si tressailli touz de joie.</seg>
                                     <seg type="location">390ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 390ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 390ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_230" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6516,7 +6485,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant cil dedenz virent ce, si leur ont plus et plus couru sus</seg>
                                     <seg type="location">390rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 390rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 390rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_231" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7848,7 +7817,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Clyodorus oÿ ce, si fu moult liez.</seg>
                                     <seg type="location">398rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 398va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 398va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_290" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7871,7 +7840,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainssi couvint la pucele vestir robe de chevalier et le fist si couvertement</seg>
                                     <seg type="location">398vb</seg>
-                                    <seg type="note">added paragraph 398vc</seg>
+                                    <seg type="note">extra paragraph 398vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_291" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8253,7 +8222,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant la damoisele oÿ ce, si devint courouciee et mua tres grant couleur,</seg>
                                     <seg type="location">401ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 401rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 401rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_308" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8388,7 +8357,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il oÿ parler de Clyodorus et il ot l’anel hors du doit,</seg>
                                     <seg type="location">402ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 402ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 402ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_314" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8411,7 +8380,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il s’entretindrent, dont ne fust nul chevaliers el monde, tant eust cuer vilain ne dur,</seg>
                                     <seg type="location">402ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 402rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 402rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_315" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8630,7 +8599,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Celes qui se furent cessees de tres grant duel faire,</seg>
                                     <seg type="location">403va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 403va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 403va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_324" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8894,7 +8863,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li dus ot ce entendu, si mist touz les princes de sa partie ensemble,</seg>
                                     <seg type="location">405rc</seg>
-                                    <seg type="note">added paragraph 405va</seg>
+                                    <seg type="note">extra paragraph 405va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_335" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9012,7 +8981,7 @@
                                     <seg type="rubric">absent</seg>
                                     <seg type="paragraph">Myrus, dont li contes ne se puet tere, choisi Dubius en son venir</seg>
                                     <seg type="location">406rb</seg>
-                                    <seg type="note">no rubric, miniature, initial. New paragraph</seg>
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_340" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9153,7 +9122,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">En tele maniere fu Mirrus secourus de Karus, le duc de Nise, et remis a cheval,</seg>
                                     <seg type="location">407ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 407ra + added paragraph 407rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 407ra + extra paragraph 407rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_346" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9255,7 +9224,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Par foi, ce dist li rois, bien vous tiennent les nez a droit !</seg>
                                     <seg type="location">408ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 408ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 408ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_350" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9368,7 +9337,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il oÿ ce, si fu moult iriez, comme cil qui avoit de trop grant hardement esté plains</seg>
                                     <seg type="location">408vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 408vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 408vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_355" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9414,7 +9383,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Mirrus vit le cheval dont il estoit dessaisi, si guerpi le sien</seg>
                                     <seg type="location">409ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 409ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 409ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_357" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9525,7 +9494,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Dont laissierent de ce a parler et furent d’autres choses moult embesoigniez.</seg>
                                     <seg type="location">410ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 410ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 410ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_362" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9577,7 +9546,7 @@
                                           Pelyarmenus.</seg>
                                     <seg type="paragraph">Or dit li comptes que, quant li rois d’Arragon et li autres furent remis arriere,</seg>
                                     <seg type="location">410rb</seg>
-                                    <seg type="note">rubric+miniature(410rc)+initial(410rc). Added paragraph 410va</seg>
+                                    <seg type="note">rubric+miniature(410rc)+initial(410rc) + extra paragraph 410va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_364" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9672,7 +9641,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainsi de deparlant retournerent aus autres qui estoient tel mené et qu'il estoient si asfebloié</seg>
                                     <seg type="location">411rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 411rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 411rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_368" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9762,7 +9731,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il entendi que son filz li einznez fu en prison,</seg>
                                     <seg type="location">411vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 411vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 411vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_372" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -9829,7 +9798,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Peliarmenus ot ce dit, si dist Daphus :</seg>
                                     <seg type="location">412rc</seg>
-                                    <seg type="note">added paragraph 412va</seg>
+                                    <seg type="note">extra paragraph 412va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_375" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10179,7 +10148,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant l’empereriz ot moult longuement parlé a lui et dit ce qu'il li plot,</seg>
                                     <seg type="location">415rc</seg>
-                                    <seg type="note">added paragraph 415vb</seg>
+                                    <seg type="note">extra paragraph 415vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_390" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10225,7 +10194,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant ele oÿ ce, si cuida maintenant que sa suer li eust dit puis qu’ele ot commencié a parler au chevalier.</seg>
                                     <seg type="location">415vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 416ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 416ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_392" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10439,7 +10408,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant ces .iiii. sorent ceste chose, si vindrent a l’empereour de Costentinnoble</seg>
                                     <seg type="location">417vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 417vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 417vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_401" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10529,7 +10498,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainssi fu li sens de la lectre que li emperieres envoia a son chier filz Helcanus.</seg>
                                     <seg type="location">418va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 418vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 418vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_405" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10552,7 +10521,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">A ceste parole se parti Aphode de lui, aussi comme par courous et revint en son palais.</seg>
                                     <seg type="location">418vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 418vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 418vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_406" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10615,7 +10584,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Edipus et sa gent furent tuit logié, li emperieres, o lui le conte de Flandres,</seg>
                                     <seg type="location">419rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 419rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 419rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_408" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10638,7 +10607,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il sorent ce, si furent moult joiant et ne cuidierent ja ce avoir fait a tans.</seg>
                                     <seg type="location">419rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 419rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 419rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_409" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10750,7 +10719,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant cil dedenz sorent la response de Karus, si en fu la cité moult esmeue des barons</seg>
                                     <seg type="location">420ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 420rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 420rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_414" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -10862,7 +10831,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ceste jouste virent maint, et meismes les dames et les damoiseles distrent :</seg>
                                     <seg type="location">421rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 421rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 421rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_419" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11020,7 +10989,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Cil de dedenz se retraistrent et enmenerent leur dames et leur damoiseles,</seg>
                                     <seg type="location">422va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 422vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 422vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_426" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11043,7 +11012,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Dont vint a l’empereour et li requist la pucele, car il la voloit avoir a fame, et ele lui.</seg>
                                     <seg type="location">422vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 422vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 422vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_427" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11118,8 +11087,8 @@
                                           envoierent a Romme.</seg>
                                     <seg type="paragraph">Ci endroit dit li contes que, quant li emperieres et li autre baron orent envoié a Romme,</seg>
                                     <seg type="location">423ra</seg>
-                                    <seg type="note">rubric+miniature+initial. Subject : focus on a
-                                          different subject</seg>
+                                    <seg type="note">rubric+miniature+initial. 
+                                          Subject : focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_430" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11260,7 +11229,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Lors se partirent tuit de la nef, et cil detindrent les .ii. dames</seg>
                                     <seg type="location">424rb</seg>
-                                    <seg type="note">added paragraph 424rc</seg>
+                                    <seg type="note">extra paragraph 424rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_436" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11388,7 +11357,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Ysodore oÿ sa suer, si fu moult esbahie et ne li voult respondre,</seg>
                                     <seg type="location">425rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 425rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 425rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_441" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11411,7 +11380,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Helcanus oÿ ce, si fu touz esbahiz et dist :</seg>
                                     <seg type="location">425rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 425rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 425rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_442" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11525,7 +11494,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Aphode, qui estoit presente, si traist le seigneur d'eulz a conseil et leur dist :</seg>
                                     <seg type="location">425vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 426ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 426ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_447" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11798,7 +11767,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Fastidorus oÿ son frere, si esgarda le roy d’Arragon, son oncle,</seg>
                                     <seg type="location">427vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 428ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 428ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_458" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -11955,7 +11924,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Mirrus oÿ la nouvele, si mist cor a bouche et sonna .ii. mos.</seg>
                                     <seg type="location">429ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 429ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 429ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_465" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -12111,7 +12080,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Li message se parti de eulz et se mist au chemin par devers Romme,</seg>
                                     <seg type="location">430ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 430rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 430rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_472" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -12134,7 +12103,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li dus de Nise fu el palais descendus, si fu tost congneus des uns et des autres</seg>
                                     <seg type="location">430rc</seg>
-                                    <seg type="note">added paragraph 430rc</seg>
+                                    <seg type="note">extra paragraph 430rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_473" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -12474,7 +12443,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ceste nouvele ala par la ville, et sot Helcanus que cele n'avoit nul champion.</seg>
                                     <seg type="location">432rc</seg>
-                                    <seg type="note">no new paragraph + new paragraph 432rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 432rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_487" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -12698,7 +12667,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainsi fu la pes ordenee, et se remist li rois a aler vers Rome.</seg>
                                     <seg type="location">434ra</seg>
-                                    <seg type="note">no new paragraph + new paragraph 434rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 434rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_497" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13031,7 +13000,7 @@
                                     <seg type="witness">G</seg>
                                     <seg type="paragraph">Quant li empereres ot ce dit, si li vint une famine si grant</seg>
                                     <seg type="location">445ra</seg>
-                                    <seg type="note">lettrine absent</seg><!-- revoir ici A1 -->
+                                    <seg type="note">lettrine absent</seg><!-- SV? -->
                               </ab>
                               <ab corresp="#Pelyarmenus_V_511" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -13198,7 +13167,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li peschierres l’ot entendu, si ne pot dire mot, ainz commença a sospirer.</seg>
                                     <seg type="location">437vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 437vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 437vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_518" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13288,7 +13257,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Lors s’apresta Pelyarmenus a l’endemain, et meismement Dyalogus et autres chevaliers de ci a .v.,</seg>
                                     <seg type="location">438va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 438va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 438va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_522" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13446,7 +13415,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant Pelyarmenus oï ce, si li fist signe que il peust parler a lui, et il si fist.</seg>
                                     <seg type="location">439rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 439va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 439va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_529" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13599,7 +13568,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Atant prist congié li .i. a l’autre, et s’en revint li dus a Dorus</seg>
                                     <seg type="location">440va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 440va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 440va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_535" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13993,7 +13962,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Lors a cil ouvert son huis, et li empereres et li lyons entrerent ens.</seg>
                                     <seg type="location">442vb</seg>
-                                    <seg type="note">added paragraph 442vc</seg>
+                                    <seg type="note">extra paragraph 442vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_552" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -14084,7 +14053,7 @@
                                     <seg type="rubric">Comment li prince et li baron vindrent au
                                           jour qui leur fu mis de la pais.</seg>
                                     <seg type="location">99rb</seg>
-                                    <seg type="note">rubric+initial. Miniature absent.</seg>
+                                    <seg type="note">rubric+initial. no miniature.</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_556">
@@ -14276,7 +14245,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il fu repairiez de paumoisons, si regarda entour lui et ne vit que son cheval et le lyon,</seg>
                                     <seg type="location">444rc</seg>
-                                    <seg type="note">added paragraph 444rc</seg>
+                                    <seg type="note">extra paragraph 444rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_564" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -14454,7 +14423,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Maintenant fu demandé a l’empereeur conment il vouloit que ceste assemblee fust faite.</seg>
                                     <seg type="location">445vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 445vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 445vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_572" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -14500,7 +14469,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il l'orent entendu, si ala maintenant la novelle parmi Rome,</seg>
                                     <seg type="location">445vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 445vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 445vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_574" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -14642,7 +14611,7 @@
                                     <seg type="rubric">absent</seg>
                                     <seg type="paragraph">Porus, qui moult avoit le cuer a ce que on parlast de lui</seg>
                                     <seg type="location">446vb</seg>
-                                    <seg type="note">no rubric, miniature, initial. New paragraph</seg>
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_580" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -14764,7 +14733,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainsi avint de ceste chose que on desfendi sus cors et sus avoir</seg>
                                     <seg type="location">447rc</seg>
-                                    <seg type="note">added paragraph 447va</seg>
+                                    <seg type="note">extra paragraph 447va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_585" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15123,7 +15092,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ainsi que il avoient leur chançon finee et il disoient leur issue,</seg>
                                     <seg type="location">449va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 449vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 449vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_601" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15235,7 +15204,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Pour ceste chose faire asavoir, Helcanus, Dorus, Pelyarmenus se firent moult richement et moult seurement aprester</seg>
                                     <seg type="location">450rb</seg>
-                                    <seg type="note">added paragraph 450rb</seg>
+                                    <seg type="note">extra paragraph 450rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_606" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15307,8 +15276,8 @@
                                           furent.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que, quant li prince et li baron furent mis tout hors de Rome,</seg>
                                     <seg type="location">105rb</seg>
-                                    <seg type="note">rubric+miniature+initial. Different
-                                          subject</seg>
+                                    <seg type="note">rubric+miniature+initial. 
+                                          Suvject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_608" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -15318,8 +15287,7 @@
                                           faisans.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que, quant li prince et li baron se furent mis tout hors de Rome,</seg>
                                     <seg type="location">106ra-b</seg>
-                                    <seg type="note">rubric+miniature(106ra-b)+initial(106ra).
-                                          Doubling of rubric already on 105rb</seg>
+                                    <seg type="note">doubling rubric+miniature(106ra-b)+initial(106ra), already on 105rb</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_609">
@@ -15332,7 +15300,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Moult dura longuement cilz tournoiement et d’une part et d’autre,</seg>
                                     <seg type="location">450vb</seg>
-                                    <seg type="note">added paragraph 450vc</seg>
+                                    <seg type="note">extra paragraph 450vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_609" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15428,8 +15396,8 @@
                                           de Romme et de l'emperris.</seg>
                                     <seg type="paragraph">Or nous dist ci endroit li contes que, aprés ce que li baron et li prince de mainte region se furent partis</seg>
                                     <seg type="location">451rc</seg>
-                                    <seg type="note">rubric+miniature+initial. Different
-                                          subject</seg>
+                                    <seg type="note">rubric+miniature+initial. 
+                                          Subject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_613" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15591,7 +15559,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant il oïrent la novelle, si furent touz esbahis et n’en sorent autre chose</seg>
                                     <seg type="location">452vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 452vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 452vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_620" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -15879,7 +15847,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant l’empereris entendi ce, si dist :</seg>
                                     <seg type="location">454rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 454rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 454rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_632" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -16128,7 +16096,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Ceste chose demoura ainsint.</seg>
                                     <seg type="location">455vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 455vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 455vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_643" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -16151,7 +16119,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Lors conta li chastelains une partie de sa maniere,</seg>
                                     <seg type="location">456ra</seg>
-                                    <seg type="note">no new paragraph + added paragraph 456ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 456ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_644" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -16430,7 +16398,7 @@
                                     <seg type="witness">X2</seg>
                                     <seg type="paragraph">Lors vint la nuit que li chastelains vint de Robur,</seg>
                                     <seg type="location">112rc</seg>
-                                    <seg type="note">added paragraph 112va</seg>
+                                    <seg type="note">extra paragraph 112va</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_657">
@@ -16799,7 +16767,7 @@
                                           Celydus.</seg>
                                     <seg type="paragraph">Or dist li contes que quant Celidus et Dyanor, son cousin, furent venu en la cité de Romme, li damoisiaus Celydus,</seg>
                                     <seg type="location">460ra-b</seg>
-                                    <seg type="note">addition of rubric+miniature(460rb)+initial(460rb)</seg>
+                                    <seg type="note">extra rubric+miniature(460rb)+initial(460rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_672" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -17698,8 +17666,8 @@
                                           comment il ala au parlement a Rohais.</seg>
                                     <seg type="paragraph">Or dist li contes ci endroit que, quant le prince ce fu partis d’Antyoche,</seg>
                                     <seg type="location">118va</seg>
-                                    <seg type="note">rubric+miniature+initial. Different subject //
-                                          B</seg>
+                                    <seg type="note">rubric+miniature+initial. 
+                                          Subject : different subject // B</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_711">
@@ -17735,7 +17703,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Adonc ot le prince moult grant joie et se mist hors de la soupeçon ou cilz l’avoit mis,</seg>
                                     <seg type="location">464vb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 464vb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 464vb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_712" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -17758,7 +17726,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Quant li princes vit ce, si dist :</seg>
                                     <seg type="location">464vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 464vc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 464vc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_713" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -18120,7 +18088,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">En ce qu’il estoient en ceste matire, la pucelle tenoit Celydus a conseil</seg>
                                     <seg type="location">466va</seg>
-                                    <seg type="note">no new paragraph + added paragraph 466va</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 466va</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_729" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -18553,7 +18521,7 @@
                                     <seg type="witness">X2</seg>
                                     <seg type="paragraph">Helcanus, d’autre part, avoit mandé a son frere Dorus ceste chose</seg>
                                     <seg type="location">122vb</seg>
-                                    <seg type="note">added paragraph 122vb</seg>
+                                    <seg type="note">extra paragraph 122vb</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_748">
@@ -18664,7 +18632,7 @@
                                     <seg type="rubric">absent</seg>                                    
                                     <seg type="paragraph">En ce que les .ii. parties furent aprestees de ferir ensemble</seg>
                                     <seg type="location">469rb</seg>
-                                    <seg type="note">Rubric+miniature+initial absent. §</seg><!-- revoir ici A2 -->
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_752" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -18742,7 +18710,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Atant se mist Mirrus a la voie en guise d’onme qui vouloit conter mesage,</seg>
                                     <seg type="location">469vc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 470ra</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 470ra</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_755" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -18833,7 +18801,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Li marchis de Fabonne, qui joennes et plains de chevalerie estoit,</seg>
                                     <seg type="location">470rb</seg>
-                                    <seg type="note">lettrine absent</seg>
+                                    <seg type="note">lettrine absent</seg><!-- SV? -->
                               </ab>
                               <ab corresp="#Pelyarmenus_V_759" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -19949,7 +19917,7 @@
                                     <seg type="rubric">absent</seg>
                                     <seg type="paragraph">Hayno, dont vous avez oï dessus, ne chaça pas les siens en vain,</seg>                                    
                                     <seg type="location">477ra</seg>
-                                    <seg type="note">rubric, miniature, initial absent</seg>
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_808" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20368,7 +20336,7 @@
                                     <seg type="rubric">absent</seg>                                    
                                     <seg type="paragraph">Quant Abylon vit que Dorus ne venoit,</seg>
                                     <seg type="location">479va</seg>
-                                    <seg type="note">Rubric+miniature+initial absent. §</seg><!-- revoir ici A2 -->
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_826" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20528,7 +20496,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Dont ne demoura pas que Mardocheus vint au duc de Nice,</seg>
                                     <seg type="location">480rc</seg>
-                                    <seg type="note">no new paragraph + added paragraph 480rc</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 480rc</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_832" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20718,7 +20686,7 @@
                                           comment il morut.</seg>
                                     <seg type="paragraph">Voirs fu, ainsi com vous trouverez en l'ystoire,</seg>
                                     <seg type="location">481rb</seg>
-                                    <seg type="note">rubric+miniature(481rc)+initial</seg>
+                                    <seg type="note">rubric+miniature(481rc)+initial(481rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_840" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20738,7 +20706,7 @@
                                           chastelaine.</seg>
                                     <seg type="paragraph">Verité fu, ainsi com vous trouverez en l'ystoire,</seg>
                                     <seg type="location">133vc</seg>
-                                    <seg type="note">rubric+initial(134ra). Miniature absent.</seg>
+                                    <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_841">
@@ -20886,7 +20854,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Atant se mist la dame a la voie avec le chastelain et avec la bonne gent qui erent o lui venus.</seg>
                                     <seg type="location">482rb</seg>
-                                    <seg type="note">no new paragraph + added paragraph 484rb</seg>
+                                    <seg type="note">no new paragraph + extra paragraph 484rb</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_847" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20930,15 +20898,14 @@
                                     <seg type="explicit">Ci fenist le livre de Cassydorus, empereeur
                                           de Rome et de Constentinoble, et aprés conmence li
                                           derreains de ses enfans.</seg>
-                                    <seg type="location">50b-c</seg>
-                                    <seg type="note"
-                                          >explicit(brown)+incipit(red)+miniature(50rb-c)+initial</seg>
+                                    <seg type="location">50rb-c</seg>
+                                    <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
                                     <seg type="witness">B</seg>
                                     <seg type="explicit">absent</seg>
                                     <seg type="location">482rc</seg>
-                                    <seg type="note">explicit+incipit+miniature+initial absent. No §</seg><!-- revoir ici -->
+                                    <seg type="note">no explicit+incipit+miniature+initial. no §</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -20946,8 +20913,7 @@
                                           de Romme et de Constantinoble, et aprés conmence li
                                           derreains de ses enfans.</seg>
                                     <seg type="location">491va-b</seg>
-                                    <seg type="note"
-                                          >explicit(XXX)+incipit(XXX)+miniature(491va-b)+initial(492ra)</seg>
+                                    <seg type="note">explicit(red)+incipit(red)+miniature(491va-b)+initial(492ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">
                                     <seg type="witness">X2</seg>
