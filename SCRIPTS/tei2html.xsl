@@ -34,14 +34,13 @@
         <p><b>§<span class="paraNum"><xsl:value-of select="substring-after(@n,'P')"/></span></b><xsl:text></xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="pb">
-        <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></sup>
+        <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
     </xsl:template>
     <xsl:template match="cb">
         <sup><span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
     </xsl:template>
     <xsl:template match="num">
-        .<span class="num"><xsl:apply-templates/></span>.        
-    </xsl:template>
+        .<span class="num"><xsl:apply-templates/></span>.</xsl:template>
     <xsl:template match="hi[@type='exp']">
         <sup><span class="exp"><xsl:apply-templates/></span></sup> 
     </xsl:template>
@@ -83,9 +82,7 @@
     <xsl:template match="lem">
         <span class="lem"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="supplied">
-        ‹<xsl:apply-templates/><xsl:text></xsl:text> <xsl:value-of select="translate(@source,'#','')"/>›
-    </xsl:template>
+    <xsl:template match="supplied">‹<xsl:apply-templates/><xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/>]›</xsl:template>
     <xsl:template match="note">
         [<i><span class="note"><xsl:apply-templates/></span></i>]
     </xsl:template>
