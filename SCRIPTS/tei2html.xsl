@@ -59,17 +59,10 @@
     <xsl:template match="hi[@type='italique']">
         <i><xsl:apply-templates/></i> 
     </xsl:template>    
-    <xsl:template match="said">
+    <xsl:template match="said"> <!-- SG: quid quand deux direct/aloud se suivent pour tourner ça en tiret ? --><!-- SG: je voudrais ici dédoubler les conditions aloud+direct -->
+        <!-- SG: y a-t-il moyen de faire passer l'affaire à la ligne ? -->
         <xsl:choose>
-            <xsl:when test="@direct='true'"> <!-- SG: je voudrais ici dédoubler les conditions aloud+direct -->
-               <!-- SG: y a-t-il moyen de faire passer l'affaire à la ligne ? -->
-                « <xsl:apply-templates/> »
-            </xsl:when> <!-- SG: quid quand deux direct/aloud se suivent pour tourner ça en tiret ? -->
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+            <xsl:when test="@direct='true'">« <xsl:apply-templates/> »</xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose></xsl:template>
     <xsl:template match="del"> 
         <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
