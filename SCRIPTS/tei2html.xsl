@@ -91,7 +91,12 @@
     <xsl:template match="lem">
         <span class="lem"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="supplied"><b><xsl:apply-templates/><xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/>]</b></xsl:template>
+    <xsl:template match="supplied">
+        <span class="tooltip"><span class="supplied"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@source"/></span>
+       <!--      
+        <xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/> -->
+        </span></span>
+    </xsl:template>
     <xsl:template match="note"><span class="tooltip"><span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span></span></xsl:template>
     <xsl:template match="c">   
         <i><span class="c"><xsl:apply-templates/></span></i>
