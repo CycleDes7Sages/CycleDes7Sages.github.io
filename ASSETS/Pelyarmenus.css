@@ -3,6 +3,7 @@ p{
     text-align:justify;
     height: auto;
     font-size:20px;
+    word-spacing:5px;
 }
 h1 {
     color:darkred;
@@ -45,12 +46,12 @@ body {
 }
 
 .rs {
-    color:navy;    
+    color:navy;   
     cursor: pointer;
 }
 
 .place {
-    color:olive;    
+    color:olive;   
     cursor: pointer;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .c {
-    font-variant:small-caps; 
+    font-variant:small-caps;
     font-size:30px;
     color:darkred;
 }
@@ -71,12 +72,39 @@ body {
 .del {
     text-decoration:line-through;
     }
-    
+   
 .lem {
-    color:darkgrey;
+    font-style: italic;
 }
 
 .note {
-    text-decoration:underline;    
     cursor: pointer;
+}
+
+.tooltip {
+position: relative;
+opacity: 1;
+}
+
+.tooltip .tooltip-content {
+visibility: hidden;
+width: 250px;
+background-color: #f9f9f9;
+color: #333;
+text-align: center;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 5px;
+position: absolute;
+z-index: 9999;
+bottom: 125%;
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-content {
+visibility: visible;
+opacity: 1;
 }

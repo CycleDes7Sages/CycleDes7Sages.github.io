@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
-    version="2.0"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-    
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:template match="/">
         <html>
             <head>
-                <title>Le Roman de Pelyarmenus</title>
-                <title>édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte (sous la direction
-                    de Simone Ventura)</title>
+                <title>Le Roman de Pelyarmenus, édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte 
+                    (sous la direction de Simone Ventura)</title>
                 <link rel="stylesheet" type="text/css" href="../ASSETS/Pelyarmenus.css"/>
             </head>
             <body><xsl:apply-templates/></body>
@@ -19,7 +14,7 @@
     <xsl:template match="teiHeader">
     </xsl:template>
     <xsl:template match="head[@type='rubrique']">
-        <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1> 
+        <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1>
     </xsl:template>
     <xsl:template match="head[@type='explicit']">
         <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1>
@@ -28,10 +23,10 @@
         <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>
     <xsl:template match="graphic[@url]"> <!-- SG: help -->
-        <i><span class="url"></span><xsl:text></xsl:text><xsl:apply-templates/></i>
+        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
     </xsl:template>
     <xsl:template match="p">
-        <p><b>§<span class="paraNum"><xsl:value-of select="substring-after(@n,'P')"/></span></b><xsl:text></xsl:text><xsl:apply-templates/></p>
+        <p><b>§<span class="paraNum"><xsl:value-of select="substring-after(@n,'P')"/></span></b><xsl:text> </xsl:text><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="pb">
         <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
@@ -39,17 +34,16 @@
     <xsl:template match="cb">
         <sup><span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
     </xsl:template>
-    <xsl:template match="num">
-        .<span class="num"><xsl:apply-templates/></span>.</xsl:template>
+    <xsl:template match="num">.<span class="num"><xsl:apply-templates/></span>.</xsl:template>
     <xsl:template match="hi[@type='exp']">
-        <sup><span class="exp"><xsl:apply-templates/></span></sup> 
+        <sup><span class="exp"><xsl:apply-templates/></span></sup>
     </xsl:template>
     <xsl:template match="hi">
         <xsl:choose>
             <xsl:when test="@rend='exp'">
                 <sup><span class="exp"><xsl:apply-templates/></span></sup>
             </xsl:when>
-        </xsl:choose>  
+        </xsl:choose> 
         <xsl:choose>
             <xsl:when test="@rend='italique'">
                 <i><xsl:apply-templates/></i>
@@ -57,29 +51,49 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="hi[@type='italique']">
-        <i><xsl:apply-templates/></i> 
-    </xsl:template>    
-    <xsl:template match="said"> <!-- SG: quid quand deux direct/aloud se suivent pour tourner ça en tiret ? --><!-- SG: je voudrais ici dédoubler les conditions aloud+direct -->
-        <!-- SG: y a-t-il moyen de faire passer l'affaire à la ligne ? -->
+        <i><xsl:apply-templates/></i>
+    </xsl:template>  
+    <xsl:template match="said">
         <xsl:choose>
-            <xsl:when test="@direct='true'">« <xsl:apply-templates/> »</xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose></xsl:template>
-    <xsl:template match="del"> 
+            <xsl:when test="@rendition='dialogue'">
+                <xsl:choose>
+                    <!--<xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and matches(.,'^.*[\.!\?]$')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>-->
+                    <xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and ends-with(.,'.')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>
+                    <xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and ends-with(.,'?')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>
+                    <xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and ends-with(.,'!')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>
+                    <xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and not(matches(.,'^.*[\.!\?]$'))"><br/> – <xsl:apply-templates/>&#xA0;»</xsl:when>
+                    <xsl:when test="preceding-sibling::said and following-sibling::said[1][@rendition='dialogue']"><br/> – <xsl:apply-templates/> </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:when test="@direct='true' and @aloud='true' and not(@rendition='dialogue')">
+                <xsl:choose>
+                    <xsl:when test="following-sibling::said[1][@rendition='dialogue']"><br/> «&#xA0;<xsl:apply-templates/> </xsl:when>
+                    <xsl:otherwise><br/> «&#xA0;<xsl:apply-templates/>&#xA0;»<br/></xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="del">
         <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="add"> 
+    <xsl:template match="add">
         <b><xsl:apply-templates></xsl:apply-templates></b>
     </xsl:template>
-    <xsl:template match="rdg"> 
-        <i>[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</i> 
+    <xsl:template match="app">
+        <span class="tooltip"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="rdg">
+        <span class="tooltip-content">[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</span>
     </xsl:template>
     <xsl:template match="lem">
         <span class="lem"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="supplied">‹<xsl:apply-templates/><xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/>]›</xsl:template>
-    <xsl:template match="note">
-        [<i><span class="note"><xsl:apply-templates/></span></i>]
-    </xsl:template>
-    <xsl:template match="c">    
+    <xsl:template match="supplied"><b><xsl:apply-templates/><xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/>]</b></xsl:template>
+    <xsl:template match="note"><span class="tooltip"><span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span></span></xsl:template>
+    <xsl:template match="c">   
         <i><span class="c"><xsl:apply-templates/></span></i>
     </xsl:template>
     <xsl:template match="persName">
@@ -89,36 +103,22 @@
         <span class="placeName"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="rs">
-        <span class="rs"><xsl:apply-templates/></span>
+        <span class="tooltip"><span class="rs"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@key"/></span></span></span>
     </xsl:template>
     <xsl:template match="rs[@type='people']">
-        <span class="people"><xsl:apply-templates/></span> 
-        <xsl:choose>
-            <xsl:when test="@type='people'">
-                <span class="people"><xsl:apply-templates/></span>
-            </xsl:when>
-            <xsl:when test="@type='place'">
-                <span class="place"><xsl:apply-templates/></span>
-            </xsl:when>
-        </xsl:choose>
+        <span class="tooltip"><span class="people"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@key"/></span></span></span>
     </xsl:template>
     <xsl:template match="rs[@type='place']">
-        <span class="place"><xsl:apply-templates/></span> 
+        <span class="tooltip"><span class="place"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@key"/></span></span></span>
     </xsl:template>
     <xsl:template match="seg">
         <xsl:choose>
-            <xsl:when test="@ana='lettre'"> 
-                "<xsl:apply-templates/>"
-            </xsl:when>
-            <xsl:when test="@ana='chanson'">
-                "<xsl:apply-templates/>"
-            </xsl:when>
-            <xsl:otherwise>
-                '<xsl:apply-templates/>'
-            </xsl:otherwise>
+            <xsl:when test="@ana='lettre'">"<xsl:apply-templates/>"</xsl:when>
+            <xsl:when test="@ana='chanson'">"<xsl:apply-templates/>"</xsl:when>
+            <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
         <i>[<xsl:apply-templates/>]</i>
-    </xsl:template>   
+   </xsl:template>  
 </xsl:stylesheet>

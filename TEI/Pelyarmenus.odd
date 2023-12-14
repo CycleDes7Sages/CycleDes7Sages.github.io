@@ -705,8 +705,13 @@
                 </valList>
               </attDef>
               <attDef ident="who" mode="change" usage="opt">
-                <valList type="semi" mode="replace">
+                <valList type="closed" mode="replace">
                   <valItem ident="#nar"/>
+                </valList>
+              </attDef>
+              <attDef ident="rendition" mode="replace" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="dialogue"/>
                 </valList>
               </attDef>
             </attList>
