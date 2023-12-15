@@ -22,8 +22,8 @@
     <xsl:template match="figDesc">
         <h2><i><span class="figDesc"><xsl:apply-templates/></span></i></h2>
     </xsl:template>
-    <xsl:template match="graphic[@url]"> <!-- SG: help -->
-        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
+    <xsl:template match="graphic[@url]">
+        <h2><a href="{@url}" target="_blank" class="GallicaLink">🖼️</a></h2>
     </xsl:template>
     <xsl:template match="p">
         <p><b>§<span class="paraNum"><xsl:value-of select="substring-after(@n,'P')"/></span></b><xsl:text> </xsl:text><xsl:apply-templates/></p>
@@ -71,6 +71,12 @@
                     <xsl:otherwise><br/> «&#xA0;<xsl:apply-templates/>&#xA0;»<br/></xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
+            <xsl:when test="@direct='true' and aloud='true' and @next"> <!-- SG : HELP (again) : j'ai tenté qqch pour assurer la visualisation des discours qui doivent être
+            scindés en deux balises (xml:id et next), maiiis ça ne marche pas (ex dans le fichier de Sophie en bas du §426) -->
+                <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
+            <xsl:when test="@direct='true' and aloud='true' and @xml:id">
+                <xsl:apply-templates/>&#xA0;»<br/>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
@@ -86,16 +92,19 @@
         <span class="tooltip"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="rdg">
-        <span class="tooltip-content">[<xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/>]</span>
+        <span class="tooltip-content"><xsl:apply-templates/><xsl:text> </xsl:text><xsl:value-of select="translate(@wit,'#','')"/></span>
     </xsl:template>
     <xsl:template match="lem">
         <span class="lem"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="supplied">
-        <span class="tooltip"><span class="supplied"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@source"/></span>
-       <!--      
-        <xsl:text></xsl:text>[<xsl:value-of select="translate(@source,'#','')"/> -->
-        </span></span>
+        <!-- <span class="tooltip"><span class="supplied"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@source"/></span></span></span> -->
+        <span class="tooltip">
+            <xsl:choose>
+                <xsl:when test="@source='#SL'">[<xsl:apply-templates/>]</xsl:when>
+                <xsl:otherwise>‹<xsl:apply-templates/>›</xsl:otherwise>
+            </xsl:choose>
+            <span class="tooltip-content"><xsl:value-of select="@source"/></span></span>
     </xsl:template>
     <xsl:template match="note"><span class="tooltip"><span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span></span></xsl:template>
     <xsl:template match="c">   
@@ -104,9 +113,7 @@
     <xsl:template match="persName">
         <span class="persName"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="placeName">
-        <span class="placeName"><xsl:apply-templates/></span>
-    </xsl:template>
+    <xsl:template match="placeName"><span class="placeName"><xsl:apply-templates/></span></xsl:template>
     <xsl:template match="rs">
         <span class="tooltip"><span class="rs"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@key"/></span></span></span>
     </xsl:template>
