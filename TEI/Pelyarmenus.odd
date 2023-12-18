@@ -705,7 +705,7 @@
                 </valList>
               </attDef>
               <attDef ident="who" mode="change" usage="opt">
-                <valList type="closed" mode="replace">
+                <valList type="closed" mode="replace" usage="opt">
                   <valItem ident="#nar"/>
                 </valList>
               </attDef>
@@ -725,6 +725,11 @@
                   <valItem ident="discoursEnchassé"/>
                   <valItem ident="lettre"/>
                   <valItem ident="chanson"/>
+                </valList>
+              </attDef>
+              <attDef ident="rendition" mode="replace" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="dialogue"/>
                 </valList>
               </attDef>
             </attList>
