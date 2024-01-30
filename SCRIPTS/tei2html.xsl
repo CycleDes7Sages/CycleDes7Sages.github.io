@@ -104,7 +104,7 @@
                 <xsl:when test="@source='#SL'">[<xsl:apply-templates/>]</xsl:when>
                 <xsl:otherwise>‹<xsl:apply-templates/>›</xsl:otherwise>
             </xsl:choose>
-            <span class="tooltip-content"><xsl:value-of select="@source"/></span></span>
+            <span class="tooltip-content"><xsl:value-of select="translate(@source, '#','')"/></span></span>
     </xsl:template>
     <xsl:template match="note"><span class="tooltip"><span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span></span></xsl:template>
     <xsl:template match="c">   
