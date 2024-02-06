@@ -306,11 +306,12 @@
                   <lem wit="#V2 #G #X2">ele savoit bien</lem>
                   <rdg wit="#B">bien savoit</rdg>
                </app> que, se il savoient que leur <app>
-                  <lem wit="#V2 #G"><app>
-                        <lem wit="#V2 #G">seigneurs</lem>
-                        <rdg wit="#X2">seigneur</rdg>
-                     </app> fussent</lem>
-                  <rdg wit="#B">seigneur fust</rdg>
+                  <lem wit="#V2 #G">seigneurs</lem>
+                  <rdg wit="#B #X2">seigneur</rdg>
+               </app>
+               <app>
+                  <lem wit="#V2 #G #X2">fussent</lem>
+                  <rdg wit="#B">fust</rdg>
                </app> el paÿs, ele ne les porroit plus tenir. Dont ne sot que faire, <app>
                   <lem wit="#V2 #G #X2">si</lem>
                   <rdg wit="#B">tant que ele</rdg>
@@ -332,9 +333,16 @@
                      </app></lem>
                   <rdg wit="#B">andeus</rdg>
                </app>la ou il jooient aus eschés. <app>
-                  <lem wit="#V2">Et il s’estoit levez</lem>
-                  <rdg wit="#B">Dont se sont drecié</rdg>
-                  <rdg wit="#G #X2">Et ilz se sont levés</rdg>
+                  <lem wit="#V2 #G #X2">Et il</lem>
+                  <rdg wit="#B">Dont</rdg>
+               </app>
+               <app>
+                  <lem wit="#B #G #X2">se sont</lem>
+                  <rdg wit="#V2">s'estoit</rdg>
+               </app>
+               <app>
+                  <lem wit="#V2 #G #X2">levez</lem>
+                  <rdg wit="#B">drecié</rdg>
                </app> encontre eles et distrent que <said aloud="true" direct="false">bien fussent
                   eles venues</said>. <said aloud="true" direct="true">Par Dieu, distrent eles, bien
                   le devez dire, car nous vous aportons bonnes nouveles.</said><said
@@ -404,10 +412,10 @@
                   </app> ce qui ja se feist liee de <app>
                      <lem wit="#V2 #G #X2">l’un</lem>
                      <rdg wit="#B">nul</rdg>
-                  </app> de nous, se el point ou nous sommes fussiez requises de <app>
-                     <lem wit="#V2 #G #X2">nous et de</lem>
+                  </app> de nous, se el point ou nous sommes fussiez requises <app>
+                     <lem wit="#V2 #G #X2">de nous et</lem>
                      <rdg wit="#B"/>
-                  </app> nos amours ? Certes, je <app>
+                  </app> de nos amours ? Certes, je <app>
                      <lem wit="#V2 #G #X2">ne sai</lem>
                      <rdg wit="#B">sai que non vous</rdg>
                   </app>, car tout fussons <app>
@@ -473,7 +481,7 @@
             <p n="P191"><c ana="lettrine 2">Q</c>uant eles ont oÿ ce, si n’i ot <app>
                   <lem wit="#V2 #G #X2">nule</lem>
                   <rdg wit="#B">nule d'eles</rdg>
-               </app> a qui grant couleur ne soit venue. Et esgarda li une l’autre, et tant que
+               </app> a qui grant couleur ne soit venue, et esgarda li une l’autre, et tant que
                elles ont respondu : <said aloud="true" direct="true">Sire <persName key="Mirrus"
                      >Myrrus</persName>, <app>
                      <lem wit="#V2 #G #X2">ce</lem>
@@ -493,14 +501,14 @@
                   </app> a touzjors nous em porrions loer. Et sachiez <app>
                      <lem wit="#V2 #G #X2">que</lem>
                      <rdg wit="#B">que vous</rdg>
-                  </app> trop vous estes hastez de ce dire.</said> Quant il s’oÿ ainssi ramporner,
+                  </app> trop vous estes hastez de ce dire!</said> Quant il s’oÿ ainssi ramporner,
                si pensa que <said aloud="false" direct="false">il n’avoit mie parlé a <app>
                      <lem wit="#V2 #G ">sa</lem>
                      <rdg wit="#B">leur</rdg>
                   </app> volenté</said>, si dist : <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #G">Damoisele</lem>
                      <rdg wit="#B">Par Dieu, damoisele</rdg>
-                  </app>, povre paiement pouez avoir de moi, ce poise moi, mais je vous ai voir
+                  </app>, povre paiement pouez avoir de moi. Ce poise moi, mais je vous ai voir
                   dit.</said><said rendition="dialogue" aloud="true" direct="true">Par foy, dist
                   ele, sauve soit vostre grace, <app>
                      <lem wit="#V2 #X2">vous</lem>
@@ -544,10 +552,14 @@
                   </app> ! Que mal <app>
                      <lem wit="#V2 #G #X2">dehez</lem>
                      <rdg wit="#G">dez</rdg>
-                  </app> ait <app>
-                     <lem wit="#V2 #X2">ore</lem>
+                  </app>
+                  <app>
+                     <lem wit="#V2 #B #X2">ait</lem>
+                     <rdg wit="#G">ait il</rdg>
+                  </app>
+                  <app>
+                     <lem wit="#V2 #G #X2">ore</lem>
                      <rdg wit="#B"/>
-                     <rdg wit="#G">il ore</rdg>
                   </app> qui gré vous en <app>
                      <lem wit="#V2 #G #X2">set</lem>
                      <rdg wit="#B">set fors vous</rdg>
@@ -586,7 +598,8 @@
                         <lem wit="#B #G #X2">l'ai</lem>
                         <rdg wit="#V2">l’a<add place="above" hand="#main1">i</add></rdg>
                      </app> dit</said>. Sachiez que moult <cb n="f"/>se fia en moi cil qui en cest
-                  paÿs m’envoia. S’i m’est mescheu de mes compaignons et de moi, la merci Dieu, <app>
+                  paÿs m’envoia<note type="notecritique">Il s'agit de ###</note>. S’i m’est mescheu
+                  de mes compaignons et de moi, la merci Dieu, <app>
                      <lem wit="#V2 #G #X2">il m’est auques bien cheu <app>
                            <lem wit="#V2 #X2">de moi</lem>
                            <rdg wit="#G"/>
@@ -598,7 +611,8 @@
                      <rdg wit="#B">qui paine y a mis</rdg>
                   </app>, si ne set on nouveles de vous<note type="notecritique">Dans les quatre
                      témoins, il est difficile de distinguer clairement <hi rend="italique">n</hi>
-                     et <hi rend="italique">v</hi>. Nous nous laissons guider par le sens.</note>qui <app>
+                     et <hi rend="italique">v</hi>. Nous nous laissons guider par le sens.</note>
+                  qui <app>
                      <lem wit="#V2 #G #X2">gueres facent</lem>
                      <rdg wit="#B">facent mie moult</rdg>
                   </app> a prisier. Et pour ce, <app>
@@ -624,8 +638,9 @@
                   </app> blasme. Et ces <num>ii</num> choses si font a douter.</said><said
                   rendition="dialogue" aloud="true" direct="true">Par Dieu, sire chevaliers, dist
                   ele, moult vous ai ore bien escouté. Et sachiez que en vous a trop de refui. Moult
-                  fussiez bons chastiaus, car me dites ore <said aloud="true" direct="false">quiex
-                     vos cuers <app>
+                  fussiez bons chastiaus<note type="notecritique">Sens métaphorique '###", cf.
+                     Glossaire.</note>. Car me dites ore <said aloud="true" direct="false">quiex vos
+                     cuers <app>
                         <lem wit="#B #X2">est</lem>
                         <rdg wit="#V2 #G"/>
                      </app> - il est autres que vous n’avez moustré - et queles sont ces
@@ -648,7 +663,9 @@
                      <lem wit="#V2 #G">vous otroi</lem>
                      <rdg wit="#B">l'otroi</rdg>
                      <rdg wit="#X2">le vous otroi</rdg>
-                  </app>
+                  </app><note type="notecritique">Ellipse du pronom régime <hi rend="italique"
+                        >le</hi>. Cf. variante de <hi rend="italique">B</hi> et <hi rend="italique"
+                        >X2</hi>.</note>
                   <app>
                      <lem wit="#V2 #G">volentiers</lem>
                      <rdg wit="#B #X2"/>
@@ -683,7 +700,7 @@
                      <rdg wit="#B">tost</rdg>
                   </app>.</said><said rendition="dialogue" aloud="true" direct="true">Et qui ? dist
                   ele.</said><said rendition="dialogue" aloud="true" direct="true">Je le vous dirai,
-                  dist il. Paour et blasme.</said><said rendition="dialogue" aloud="true"
+                  dist il: paour et blasme.</said><said rendition="dialogue" aloud="true"
                   direct="true">Comment ? Dites le moi.</said><said rendition="dialogue"
                   aloud="true" direct="true">Volentiers. Paour que je ne fusse refusez, car bien
                   sachiez <app>
@@ -692,11 +709,7 @@
                   </app>, se je l’eusse esté, je eusse eu si grant <app>
                      <lem wit="#V2 #G #X2">douleur</lem>
                      <rdg wit="#B">duel</rdg>
-                  </app> au cuer que il me fust partiz avec <app>
-                     <lem wit="#V2 #X2">l’annui</lem>
-                     <rdg wit="#B">l'anuie</rdg>
-                     <rdg wit="#G">l'anny</rdg>
-                  </app> que je <app>
+                  </app> au cuer que il me fust partiz avec l'annui que je <app>
                      <lem wit="#V2 #G #X2">ai</lem>
                      <rdg wit="#B">avoie</rdg>
                   </app>, car <app>
@@ -788,22 +801,22 @@
                   dit <app>
                      <lem wit="#V2 #B #X2">que je ai oÿ</lem>
                      <rdg wit="#G"/>
-                  </app>.</said><said rendition="dialogue" aloud="true" direct="true">En non <app>
+                  </app>.</said><said next="#P193-1" rendition="dialogue" aloud="true" direct="true"
+                  >En non <app>
                      <lem wit="#V2 #G #X2">Dieu</lem>
                      <rdg wit="#B">Dieu, dist il</rdg>
                   </app>, ma damoisele, <app>
-                     <lem wit="#V2 #X2">et je</lem>
+                     <lem wit="#V2 #G #X2">et je</lem>
                      <rdg wit="#B">si</rdg>
-                     <rdg wit="#G">et je</rdg>
                   </app>
                   <app>
                      <lem wit="#V2 #X2">tantost</lem>
                      <rdg wit="#B #G"/>
                   </app> le vous dirai.</said>
             </p>
-            <p n="P193"><said aloud="true" direct="true"><c ana="lettrine 2">V</c>eritez est que
-                  vous avez tant fait pour moi que a poine porroit il estre meri de ma partie, tot
-                  soie je en volenté du <app>
+            <p n="P193"><said xml:id="P193-1" aloud="true" direct="true"><c ana="lettrine 2"
+                  >V</c>eritez est que vous avez tant fait pour moi que a poine porroit il estre
+                  meri de ma partie, tot soie je en volenté du <app>
                      <lem wit="#V2 #G #X2">deservir</lem>
                      <rdg wit="#B">servir</rdg>
                   </app>. Et puisque il est ainssi, ma douce damoisele, plus chier gage <app>
@@ -812,7 +825,7 @@
                   </app> puis je <app>
                      <lem wit="#V2 #G #X2">metre</lem>
                      <rdg wit="#B">metre ne ne veil</rdg>
-                  </app> que mon cuer et mon cors entierement. Si le vous doing et sui donnez <app>
+                  </app> que mon cuer et mon cors entierement. Si le vous doing, et sui donnez <app>
                      <lem wit="#V2 #G #X2">a vous des ce que je vous vi premierement</lem>
                      <rdg wit="#B">des lors que primes vous vi</rdg>
                   </app>.</said><said rendition="dialogue" aloud="true" direct="true"><persName
