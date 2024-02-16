@@ -1580,13 +1580,14 @@
                   <lem wit="#V3 #G">sa</lem>
                   <rdg wit="#B #X2">la</rdg>
                </app> feste fere si grande que au jour
-               d’adonc<!-- PD: note que je propose : La formulation "au jour d'adonc", calquée sur "au jour d'hui", renforce le caractère exceptionnelle de la joie.  -->
+               d’adonc<!-- PD: note que je propose : La formulation "au jour d'adonc", calquée sur "au jour d'hui", renforce le caractère exceptionnel de la joie.  -->
                n’avoit <cb n="e"/>eu <app>
                   <lem wit="#V3 #G #X2">greingneur</lem>
                   <rdg wit="#B">greigneur. Et quant li jours fu passez et ce vint au couchier, dont
                      vint Helcanus a la pucele et orent moult de leur desiriers, ce poez vous bien
                      savoir.</rdg>
-               </app>. Et quant se vint <app>
+               </app><!--SL Je propose de réintégrer la variante de B, exceptionnellement longue, et qui pourrait expliquer le texte de VGX comme provenant d'un saut.-->.
+               Et quant se vint <app>
                   <lem wit="#B #G">aprés</lem>
                   <rdg wit="#V3 #X2">aprés ce</rdg>
                </app> que la feste fu <app>
@@ -3747,7 +3748,8 @@
                      devoie, si vous pri pour Dieu que vous ne m'en faites pis que j'en ai eu."
                         <note type="apparat">Nouveau § B</note>Quant Dorus l'entendi, si ot moult
                      grant pitié de li et</rdg>
-               </app> dist : <said aloud="true" direct="true">Conment, biau tres dous <app>
+               </app><!--SL il faut comprendre ce qu'il s'est passé ici, et commenter en note la variante de B, exceptionnelle-->
+               dist : <said aloud="true" direct="true">Conment, biau tres dous <app>
                      <lem wit="#V3 #G">sire ! Ce que vous me demandez, je ne sai ou il est, mes bien
                         est la verité que je oi jadis <num>i</num> enfant en garde pour cui je ai
                         esté moult longuement em prison et tout pour celui que vous me demandez et
@@ -5316,7 +5318,7 @@
                         truffe. Et distrent tout a un concille<!-- PD glossaire --> : "Comment puet
                         c'estre voirs que ces lettres dient que Peliarmenus et Dyalogus soient en la
                         prison Dorus ?"</rdg>
-                  </app></said><!-- PD : est-ce qu'on pourrait dire deux mots de cet ajout? Qu'apporte-t-il? --><said
+                  </app></said><!-- PD : est-ce qu'on pourrait dire deux mots de cet ajout? Qu'apporte-t-il? SL idem commentaire ci-dessus pour le long ajout , il faut le commenter en note et voir s'il ne s'agit pas d'une faute des 3 autres --><said
                   rendition="dialogue" aloud="true" direct="true">Par foy, dist <persName
                      key="Helcanus"><app>
                         <lem wit="#B #G #X2">Helcanus</lem>
@@ -9180,7 +9182,8 @@
                   <lem wit="#V3 #G #X2">assis</lem>
                   <rdg wit="#B">entrez dedens. La ne fist on nului lever du mengier puis que il fu
                      assis</rdg>
-               </app>. La peust on <app>
+               </app><!--SL Il faut corriger d'après B, on a une belle construction parallèle qui ne fonctionne pas avec VGX (botez hors-entrez, levez-assis; il s'agit d'un saut de VGX sur fu(st). JE le commente pour l'article stemma-->.
+               La peust on <app>
                   <lem wit="#V3 #G">veoir</lem>
                   <rdg wit="#B #X2">savoir</rdg>
                </app> toute honneur et toute courtoisie d’ostel a maintenir. <pb n="19"/>Cilz
@@ -9724,7 +9727,8 @@
                      qu'il couvient ordener comment cis tornoiemens peust venir par acort et que
                      l'une partie n'en eust si le meilleur que l'autre s'ele se vousist deffendre
                      que il ne peussent estre foule par nule male covoitise. Adonc</rdg>
-               </app> se sont mis ensemble ceus a qui il <app>
+               </app><!--idem les 2 commentaires ci-dessus, commenter cette longue variante et examiner la possibilité d'une erreur de VGX-->
+               se sont mis ensemble ceus a qui il <app>
                   <lem wit="#V3 #G #X2">en</lem>
                   <rdg wit="#B"/>
                </app> apartenoit. <said who="#nar">Si trouvons </said>que li <num>iiii</num> frere
@@ -10010,11 +10014,13 @@
                </app>, et il meismes s’estoit mis es armes <app>
                   <lem wit="#V3 #G #X2"><persName key="Leus">Leus</persName></lem>
                   <rdg wit="#B">Leus, son frere et avoit une bataille de .x. chevaliers esleus</rdg>
-               </app>. Dont <rs type="person" key="Dorus">li vaillans chevaliers</rs> dist une moult
-               fiere parolle, car il dist : <said aloud="true" direct="true"><cb n="f"/>Biau
-                  seingneurs, je vous ai esleus en l’onneur d’un mort chevalier sauver son non. Et
-                  vous savez que quant li homs muert, ses nons ne puet ne ne doit mourir. Et pour ce
-                  vous pri je a touz ensemble que vous m’<app>
+               </app><note type="notecritique">La variante de B pourrait indiquer que V3GX2
+                  commenttent un saut du même non erroné sur -<hi rend="italique">leus</hi>.</note>.
+               Dont <rs type="person" key="Dorus">li vaillans chevaliers</rs> dist une moult fiere
+               parolle, car il dist : <said aloud="true" direct="true"><cb n="f"/>Biau seingneurs,
+                  je vous ai esleus en l’onneur d’un mort chevalier sauver son non. Et vous savez
+                  que quant li homs muert, ses nons ne puet ne ne doit mourir. Et pour ce vous pri
+                  je a touz ensemble que vous m’<app>
                      <lem wit="#V3 #G #X2">aidiez</lem>
                      <rdg wit="#B">aidiez hui</rdg>
                   </app>
@@ -14930,7 +14936,7 @@
                      ont tort. Si soit desordené qui aujourd'ui suivra ne pour mort ne pour vie."
                      Adont distrent : "Sachiez pour voir, nous sommes toz convertiz. Chevauchez,
                      nous vous sievrronz et ne vous faudrons ja por mort ne pour vie.</rdg>
-                  <note type="notecritique">Cette variante de B équivaut à ce que donne V3, tout
+                  <note type="notecritique">Cette variante de B correspond à ce que donne V3, tout
                      comme G et X2, à la fin du §687 ci-dessous.</note>
                </app>. Atant sont issus de <placeName key="Chastel de Gomor">Gomor</placeName> bien
                jusqu’a <num>iii</num> mile, que a pié que a cheval, <rs type="person"
@@ -17378,7 +17384,8 @@
                   <lem wit="#V3 #G #X2">painne</lem>
                   <rdg wit="#B">painne d'aprendre les a faire sa volente et il d'autre part se
                      remetoient en paine</rdg>
-               </app> qu’ele leur <app>
+               </app><!--J'aurais tendance à suivre B, dans la mesure où VGX s'expliqueraient par un saut.-->
+               qu’ele leur <app>
                   <lem wit="#V3 #G #X2">pleust</lem>
                   <rdg wit="#B">plaisoit</rdg>
                </app>. Et estoit avis a chascun de ceus qui les esgardoient que leur Dieu eust fet
@@ -20839,7 +20846,7 @@
                         ne fust ore se por ce nous que cil .x. qui des nos devoient estre que il
                         nous aloient destraignant que je ne cuit pas que au loing aler peussons
                         avoir duree contre euls. Et veez ci que je vous puis faire savoir</rdg>
-                  </app>.</said>
+                  </app><!--Commenter le long ajout de B-->.</said>
                <app>
                   <lem wit="#V3 #G #X2">Et li conta <persName key="Abylon">Abylon</persName>
                      <said who="#nar">tout ainsi conme devant est dit ou conte</said></lem>
