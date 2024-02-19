@@ -43,16 +43,16 @@
                 }
             </style>
             <head>
-                <title>Alignement</title>
+                <title>Alignement - C7S</title>
             </head>
             <body>
                 <table  style="width:100%">
                     <tr>
-                        <th>§</th>
-                        <th>V2/V3</th>
+                        <th>Chapitres</th>
+                        <th>V</th>
                         <th>B</th>
                         <th>G</th>
-                        <th>X2</th>
+                        <th>X</th>
                     </tr>
                     <xsl:apply-templates/>
                 </table>
@@ -65,16 +65,38 @@
     <xsl:template match="div[@type='alignment']">
         <tr>
             <td>
-                <!--<xsl:value-of select="preceding-sibling::milestone[1]/@n"/>  -->
-                <xsl:value-of select="count(preceding-sibling::div[@type='alignment'])+1"/>
+                <xsl:value-of select="preceding-sibling::milestone[1]/@xml:id"/>
+                <!-- <xsl:value-of select="count(preceding-sibling::div[@type='alignment'])+1"/> -->
             </td>
             <xsl:apply-templates/>
         </tr>
     </xsl:template>
     
     <xsl:template match="ab[@type='ms_instance']">
-
+        
         <xsl:choose>
+            <xsl:when test="seg[@type='witness']='V1'">
+                <td class="ms_V2">
+                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <br/>
+                    <xsl:if test="seg[@type='rubric']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='incipit']">
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='explicit']">
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='note']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='note']"/>
+                    </xsl:if>
+                </td>
+            </xsl:when>
             <xsl:when test="seg[@type='witness']='V2'">
                 <td class="ms_V2">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
@@ -84,19 +106,18 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
                     </xsl:if>
-                                    </td>
+                </td>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='V3'">
                 <td class="ms_V2">
@@ -107,14 +128,13 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
@@ -130,14 +150,13 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
@@ -153,14 +172,35 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                    <xsl:if test="seg[@type='note']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='note']"/>
+                    </xsl:if>
+                </td>
+            </xsl:when>
+            <xsl:when test="seg[@type='witness']='X1'">
+                <td class="ms_X2">
+                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <br/>
+                    <xsl:if test="seg[@type='rubric']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='incipit']">
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='explicit']">
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                        <br/>
+                    </xsl:if>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
@@ -176,14 +216,13 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
@@ -199,14 +238,13 @@
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
                         <br/>
                     </xsl:if>
                     <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
                         <br/>
                     </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
@@ -216,5 +254,5 @@
         </xsl:choose>
         
     </xsl:template>
-
+    
 </xsl:stylesheet>

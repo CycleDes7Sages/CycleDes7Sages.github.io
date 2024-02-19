@@ -191,16 +191,15 @@
                     (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
                     présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", mais
                     le <gi>seg</gi> @location n'a pas été supprimé si le paragraphe qui
-                    suit cette rubrique est bien donné (au contraire de ce qui a été
-                    pratiqué dans l'alignement du cycle entier). Le <gi>seg</gi> @note
+                    suit cette rubrique est bien donné. Le <gi>seg</gi> @note
                     vient préciser que les rubrique, miniature et initiale sont absentes,
                     selon la formule systématique et volontairement concise : 
-                    "no rubric+miniature+initial". L'idée était ainsi de
+                    "no incipit/rubric+miniature+initial". L'idée était ainsi de
                     détailler que la structure par rubrique dans V n'était pas suivie dans
                     cet autre témoin, mais que la portion de texte correspondante était
                     présentée par un simple nouveau paragraphe dans ce témoin. 
                     Dans les cas, rares, où la portion de texte concernée n'est pas même donnée 
-                    dans un nouveau paragraphe. La note se conclut sur "no §".</p>
+                    dans un nouveau paragraphe, la note se conclut sur "+§".</p>
                 <p>3)Rubriques déplacées: 
                     Il arrive également que des rubriques, liées à tel
                     paragraphe et donc à tel lieu du texte dans V, soient plutôt associées
@@ -247,22 +246,22 @@
     <text>
         <body>
             <div type="alignments">                       
-                <milestone n="1-1" unit="chapter" xml:id="R7S_V_chap.1"/>
+                <milestone n="1-1" unit="chapter" xml:id="R7S_1"/>
                 <div type="alignment" xml:id="R7S_V_1">
                     <ab corresp="#R7S_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
-                        <seg type="incipit"><unclear reason="faded"/></seg>
+                        <seg type="incipit">illisible<unclear reason="faded"/></seg>
                         <seg type="location">1ra-b-c</seg>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="incipit">Ci commence li livres des .vii. sages de Romme et de Marques, le seneschal.
-                        Et aprés de Laurin et de Cassydorus. et de Pelyarmenus. Et aprés li fait des empereurs de Romme et 
+                        Et aprés de Laurin et de Cassydorus. Et de Pelyarmenus. Et aprés li fait des empereurs de Romme et 
                         de Coustantinoble.</seg>
                         <seg type="location">1ra</seg>
-                        <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)
-                        Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
+                        <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
+                        <seg type="note">Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
                         concentration on Pelyarmenus, whose romance does not start with any implicit</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
@@ -277,7 +276,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-2" unit="chapter" xml:id="R7S_V_chap.2"/>
+                <milestone n="1-2" unit="chapter" xml:id="R7S_2"/>
                 <div type="alignment" xml:id="R7S_V_2">
                     <ab corresp="#R7S_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -307,7 +306,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-3" unit="chapter" xml:id="R7S_V_chap.3"/>
+                <milestone n="1-3" unit="chapter" xml:id="R7S_3"/>
                 <div type="alignment" xml:id="R7S_V_3">
                     <ab corresp="#R7S_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -320,7 +319,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">2vc</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -334,7 +333,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-4" unit="chapter" xml:id="R7S_V_chap.4"/>
+                <milestone n="1-4" unit="chapter" xml:id="R7S_4"/>
                 <div type="alignment" xml:id="R7S_V_4">
                     <ab corresp="#R7S_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -362,7 +361,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-5" unit="chapter" xml:id="R7S_V_chap.5"/>
+                <milestone n="1-5" unit="chapter" xml:id="R7S_5"/>
                 <div type="alignment" xml:id="R7S_V_5">
                     <ab corresp="#R7S_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -399,7 +398,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-6" unit="chapter" xml:id="R7S_V_chap.6"/>
+                <milestone n="1-6" unit="chapter" xml:id="R7S_6"/>
                 <div type="alignment" xml:id="R7S_V_6">
                     <ab corresp="#R7S_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -427,7 +426,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-7" unit="chapter" xml:id="R7S_V_chap.7"/>
+                <milestone n="1-7" unit="chapter" xml:id="R7S_7"/>
                 <div type="alignment" xml:id="R7S_V_7">
                     <ab corresp="#R7S_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -455,7 +454,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-8" unit="chapter" xml:id="R7S_V_chap.8"/>
+                <milestone n="1-8" unit="chapter" xml:id="R7S_8"/>
                 <div type="alignment" xml:id="R7S_V_8">
                     <ab corresp="#R7S_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -490,7 +489,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-9" unit="chapter" xml:id="R7S_V_chap.9"/>
+                <milestone n="1-9" unit="chapter" xml:id="R7S_9"/>
                 <div type="alignment" xml:id="R7S_V_9">
                     <ab corresp="#R7S_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -520,7 +519,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-10" unit="chapter" xml:id="R7S_V_chap.10"/>
+                <milestone n="1-10" unit="chapter" xml:id="R7S_10"/>
                 <div type="alignment" xml:id="R7S_V_10">
                     <ab corresp="#R7S_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -548,7 +547,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-11" unit="chapter" xml:id="R7S_V_chap.11"/>
+                <milestone n="1-11" unit="chapter" xml:id="R7S_11"/>
                 <div type="alignment" xml:id="R7S_V_11">
                     <ab corresp="#R7S_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -576,7 +575,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-12" unit="chapter" xml:id="R7S_V_chap.12"/>
+                <milestone n="1-12" unit="chapter" xml:id="R7S_12"/>
                 <div type="alignment" xml:id="R7S_V_12">
                     <ab corresp="#R7S_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -604,7 +603,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-13" unit="chapter" xml:id="R7S_V_chap.13"/>
+                <milestone n="1-13" unit="chapter" xml:id="R7S_13"/>
                 <div type="alignment" xml:id="R7S_V_13">
                     <ab corresp="#R7S_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -632,7 +631,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-14" unit="chapter" xml:id="R7S_V_chap.14"/>
+                <milestone n="1-14" unit="chapter" xml:id="R7S_14"/>
                 <div type="alignment" xml:id="R7S_V_14">
                     <ab corresp="#R7S_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -660,7 +659,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-15" unit="chapter" xml:id="R7S_V_chap.15"/>
+                <milestone n="1-15" unit="chapter" xml:id="R7S_15"/>
                 <div type="alignment" xml:id="R7S_V_15">
                     <ab corresp="#R7S_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -695,7 +694,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-16" unit="chapter" xml:id="R7S_V_chap.16"/>
+                <milestone n="1-16" unit="chapter" xml:id="R7S_16"/>
                 <div type="alignment" xml:id="R7S_V_16">
                     <ab corresp="#R7S_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -706,7 +705,8 @@
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to chapter R7S_V_16 starting 15vc</seg>
+                        <seg type="location">15vc</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -728,7 +728,7 @@
                         <seg type="note">R7S is entirely missing</seg>
                     </ab>
                 </div>
-                <milestone n="1-17" unit="chapter" xml:id="R7S_V_chap.17"/>
+                <milestone n="1-17" unit="chapter" xml:id="R7S_17"/>
                 <div type="alignment" xml:id="R7S_V_17">
                     <ab corresp="#R7S_V_17" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -758,7 +758,7 @@
                             Beginning of ms. on f. 2r. and R7S missing before its explicit</seg>
                     </ab>
                 </div>
-                <milestone n="2-1" unit="chapter" xml:id="Marques_V_chap.1"/>
+                <milestone n="2-1" unit="chapter" xml:id="RM_1"/>
                 <div type="alignment" xml:id="Marques_V_1">
                     <ab corresp="#Marques_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -790,7 +790,7 @@
                             Beginning of ms. on f. 2r.</seg>
                     </ab>
                 </div>
-                <milestone n="2-2" unit="chapter" xml:id="Marques_V_chap.2"/>
+                <milestone n="2-2" unit="chapter" xml:id="RM_2"/>
                 <div type="alignment" xml:id="Marques_V_2">
                     <ab corresp="#Marques_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -801,7 +801,8 @@
                     <ab corresp="#Marques_V_2" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 21rb</seg>
+                        <seg type="location">21rb</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -816,7 +817,7 @@
                         <seg type="note">miniature(5va-b)+rubric+initial(5va)</seg>
                     </ab>
                 </div>
-                <milestone n="2-3" unit="chapter" xml:id="Marques_V_chap.3"/>
+                <milestone n="2-3" unit="chapter" xml:id="RM_3"/>
                 <div type="alignment" xml:id="Marques_V_3">
                     <ab corresp="#Marques_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -827,7 +828,8 @@
                     <ab corresp="#Marques_V_3" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 23rb</seg>
+                        <seg type="location">23rb</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -842,7 +844,7 @@
                         <seg type="note">rubric+miniature(7va-b)+initial(7va)</seg>
                     </ab>
                 </div>
-                <milestone n="2-4" unit="chapter" xml:id="Marques_V_chap.4"/>
+                <milestone n="2-4" unit="chapter" xml:id="RM_4"/>
                 <div type="alignment" xml:id="Marques_V_4">
                     <ab corresp="#Marques_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -869,7 +871,7 @@
                         <seg type="note">rubric+miniature(9va-b)+initial(9va)</seg>
                     </ab>
                 </div>
-                <milestone n="2-5" unit="chapter" xml:id="Marques_V_chap.5"/>
+                <milestone n="2-5" unit="chapter" xml:id="RM_5"/>
                 <div type="alignment" xml:id="Marques_V_5">
                     <ab corresp="#Marques_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -880,7 +882,8 @@
                     <ab corresp="#Marques_V_5" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to this new chapter starting 27rb</seg>
+                        <seg type="location">27rb</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -895,7 +898,7 @@
                         <seg type="note">rubric+miniature(11ra-b)+initial(11ra)</seg>
                     </ab>
                 </div>
-                <milestone n="2-6" unit="chapter" xml:id="Marques_V_chap.6"/>
+                <milestone n="2-6" unit="chapter" xml:id="RM_6"/>
                 <div type="alignment" xml:id="Marques_V_6">
                     <ab corresp="#Marques_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -925,7 +928,7 @@
                         <seg type="note">rubric+miniature(14va-b)+initial(14va)</seg>
                     </ab>
                 </div>
-                <milestone n="2-7" unit="chapter" xml:id="Marques_V_chap.7"/>
+                <milestone n="2-7" unit="chapter" xml:id="RM_7"/>
                 <div type="alignment" xml:id="Marques_V_7">
                     <ab corresp="#Marques_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -952,7 +955,7 @@
                         <seg type="note">rubric+miniature(16vb-c)+initial(16vb)</seg>
                     </ab>
                 </div>
-                <milestone n="2-8" unit="chapter" xml:id="Marques_V_chap.8"/>
+                <milestone n="2-8" unit="chapter" xml:id="RM_8"/>
                 <div type="alignment" xml:id="Marques_V_8">
                     <ab corresp="#Marques_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -983,7 +986,7 @@
                         Stemma: proximity BX</seg>
                     </ab>
                 </div>
-                <milestone n="2-9" unit="chapter" xml:id="Marques_V_chap.9"/>
+                <milestone n="2-9" unit="chapter" xml:id="RM_9"/>
                 <div type="alignment" xml:id="Marques_V_9">
                     <ab corresp="#Marques_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1017,7 +1020,7 @@
                             Stemma: intersting position of X between B and V</seg>
                     </ab>
                 </div>
-                <milestone n="2-10" unit="chapter" xml:id="Marques_V_chap.10"/>
+                <milestone n="2-10" unit="chapter" xml:id="RM_10"/>
                 <div type="alignment" xml:id="Marques_V_10">
                     <ab corresp="#Marques_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1047,7 +1050,7 @@
                         <seg type="note">rubric+miniature(24ra-b)+initial(24ra)</seg>
                     </ab>
                 </div>
-                <milestone n="2-11" unit="chapter" xml:id="Marques_V_chap.11"/>
+                <milestone n="2-11" unit="chapter" xml:id="RM_11"/>
                 <div type="alignment" xml:id="Marques_V_11">
                     <ab corresp="#Marques_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1077,7 +1080,7 @@
                         <seg type="note">rubric+miniature(25va-b)+initial(25va)</seg>
                     </ab>
                 </div>
-                <milestone n="2-12" unit="chapter" xml:id="Marques_V_chap.12"/>
+                <milestone n="2-12" unit="chapter" xml:id="RM_12"/>
                 <div type="alignment" xml:id="Marques_V_12">
                     <ab corresp="#Marques_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1108,7 +1111,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-13" unit="chapter" xml:id="Marques_V_chap.13"/>
+                <milestone n="2-13" unit="chapter" xml:id="RM_13"/>
                 <div type="alignment" xml:id="Marques_V_13">
                     <ab corresp="#Marques_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1141,7 +1144,7 @@
                         <seg type="note">rubric+miniature(29rb-c)+initial(29rb)</seg>
                     </ab>
                 </div>
-                <milestone n="2-14" unit="chapter" xml:id="Marques_V_chap.14"/>
+                <milestone n="2-14" unit="chapter" xml:id="RM_14"/>
                 <div type="alignment" xml:id="Marques_V_14">
                     <ab corresp="#Marques_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1167,11 +1170,11 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">31ra</seg>
-                        <seg type="note">initial. no rubric+miniature
-                        Stemma: proximity BX</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
+                        <seg type="note">Stemma: proximity BX</seg>
                     </ab>
                 </div>
-                <milestone n="2-15" unit="chapter" xml:id="Marques_V_chap.15"/>
+                <milestone n="2-15" unit="chapter" xml:id="RM_15"/>
                 <div type="alignment" xml:id="Marques_V_15">
                     <ab corresp="#Marques_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1201,7 +1204,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-16" unit="chapter" xml:id="Marques_V_chap.16"/>
+                <milestone n="2-16" unit="chapter" xml:id="RM_16"/>
                 <div type="alignment" xml:id="Marques_V_16">
                     <ab corresp="#Marques_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1230,7 +1233,7 @@
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-17" unit="chapter" xml:id="Marques_V_chap.17"/>
+                <milestone n="2-17" unit="chapter" xml:id="RM_17"/>
                 <div type="alignment" xml:id="Marques_V_17">
                     <ab corresp="#Marques_V_17" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1259,7 +1262,7 @@
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-18" unit="chapter" xml:id="Marques_V_chap.18"/>
+                <milestone n="2-18" unit="chapter" xml:id="RM_18"/>
                 <div type="alignment" xml:id="Marques_V_18">
                     <ab corresp="#Marques_V_18" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1288,7 +1291,7 @@
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-19" unit="chapter" xml:id="Marques_V_chap.19"/>
+                <milestone n="2-19" unit="chapter" xml:id="RM_19"/>
                 <div type="alignment" xml:id="Marques_V_19">
                     <ab corresp="#Marques_V_19" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1314,11 +1317,11 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">34ra</seg>
-                        <seg type="note">initial. no rubric+miniature
-                        Stemma: proximity BX</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
+                        <seg type="note">Stemma: proximity BX</seg>
                     </ab>
                 </div>
-                <milestone n="2-20" unit="chapter" xml:id="Marques_V_chap.20"/>
+                <milestone n="2-20" unit="chapter" xml:id="RM_20"/>
                 <div type="alignment" xml:id="Marques_V_20">
                     <ab corresp="#Marques_V_20" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1345,7 +1348,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="2-21" unit="chapter" xml:id="Marques_V_chap.21"/>
+                <milestone n="2-21" unit="chapter" xml:id="RM_21"/>
                 <div type="alignment" xml:id="Marques_V_21">
                     <ab corresp="#Marques_V_21" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1370,14 +1373,14 @@
                     <ab corresp="#Marques_V_21" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">no rubric+miniature+initial
-                            There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
+                        <seg type="note">no rubric+miniature+initial</seg>
+                        <seg type="note">There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
                             Following approximately the same layout as in V1, X1 gives, on f. 34vc, the paragraph given
                             in V1 on f. 50rc and gives, on f. 35ra, what V1 gives on f. 51vb (starting at the beginning of this new column).
                             <!-- SV: cas plus spécifique: trou dans X1-->.</seg>
                     </ab>
                 </div>
-                <milestone n="2-22" unit="chapter" xml:id="Marques_V_chap.22"/>
+                <milestone n="2-22" unit="chapter" xml:id="RM_22"/>
                 <div type="alignment" xml:id="Marques_V_22">
                     <ab corresp="#Marques_V_22" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1405,11 +1408,11 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">35rb</seg>
-                        <seg type="note">initial. no rubric+miniature
-                        Stemma: proximity BX</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
+                        <seg type="note">Stemma: proximity BX</seg>
                     </ab>
                 </div>
-                <milestone n="2-23" unit="chapter" xml:id="Marques_V_chap.23"/>
+                <milestone n="2-23" unit="chapter" xml:id="RM_23"/>
                 <div type="alignment" xml:id="Marques_V_23">
                     <ab corresp="#Marques_V_23" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1435,11 +1438,11 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">35vc</seg>
-                        <seg type="note">initial. no rubric+miniature
-                        Stemma: proximity BX</seg>
+                        <seg type="note">initial. no rubric+miniature</seg>
+                        <seg type="note">Stemma: proximity BX</seg>
                     </ab>
                 </div>
-                <milestone n="2-24" unit="chapter" xml:id="Marques_V_chap.24"/>
+                <milestone n="2-24" unit="chapter" xml:id="RM_24"/>
                 <div type="alignment" xml:id="Marques_V_24">
                     <ab corresp="#Marques_V_24" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1468,7 +1471,7 @@
                         Stemma: proximity VX</seg>
                     </ab>
                 </div>
-                <milestone n="2-25" unit="chapter" xml:id="Marques_V_chap.25"/>
+                <milestone n="2-25" unit="chapter" xml:id="RM_25"/>
                 <div type="alignment" xml:id="Marques_V_25">
                     <ab corresp="#Marques_V_25" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1505,7 +1508,7 @@
                         Stemma: proximity VX</seg>
                     </ab>
                 </div>
-                <milestone n="2-26" unit="chapter" xml:id="Marques_V_chap.26"/>
+                <milestone n="2-26" unit="chapter" xml:id="RM_26"/>
                 <div type="alignment" xml:id="Marques_V_26">
                     <ab corresp="#Marques_V_26" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1531,12 +1534,11 @@
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">rubric displaced later, cf. Marques_V_26 '
-                            X1 seems to have inverted two folios, 39rv and 40rv, on this section.
+                        <seg type="note">rubric displaced later, cf. Marques_V_26</seg>
+                        <seg type="note">X1 seems to have inverted two folios, 39rv and 40rv, on this section.
                             Presenting approximately the same layout, which could explain the inversion, 
                             V1 54vc is corresponding to X1 38vc; V1 55rv to X1 40rv; V1 56rv to X1 39r; and, back to normal, V1 57ra to X1 41ra. 
-                            It is of course an important section, considering the transition from Marques to Laurin.
-                            </seg>
+                            It is of course an important section, considering the transition from Marques to Laurin.</seg>
                     </ab>                    
                     <ab corresp="#Marques_V_26" type="ms_instance"><!-- SV: cas plus spécifique: inversion dans X1.
                         J'ai préféré donner cette rubrique déplacée par cette inversion 
@@ -1552,7 +1554,7 @@
                             to present these data here, in connection to Roman de Marques and not to the next novel.</seg>
                     </ab>
                 </div>
-                <milestone n="2-27" unit="chapter" xml:id="Marques_V_chap.27"/>
+                <milestone n="2-27" unit="chapter" xml:id="RM_27"/>
                 <div type="alignment" xml:id="Marques_V_27">
                     <ab corresp="#Marques_V_27" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1566,7 +1568,7 @@
                         la suer a l'empereor de Constentinoble.</seg>
                         <seg type="location">60vc</seg>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)
-                        Subject : intersting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
+                        Subject : interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1581,7 +1583,7 @@
                         <seg type="note">explicit(brown)+implicit(red)+miniature(39rb-c)+initial(39rb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-1" unit="chapter" xml:id="Laurin_V_chap.1"/>
+                <milestone n="3-1" unit="chapter" xml:id="RL_1"/>
                 <div type="alignment" xml:id="Laurin_V_1">
                     <ab corresp="#Laurin_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1594,8 +1596,8 @@
                         <seg type="witness">B</seg>
                         <seg type="incipit">Ci commence li livres de Laurin, le fils Marques le seneschal de Romme.</seg>
                         <seg type="location">60vc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)
-                        Subject : concentration on Laurin himself instead of Fiseus</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
+                        <seg type="note">Subject : concentration on Laurin himself instead of Fiseus</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1612,7 +1614,7 @@
                         <seg type="note">explicit(brown)+implicit(red)+miniature(39rb-c)+initial(39rb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-2" unit="chapter" xml:id="Laurin_V_chap.2"/>
+                <milestone n="3-2" unit="chapter" xml:id="RL_2"/>
                 <div type="alignment" xml:id="Laurin_V_2">
                     <ab corresp="#Laurin_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1643,7 +1645,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-3" unit="chapter" xml:id="Laurin_V_chap.3"/>
+                <milestone n="3-3" unit="chapter" xml:id="RL_3"/>
                 <div type="alignment" xml:id="Laurin_V_3">
                     <ab corresp="#Laurin_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1673,7 +1675,7 @@
                         <seg type="note">rubric+miniature+initial(46vc)</seg>
                     </ab>
                 </div>
-                <milestone n="3-4" unit="chapter" xml:id="Laurin_V_chap.4"/>
+                <milestone n="3-4" unit="chapter" xml:id="RL_4"/>
                 <div type="alignment" xml:id="Laurin_V_4">
                     <ab corresp="#Laurin_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1701,7 +1703,7 @@
                         <seg type="note">rubric+miniature(48ra)+initial(48ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-5" unit="chapter" xml:id="Laurin_V_chap.5"/>
+                <milestone n="3-5" unit="chapter" xml:id="RL_5"/>
                 <div type="alignment" xml:id="Laurin_V_5">
                     <ab corresp="#Laurin_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1737,7 +1739,7 @@
                         <seg type="note">rubric+miniature(52rc)+initial(52rc)</seg>
                     </ab>
                 </div>
-                <milestone n="3-6" unit="chapter" xml:id="Laurin_V_chap.6"/>
+                <milestone n="3-6" unit="chapter" xml:id="RL_6"/>
                 <div type="alignment" xml:id="Laurin_V_6">
                     <ab corresp="#Laurin_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1749,7 +1751,7 @@
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Rubric displaced before</seg>                
+                        <seg type="note">rubric displaced before. cf. Laurin_V_5</seg>                
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1766,7 +1768,7 @@
                         <seg type="note">rubric+miniature(54ra-b)+initial(54ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-7" unit="chapter" xml:id="Laurin_V_chap.7"/>
+                <milestone n="3-7" unit="chapter" xml:id="RL_7"/>
                 <div type="alignment" xml:id="Laurin_V_7">
                     <ab corresp="#Laurin_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1778,7 +1780,8 @@
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to chapter Laurin_V_7 starting 77ra</seg>
+                        <seg type="location">77ra</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -1809,7 +1812,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-8" unit="chapter" xml:id="Laurin_V_chap.8"/>
+                <milestone n="3-8" unit="chapter" xml:id="RL_8"/>
                 <div type="alignment" xml:id="Laurin_V_8">
                     <ab corresp="#Laurin_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1843,7 +1846,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-9" unit="chapter" xml:id="Laurin_V_chap.9"/>
+                <milestone n="3-9" unit="chapter" xml:id="RL_9"/>
                 <div type="alignment" xml:id="Laurin_V_9">
                     <ab corresp="#Laurin_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1892,7 +1895,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-10" unit="chapter" xml:id="Laurin_V_chap.10"/>
+                <milestone n="3-10" unit="chapter" xml:id="RL_10"/>
                 <div type="alignment" xml:id="Laurin_V_10">
                     <ab corresp="#Laurin_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1904,7 +1907,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">103rb</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1920,7 +1923,7 @@
                         <seg type="note">rubric+miniature(78ra-b)+initial(78ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-11" unit="chapter" xml:id="Laurin_V_chap.11"/>
+                <milestone n="3-11" unit="chapter" xml:id="RL_11"/>
                 <div type="alignment" xml:id="Laurin_V_11">
                     <ab corresp="#Laurin_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1956,7 +1959,7 @@
                         <seg type="note">rubric+miniature(81vb-c)+initial(81vb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-12" unit="chapter" xml:id="Laurin_V_chap.12"/>
+                <milestone n="3-12" unit="chapter" xml:id="RL_12"/>
                 <div type="alignment" xml:id="Laurin_V_12">
                     <ab corresp="#Laurin_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1986,7 +1989,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-13" unit="chapter" xml:id="Laurin_V_chap.13"/>
+                <milestone n="3-13" unit="chapter" xml:id="RL_13"/>
                 <div type="alignment" xml:id="Laurin_V_13">
                     <ab corresp="#Laurin_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2017,7 +2020,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-14" unit="chapter" xml:id="Laurin_V_chap.14"/>
+                <milestone n="3-14" unit="chapter" xml:id="RL_14"/>
                 <div type="alignment" xml:id="Laurin_V_14">
                     <ab corresp="#Laurin_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2047,7 +2050,7 @@
                         <seg type="note">rubric+miniature(88rc)+initial(88rc)</seg>
                     </ab>
                 </div>
-                <milestone n="3-15" unit="chapter" xml:id="Laurin_V_chap.15"/>
+                <milestone n="3-15" unit="chapter" xml:id="RL_15"/>
                 <div type="alignment" xml:id="Laurin_V_15">
                     <ab corresp="#Laurin_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2078,7 +2081,7 @@
                         <seg type="note">rubric+miniature(90va)+initial(90va)</seg>
                     </ab>
                 </div>
-                <milestone n="3-16" unit="chapter" xml:id="Laurin_V_chap.16"/>
+                <milestone n="3-16" unit="chapter" xml:id="RL_16"/>
                 <div type="alignment" xml:id="Laurin_V_16">
                     <ab corresp="#Laurin_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2108,7 +2111,7 @@
                         <seg type="note">rubric+miniature(92ra)+initial(92ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-17" unit="chapter" xml:id="Laurin_V_chap.17"/>
+                <milestone n="3-17" unit="chapter" xml:id="RL_17"/>
                 <div type="alignment" xml:id="Laurin_V_17">
                     <ab corresp="#Laurin_V_17" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2138,7 +2141,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-18" unit="chapter" xml:id="Laurin_V_chap.18"/>
+                <milestone n="3-18" unit="chapter" xml:id="RL_18"/>
                 <div type="alignment" xml:id="Laurin_V_18">
                     <ab corresp="#Laurin_V_18" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2169,7 +2172,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-19" unit="chapter" xml:id="Laurin_V_chap.19"/>
+                <milestone n="3-19" unit="chapter" xml:id="RL_19"/>
                 <div type="alignment" xml:id="Laurin_V_19">
                     <ab corresp="#Laurin_V_19" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2199,7 +2202,7 @@
                         <seg type="note">rubric+miniature(97va-b)+initial(97va)</seg>
                     </ab>
                 </div>
-                <milestone n="3-20" unit="chapter" xml:id="Laurin_V_chap.20"/>
+                <milestone n="3-20" unit="chapter" xml:id="RL_20"/>
                 <div type="alignment" xml:id="Laurin_V_20">
                     <ab corresp="#Laurin_V_20" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2232,7 +2235,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-21" unit="chapter" xml:id="Laurin_V_chap.21"/>
+                <milestone n="3-21" unit="chapter" xml:id="RL_21"/>
                 <div type="alignment" xml:id="Laurin_V_21">
                     <ab corresp="#Laurin_V_21" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2263,7 +2266,7 @@
                         <seg type="note">rubric+miniature(101vb)+initial(101vb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-22" unit="chapter" xml:id="Laurin_V_chap.22"/>
+                <milestone n="3-22" unit="chapter" xml:id="RL_22"/>
                 <div type="alignment" xml:id="Laurin_V_22">
                     <ab corresp="#Laurin_V_22" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2293,7 +2296,7 @@
                         <seg type="note">rubric+miniature(104rb)+initial(104rb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-23" unit="chapter" xml:id="Laurin_V_chap.23"/>
+                <milestone n="3-23" unit="chapter" xml:id="RL_23"/>
                 <div type="alignment" xml:id="Laurin_V_23">
                     <ab corresp="#Laurin_V_23" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2326,7 +2329,7 @@
                         <seg type="note">rubric+miniature(108ra-b)+initial(108ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-24" unit="chapter" xml:id="Laurin_V_chap.24"/>
+                <milestone n="3-24" unit="chapter" xml:id="RL_24"/>
                 <div type="alignment" xml:id="Laurin_V_24">
                     <ab corresp="#Laurin_V_24" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2356,7 +2359,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-25" unit="chapter" xml:id="Laurin_V_chap.25"/>
+                <milestone n="3-25" unit="chapter" xml:id="RL_25"/>
                 <div type="alignment" xml:id="Laurin_V_25">
                     <ab corresp="#Laurin_V_25" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2386,7 +2389,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-26" unit="chapter" xml:id="Laurin_V_chap.26"/>
+                <milestone n="3-26" unit="chapter" xml:id="RL_26"/>
                 <div type="alignment" xml:id="Laurin_V_26">
                     <ab corresp="#Laurin_V_26" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2417,7 +2420,7 @@
                         <seg type="note">rubric+miniature(111vb-c)+initial(111vb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-27" unit="chapter" xml:id="Laurin_V_chap.27"/>
+                <milestone n="3-27" unit="chapter" xml:id="RL_27"/>
                 <div type="alignment" xml:id="Laurin_V_27">
                     <ab corresp="#Laurin_V_27" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2448,7 +2451,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-28" unit="chapter" xml:id="Laurin_V_chap.28"/>
+                <milestone n="3-28" unit="chapter" xml:id="RL_28"/>
                 <div type="alignment" xml:id="Laurin_V_28">
                     <ab corresp="#Laurin_V_28" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2475,7 +2478,7 @@
                         <seg type="note">rubric+initial(115rb). no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-29" unit="chapter" xml:id="Laurin_V_chap.29"/>
+                <milestone n="3-29" unit="chapter" xml:id="RL_29"/>
                 <div type="alignment" xml:id="Laurin_V_29">
                     <ab corresp="#Laurin_V_29" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2505,7 +2508,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-30" unit="chapter" xml:id="Laurin_V_chap.30"/>
+                <milestone n="3-30" unit="chapter" xml:id="RL_30"/>
                 <div type="alignment" xml:id="Laurin_V_30">
                     <ab corresp="#Laurin_V_30" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2542,7 +2545,7 @@
                         <seg type="note">rubric+miniature(118ra-b)+initial(118ra)</seg>
                     </ab>
                 </div>
-                <milestone n="3-31" unit="chapter" xml:id="Laurin_V_chap.31"/>
+                <milestone n="3-31" unit="chapter" xml:id="RL_31"/>
                 <div type="alignment" xml:id="Laurin_V_31">
                     <ab corresp="#Laurin_V_31" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2572,7 +2575,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-32" unit="chapter" xml:id="Laurin_V_chap.32"/>
+                <milestone n="3-32" unit="chapter" xml:id="RL_32"/>
                 <div type="alignment" xml:id="Laurin_V_32">
                     <ab corresp="#Laurin_V_32" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2608,7 +2611,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-33" unit="chapter" xml:id="Laurin_V_chap.33"/>
+                <milestone n="3-33" unit="chapter" xml:id="RL_33"/>
                 <div type="alignment" xml:id="Laurin_V_33">
                     <ab corresp="#Laurin_V_33" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2621,8 +2624,8 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Maligne se combati encontre Kex le seneschal et le mist en sa merci.</seg>
                         <seg type="location">157ra</seg>
-                        <seg type="note">rubric+miniature+initial.
-                        Subject: different subject</seg>
+                        <seg type="note">rubric+miniature+initial</seg>
+                       <seg type="note">Subject : different subject</seg>
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2639,7 +2642,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-34" unit="chapter" xml:id="Laurin_V_chap.34"/>
+                <milestone n="3-34" unit="chapter" xml:id="RL_34"/>
                 <div type="alignment" xml:id="Laurin_V_34">
                     <ab corresp="#Laurin_V_34" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2651,7 +2654,8 @@
                     <ab corresp="#Laurin_V_34" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
-                        <seg type="note">Paragraph linked to chapter Laurin_V_34 starting 158rc</seg>
+                        <seg type="location">158rc</seg>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -2674,7 +2678,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-35" unit="chapter" xml:id="Laurin_V_chap.35"/>
+                <milestone n="3-35" unit="chapter" xml:id="RL_35"/>
                 <div type="alignment" xml:id="Laurin_V_35">
                     <ab corresp="#Laurin_V_35" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2686,7 +2690,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">159vc</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Laurin_V_35" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2702,7 +2706,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-36" unit="chapter" xml:id="Laurin_V_chap.36"/>
+                <milestone n="3-36" unit="chapter" xml:id="RL_36"/>
                 <div type="alignment" xml:id="Laurin_V_36">
                     <ab corresp="#Laurin_V_36" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2732,7 +2736,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-37" unit="chapter" xml:id="Laurin_V_chap.37"/>
+                <milestone n="3-37" unit="chapter" xml:id="RL_37"/>
                 <div type="alignment" xml:id="Laurin_V_37">
                     <ab corresp="#Laurin_V_37" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2762,7 +2766,7 @@
                         <seg type="note">rubric+miniature(130vb-c)+initial(130vb)</seg>
                     </ab>
                 </div>
-                <milestone n="3-38" unit="chapter" xml:id="Laurin_V_chap.38"/>
+                <milestone n="3-38" unit="chapter" xml:id="RL_38"/>
                 <div type="alignment" xml:id="Laurin_V_38">
                     <ab corresp="#Laurin_V_38" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2793,7 +2797,7 @@
                         <seg type="note">rubric+initial(132va). no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-39" unit="chapter" xml:id="Laurin_V_chap.39"/>
+                <milestone n="3-39" unit="chapter" xml:id="RL_39"/>
                 <div type="alignment" xml:id="Laurin_V_39">
                     <ab corresp="#Laurin_V_39" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2823,7 +2827,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
             </div>       
-                <milestone n="3-40" unit="chapter" xml:id="Laurin_V_chap.40"/>
+                <milestone n="3-40" unit="chapter" xml:id="RL_40"/>
                 <div type="alignment" xml:id="Laurin_V_40">
                     <ab corresp="#Laurin_V_40" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2853,7 +2857,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-41" unit="chapter" xml:id="Laurin_V_chap.41"/>
+                <milestone n="3-41" unit="chapter" xml:id="RL_41"/>
                 <div type="alignment" xml:id="Laurin_V_41">
                     <ab corresp="#Laurin_V_41" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2880,7 +2884,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-42" unit="chapter" xml:id="Laurin_V_chap.42"/>
+                <milestone n="3-42" unit="chapter" xml:id="RL_42"/>
                 <div type="alignment" xml:id="Laurin_V_42">
                     <ab corresp="#Laurin_V_42" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2910,7 +2914,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-43" unit="chapter" xml:id="Laurin_V_chap.43"/>
+                <milestone n="3-43" unit="chapter" xml:id="RL_43"/>
                 <div type="alignment" xml:id="Laurin_V_43">
                     <ab corresp="#Laurin_V_43" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2941,7 +2945,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-44" unit="chapter" xml:id="Laurin_V_chap.44"/>
+                <milestone n="3-44" unit="chapter" xml:id="RL_44"/>
                 <div type="alignment" xml:id="Laurin_V_44">
                     <ab corresp="#Laurin_V_44" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2971,7 +2975,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-45" unit="chapter" xml:id="Laurin_V_chap.45"/>
+                <milestone n="3-45" unit="chapter" xml:id="RL_45"/>
                 <div type="alignment" xml:id="Laurin_V_45">
                     <ab corresp="#Laurin_V_45" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3001,7 +3005,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-46" unit="chapter" xml:id="Laurin_V_chap.46"/>
+                <milestone n="3-46" unit="chapter" xml:id="RL_46"/>
                 <div type="alignment" xml:id="Laurin_V_46">
                     <ab corresp="#Laurin_V_46" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3031,7 +3035,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-47" unit="chapter" xml:id="Laurin_V_chap.47"/>
+                <milestone n="3-47" unit="chapter" xml:id="RL_47"/>
                 <div type="alignment" xml:id="Laurin_V_47">
                     <ab corresp="#Laurin_V_47" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3061,7 +3065,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-48" unit="chapter" xml:id="Laurin_V_chap.48"/>
+                <milestone n="3-48" unit="chapter" xml:id="RL_48"/>
                 <div type="alignment" xml:id="Laurin_V_48">
                     <ab corresp="#Laurin_V_48" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3091,7 +3095,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="3-49" unit="chapter" xml:id="Laurin_V_chap.49"/>
+                <milestone n="3-49" unit="chapter" xml:id="RL_49"/>
                 <div type="alignment" xml:id="Laurin_V_49">
                     <ab corresp="#Laurin_V_49" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3119,7 +3123,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="3-50" unit="chapter" xml:id="Laurin_V_chap.50"/>
+                <milestone n="3-50" unit="chapter" xml:id="RL_50"/>
                 <div type="alignment" xml:id="Laurin_V_50">
                     <ab corresp="#Laurin_V_50" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3149,7 +3153,7 @@
                         <seg type="note">explicit(brown)+implicit(red)+miniature(147va-b)+initial(147va)</seg>
                     </ab>
                 </div>
-                <milestone n="4-1" unit="chapter" xml:id="Cassidorus_V_chap.1"/>
+                <milestone n="4-1" unit="chapter" xml:id="RC_1"/>
                 <div type="alignment" xml:id="Cassidorus_V_1">
                     <ab corresp="#Cassidorus_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3176,7 +3180,7 @@
                         <seg type="note">explicit(brown)+implicit(red)+miniature(147va-b)+initial(147va)</seg>
                     </ab>
                 </div>
-                <milestone n="4-2" unit="chapter" xml:id="Cassidorus_V_chap.2"/>
+                <milestone n="4-2" unit="chapter" xml:id="RC_2"/>
                 <div type="alignment" xml:id="Cassidorus_V_2">
                     <ab corresp="#Cassidorus_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3205,7 +3209,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-3" unit="chapter" xml:id="Cassidorus_V_chap.3"/>
+                <milestone n="4-3" unit="chapter" xml:id="RC_3"/>
                 <div type="alignment" xml:id="Cassidorus_V_3">
                     <ab corresp="#Cassidorus_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3234,7 +3238,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-4" unit="chapter" xml:id="Cassidorus_V_chap.4"/>
+                <milestone n="4-4" unit="chapter" xml:id="RC_4"/>
                 <div type="alignment" xml:id="Cassidorus_V_4">
                     <ab corresp="#Cassidorus_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3263,7 +3267,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-5" unit="chapter" xml:id="Cassidorus_V_chap.5"/>
+                <milestone n="4-5" unit="chapter" xml:id="RC_5"/>
                 <div type="alignment" xml:id="Cassidorus_V_5">
                     <ab corresp="#Cassidorus_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3292,7 +3296,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-6" unit="chapter" xml:id="Cassidorus_V_chap.6"/>
+                <milestone n="4-6" unit="chapter" xml:id="RC_6"/>
                 <div type="alignment" xml:id="Cassidorus_V_6">
                     <ab corresp="#Cassidorus_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3320,7 +3324,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-7" unit="chapter" xml:id="Cassidorus_V_chap.7"/>
+                <milestone n="4-7" unit="chapter" xml:id="RC_7"/>
                 <div type="alignment" xml:id="Cassidorus_V_7">
                     <ab corresp="#Cassidorus_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3349,7 +3353,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-8" unit="chapter" xml:id="Cassidorus_V_chap.8"/>
+                <milestone n="4-8" unit="chapter" xml:id="RC_8"/>
                 <div type="alignment" xml:id="Cassidorus_V_8">
                     <ab corresp="#Cassidorus_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3376,7 +3380,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-9" unit="chapter" xml:id="Cassidorus_V_chap.9"/>
+                <milestone n="4-9" unit="chapter" xml:id="RC_9"/>
                 <div type="alignment" xml:id="Cassidorus_V_9">
                     <ab corresp="#Cassidorus_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3404,7 +3408,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-10" unit="chapter" xml:id="Cassidorus_V_chap.10"/>
+                <milestone n="4-10" unit="chapter" xml:id="RC_10"/>
                 <div type="alignment" xml:id="Cassidorus_V_10">
                     <ab corresp="#Cassidorus_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3431,7 +3435,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-11" unit="chapter" xml:id="Cassidorus_V_chap.11"/>
+                <milestone n="4-11" unit="chapter" xml:id="RC_11"/>
                 <div type="alignment" xml:id="Cassidorus_V_11">
                     <ab corresp="#Cassidorus_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3458,7 +3462,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-12" unit="chapter" xml:id="Cassidorus_V_chap.12"/>
+                <milestone n="4-12" unit="chapter" xml:id="RC_12"/>
                 <div type="alignment" xml:id="Cassidorus_V_12">
                     <ab corresp="#Cassidorus_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3485,7 +3489,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-13" unit="chapter" xml:id="Cassidorus_V_chap.13"/>
+                <milestone n="4-13" unit="chapter" xml:id="RC_13"/>
                 <div type="alignment" xml:id="Cassidorus_V_13">
                     <ab corresp="#Cassidorus_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3513,7 +3517,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-14" unit="chapter" xml:id="Cassidorus_V_chap.14"/>
+                <milestone n="4-14" unit="chapter" xml:id="RC_14"/>
                 <div type="alignment" xml:id="Cassidorus_V_14">
                     <ab corresp="#Cassidorus_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3540,7 +3544,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-15" unit="chapter" xml:id="Cassidorus_V_chap.15"/>
+                <milestone n="4-15" unit="chapter" xml:id="RC_15"/>
                 <div type="alignment" xml:id="Cassidorus_V_15">
                     <ab corresp="#Cassidorus_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3567,7 +3571,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-16" unit="chapter" xml:id="Cassidorus_V_chap.16"/>
+                <milestone n="4-16" unit="chapter" xml:id="RC_16"/>
                 <div type="alignment" xml:id="Cassidorus_V_16">
                     <ab corresp="#Cassidorus_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3594,7 +3598,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-17" unit="chapter" xml:id="Cassidorus_V_chap.17"/>
+                <milestone n="4-17" unit="chapter" xml:id="RC_17"/>
                 <div type="alignment" xml:id="Cassidorus_V_17">
                     <ab corresp="#Cassidorus_V_17" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3622,7 +3626,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-18" unit="chapter" xml:id="Cassidorus_V_chap.18"/>
+                <milestone n="4-18" unit="chapter" xml:id="RC_18"/>
                 <div type="alignment" xml:id="Cassidorus_V_18">
                     <ab corresp="#Cassidorus_V_18" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3649,7 +3653,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-19" unit="chapter" xml:id="Cassidorus_V_chap.19"/>
+                <milestone n="4-19" unit="chapter" xml:id="RC_19"/>
                 <div type="alignment" xml:id="Cassidorus_V_19">
                     <ab corresp="#Cassidorus_V_19" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3676,7 +3680,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-20" unit="chapter" xml:id="Cassidorus_V_chap.20"/>
+                <milestone n="4-20" unit="chapter" xml:id="RC_20"/>
                 <div type="alignment" xml:id="Cassidorus_V_20">
                     <ab corresp="#Cassidorus_V_20" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3703,7 +3707,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-21" unit="chapter" xml:id="Cassidorus_V_chap.21"/>
+                <milestone n="4-21" unit="chapter" xml:id="RC_21"/>
                 <div type="alignment" xml:id="Cassidorus_V_21">
                     <ab corresp="#Cassidorus_V_21" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3730,7 +3734,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-22" unit="chapter" xml:id="Cassidorus_V_chap.22"/>
+                <milestone n="4-22" unit="chapter" xml:id="RC_22"/>
                 <div type="alignment" xml:id="Cassidorus_V_22">
                     <ab corresp="#Cassidorus_V_22" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3758,7 +3762,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-23" unit="chapter" xml:id="Cassidorus_V_chap.23"/>
+                <milestone n="4-23" unit="chapter" xml:id="RC_23"/>
                 <div type="alignment" xml:id="Cassidorus_V_23">
                     <ab corresp="#Cassidorus_V_23" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3785,7 +3789,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-24" unit="chapter" xml:id="Cassidorus_V_chap.24"/>
+                <milestone n="4-24" unit="chapter" xml:id="RC_24"/>
                 <div type="alignment" xml:id="Cassidorus_V_24">
                     <ab corresp="#Cassidorus_V_24" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3814,7 +3818,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-25" unit="chapter" xml:id="Cassidorus_V_chap.25"/>
+                <milestone n="4-25" unit="chapter" xml:id="RC_25"/>
                 <div type="alignment" xml:id="Cassidorus_V_25">
                     <ab corresp="#Cassidorus_V_25" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3841,7 +3845,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-26" unit="chapter" xml:id="Cassidorus_V_chap.26"/>
+                <milestone n="4-26" unit="chapter" xml:id="RC_26"/>
                 <div type="alignment" xml:id="Cassidorus_V_26">
                     <ab corresp="#Cassidorus_V_26" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3853,7 +3857,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">217ra</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3868,7 +3872,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-27" unit="chapter" xml:id="Cassidorus_V_chap.27"/>
+                <milestone n="4-27" unit="chapter" xml:id="RC_27"/>
                 <div type="alignment" xml:id="Cassidorus_V_27">
                     <ab corresp="#Cassidorus_V_27" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3895,7 +3899,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-28" unit="chapter" xml:id="Cassidorus_V_chap.28"/>
+                <milestone n="4-28" unit="chapter" xml:id="RC_28"/>
                 <div type="alignment" xml:id="Cassidorus_V_28">
                     <ab corresp="#Cassidorus_V_28" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3922,7 +3926,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-29" unit="chapter" xml:id="Cassidorus_V_chap.29"/>
+                <milestone n="4-29" unit="chapter" xml:id="RC_29"/>
                 <div type="alignment" xml:id="Cassidorus_V_29">
                     <ab corresp="#Cassidorus_V_29" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3934,7 +3938,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">218ra</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_29" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3949,7 +3953,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-30" unit="chapter" xml:id="Cassidorus_V_chap.30"/>
+                <milestone n="4-30" unit="chapter" xml:id="RC_30"/>
                 <div type="alignment" xml:id="Cassidorus_V_30">
                     <ab corresp="#Cassidorus_V_30" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -3976,7 +3980,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-31" unit="chapter" xml:id="Cassidorus_V_chap.31"/>
+                <milestone n="4-31" unit="chapter" xml:id="RC_31"/>
                 <div type="alignment" xml:id="Cassidorus_V_31">
                     <ab corresp="#Cassidorus_V_31" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -4003,7 +4007,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-32" unit="chapter" xml:id="Cassidorus_V_chap.32"/>
+                <milestone n="4-32" unit="chapter" xml:id="RC_32"/>
                 <div type="alignment" xml:id="Cassidorus_V_32">
                     <ab corresp="#Cassidorus_V_32" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -4030,7 +4034,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-33" unit="chapter" xml:id="Cassidorus_V_chap.33"/>
+                <milestone n="4-33" unit="chapter" xml:id="RC_33"/>
                 <div type="alignment" xml:id="Cassidorus_V_33">
                     <ab corresp="#Cassidorus_V_33" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -4057,7 +4061,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-34" unit="chapter" xml:id="Cassidorus_V_chap.34"/>
+                <milestone n="4-34" unit="chapter" xml:id="RC_34"/>
                 <div type="alignment" xml:id="Cassidorus_V_34">
                     <ab corresp="#Cassidorus_V_34" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4098,7 +4102,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-35" unit="chapter" xml:id="Cassidorus_V_chap.35"/>
+                <milestone n="4-35" unit="chapter" xml:id="RC_35"/>
                 <div type="alignment" xml:id="Cassidorus_V_35">
                     <ab corresp="#Cassidorus_V_35" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4126,7 +4130,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-36" unit="chapter" xml:id="Cassidorus_V_chap.36"/>
+                <milestone n="4-36" unit="chapter" xml:id="RC_36"/>
                 <div type="alignment" xml:id="Cassidorus_V_36">
                     <ab corresp="#Cassidorus_V_36" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4153,7 +4157,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-37" unit="chapter" xml:id="Cassidorus_V_chap.37"/>
+                <milestone n="4-37" unit="chapter" xml:id="RC_37"/>
                 <div type="alignment" xml:id="Cassidorus_V_37">
                     <ab corresp="#Cassidorus_V_37" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4180,7 +4184,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-38" unit="chapter" xml:id="Cassidorus_V_chap.38"/>
+                <milestone n="4-38" unit="chapter" xml:id="RC_38"/>
                 <div type="alignment" xml:id="Cassidorus_V_38">
                     <ab corresp="#Cassidorus_V_38" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4209,7 +4213,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-39" unit="chapter" xml:id="Cassidorus_V_chap.39"/>
+                <milestone n="4-39" unit="chapter" xml:id="RC_39"/>
                 <div type="alignment" xml:id="Cassidorus_V_39">
                     <ab corresp="#Cassidorus_V_39" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4236,7 +4240,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-40" unit="chapter" xml:id="Cassidorus_V_chap.40"/>
+                <milestone n="4-40" unit="chapter" xml:id="RC_40"/>
                 <div type="alignment" xml:id="Cassidorus_V_40">
                     <ab corresp="#Cassidorus_V_40" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4263,7 +4267,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-41" unit="chapter" xml:id="Cassidorus_V_chap.41"/>
+                <milestone n="4-41" unit="chapter" xml:id="RC_41"/>
                 <div type="alignment" xml:id="Cassidorus_V_41">
                     <ab corresp="#Cassidorus_V_41" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4292,7 +4296,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-42" unit="chapter" xml:id="Cassidorus_V_chap.42"/>
+                <milestone n="4-42" unit="chapter" xml:id="RC_42"/>
                 <div type="alignment" xml:id="Cassidorus_V_42">
                     <ab corresp="#Cassidorus_V_42" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4320,7 +4324,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-43" unit="chapter" xml:id="Cassidorus_V_chap.43"/>
+                <milestone n="4-43" unit="chapter" xml:id="RC_43"/>
                 <div type="alignment" xml:id="Cassidorus_V_43">
                     <ab corresp="#Cassidorus_V_43" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4349,7 +4353,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-44" unit="chapter" xml:id="Cassidorus_V_chap.44"/>
+                <milestone n="4-44" unit="chapter" xml:id="RC_44"/>
                 <div type="alignment" xml:id="Cassidorus_V_44">
                     <ab corresp="#Cassidorus_V_44" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4376,7 +4380,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-45" unit="chapter" xml:id="Cassidorus_V_chap.45"/>
+                <milestone n="4-45" unit="chapter" xml:id="RC_45"/>
                 <div type="alignment" xml:id="Cassidorus_V_45">
                     <ab corresp="#Cassidorus_V_45" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4405,7 +4409,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-46" unit="chapter" xml:id="Cassidorus_V_chap.46"/>
+                <milestone n="4-46" unit="chapter" xml:id="RC_46"/>
                 <div type="alignment" xml:id="Cassidorus_V_46">
                     <ab corresp="#Cassidorus_V_46" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4432,7 +4436,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-47" unit="chapter" xml:id="Cassidorus_V_chap.47"/>
+                <milestone n="4-47" unit="chapter" xml:id="RC_47"/>
                 <div type="alignment" xml:id="Cassidorus_V_47">
                     <ab corresp="#Cassidorus_V_47" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4459,7 +4463,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-48" unit="chapter" xml:id="Cassidorus_V_chap.48"/>
+                <milestone n="4-48" unit="chapter" xml:id="RC_48"/>
                 <div type="alignment" xml:id="Cassidorus_V_48">
                     <ab corresp="#Cassidorus_V_48" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4488,7 +4492,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-49" unit="chapter" xml:id="Cassidorus_V_chap.49"/>
+                <milestone n="4-49" unit="chapter" xml:id="RC_49"/>
                 <div type="alignment" xml:id="Cassidorus_V_49">
                     <ab corresp="#Cassidorus_V_49" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4515,7 +4519,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-50" unit="chapter" xml:id="Cassidorus_V_chap.50"/>
+                <milestone n="4-50" unit="chapter" xml:id="RC_50"/>
                 <div type="alignment" xml:id="Cassidorus_V_50">
                     <ab corresp="#Cassidorus_V_50" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4542,7 +4546,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-51" unit="chapter" xml:id="Cassidorus_V_chap.51"/>
+                <milestone n="4-51" unit="chapter" xml:id="RC_51"/>
                 <div type="alignment" xml:id="Cassidorus_V_51">
                     <ab corresp="#Cassidorus_V_51" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4569,7 +4573,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-52" unit="chapter" xml:id="Cassidorus_V_chap.52"/>
+                <milestone n="4-52" unit="chapter" xml:id="RC_52"/>
                 <div type="alignment" xml:id="Cassidorus_V_52">
                     <ab corresp="#Cassidorus_V_52" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4598,7 +4602,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-53" unit="chapter" xml:id="Cassidorus_V_chap.53"/>
+                <milestone n="4-53" unit="chapter" xml:id="RC_53"/>
                 <div type="alignment" xml:id="Cassidorus_V_53">
                     <ab corresp="#Cassidorus_V_53" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4625,7 +4629,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-54" unit="chapter" xml:id="Cassidorus_V_chap.54"/>
+                <milestone n="4-54" unit="chapter" xml:id="RC_54"/>
                 <div type="alignment" xml:id="Cassidorus_V_54">
                     <ab corresp="#Cassidorus_V_54" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4652,7 +4656,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-55" unit="chapter" xml:id="Cassidorus_V_chap.55"/>
+                <milestone n="4-55" unit="chapter" xml:id="RC_55"/>
                 <div type="alignment" xml:id="Cassidorus_V_55">
                     <ab corresp="#Cassidorus_V_55" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4679,7 +4683,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-56" unit="chapter" xml:id="Cassidorus_V_chap.56"/>
+                <milestone n="4-56" unit="chapter" xml:id="RC_56"/>
                 <div type="alignment" xml:id="Cassidorus_V_56">
                     <ab corresp="#Cassidorus_V_56" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4706,7 +4710,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-57" unit="chapter" xml:id="Cassidorus_V_chap.57"/>
+                <milestone n="4-57" unit="chapter" xml:id="RC_57"/>
                 <div type="alignment" xml:id="Cassidorus_V_57">
                     <ab corresp="#Cassidorus_V_57" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4733,7 +4737,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-58" unit="chapter" xml:id="Cassidorus_V_chap.58"/>
+                <milestone n="4-58" unit="chapter" xml:id="RC_58"/>
                 <div type="alignment" xml:id="Cassidorus_V_58">
                     <ab corresp="#Cassidorus_V_58" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4760,7 +4764,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-59" unit="chapter" xml:id="Cassidorus_V_chap.59"/>
+                <milestone n="4-59" unit="chapter" xml:id="RC_59"/>
                 <div type="alignment" xml:id="Cassidorus_V_59">
                     <ab corresp="#Cassidorus_V_59" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4787,7 +4791,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-60" unit="chapter" xml:id="Cassidorus_V_chap.60"/>
+                <milestone n="4-60" unit="chapter" xml:id="RC_60"/>
                 <div type="alignment" xml:id="Cassidorus_V_60">
                     <ab corresp="#Cassidorus_V_60" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4814,7 +4818,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-61" unit="chapter" xml:id="Cassidorus_V_chap.61"/>
+                <milestone n="4-61" unit="chapter" xml:id="RC_61"/>
                 <div type="alignment" xml:id="Cassidorus_V_61">
                     <ab corresp="#Cassidorus_V_61" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4841,7 +4845,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-62" unit="chapter" xml:id="Cassidorus_V_chap.62"/>
+                <milestone n="4-62" unit="chapter" xml:id="RC_62"/>
                 <div type="alignment" xml:id="Cassidorus_V_62">
                     <ab corresp="#Cassidorus_V_62" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4868,7 +4872,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-63" unit="chapter" xml:id="Cassidorus_V_chap.63"/>
+                <milestone n="4-63" unit="chapter" xml:id="RC_63"/>
                 <div type="alignment" xml:id="Cassidorus_V_63">
                     <ab corresp="#Cassidorus_V_63" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4895,7 +4899,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-64" unit="chapter" xml:id="Cassidorus_V_chap.64"/>
+                <milestone n="4-64" unit="chapter" xml:id="RC_64"/>
                 <div type="alignment" xml:id="Cassidorus_V_64">
                     <ab corresp="#Cassidorus_V_64" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4922,7 +4926,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-65" unit="chapter" xml:id="Cassidorus_V_chap.65"/>
+                <milestone n="4-65" unit="chapter" xml:id="RC_65"/>
                 <div type="alignment" xml:id="Cassidorus_V_65">
                     <ab corresp="#Cassidorus_V_65" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4949,7 +4953,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-66" unit="chapter" xml:id="Cassidorus_V_chap.66"/>
+                <milestone n="4-66" unit="chapter" xml:id="RC_66"/>
                 <div type="alignment" xml:id="Cassidorus_V_66">
                     <ab corresp="#Cassidorus_V_66" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -4976,7 +4980,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-67" unit="chapter" xml:id="Cassidorus_V_chap.67"/>
+                <milestone n="4-67" unit="chapter" xml:id="RC_67"/>
                 <div type="alignment" xml:id="Cassidorus_V_67">
                     <ab corresp="#Cassidorus_V_67" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5003,7 +5007,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-68" unit="chapter" xml:id="Cassidorus_V_chap.68"/>
+                <milestone n="4-68" unit="chapter" xml:id="RC_68"/>
                 <div type="alignment" xml:id="Cassidorus_V_68">
                     <ab corresp="#Cassidorus_V_68" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5030,7 +5034,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-69" unit="chapter" xml:id="Cassidorus_V_chap.69"/>
+                <milestone n="4-69" unit="chapter" xml:id="RC_69"/>
                 <div type="alignment" xml:id="Cassidorus_V_69">
                     <ab corresp="#Cassidorus_V_69" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5057,7 +5061,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-70" unit="chapter" xml:id="Cassidorus_V_chap.70"/>
+                <milestone n="4-70" unit="chapter" xml:id="RC_70"/>
                 <div type="alignment" xml:id="Cassidorus_V_70">
                     <ab corresp="#Cassidorus_V_70" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5085,7 +5089,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="4-71" unit="chapter" xml:id="Cassidorus_V_chap.71"/>
+                <milestone n="4-71" unit="chapter" xml:id="RC_71"/>
                 <div type="alignment" xml:id="Cassidorus_V_71">
                     <ab corresp="#Cassidorus_V_71" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5112,7 +5116,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-1" unit="chapter" xml:id="Helcanus_V_chap.1"/>
+                <milestone n="5-1" unit="chapter" xml:id="RH_1"/>
                 <div type="alignment" xml:id="Helcanus_V_1">
                     <ab corresp="#Helcanus_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5139,7 +5143,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-2" unit="chapter" xml:id="Helcanus_V_chap.2"/>
+                <milestone n="5-2" unit="chapter" xml:id="RH_2"/>
                 <div type="alignment" xml:id="Helcanus_V_2">
                     <ab corresp="#Helcanus_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5166,7 +5170,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-3" unit="chapter" xml:id="Helcanus_V_chap.3"/>
+                <milestone n="5-3" unit="chapter" xml:id="RH_3"/>
                 <div type="alignment" xml:id="Helcanus_V_3">
                     <ab corresp="#Helcanus_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5193,7 +5197,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-4" unit="chapter" xml:id="Helcanus_V_chap.4"/>
+                <milestone n="5-4" unit="chapter" xml:id="RH_4"/>
                 <div type="alignment" xml:id="Helcanus_V_4">
                     <ab corresp="#Helcanus_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5220,7 +5224,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-5" unit="chapter" xml:id="Helcanus_V_chap.5"/>
+                <milestone n="5-5" unit="chapter" xml:id="RH_5"/>
                 <div type="alignment" xml:id="Helcanus_V_5">
                     <ab corresp="#Helcanus_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5247,7 +5251,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-6" unit="chapter" xml:id="Helcanus_V_chap.6"/>
+                <milestone n="5-6" unit="chapter" xml:id="RH_6"/>
                 <div type="alignment" xml:id="Helcanus_V_6">
                     <ab corresp="#Helcanus_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5274,7 +5278,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-7" unit="chapter" xml:id="Helcanus_V_chap.7"/>
+                <milestone n="5-7" unit="chapter" xml:id="RH_7"/>
                 <div type="alignment" xml:id="Helcanus_V_7">
                     <ab corresp="#Helcanus_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5301,7 +5305,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-8" unit="chapter" xml:id="Helcanus_V_chap.8"/>
+                <milestone n="5-8" unit="chapter" xml:id="RH_8"/>
                 <div type="alignment" xml:id="Helcanus_V_8">
                     <ab corresp="#Helcanus_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5330,7 +5334,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-9" unit="chapter" xml:id="Helcanus_V_chap.9"/>
+                <milestone n="5-9" unit="chapter" xml:id="RH_9"/>
                 <div type="alignment" xml:id="Helcanus_V_9">
                     <ab corresp="#Helcanus_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5359,7 +5363,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-10" unit="chapter" xml:id="Helcanus_V_chap.10"/>
+                <milestone n="5-10" unit="chapter" xml:id="RH_10"/>
                 <div type="alignment" xml:id="Helcanus_V_10">
                     <ab corresp="#Helcanus_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5386,7 +5390,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-11" unit="chapter" xml:id="Helcanus_V_chap.11"/>
+                <milestone n="5-11" unit="chapter" xml:id="RH_11"/>
                 <div type="alignment" xml:id="Helcanus_V_11">
                     <ab corresp="#Helcanus_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5413,7 +5417,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-12" unit="chapter" xml:id="Helcanus_V_chap.12"/>
+                <milestone n="5-12" unit="chapter" xml:id="RH_12"/>
                 <div type="alignment" xml:id="Helcanus_V_12">
                     <ab corresp="#Helcanus_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5442,7 +5446,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-13" unit="chapter" xml:id="Helcanus_V_chap.13"/>
+                <milestone n="5-13" unit="chapter" xml:id="RH_13"/>
                 <div type="alignment" xml:id="Helcanus_V_13">
                     <ab corresp="#Helcanus_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5469,7 +5473,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-14" unit="chapter" xml:id="Helcanus_V_chap.14"/>
+                <milestone n="5-14" unit="chapter" xml:id="RH_14"/>
                 <div type="alignment" xml:id="Helcanus_V_14">
                     <ab corresp="#Helcanus_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5499,7 +5503,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-15" unit="chapter" xml:id="Helcanus_V_chap.15"/>
+                <milestone n="5-15" unit="chapter" xml:id="RH_15"/>
                 <div type="alignment" xml:id="Helcanus_V_15">
                     <ab corresp="#Helcanus_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5527,7 +5531,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="5-16" unit="chapter" xml:id="Helcanus_V_chap.16"/>
+                <milestone n="5-16" unit="chapter" xml:id="RH_16"/>
                 <div type="alignment" xml:id="Helcanus_V_16">
                     <ab corresp="#Helcanus_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5556,7 +5560,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-1" unit="chapter" xml:id="Pelyarmenus_V_chap.1"/>
+                <milestone n="6-1" unit="chapter" xml:id="RP_1"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_1">
                     <ab corresp="#Pelyarmenus_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5590,7 +5594,7 @@
                         <seg type="note">rubric+miniature(16rb-c)+initial(16rc)</seg>
                     </ab>
                 </div>
-                <milestone n="6-2" unit="chapter" xml:id="Pelyarmenus_V_chap.2"/>
+                <milestone n="6-2" unit="chapter" xml:id="RP_2"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_2">
                     <ab corresp="#Pelyarmenus_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5629,7 +5633,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-3" unit="chapter" xml:id="Pelyarmenus_V_chap.3"/>
+                <milestone n="6-3" unit="chapter" xml:id="RP_3"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_3">
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5663,7 +5667,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-4" unit="chapter" xml:id="Pelyarmenus_V_chap.4"/>
+                <milestone n="6-4" unit="chapter" xml:id="RP_4"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_4">
                     <ab corresp="#Pelyarmenus_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5694,7 +5698,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-5" unit="chapter" xml:id="Pelyarmenus_V_chap.5"/>
+                <milestone n="6-5" unit="chapter" xml:id="RP_5"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_5">
                     <ab corresp="#Pelyarmenus_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5729,7 +5733,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-6" unit="chapter" xml:id="Pelyarmenus_V_chap.6"/>
+                <milestone n="6-6" unit="chapter" xml:id="RP_6"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_6">
                     <ab corresp="#Pelyarmenus_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5759,7 +5763,7 @@
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
-                <milestone n="6-7" unit="chapter" xml:id="Pelyarmenus_V_chap.7"/>
+                <milestone n="6-7" unit="chapter" xml:id="RP_7"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_7">
                     <ab corresp="#Pelyarmenus_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5793,7 +5797,7 @@
                         <seg type="note">rubric+miniature(34vc)+initial(34vc)</seg>
                     </ab>
                 </div>
-                <milestone n="6-8" unit="chapter" xml:id="Pelyarmenus_V_chap.8"/>
+                <milestone n="6-8" unit="chapter" xml:id="RP_8"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_8">
                     <ab corresp="#Pelyarmenus_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5827,7 +5831,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-9" unit="chapter" xml:id="Pelyarmenus_V_chap.9"/>
+                <milestone n="6-9" unit="chapter" xml:id="RP_9"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_9">
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5859,7 +5863,7 @@
                         <seg type="note">rubric+miniature(40va-b)+initial(40va)</seg>
                     </ab>
                 </div>
-                <milestone n="6-10" unit="chapter" xml:id="Pelyarmenus_V_chap.10"/>
+                <milestone n="6-10" unit="chapter" xml:id="RP_10"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_10">
                     <ab corresp="#Pelyarmenus_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5890,7 +5894,7 @@
                         <seg type="note">rubric+miniature(44va)+initial(44va)</seg>
                     </ab>
                 </div>
-                <milestone n="6-11" unit="chapter" xml:id="Pelyarmenus_V_chap.11"/>
+                <milestone n="6-11" unit="chapter" xml:id="RP_11"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_11">
                     <ab corresp="#Pelyarmenus_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5922,7 +5926,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="6-12" unit="chapter" xml:id="Pelyarmenus_V_chap.12"/>
+                <milestone n="6-12" unit="chapter" xml:id="RP_12"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_12">
                     <ab corresp="#Pelyarmenus_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -5953,7 +5957,7 @@
                         <seg type="note">rubric+miniature(49vb)+initial(49vb)</seg>
                     </ab>
                 </div>
-                <milestone n="6-13" unit="chapter" xml:id="Pelyarmenus_V_chap.13"/>
+                <milestone n="6-13" unit="chapter" xml:id="RP_13"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_13">
                               <ab corresp="#Pelyarmenus_V_13" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -5984,7 +5988,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-14" unit="chapter" xml:id="Pelyarmenus_V_chap.14"/>
+                        <milestone n="6-14" unit="chapter" xml:id="RP_14"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_14">
                               <ab corresp="#Pelyarmenus_V_14" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6017,7 +6021,7 @@
                                     <seg type="note">rubric+miniature(59ra-b)+initial(59ra)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-15" unit="chapter" xml:id="Pelyarmenus_V_chap.15"/>
+                        <milestone n="6-15" unit="chapter" xml:id="RP_15"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_15">
                               <ab corresp="#Pelyarmenus_V_15" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6050,7 +6054,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-16" unit="chapter" xml:id="Pelyarmenus_V_chap.16"/>
+                        <milestone n="6-16" unit="chapter" xml:id="RP_16"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_16">
                               <ab corresp="#Pelyarmenus_V_16" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6083,7 +6087,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-17" unit="chapter" xml:id="Pelyarmenus_V_chap.17"/>
+                        <milestone n="6-17" unit="chapter" xml:id="RP_17"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_17">
                               <ab corresp="#Pelyarmenus_V_17" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6118,7 +6122,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-18" unit="chapter" xml:id="Pelyarmenus_V_chap.18"/>
+                        <milestone n="6-18" unit="chapter" xml:id="RP_18"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_18">
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6129,8 +6133,9 @@
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">Paragraph linked to chapter Pelyarmenus_V_340
-                                          starting 406rb</seg>
+                                    <seg type="rubric">absent</seg>
+                                    <seg type="location">406rb</seg>                                  
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6147,7 +6152,7 @@
                                     <seg type="note">rubric+miniature(67vb-c)+initial(67vc)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-19" unit="chapter" xml:id="Pelyarmenus_V_chap.19"/>
+                        <milestone n="6-19" unit="chapter" xml:id="RP_19"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_19">
                               <ab corresp="#Pelyarmenus_V_19" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6178,7 +6183,7 @@
                                     <seg type="note">rubric+miniature(69rb-c)+initial(69rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-20" unit="chapter" xml:id="Pelyarmenus_V_chap.20"/>
+                        <milestone n="6-20" unit="chapter" xml:id="RP_20"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_20">
                               <ab corresp="#Pelyarmenus_V_20" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6209,7 +6214,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-21" unit="chapter" xml:id="Pelyarmenus_V_chap.21"/>
+                        <milestone n="6-21" unit="chapter" xml:id="RP_21"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_21">
                               <ab corresp="#Pelyarmenus_V_21" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6241,7 +6246,7 @@
                                     <seg type="note">rubric+miniature(75rb-c)+initial(75rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-22" unit="chapter" xml:id="Pelyarmenus_V_chap.22"/>
+                        <milestone n="6-22" unit="chapter" xml:id="RP_22"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_22">
                               <ab corresp="#Pelyarmenus_V_22" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6272,7 +6277,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-23" unit="chapter" xml:id="Pelyarmenus_V_chap.23"/>
+                        <milestone n="6-23" unit="chapter" xml:id="RP_23"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_23">
                               <ab corresp="#Pelyarmenus_V_23" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6308,7 +6313,7 @@
                                     <seg type="note">rubric+miniature(79rb-c)+initial(79rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-24" unit="chapter" xml:id="Pelyarmenus_V_chap.24"/>
+                        <milestone n="6-24" unit="chapter" xml:id="RP_24"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_24">
                               <ab corresp="#Pelyarmenus_V_24" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6322,8 +6327,8 @@
                                     <seg type="rubric">Comment li empereres et li autre baron
                                           envoierent a Romme.</seg>
                                     <seg type="location">423ra</seg>
-                                    <seg type="note">rubric+miniature+initial. 
-                                        Subject : focus on a different subject</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                                    <seg type="note">Subject : focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6341,7 +6346,7 @@
                                     <seg type="note">rubric+miniature(82va)+initial(82va)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-25" unit="chapter" xml:id="Pelyarmenus_V_chap.25"/>
+                        <milestone n="6-25" unit="chapter" xml:id="RP_25"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_25">
                               <ab corresp="#Pelyarmenus_V_25" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6373,7 +6378,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-26" unit="chapter" xml:id="Pelyarmenus_V_chap.26"/>
+                        <milestone n="6-26" unit="chapter" xml:id="RP_26"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_26">
                               <ab corresp="#Pelyarmenus_V_26" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6404,7 +6409,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-27" unit="chapter" xml:id="Pelyarmenus_V_chap.27"/>
+                        <milestone n="6-27" unit="chapter" xml:id="RP_27"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_27">
                               <ab corresp="#Pelyarmenus_V_27" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6435,7 +6440,7 @@
                                     <seg type="note">rubric+miniature+initial(86rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-28" unit="chapter" xml:id="Pelyarmenus_V_chap.28"/>
+                        <milestone n="6-28" unit="chapter" xml:id="RP_28"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_28">
                               <ab corresp="#Pelyarmenus_V_28" type="ms_instance" subtype="base">
                                     <seg type="witness">V2</seg>
@@ -6466,7 +6471,7 @@
                                     <seg type="note">rubric+miniature(88vc)+initial(88vc)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-29" unit="chapter" xml:id="Pelyarmenus_V_chap.29"/>
+                        <milestone n="6-29" unit="chapter" xml:id="RP_29"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_29">
                               <ab corresp="#Pelyarmenus_V_29" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6497,7 +6502,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-30" unit="chapter" xml:id="Pelyarmenus_V_chap.30"/>
+                        <milestone n="6-30" unit="chapter" xml:id="RP_30"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_30">
                               <ab corresp="#Pelyarmenus_V_30" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6528,7 +6533,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-31" unit="chapter" xml:id="Pelyarmenus_V_chap.31"/>
+                        <milestone n="6-31" unit="chapter" xml:id="RP_31"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_31">
                               <ab corresp="#Pelyarmenus_V_31" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6561,7 +6566,7 @@
                                     <seg type="note">rubric+miniature(94rb-c)+initial(94rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-32" unit="chapter" xml:id="Pelyarmenus_V_chap.32"/>
+                        <milestone n="6-32" unit="chapter" xml:id="RP_32"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_32">
                               <ab corresp="#Pelyarmenus_V_32" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6596,7 +6601,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-33" unit="chapter" xml:id="Pelyarmenus_V_chap.33"/>
+                        <milestone n="6-33" unit="chapter" xml:id="RP_33"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_551">
                               <ab corresp="#Pelyarmenus_V_551" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6627,7 +6632,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-34" unit="chapter" xml:id="Pelyarmenus_V_chap.34"/>
+                        <milestone n="6-34" unit="chapter" xml:id="RP_34"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_34">
                               <ab corresp="#Pelyarmenus_V_34" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6663,7 +6668,7 @@
                                     <seg type="note">rubric+initial. no miniature</seg>
                               </ab>
                         </div>
-                        <milestone n="6-35" unit="chapter" xml:id="Pelyarmenus_V_chap.35"/>
+                        <milestone n="6-35" unit="chapter" xml:id="RP_35"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_35">
                               <ab corresp="#Pelyarmenus_V_35" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6676,8 +6681,9 @@
                               </ab>
                               <ab corresp="#Pelyarmenus_V_35" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                    <seg type="note">Paragraph linked to chapter Pelyarmenus_V_580
-                                          starting 446vb</seg>
+                                    <seg type="rubric">absent</seg>
+                                    <seg type="location">446vb</seg>
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_35" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6697,7 +6703,7 @@
                                     <seg type="note">rubric+miniature(102ra-b)+initial(102ra)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-36" unit="chapter" xml:id="Pelyarmenus_V_chap.36"/>
+                        <milestone n="6-36" unit="chapter" xml:id="RP_36"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_36">
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6730,8 +6736,8 @@
                                           es armes Leus et des princes et des chevaliers qui y
                                           furent.</seg>
                                     <seg type="location">105rb</seg>
-                                    <seg type="note">rubric+miniature+initial
-                                        Suject: different subject</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                                    <seg type="note">Suject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -6743,7 +6749,7 @@
                                     <seg type="note">doublign rubric+miniature(106ra-b)+initial(106ra) already on 105rb</seg>
                               </ab>
                         </div>
-                        <milestone n="6-37" unit="chapter" xml:id="Pelyarmenus_V_chap.37"/>
+                        <milestone n="6-37" unit="chapter" xml:id="RP_37"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_37">
                               <ab corresp="#Pelyarmenus_V_37" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6757,8 +6763,8 @@
                                     <seg type="rubric">Comment li baron se partirent de l'empereeur
                                           de Romme et de l'emperris.</seg>
                                     <seg type="location">451rc</seg>
-                                    <seg type="note">rubric+miniature+initial
-                                        Subject : different subject</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                                    <seg type="note">Subject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_37" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6775,7 +6781,7 @@
                                     <seg type="note">rubric+miniature(106vc)+initial(106vc)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-38" unit="chapter" xml:id="Pelyarmenus_V_chap.38"/>
+                        <milestone n="6-38" unit="chapter" xml:id="RP_38"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_38">
                               <ab corresp="#Pelyarmenus_V_38" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6814,7 +6820,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-39" unit="chapter" xml:id="Pelyarmenus_V_chap.39"/>
+                        <milestone n="6-39" unit="chapter" xml:id="RP_39"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_39">
                               <ab corresp="#Pelyarmenus_V_39" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6857,7 +6863,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-40" unit="chapter" xml:id="Pelyarmenus_V_chap.40"/>
+                        <milestone n="6-40" unit="chapter" xml:id="RP_40"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_40">
                               <ab corresp="#Pelyarmenus_V_40" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6895,7 +6901,7 @@
                                     <seg type="note">rubric+miniature(116ra-b)+initial(116ra)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-41" unit="chapter" xml:id="Pelyarmenus_V_chap.41"/>
+                        <milestone n="6-41" unit="chapter" xml:id="RP_41"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_41">
                               <ab corresp="#Pelyarmenus_V_41" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6910,8 +6916,8 @@
                                     <seg type="rubric">Comment li princes d'Antioche ala contre le
                                           roy de Jerusalem au parlement.</seg>
                                     <seg type="location">464va</seg>
-                                    <seg type="note">rubric+miniature+initial. Subject: focus on a
-                                          different subject</seg>
+                                    <seg type="note">rubric+miniature+initial</seg>
+                                    <seg type="note">Subject: focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_41" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -6926,11 +6932,11 @@
                                     <seg type="rubric">Ci vient li contes au prince d'Antyoche
                                           comment il ala au parlement a Rohais.</seg>
                                     <seg type="location">118va</seg>
-                                    <seg type="note">rubric+miniature+initial 
-                                        Subject : different subject // B</seg>
+                                    <seg type="note">rubric+miniature+initial</seg> 
+                                   <seg type="note">Subject : different subject // B</seg>
                               </ab>
                         </div>
-                        <milestone n="6-42" unit="chapter" xml:id="Pelyarmenus_V_chap.42"/>
+                        <milestone n="6-42" unit="chapter" xml:id="RP_42"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_42">
                               <ab corresp="#Pelyarmenus_V_42" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6966,7 +6972,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-43" unit="chapter" xml:id="Pelyarmenus_V_chap.43"/>
+                        <milestone n="6-43" unit="chapter" xml:id="RP_43"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_43">
                               <ab corresp="#Pelyarmenus_V_43" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -6980,9 +6986,9 @@
                               </ab>
                               <ab corresp="#Pelyarmenus_V_43" type="ms_instance">
                                     <seg type="witness">B</seg>
-                                  <seg type="rubric">absent</seg>
-                                    <seg type="note">Paragraph linked to chapter Pelyarmenus_V_752
-                                          starting 469rb</seg>
+                                    <seg type="rubric">absent</seg>
+                                    <seg type="location">469rb</seg>
+                                    <seg type="note">no rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_43" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7003,7 +7009,7 @@
                                     <seg type="note">rubric+miniature(123ra-b)+initial(123rb)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-44" unit="chapter" xml:id="Pelyarmenus_V_chap.44"/>
+                        <milestone n="6-44" unit="chapter" xml:id="RP_44"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_44">
                               <ab corresp="#Pelyarmenus_V_44" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -7034,7 +7040,7 @@
                                     <seg type="note">rubric+miniature(126ra-b)+initial(126ra)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-45" unit="chapter" xml:id="Pelyarmenus_V_chap.45"/>
+                        <milestone n="6-45" unit="chapter" xml:id="RP_45"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_45">
                               <ab corresp="#Pelyarmenus_V_45" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -7066,7 +7072,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-46" unit="chapter" xml:id="Pelyarmenus_V_chap.46"/>
+                        <milestone n="6-46" unit="chapter" xml:id="RP_46"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_46">
                               <ab corresp="#Pelyarmenus_V_46" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -7100,7 +7106,7 @@
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
-                        <milestone n="6-47" unit="chapter" xml:id="Pelyarmenus_V_chap.47"/>
+                        <milestone n="6-47" unit="chapter" xml:id="RP_47"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_47">
                               <ab corresp="#Pelyarmenus_V_47" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -7134,7 +7140,7 @@
                                     <seg type="note">rubric+miniature(133ra)+initial(133ra)</seg>
                               </ab>
                         </div>
-                        <milestone n="6-48" unit="chapter" xml:id="Pelyarmenus_V_chap.48"/>
+                        <milestone n="6-48" unit="chapter" xml:id="RP_48"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_48">
                               <ab corresp="#Pelyarmenus_V_48" type="ms_instance" subtype="base">
                                     <seg type="witness">V3</seg>
@@ -7171,7 +7177,7 @@
                                     <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
                         </div>
-                        <milestone n="6-49" unit="explicit" xml:id="Pelyarmenus_V_chap.49"/>
+                        <milestone n="6-49" unit="explicit" xml:id="RP_49"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_49">
                               <ab corresp="#Pelyarmenus_V_49" type="ms_instance"
                                     subtype="base">
@@ -7205,7 +7211,7 @@
                                     <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
                               </ab>
                         </div>
-                <milestone n="7-1" unit="incipit" xml:id="Kanor_V_chap.1"/>
+                <milestone n="7-1" unit="incipit" xml:id="RK_1"/>
                 <div type="alignment" xml:id="Kanor_V_1">
                     <ab corresp="#Kanor_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7220,7 +7226,7 @@
                         <seg type="witness">B</seg>
                         <seg type="incipit">absent</seg>
                         <seg type="location">482rc</seg>
-                        <seg type="note">no incipit+miniature+initial. no §</seg>
+                        <seg type="note">no incipit+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Kanor_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7239,7 +7245,7 @@
                         <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
                     </ab>
                 </div>
-                <milestone n="7-2" unit="chapter" xml:id="Kanor_V_chap.2"/>
+                <milestone n="7-2" unit="chapter" xml:id="RK_2"/>
                 <div type="alignment" xml:id="Kanor_V_2">
                     <ab corresp="#Kanor_V_2" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7271,7 +7277,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-3" unit="chapter" xml:id="Kanor_V_chap.3"/>
+                <milestone n="7-3" unit="chapter" xml:id="RK_3"/>
                 <div type="alignment" xml:id="Kanor_V_3">
                     <ab corresp="#Kanor_V_3" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7302,7 +7308,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-4" unit="chapter" xml:id="Kanor_V_chap.4"/>
+                <milestone n="7-4" unit="chapter" xml:id="RK_4"/>
                 <div type="alignment" xml:id="Kanor_V_4">
                     <ab corresp="#Kanor_V_4" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7317,7 +7323,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">488ra</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Kanor_V_4" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7337,7 +7343,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-5" unit="chapter" xml:id="Kanor_V_chap.5"/>
+                <milestone n="7-5" unit="chapter" xml:id="RK_5"/>
                 <div type="alignment" xml:id="Kanor_V_5">
                     <ab corresp="#Kanor_V_5" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7374,7 +7380,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-6" unit="chapter" xml:id="Kanor_V_chap.6"/>
+                <milestone n="7-6" unit="chapter" xml:id="RK_6"/>
                 <div type="alignment" xml:id="Kanor_V_6">
                     <ab corresp="#Kanor_V_6" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7387,7 +7393,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">absent</seg>
                         <seg type="location">503ra</seg>
-                        <seg type="note">no rubric+miniature+initial. no §</seg>
+                        <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#Kanor_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -7405,7 +7411,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-7" unit="chapter" xml:id="Kanor_V_chap.7"/>
+                <milestone n="7-7" unit="chapter" xml:id="RK_7"/>
                 <div type="alignment" xml:id="Kanor_V_7">
                     <ab corresp="#Kanor_V_7" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7438,7 +7444,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-8" unit="chapter" xml:id="Kanor_V_chap.8"/>
+                <milestone n="7-8" unit="chapter" xml:id="RK_8"/>
                 <div type="alignment" xml:id="Kanor_V_8">
                     <ab corresp="#Kanor_V_8" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7470,7 +7476,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-9" unit="chapter" xml:id="Kanor_V_chap.9"/>
+                <milestone n="7-9" unit="chapter" xml:id="RK_9"/>
                 <div type="alignment" xml:id="Kanor_V_9">
                     <ab corresp="#Kanor_V_9" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7503,7 +7509,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-10" unit="chapter" xml:id="Kanor_V_chap.10"/>
+                <milestone n="7-10" unit="chapter" xml:id="RK_10"/>
                 <div type="alignment" xml:id="Kanor_V_10">
                     <ab corresp="#Kanor_V_10" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7534,7 +7540,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-11" unit="chapter" xml:id="Kanor_V_chap.11"/>
+                <milestone n="7-11" unit="chapter" xml:id="RK_11"/>
                 <div type="alignment" xml:id="Kanor_V_11">
                     <ab corresp="#Kanor_V_11" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7570,7 +7576,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-12" unit="chapter" xml:id="Kanor_V_chap.12"/>
+                <milestone n="7-12" unit="chapter" xml:id="RK_12"/>
                 <div type="alignment" xml:id="Kanor_V_12">
                     <ab corresp="#Kanor_V_12" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7601,7 +7607,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-13" unit="chapter" xml:id="Kanor_V_chap.13"/>
+                <milestone n="7-13" unit="chapter" xml:id="RK_13"/>
                 <div type="alignment" xml:id="Kanor_V_13">
                     <ab corresp="#Kanor_V_13" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7634,7 +7640,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-14" unit="chapter" xml:id="Kanor_V_chap.14"/>
+                <milestone n="7-14" unit="chapter" xml:id="RK_14"/>
                 <div type="alignment" xml:id="Kanor_V_14">
                     <ab corresp="#Kanor_V_14" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7665,7 +7671,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-15" unit="chapter" xml:id="Kanor_V_chap.15"/>
+                <milestone n="7-15" unit="chapter" xml:id="RK_15"/>
                 <div type="alignment" xml:id="Kanor_V_15">
                     <ab corresp="#Kanor_V_15" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7696,7 +7702,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-16" unit="chapter" xml:id="Kanor_V_chap.16"/>
+                <milestone n="7-16" unit="chapter" xml:id="RK_16"/>
                 <div type="alignment" xml:id="Kanor_V_16">
                     <ab corresp="#Kanor_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7727,7 +7733,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-17" unit="chapter" xml:id="Kanor_V_chap.17"/>
+                <milestone n="7-17" unit="chapter" xml:id="RK_17"/>
                 <div type="alignment" xml:id="Kanor_V_17">
                     <ab corresp="#Kanor_V_17" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7760,7 +7766,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-18" unit="chapter" xml:id="Kanor_V_chap.18"/>
+                <milestone n="7-18" unit="chapter" xml:id="RK_18"/>
                 <div type="alignment" xml:id="Kanor_V_18">
                     <ab corresp="#Kanor_V_18" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7791,7 +7797,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-19" unit="chapter" xml:id="Kanor_V_chap.19"/>
+                <milestone n="7-19" unit="chapter" xml:id="RK_19"/>
                 <div type="alignment" xml:id="Kanor_V_19">
                     <ab corresp="#Kanor_V_19" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7823,7 +7829,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-20" unit="chapter" xml:id="Kanor_V_chap.20"/>
+                <milestone n="7-20" unit="chapter" xml:id="RK_20"/>
                 <div type="alignment" xml:id="Kanor_V_20">
                     <ab corresp="#Kanor_V_20" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7853,7 +7859,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-21" unit="chapter" xml:id="Kanor_V_chap.21"/>
+                <milestone n="7-21" unit="chapter" xml:id="RK_21"/>
                 <div type="alignment" xml:id="Kanor_V_21">
                     <ab corresp="#Kanor_V_21" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7884,7 +7890,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-22" unit="chapter" xml:id="Kanor_V_chap.22"/>
+                <milestone n="7-22" unit="chapter" xml:id="RK_22"/>
                 <div type="alignment" xml:id="Kanor_V_22">
                     <ab corresp="#Kanor_V_22" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7917,7 +7923,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-23" unit="chapter" xml:id="Kanor_V_chap.23"/>
+                <milestone n="7-23" unit="chapter" xml:id="RK_23"/>
                 <div type="alignment" xml:id="Kanor_V_23">
                     <ab corresp="#Kanor_V_23" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7946,7 +7952,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-24" unit="chapter" xml:id="Kanor_V_chap.24"/>
+                <milestone n="7-24" unit="chapter" xml:id="RK_24"/>
                 <div type="alignment" xml:id="Kanor_V_24">
                     <ab corresp="#Kanor_V_24" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -7977,7 +7983,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-25" unit="chapter" xml:id="Kanor_V_chap.25"/>
+                <milestone n="7-25" unit="chapter" xml:id="RK_25"/>
                 <div type="alignment" xml:id="Kanor_V_25">
                     <ab corresp="#Kanor_V_25" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -8007,7 +8013,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-26" unit="chapter" xml:id="Kanor_V_chap.26"/>
+                <milestone n="7-26" unit="chapter" xml:id="RK_26"/>
                 <div type="alignment" xml:id="Kanor_V_26">
                     <ab corresp="#Kanor_V_26" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -8038,7 +8044,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-27" unit="chapter" xml:id="Kanor_V_chap.27"/>
+                <milestone n="7-27" unit="chapter" xml:id="RK_27"/>
                 <div type="alignment" xml:id="Kanor_V_27">
                     <ab corresp="#Kanor_V_27" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -8069,7 +8075,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-28" unit="chapter" xml:id="Kanor_V_chap.28"/>
+                <milestone n="7-28" unit="chapter" xml:id="RK_28"/>
                 <div type="alignment" xml:id="Kanor_V_28">
                     <ab corresp="#Kanor_V_28" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
@@ -8100,7 +8106,7 @@
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
-                <milestone n="7-29" unit="explicit" xml:id="Kanor_V_chap.29"/>
+                <milestone n="7-29" unit="explicit" xml:id="RK_29"/>
                 <div type="alignment" xml:id="Kanor_V_29">
                     <ab corresp="#Kanor_V_29" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
