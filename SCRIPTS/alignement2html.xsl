@@ -41,6 +41,14 @@
                 background-color: #87ceeb;
                 vertical-align:top;
                 }
+                .ms_R{
+                background-color: #166484;
+                vertical-align:top;
+                }
+                .ms_C{
+                background-color: #19349a;
+                vertical-align:top;
+                }
             </style>
             <head>
                 <title>Alignement</title>
@@ -51,8 +59,10 @@
                         <th>§</th>
                         <th>V2/V3</th>
                         <th>B</th>
-                        <th>G</th>
                         <th>X2</th>
+                        <th>G</th>
+                        <th>R</th>
+                        <th>C</th>
                     </tr>
                     <xsl:apply-templates/>
                 </table>
@@ -169,6 +179,52 @@
             </xsl:when>
             <xsl:when test="seg[@type='witness']='X2'">
                 <td class="ms_X2">
+                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <br/>
+                    <xsl:if test="seg[@type='rubric']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='incipit']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='explicit']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                    <xsl:if test="seg[@type='note']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='note']"/>
+                    </xsl:if>
+                </td>
+            </xsl:when>
+            <xsl:when test="seg[@type='witness']='R'">
+                <td class="ms_R">
+                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <br/>
+                    <xsl:if test="seg[@type='rubric']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='incipit']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="seg[@type='explicit']">
+                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
+                        <br/>
+                    </xsl:if>
+                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                    <xsl:if test="seg[@type='note']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='note']"/>
+                    </xsl:if>
+                </td>
+            </xsl:when>
+            <xsl:when test="seg[@type='witness']='C'">
+                <td class="ms_C">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
