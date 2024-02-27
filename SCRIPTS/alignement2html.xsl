@@ -109,7 +109,7 @@
                                     </td>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='V3'">
-                <td class="ms_V2">
+                <td class="ms_V3">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
@@ -154,8 +154,8 @@
                     </xsl:if>
                 </td>
             </xsl:when>
-            <xsl:when test="seg[@type='witness']='G'">
-                <td class="ms_G">
+            <xsl:when test="seg[@type='witness']='X2'">
+                <td class="ms_X2">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
@@ -177,8 +177,9 @@
                     </xsl:if>
                 </td>
             </xsl:when>
-            <xsl:when test="seg[@type='witness']='X2'">
-                <td class="ms_X2">
+            
+            <xsl:when test="seg[@type='witness']='G'">
+                <td class="ms_G">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
