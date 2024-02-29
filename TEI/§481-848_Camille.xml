@@ -591,8 +591,8 @@
                      <rdg wit="#V3">assez <del rend="exponctuation" hand="#main1">i</del></rdg>
                   </app>
                   <app>
-                     <lem wit="#V3 #G #X2">tost</lem>
-                     <rdg wit="#B"/>
+                     <lem wit="#V3 #G">tost</lem>
+                     <rdg wit="#B #X2"/>
                   </app> les verrez au feu, car eles sont jugiees selonc la loy de ceste terre, se
                   ensi <app>
                      <lem wit="#V3 #G #X2">n’</lem>
@@ -2531,7 +2531,7 @@
             <p n="P507"><said who="#nar"><app>
                      <lem wit="#V3 #G #X2"><c ana="lettrine5">O</c>r dist li contes que veritez <app>
                            <lem wit="#V3 #G">est</lem>
-                           <rdg wit="#X2"/>
+                           <rdg wit="#X2">si (sic)</rdg>
                         </app></lem>
                      <rdg wit="#B">Voirs fu</rdg>
                   </app>, si com l’estoire le <app>
@@ -2556,7 +2556,9 @@
                      <rdg wit="#G"/>
                   </app> !</said> Ceste vois entendi <rs type="person" key="Cassidorus">li
                   empereres</rs> et sailli sus tous esbahis et se vesti au plus tost que il pot.
-               Lors fist tant <cb n="f"/>que sanz le seu de nullui issi hors de <app>
+               Lors fist tant <cb n="f"/>que sanz le seu de nullui issi
+               hors<!--help vérifier BG; X2 a "sans le (? voir f. 93rb, ce n'est pas un "l") sent (?) de nului issi de la -> il manque hors, à enregistrer mais peut-être aussi BG-->
+               de <app>
                   <lem wit="#V3 #G">sa</lem>
                   <rdg wit="#B #X2">la</rdg>
                </app> chambre <app>
@@ -6264,11 +6266,12 @@
                </app> li <app>
                   <lem wit="#V3 #G #X2">a dit</lem>
                   <rdg wit="#B">dist</rdg>
-               </app> toute la pure verité. <note type="notecritique">Une fois encore, le récit
-                  témoigne de ce goût de revenir sur les derniers évènements, nombreux et complexes,
-                  qui ont mené à la présente situation. La dépendance de Cassidorus au lion, pour
-                  manger comme pour trouver cet ermite dont il souhaitait tant la compagnie, joue de
-                  la dimension miraculeuse de tout cet épisode.</note>
+               </app><!--help ici il faudrait souder les variantes, car il faudra faire une note sur le problème en amont (probablement une omission au moins à hauteur de X, et le copiste essaie de récupérer son erreur. X2 a "...ainsi comme avenu li avoit dit li a la pure verité" (il faudrait enregistrer les variantes en enregistrant exceptionnellement ici l'ordre des mots)-->
+               toute la pure verité. <note type="notecritique">Une fois encore, le récit témoigne de
+                  ce goût de revenir sur les derniers évènements, nombreux et complexes, qui ont
+                  mené à la présente situation. La dépendance de Cassidorus au lion, pour manger
+                  comme pour trouver cet ermite dont il souhaitait tant la compagnie, joue de la
+                  dimension miraculeuse de tout cet épisode.</note>
                <note type="apparat">Nouveau § B</note>Quant <rs type="person" key="Ermite d'Espiere"
                   >li hermites</rs> oï ce, si loa moult Nostre Seingneur de tout son <app>
                   <lem wit="#V3 #G #X2">corage</lem>
@@ -9419,7 +9422,9 @@
                </app> ? <said who="#nar">Assez <app>
                      <lem wit="#V3 #G">le</lem>
                      <rdg wit="#B #X2"/>
-                  </app> vous ai dit entendanment<!-- PD glossaire --> par devant pourquoi</said> il <app>
+                  </app> vous ai dit
+                  entendanment<!-- PD glossaire; sl X2 a ici en-entendement, que j'interprète comme en + substantif et pas comme une répétition erronée de -en- au début de l'adverbe -->
+                  par devant pourquoi</said> il <app>
                   <lem wit="#V3 #G">estoient venu</lem>
                   <rdg wit="#B #X2">venoient</rdg>
                </app>
@@ -9889,7 +9894,8 @@
                   <lem wit="#V3 #G">de <placeName key="Nise">Nise</placeName></lem>
                   <rdg wit="#B">Nise, le bon chevalier de ses armes</rdg>
                   <rdg wit="#X2"/>
-               </app>, et il meismes s’estoit mis es armes <app>
+               </app><!--help mais rajouté à la fin de la ligne en tout petit, cf. f. 105ra, Camille je te laisse l'indiquer de la manière que tu veux-->,
+               et il meismes s’estoit mis es armes <app>
                   <lem wit="#V3 #G #X2"><persName key="Leus">Leus</persName></lem>
                   <rdg wit="#B">Leus, son frere et avoit une bataille de .x. chevaliers esleus</rdg>
                </app>. Dont <rs type="person" key="Dorus">li vaillans chevaliers</rs> dist une moult
@@ -12572,9 +12578,10 @@
                      <lem wit="#B #G #X2">que</lem>
                      <rdg wit="#V3">qu‹i›[e]</rdg>
                   </app>
-                  <seg ana="proverbe">quiconques ainme miex de mere, si est fausse nourrisce</seg><!-- PD je dois chercher ce proverbe -->,
-                  pour quoi je di que vous devez estre mere de mon seingneur amer. Si vous pri,
-                  quele que la vostre volenté soit, que vous i <app>
+                  <seg ana="proverbe">quiconques ainme miex de mere, si est fausse
+                  nourrisce</seg><!-- PD je dois chercher ce proverbe -->, pour quoi je di que vous
+                  devez estre mere de mon seingneur amer. Si vous pri, quele que la vostre volenté
+                  soit, que vous i <app>
                      <lem wit="#V3 #G">gardiez</lem>
                      <rdg wit="#B #X2">gardez</rdg>
                   </app> vostre honneur et la moie, car sachiez que, qui m’en doie avenir, je ferai
@@ -12868,8 +12875,9 @@
                Lors jeta <rs type="person" key="Châtelaine">la <app>
                      <lem wit="#V3 #G">chastelainne</lem>
                      <rdg wit="#B #X2">dame</rdg>
-                  </app></rs> une grant rafarde<!-- PD glossaire --> et dist : <said aloud="true" direct="true">Or poez
-                  oïr du saint hermite qui hui a esté convertis en <num>i</num> pas d’asne.</said>
+                  </app></rs> une grant rafarde<!-- PD glossaire --> et dist : <said aloud="true"
+                  direct="true">Or poez oïr du saint hermite qui hui a esté convertis en
+                     <num>i</num> pas d’asne.</said>
                <note type="notecritique">La réplique de la châtelaine nous laisserait presque
                   attendre un récit enchâssé à la manière de cette technique narrative bien cultivée
                   dans les premiers temps du Cycle des Sept Sages surtout. Il offrirait un écho
@@ -12880,9 +12888,10 @@
                   chastelain</rs> oÿ que <rs type="person" key="Châtelaine">la chastelainne</rs>
                prisoit si poi ses dis et tournoit tout a truffle, si sailli a l’uys de la chambre et
                le ferma et puis revint a <rs type="person" key="Châtelaine">la chastelainne</rs> et
-               dist : <said aloud="true" direct="true">Dame, aucune fois ai je oï dire que <seg ana="proverbe">li
-                  preudoms si doit fere la preudefame</seg><!-- PD je dois chercher ce proverbe -->, et je ne cuide se touz biens non en ce que je
-                  vous ai fet et dit, et <app>
+               dist : <said aloud="true" direct="true">Dame, aucune fois ai je oï dire que <seg
+                     ana="proverbe">li preudoms si doit fere la
+                  preudefame</seg><!-- PD je dois chercher ce proverbe -->, et je ne cuide se touz
+                  biens non en ce que je vous ai fet et dit, et <app>
                      <lem wit="#V3 #G #X2">vous</lem>
                      <rdg wit="#B">puis</rdg>
                   </app>
@@ -12975,9 +12984,9 @@
                      chastelainne</rs>, que ce est, mes aucune chose vous donne elle qui si la <app>
                      <lem wit="#V3 #G #X2">loez</lem>
                      <rdg wit="#B">avez loee</rdg>
-                  </app>.</said> Lors li moustra cil l’aguilier<!-- PD glossaire --> que elle li ot donné et dist : <said
-                  aloud="true" direct="true">Dame, voirement m’a ele donné cest aguillier, et si
-                  vous envoia une aumosniere <app>
+                  </app>.</said> Lors li moustra cil l’aguilier<!-- PD glossaire --> que elle li ot
+               donné et dist : <said aloud="true" direct="true">Dame, voirement m’a ele donné cest
+                  aguillier, et si vous envoia une aumosniere <app>
                      <lem wit="#V3 #G">par <rs type="person" key="Gomor">mon seingneur</rs></lem>
                      <rdg wit="#B">et dist que on le vous donnast</rdg>
                      <rdg wit="#X2"/>
@@ -13000,7 +13009,8 @@
                   </app>
                   <rs type="person" key="Lion de Cassidorus">lyon</rs> avec eulz qui les gens veult
                   devourer ?</said><said rendition="dialogue" aloud="true" direct="true">Par foy,
-                  dame, oïl, qui envers euls avroit male penssee aussi conme je oi<!-- PD est-ce que tu comprends ici? Je me demande si on ne pourrait pas fournir une note du type : La relative "qui..." semble développer "les gens", en explicitant le type de personnes que pourrait dévorer le lion." -->.</said><said
+                  dame, oïl, qui envers euls avroit male penssee aussi conme je
+                  oi<!-- PD est-ce que tu comprends ici? Je me demande si on ne pourrait pas fournir une note du type : La relative "qui..." semble développer "les gens", en explicitant le type de personnes que pourrait dévorer le lion." -->.</said><said
                   rendition="dialogue" aloud="true" direct="true">En non Dieu, dist elle, dont
                      n’i<pb n="27"/>roie je mie volentiers selonc ce que je n’ai mie bonne oppynion
                   ! Et nonpourquant, si me couvient il veoir <rs type="person" key="Fastige">cele
@@ -13015,8 +13025,8 @@
                   </app> covenir, dist elle.</said></p>
             <p n="P653"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>prés
                ce passa li courrous du <rs type="person" key="Gomor">chastelain</rs>, qui moult
-               volentiers queist tour par coi il peust tourner<!-- PD glossaire "tourner qn de qch", ici avec un jeu de mots sur "tour" --> <rs type="person" key="Châtelaine">la
-                  chastelainne</rs>
+               volentiers queist tour par coi il peust tourner<!-- PD glossaire "tourner qn de qch", ici avec un jeu de mots sur "tour" -->
+               <rs type="person" key="Châtelaine">la chastelainne</rs>
                <app>
                   <lem wit="#V3 #G">de</lem>
                   <rdg wit="#B #X2">hors de</rdg>
@@ -13072,7 +13082,8 @@
                      <cb n="b"/>sire, de vostre conseil croire <app>
                      <lem wit="#V3 #G">que</lem>
                      <rdg wit="#B #X2"/>
-                  </app><!-- PD : Ce "que" est bizarre. On dirait une erreur. Je te conseille de corriger ici selon BX2. Ou sinon je le comprends comme un "que" à valeur exclamative. Le comprends-tu ainsi aussi? Dans ce cas, il faudrait mettre un point d'exclamation à la fin de phrase. Cette exclamation signe justement l'ironique mauvaise foi de la châtelaine --> ne me <app>
+                  </app><!-- PD : Ce "que" est bizarre. On dirait une erreur. Je te conseille de corriger ici selon BX2. Ou sinon je le comprends comme un "que" à valeur exclamative. Le comprends-tu ainsi aussi? Dans ce cas, il faudrait mettre un point d'exclamation à la fin de phrase. Cette exclamation signe justement l'ironique mauvaise foi de la châtelaine -->
+                  ne me <app>
                      <lem wit="#V3 #G">quier</lem>
                      <rdg wit="#B #X2">cuit</rdg>
                   </app> je ja departir.</said></p>
@@ -13228,8 +13239,9 @@
                   </app> de coi on me fet si grant mencion ?</said><said rendition="dialogue"
                   aloud="true" direct="true">Dame, dist <rs type="person" key="Gomor">li
                      chastelains</rs>, si feroit bien. Mes cil qui touzjors se doute n’est pas
-                  merveille, si se tient volentiers sus sa garde<!-- PD comment comprends-tu cette phrase? -->. Et pource que je veil que vous
-                  voiez <rs type="person" key="Fastige">la bonne dame</rs>
+                  merveille, si se tient volentiers sus sa
+                  garde<!-- PD comment comprends-tu cette phrase? -->. Et pource que je veil que
+                  vous voiez <rs type="person" key="Fastige">la bonne dame</rs>
                   <cb n="d"/>et sa maniere, je la vous ferai <app>
                      <lem wit="#B #G #X2">veoir</lem>
                      <rdg wit="#V3">‹s›[v]eoir</rdg>
@@ -13264,9 +13276,10 @@
                   </app> veoir.</said><said rendition="dialogue" aloud="true" direct="true">Amis,
                   dist <rs type="person" key="Cassidorus">li empereres</rs>, puisqu’il le couvient,
                   si la verra, mes vous savez bien que ces fenmes sont si merveilleuses <app>
-                     <lem wit="#V3 #G #X2">que, quant il<note type="notecritique">PD Sur "il" pour "el", cf. analyse linguistique.</note> sevent aucune chose qui face a celer, que
-                        adonc seront elles plus engrant de la descouvrir que cele ne fesoit mie a
-                        celer. Aucunes <app>
+                     <lem wit="#V3 #G #X2">que, quant il<note type="notecritique">PD Sur "il" pour
+                           "el", cf. analyse linguistique.</note> sevent aucune chose qui face a
+                        celer, que adonc seront elles plus engrant de la descouvrir que cele ne
+                        fesoit mie a celer. Aucunes <app>
                            <lem wit="#V3 #G">en i a</lem>
                            <rdg wit="#X2"/>
                         </app>, je ne di mie toutes, car ce seroit meschiez se toutes estoient
@@ -13402,7 +13415,8 @@
                      <lem wit="#V3 #G #X2">seule</lem>
                      <rdg wit="#B">seule que je ne la voie</rdg>
                   </app>.</said> Dont s’en vint <rs type="person" key="Châtelaine">la
-                  chastelainne</rs> en une garde robe<!-- PD glossaire garde robe -->, si s’apresta et s’escourça haut pour <app>
+                  chastelainne</rs> en une garde robe<!-- PD glossaire garde robe -->, si s’apresta
+               et s’escourça haut pour <app>
                   <lem wit="#V3 #B #X2">miex</lem>
                   <rdg wit="#G">miex veoir et</rdg>
                </app>
@@ -13644,8 +13658,8 @@
                      <seg ana="proverbe">qui conseil ne croit son conseil ne fait a
                      resoingnier</seg><note type="notecritique">Variante du proverbe "Qui conseil ne
                      croit dolent s'en voit" (Morawski 1872) avec une orientation intéressante sur
-                     les effets du conseil en question.</note>. Encore me venist il assez miex
-                  a estre en ma petite mesonnette et prendre ce que Deux m’<app>
+                     les effets du conseil en question.</note>. Encore me venist il assez miex a
+                  estre en ma petite mesonnette et prendre ce que Deux m’<app>
                      <lem wit="#V3 #G">a</lem>
                      <rdg wit="#B #X2">eust</rdg>
                   </app> pourveu que ci feusse venus pour <app>
@@ -13684,8 +13698,9 @@
                         </app> ne sé ce se fu <rs type="person" key="Châtelaine">la
                            chastelainne</rs> ou autre</lem>
                      <rdg wit="#B"/>
-                  </app>. Mais tant vous di je bien, si m’eïst<!-- PD: ici il me semble qu'il faut corriger "e" de "eïst" en "a". Je ne trouve nulle part de forme "eïst" attestée. Les autres manuscrits ont probablement "aïst" --> Dex, que je cuidai de la male vie que
-                  il menoit pour <app>
+                  </app>. Mais tant vous di je bien, si
+                  m’eïst<!-- PD: ici il me semble qu'il faut corriger "e" de "eïst" en "a". Je ne trouve nulle part de forme "eïst" attestée. Les autres manuscrits ont probablement "aïst" -->
+                  Dex, que je cuidai de la male vie que il menoit pour <app>
                      <lem wit="#V3 #G #X2">issir</lem>
                      <rdg wit="#B">issi</rdg>
                   </app> hors qu’il nous deust ceens devourer, si que je ne soi que faire. <app>
@@ -13766,7 +13781,8 @@
                   aloud="true" direct="true">Ha ! sire, conme j’ai esté malade et conme vous
                   m’avriez tost pleuree se j’estoie morte !</said><said rendition="dialogue"
                   aloud="true" direct="true">Dame, dist il, <seg ana="proverbe">les mors aus mors,
-                     les vis aus vis</seg> ! En non Dieu, mauvés homs, ainsi est il.<!-- PD est-ce que ce segment "En non Dieu, mauvés homs, ainsi est il" n'est pas une parole de la châtelaine? --></said><said
+                     les vis aus vis</seg> ! En non Dieu, mauvés homs, ainsi est
+                  il.<!-- PD est-ce que ce segment "En non Dieu, mauvés homs, ainsi est il" n'est pas une parole de la châtelaine? --></said><said
                   rendition="dialogue" aloud="true" direct="true">Or me dites, <app>
                      <lem wit="#V3 #G #X2">dame</lem>
                      <rdg wit="#B">dist li chastelains</rdg>
@@ -13859,7 +13875,8 @@
                   <rdg wit="#B">comme</rdg>
                </app>
                <rs type="person" key="Cassidorus">li empereres</rs> fu partis de <placeName
-                  key="Rome">Rome</placeName> <said who="#nar">si conme j’ai devant dit <app>
+                  key="Rome">Rome</placeName>
+               <said who="#nar">si conme j’ai devant dit <app>
                      <lem wit="#V3 #B #X2">ou conte</lem>
                      <rdg wit="#G"/>
                   </app></said>, que la court fu moult esmeue ainsi conme <app>
@@ -14097,7 +14114,9 @@
                   </app> amis et biau cousin, je vous conmant a celui qui <app>
                      <lem wit="#V3 #B #G">donne a</lem>
                      <rdg wit="#X2">donne</rdg>
-                  </app> sens<!-- PD je me demande si le texte ne serait pas plutôt "donne asens" = "donne volonté" --> a moi et a vous et entendement de lui croire et amer. <app>
+                  </app>
+                  sens<!-- PD je me demande si le texte ne serait pas plutôt "donne asens" = "donne volonté" -->
+                  a moi et a vous et entendement de lui croire et amer. <app>
                      <lem wit="#V3 #G #X2">Si</lem>
                      <rdg wit="#B">Pour quoi</rdg>
                   </app> vous pri que vous priez Dieu pour moi, et je de l’autre part li pri que, se
@@ -14165,9 +14184,9 @@
                   <lem wit="#V3 #G #X2">avoient entendu</lem>
                   <rdg wit="#B">entendirent</rdg>
                </app> que li emperieres <persName key="Fastidorus">Fastidorus</persName> avoit grant
-               piece jeü<!-- PD garder cet exemple de tréma pour l'intro --> d’une grant maladie et n’atentoit on se l’eure non que l’ame s’en partist.
-               Si avoit si grant pueple a <placeName key="Rome">Rome</placeName> que il sembloit que
-               touz li mondes y feust. </p>
+               piece jeü<!-- PD garder cet exemple de tréma pour l'intro --> d’une grant maladie et
+               n’atentoit on se l’eure non que l’ame s’en partist. Si avoit si grant pueple a
+                  <placeName key="Rome">Rome</placeName> que il sembloit que touz li mondes y feust. </p>
             <note type="apparat">Rubrique B : Comment Celidus et Dyanor son cousin vindrent a Rome
                pour savoir nouveles du pere Celydus.</note>
             <p n="P672"><app>
@@ -14177,8 +14196,8 @@
                </app><note type="notecritique">La variante de B va de pair avec l'insertion d'une
                   rubrique supplémentaire et vise à mettre en exergue l'entrelacement des aventures
                   de Celydus avec Dyanor</note> damoisiaus <persName key="Celydus"
-                  >Celydus</persName>, qui n’estoit pas nices ne a aprendre et d’autre part qui
-               bien estoit conneus des grans seingneurs, vint entr’eus, si fu moult conjoïs. Et fist <app>
+                  >Celydus</persName>, qui n’estoit pas nices ne a aprendre et d’autre part qui bien
+               estoit conneus des grans seingneurs, vint entr’eus, si fu moult conjoïs. Et fist <app>
                   <lem wit="#V3 #G #X2">on</lem>
                   <rdg wit="#B"/>
                </app> tant qu’il vint devant <persName key="Fastidorus">Fastidorus</persName>, son
@@ -14454,7 +14473,8 @@
                   et Dyanor jouent également un rôle crucial dans cette guerre, y gagnent ainsi leur
                   statut de chevalier, conformément à un parcours tout à fait conforme au canevas en
                   la matière, empreint tant d'éléments merveilleux que de démonstration de
-                  bravoure.</note></p><!-- PD J'aurais peut-être tendance à réduire la note et ne garder que le réflexion sur l'identification du lieu -->
+                  bravoure.</note></p>
+            <!-- PD J'aurais peut-être tendance à réduire la note et ne garder que le réflexion sur l'identification du lieu -->
             <p n="P677"><c ana="lettrine2">Q</c>uant il furent la arrivé, si <app>
                   <lem wit="#V3 #B #X2">entendirent</lem>
                   <rdg wit="#G">descendirent</rdg>
@@ -14581,8 +14601,9 @@
                      querant</rs>.</said><said rendition="dialogue" aloud="true" direct="true">Ha !
                   sire, distrent li damoisel, dont en savez vous aucune chose qu’il nous eleescera,
                   s’il plest a Dieu et a vous.</said><said rendition="dialogue" aloud="true"
-                  direct="true">Verité avez dist<note type="notecritique">Sur l'emploi de "dist" pour "dit", cf. analyse linguistique.</note>, dit <rs type="person" key="Gomor">li
-                     chastelains</rs>.</said>
+                  direct="true">Verité avez dist<note type="notecritique">Sur l'emploi de "dist"
+                     pour "dit", cf. analyse linguistique.</note>, dit <rs type="person" key="Gomor"
+                     >li chastelains</rs>.</said>
                <cb n="b"/>Lors li demanderent pour Dieu que, <said aloud="true" direct="false">se il
                   en savoit riens, que il leur en deist aucune chose</said>. <said aloud="true"
                   direct="true">Biaus <app>
@@ -14754,10 +14775,12 @@
                   </app>, vous en <app>
                      <lem wit="#V3 #G #X2">soiez</lem>
                      <rdg wit="#B">puissiez estre</rdg>
-                  </app> aoez<!-- PD "aoez", cela veut dire quelque chose? J'aurais plutôt pensé à "aorez" ou "avouez" (reconnu, avec un jeu sur l'incognito aussi). Que donnent les autres mss? J'ai déjà vérifié celui de base. -->, dist <persName key="Celydus">Celydus</persName>, car bien em pourra
-                  estre encore l’empire de <placeName key="Rome">Rome</placeName> essauciee, qui
-                  aujourdui est povrement porveue !</said><said rendition="dialogue" aloud="true"
-                  direct="true">Conment se tient <persName key="Fastidorus">Fastidorus</persName>
+                  </app>
+                  aoez<!-- PD "aoez", cela veut dire quelque chose? J'aurais plutôt pensé à "aorez" ou "avouez" (reconnu, avec un jeu sur l'incognito aussi). Que donnent les autres mss? J'ai déjà vérifié celui de base. -->,
+                  dist <persName key="Celydus">Celydus</persName>, car bien em pourra estre encore
+                  l’empire de <placeName key="Rome">Rome</placeName> essauciee, qui aujourdui est
+                  povrement porveue !</said><said rendition="dialogue" aloud="true" direct="true"
+                  >Conment se tient <persName key="Fastidorus">Fastidorus</persName>
                   <app>
                      <lem wit="#V3 #G #X2">donc</lem>
                      <rdg wit="#B"/>
@@ -14820,29 +14843,32 @@
                </app> nouvelles que <rs type="person" key="Marquis d'Ostrac">li marchiz</rs> estoit <app>
                   <lem wit="#V3 #G">venus a</lem>
                   <rdg wit="#B #X2"/>
-               </app> meuz<!-- PD je ne commprends pas la forme "meuz". Tu sais ce que c'est comme mot? Est-ce "aineuz"? ce qui pourrait aller avec la fierté de lion dont il est question après --> a tout <num>x</num> mile escus, et venoit sus <rs type="person"
-                  key="Gomor">le chastelain de <placeName key="Chastel de Gomor"
-                  >Gomor</placeName></rs>. Si veillierent cele nuit <num>xx</num> damoisel a <rs
-                  type="place" key="Eglise de Saint Nicholas">l’eglisse monseingneur <persName
+               </app>
+               meuz<!-- PD je ne commprends pas la forme "meuz". Tu sais ce que c'est comme mot? Est-ce "aineuz"? ce qui pourrait aller avec la fierté de lion dont il est question après -->
+               a tout <num>x</num> mile escus, et venoit sus <rs type="person" key="Gomor">le
+                  chastelain de <placeName key="Chastel de Gomor">Gomor</placeName></rs>. Si
+               veillierent cele nuit <num>xx</num> damoisel a <rs type="place"
+                  key="Eglise de Saint Nicholas">l’eglisse monseingneur <persName
                      key="saint Nicholas">saint Nicholas</persName></rs>, qui l’endemain furent tuit <app>
                   <lem wit="#V3 #G #X2">chevalier</lem>
                   <rdg wit="#B">chevalier de la main a l'empereour por l'amour de Celydus et Dyanor.
                      Que vous feroie plus lonc conte ? Il avint que cil de la nef s'alierent a
                      Celidus quant il sorent que il fust chevalier et furent en sa bataille .LXX.
-                     armeures de fer tout a cheval. Li chastelains en avoit .V. cent et li empereres,
-                     qui ne vaut pas estre conneus, ainz fu aussi comme chevaliers banerez issus des
-                     nez et fu seigneur du clergié et ot en sa baillie que prestres que chanoines
-                     que clers qui tous s'afichierent de morir avant que nuls d'eulz deust ja fuir.
-                     Si furent .IIII. cent. Li empereres, quant il vit que il avoit tele maisnie a
-                     conduire, si se mist entre eulz et dist : "Biax seigneurs, ne quidiez pas que
-                     je n'aie autre fois esté en bataille et vous avez bien apris a boire et a
-                     mengier et estre bien a aise, si ne cuidiez pas que il ne couviegne le cors
-                     traveillier. Et j'ai souvent oÿ dire que clerc sont hardi, or porra l'en savoir
-                     la verité. Veez ci le marcis qui vous vient tolir vostre vivre. Et ci a moult
-                     d'autre bonne gent qui vous viegnent aidier a deffendre. Vous avez droit et il
-                     ont tort. Si soit desordené qui aujourd'ui suivra ne pour mort ne pour vie."
-                     Adont distrent : "Sachiez pour voir, nous sommes toz convertiz. Chevauchez,
-                     nous vous sievronz et ne vous faudrons ja por mort ne pour vie.</rdg>
+                     armeures de fer tout a cheval. Li chastelains en avoit .V. cent et li
+                     empereres, qui ne vaut pas estre conneus, ainz fu aussi comme chevaliers
+                     banerez issus des nez et fu seigneur du clergié et ot en sa baillie que
+                     prestres que chanoines que clers qui tous s'afichierent de morir avant que nuls
+                     d'eulz deust ja fuir. Si furent .IIII. cent. Li empereres, quant il vit que il
+                     avoit tele maisnie a conduire, si se mist entre eulz et dist : "Biax seigneurs,
+                     ne quidiez pas que je n'aie autre fois esté en bataille et vous avez bien apris
+                     a boire et a mengier et estre bien a aise, si ne cuidiez pas que il ne
+                     couviegne le cors traveillier. Et j'ai souvent oÿ dire que clerc sont hardi, or
+                     porra l'en savoir la verité. Veez ci le marcis qui vous vient tolir vostre
+                     vivre. Et ci a moult d'autre bonne gent qui vous viegnent aidier a deffendre.
+                     Vous avez droit et il ont tort. Si soit desordené qui aujourd'ui suivra ne pour
+                     mort ne pour vie." Adont distrent : "Sachiez pour voir, nous sommes toz
+                     convertiz. Chevauchez, nous vous sievronz et ne vous faudrons ja por mort ne
+                     pour vie.</rdg>
                   <note type="notecritique">Cette variante de B équivaut à ce que donne V3, tout
                      comme G et X2, à la fin du §687 ci-dessous.</note>
                </app>. Atant sont issus de <placeName key="Chastel de Gomor">Gomor</placeName> bien
@@ -14886,8 +14912,9 @@
                   <lem wit="#V3 #G #X2">venir</lem>
                   <rdg wit="#B"/>
                </app> prisierent son afaire, <app>
-                  <lem wit="#V3 #X2">car aussi conme dis me tu<!-- PD encore ce "dis me tu" que je ne comprends pas --> : <said aloud="true" direct="true"
-                        >Vous ne me poez eschaper</said></lem>
+                  <lem wit="#V3 #X2">car aussi conme dis me
+                     tu<!-- PD encore ce "dis me tu" que je ne comprends pas --> : <said
+                        aloud="true" direct="true">Vous ne me poez eschaper</said></lem>
                   <rdg wit="#G"/>
                </app> l’acueilli en tele maniere de l’espie, que le fer tresperça le blazon et tout
                ce que il consuivi et que parmi le cors passa li fers, si que l’arçon derriere ne pot
@@ -15410,7 +15437,8 @@
                   estre <app>
                      <lem wit="#V3 #G #X2">sil</lem>
                      <rdg wit="#B">tant qu'il</rdg>
-                  </app><note type="notecritique">Sur l'emploi de "sil" pour "cil", cf. analyse linguistique.</note> nel vodrent celer</said>, <app>
+                  </app><note type="notecritique">Sur l'emploi de "sil" pour "cil", cf. analyse
+                     linguistique.</note> nel vodrent celer</said>, <app>
                   <lem wit="#V3 #B #G"><app>
                         <lem wit="#V3 #G">ainz</lem>
                         <rdg wit="#B">qu'il ne</rdg>
@@ -15462,7 +15490,8 @@
                   plest il que vous <app>
                      <lem wit="#B #G #X2">demourez</lem>
                      <rdg wit="#V3">demouriez</rdg>
-                  </app> avec moi jusques a tant que j’en savrai autre chose.</said><!-- PD est-ce qu'on ne ferait pas ici une petite note pour souligner le parallèle avec les aventures de Cassidorus, également retenu par amour par Edipus? --><said
+                  </app> avec moi jusques a tant que j’en savrai autre
+                  chose.</said><!-- PD est-ce qu'on ne ferait pas ici une petite note pour souligner le parallèle avec les aventures de Cassidorus, également retenu par amour par Edipus? --><said
                   rendition="dialogue" aloud="true" direct="true"><app>
                      <lem wit="#V3 #G #X2">Sire</lem>
                      <rdg wit="#B">Biax sire</rdg>
@@ -15646,8 +15675,9 @@
                   moult que vous n’en soiez entrez en male <app>
                      <lem wit="#V3 #B #X2">boisdie</lem>
                      <rdg wit="#G">voye</rdg>
-                  </app><!-- PD glossaire boisdie -->.</said> Quant <rs type="person" key="Melchis">li princes</rs> oï ce, si
-               conmença a sousrire et dist : <said aloud="true" direct="true">Moult avez ore fole <app>
+                  </app><!-- PD glossaire boisdie -->.</said> Quant <rs type="person" key="Melchis"
+                  >li princes</rs> oï ce, si conmença a sousrire et dist : <said aloud="true"
+                  direct="true">Moult avez ore fole <app>
                      <lem wit="#V3 #B #X2">cuidance</lem>
                      <rdg wit="#G">aventure</rdg>
                   </app>, qui cuidiez que je aie tel avis et qu’il d’autre part soient tel com vous
@@ -15691,10 +15721,10 @@
                      <rdg wit="#B">que</rdg>
                   </app> je me doubte que vous ne le sachiez plus tost que vous ne voudriez. Et
                   d’autre part je croi que vous ne m’en leriez pas couvenir, car vous estes trop
-                  merveillieus<!-- PD glossaire -->.</said><said rendition="dialogue" aloud="true" direct="true">Dame,
-                  dist il, je vous en lerai bien couvenir, sauve mon honneur et la leur, mes que ce
-                  soit de leur droit.</said><said rendition="dialogue" aloud="true" direct="true">Or
-                  les nous <app>
+                  merveillieus<!-- PD glossaire -->.</said><said rendition="dialogue" aloud="true"
+                  direct="true">Dame, dist il, je vous en lerai bien couvenir, sauve mon honneur et
+                  la leur, mes que ce soit de leur droit.</said><said rendition="dialogue"
+                  aloud="true" direct="true">Or les nous <app>
                      <lem wit="#B #G #X2">feites</lem>
                      <rdg wit="#V3">f‹r›[e]ites</rdg>
                   </app> venir amont, dist elle. Et quant vous les avrez amenez, si vous destournez
@@ -15710,7 +15740,8 @@
                acesmement et du seurplus, saluerent les dames et elles eulz, et ne cuidiez pas que
                toutes <num>iii</num> ne prissassent les chevaliers moult et leur noble contenances.
                Mes fenme qui <app>
-                  <lem wit="#V3 #G">fie</lem><!-- PD : quel est le sens de "fie" ici? Je ne comprends pas le texte. Est-ce "qui finalement fut faite"? -->
+                  <lem wit="#V3 #G">fie</lem>
+                  <!-- PD : quel est le sens de "fie" ici? Je ne comprends pas le texte. Est-ce "qui finalement fut faite"? -->
                   <rdg wit="#B #X2">ne</rdg>
                </app> fu faite que pour honme decevoir fist asavoir a chascun en esgardant que moult
                leur plaisoit lor estre.</p>
@@ -15719,9 +15750,9 @@
                de <app>
                   <lem wit="#V3 #G">la</lem>
                   <rdg wit="#B #X2"/>
-               </app> fame et sa <cb n="e"/>musardie<!-- PD glossaire --> confermer, se trait ensus et se mist en une
-               garde robe et veoit auques ce que elles pooient fere. Mes il ne pooit pas oïr leurs
-               parolles. Lors prist cele qui plus <app>
+               </app> fame et sa <cb n="e"/>musardie<!-- PD glossaire --> confermer, se trait ensus
+               et se mist en une garde robe et veoit auques ce que elles pooient fere. Mes il ne
+               pooit pas oïr leurs parolles. Lors prist cele qui plus <app>
                   <lem wit="#V3 #G #X2">ovroit souvent</lem>
                   <rdg wit="#B"/>
                </app> de tricherie <app>
@@ -15828,7 +15859,8 @@
                   <lem wit="#V3 #G #X2">autour</lem>
                   <rdg wit="#B"/>
                </app> conme musart <app>
-                  <lem wit="#V3 #G #X2">et abotoit</lem><!-- PD glossaire -->
+                  <lem wit="#V3 #G #X2">et abotoit</lem>
+                  <!-- PD glossaire -->
                   <rdg wit="#B"/>
                </app> par <num>i</num> petit pertuis <app>
                   <lem wit="#V3 #G #X2">et</lem>
@@ -15875,7 +15907,10 @@
                </app> dist : <said aloud="true" direct="true"><app>
                      <lem wit="#V3 #G #X2">Dame,</lem>
                      <rdg wit="#B"/>
-                  </app> <seg ana="proverbe">touzjours ne fait il pas bon voir dire</seg><note type="notecritique">Proverbe sur le modèle de "Tuit voir ne sont a savoir" Morawski 2437</note> !</said> Atant <app>
+                  </app>
+                  <seg ana="proverbe">touzjours ne fait il pas bon voir dire</seg><note
+                     type="notecritique">Proverbe sur le modèle de "Tuit voir ne sont a savoir"
+                     Morawski 2437</note> !</said> Atant <app>
                   <lem wit="#B #G">sailli</lem>
                   <rdg wit="#V3 #X2">il sailli</rdg>
                </app> em piez et prist les <app>
@@ -16065,8 +16100,9 @@
                autres <num>ii</num> pensserent a <persName key="Celydus">Celydus</persName>. Et
                avoit a non l’une <persName key="Alyenor">Alyenor</persName> et l’autre <persName
                   key="Leodore">Leodore</persName>, et la tierce <persName key="Fauque"
-                  >Fauque</persName>. Ces <num>iii</num> dames furent compaignes de pignons<!-- PD glossaire compaignes de pignons: je ne vois pas du tout ce qui est signifié ici -->. Si
-               pensserent a ce qu’<said aloud="false" direct="false">eles ameroient <app>
+                  >Fauque</persName>. Ces <num>iii</num> dames furent compaignes de
+               pignons<!-- PD glossaire compaignes de pignons: je ne vois pas du tout ce qui est signifié ici -->.
+               Si pensserent a ce qu’<said aloud="false" direct="false">eles ameroient <app>
                      <lem wit="#V3 #G #X2">les</lem>
                      <rdg wit="#B">les .II.</rdg>
                   </app> chevaliers</said>, mes pource que elles furent <num>iii</num> et <app>
@@ -16720,8 +16756,8 @@
                   <rdg wit="#B">prevost</rdg>
                </app>
                <placeName key="Dyerlo">Dyerlo</placeName> – c’estoit <num>i</num> chastel qui
-               marchissoit<!-- PD glossaire --> en la terre au <rs type="person" key="Hainfroy">roy de <placeName
-                     key="Jérusalem">Jherusalem</placeName></rs>. Et li aportoit <app>
+               marchissoit<!-- PD glossaire --> en la terre au <rs type="person" key="Hainfroy">roy
+                  de <placeName key="Jérusalem">Jherusalem</placeName></rs>. Et li aportoit <app>
                   <lem wit="#V3 #B #X2">cist</lem>
                   <rdg wit="#G">cist de</rdg>
                </app> nouvelles que <rs type="person" key="Hainfroy">li roys</rs> avoit fet siege
@@ -16917,8 +16953,9 @@
                   </app> de vos fenmes, lesqueles mistrent en <app>
                      <lem wit="#V3 #G">volenté</lem>
                      <rdg wit="#B #X2">volenté a mon cousin</rdg>
-                  </app> qu’il<!-- PD comprends-tu à qui renvoie "il" ici? --> occeist un musart a pou de donmage, pour lequel nous vous avons aidié
-                  a sormonter <rs type="person" key="Hainfroy"><app>
+                  </app> qu’il<!-- PD comprends-tu à qui renvoie "il" ici? --> occeist un musart a
+                  pou de donmage, pour lequel nous vous avons aidié a sormonter <rs type="person"
+                     key="Hainfroy"><app>
                         <lem wit="#V3 #G">le</lem>
                         <rdg wit="#B #X2">nostre</rdg>
                      </app> roi de <placeName key="Jérusalem">Jherusalem</placeName></rs>. Et de
@@ -17278,10 +17315,11 @@
                <app>
                   <lem wit="#V3 #G #X2">vindrent</lem>
                   <rdg wit="#B">vindrent arriere</rdg>
-               </app> en <rs type="place" key="Antyoche">la cité</rs>.<!-- PD : est-ce que tu comprends la syntaxe de cette phrase. J'ai l'impression qu'il manque une proposition subordonnée. On puet revoir ensemble? --> Quant <rs type="person"
-                  key="Alerie">la pucele</rs> fu de son char descendue, si ne volt onques souffrir
-               que <rs type="person" key="Melchis">son frere</rs> ne autre la destrassent fors
-                  <persName key="Celydus">Celydus</persName> et <persName key="Dyanor"
+               </app> en <rs type="place" key="Antyoche">la
+               cité</rs>.<!-- PD : est-ce que tu comprends la syntaxe de cette phrase. J'ai l'impression qu'il manque une proposition subordonnée. On puet revoir ensemble? -->
+               Quant <rs type="person" key="Alerie">la pucele</rs> fu de son char descendue, si ne
+               volt onques souffrir que <rs type="person" key="Melchis">son frere</rs> ne autre la
+               destrassent fors <persName key="Celydus">Celydus</persName> et <persName key="Dyanor"
                   >Dyanor</persName>, qui en <app>
                   <lem wit="#V3 #B #X2">furent</lem>
                   <rdg wit="#G">fu</rdg>
@@ -17296,11 +17334,12 @@
                   <rdg wit="#B">plaisoit</rdg>
                </app>. Et estoit avis a chascun de ceus qui les esgardoient que leur Dieu eust fet
                ses <num>ii</num> personnes pour touz eulz aourer. Si n’i ot nul qui bien ne se
-               paiast de ceste chose, et ot chascun la pensse<!-- PD ou "la penssé"? non? qu'en penses-tu? --> au <rs type="person" key="Melchis"
-                  >prince</rs>, <said who="#nar">de coi li contes est assez plus biaus</said>. <said
-                  who="#nar">Si vueil a ce venir que</said> li dui chevalier enmenerent ainsi <rs
-                  type="person" key="Alerie">la pucele</rs> en la plus haute chambre du palais, qui
-               moult estoit noble <app>
+               paiast de ceste chose, et ot chascun la
+               pensse<!-- PD ou "la penssé"? non? qu'en penses-tu? --> au <rs type="person"
+                  key="Melchis">prince</rs>, <said who="#nar">de coi li contes est assez plus
+                  biaus</said>. <said who="#nar">Si vueil a ce venir que</said> li dui chevalier
+               enmenerent ainsi <rs type="person" key="Alerie">la pucele</rs> en la plus haute
+               chambre du palais, qui moult estoit noble <app>
                   <lem wit="#V3 #G">et bien atournez</lem>
                   <rdg wit="#B #X2">, car li princes l'avoit a merveilles hautement fait
                      amender</rdg>
@@ -17467,7 +17506,8 @@
                   </app> penitance qui me tournast au proufist <app>
                      <lem wit="#V3 #B #X2">de</lem>
                      <rdg wit="#G">de l'ame et de</rdg>
-                  </app> salut ?</said></p><!-- PD : j'ai l'impression que la question, le point d'interrogation, ne se justifie pas ici. Qu'en dis-tu? -->
+                  </app> salut ?</said></p>
+            <!-- PD : j'ai l'impression que la question, le point d'interrogation, ne se justifie pas ici. Qu'en dis-tu? -->
             <p n="P730"><note type="apparat">Pas de nouveau § B</note><said aloud="true"
                   direct="true"><c ana="lettrine2">D</c>amoiselle, dist il, pour Dieu merci, puisque
                   il est ainsi que il plest a Jhesucrist que vous soiez de ceus que il racheta de
@@ -17498,8 +17538,8 @@
                      <rdg wit="#B">que vous</rdg>
                   </app> de lui departissiez.</said><said rendition="dialogue" aloud="true"
                   direct="true">En non Dieu, dist <persName key="Celydus">Celidus</persName>, et
-                  j’en loe et regraci<!-- PD glossaire --> le benoit filz de Dieu quant j’ai de lui tele grace que je en
-                  sui a ce venus !</said></p>
+                  j’en loe et regraci<!-- PD glossaire --> le benoit filz de Dieu quant j’ai de lui
+                  tele grace que je en sui a ce venus !</said></p>
             <p n="P731"><note type="apparat">Pas de nouveau § B</note><said aloud="true"
                   direct="true"><c ana="lettrine2">A</c> ce, dist <rs type="person" key="Alerie"><app>
                         <lem wit="#V3 #G #X2">la pucele</lem>
@@ -17712,7 +17752,8 @@
                   key="Alerie">la pucele</rs>. Et aprés ce revindrent ensemble <rs type="person"
                   key="Alerie">la pucele</rs> et <persName key="Celydus">Celidus</persName>, et li
                dist <rs type="person" key="Alerie">la damoiselle</rs> qu’<said aloud="true"
-                  direct="false">ele avoit ainsi dist<note type="notecritique">Sur "dist" pour "dit", cf. analyse linguistique.</note> a <app>
+                  direct="false">ele avoit ainsi dist<note type="notecritique">Sur "dist" pour
+                     "dit", cf. analyse linguistique.</note> a <app>
                      <lem wit="#V3 #G"><rs type="person" key="Melchis">son frere</rs></lem>
                      <rdg wit="#B #X2">frere, com vous avez oÿ</rdg>
                   </app></said>. <app>
@@ -17895,7 +17936,8 @@
                      <rdg wit="#B"/>
                   </app> ai conté</said> de <persName key="Fastidorus">Fastidorus</persName>, qui
                assez tost morut. Aprés ce que <rs type="person" key="Cassidorus">li bons
-                  emperieres</rs> ce<note type="notecritique">Sur "ce" pour "se", cf. analyse linguistique.</note> fu hors mis de son empire, <persName key="Pelyarmenus"
+                  emperieres</rs> ce<note type="notecritique">Sur "ce" pour "se", cf. analyse
+                  linguistique.</note> fu hors mis de son empire, <persName key="Pelyarmenus"
                   >Pelyarmenus</persName>, <said who="#nar">ainsi conme je vous <app>
                      <lem wit="#V3 #G">ai conmencié</lem>
                      <rdg wit="#B #X2">commençai</rdg>
@@ -17989,9 +18031,9 @@
                   <lem wit="#V3 #B #X2">entre les baillis et entre les prevos a <rs type="person"
                         key="Pelyarmenus">l’empereeur</rs></lem>
                   <rdg wit="#G"/>
-               </app>. <said who="#nar">Et ceus apele je</said> ahaniers<!-- PD glossaire --> au deable<note
-                  type="notecritique">On note une fois encore l'association diabolique de
-                  Pelyarmenus, ses prévôts étant qualifiés de cultivateurs du diable, soit ses
+               </app>. <said who="#nar">Et ceus apele je</said> ahaniers<!-- PD glossaire --> au
+                  deable<note type="notecritique">On note une fois encore l'association diabolique
+                  de Pelyarmenus, ses prévôts étant qualifiés de cultivateurs du diable, soit ses
                   propres ouvriers en effet.</note>, c’est a dire a touz mauvés princes pour laquele
                chose cil de <placeName key="Rome">Rome</placeName> quil ne voloient que pais et
                droiture se metoient en leur chambre priveement quant on leur avoit tolu le leur ou
@@ -18009,13 +18051,9 @@
                   </app>, mes encore atendons nous de vous <app>
                      <lem wit="#V3 #G #X2">aucun secours et</lem>
                      <rdg wit="#B"/>
-                  </app> aucun recouvrier. Sire, <app>
-                     <lem wit="#V3 #G">voirement</lem>
-                     <rdg wit="#B #X2">voirement se</rdg>
-                  </app>
-                  <app>
+                  </app> aucun recouvrier. Sire, voirement <app>
                      <lem wit="#V3 #G">disoient</lem>
-                     <rdg wit="#B #X2">distrent</rdg>
+                     <rdg wit="#B #X2">se distrent</rdg>
                   </app> voir li pluseur qui distrent qu’<seg ana="proverbe">en bon hermitage entre
                      cil qui en loyauté de justice demeure</seg><note type="notecritique"
                      >###L'expression sentencieuse n'apparaît pas chez Morawski ni chez De Roux de
@@ -18063,19 +18101,20 @@
                      attendu de cette affection, mais c'est surtout la minimisation du moteur que
                      devrait constituer cet amour dans sa venue à Constantinople qui s'avère la plus
                      ironique. On observe une tension entre la trahison que Pelyarmenus est
-                     présenté<!-- PD problème de structure synataxique ici je pense -->, de manière tout aussi ironique, de pas oser envisager, celle
-                     qu'Helcanus ne peut imaginer, de manière assez naïve en regard de leurs
-                     précédentes confrontations, et le jeu sur le semblant d'amour qu'ils se
-                     renvoient, que Pelyarmenus souhaite clamer, celui qu'Helcanus prête à son
-                     demi-frère (de manière cependant là aussi orientée, puisque seule la couleur
-                     d'amour est évoquée), et la parfaite compréhension, au final, des mauvaises
-                     intentions de Pelyarmenus pour Helcanus qui n'en affiche rien pour
-                     autant.</note> Et d’autre part, j’ai moult grant desir de savoir novelles de
-                     <rs type="person" key="Cassidorus">nostre bon pere</rs>, qui se parti de
-                     <placeName key="Rome">Rome</placeName> si conme vous savez.</said><said
-                  rendition="dialogue" aloud="true" direct="true">Biau frere, dist <persName
-                     key="Helcanus">Helcanus</persName>, vous m’estes moult honnestement venus
-                  veoir. Que vous soiez li bienvenus ! Et les raisons por quoi vous l’avez fet si <app>
+                     présenté<!-- PD problème de structure synataxique ici je pense -->, de manière
+                     tout aussi ironique, de pas oser envisager, celle qu'Helcanus ne peut imaginer,
+                     de manière assez naïve en regard de leurs précédentes confrontations, et le jeu
+                     sur le semblant d'amour qu'ils se renvoient, que Pelyarmenus souhaite clamer,
+                     celui qu'Helcanus prête à son demi-frère (de manière cependant là aussi
+                     orientée, puisque seule la couleur d'amour est évoquée), et la parfaite
+                     compréhension, au final, des mauvaises intentions de Pelyarmenus pour Helcanus
+                     qui n'en affiche rien pour autant.</note> Et d’autre part, j’ai moult grant
+                  desir de savoir novelles de <rs type="person" key="Cassidorus">nostre bon
+                     pere</rs>, qui se parti de <placeName key="Rome">Rome</placeName> si conme vous
+                  savez.</said><said rendition="dialogue" aloud="true" direct="true">Biau frere,
+                  dist <persName key="Helcanus">Helcanus</persName>, vous m’estes moult honnestement
+                  venus veoir. Que vous soiez li bienvenus ! Et les raisons por quoi vous l’avez fet
+                  si <app>
                      <lem wit="#V3 #G">a</lem>
                      <rdg wit="#B #X2">ont</rdg>
                   </app> couleur d’amour. Et une autre fois vous irai ausi veoir quant je savrai que
@@ -18196,8 +18235,8 @@
                      comprendre, les arguments séditieux de Pelyarmenus en ne conservant que la
                      supériorité papale, et non celle que Pelyarmenus semble vouloir tirer, de sa
                      position de souverain de Rome, sur le reste du monde.</note>, tout autre
-                  seingneur terrien doivent estre a celui aclin<!-- PD glossaire -->.</said> Chascuns dist que <said
-                  aloud="true" direct="false">bien y <app>
+                  seingneur terrien doivent estre a celui aclin<!-- PD glossaire -->.</said>
+               Chascuns dist que <said aloud="true" direct="false">bien y <app>
                      <lem wit="#V3 #G">a</lem>
                      <rdg wit="#B #X2">avoit</rdg>
                   </app> reson <app>
@@ -18340,13 +18379,15 @@
                      <lem wit="#V3 #G #X2">jamés</lem>
                      <rdg wit="#B"/>
                   </app> assez avoir<note type="notecritique">L'association, une fois encore, de
-                     Pelyarmenus au diable, résume<!-- PD peut-être qu'un aurte verbe serait plus adéquat --> le personnage au moment de le voir se lancer dans
-                     cet énième temps de guerre qui le confronte à sa fratrie. En belle
-                     démonstration des qualités qui lui ont maintenant été investies avec son
-                     intronisation, Helcanus se montre tout à fait lucide, capable d'identifier les
-                     deux vices que son demi-frère vient incarner, en symbole du mauvais
-                     gouvernement.</note>. Et ne vous merveilliez pas de <persName key="Pelyarmenus"
-                     >Pelyarmenus</persName>, car il resemble l’ueil que j’ai oï conter <app>
+                     Pelyarmenus au diable,
+                     résume<!-- PD peut-être qu'un aurte verbe serait plus adéquat --> le personnage
+                     au moment de le voir se lancer dans cet énième temps de guerre qui le confronte
+                     à sa fratrie. En belle démonstration des qualités qui lui ont maintenant été
+                     investies avec son intronisation, Helcanus se montre tout à fait lucide,
+                     capable d'identifier les deux vices que son demi-frère vient incarner, en
+                     symbole du mauvais gouvernement.</note>. Et ne vous merveilliez pas de
+                     <persName key="Pelyarmenus">Pelyarmenus</persName>, car il resemble l’ueil que
+                  j’ai oï conter <app>
                      <lem wit="#V3 #G #X2">que</lem>
                      <rdg wit="#B">que le couvoiteus</rdg>
                   </app>
@@ -18369,8 +18410,7 @@
                   que il ne soit tant osez que, <app>
                      <lem wit="#V3 #G #X2">puisque</lem>
                      <rdg wit="#B">puis l'eure que</rdg>
-                  </app> tu li avras dit, demoure en lieu ou
-                  je sache que il tiengne denué de <app>
+                  </app> tu li avras dit, demoure en lieu ou je sache que il tiengne denué de <app>
                      <lem wit="#V3 #G #X2">terre</lem>
                      <rdg wit="#B">seignorie</rdg>
                   </app>. Et se il ce ne fait et il vient en lieu ou je le puisse trouver, la pourra
@@ -18400,8 +18440,8 @@
                   précision quant aux raisons qui animent l'ensemble des traîtres, passés et
                   présents, à se rallier à Pelyarmenus est révélatrice du renversement que vient
                   opérer Pelyarmenus, notamment en regard de la logique lignagère posée au coeur du
-                  récit du cycle. C'est d'ailleurs cependant cet argument lignagier qui perdure,
-                  au contraire du moteur affectif qui se voit renversé en peur, comme pour bien
+                  récit du cycle. C'est d'ailleurs cependant cet argument lignagier qui perdure, au
+                  contraire du moteur affectif qui se voit renversé en peur, comme pour bien
                   manifester le régime de terreur qu'instaure Pelyarmenus.</note>
                <pb n="38"/>Dont il avint que li couvoiteus couvoitierent l’avoir, et li autre le
                vodrent faire par lignage, et li autre par cremeur. Si n’avint onques a nul empereeur
@@ -18626,8 +18666,9 @@
                   <rdg wit="#B">armes a</rdg>
                </app> l’empereeur <persName key="Cassidorus">Cassydorus</persName>. Cil vint a
                   <persName key="Helcanus">Helcanus</persName> et li dist : <said aloud="true"
-                  direct="true">Sire, si vraiement m’eïst<note type="notecritique">Sur "m'eïst" pour "m'aïst", cf. analyse linguistique.</note> li Sires qui tout fourma que moult devez
-                  grant paour avoir, <app>
+                  direct="true">Sire, si vraiement m’eïst<note type="notecritique">Sur "m'eïst" pour
+                     "m'aïst", cf. analyse linguistique.</note> li Sires qui tout fourma que moult
+                  devez grant paour avoir, <app>
                      <lem wit="#V3 #G #X2">je</lem>
                      <rdg wit="#B"/>
                   </app> nel leré <app>
@@ -18888,7 +18929,9 @@
                      <lem wit="#V3 #B #G">set</lem>
                      <rdg wit="#X2">le set</rdg>
                   </app> bien. Si le comparra <rs type="person" key="Helcanus">vostre
-                     seingneur</rs>, si m’eïst<note type="notecritique">Sur "m'eïst" pour "m'aïst", cf. analyse linguistique.</note> <app>
+                  seingneur</rs>, si m’eïst<note type="notecritique">Sur "m'eïst" pour "m'aïst", cf.
+                     analyse linguistique.</note>
+                  <app>
                      <lem wit="#V3 #G #X2">Deux</lem>
                      <rdg wit="#B">Nostre Seigneur</rdg>
                   </app>, avant que <app>
@@ -19067,8 +19110,8 @@
                sonner, tabours et tymbres tentir <app>
                   <lem wit="#V3 #B #X2">et freteler</lem>
                   <rdg wit="#G"/>
-               </app><!-- PD glossaire freteler et aussi "venteler" après -->, ces armes resplendir, enseingnes venteler, le soleil ou fin or reluire et
-               alumer, ces destriers <app>
+               </app><!-- PD glossaire freteler et aussi "venteler" après -->, ces armes resplendir,
+               enseingnes venteler, le soleil ou fin or reluire et alumer, ces destriers <app>
                   <lem wit="#V3 #G">en argueil</lem>
                   <rdg wit="#B #X2">par orgueil</rdg>
                </app><!-- PD argueil glossaire -->
@@ -19335,7 +19378,8 @@
                   <lem wit="#V3 #B #X2">mis a mort</lem>
                   <rdg wit="#G">occis</rdg>
                </app>, si furent moult esbahy et n’orent cuer de puis faire bien. Adonc ont tourné
-               les dos, et ceus les ont menez jusques a leur gent, qui a ce ont recouvré<!-- PD glossaire "recouvrer a qch" -->, <app>
+               les dos, et ceus les ont menez jusques a leur gent, qui a ce ont
+               recouvré<!-- PD glossaire "recouvrer a qch" -->, <app>
                   <lem wit="#V3 #G #X2">car</lem>
                   <rdg wit="#B">que</rdg>
                </app>
@@ -19346,7 +19390,9 @@
                   <lem wit="#V3 #B #X2">entre</lem>
                   <rdg wit="#G">entre les</rdg>
                </app>
-               <name type="people" key="Grecs">Grejois</name>,<!-- PD ici j'ai un doute, mais j'enlèverais la virgule non? --> si a une <app>
+               <name type="people" key="Grecs"
+               >Grejois</name>,<!-- PD ici j'ai un doute, mais j'enlèverais la virgule non? --> si a
+               une <app>
                   <lem wit="#B #X2">envaïe que</lem>
                   <rdg wit="#V3">en</rdg>
                   <rdg wit="#G">ot</rdg>
@@ -19513,12 +19559,14 @@
                   vient une fois encore insister sur le manque de mesure et de raison, de sens, dont
                   il fait preuve dans cet affrontement qu'il pressent final, jusqu'à manquer de tuer
                   l'un de ses plus proches alliés, dans une dramatisation importante de cette scène
-                  bien sûr.</note><!-- PD : Je me demande si cette note est vraiment utile. La note suivante me semble plus intéressante, car elle interprète le texte plutôt que de le répéter. --> Lors n’orent pas bon lesir de dire ce que il vodrent, car la
-               bataille assembla de toutes pars. Si ne vit onques nulz tant de gent mourir d’une
-               part et d’autre conme l’en peust la faire. <said who="#nar">Mes pource que je ne puis
-                  du tout recorder conment li affaires ala de l’autre part, tout le seusse je – si
-                  sembleroit ce oiseuse aus miex entendans –, si m’en passeré outre au miex que je
-                  pourrai et vueil venir a ce que,</said> quant il furent <app>
+                  bien
+               sûr.</note><!-- PD : Je me demande si cette note est vraiment utile. La note suivante me semble plus intéressante, car elle interprète le texte plutôt que de le répéter. -->
+               Lors n’orent pas bon lesir de dire ce que il vodrent, car la bataille assembla de
+               toutes pars. Si ne vit onques nulz tant de gent mourir d’une part et d’autre conme
+               l’en peust la faire. <said who="#nar">Mes pource que je ne puis du tout recorder
+                  conment li affaires ala de l’autre part, tout le seusse je – si sembleroit ce
+                  oiseuse aus miex entendans –, si m’en passeré outre au miex que je pourrai et
+                  vueil venir a ce que,</said> quant il furent <app>
                   <lem wit="#V3 #G">pelle et melle</lem>
                   <rdg wit="#B #X2">perle et merle</rdg>
                </app>, si <app>
@@ -19679,13 +19727,14 @@
                   <rdg wit="#B #X2">haus</rdg>
                </app> et anciens. Mes elle n’estoit pas espesse d’arbres par quoi l’en i pooit
                chevauchier em plusseurs lieus aisieement. <persName key="Dorus">Dorus</persName>,
-               qui aprés eulz se metoit les esclos<!-- PD glossaire "se mettre les esclos" = "suivre les traces" -->, si ne cuidoit pas venir a ce qu’i les peust
-               metre au desous ne vengier son grant courrous. Lors mist moult grande paine de soi
-               esforcier, mes trop avoit le cheval sus coi il sist traveillié et ses compaingnons
-               aussi les leur, si que li plusseurs de sa compaingnie demourerent iluec estraier<!-- PD glossaire --> en
-               cele chace, dont <cb n="f"/>il furent si dolent que bien i parut, car li auquant se
-               mistrent a pié aprés <rs type="person" key="Dorus">leur seingnor</rs>, qui en nulle
-               maniere ne <app>
+               qui aprés eulz se metoit les
+               esclos<!-- PD glossaire "se mettre les esclos" = "suivre les traces" -->, si ne
+               cuidoit pas venir a ce qu’i les peust metre au desous ne vengier son grant courrous.
+               Lors mist moult grande paine de soi esforcier, mes trop avoit le cheval sus coi il
+               sist traveillié et ses compaingnons aussi les leur, si que li plusseurs de sa
+               compaingnie demourerent iluec estraier<!-- PD glossaire --> en cele chace, dont <cb
+                  n="f"/>il furent si dolent que bien i parut, car li auquant se mistrent a pié
+               aprés <rs type="person" key="Dorus">leur seingnor</rs>, qui en nulle maniere ne <app>
                   <lem wit="#V3 #G">voudrent</lem>
                   <rdg wit="#B #X2">volt</rdg>
                </app> la chace lessier. Et qu’en avint il ? Il <app>
@@ -19737,8 +19786,8 @@
                <app>
                   <lem wit="#V3 #G">assens</lem>
                   <rdg wit="#B #X2">assens si comme</rdg>
-               </app><!-- PD glossaire pour "assens" = "chemin" --> pour savoir se nulz d’eulz les suivoit. <rs type="person"
-                  key="Traitre de Dorus">Celui <said who="#nar">dont j’<app>
+               </app><!-- PD glossaire pour "assens" = "chemin" --> pour savoir se nulz d’eulz les
+               suivoit. <rs type="person" key="Traitre de Dorus">Celui <said who="#nar">dont j’<app>
                         <lem wit="#V3 #G #X2">ai</lem>
                         <rdg wit="#B">avoie</rdg>
                      </app> devant parlé</said></rs> avoit aconsuivi <persName key="Pelyarmenus"
@@ -19944,7 +19993,8 @@
                      </app></lem>
                   <rdg wit="#B">comment il morurent entre lui et Mirrus</rdg>
                </app>.<note type="notecritique">La leçon de B est plus cohérente sur le plan
-                  narratif : Helcanus n'entreprend plus aucune quête, puisqu'il meurt.</note><!-- PD pardon mais je ne comprends pas bien de quelle leçon tu parles. Peux-tu seulement préciser? --></head>
+                  narratif : Helcanus n'entreprend plus aucune quête, puisqu'il
+               meurt.</note><!-- PD pardon mais je ne comprends pas bien de quelle leçon tu parles. Peux-tu seulement préciser? --></head>
             <figure>
                <graphic
                   url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f87.item.r=fran%C3%A7ais%2022550.zoom"/>
@@ -19960,9 +20010,10 @@
                   <lem wit="#V3 #G #X2">a</lem>
                   <rdg wit="#B"/>
                </app> lessier, car il aloient <name type="people" key="Romains">Ronmains</name>
-               chastoiant en tele maniere que mal de celui<!-- PD comprends-tu le texte ici? notamment "que mal de celui..." est un mystère pour moi. --> qu’il ne fouist devant eulz, dont il
-               avint que tant y ot des occis que nuls n’en cuidoit vif eschaper. Li traitres, <said
-                  who="#nar">de qui li contes ne fait ore pas <app>
+               chastoiant en tele maniere que mal de
+               celui<!-- PD comprends-tu le texte ici? notamment "que mal de celui..." est un mystère pour moi. -->
+               qu’il ne fouist devant eulz, dont il avint que tant y ot des occis que nuls n’en
+               cuidoit vif eschaper. Li traitres, <said who="#nar">de qui li contes ne fait ore pas <app>
                      <lem wit="#V3 #G">ci</lem>
                      <rdg wit="#B #X2">ci endroit</rdg>
                   </app> mencion</said>
@@ -19985,8 +20036,8 @@
                   Macabeus</persName><note type="notecritique">La référence à Judas Macchabée
                   exacerbe la portée presque sacrificielle de la mort d'Helcanus et de Mirrus
                   entourés de leurs ennemis, qualifiés de manière insistante de traîtres d'ailleurs,
-                  qu'ils ont pourtant si bien affrontés jusqu'à se voir surmenés.</note>, mes en la
-               fin<!-- PD est-ce qu'on peut relire cette phrase ensemble? Je crois qu'on pourrait trouver toutes les deux le moyen de l'alléger. --> <app>
+                  qu'ils ont pourtant si bien affrontés jusqu'à se voir surmenés.</note>, mes en la fin<!-- PD est-ce qu'on peut relire cette phrase ensemble? Je crois qu'on pourrait trouver toutes les deux le moyen de l'alléger. -->
+               <app>
                   <lem wit="#V3 #G">vindrent</lem>
                   <rdg wit="#B #X2">mirent</rdg>
                </app> leurs anemis arrieres dos et ne leur en sot tant venir de toutes pars que touz
@@ -20005,7 +20056,8 @@
                </app> l’un trebuchier adens et l’autre resaillir pour lui aidier et recouvrer a
                celui qui plus s’abandonnoit d’eulz envaïr, grant pitié peust avoir d’eulz qui en lui
                eust raison.</p>
-            <p n="P778"><c ana="lettrine2">E</c>n cestui enchaus<!-- PD glossaire enchaus = poursuite --> ne demoura pas que la nouvelle <app>
+            <p n="P778"><c ana="lettrine2">E</c>n cestui
+               enchaus<!-- PD glossaire enchaus = poursuite --> ne demoura pas que la nouvelle <app>
                   <lem wit="#V3 #G #X2">n’</lem>
                   <rdg wit="#B"/>
                </app>en <app>
@@ -20170,7 +20222,8 @@
                   </app> matire a point et <app>
                      <lem wit="#V3 #G #X2">a</lem>
                      <rdg wit="#B"/>
-                  </app> droit</said>.</p><!-- PD elle est intéressante cette expression "mettre a point et a droit" pour parler de la narration, c'est comme s'il y a avait ici une collusion entre la bonne conduite du récit et le rétablissement d'un ordre moral ici perturbé -->
+                  </app> droit</said>.</p>
+            <!-- PD elle est intéressante cette expression "mettre a point et a droit" pour parler de la narration, c'est comme s'il y a avait ici une collusion entre la bonne conduite du récit et le rétablissement d'un ordre moral ici perturbé -->
             <p n="P781"><said who="#nar"><c ana="lettrine2">A</c>ussi conme vous avez <app>
                      <lem wit="#V3 #G #X2">oï</lem>
                      <rdg wit="#B">oï dessus</rdg>
@@ -20468,8 +20521,9 @@
                   key="Dorus">le noble chevalier</rs>, qui pas ne s’esbahi aussi conme moult
                d’autres eussent fait. Si fist une chose que moult d’autres n’eussent pas fait, car
                chascun puet bien savoir qu’il avoit tant le jour feru <app>
-                  <lem wit="#V3 #B #X2">et on sus<!-- PD on lit bien "on sus" dans le ms. Mais est-ce qu'il ne faudrait pas éditer "ensus" = "au-dessus"?, car sinon "on" ne renvoie à rien et il n'y a a pas de verbe conjugué avec. On pourrait aller voir dans les manuscrits. --> lui en tantes manieres que escu ne targe qu’il
-                     eust aporté <app>
+                  <lem wit="#V3 #B #X2">et on
+                     sus<!-- PD on lit bien "on sus" dans le ms. Mais est-ce qu'il ne faudrait pas éditer "ensus" = "au-dessus"?, car sinon "on" ne renvoie à rien et il n'y a a pas de verbe conjugué avec. On pourrait aller voir dans les manuscrits. -->
+                     lui en tantes manieres que escu ne targe qu’il eust aporté <app>
                         <lem wit="#V3 #G #X2">em</lem>
                         <rdg wit="#B">en la</rdg>
                      </app> bataille ne li eust pas duré jusques la</lem>
@@ -20490,7 +20544,8 @@
                   <lem wit="#V3 #G #X2">abatu</lem>
                   <rdg wit="#B"/>
                </app>
-               <name type="people" key="Romains">Ronmain</name><note type="notecritique">"avec laquelle il avait abattu beaucoup de Romains".</note><!-- PD j'ai mis cette note. Qu'en penses-tu? J'ai l'impression que "Romain" est adjectif ici. Donc peut-être en outre sans majuscule, comme juste après pour "seigneur ronmain"? -->
+               <name type="people" key="Romains">Ronmain</name><note type="notecritique">"avec
+                  laquelle il avait abattu beaucoup de Romains".</note><!-- PD j'ai mis cette note. Qu'en penses-tu? J'ai l'impression que "Romain" est adjectif ici. Donc peut-être en outre sans majuscule, comme juste après pour "seigneur ronmain"? -->
                <app>
                   <lem wit="#V3 #B #X2">et</lem>
                   <rdg wit="#G">ot</rdg>
@@ -20517,7 +20572,8 @@
                   <lem wit="#V3 #X2">leur</lem>
                   <rdg wit="#B">leur compaignon</rdg>
                   <rdg wit="#G"/>
-               </app><!-- PD : La variante de B permet de comprendre "leur" ici. Je dois regarder dans la grammaire si on peut avoir "leur" dans article devant comme pronom --> ainsi parler, si n’i ot nul quil ne feust meu a ce, et distrent que <said
+               </app><!-- PD : La variante de B permet de comprendre "leur" ici. Je dois regarder dans la grammaire si on peut avoir "leur" dans article devant comme pronom -->
+               ainsi parler, si n’i ot nul quil ne feust meu a ce, et distrent que <said
                   aloud="true" direct="false">tout aussi feroient il volentiers</said>. Lors
                respondi <persName key="Dorus">Dorus</persName> et dist : <said aloud="true"
                   direct="true">Ha ! seingneur ronmain, <app>
@@ -20709,7 +20765,8 @@
                   <persName key="Dorus">Dorus</persName>, conment il vous est avenu entre <app>
                      <lem wit="#V3 #G #X2">nous</lem>
                      <rdg wit="#B">vous</rdg>
-                  </app> de ce<!-- PD voir dans grammaire si possible "ce" pour "ce que" --> nous vous trouvasmes jehui <app>
+                  </app> de ce<!-- PD voir dans grammaire si possible "ce" pour "ce que" --> nous
+                  vous trouvasmes jehui <app>
                      <lem wit="#V3 #G #X2">matin</lem>
                      <rdg wit="#B"/>
                   </app> si entrepris conme vous estiez <num>xxvii</num> meslez a autre <num>x</num>
@@ -20743,11 +20800,12 @@
                         aprés quant les premiers qui de nous s'estoient departi repairierent a nous
                         et nous corurent sus en tele maniere que Pelyarmenus se parti de nous lui
                         tiers comme cil qui bien cuida estre traÿs. Et nous nous deffendismes contre
-                        ceuls dusques atant que nous vous eusmes choisi, qui fusmes com tous certains
-                        que nostre deffense ne nous eust riens valu fors de nous faire occirre. Et
-                        ne fust ore se por ce nous, que cil .x. qui des nos devoient estre, que il
-                        nous aloient destraignant que je ne cuit pas que au loing aler peussons
-                        avoir duree contre euls. Et veez ci que je vous puis faire savoir</rdg>
+                        ceuls dusques atant que nous vous eusmes choisi, qui fusmes com tous
+                        certains que nostre deffense ne nous eust riens valu fors de nous faire
+                        occirre. Et ne fust ore se por ce nous, que cil .x. qui des nos devoient
+                        estre, que il nous aloient destraignant que je ne cuit pas que au loing aler
+                        peussons avoir duree contre euls. Et veez ci que je vous puis faire
+                        savoir</rdg>
                   </app>.</said><!-- PD : est-ce qu'on aurait une hypothèse sur l'ajout de B ici? J'ai l'impression que cet ajout aide le lecteur à s'imaginer ce qu'a bien pu raconter Abylon. -->
                <app>
                   <lem wit="#V3 #G #X2">Et li conta <persName key="Abylon">Abylon</persName>
@@ -21476,9 +21534,12 @@
                   </app> vostre frere <persName key="Dorus">Dorus</persName> enmainne vostre <app>
                      <lem wit="#V3 #G #X2">bon</lem>
                      <rdg wit="#B"/>
-                  </app> cheval et a bien pou mon garçon occis.</said><said rendition="dialogue"
-                  aloud="true" direct="true">Par mon chief, dans abbés, il a bon droit, du mien se
-                  puet il bien tant <app>
+                  </app> cheval et <app>
+                     <lem wit="#V3 #B #X2">a</lem>
+                     <rdg wit="#X2">a a</rdg>
+                  </app> bien pou mon garçon occis.</said><said rendition="dialogue" aloud="true"
+                  direct="true">Par mon chief, dans abbés, il a bon droit, du mien se puet il bien
+                  tant <app>
                      <lem wit="#V3 #G #X2">aidier</lem>
                      <rdg wit="#B">fier</rdg>
                   </app> conme <num>i</num> cheval vaut. Mes or me dites conment il sot qu’il estoit
@@ -21963,8 +22024,8 @@
                   moyennel par coi aucun de vous feussiez ensemble ravoié.</said><said
                   rendition="dialogue" aloud="true" direct="true"><persName key="Abylon"
                      >Abylon</persName>, dist <persName key="Dorus">Dorus</persName>, de ce <app>
-                     <lem wit="#V3 #G #X2">n’en</lem>
-                     <rdg wit="#B">ne</rdg>
+                     <lem wit="#V3 #G">n’en</lem>
+                     <rdg wit="#B #X2">ne</rdg>
                   </app> poez vous mes se vous le dites. Mes de ce soiez certains que, <cb n="c"/>a
                   l’eure que je me mis ier aprés vous, je avoie le meilleur <app>
                      <lem wit="#V3 #G #X2">cor</lem>
@@ -22082,7 +22143,9 @@
                tirast son frain en <app>
                   <lem wit="#V3 #G">ot</lem>
                   <rdg wit="#B #X2">occist</rdg>
-               </app> il <num>vi</num><!-- PD comprends-tu ce passage "avnt que il tirats son frain en ot il vi" je ne comprends pas la structure "en ot" ici -->, et ses compaingnons <app>
+               </app> il
+               <num>vi</num><!-- PD comprends-tu ce passage "avnt que il tirats son frain en ot il vi" je ne comprends pas la structure "en ot" ici -->,
+               et ses compaingnons <app>
                   <lem wit="#V3 #G #X2"><num>xii</num></lem>
                   <rdg wit="#B">.XII., ainsi en occist il .XVIII. des .XXVII.</rdg>
                </app>, et les autres s’en eschaperent, qui <app>
@@ -22138,9 +22201,10 @@
                   <lem wit="#V3 #G #X2">vaut</lem>
                   <rdg wit="#B">valut</rdg>
                </app>, car en ce point de adonc li estoit son cheval mort et avoit fet escu et targe
-               de sa selle, <said who="#nar">si conme vous avez oï el conte</said><!-- PD à quel passage réfère ici le narra? Je ne vois pas à quoi il fait référence -->. Et d’autre part,
-               il estoit trop loing d’eulz. Et avecques tout ce avoit il assez d’autres ententes. Et
-               encore d’autre part li estoit <app>
+               de sa selle, <said who="#nar">si conme vous avez oï el
+               conte</said><!-- PD à quel passage réfère ici le narra? Je ne vois pas à quoi il fait référence -->.
+               Et d’autre part, il estoit trop loing d’eulz. Et avecques tout ce avoit il assez
+               d’autres ententes. Et encore d’autre part li estoit <app>
                   <lem wit="#V3 #G #X2">la voie</lem>
                   <rdg wit="#B">li vens</rdg>
                </app> contraire, si que il furent iluec moult longuement, dont il avint que les
@@ -22164,8 +22228,8 @@
                </app> aussi conme par aventure. <said who="#nar">Et ainsi conme je vous ai conté
                   desus conment</said>
                <persName key="Hayno">Hayno</persName> avoit fet a soi et a ses compaingnons changier
-               leur connoissance<!-- PD glossaire --> qu’il ne feussent conneu de lor anemis, si que, quant ces
-                  <num>ii</num> virent <app>
+               leur connoissance<!-- PD glossaire --> qu’il ne feussent conneu de lor anemis, si
+               que, quant ces <num>ii</num> virent <app>
                   <lem wit="#V3 #G #X2">ces</lem>
                   <rdg wit="#B">les</rdg>
                </app>
@@ -22189,7 +22253,9 @@
                leur compaingnon avoit fet prendre les <app>
                   <lem wit="#V3 #G #X2">des</lem>
                   <rdg wit="#B"/>
-               </app> connoissances a ceus que il avoient premiers occis.</p>
+               </app>
+               connoissances<!--help ici je pense que c'est desconnoissance, il faudrait retrouver la graphie de B-->
+               a ceus que il avoient premiers occis.</p>
             <p n="P811"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>inssi
                se mistrent li <num>v</num> en une compaingnie et puis quistrent lor compaingnons, et
                meismes <persName key="Dorus">Dorus</persName> queroient il sus touz les autres. Si
@@ -22341,8 +22407,8 @@
                toutes voies ne <app>
                   <lem wit="#V3 #G #X2">savoient</lem>
                   <rdg wit="#B">sot</rdg>
-               </app> il que pensser se ce furent il ou non, car tant estoient leur cotes harigotees<!-- PD glossaire -->
-               et despeciees qu’il n’i <app>
+               </app> il que pensser se ce furent il ou non, car tant estoient leur cotes
+               harigotees<!-- PD glossaire --> et despeciees qu’il n’i <app>
                   <lem wit="#V3 #G">avoit</lem>
                   <rdg wit="#B #X2">pooit connoistre</rdg>
                </app> se pou non de connoissance <app>
@@ -22518,7 +22584,9 @@
                   </app> honneur !</said>
                <rs type="person" key="Chevalier suivi par Dorus">Cil qui n’avoit cure de son
                   sermon</rs> aloit touzjours devant lui, conme cil qui avoit cheval a sa volenté. <app>
-                  <lem wit="#V3 #B #X2">Et le <persName key="Dorus">Dorus</persName><!-- PD "le Dorus", n'est-ce pas étrange cette façon de l'appeler? Ou est-ce un autre personnage "Ledorus"? Cela serait juste avec le sens du texte? --> ne fu pas a <app>
+                  <lem wit="#V3 #B #X2">Et le <persName key="Dorus"
+                     >Dorus</persName><!-- PD "le Dorus", n'est-ce pas étrange cette façon de l'appeler? Ou est-ce un autre personnage "Ledorus"? Cela serait juste avec le sens du texte? -->
+                     ne fu pas a <app>
                         <lem wit="#V3 #X2">ce</lem>
                         <rdg wit="#B">ce tour</rdg>
                      </app> tourné, car trop avoit esté grevé.</lem>
@@ -22588,9 +22656,9 @@
                </app>
                <rs type="person" key="Cyboule">la pucele</rs>, si sot bien que <rs type="person"
                   key="Chevalier suivi par Dorus">li chevaliers</rs> iert venus a garant. Si ne sot
-               que faire de plus avant enchaucier. Lors sacha son frain et volt retourner, quant cele
-               hucha en haut : <said aloud="true" direct="true">Et conment, sire chevalier ! Avant
-                  vous couvient venir por avoir droit du <rs type="person"
+               que faire de plus avant enchaucier. Lors sacha son frain et volt retourner, quant
+               cele hucha en haut : <said aloud="true" direct="true">Et conment, sire chevalier !
+                  Avant vous couvient venir por avoir droit du <rs type="person"
                      key="Chevalier suivi par Dorus">chevalier</rs>, se il vous a aucune chose
                   mesfet ou vous a lui.</said> Adonc ne pot <persName key="Dorus">Dorus</persName>
                retourner por nule honneur, ainz s’en vint vers <rs type="place" key="Nesai">le
@@ -22730,7 +22798,8 @@
                dolente, mes elle n’osa contredire ce que ele <app>
                   <lem wit="#V3 #G">demanda</lem>
                   <rdg wit="#B #X2">li commanda</rdg>
-               </app>, ainz vint en une garde robe, si ouvri <num>i</num> escrin, si en traïst<!-- PD tréma? --> <app>
+               </app>, ainz vint en une garde robe, si ouvri <num>i</num> escrin, si en traïst<!-- PD tréma? -->
+               <app>
                   <lem wit="#V3 #G #X2">hors</lem>
                   <rdg wit="#B"/>
                </app> une <app>
@@ -22971,11 +23040,13 @@
                      </app> chevaliers,</lem>
                   <rdg wit="#G"/>
                </app> si respondi a ce et dist : <said aloud="true" direct="true">Ha ! franche
-                  damoiselle, conment porroit a ce venir ? Car espoir ne pourroit il estre trouvé.
-                  Et ainsint cuideroient mes amis que je feusse mort et perdu, conme celui qui
-                  n’avroit riens valu en cest afaire.</said><said rendition="dialogue" aloud="true"
-                  direct="true">Sire, dit elle, souffrez vous, car, s’il ne vient anuit ou le matin,
-                  aler vous em pourrez quele part qu’il vous plera.</said> Lors ne li valut <app>
+                  damoiselle, conment porroit a ce
+                  venir<!--help X2 a "ce avenir" (avec croix dans la marge, qui signale en général une faute) -> vérifier BG?-->
+                  ? Car espoir ne pourroit il estre trouvé. Et ainsint cuideroient mes amis que je
+                  feusse mort et perdu, conme celui qui n’avroit riens valu en cest
+                  afaire.</said><said rendition="dialogue" aloud="true" direct="true">Sire, dit
+                  elle, souffrez vous, car, s’il ne vient anuit ou le matin, aler vous em pourrez
+                  quele part qu’il vous plera.</said> Lors ne li valut <app>
                   <lem wit="#V3 #G">riens</lem>
                   <rdg wit="#B #X2"/>
                </app> chose que il peust dire. <app>
@@ -23032,7 +23103,8 @@
                   l'enfermement de Dorus par Cyboule.</note></p>
             <p n="P825"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>insi
                conme cele le devisa le fist <rs type="person" key="Chevalier suivi par Dorus">le
-                  chevalier</rs> en tele maniere que, quant il ce<note type="notecritique">Sur "ce" pour "se", cf. analyse linguistique.</note> fu partis du <rs type="place"
+                  chevalier</rs> en tele maniere que, quant il ce<note type="notecritique">Sur "ce"
+                  pour "se", cf. analyse linguistique.</note> fu partis du <rs type="place"
                   key="Nesai">chastel</rs> et mis en son chemin arriere, aussi conme il li plut
                miex, <rs type="person" key="Cyboule">la pucelle</rs> fist une <app>
                   <lem wit="#V3 #G #X2">merveilleuse</lem>
@@ -23101,9 +23173,10 @@
                   <rdg wit="#B #X2"/>
                </app> ot moult grant merveille, et tout aussi ot <persName key="Hayno"
                   >Hayno</persName> et ses compaingnons, qui ont maintenant cuidié que cil n’ape<cb
-                  n="f"/>last gent fors que pour eulz mal mettre et trayir<!-- PD glossaire (pour la forme étrange) et à ajouter à analyse linguistique -->. Si ont maintenant choisi
-               l’un de ceus qui demorez estoit des <num>vi</num> chevaliers dont <persName
-                  key="Dorus">Dorus</persName> chaçoit <rs type="person"
+                  n="f"/>last gent fors que pour eulz mal mettre et
+               trayir<!-- PD glossaire (pour la forme étrange) et à ajouter à analyse linguistique -->.
+               Si ont maintenant choisi l’un de ceus qui demorez estoit des <num>vi</num> chevaliers
+               dont <persName key="Dorus">Dorus</persName> chaçoit <rs type="person"
                   key="Chevalier suivi par Dorus">l’autre</rs>, <said who="#nar">ainsi conme vous
                   avez oÿ</said>. Cil, qui tout estoit espoentez de la doubte que il avoit que
                   <persName key="Dorus">Dorus</persName> ne le suivist, en vint par sa bonne
@@ -23278,11 +23351,11 @@
                leur adverse partie. Dont dist li uns d’eulz : <said aloud="true" direct="true">Nous <app>
                      <lem wit="#V3 #G">sonmes</lem>
                      <rdg wit="#B #X2">sonmes aussi comme</rdg>
-                  </app> cil qui atendent l’abee<!-- PD glossaire -->. Nous ne savons nouvelles de vostre gent autrement
-                  que <rs type="person" key="Abylon">ce chevalier</rs> nous a conté <seg
-                     ana="discoursEnchassé">une grant courtoisie qu’il doit avoir faite a <persName
-                        key="Dorus">Dorus</persName></seg>. Et se ce est voir, si s’en voise aprés
-                  lui et face ce qu’il li plera. Se il <app>
+                  </app> cil qui atendent l’abee<!-- PD glossaire -->. Nous ne savons nouvelles de
+                  vostre gent autrement que <rs type="person" key="Abylon">ce chevalier</rs> nous a
+                  conté <seg ana="discoursEnchassé">une grant courtoisie qu’il doit avoir faite a
+                        <persName key="Dorus">Dorus</persName></seg>. Et se ce est voir, si s’en
+                  voise aprés lui et face ce qu’il li plera. Se il <app>
                      <lem wit="#V3 #G #X2">treuve</lem>
                      <rdg wit="#B">treuvent</rdg>
                   </app> nos compaingnons qui de ci se partent, si leur die que nous sonmes reperié
@@ -23297,7 +23370,8 @@
                </app>, si <app>
                   <lem wit="#V3 #G #X2">c’est mis</lem>
                   <rdg wit="#B">se mist</rdg>
-               </app><note type="notecritique">Sur "c'est" pour "s'est", cf. analyse linguistique.</note>
+               </app><note type="notecritique">Sur "c'est" pour "s'est", cf. analyse
+                  linguistique.</note>
                <persName key="Abylon">Abylon</persName>
                <app>
                   <lem wit="#V3 #G #X2">a</lem>
@@ -23357,10 +23431,11 @@
                </app> estoient estanchiez, si qu’il vindrent a lui et li ont dit que <said
                   aloud="true" direct="false">moult folement enchauçoit <persName key="Dorus"
                      >Dorus</persName> et a pou de gent, et d’autre part s’estoit grant folie que il
-                  s’entrebatoient entre ces montaingnes, dont il ne pourroient retourner fors parmi
-                  leurs anemis</said>. Lors s’arresta <persName key="Mardocheus"
-                  >Mardocheus</persName>, et li vindrent nouvelles que <rs type="person"
-                  key="Dyomarques">li rois d’<placeName key="Arragon">Arragon</placeName></rs>
+                  s’entrebatoient<!--help X2 a "s'embatoient" vérifier BG--> entre ces montaingnes,
+                  dont il ne pourroient retourner fors parmi leurs anemis</said>. Lors s’arresta
+                  <persName key="Mardocheus">Mardocheus</persName>, et li vindrent nouvelles que <rs
+                  type="person" key="Dyomarques">li rois d’<placeName key="Arragon"
+                     >Arragon</placeName></rs>
                <app>
                   <lem wit="#V3 #G">le</lem>
                   <rdg wit="#B #X2"/>
@@ -23614,7 +23689,8 @@
                   n="49"/><app>
                   <lem wit="#B #G #X2">salua</lem>
                   <rdg wit="#V3">et les salua</rdg>
-               </app> et ce<note type="notecritique">Sur "ce" pour "se", cf. analyse linguistique.</note> fist connoistre et enquist de leurs nouvelles, <app>
+               </app> et ce<note type="notecritique">Sur "ce" pour "se", cf. analyse
+                  linguistique.</note> fist connoistre et enquist de leurs nouvelles, <app>
                   <lem wit="#V3 #G">et</lem>
                   <rdg wit="#B #X2">mais</rdg>
                </app> pou en porent <app>
@@ -23647,8 +23723,9 @@
                </app> vers leur gent et ont tant alé deça et dela que il sont repairié. Et quant
                l’en leur demanda qu’il avoient trouvé, si distrent la verité.</p>
             <p n="P838"><c ana="lettrine2">Q</c>uant li baron ont ce oÿ, si ne fu onques mes si
-               grant destourbier veu conme il orent, et encore eust il esté greingneur, ce<note type="notecritique">Sur "ce" pour "se", cf. analyse linguistique.</note> ne fust ce
-               qu’il <app>
+               grant destourbier veu conme il orent, et encore eust il esté greingneur, ce<note
+                  type="notecritique">Sur "ce" pour "se", cf. analyse linguistique.</note> ne fust
+               ce qu’il <app>
                   <lem wit="#V3 #G #X2">ont conmandé c'om se sueffre pour le</lem>
                   <rdg wit="#B">l'ont celé au</rdg>
                </app> conmun. Et de l’autre part, <persName key="Pelyarmenus">Pelyarmenus</persName>
@@ -23695,9 +23772,10 @@
                <note type="notecritique">La leçon de V<hi rend="exposant">3</hi> et G paraît plus
                   obscure : le tabour, l'instrument ou le vacarme (DMF), semble difficilement
                   associable au miracle divin avec lequel il est présenté. Plus encore, la croix
-                  semblerait, comme plus haut, indiquer l'erreur commise.</note><!-- PD ok je suis d'accord avec toi. Mais dans ce cas, alors tu peux garder la note et corriger selo, BX2. -->de Nostre Seingneur,
-               dont il avint <said who="#nar">aussi conme je vous conterai a pou de parolles
-                  que</said>
+                  semblerait, comme plus haut, indiquer l'erreur
+               commise.</note><!-- PD ok je suis d'accord avec toi. Mais dans ce cas, alors tu peux garder la note et corriger selo, BX2. -->de
+               Nostre Seingneur, dont il avint <said who="#nar">aussi conme je vous conterai a pou
+                  de parolles que</said>
                <rs type="person" key="Dyomarques">le roy d’<placeName key="Arragon"
                      >Arragon</placeName></rs> et <rs type="person" key="Roi de Sezille">le roy de
                      <placeName key="Sezille">Sezille</placeName></rs> et <rs type="person"
@@ -23877,9 +23955,11 @@
                   mettre arriere, car j’ai aucune fois oï <app>
                      <lem wit="#V3 #G">dire</lem>
                      <rdg wit="#B #X2">dire que</rdg>
-                  </app> compaingnie Dex la fist<!-- PD je comprends mal la fin "oï dire compagnie Dex la fist. On pourrait mettre une note ici, si tu comprends comme moi, juste pour expliciter la fin de la phrase par une traduction: "J'ai parfois entendu dire que Dieu fit cette compagnie" -->. Or me dites en quele maniere vous me voudriez
-                  tenir compaingnie, car ce me couvient il savoir.</said><said rendition="dialogue"
-                  aloud="true" direct="true">Sire, <app>
+                  </app> compaingnie Dex la
+                  fist<!-- PD je comprends mal la fin "oï dire compagnie Dex la fist. On pourrait mettre une note ici, si tu comprends comme moi, juste pour expliciter la fin de la phrase par une traduction: "J'ai parfois entendu dire que Dieu fit cette compagnie" -->.
+                  Or me dites en quele maniere vous me voudriez tenir compaingnie, car ce me
+                  couvient il savoir.</said><said rendition="dialogue" aloud="true" direct="true"
+                  >Sire, <app>
                      <lem wit="#B #G">dist</lem>
                      <rdg wit="#V3 #X2">ce dist</rdg>
                   </app>
@@ -24040,8 +24120,8 @@
                   chose dont vous feussiez tart au repentir, que <seg ana="proverbe">cilz muert a
                      envis qui apris ne
                   l’a</seg><!-- SL/PD je revois la transcription "a pris >apris" sur la base
-   de la formule répertoriée chez Morawski (709) PD ok, mais alors ne pas oublier de mettre en note le proverbe de Morawski-->. <rs type="person"
-                     key="Châtelaine">La chastelainne</rs>, par aventure, <app>
+   de la formule répertoriée chez Morawski (709) PD ok, mais alors ne pas oublier de mettre en note le proverbe de Morawski-->.
+                     <rs type="person" key="Châtelaine">La chastelainne</rs>, par aventure, <app>
                      <lem wit="#V3 #G #X2">souferroit</lem>
                      <rdg wit="#B">souferroit ja</rdg>
                   </app> a envis ce que <rs type="person" key="Fastige">l’empereris</rs> fet ici. Et
