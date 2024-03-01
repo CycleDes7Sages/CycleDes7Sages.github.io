@@ -59,8 +59,8 @@
                         <th>Chapitres</th>
                         <th>V</th>
                         <th>B</th>
-                        <th>X</th>
                         <th>G</th>
+                        <th>X</th>
                         <th>R</th>
                         <th>C</th>
                     </tr>
