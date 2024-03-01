@@ -3023,7 +3023,7 @@
                </app><note type="notecritique">D'après le passage à la ligne après "chevauchie", il
                   y a fort à penser que la bonne leçon sur laquelle V<hi rend="exposant">2</hi>
                   commet une erreur était "chevauchierent". C'est pourquoi nous adoptons la leçon de
-                  G.</note><!--Help Il pourrait aussi s’agir d’une faute commune (omission de ont) à laquelle G a réagi en changeant le temps. -->
+                  G.</note><!--help voir pourquoi resp avec wit G--><!--Help Il pourrait aussi s’agir d’une faute commune (omission de ont) à laquelle G a réagi en changeant le temps. -->
                il <app>
                   <lem wit="#V2 #G #X2">furent moult esloignié</lem>
                   <rdg wit="#B">moult sont loing issi</rdg>
@@ -3039,7 +3039,7 @@
                Adont se sont touz mis ensemble et cil les ont <app>
                   <lem wit="#B #G #X2" resp="#PD">assaillis</lem>
                   <rdg wit="#V2">assailliez</rdg>
-               </app>
+               </app><!--help voir pourquoi resp avec wit des 3 autres-->
                <app>
                   <lem wit="#V2 #B #X2">devant et derriere</lem>
                   <rdg wit="#G">de toutes pars</rdg>
@@ -3096,7 +3096,8 @@
                cuidierent li sien <app>
                   <lem wit="#B #G #X2" resp="#PD">que il fust</lem>
                   <rdg wit="#V2">que il fust que il fust (<hi rend="italique">sic</hi>)</rdg>
-               </app> mors, <app>
+               </app><!--help voir pourquoi resp avec 3 autres en wit, et ailleurs, cf. recherche ctrl F #PD-->
+               mors, <app>
                   <lem wit="#V2 #G #X2">
                      <app>
                         <lem wit="#G #X2" resp="#PD">mais</lem>
