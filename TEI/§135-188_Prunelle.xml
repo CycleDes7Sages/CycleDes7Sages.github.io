@@ -4079,12 +4079,12 @@
                   key="Dyalogus">Dyalogus</persName>, aussi comme <app>
                   <lem wit="#B #X2" resp="#PD">par affit</lem>
                   <rdg wit="#V2 #G">affit</rdg>
-               </app>, quant il vit <rs type="place" key="Ermitage de Vulgue">l’ermitage</rs>, si
-               dist que <said aloud="true" direct="false">il se vouloit confesser a <rs
-                     type="person" key="Ydoine">l’ermite</rs></said> et mist pié a terre et est
-               venuz en <rs type="place" key="Ermitage de Vulgue">l’ermitage</rs> et trouva <rs
-                  type="person" key="Jeune ermite de Vulgue">le jone hermite</rs> seant enmi la
-               maison, <app>
+               </app><!--help: Camille, faut-il bien un "resp" ici?-->, quant il vit <rs
+                  type="place" key="Ermitage de Vulgue">l’ermitage</rs>, si dist que <said
+                  aloud="true" direct="false">il se vouloit confesser a <rs type="person"
+                     key="Ydoine">l’ermite</rs></said> et mist pié a terre et est venuz en <rs
+                  type="place" key="Ermitage de Vulgue">l’ermitage</rs> et trouva <rs type="person"
+                  key="Jeune ermite de Vulgue">le jone hermite</rs> seant enmi la maison, <app>
                   <lem wit="#V2 #G #X2">si</lem>
                   <rdg wit="#B">dont li</rdg>
                </app> demanda : <said aloud="true" direct="true">Quel gent a il ceenz ?</said><said
@@ -5349,13 +5349,18 @@
                   aloud="false" direct="false">il ne se lairoit mie assegier sanz <app>
                      <lem wit="#V2 #G">trop</lem>
                      <rdg wit="#B #X2">cop</rdg>
-                  </app><note type="notecritique">La leçon de BX2 paraît supérieure à celle de V<hi
-                        rend="exposant">2</hi>G dans la mesure où elle reprend une formule "sanz cop
-                     ferir" bien connue encore aujourd'hui. Cependant, étant donné que l'emploi
-                     absolu du verbe "ferir" "donner des coups" est bien attesté (DMF), la leçon de
-                        V<hi rend="exposant">2</hi>G nous semble sensée.</note> ferir</said>. Il ot
-               sa gent aprestee, et furent bien <num>xxx<hi rend="exp">m</hi></num>, <cb n="d"/>car
-                  <persName key="Pelyarmenus">Pelyarmenus</persName> li avoit envoié grant gent. <app>
+                  </app><note type="notecritique">La leçon de <hi rend="italique">BX<hi
+                           rend="exposant">2</hi></hi> paraît supérieure à celle de <hi
+                        rend="italique">V<hi rend="exposant">2</hi>G</hi> dans la mesure où elle
+                     reprend une formule <hi rend="italique">sanz cop ferir</hi> bien connue encore
+                     aujourd'hui. Cependant, étant donné que l'emploi absolu du verbe <hi
+                        rend="italique">ferir</hi> 'donner des coups' est bien attesté (DMF, s.v.
+                     ###), la leçon de <hi rend="italique">V<hi rend="exposant">2</hi>G</hi> nous
+                     semble
+                  sensée.</note><!--help, vu la note, je m'attendrais à ce que tu aies conservé la leçon de VG; je me demande effectivement si on ne peut pas défendre la leçon de VG tout en signalant en note que celle de BX est peut-être plus attendue.-->
+                  ferir</said>. Il ot sa gent aprestee, et furent bien <num>xxx<hi rend="exp"
+                  >m</hi></num>, <cb n="d"/>car <persName key="Pelyarmenus">Pelyarmenus</persName>
+               li avoit envoié grant gent. <app>
                   <lem wit="#V2 #G #X2">Meismes</lem>
                   <rdg wit="#B">Mes</rdg>
                </app>
