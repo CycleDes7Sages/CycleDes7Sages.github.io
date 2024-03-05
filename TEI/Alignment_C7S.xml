@@ -23,6 +23,33 @@
             </publicationStmt>
             <sourceDesc>
                 <listWit>
+                    <witness xml:id="V1">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.22548</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="1r" to="15r"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="15r" to="56r"/> 
+                                    <title>Marques de Rome</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="56r" to="172r"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="172r" to="206v"/> 
+                                    <title>Cassidorus (début)</title>
+                                </msItem>
+                            </msContents>                                          
+                        </msDesc>
+                    </witness>
                     <witness xml:id="V2">
                         <msDesc>
                             <msIdentifier>
@@ -32,8 +59,16 @@
                             </msIdentifier>
                             <msContents>
                                 <msItem>
+                                    <locus from="1r" to="74r"/> 
+                                    <title>Cassidorus (suite)</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="74r" to="130v"/> 
+                                    <title>Helcanus</title>
+                                </msItem>
+                                <msItem>
                                     <locus from="131r" to="216v"/> 
-                                    <title>Pelyarmenus</title>
+                                    <title>Pelyarmenus (début)</title>
                                 </msItem>
                             </msContents>                                          
                         </msDesc>
@@ -48,7 +83,11 @@
                             <msContents>
                                 <msItem>
                                     <locus from="1r" to="50v"/> 
-                                    <title>Pelyarmenus</title>
+                                    <title>Pelyarmenus (suite)</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="50r" to="165v"/> 
+                                    <title>Kanor</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -62,8 +101,63 @@
                             </msIdentifier>
                             <msContents>
                                 <msItem>
-                                    <locus from="348v" to="483v"/> 
+                                    <locus from="1r" to="17r"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="17r" to="60v"/> 
+                                    <title>Marques de Rome</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="60v" to="184v"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="184v" to="296r"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="296r" to="348v"/> 
+                                    <title>Helcanus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="348v" to="482r"/> 
                                     <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="482r" to="593v"/> 
+                                    <title>Kanor</title>
+                                </msItem>
+                            </msContents>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="X1">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>BNF</repository>
+                                <idno>fr.17000</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus from="2r" to="2r"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="2r" to="39r"/> 
+                                    <title>Marques de Rome</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="39r" to="147v"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="147v" to="234v"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="234v" to="266v"/> 
+                                    <title>Helcanus (début)</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -77,8 +171,16 @@
                             </msIdentifier>
                             <msContents>
                                 <msItem>
+                                    <locus from="1r" to="16r"/> 
+                                    <title>Helcanus (suite)</title>
+                                </msItem>
+                                <msItem>
                                     <locus from="16r" to="134v"/> 
                                     <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="134v" to="231v"/> 
+                                    <title>Kanor</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -92,8 +194,32 @@
                             </msIdentifier>
                             <msContents>
                                 <msItem>
-                                    <locus from="351v" to="491r"/> 
+                                    <locus from="1r" to="17r"/> 
+                                    <title>Roman des Sept Sages</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="17r" to="60r"/> 
+                                    <title>Marques de Rome</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="60r" to="186r"/> 
+                                    <title>Laurin</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="186r" to="294v"/> 
+                                    <title>Cassidorus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="294v" to="351v"/> 
+                                    <title>Helcanus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="351v" to="491v"/> 
                                     <title>Pelyarmenus</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="491v" to="602v"/> 
+                                    <title>Kanor</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -107,9 +233,16 @@
                             </msIdentifier>
                             <msContents>
                                 <msItem>
+                                    <locus from="1r" to="1v"/> 
+                                    <title>Recapitulation (Romans de Cassidorus-Helcanus)</title>
+                                </msItem>
+                                <msItem>
                                     <locus from="2v" to="26v"/> 
-                                    <title>part du Roman de Pelyarmenus sous forme allongée/condensée
-                                        (équivalent des §446-842)</title>
+                                    <title>Pelyarmenus §446-842</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="27r" to="XXX"/><!-- à compléter --> 
+                                    <title>Kanor §XXX</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -119,12 +252,196 @@
                             <msIdentifier>
                                 <settlement>Turin</settlement>
                                 <repository>BN</repository>
-                                <idno>1650</idno>
+                                <idno>1650/L.III.8</idno>
                             </msIdentifier>
                             <msContents>
                                 <msItem>
-                                    <locus from="?" to="?"/><!-- Les ff. n'étant pas organisés, il est compliqué de préciser --> 
-                                    <title>Pelyarmenus</title>
+                                    <locus from="B1-1r" to="B1-5v"/>
+                                    <title>Cassidorus §167-178</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B22-2v" to="B22-1r"/>
+                                    <title>Cassidorus §179-187</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B2-1r" to="B2-7v"/>
+                                    <title>Cassidorus §188-221</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B21-1r" to="B21-11v"/>
+                                    <title>Cassidorus §222-XXX</title><!-- à compléter -->
+                                </msItem>
+                                <msItem>
+                                    <locus from="B21-14r" to="B21-14v"/>
+                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                </msItem>
+                                <msItem>
+                                    <locus from="B21-12r" to="B21-13v"/>
+                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                </msItem>
+                                <msItem>
+                                    <locus from="B21-15r" to="B21-26v"/>
+                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                </msItem>
+                                <msItem>
+                                    <locus from="B5-1r" to="B5-12v"/>
+                                    <title>Cassidorus §375-440</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B20-38v" to="B20-15v"/>
+                                    <title>Cassidorus §440-507</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B20-15r" to="B20-1r"/>
+                                    <title>Helcanus §1-71</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B4-14v" to="B4-1r"/>
+                                    <title>Helcanus §72-149</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B23-31v" to="B23-21r"/>
+                                    <title>Helcanus §149-219</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B3-7v" to="B3-1r"/>
+                                    <title>Helcanus §287-330</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B6-1r" to="B6-1r"/>
+                                    <title>Helcanus §330-331</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B6-13v" to="B6-1r"/>
+                                    <title>Pelyarmenus §1-63</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B7-1r" to="B7-6v"/>
+                                    <title>Pelyarmenus §64-85</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B8-1r" to="B8-2v"/>
+                                    <title>Pelyarmenus §85-91</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B13-13r" to="B13-13v"/>
+                                    <title>Pelyarmenus §91-93</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B9-1r" to="B9-3v"/>
+                                    <title>Pelyarmenus §93-108</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B10-1r" to="B10-1v"/>
+                                    <title>Pelyarmenus §108-112</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B10-3r" to="B10-3v"/>
+                                    <title>Pelyarmenus §112-116</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B10-2r" to="B10-2v"/>
+                                    <title>Pelyarmenus §116-121</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B11-1r" to="B11-5v"/>
+                                    <title>Pelyarmenus §122-143</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B12-1r" to="B12-2v"/>
+                                    <title>Pelyarmenus §143-152</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B12-4r" to="B12-4v"/>
+                                    <title>Pelyarmenus §153-158</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B12-3r" to="B12-3v"/>
+                                    <title>Pelyarmenus §158-162</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B12-5r" to="B12-7v"/>
+                                    <title>Pelyarmenus §162-176</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B14-1r" to="B14-6v"/>
+                                    <title>Pelyarmenus §176-201</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B13-1r" to="B13-12v"/>
+                                    <title>Pelyarmenus §201-260</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B15-1r" to="B15-4v"/>
+                                    <title>Pelyarmenus §261-282</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B15-5r" to="B15-5v"/>
+                                    <title>Pelyarmenus §287-291</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B18-1r" to="B18-1v"/>
+                                    <title>Pelyarmenus §291-294</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B18-3r" to="B18-3v"/>
+                                    <title>Pelyarmenus §294-301</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B18-2r" to="B18-2v"/>
+                                    <title>Pelyarmenus §301-308</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B18-4r" to="B18-4v"/>
+                                    <title>Pelyarmenus §308-312</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-2r" to="B17-2v"/>
+                                    <title>Pelyarmenus §312-317</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B16-1r" to="B16-2v"/>
+                                    <title>Pelyarmenus §324-333</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-1r" to="B17-1v"/>
+                                    <title>Pelyarmenus §333-336</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-3r" to="B17-13v"/>
+                                    <title>Pelyarmenus §337-383</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-15r" to="B17-15v"/>
+                                    <title>Pelyarmenus §384-387</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-14r" to="B17-14v"/>
+                                    <title>Pelyarmenus §434-438</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-16r" to="B17-18v"/>
+                                    <title>Pelyarmenus §438-453</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-19r" to="B17-22v"/>
+                                    <title>Pelyarmenus §462-481</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B19-2r" to="B19-2v"/>
+                                    <title>Pelyarmenus §481-487</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B19-3r" to="B19-3v"/>
+                                    <title>Pelyarmenus §487-491</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B19-1r" to="B19-1v"/>
+                                    <title>Pelyarmenus §491-495</title>
+                                </msItem>
+                                <msItem>
+                                    <locus from="B17-23r" to="B17-23v"/>
+                                    <title>Pelyarmenus §495-499</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -136,10 +453,10 @@
             <projectDesc>
                 <p><title>Alignement du C7S</title>
                     Ce document vise à donner accès à la macrostructure du Cycle des Sept Sages de Rome, tel qu'il se présente 
-                    dans les quatre principaux manuscrits qui donnent à lire l'ensemble du cycle, listés dans le <gi>sourceDesc</gi> 
+                    dans les six manuscrits qui donnent (ou ont donné) à lire l'ensemble du cycle, listés dans le <gi>sourceDesc</gi> 
                     ci-dessus. Nous avons procédé à l'alignement de l'ensemble des sept romans qu'il contient, en reprenant 
                 leurs débuts (implicit), fins (explicit) et chacun des chapitres qui les structurent, selon les rubriques données dans
-                chacun des manuscrits, ainsi que les informations paratextuelles qui viennent aussi les structurer (miniatures, initiales, etc.).
+                chacun des manuscrits, ainsi que les éléments de décor qui viennent aussi les structurer (miniatures, initiales, etc.).
                 L'organisation est fondée sur celle que présente le manuscrit siglé V, qui a servi de manuscrit de base 
                 au travail d'édition des romans de Cassidorus (par J. Palermo), Helcanus (par H. Niedzielski), 
                 Pelyarmenus (en cours d'élaboration par notre équipe de recherche) et Kanor (par M. McMunn).
@@ -150,7 +467,7 @@
                     ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id
                     correspondant, par un renvoi à ce manuscrit V, pour indiquer la
                     distance critique qui se doit d'être considérée face à cette
-                    organisation et cette numérotation du
+                    organisation et assumer cette numérotation du
                     roman telle que nous l'avons établie sur la base des différents paragraphes 
                     lus dans ce manuscrit.</p>
                 <p><title>Enjeux et pratique de travail</title>
@@ -169,9 +486,10 @@
                 dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, c'est-à-dire la rubrique (@rubric),
                     sa localisation dans le manuscrit traité (@location) et une note (@note). 
                     Cette note vise à préciser l'organisation et mise 
-                    en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial") et la précision du lieu exact de ces 
+                    en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist. initial" dans le 
+                    cas du manuscrit R qui organise différemment sa matière) et la précision du lieu exact de ces 
                     trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même folio du manuscrit dépeint. 
-                    D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces quatre manuscrits. 
+                    D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces manuscrits. 
                     Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.</p>
                 <p><title>Cas particuliers présentés</title> 
                     1)Rubriques ajoutées: 
@@ -181,7 +499,7 @@
                     @corresp renvoyant au xml:id du paragraphe qui donne, dans V, la section
                     contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
                     précise, de manière systématique et volontairement concise : 
-                    "extra rubric+miniature+initial". 
+                    "extra rubric+miniature+initial/hist. initial". 
                 Par souci de précision, nous avons indiqué où se situe dans V la portion de texte que ce témoin associe 
                 à une nouvelle rubrique, par la mention "corresponding to V XXX".
                 Le plus communément, ces rubriques ajoutées correspondent à une portion de texte donnée comme un 
@@ -189,12 +507,13 @@
                 <p>2)Rubriques absentes: 
                     Quand la rubrique n'est pas donnée dans un témoin
                     (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
-                    présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", mais
-                    le <gi>seg</gi> @location n'a pas été supprimé si le paragraphe qui
-                    suit cette rubrique est bien donné. Le <gi>seg</gi> @note
+                    présenté ci-dessous), le <gi>seg</gi> @rubric est donné "ø", mais
+                    le <gi>seg</gi> @location n'a pas été supprimé pour autant, pour donner accès
+                    au lieu auquel la portion de texte en question peut se lire, introduite ou non par
+                    la rubrique. Le <gi>seg</gi> @note
                     vient préciser que les rubrique, miniature et initiale sont absentes,
                     selon la formule systématique et volontairement concise : 
-                    "no incipit/rubric+miniature+initial". L'idée était ainsi de
+                    "no incipit/rubric+miniature+initial/hist. initial". L'idée était ainsi de
                     détailler que la structure par rubrique dans V n'était pas suivie dans
                     cet autre témoin, mais que la portion de texte correspondante était
                     présentée par un simple nouveau paragraphe dans ce témoin. 
@@ -227,6 +546,21 @@
                     encore celui de Cassidorus), il arrive que ce que V présente comme un nouveau chapitre introduit par une rubrique, 
                     une miniature et une initiale n'est indiqué dans d'autres témoins que par une initiale. 
                     Nous avons présenté comme suit cette information : "initial. no rubric+miniature"</p>
+                <p>5)Le cas du manuscrit R: 
+                Les particularités de ce manuscrit rescapé de l'incendie qui a frappé la Bibliothèque Nationale de Turin ont requis
+                des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce témoin, dont 
+                nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière ci-dessus dans la présentation
+                des témoins), mais aussi de fragments des sections conservées, selon l'état de chaque folio concerné, mais aussi des absences 
+                dans la matière pourtant présentée de manière plus ou moins linéaire. Nous avons tenté d'offrir accès au texte de chaque rubrique. 
+                Dans les cas où la matière restait ponctuellement illisible en raison de la détérioriation du folio (brûlure rendant 
+                l'encre peu lisible ou brûlure ne laissant pas accès à l'ensemble du folio), 
+                nous avons intégré la mention "DDD" pour couvrir ces sections. En note, nous avons précisé pour chaque cas de figure : 
+                - si la section était entièrement manquante (dans quelques cas, les folios conservés ne nous offrent pas accès à l'ensemble de la matière, 
+                offrant des sauts de quelques paragraphes, à nouveau voir ci-dessus à ce sujet) : "missing section in this damaged manuscript" ;
+                - si la section est manquante, mais de manière plus localisée (part du folio brûlée) : "partially damaged section on these folios" ; 
+                - si la section reste illisible en raison de l'atteinte des flammes, mais de manière très ponctuelle (mettant en cause ou le folio lui-même ou l'encre) : 
+                "missing section on this damaged folio". La localisation peut alors être tenue pour incertaine, avec la mention finale "?" s'il s'agit d'une pure hypothèse 
+                de reconstruction de notre part, ou pour certaine (sans cette mention) si l'on peut deviner la rubrique et l'initiale malgré tout.</p>
                 <p><title>Précisions de présentation</title>
                 Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
                 notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.</p>
@@ -241,6 +575,7 @@
             <change who="#CC" when="2023-10-16">Alignement des rubriques du Roman de Laurin</change>
             <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées du ms. X2 inaccessible</change>
             <change who="#CC" when="2023-11-27">Introduction revue</change>
+            <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -5900,7 +6235,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B9-3ra</seg>
-                        <seg type="note">no rubric+miniature+initial</seg>
+                        <seg type="note">no rubric+hist. initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-7" unit="chapter" xml:id="RP_7"/>
@@ -6024,13 +6359,13 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B12-2vb</seg>
-                        <seg type="note">Rubric displaced later (160vb in V2 (§154)</seg>
+                        <seg type="note">rubric+hist. initial displaced later (160vb in V2 (§154)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">XXX<!-- Transcription ? --></seg>
                         <seg type="location">B12-4ra</seg>
-                        <seg type="note">displaced rubric+miniature(376vb-c)+initial</seg>
+                        <seg type="note">displaced rubric+hist. initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-10" unit="chapter" xml:id="RP_10"/>
@@ -6065,8 +6400,8 @@
                     </ab>
                     <ab corresp="#Pelyarmenus_V_10" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ensi come Mirus et si compaignon furent el mesage a Peliarmenum en Costantinoble.<!-- Transcription? -->.</seg>
-                        <seg type="location">B11-4ra</seg>
+                        <seg type="rubric">Si com li XXX.<!-- Transcription? -->.</seg>
+                        <seg type="location">B14-1va</seg>
                         <seg type="note">rubric+hist. initial</seg>
                     </ab>
                 </div>
@@ -6101,6 +6436,12 @@
                         <seg type="location">46rb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
+                    <ab corresp="#Pelyarmenus_V_11" type="ms_instance">
+                        <seg type="witness">R</seg>
+                        <seg type="rubric">XXX<!-- Transcription?>Photo mal prise -->.</seg>
+                        <seg type="location">B14-4ra</seg>
+                        <seg type="note">rubric+hist. initial</seg>
+                    </ab>
                 </div>
                 <milestone n="6-12" unit="chapter" xml:id="RP_12"/>
                 <div type="alignment" xml:id="Pelyarmenus_V_12">
@@ -6131,6 +6472,12 @@
                             message a Pelyarmenus de par Helcanus, son frere.</seg>
                         <seg type="location">49va</seg>
                         <seg type="note">rubric+miniature(49vb)+initial(49vb)</seg>
+                    </ab>
+                    <ab corresp="#Pelyarmenus_V_12" type="ms_instance">
+                        <seg type="witness">R</seg>
+                        <seg type="rubric">Ensi come Karus XXta Peliarmenus pour le souceurs.<!-- Transcription? -->.</seg>
+                        <seg type="location">B13-2vb</seg>
+                        <seg type="note">rubric+hist. initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-13" unit="chapter" xml:id="RP_13"/>
@@ -6163,6 +6510,12 @@
                                     <seg type="location">52vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_13" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi que Karus fu repairiés de Peliarmenus et il ot eut bataille a Mirus.<!-- Transcription? -->.</seg>
+                                <seg type="location">B13-7ra</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-14" unit="chapter" xml:id="RP_14"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_14">
@@ -6196,6 +6549,12 @@
                                     <seg type="location">58vc</seg>
                                     <seg type="note">rubric+miniature(59ra-b)+initial(59ra)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_14" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi come Peliarmenus fu desconfis et il se retraist.<!-- Transcription? -->.</seg>
+                                <seg type="location">B15-4ra</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-15" unit="chapter" xml:id="RP_15"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_15">
@@ -6229,6 +6588,12 @@
                                     <seg type="location">59vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_15" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">Missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-16" unit="chapter" xml:id="RP_16"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_16">
@@ -6262,6 +6627,12 @@
                                     <seg type="location">64vc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_16" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">Missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-17" unit="chapter" xml:id="RP_17"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_17">
@@ -6297,6 +6668,12 @@
                                     <seg type="location">66vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_17" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi come Dorus fu envoiiés cuerre a Lembourch.<!-- Transcription? --></seg>
+                                <seg type="location">B16-2va</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-18" unit="chapter" xml:id="RP_18"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_18">
@@ -6327,6 +6704,12 @@
                                     <seg type="location">67vc</seg>
                                     <seg type="note">rubric+miniature(67vb-c)+initial(67vc)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location">B17-3va?</seg>
+                                <seg type="note">missing section on this damaged folio</seg>
+                            </ab>
                         </div>
                         <milestone n="6-19" unit="chapter" xml:id="RP_19"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_19">
@@ -6358,6 +6741,12 @@
                                     <seg type="location">69rb</seg>
                                     <seg type="note">rubric+miniature(69rb-c)+initial(69rb)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_19" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi come Peliarmenus et li sien se reteraissent en Costantinoble.<!-- Transcription? --></seg>
+                                <seg type="location">B17-5rb</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-20" unit="chapter" xml:id="RP_20"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_20">
@@ -6389,6 +6778,12 @@
                                     <seg type="location">71vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_20" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi come .i. mes conte au roi d'Aragon que Josias encontre lui.<!-- Transcription? --></seg>
+                                <seg type="location">B17-8vb</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-21" unit="chapter" xml:id="RP_21"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_21">
@@ -6421,6 +6816,12 @@
                                     <seg type="location">75rb</seg>
                                     <seg type="note">rubric+miniature(75rb-c)+initial(75rb)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_21" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ensi que Peliarmenus DDD Helkanum son frere XXX en prison.<!-- Transcription? --></seg>
+                                <seg type="location">B17-13va</seg>
+                                <seg type="note">rubric+hist. initial(B17-14ra?). Partially damaged section on these folios</seg>
+                            </ab>
                         </div>
                         <milestone n="6-22" unit="chapter" xml:id="RP_22"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_22">
@@ -6452,6 +6853,12 @@
                                     <seg type="location">77rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_22" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-23" unit="chapter" xml:id="RP_23"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_23">
@@ -6488,6 +6895,12 @@
                                     <seg type="location">79ra</seg>
                                     <seg type="note">rubric+miniature(79rb-c)+initial(79rb)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_23" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-24" unit="chapter" xml:id="RP_24"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_24">
@@ -6521,6 +6934,12 @@
                                     <seg type="location">82rc</seg>
                                     <seg type="note">rubric+miniature(82va)+initial(82va)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-25" unit="chapter" xml:id="RP_25"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_25">
@@ -6553,6 +6972,12 @@
                                     <seg type="location">83vc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_25" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location">B17-16rb</seg>
+                                <seg type="note">missing section on this damaged folio</seg>
+                            </ab>
                         </div>
                         <milestone n="6-26" unit="chapter" xml:id="RP_26"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_26">
@@ -6584,6 +7009,12 @@
                                     <seg type="location">85rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_26" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">CienDDDent li contes a l'empereur de CostantinoDDD et a son fil Fastidorum de Rome.<!-- Transcription? --></seg>
+                                <seg type="location">B17-18ra</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-27" unit="chapter" xml:id="RP_27"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_27">
@@ -6615,6 +7046,12 @@
                                     <seg type="location">86ra</seg>
                                     <seg type="note">rubric+miniature+initial(86rb)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_27" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location"></seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
+                            </ab>
                         </div>
                         <milestone n="6-28" unit="chapter" xml:id="RP_28"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_28">
@@ -6646,6 +7083,12 @@
                                     <seg type="location">88vb</seg>
                                     <seg type="note">rubric+miniature(88vc)+initial(88vc)</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_28" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">DDD</seg>
+                                <seg type="location">B17-21va</seg>
+                                <seg type="note">rubric+hist. initial. missing section on this damaged folio</seg>
+                            </ab>
                         </div>
                         <milestone n="6-29" unit="chapter" xml:id="RP_29"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_29">
@@ -6677,6 +7120,12 @@
                                     <seg type="location">89vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_29" type="ms_instance">
+                                <seg type="witness">R</seg>
+                                <seg type="rubric">Ci endroit DDD li contes a Helkanum.<!-- Transcription? --></seg>
+                                <seg type="location">B17-22vb</seg>
+                                <seg type="note">rubric+hist. initial</seg>
+                            </ab>
                         </div>
                         <milestone n="6-30" unit="chapter" xml:id="RP_30"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_30">

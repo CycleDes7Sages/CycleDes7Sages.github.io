@@ -123,7 +123,7 @@
                                           <msIdentifier>
                                                 <settlement>Turin</settlement>
                                                 <repository>BN</repository>
-                                                <idno>1650</idno>
+                                                <idno>1650/L.III.8</idno>
                                           </msIdentifier>
                                           <msContents>
                                                 <msItem>
@@ -344,10 +344,10 @@
                         <p>2)Rubriques absentes: 
                               Quand la rubrique n'est pas donnée dans un témoin
                               (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
-                              présenté ci-dessous), le <gi>seg</gi> @rubric est donné "absent", mais
-                              le <gi>seg</gi> @location n'a pas été supprimé si le paragraphe qui
-                              suit cette rubrique est bien donné (au contraire de ce qui a été
-                              pratiqué dans l'alignement du cycle entier). Le <gi>seg</gi> @note
+                              présenté ci-dessous), le <gi>seg</gi> @rubric est donné "ø", mais
+                              le <gi>seg</gi> @location n'a pas été supprimé pour autant, pour donner accès
+                              au lieu auquel la portion de texte en question peut se lire, introduite ou non par
+                              la rubrique. Le <gi>seg</gi> @note
                               vient préciser que les rubrique, miniature et initiale sont absentes,
                               selon la formule systématique et volontairement concise : 
                               "no rubric+miniature+initial". L'idée était ainsi de
@@ -355,7 +355,7 @@
                               cet autre témoin, mais que la portion de texte correspondante était
                               présentée par un simple nouveau paragraphe dans ce témoin. 
                               Dans les cas, rares, où la portion de texte concernée n'est pas même donnée 
-                              dans un nouveau paragraphe. La note se conclut sur "no §".</p>
+                              dans un nouveau paragraphe. La note se conclut sur "+§".</p>
                         <p>3)Rubriques déplacées: 
                               Il arrive également que des rubriques, liées à tel
                               paragraphe et donc à tel lieu du texte dans V, soient plutôt associées
@@ -400,7 +400,26 @@
                               Dans certains cas, la lettrine semble avoir été omise lors de la réalisation
                               du manuscrit, bien que l''espace semble clairement avoir été prévu pour qu'elle soit ajoutée
                               pour indiquer ce nouveau paragraphe.
-                              Ce cas de figure a été référencé comme suit : "lettrine absent".</p>                        
+                              Ce cas de figure a été référencé comme suit : "no lettrine".</p>
+                        <p>7)Le cas du manuscrit R: 
+                              Les particularités de ce manuscrit rescapé de l'incendie qui a frappé la Bibliothèque Nationale de Turin ont requis
+                              des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce témoin, dont 
+                              nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière ci-dessus dans la présentation
+                              des témoins), mais aussi de fragments des sections conservées, selon l'état de chaque folio concerné, mais aussi des absences 
+                              dans la matière pourtant présentée de manière plus ou moins linéaire. Nous avons tenté d'offrir accès au texte de chaque rubrique. 
+                              Dans les cas où la matière restait ponctuellement illisible en raison de la détérioriation du folio (brûlure rendant 
+                              l'encre peu lisible ou brûlure ne laissant pas accès à l'ensemble du folio), 
+                              nous avons intégré la mention "DDD" pour couvrir ces sections. Nous n'avons jamais transcrit les débuts de paragraphe, à la manière
+                              de ce que nous avons pu faire, offrant accès à la matière collationnée dans notre édition du Roman de Pelyarmenus. Nous nous sommes ici 
+                              contentée, en raison des difficultés d'accès de ce manuscrit très atteint, de mentionner par le code "XXX" ou "DDD" si la section était
+                              lisible ou non (en raison d'une atteinte de l'encre ou du folio lui-même). 
+                              En note, nous avons précisé pour chaque cas de figure : 
+                              - si la section était entièrement manquante (dans quelques cas, les folios conservés ne nous offrent pas accès à l'ensemble de la matière, 
+                              offrant des sauts de quelques paragraphes, à nouveau voir ci-dessus à ce sujet) : "missing section in this damaged manuscript" ;
+                              - si la section est manquante, mais de manière plus localisée (part du folio brûlée) : "partially damaged section on these folios" ; 
+                              - si la section reste illisible en raison de l'atteinte des flammes, mais de manière très ponctuelle (mettant en cause ou le folio lui-même ou l'encre) : 
+                              "missing section on this damaged folio". La localisation peut alors être tenue pour incertaine, avec la mention finale "?" s'il s'agit d'une pure hypothèse 
+                              de reconstruction de notre part, ou pour certaine (sans cette mention) si l'on peut deviner la rubrique et l'initiale malgré tout.</p>                        
                         <p><title>Précisions de présentation</title> Dans notre relevé des rubriques
                               et paragraphes, nous avons suivi la logique d'une édition
                               interprétative, selon les critères établis pour notre édition du Roman
@@ -421,6 +440,7 @@
                   <change who="#CC" when="2023-10-12">Alignement des §50-100 du Pelyarmenus</change>
                   <change who="#CC" when="2023-11-17">Alignement complet du Pelyarmenus, en l'attente de la reprise du site de la BL</change>
                   <change who="#CC" when="2023-11-27">Introduction revue</change>
+                  <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
             </revisionDesc>
       </teiHeader>
       <text>
@@ -466,6 +486,13 @@
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
                                     <seg type="location">16rc</seg>
                                     <seg type="note">rubric+miniature(16rb-c)+initial(16rc)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_1" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="incipit">(illisible)</seg>
+                                    <seg type="paragraph">(illisible)</seg>
+                                    <seg type="location">B6-13va</seg>
+                                    <seg type="note">incipit(red)+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_02">
@@ -901,6 +928,13 @@
                                     <seg type="location">18vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_2" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi que Peliarmenus fu repairiés de la queste de l'empereur de Costantinoble son pere.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B6-11rb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_19">
                               <ab corresp="#Pelyarmenus_V_19" type="ms_instance" subtype="base">
@@ -1261,6 +1295,13 @@
                                           et quens</seg>
                                     <seg type="location">21rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Bourleus fist norrir les .ii. enfans, Dorus et Cassidore.</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B6-7vb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_33">
@@ -2840,6 +2881,13 @@
                                     <seg type="location">29vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_87" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi comme Clyodorus issi en la queste de Helkanus<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B8-1rb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_88">
                               <ab corresp="#Pelyarmenus_V_88" type="ms_instance" subtype="base">
@@ -3309,6 +3357,13 @@
                                     <seg type="location">32vc</seg>
                                     <seg type="note">rubric+initial. no miniature</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_104" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">ø</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B9-3ra</seg>
+                                    <seg type="note">no rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_105">
                               <ab corresp="#Pelyarmenus_V_105" type="ms_instance" subtype="base">
@@ -3643,6 +3698,13 @@
                                           fu partis de Pelyarmenus,</seg>
                                     <seg type="location">34vb</seg>
                                     <seg type="note">rubric+miniature(34vc)+initial(34vc)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_116" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi que Peliarmenus XXX de Costantinoble<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B10-3vb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_117">
@@ -4164,6 +4226,13 @@
                                     <seg type="location">37vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_135" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Mirus et si compaignon furent el mesage a Peliarmenum en Costantinoble.<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B11-4ra</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_136">
                               <ab corresp="#Pelyarmenus_V_136" type="ms_instance" subtype="base">
@@ -4310,7 +4379,7 @@
                                           filz a l'empereur Cassidorus de Romme et de
                                           Constentinnoble,</seg>
                                     <seg type="location">375ra</seg>
-                                    <seg type="note">lettrine absent</seg><!-- SV ?-->
+                                    <seg type="note">no lettrine</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_141" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -4625,6 +4694,13 @@
                                     <seg type="location">40va</seg>
                                     <seg type="note">rubric+miniature(40va-b)+initial(40va)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_152" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">ø</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B12-2vb</seg>
+                                    <seg type="note">rubric+hist. initial displaced later (160vb in V2 (§154). no §</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_153">
                               <ab corresp="#Pelyarmenus_V_153" type="ms_instance" subtype="base">
@@ -4681,6 +4757,13 @@
                                     <seg type="paragraph">Dont furent d’euls quatre mis li doi
                                           chevalier en leur lieu.</seg>
                                     <seg type="location">40vb</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_154" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD<!-- Transcription? Photo floue --></seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B12-4ra</seg>
+                                    <seg type="note">displaced rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_155">
@@ -5315,6 +5398,13 @@
                                     <seg type="location">44rc</seg>
                                     <seg type="note">rubric+miniature(44va)+initial(44va)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_178" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Si com li DDD.<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B14-1va</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_179">
                               <ab corresp="#Pelyarmenus_V_179" type="ms_instance" subtype="base">
@@ -5615,6 +5705,13 @@
                                           mois fu Myrrus et son compaignon avec la pucele</seg>
                                     <seg type="location">46rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_189" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD<!-- Transcription?>Photo mal prise -->.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B14-4ra</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_190">
@@ -6149,6 +6246,13 @@
                                     <seg type="location">49va</seg>
                                     <seg type="note">rubric+miniature(49vb)+initial(49vb)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_209" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Karus XXta Peliarmenus pour le souceurs.<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B13-2vb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_210">
                               <ab corresp="#Pelyarmenus_V_210" type="ms_instance" subtype="base">
@@ -6221,7 +6325,7 @@
                                     <seg type="paragraph">ont se sont andui esloingnié li .i. de-de
                                           l’autre et sont venu as chevaus poindre.</seg>
                                     <seg type="location">393va</seg>
-                                    <seg type="note">lettrine absent</seg><!-- SV ? -->
+                                    <seg type="note">no lettrine</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_212" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -6696,6 +6800,13 @@
                                     <seg type="paragraph">Or dist li contes que, quant Karus se fu partiz de Mirrus,</seg>
                                     <seg type="location">52vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_229" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi que Karus fu repairiés de Peliarmenus et il ot eut bataille a Mirus.<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B13-7ra</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_230">
@@ -7812,6 +7923,13 @@
                                     <seg type="location">58vc</seg>
                                     <seg type="note">rubric+miniature(59ra-b)+initial(59ra)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_279" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Peliarmenus fu desconfis et il se retraist.<!-- Transcription? -->.</seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B15-4ra</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_280">
                               <ab corresp="#Pelyarmenus_V_280" type="ms_instance" subtype="base">
@@ -7915,6 +8033,13 @@
                                     <seg type="paragraph">Or dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">59vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_283" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">Missing section in this damaged manuscript</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_284">
@@ -8765,6 +8890,13 @@
                                     <seg type="location">64vc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_320" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">Missing section in this damaged manuscript</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_321">
                               <ab corresp="#Pelyarmenus_V_321" type="ms_instance" subtype="base">
@@ -9075,6 +9207,13 @@
                                     <seg type="location">66vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_333" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Dorus fu envoiiés cuerre a Lembourch.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B16-2va</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_334">
                               <ab corresp="#Pelyarmenus_V_334" type="ms_instance" subtype="base">
@@ -9244,6 +9383,13 @@
                                     <seg type="paragraph">Ci endroit dit li comptes, qui ne se puet taire, que Myrrus encontra Dubius en son venir</seg>
                                     <seg type="location">67vc</seg>
                                     <seg type="note">rubric+miniature(67vb-c)+initial(67vc)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_340" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-3va?</seg>
+                                    <seg type="note">missing section on this damaged folio</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_341">
@@ -9436,6 +9582,13 @@
                                     <seg type="paragraph">Or dit li comptes que, quant Pelyarmenus vit que il ne pot riens faire contre les Frisons,</seg>
                                     <seg type="location">69rb</seg>
                                     <seg type="note">rubric+miniature(69rb-c)+initial(69rb)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_348" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come Peliarmenus et li sien se reteraissent en Costantinoble.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-5rb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_349">
@@ -9809,6 +9962,13 @@
                                     <seg type="paragraph">Or dit li comptes que, quant li rois d’Arragon et li autres furent revenuz arriere,</seg>
                                     <seg type="location">71vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_364" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi come .i. mes conte au roi d'Aragon que Josias encontre lui.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B17-8vb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_365">
@@ -10270,6 +10430,13 @@
                                     <seg type="location">75rb</seg>
                                     <seg type="note">rubric+miniature(75rb-c)+initial(75rb)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_384" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ensi que Peliarmenus DDD Helkanum son frere XXX en prison.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-13va</seg>
+                                    <seg type="note">rubric+hist. initial(B17-14ra?). partially damaged section on these folios</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_385">
                               <ab corresp="#Pelyarmenus_V_385" type="ms_instance" subtype="base">
@@ -10555,6 +10722,13 @@
                                     <seg type="location">77rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_396" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">missing section in this damaged manuscript</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_397">
                               <ab corresp="#Pelyarmenus_V_397" type="ms_instance" subtype="base">
@@ -10818,6 +10992,13 @@
                                     <seg type="paragraph">Or dit li contes que grant piece sist li emperieres de Costentinnoble devant Laomedon</seg>
                                     <seg type="location">79ra</seg>
                                     <seg type="note">rubric+miniature(79rb-c)+initial(79rb)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_407" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">missing section in this damaged manuscript</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_408">
@@ -11353,6 +11534,13 @@
                                     <seg type="location">82rc</seg>
                                     <seg type="note">rubric+miniature(82va)+initial(82va)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_430" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">missing section in this damaged manuscript</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_431">
                               <ab corresp="#Pelyarmenus_V_431" type="ms_instance" subtype="base">
@@ -11592,6 +11780,13 @@
                                     <seg type="location">83vc</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_440" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-16rb</seg>
+                                    <seg type="note">missing section on this damaged folio</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_441">
                               <ab corresp="#Pelyarmenus_V_441" type="ms_instance" subtype="base">
@@ -11787,6 +11982,13 @@
                                     <seg type="location">85rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_448" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">CienDDDent li contes a l'empereur de CostantinoDDD et a son fil Fastidorum de Rome.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">XXX</seg>
+                                    <seg type="location">B17-18ra</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_449">
                               <ab corresp="#Pelyarmenus_V_449" type="ms_instance" subtype="base">
@@ -11978,6 +12180,13 @@
                                     <seg type="paragraph">Veritez fu, ce dist Peliarmenus, qu’en la cité d’Antyoche ot jadiz .i. Sarrazin.</seg>
                                     <seg type="location">86ra</seg>
                                     <seg type="note">rubric+miniature+initial(86rb)</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_456" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location"></seg>
+                                    <seg type="note">missing section in this damaged manuscript</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_457">
@@ -12419,6 +12628,13 @@
                                     <seg type="location">88vb</seg>
                                     <seg type="note">rubric+miniature(88vc)+initial(88vc)</seg>
                               </ab>
+                              <ab corresp="#Pelyarmenus_V_475" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">DDD</seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-21va</seg>
+                                    <seg type="note">rubric+hist. initial. missing section on this damaged folio</seg>
+                              </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_476">
                               <ab corresp="#Pelyarmenus_V_476" type="ms_instance" subtype="base">
@@ -12565,6 +12781,13 @@
                                     <seg type="paragraph">Ci endroit dist li comptes que, quant Helcanus ot entendu la verité de Nera,</seg>
                                     <seg type="location">89vb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
+                              </ab>
+                              <ab corresp="#Pelyarmenus_V_481" type="ms_instance">
+                                    <seg type="witness">R</seg>
+                                    <seg type="rubric">Ci endroit DDD li contes a Helkanum.<!-- Transcription? --></seg>
+                                    <seg type="paragraph">DDD</seg>
+                                    <seg type="location">B17-22vb</seg>
+                                    <seg type="note">rubric+hist. initial</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_482">
@@ -13246,7 +13469,7 @@
                                     <seg type="witness">G</seg>
                                     <seg type="paragraph">Quant li empereres ot ce dit, si li vint une famine si grant</seg>
                                     <seg type="location">445ra</seg>
-                                    <seg type="note">lettrine absent</seg><!-- SV? -->
+                                    <seg type="note">no lettrine</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_511" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -19047,7 +19270,7 @@
                                     <seg type="witness">B</seg>
                                     <seg type="paragraph">Li marchis de Fabonne, qui joennes et plains de chevalerie estoit,</seg>
                                     <seg type="location">470rb</seg>
-                                    <seg type="note">lettrine absent</seg><!-- SV? -->
+                                    <seg type="note">no lettrine</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_759" type="ms_instance">
                                     <seg type="witness">G</seg>

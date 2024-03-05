@@ -56,11 +56,11 @@
                 display: block;
                 padding-top:1em;
                 margin-top:1em;
-                border-top: dashed #a9a9a9;
+                border-top: dashed #434343;
                 }
             </style>
             <head>
-                <title>Alignement - C7S</title>
+                <title>Alignement du C7S</title>
             </head>
             <body>
                 <table  style="width:100%">
@@ -79,7 +79,7 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="teiHeader"/>
+    <xsl:template match="teiHeader"/><!-- offrir accès au projectDesc du TeiHeader pour documenter le tableau directement sur la page HTML -->
     
     <xsl:template match="div[@type='alignment']">
         <tr>
