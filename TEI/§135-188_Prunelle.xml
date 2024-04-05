@@ -390,9 +390,7 @@
                   <lem wit="#V2 #B #X2">li dist : <said aloud="true" direct="true">Sire, vous soiez
                         li bienvenuz !</said></lem>
                   <rdg wit="#G"/>
-               </app><!-- Help CC: comment faire pour que le point 
-                           d'exclamation qui doit être avec avant "said" ne soit pas dans le lem? > CC: Pru, je ne comprends pas bien 
-                        à quoi se rapporterait le ! s'il n'est pas dans le lem --><said
+               </app><said
                   rendition="dialogue" aloud="true" direct="true">Amis, dist il, Diex vous beneye !
                   Est <rs type="person" key="Gasus">li baillis</rs>
                   <cb n="c"/>çaiens ?</said>
@@ -405,7 +403,7 @@
                </app><note type="notecritique">Ménard relève la substitution de "lor" à "les" et
                   vice versa par analogie avec "nos" et "vos" qui sont à la fois régimes directs et
                   indirects et en raison de l'emploi tonique de "lor" équivalant à "eus, eles"
-                  (§39). Le cas de figure n'est cependant pas le même. Cf. analyse linguistique.</note><!-- est-ce ici pour cela on corrige selon BGX2? -->
+                  (§39). Le cas de figure n'est cependant pas le même. Cf. analyse linguistique.</note><!-- Help : corriger ici selon BGX2?  -->
                vit, si est venus a lui et li dist : <said aloud="true" direct="true"><persName
                      key="Geffroy">Geffroy</persName>, que vous plaist ?</said><said
                   rendition="dialogue" aloud="true" direct="true">Sire, dist cil, je sui ci venus <app>
@@ -506,8 +504,8 @@
                </app>
                <said aloud="true" direct="true">Sire, veritez est que nous sommes ci envoiez pour
                   une grant besoingne. Si avriens<note type="notecritique">Sur l'emploi de finales
-                     en -<hi rend="italique">ens</hi> pour la P5 du subjonctif, cf. analyse
-                     linguistique.</note><!-- dans analyse ling avriens est P5 subjonctif, mais ce n'est pas ce temps là? --> bien <app>
+                     en -<hi rend="italique">ens</hi> pour la P5, cf. analyse
+                     linguistique.</note> bien <app>
                      <lem wit="#V2 #G #X2">mestier</lem>
                      <rdg wit="#B">grant mestier</rdg>
                   </app> de vostre aide et de vostre conseil.</said></p>
@@ -557,7 +555,7 @@
                      maintenant de Pelyarmenus. La forme "li" résultant probablement d'une confusion
                      entre "il" et "li, nous préférons la leçon de X<hi rend="exposant"
                      >2</hi>.</note> respondi assez sagement, quar il dist <said aloud="true"
-                     direct="false">venist<!-- parataxe : "il dist, venist" ou sans virgule --> <persName key="Helcanus">Helcanus</persName> ou autres
+                     direct="false">venist<!--Help parataxe : "il dist, venist" ou sans virgule --> <persName key="Helcanus">Helcanus</persName> ou autres
                      qui droit eust en la terre, <app>
                         <lem wit="#V2 #G">et</lem>
                         <rdg wit="#B"/>
@@ -565,7 +563,7 @@
                   conseuls <persName key="Helcanus">Helcanus</persName> si <app>
                      <lem wit="#V2">et</lem>
                      <rdg wit="#B #G #X2">est</rdg>
-                  </app><note type="notecritique">Sur l'emploi de "et" pour "est", cf. analyses linguistiques.</note><!-- ou corriger si BGX2 communs? --> tiex que il dist que <said aloud="true"
+                  </app><note type="notecritique">Sur l'emploi de "et" pour "est", cf. analyses linguistiques.</note><!-- Helpou corriger si BGX2 communs? --> tiex que il dist que <said aloud="true"
                      direct="false">il n’enterra <app>
                         <lem wit="#G #X2">jamais</lem>
                         <rdg wit="#B">ja</rdg>
@@ -680,7 +678,7 @@
                      >Athaines</placeName></rs>, mais cil estoit trop hors <app>
                   <lem wit="#V2 #B #G">voie</lem>
                   <rdg wit="#X2">de voie</rdg>
-               </app><note type="notecritique">X<hi rend="exposant">2</hi> semble corriger ici la construction "hors voie" selon un emploi plus commun avec préposition.</note><!-- bien faire une note ici, la compléter? --> por lui aidier.</p>
+               </app><note type="notecritique">X<hi rend="exposant">2</hi> semble corriger ici la construction "hors voie" selon un emploi plus commun avec préposition.</note> por lui aidier.</p>
             <p n="P139"><c ana="lettrine 2">E</c>n tele maniere se dementoit <persName key="Gasus"
                   >Gasus</persName> tout par lui. <app>
                   <lem wit="#V2 #G #X2">Lors</lem>
@@ -1880,10 +1878,10 @@
                               rend="exponctuation" hand="#main2">r</del>ce</rdg>
                      </app> de chascun.</lem>
                   <rdg wit="#G"/>
-               </app> Tant ont chevauchié <app>
-                  <lem wit="#V2">en tele maniere</lem>
-                  <rdg wit="#B #G #X2"/>
-               </app><!-- établir la leçon de BXG?? -->
+               </app> Tant ont <app>
+                  <lem wit="#B #G #X2">chevauchié</lem>
+                  <rdg wit="#V2">c. en tele maniere</rdg>
+               </app><note type="notecritique">La lourdeur de l'expression "Tant on chevauchié en tele maniere", associée à la présence du segment "en tele maniere" juste avant (qui a donc pu être répété par mégarde) et au fait que la leçon de V2 est ici isolée, nous invite à corriger.</note><!-- Help, ok note? -->
                <cb n="b"/>que il sont venu ou champ, et fu <app>
                   <lem wit="#V2 #G #X2">mis</lem>
                   <rdg wit="#B"/>
@@ -1977,7 +1975,7 @@
                               </app></lem>
                            <rdg wit="#B"/>
                         </app></lem>
-                     <rdg wit="#X2"/><!-- Help CC ici il manque dans BX2 en toute l'assemble -->
+                     <rdg wit="#X2"/><!-- Help CC ici il manque dans BX2 "en toute l'assemble", mais ne se traduit pas bien dans le pdf. J'ai dû faire une erreur -->
                   </app> seur la vie perdre qui ci soit en armes s’il n’en est requis de par
                   moi.</said><said rendition="dialogue" aloud="true" direct="true">Je
                l’otroi</said>, dist <persName key="Pelyarmenus">Pelyarmenus</persName>. Dont fu crié <app>
@@ -2221,11 +2219,7 @@
                   <lem wit="#V2 #G #X2">se sont</lem>
                   <rdg wit="#B">furent</rdg>
                </app> entrencontré si cruelment que li escu fendirent et volerent em <cb n="f"
-               />pieces, et s’entrencontrerent de si grant vertu que li cheval <app>
-                  <lem wit="#V2 #G #X2">s’entreoccistrent</lem>
-                  <rdg wit="#B">s'entrecontrerent de si grant vertu que li cheval
-                     s'entrocistrent</rdg>
-               </app><!--Help sic? si oui, alors B opère un saut régressif et copie deux fois le passage-->,
+               />pieces, et s’entrencontrerent de si grant vertu que li cheval s’entreoccistrent<!-- HelpSL: Sophie tu avais raison pas de faute de B ici -->,
                et euls meismes de corps et de pis s’entrehurterent <app>
                   <lem wit="#V2">si et</lem>
                   <rdg wit="#B #G #X2"/>
@@ -2750,17 +2744,14 @@
                      rien de secret") à la locution plus courante "tenir qch de qqn" dont le sens
                      est très proche de la construction de B.</note>.</said><!-- Help : comment comprendre l'expression de V<hi rend="exposant">2</hi> >CC: je la comprenais comme "je n'en tiens aucune responsabilité" pour ma part-->
                <said rendition="dialogue" aloud="true" direct="true">Par foi, dist <persName
-                     key="Gasus">Gasus</persName>, <app>
-                     <lem wit="#V2 #B #G">toutevoies</lem>
-                     <rdg wit="#X2">toute|vois</rdg>
-                  </app><!--help pourquoi enregistrer cette variante?--> est ce grant honte a vostre
+                  key="Gasus">Gasus</persName>, toutevoies est ce grant honte a vostre
                   oés, car ce ne <app>
                      <lem wit="#V2 #B #X2">cuident</lem>
                      <rdg wit="#G">cuiderent</rdg>
                   </app> il mie.</said><said rendition="dialogue" aloud="true" direct="true">Ne m’en
                   chaut, dist il, pour eulz m’en est petit, mais pour ceulz de <placeName
                      key="Costentinnoble">Costentinnoble</placeName> qui mort y sont, dont leur ami <app>
-                     <lem wit="#B #G #X2" resp="#PD">m'ont</lem>
+                     <lem wit="#B #G #X2">m'ont</lem>
                      <rdg wit="#V2">moult</rdg>
                   </app> aprouchié, <app>
                      <lem wit="#V2 #G #X2">dont j’ai grant</lem>
@@ -2887,7 +2878,7 @@
                   key="Gasus">Gasus</persName> tant que il furent bien gueri. Et quant ce vint <cb
                   n="b"/>au congié prendre, <persName key="Gasus">Gasus</persName> leur fist si
                toutes leur besoignes que bien cuidierent <app>
-                  <lem wit="#B #G #X2" resp="#PD">avoir</lem>
+                  <lem wit="#B #G #X2">avoir</lem>
                   <rdg wit="#V2">avoir savoir</rdg>
                </app> sauf conduit par la <app>
                   <lem wit="#V2 #G">lectre</lem>
@@ -2985,13 +2976,13 @@
                      <lem wit="#V2 #G #X2">suivent</lem>
                      <rdg wit="#B">suivissent</rdg>
                   </app></said>, et il si firent. Et tant <app>
-                  <lem wit="#G" resp="#PD">chevauchierent que</lem>
+                  <lem wit="#G">chevauchierent que</lem>
                   <rdg wit="#V2">chevauchie|que</rdg>
                   <rdg wit="#B #X2">ont chevauchié que</rdg>
                </app><note type="notecritique">D'après le passage à la ligne après "chevauchie", il
                   y a fort à penser que la bonne leçon sur laquelle V<hi rend="exposant">2</hi>
-                  commet une erreur était "chevauchierent". C'est pourquoi nous adoptons la leçon de
-                  G.</note><!--help voir pourquoi resp avec wit G--><!--Help Il pourrait aussi s’agir d’une faute commune (omission de ont) à laquelle G a réagi en changeant le temps. -->
+                  commet une erreur était "chevauchierent". Il pourrait aussi s’agir d’une faute commune (omission de "ont") à laquelle G a réagi en changeant le temps. Quoi qu'il en soit, le passage est fautif; c'est pourquoi nous adoptons la leçon de
+                  G.</note>
                il <app>
                   <lem wit="#V2 #G #X2">furent moult esloignié</lem>
                   <rdg wit="#B">moult sont loing issi</rdg>
@@ -3005,9 +2996,9 @@
                   <rdg wit="#B">reclaiment</rdg>
                </app> Dieu, car il virent bien que cil les avoit traÿs et que leur vie estoit alee.
                Adont se sont touz mis ensemble, et cil les ont <app>
-                  <lem wit="#B #G #X2" resp="#PD">assaillis</lem>
+                  <lem wit="#B #G #X2">assaillis</lem>
                   <rdg wit="#V2">assailliez</rdg>
-               </app><!--help voir pourquoi resp avec wit des 3 autres-->
+               </app>
                <app>
                   <lem wit="#V2 #B #X2">devant et derriere</lem>
                   <rdg wit="#G">de toutes pars</rdg>
@@ -3062,13 +3053,13 @@
                   <rdg wit="#B"/>
                </app> feru de l’espee qu’il l’abati jus du destrier, vousist ou non. Et bien
                cuidierent li sien <app>
-                  <lem wit="#B #G #X2" resp="#PD">que il fust</lem>
+                  <lem wit="#B #G #X2">que il fust</lem>
                   <rdg wit="#V2">que il fust que il fust (<hi rend="italique">sic</hi>)</rdg>
-               </app><!--help voir pourquoi resp avec 3 autres en wit, et ailleurs, cf. recherche ctrl F #PD-->
+               </app>
                mors, <app>
                   <lem wit="#V2 #G #X2">
                      <app>
-                        <lem wit="#G #X2" resp="#PD">mais</lem>
+                        <lem wit="#G #X2">mais</lem>
                         <rdg wit="#V2">m|mais</rdg>
                      </app> non estoit</lem>
                   <rdg wit="#B">et sachiez de voir que si eust il esté se il eust esté
@@ -3243,7 +3234,7 @@
                   <rdg wit="#B">Lors quant</rdg>
                </app> il vit <persName key="Mirrus">Mirrus</persName>
                <app>
-                  <lem wit="#B #G #X2" resp="#PD">et son compaignon</lem>
+                  <lem wit="#B #G #X2">et son compaignon</lem>
                   <rdg wit="#V2">son compaignon</rdg>
                </app>, si ot aussi comme paour et <app>
                   <lem wit="#V2 #B #X2">s’est trait</lem>
@@ -3296,7 +3287,7 @@
                </app>
                <app>
                   <lem wit="#V2 #B">et <app>
-                        <lem wit="#B #X2" resp="#PD">ooit</lem>
+                        <lem wit="#B #X2">ooit</lem>
                         <rdg wit="#V2">dort</rdg>
                      </app> ou poi ou nient</lem>
                   <rdg wit="#G"/>
@@ -3866,10 +3857,10 @@
                            <lem wit="#B">dist il</lem>
                            <rdg wit="#X2"/>
                         </app>, il sont chevalier</lem>
-                     <rdg wit="#V2"/>
-                  </app><!--help: et G?-->.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Et quans sont il ?, dist
-                  ele.</said>
+                     <rdg wit="#V2 #G"/>
+                  </app>.</said>
+               <said rendition="dialogue" aloud="true" direct="true"><app><lem wit="#V2 #B #X2">Et quans sont il ?, dist
+                  ele.</lem><rdg wit="#G"></rdg></app></said><note type="notecritique">Le passage pose problème, notamment dans G, au niveau de la reprise de "Damoiselle" où on remarque un saut.</note>
                <said rendition="dialogue" aloud="true" direct="true">Damoisele, <app>
                      <lem wit="#V2 #G #X2">il sont <num>ii</num></lem>
                      <rdg wit="#B">deus</rdg>
@@ -4039,9 +4030,9 @@
                   hermitages</rs> fu touz pourpris de maufeteurs qui par le bois avoient quis et
                queroient les <num>ii</num> compaignons qui eschapez leur estoient. <persName
                   key="Dyalogus">Dyalogus</persName>, aussi comme <app>
-                  <lem wit="#B #X2" resp="#PD">par affit</lem>
+                  <lem wit="#B #X2">par affit</lem>
                   <rdg wit="#V2 #G">affit</rdg>
-               </app><!--help: Camille, faut-il bien un "resp" ici?-->, quant il vit <rs
+               </app>, quant il vit <rs
                   type="place" key="Ermitage de Vulgue">l’ermitage</rs>, si dist que <said
                   aloud="true" direct="false">il se vouloit confesser a <rs type="person"
                      key="Ydoine">l’ermite</rs></said> et mist pié a terre et est venuz en <rs
@@ -4257,7 +4248,7 @@
                      <rdg wit="#G"/>
                   </app>, ce sont celz qui nous ont mis en tel point comme nous vous avons
                   compté.</said><said rendition="dialogue" aloud="true" direct="true">Mi bel enfant, <app>
-                     <lem wit="#G #X2" resp="#PD">dist il</lem>
+                     <lem wit="#G #X2">dist il</lem>
                      <rdg wit="#B"/>
                      <rdg wit="#V2">dist|dist il</rdg>
                   </app>, j'a<note type="notecritique">Sur "j'a" pour "j'ai" (BGX2), voir l'analyse
@@ -4690,7 +4681,7 @@
                      <placeName key="Lembourc">Lembourt</placeName></rs> et <rs type="person"
                   key="Japhus">son cousin</rs>, le filz au <rs type="person" key="Odonie">roy de
                      <persName key="Frise">Frise</persName></rs>. Meismes <app>
-                  <lem wit="#B #G #X2" resp="#PD"><persName key="Clyodorus"
+                  <lem wit="#B #G #X2"><persName key="Clyodorus"
                      >Cliodorus</persName></lem>
                   <rdg wit="#V2">Elyodorus</rdg>
                </app> ne volt il mie oublier. Et <app>
@@ -5014,7 +5005,7 @@
                   </app> soient semons.</said><said rendition="dialogue" aloud="true" direct="true"
                   >Par mon chief, dist <persName key="Helcanus">Helcanus</persName>, encore nous
                   vendront <app>
-                     <lem wit="#G #X2" resp="#PD">gens</lem>
+                     <lem wit="#G #X2">gens</lem>
                      <rdg wit="#B">gent</rdg>
                      <rdg wit="#V2">g-|enz</rdg>
                   </app> d’ailleurs, car j’envoierai a <rs type="person" key="Roi d'Aragon">mon
@@ -5220,9 +5211,7 @@
                   <app>
                      <lem wit="#V2 #G #X2">comme il</lem>
                      <rdg wit="#B">que bien</rdg>
-                  </app> sera dit ci aprés</said>.<!-- Help CC: 
-                        sais-tu à quel passage renvoie ici le texte?>>CC : Pru, c'est la guerre qui débute ici devant Nise entre les camps de Pely 
-                     et de Helcanus, dont le récit nous est donné ici §185-188, §221-228 jusqu'à la paix réellement faite §243-->
+                  </app> sera dit ci aprés</said>.
                <name type="people" key="Frisons">Frison</name>, qui ne targoient se poi non, <app>
                   <lem wit="#V2 #G #X2">n’ont finé</lem>
                   <rdg wit="#B">ont tant alé et chevauchié</rdg>
@@ -5529,7 +5518,7 @@
                </app> en tel maniere que moult estoient si cop redouté. Il avint par aventure que <app>
                   <lem wit="#V2 #G #X2">lui et <persName key="Helcanus">Helcanus</persName>
                      <app>
-                        <lem wit="#G #X2" resp="#PD">s'entrecontrerent</lem>
+                        <lem wit="#G #X2">s'entrecontrerent</lem>
                         <rdg wit="#V2">s’entrenconrent (<hi rend="italique">sic</hi>)</rdg>
                      </app></lem>
                   <rdg wit="#B">il avinrent l'un contre l'autre Helcanus et celui Ascanus</rdg>
@@ -5715,7 +5704,7 @@
                   <lem wit="#V2 #G #X2">ont</lem>
                   <rdg wit="#B">s'est</rdg>
                </app> chascuns pensé d’enforcier sa
-               loge<!-- Help : commenter ici l'accord au pluriel du verbe dans V2GX2 qui ne correspond pas tout à fait à celui du déterminant "sa" ("sa loge")? -->.
+               loge<note type="notecritique">D'un point de vue syntaxique, la versioin de B "si s'est chascuns... sa loge" est plus attendue, alors que l'accord du verbe au pluriel dans V2GX2 ne correspond pas à celui du déterminant "sa" ("sa loge").</note><!-- Help : citer grammaire sur cet accord -->.
                   <said who="#nar">Si me veul <app>
                      <lem wit="#V2 #B #X2">ore</lem>
                      <rdg wit="#G"/>
