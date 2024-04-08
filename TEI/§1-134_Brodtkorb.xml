@@ -3152,7 +3152,7 @@
                     </app> de jor en jour, <app>
                         <lem wit="#V2 #G #X2">si en firent moult grant duel</lem>
                         <rdg wit="#B"/>
-                    </app>. Adont y ot <app>
+                    </app><!-- Help : corriger d'après B? Le passage est vraiment répétitif. -->. Adont y ot <app>
                         <lem wit="#V2 #G #X2"><num>i</num> des ba<cb n="d"/>rons</lem>
                         <rdg wit="#B"/>
                     </app> qui dist : <said aloud="true" direct="true">Par foy, ce n’est mie de
@@ -3204,9 +3204,9 @@
                             <rdg wit="#B">soient</rdg>
                         </app> encore en vie, tout die <persName key="Pelyarmenus"
                             >Pelyarmenuz</persName> que il soi<supplied source="#B #G #X2"
-                            >en</supplied>t mort<note type="notecritique">L'effacement de la marque
-                            du pluriel se rencontre en d'autres endroits du texte (cf. analyse
-                            linguistique).</note> Et par Dieu, la doutance <app>
+                            >en</supplied>t mort.<note type="notecritique">L'effacement de la marque
+                            du pluriel se rencontre en d'autres endroits du texte, cf. analyse
+                            linguistique.</note><!-- Help : corriger? --> Et par Dieu, la doutance <app>
                             <lem wit="#V2 #G #X2">est</lem>
                             <rdg wit="#B">si est</rdg>
                         </app> moult grant quant il enmena <app>
@@ -3350,7 +3350,7 @@
                         </app></placeName>. Li ducs si avoit <app>
                         <lem wit="#V2 #B #X2">esté des </lem>
                         <rdg wit="#G"/>
-                    </app>escilliez de <placeName key="Troie">Troye</placeName> aussi comme estrais.
+                    </app>escilliez de <placeName key="Troie">Troye</placeName> aussi comme estrais<note type="notecritique">La référence à Troie rejoue peut-être indirectement la guerre de Troie, intégrant ainsi peut-être implicitement notre chronique fictive dans l'ordre des grands récits historiques de l'époque.</note>.
                     Il avoit <app>
                         <lem wit="#V2 #G #X2">femme</lem>
                         <rdg wit="#B">dame</rdg>
@@ -3384,10 +3384,7 @@
                         <lem wit="#V2 #G #X2">estoit</lem>
                         <rdg wit="#B">estoit a celui jour</rdg>
                     </app> en la cité de <placeName key="Rome">Romme</placeName> pour aucunes
-                    besoingnes que il <app>
-                        <lem wit="#V2 #G #X2">avoit</lem>
-                        <rdg wit="#B">y avoit</rdg>
-                    </app> a faire, <app>
+                    besoingnes que il avoit a faire <app>
                         <lem wit="#V2 #G #X2">et</lem>
                         <rdg wit="#B">quant il furent perdu et</rdg>
                     </app> nouveles <app>
@@ -3501,7 +3498,7 @@
                         </app>
                         <rs type="person" key="Helcanus">son filz</rs> vit encore<note
                             type="notecritique">Sur l'accord, qu'on attendrait au pluriel, et que
-                            corrige B par l'emploi de la conjonction "ou", voir l'analyse
+                            corrige B par l'emploi de la conjonction "ou", cf. analyse
                             linguistique.</note>. Si ne finerai jamais d'aler ne de venir tant que <app>
                             <lem wit="#V2 #G #X2">plus</lem>
                             <rdg wit="#B">je plus</rdg>
@@ -3516,7 +3513,7 @@
                                 <lem wit="#V2 #G #X2">m'a mis</lem>
                                 <rdg wit="#B">me mist</rdg>
                             </app> a mort et les enfanz emporta</rs>, si comme je vous a<note
-                            type="notecritique">Cf. analyse linguistique.</note>
+                            type="notecritique">Sur "a" pou "ai", cf. analyse linguistique.</note>
                         <app>
                             <lem wit="#V2 #G #X2">dit</lem>
                             <rdg wit="#B">dit ne que je face feelté a homme devant que je certains
@@ -3582,7 +3579,7 @@
                     >Q</c>uant <persName key="Clyodorus">Clyodorus</persName> entendi <rs
                         type="person" key="Borleuz">le duc</rs>, si ot si grant duel que il n'ot
                     jambes qui soustenir le peussent, si chaÿ aussi comme touz pasmez et dist :
-                        <said aloud="true" direct="true">Hé ! laz, bien pensoie la cruel traïson. Ha
+                        <said aloud="true" direct="true">Hé !<!-- Help : He! ou Hé? --> laz, bien pensoie la cruel traïson. Ha
                         ! lierres, dit il, vous disiez <seg ana="discoursEnchassé">qu'il <app>
                                 <lem wit="#V2 #G #X2">estoient</lem>
                                 <rdg wit="#B">avoient esté</rdg>
@@ -3598,10 +3595,7 @@
                         un point d'interrogation: PD commenetr aussi la rupture syntaxique avec le passage au pluriel? même avec l'interrogation, je ne comprends pas quelel serait la question alors et son sens-->.</said> Dont se <app>
                         <lem wit="#V2 #G">commença</lem>
                         <rdg wit="#B #X2">commence</rdg>
-                    </app> a debatre <app>
-                        <lem wit="#V2 #G #X2">et</lem>
-                        <rdg wit="#B #X2">et a</rdg>
-                    </app> esgratiner sa face et disoit que <said aloud="true" direct="false">il
+                    </app> a debatre et esgratiner sa face et disoit que <said aloud="true" direct="false">il
                         n'avoit cure de plus vivre quant cil duy estoient mort, quar ce estoient cil
                         ou il avoit <app>
                             <lem wit="#V2 #G #X2">plus grant</lem>
@@ -3626,7 +3620,7 @@
                         </app><note type="notecritique">Sur ce type de commentaire misogyne, voir la
                             note au §6.</note>. <app>
                             <lem wit="#B">Maintenez</lem>
-                            <rdg wit="#V2 #X2">Maintenant dist contenez</rdg>
+                            <rdg wit="#V2 #X2">Maintenant, dist, contenez</rdg>
                             <rdg wit="#G">Contenez</rdg>
                         </app><note type="notecritique">La solution de G est tout aussi recevable
                             d'un point de vue logique que celle de B.</note> vous sagement. <app>
@@ -3663,9 +3657,8 @@
                         </app> mener, ne je ne sai comment je ne autres le <app>
                             <lem wit="#X2 #B">porriens</lem>
                             <rdg wit="#V2 #G">porriez</rdg>
-                        </app><note type="notecritique">Nous préférons adopter la variante de X2 <hi
-                                rend="italique">porriens</hi> plutôt que <hi rend="italique"
-                                >pourrions</hi> de B, dans la mesure où elle s'approche plus de
+                        </app><note type="notecritique">Nous préférons adopter la variante de X2 "porriens" plutôt que 
+                                "pourrions" de B, dans la mesure où elle s'approche plus de
                             celle de V2G et explique l'erreur.</note>
                         <app>
                             <lem wit="#V2 #G #X2">plus</lem>
