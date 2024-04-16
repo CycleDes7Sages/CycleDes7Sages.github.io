@@ -5199,7 +5199,7 @@
                   </app>, je ne cuit mie que <rs type="person" key="Dorus">vostre frere</rs> vous
                   certefiast chose par son seel qui ne feust <app>
                      <lem wit="#V3 #G #X2">veritable.</lem>
-                     <rdg wit="#B">veritable. "Or me di, est Peliarmenus et Dyalogus en sa prison ?"
+                     <rdg wit="#B">veritable. "Or me di : est Peliarmenus et Dyalogus en sa prison ?"
                         "Sire, dist cil, voirement y sont il. Estoit ce que vous ne poiez croire ?"
                         "Par foi, dist il, voirement le puis je trop a envis croire." Et lors sacha
                         cil une autre lettre de par le duc et li dist : "Sire, veez ent ci encore
@@ -6224,11 +6224,8 @@
                <app><lem wit="#V3 #G">estoit li a dit</lem>
                   <rdg wit="#B">estoit dessi a la li dist</rdg>
                   <rdg wit="#X2">avoit dit li a</rdg>
-               </app> <!--help ici il faudrait souder les variantes, car il faudra faire une note sur le problème en amont 
-                  (probablement une omission au moins à hauteur de X, et le copiste essaie de récupérer son erreur. X2 a 
-                  "...ainsi comme avenu li avoit dit li a la pure verité" (il faudrait enregistrer les variantes en enregistrant 
-                  exceptionnellement ici l'ordre des mots) > #SL : j'ai modifié, mais souhaites-tu reprendre ou commenter les choses plus correctement 
-                  que je ne le ferais ? De plus, ne pourrait-on pas ponctuer mieux cette portion du coup ? -->
+               </app><note type="notecritique">X2 transmet ici un texte fautif en raison d'un micro saut du même au même sur <hi rend="italique">li</hi>, auquel le copiste a tenté de remédier
+                  sans pourtant proposer une correction satisfaisante (la phrase ne se construit pas).</note> 
                toute la pure verité.<note type="notecritique">Une fois encore, le récit témoigne de
                   ce goût de revenir sur les derniers évènements, nombreux et complexes, qui ont
                   mené à la présente situation. La dépendance de Cassidorus au lion, pour manger
@@ -9550,9 +9547,9 @@
                      nuls ne fust si hardis qui au lyon feist vilenie se il ne voloit perdre
                      s'amour. De ceste chose s'esmerveillierent li plusor qui du tout ne savoient
                      pas ceste aventure dont l'estore devant fait mention. Si avint que li lyons
-                     sivoit l'empereour aussi comme un levrier sieut son souvrain seigneur.</rdg></app><!-- #SL! : autre longue variante
-                     de B, je ne crois pas trouver de correspondance qui attesterait un déplacement plutôt qu'un ajout 
-                     et avoue ne trouver aucun élément à charge d'un saut quelconque, mais tu sauras bien mieux juger de la situation que moi--></p>
+                     sivoit l'empereour aussi comme un levrier sieut son souvrain seigneur.</rdg></app><note type="notecritique">Remarquer la longue 
+                        variante de <hi rend="italique">B</hi>. Aucun élément ne permet de déterminer dans quel sens va l'innovation: ajout de <hi rend="italique">B</hi> 
+                        ou omission dans α.</note></p>
             <p n="P602"><cb n="c"/><app>
                   <lem wit="#V3 #G #X2"><c ana="lettrine2">A</c>donc</lem>
                   <rdg wit="#B">Ci vous vueil ore atant laissier a parler de cest lyon et venir a ce
@@ -9781,8 +9778,8 @@
                      <lem wit="#V3 #G #X2">sibi</lem>
                      <rdg wit="#B"/>
                   </app> querit</seg><note type="notecritique">PD: Ce proverbe est répertorié dans
-                  le Liber proverbiorum vulgarium et sapientum (1333) de Bernart Amoros, cf. Cultura
-                  latina, 2010, p. 96.</note><!-- #SL/PD: souhaite-t-on indiquer le latin en italique ? -->, <app>
+                  le <hi rend="italique">Liber proverbiorum vulgarium et sapientum</hi> (1333) de Bernart Amoros, cf. Cultura
+                  latina, 2010, p. 96.</note>, <app>
                   <lem wit="#B #G">c'est</lem>
                   <rdg wit="#V3 #X2">c'est adonc</rdg>
                </app> a dire que chascun franc honme se mist a son franc labour et li autre, qui de
@@ -9842,7 +9839,7 @@
                   <rdg wit="#B">Nise, le bon chevalier de ses armes</rdg>
                </app>
                <note type="notecritique">###SL</note>
-               <!--#SL:  mais rajouté à la fin de la ligne en tout petit, cf. f. 105ra, Camille je te laisse l'indiquer de la manière que tu veux-->,
+               <!--help#SL:  mais rajouté à la fin de la ligne en tout petit, cf. f. 105ra, Camille je te laisse l'indiquer de la manière que tu veux > help Camille comment peut-on indiquer que X2 a "de Nise" rajouté à la fin de la ligne? directement en apparat? sinon on fait une note-->,
                et il meismes s’estoit mis es armes <app>
                   <lem wit="#V3 #G #X2"><persName key="Leus">Leus</persName></lem>
                   <rdg wit="#B">Leus, son frere et avoit une bataille de .x. chevaliers esleus</rdg>
@@ -11317,10 +11314,11 @@
                      <lem wit="#V3 #G #X2">conmandement</lem>
                      <rdg wit="#B">commandement." Li empereres et l'empereris et li hermites qui la
                         erent s'esmerveillierent moult de ce que li lyons l'ot si bien
-                        enten<!-- PD : est-ce qu'il n'y a pas une erreur ici? on attendrait 'entendu' j'ai l'impression. Qu'en penses-tu? >
-                        CC pour #PD : c'est une omission due au passage de colonne, j'ajoute un sic ? -->
-                        et que si bien fist sa volenté, et s'en tint li empereres a bien payez</rdg></app><!-- #SL! : variante "longue" de B
-                        qui n'est pas un déplacement, mais un ajout d'informations -->.</said></p>
+                        enten (<hi rend="italique">sic, changement de colonne</hi>) 
+                        et que si bien fist sa volenté, et s'en tint li empereres a bien payez</rdg></app><note type="notecritique">Il est probable que la leçon de V3 G X2 
+                        dérive d'un saut du même au même, sans que l'on puisse déterminer avec certitude le pivot, et donc réintégrer la partie manquante. Les sections 
+                        <hi rend="italique">Li empereres et l'empereris et li hermites qui la erent</hi> (§ 626) et <hi rend="italique">Lors li empereres et li hermites</hi> (§ 627) ne 
+                        se répètent pas à l'identique dans <hi rend="italique">B</hi>.</note>.</said></p>
             <p n="P627"><app>
                   <lem wit="#V3 #G #X2"><rs type="person" key="Cassidorus"><c ana="lettrine2">L</c>i
                         empereres</rs></lem>
@@ -11473,7 +11471,7 @@
                   les biens temporels dont il était jusqu'alors investi.</note></p>
             <p n="P629"><c ana="lettrine2">L</c>ors avint que <rs type="person" key="Cassidorus">li
                   empereres</rs> se mist a fere ce que vous <app>
-                     <lem wit="#V3 #G #X2">poez ouyr<!-- PD :  tréma ou pas, ici cas limite > CC: je me suis aussi posée la question #PD/#SL--></lem>
+                     <lem wit="#V3 #G #X2">poez ouyr</lem>
                   <rdg wit="#B">avez oy</rdg>
                </app> a quoi il beoit, par quoi il se mist a lui traveillier <app>
                   <lem wit="#V3 #G #X2">et</lem>
@@ -13021,17 +13019,7 @@
                   vi.</said><said rendition="dialogue" aloud="true" direct="true">Dame, dist il,
                   elle ne vous est pas moult eslongniee. Mes que vous vueilliez croire bon
                   conseil.</said><said rendition="dialogue" aloud="true" direct="true">En non Dieu,
-                     <cb n="b"/>sire, de vostre conseil croire <app>
-                     <lem wit="#V3 #G">que</lem>
-                     <rdg wit="#B #X2"/>
-                  </app><!-- PD : Ce "que" est bizarre. On dirait une erreur. 
-                     Je te conseille de corriger ici selon BX2. 
-                     Ou sinon je le comprends comme un "que" à valeur exclamative. Le comprends-tu ainsi aussi? 
-                     Dans ce cas, il faudrait mettre un point d'exclamation à la fin de phrase. 
-                     Cette exclamation signe justement l'ironique mauvaise foi de la châtelaine
-                  > CC : je trouvais aussi étrange ce "que" et serais assez partisane de corriger, mais la portée exclamative 
-                  étant aussi explicite, si ce "que" peut pousser dans ce sens, pourquoi pas. je peux vous laisser trancher #SL/PD ?-->
-                  ne me <app>
+                     <cb n="b"/>sire, de vostre conseil <app><lem wit="#B #X2">croire</lem><rdg wit="#V3 #G">croire que</rdg></app> ne me <app>
                      <lem wit="#V3 #G">quier</lem>
                      <rdg wit="#B #X2">cuit</rdg>
                   </app> je ja departir.</said></p>
@@ -13123,9 +13111,9 @@
                   vous voudroit devourer se vous aviez vers eulz nule male penssee.</said><said
                   rendition="dialogue" aloud="true" direct="true">Voire, dist elle. Est ce dont la
                   raison ?</said><said rendition="dialogue" aloud="true" direct="true">Certes, dist
-                  il, je n’i sé <app><lem wit="#V3 #X2">autre chose</lem><rdg wit="#B #G">autre</rdg></app><note type="notecritique">A rebours
-                  de notre pratique générale en la matière, nous avons maintenu la leçon de V contre BG, car la correction de V et X,
-                  indépendammment, était facile à affirmer indépendamment. #SL OK ?</note>                    
+                  il, je n’i sé <app><lem wit="#V3 #X2">autre chose</lem><rdg wit="#B #G">autre</rdg></app><note type="notecritique">La répartition chaotique des témoins 
+                  semble indiquer que <hi rend="italique">V3</hi> et <hi rend="italique">X2</hi> 
+                     corrigent ici indépendamment un texte fautif, que transmettent <hi rend="italique">B</hi> et <hi rend="italique">G</hi>.</note>                    
                   <app>
                      <lem wit="#V3 #G #X2">que ceste</lem>
                      <rdg wit="#B"/>
@@ -13924,21 +13912,21 @@
                      <rdg wit="#B #X2">tourt a honneur</rdg>
                   </app> a plusseurs, et vous diré en quele maniere. Touzjours avez oï dire : <seg
                      ana="proverbe">Qui soi oublie ne s’avance</seg>
-                  <note type="notecritique">###Cette expression sentencieuse n'est pas trouvée chez
-                     Morawski ni chez Le Roux de Lincy. à vérifier PD stp</note> ; et <app>
+                  <note type="notecritique">###Expression sentencieuse inconnue de 
+                     Morawski et Le Roux de Lincy. à vérifier PD stp</note> ; et <app>
                      <lem wit="#V3 #G #X2">d'autre</lem>
                      <rdg wit="#B">de l'autre</rdg>
                   </app> part, li philosophe dist : <seg ana="proverbe">Fai si la besongne ton
                      seingneur que tu ne mettes la teue en oubli</seg>
-                  <note type="notecritique">###Cette expression sentencieuse n'est pas trouvée chez
-                     Morawski ni chez Le Roux de Lincy. à vérifier PD stp</note>, por quoi je di par
+                  <note type="notecritique">###Expression sentencieuse inconnue de 
+                     Morawski et Le Roux de Lincy. à vérifier PD stp</note>, por quoi je di par
                   le <app>
                      <lem wit="#V3 #G #X2">phylosophe</lem>
                      <rdg wit="#B">phylosophe que</rdg>
                   </app> : <seg ana="proverbe">Mesire n’a pas si faite la besongne son
                      seigneur</seg>
-                  <note type="notecritique">###Cette expression sentencieuse, dans la lignée de la
-                     précédente, n'est pas non plus trouvée chez Morawski ni chez Le Roux de Lincy.
+                  <note type="notecritique">###Expression sentencieuse, dans la lignée de la
+                     précédente, inconnue de Morawski et Le Roux de Lincy.
                      à vérifier PD stp</note>, c’est a dire fés faire droiture <app>
                      <lem wit="#V3 #G #X2">et</lem>
                      <rdg wit="#B">et procurer et</rdg>
@@ -15772,9 +15760,7 @@
                         <lem wit="#V3 #G #X2">ne destraint</lem>
                         <rdg wit="#B"/>
                      </app> : il tient le <cb n="f"/>cuer et le cors enferme</seg>. <note
-                        type="notecritique">#SL/PD : proverbe, vraiment ? J'ai des doutes au final après
-                     avoir cherché, en vain, chez Morawski et Le Roux de Lincy, et la formule ne me
-                     semble pas si forte et surtout très liée au propos narratif ici.</note> Et tot <app>
+                        type="notecritique">Remarquer la valeur gnomique de l'expression. Tour inconnu de Morawski et Le Roux de Lincy.</note> Et tot <app>
                      <lem wit="#V3 #G #X2">en tele maniere</lem>
                      <rdg wit="#B">ainsi</rdg>
                   </app> est il de <rs type="person" key="Melchis">mon seingneur</rs>, car il tient
@@ -16053,11 +16039,8 @@
                   type="person" key="Melchis">le prince</rs> que la novelle <app>
                   <lem wit="#V3 #G #X2">des</lem>
                   <rdg wit="#B">des .II.</rdg>
-               </app> chevaliers vint en <placeName key="Jérusalem">Jherusalem</placeName>, et <app>
-                  <lem wit="#V3 #G">cuit</lem>
-                  <rdg wit="#B #X2">tant</rdg>
-               </app>
-               <!-- #SL/PD/SV: corrige-t-on pour aider la compréhension?  --> qu’il
+               </app> chevaliers vint en <placeName key="Jérusalem">Jherusalem</placeName>, et <app><lem wit="#B #X2">tant</lem><rdg wit="#V3 #G">cuit</rdg></app> 
+                qu’il
                s’acointierent au <rs type="person" key="Hainfroy">roy</rs>. Et ceus qui aporterent
                la nouvele distrent que <said aloud="true" direct="false"><num>ii</num> chevaliers
                   erent venus en <placeName key="Antyoche">Antyoche</placeName> qui erent li plus
@@ -16760,9 +16743,7 @@
                <app>
                   <lem wit="#V3 #G">dist</lem>
                   <rdg wit="#B #X2">dist il</rdg>
-               </app> : <note type="notecritique">###Comme cela arrive assez fréquemment, les
-                  insertions de discours se font de manière variée, souvent plus marquée dans B, ici
-                  suivi par X2, que dans V3.</note>
+               </app> : <note type="notecritique">###Si c'est bien Dyanor qui parle, il faut envisager ici une faute d'archétype (à moins que X2 ne contamine ici) corrigée dans beta. Attirer en tout cas l'attention sur la varia lectio et la faute. Ce n'est pas courant que le discours direct prenne cette forme sans incise.</note>
                <said aloud="true" direct="true">Contre ce ne poons nous aler se nous ne voulons
                   fausser nostre couvenant.</said><said rendition="dialogue" aloud="true"
                   direct="true">Par mon chief, dist <persName key="Dyanor">Dyanor</persName>, ja
@@ -19374,7 +19355,8 @@
                      </app>espace sa honte afin que l’en n’en <cb n="b"/>peust recorder males
                      nouvelles, car il amoit miex mourir a honneur que vivre a honte.</lem>
                   <rdg wit="#B"/>
-               </app><note type="notecritique">La leçon de B semble presque induire un refus
+               </app><note type="notecritique">Développement du proverbe bien connu "mieux vaut mourir à honneur que 
+               vivre à honte" (Hassell, M. 228).</note><note type="notecritique">La leçon de B semble presque induire un refus
                   d'annoncer ainsi la fin d'Helcanus avant qu'elle ne survienne, à préserver le
                   suspense de cette bataille, dont l'issue est ainsi directement indiquée, après les
                   précisions déjà données quant à l'entrée en bataille d'Helcanus
@@ -22147,9 +22129,8 @@
                leur compaingnon avoit fet prendre les <app>
                   <lem wit="#V3 #G #X2">desconnoissances</lem>
                   <rdg wit="#B">connoissances</rdg>
-               </app><note type="notecritique">Ces variantes lexicales semblent toutes deux convenir. D'après le DMF, le terme 
-               desconnaissance peut d'ailleurs se rattacher directement à celui de connaissance, mais dans leurs définitions mêmes, ces deux 
-               termes soulignent ce qui fonde la connaissance, l'élément distinctif. #SL/PD, ok ?</note> a ceus que il avoient premiers occis.</p>
+               </app><note type="notecritique">Les variantes lexicales de α et de <hi rend="italique">B</hi> sont adiaphores, cf. DMF, s.v. <hi rend="italique">connoissance</hi> 'signe distinctif' et 
+                  DMF, s.v. <hi rend="italique">desconnoissance</hi> 'signe distinctif, différence' (des- marquant ici l'éloignement par opposition)</note> a ceus que il avoient premiers occis.</p>
             <p n="P811"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine2">A</c>inssi
                se mistrent li <num>v</num> en une compaingnie et puis quistrent lor compaingnons, et
                meismes <persName key="Dorus">Dorus</persName> queroient il sus touz les autres. Si
@@ -22720,7 +22701,10 @@
                </app> a compaingnon ». Lors a ces <num>ii</num> briez changiez et <app>
                   <lem wit="#V3 #G">transportez</lem>
                   <rdg wit="#B #X2">transposez</rdg>
-               </app><!-- #SL/PD/SV help : corr? --> de l’une boiste en l’autre, car pour la reson de ce
+               </app><note type="notecritique">Le stemma ne permet pas de trancher entre les 
+                  deux variantes adiaphores <hi rend="italique">transporter</hi> (remontant au moins à β) et
+                  <hi rend="italique">transposer</hi> (accord de <hi rend="italique">B</hi> et <hi rend="italique">X2</hi>), 
+                  de même sens 'déplacer'.</note> de l’une boiste en l’autre, car pour la reson de ce
                que les boistes estoient semblables i furent les briez mis.</p>
             <p n="P822"><c ana="lettrine2">D</c>ont revint <rs type="person" key="Vespertine">la
                   pucele</rs> arriere et aporta la boiste et la bailla a <rs type="person"
@@ -22926,9 +22910,10 @@
                      </app> chevaliers,</lem>
                   <rdg wit="#G"/>
                </app> si respondi a ce et dist : <said aloud="true" direct="true">Ha ! franche
-                  damoiselle, conment porroit <app><lem wit="#V3 #G">a ce
-                     venir</lem><rdg wit="#B #X2">ce avenir</rdg></app><!-- #SL: plutôt corriger VG sur BX ? Faire une note ? Une fois encore,
-                     merci d'avoir eu l'oeil !--> ? 
+                  damoiselle, conment porroit <app><lem wit="#B #X2">ce avenir</lem><rdg wit="#V3 #G">a ce venir</rdg></app><note type="notecritique">Nous ne trouvons pas 
+                     d'emploi du verbe <hi rend="italique">venir</hi> 
+                     en emploi impersonnel ('advenir') avec un complément prépositionnel introduit par <hi rend="italique">a</hi>; l'emploi personnel du verbe semble quant à lui exclu. 
+                     Nous intervenons donc d'après le texte de <hi rend="italique">B</hi> et <hi rend="italique">X2</hi>.</note> ? 
                   Car espoir ne pourroit il estre trouvé. Et ainsint cuideroient mes amis que je
                   feusse mort et perdu, conme celui qui n’avroit riens valu en cest
                   afaire.</said><said rendition="dialogue" aloud="true" direct="true">Sire, dit
@@ -23318,8 +23303,8 @@
                </app> estoient estanchiez, si qu’il vindrent a lui et li ont dit que <said
                   aloud="true" direct="false">moult folement enchauçoit <persName key="Dorus"
                      >Dorus</persName> et a pou de gent, et d’autre part s’estoit grant folie que il
-                  <app><lem wit="#V3 #G">s’entrebatoient</lem><rdg wit="#B #X2">s'embatoient</rdg></app>
-                  <!--#SL : corriger sur BX ? Faire une note ?--> entre ces montaingnes,
+                  <app><lem wit="#B #X2">s'embatoient</lem><rdg wit="#V3 #G">s'entrebatoient</rdg></app>
+                   entre ces montaingnes,
                   dont il ne pourroient retourner fors parmi leurs anemis</said>. Lors s’arresta
                   <persName key="Mardocheus">Mardocheus</persName>, et li vindrent nouvelles que <rs
                   type="person" key="Dyomarques">li rois d’<placeName key="Arragon"
