@@ -3653,43 +3653,45 @@
                   <lem wit="#B">mot, ainz commença a sospirer. Lors se traist moult pres de
                      lui</lem>
                      <rdg wit="#V3 #G #X2">mot</rdg></app>
-               <app><lem wit="#B"><!--helpCC rebaliser les deux lem qui suivent, j'ai réintégré le passage d'après BX + voir pour l'omission de "ai" plus tard dans B, où on supplée par X (correction dans la correction)-->et li dist : Ha : sire, por Dieu merci, dites moi qui vous estes.
-                  "Amis, dist il, sachiez que je sui moult amis a celui se il est encore en vie."
-                  "Par Dieu, sire, dist cil, je quit que vous me volez decevoir aussi comme aucun
-                  out fait maintes fois." Quant Dorus oy ce, si ot merveille pour quoi il disoit
-                  ce, si li dist que il le feist sage de la decevance. "Sire, dist cil,
+               <app><lem wit="#B"><!--helpCC voir pour l'omission de "ai" plus tard dans B, où on supplée par X (correction dans la correction)
+                  CC>SL: j'ai balisé, j'ai d'ailleurs dû modifier la prise en compte des variantes, j'espère que cela te conviendra, 
+               mais l'enchâssement des balises said/app reste problématique sans cela, surtout pour en assurer le rendu visuel. Par 
+               contre, je ne trouve pas l'omission "ai" ou ne suis pas sûre de comprendre où il y a un souci selon toi, puisqu'à mes yeux 
+               tout est nickel comme tu l'avais proposé-->et li dist : Ha : sire, por Dieu merci, dites moi qui vous estes.
+                  <said aloud="true" direct="true">Amis, dist il, sachiez que je sui moult amis a 
+                     <rs type="person" key="Dorus">celui</rs> se il est encore en vie.</said>
+                  <said aloud="true" direct="true" rendition="dialogue">Par Dieu, sire, dist cil, je quit que vous me volez decevoir aussi 
+                     comme aucun out fait maintes fois.</said> 
+                  Quant <persName key="Dorus">Dorus</persName> oy ce, si ot merveille pour quoi il disoit
+                  ce, si li dist que <said aloud="true" direct="false">il le feist sage de la decevance</said>.
+                  <said aloud="true" direct="true">Sire, dist cil,
                   volentiers. Veritez est que aucun de ceste vile ont eu moult a souffrir de
-                  celui enfant que vous demandez et vous dirai comment. Li enfant a l'empereris
-                  de Romme avoient amené en ceste vile .ii. enfans, liquel durent estre peri et
-                  ne sot on comment fors tant que li uns fu jetez en une yaue et fu secourus d'un
-                  pescheur de ceste vile. Or est puis avenu que il a esté demandé a pluseurs et
-                  maint en ont eu a souffrir et je meismes en ai jeu .ii. ans en prison pour ce
+                  <rs type="person" key="Dorus">celui enfant que vous demandez</rs> et vous dirai comment. 
+                     Li enfant a <rs type="person" key="Fastige">l'empereris de <placeName key="Rome">Romme</placeName></rs> avoient amené en 
+                     <rs type="place" key="Rome">ceste vile</rs> .ii. enfans, liquel durent estre peri et
+                  ne sot on comment fors tant que <rs type="person" key="Dorus">li uns</rs> fu jetez en <rs type="place" key="Tibre">une yaue</rs> 
+                     et fu secourus d'un <rs type="person" key="Pêcheur">pescheur</rs> de <rs type="place" key="Rome">ceste vile.</rs> 
+                     Or est puis avenu que il a esté demandé a pluseurs et
+                  maint en ont eu a souffrir et je meismes en ai jeu <num>ii</num> ans en prison pour ce
                   que j'ai esté retez que je l'avoie trouvé si ne l'avoie delivré si comme je
-                  devoie, si vous pri pour Dieu que vous ne m'en faites pis que j'en ai eu."
-                  <note type="apparat">Nouveau § B</note>Quant Dorus l'entendi, si ot moult
-                  grant pitié de li</lem><rdg wit="#V3 #G #X2"/></app> et dist : 
-               <said aloud="true" direct="true">Conment, biau tres dous <app>
-                  <lem wit="#B #X2">sire ! Dites vous que vous en avez jeu em prison pour celui
-                     dont je vous <app>
-                        <lem wit="#B">ci</lem>
-                        <rdg wit="#X2"/>
-                     </app> demant?" "Certes, biaus tres douz sires, voirement <app>
-                        <lem wit="#B">y</lem>
-                        <rdg wit="#X2"/>
-                     </app> ai <app>
-                        <lem wit="#B">ge</lem>
-                        <rdg wit="#X2">ge geu et</rdg>
-                     </app></lem><rdg wit="#V3 #G">sire ! Ce que vous me demandez, je ne sai ou il est, mes bien
-                        est la verité que je oi jadis <num>i</num> enfant en garde pour cui je ai
-                        esté moult longuement em prison et tout pour celui que vous me demandez et
-                        ai</rdg>                     
-                  </app> perdu <app>
-                     <lem wit="#V3 #G">tout</lem>
-                     <rdg wit="#B #X2"/>
-                  </app> quanque j’<app>
-                     <lem wit="#B #G #X2">avoie</lem>
-                     <rdg wit="#V3">en avoie</rdg>
-                  </app> vaillant.</said>
+                  devoie, si vous pri pour Dieu que vous ne m'en faites pis que j'en ai eu.</said>
+                  <note type="apparat">Nouveau § B</note>Quant <persName key="Dorus">Dorus</persName> l'entendi, si ot moult
+                  grant pitié de li</lem><rdg wit="#V3 #G #X2"/></app> 
+               et dist :
+               <said aloud="true" direct="true">Conment, biau tres dous sire !
+                  <app><lem wit="#B #X2">Dites vous que vous en avez jeu em prison pour celui
+                     dont je vous <app><lem wit="#B">ci</lem><rdg wit="#X2"/></app> demant?</lem>
+                  <rdg wit="#V3 #G">Conment, biau tres dous sire ! 
+                     Ce que vous me demandez, 
+                     je ne sai ou il est, mes bien
+                     est la verité que je oi jadis <num>i</num> enfant en garde pour cui je ai
+                     esté moult longuement em prison et tout pour celui que vous me demandez et
+                     ai</rdg></app></said>
+                     <said aloud="true" direct="true"><app><lem wit="#B #X2">Certes, biaus tres douz sires, voirement 
+                        <app><lem wit="#B">y</lem><rdg wit="#X2"/></app> ai 
+                        <app><lem wit="#B">ge</lem><rdg wit="#X2">ge geu et</rdg></app></lem><rdg wit="#V3 #G"/></app>
+               perdu <app><lem wit="#V3 #G">tout</lem><rdg wit="#B #X2"/></app> quanque 
+                        j’<app><lem wit="#B #G #X2">avoie</lem><rdg wit="#V3">en avoie</rdg></app> vaillant.</said>
                <note type="notecritique">La leçon de B témoigne de ce goût, marqué tout au long du
                   roman, de revenir sur les évènements passés.</note>
                <said aloud="true" direct="true">Par mon chief, ce dist <persName key="Dorus"><app>
@@ -7290,10 +7292,11 @@
                   <rdg wit="#V3 #G #X2">fu<del rend="exponctuation" hand="#main2">rent</del></rdg>
                </app>
                <app>
-                  <lem wit="#G">garis</lem>
+                  <lem wit="#B #X2">sanez</lem>                  
                   <rdg wit="#V3">garis de ses plaies</rdg>
-                  <rdg wit="#B #X2">sanez</rdg>
-               </app><!--help: je mettrais BX ci-dessus puisque VG semblent répéter la phrase plus haut (même si G se rend compte de la répétition)-->, si se <app>
+                  <rdg wit="#G">garis</rdg>
+               </app><!--help: je mettrais BX ci-dessus puisque VG semblent répéter la phrase plus haut 
+                  (même si G se rend compte de la répétition) CC>SL : ainsi donc, BX en lem voulais-tu dire ?-->, si se <app>
                   <lem wit="#V3 #G #X2">mistrent</lem>
                   <rdg wit="#B">mist</rdg>
                </app>
@@ -9839,7 +9842,11 @@
                   <rdg wit="#B">Nise, le bon chevalier de ses armes</rdg>
                </app>
                <note type="notecritique">###SL</note>
-               <!--help#SL:  mais rajouté à la fin de la ligne en tout petit, cf. f. 105ra, Camille je te laisse l'indiquer de la manière que tu veux > help Camille comment peut-on indiquer que X2 a "de Nise" rajouté à la fin de la ligne? directement en apparat? sinon on fait une note-->,
+               <!--help#SL:  mais rajouté à la fin de la ligne en tout petit, cf. f. 105ra, Camille je te laisse l'indiquer 
+                  de la manière que tu veux > help Camille comment peut-on indiquer que X2 a "de Nise" 
+                  rajouté à la fin de la ligne? directement en apparat? sinon on fait une note 
+               CC>SL : si c'est bien une question qui m'est destinée (mais je ne suis plus sûre de l'historique des questions ainsi), 
+               je proposerais en note je pense... sinon en apparat sur le même niveau que ce que fait B-->,
                et il meismes s’estoit mis es armes <app>
                   <lem wit="#V3 #G #X2"><persName key="Leus">Leus</persName></lem>
                   <rdg wit="#B">Leus, son frere et avoit une bataille de .x. chevaliers esleus</rdg>
