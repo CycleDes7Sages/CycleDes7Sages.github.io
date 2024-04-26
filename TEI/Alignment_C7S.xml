@@ -480,17 +480,31 @@
                 les mentions de rubriques supplémentaires données dans d'autres manuscrits. L'objectif, pour chacune de ces références, était 
                 de présenter l'organisation macrostructurelle du cycle, soit d'identifier, pour chacun des quatre témoins, la rubrique, si 
                 une rubrique est donnée en correspondance avec ce que présente le manuscrit V donc, le lieu où celle-ci se trouve dans le témoin,
-                et quelques indications paratextuelles.
-                <title>Relevé et organisation des informations</title>
+                et quelques indications paratextuelles.</p>
+                <p><title>Relevé et organisation des informations</title>
                 Chacune de ces entrées précise tour à tour, 
                 dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, c'est-à-dire la rubrique (@rubric),
                     sa localisation dans le manuscrit traité (@location) et une note (@note). 
                     Cette note vise à préciser l'organisation et mise 
-                    en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist. initial" dans le 
+                    en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist.initial" dans le 
                     cas du manuscrit R qui organise différemment sa matière) et la précision du lieu exact de ces 
                     trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même folio du manuscrit dépeint. 
                     D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces manuscrits. 
-                    Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.</p>
+                    Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.
+                    Il convient auparavant de poser quelques nuances dans cette procédure d'encodage en ce 
+                    qui concerne le manuscrit R. Son état de conservation ne permettait en effet ni de donner
+                    accès à l'ensemble de la matière, puisque les folios conservés ne nous laissent lire le texte que 
+                    jusqu'au chapitre RP_29 et laissent aussi béants quelques trous dans la matière. Nous 
+                    préciserons également ci-dessous les divers cas de figure qui se sont présentés. 
+                    Nous devons d'ores et déjà assumer la différence de traitement que nous avons réservé à ce manuscrit. 
+                    Eu égard son état de conservation mais aussi son organisation assez différente de la matière face à ce que 
+                    nous pouvons lire dans nos autres témoins, nous avons dû renoncer à donner, comme pour les autres manuscrits, 
+                    le début de chaque paragraphe, mais aussi les notes qui spécifiaient si le nouveau paragraphe en question 
+                    se situait bien à cet endroit ou à un autre. Nous nous sommes efforcés d'offrir l'accès le plus complet aux 
+                    rubriques, mais ce travail n'était pas réalisable pour les paragraphes, qui ne sont pas toujours accessibles 
+                    ou seulement difficilement lisibles, ce qui compliquait trop l'identification des débuts de paragraphe 
+                    telle que nous l'avons effectuée pour nos quatre principaux témoins. Aussi, nous n'avons donc indiqué pour 
+                    ce témoin que la localisation du paragraphe en question parmi les folios, sans aucune autre spécification.</p>
                 <p><title>Cas particuliers présentés</title> 
                     1)Rubriques ajoutées: 
                     Dans plusieurs cas, des rubriques ont été ajoutées dans certains manuscrits par rapport à
@@ -499,7 +513,7 @@
                     @corresp renvoyant au xml:id du paragraphe qui donne, dans V, la section
                     contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
                     précise, de manière systématique et volontairement concise : 
-                    "extra rubric+miniature+initial/hist. initial". 
+                    "extra rubric+miniature+initial/hist.initial". 
                 Par souci de précision, nous avons indiqué où se situe dans V la portion de texte que ce témoin associe 
                 à une nouvelle rubrique, par la mention "corresponding to V XXX".
                 Le plus communément, ces rubriques ajoutées correspondent à une portion de texte donnée comme un 
@@ -513,7 +527,7 @@
                     la rubrique. Le <gi>seg</gi> @note
                     vient préciser que les rubrique, miniature et initiale sont absentes,
                     selon la formule systématique et volontairement concise : 
-                    "no incipit/rubric+miniature+initial/hist. initial". L'idée était ainsi de
+                    "no incipit/rubric+miniature+initial/hist.initial". L'idée était ainsi de
                     détailler que la structure par rubrique dans V n'était pas suivie dans
                     cet autre témoin, mais que la portion de texte correspondante était
                     présentée par un simple nouveau paragraphe dans ce témoin. 
@@ -547,20 +561,33 @@
                     une miniature et une initiale n'est indiqué dans d'autres témoins que par une initiale. 
                     Nous avons présenté comme suit cette information : "initial. no rubric+miniature"</p>
                 <p>5)Le cas du manuscrit R: 
-                Les particularités de ce manuscrit rescapé de l'incendie qui a frappé la Bibliothèque Nationale de Turin ont requis
-                des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce témoin, dont 
-                nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière ci-dessus dans la présentation
-                des témoins), mais aussi de fragments des sections conservées, selon l'état de chaque folio concerné, mais aussi des absences 
-                dans la matière pourtant présentée de manière plus ou moins linéaire. Nous avons tenté d'offrir accès au texte de chaque rubrique. 
-                Dans les cas où la matière restait ponctuellement illisible en raison de la détérioriation du folio (brûlure rendant 
-                l'encre peu lisible ou brûlure ne laissant pas accès à l'ensemble du folio), 
-                nous avons intégré la mention "DDD" pour couvrir ces sections. En note, nous avons précisé pour chaque cas de figure : 
-                - si la section était entièrement manquante (dans quelques cas, les folios conservés ne nous offrent pas accès à l'ensemble de la matière, 
-                offrant des sauts de quelques paragraphes, à nouveau voir ci-dessus à ce sujet) : "missing section in this damaged manuscript" ;
-                - si la section est manquante, mais de manière plus localisée (part du folio brûlée) : "partially damaged section on these folios" ; 
-                - si la section reste illisible en raison de l'atteinte des flammes, mais de manière très ponctuelle (mettant en cause ou le folio lui-même ou l'encre) : 
-                "missing section on this damaged folio". La localisation peut alors être tenue pour incertaine, avec la mention finale "?" s'il s'agit d'une pure hypothèse 
-                de reconstruction de notre part, ou pour certaine (sans cette mention) si l'on peut deviner la rubrique et l'initiale malgré tout.</p>
+                    Les particularités de ce manuscrit rescapé de l'incendie qui a frappé la Bibliothèque Nationale de Turin ont 
+                    requis des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce 
+                    témoin, dont nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière 
+                    ci-dessus dans la présentation des témoins), mais aussi de fragments des sections conservées, selon l'état de 
+                    chaque folio concerné, mais aussi des absences dans la matière pourtant présentée de manière plus ou moins 
+                    linéaire. En ce qui concerne les rubriques, nous avons tenté de procéder de manière uniforme au traitement 
+                    que nous avions réservé aux autres témoins manuscrits. 
+                    Dans les cas où nous ne disposions pas d'accès à cette section, nous avons intégré la mention "(inaccessible)"
+                    pour indiquer que l'état de détérioration du manuscrit ne nous offrait pas accès à la portion de texte concernée.
+                    Nous avons également précisé en note que la rubrique était lisible de manière incomplète "(partially)", voire également 
+                    aussi ce qu'il en était de l'initiale historiée qui la suit dans la plupart des cas par la même remarque 
+                    "(inaccessible)" ou "(partially)".
+                    Dans certains cas, c'est l'ensemble de la rubrique qui est ainsi inaccessible, ce que vient préciser la note
+                    "missing section in this damaged folio". Cependant, nous pouvons assurer que la localisation est exacte, en raison
+                    de l'accès au texte qui nous est permis par ailleurs, raison pour laquelle la mention du folio est bien présente.
+                    Au contraire, nous n'avons pas indiqué le folio et avons plutôt indiqué avec un "?" les rubriques
+                    dont l'existence même ne peut être assurée en raison de l'état de conservation des folios en question, partiellement
+                    ou tout à fait perdus, ce que nous avons précisé par la note "missing section in this damaged manuscript".
+                    Dans certains cas de figure, nous avons également indiqué par la mention "(illisible)" le fait que la portion 
+                    de texte en question était difficile à transcrire en raison de l'état de conservation du manuscrit une fois encore.
+                    Tout comme pour nos autres témoins, nous avons aussi à l'occasion précisé en note si l'un ou l'autre élément qui indique 
+                    la transition des chapitres (rubrique ou initiale historiée) se trouvait manquante ou déplacée par les mentions habituelles
+                    -"no rubric+hist.initial" ("+§" le cas échéant, avec pour rappel, la précision que si cette mention n'est pas adjointe, 
+                    la portion de texte en question est bien donnée comme un nouveau paragraphe à défaut d'un nouveau chapitre); 
+                    -"no rubric. hist.initial"
+                    -"rubric+hist.initial displaced later (XXX in V2 (§XXX)" (avec la précision "no §" le cas échéant);
+                    -et "displaced rubric+hist.initial" directement en lien.</p>
                 <p><title>Précisions de présentation</title>
                 Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
                 notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.</p>
@@ -4329,7 +4356,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible)</seg>
                         <seg type="location">B1-1ra</seg>
-                        <seg type="note">rubric(inaccessible)+hist. initial(partially)</seg>
+                        <seg type="note">rubric(inaccessible)+hist.initial(partially)</seg>
                     </ab>
                 </div>
                 <milestone n="4-31" unit="chapter" xml:id="RC_31"/>
@@ -4362,7 +4389,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Li .xxii.ismes contes</seg>
                         <seg type="location">B1-1rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-32" unit="chapter" xml:id="RC_32"/>
@@ -4395,7 +4422,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) .ismes conte du prinche d'Arrabe que (illisible)</seg>
                         <seg type="location">B1-1va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-33" unit="chapter" xml:id="RC_33"/>
@@ -4428,7 +4455,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Li .xxiiii. (inaccessible) (illisible) cheval.</seg>
                         <seg type="location">B1-2ra</seg>
-                        <seg type="note">rubric(partially)+hist. initial(partially)</seg>
+                        <seg type="note">rubric(partially)+hist.initial(partially)</seg>
                     </ab>
                 </div>
                 <milestone n="4-34" unit="chapter" xml:id="RC_34"/>
@@ -4482,7 +4509,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible)</seg>
                         <seg type="location">B1-2vb/B1-5vb REVOIR</seg>
-                        <seg type="note">rubric(inaccessible)+hist. initial(partially)</seg>
+                        <seg type="note">rubric(inaccessible)+hist.initial(partially)</seg>
                     </ab>
                 </div>
                 <milestone n="4-35" unit="chapter" xml:id="RC_35"/>
@@ -4516,7 +4543,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) s'est Kassidorus partis de ses princes et (illisible #SL)</seg>
                         <seg type="location">B2-7ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-36" unit="chapter" xml:id="RC_36"/>
@@ -4549,7 +4576,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B2-5vb</seg>
-                        <seg type="note">no rubric. hist. initial</seg>
+                        <seg type="note">no rubric. hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-37" unit="chapter" xml:id="RC_37"/>
@@ -4582,7 +4609,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Li (inaccessible)</seg>
                         <seg type="location">B2-4vb</seg>
-                        <seg type="note">rubric(inaccessible)+hist. initial</seg>
+                        <seg type="note">rubric(inaccessible)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-38" unit="chapter" xml:id="RC_38"/>
@@ -4618,7 +4645,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible)</seg>
                         <seg type="location">B2-2vb</seg>
-                        <seg type="note">rubric(inaccessible)+hist. initial</seg>
+                        <seg type="note">rubric(inaccessible)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-39" unit="chapter" xml:id="RC_39"/>
@@ -4651,7 +4678,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B2-1va</seg>
-                        <seg type="note">no rubric+hist. initial. Lettrine</seg><!-- VERIF DENOM -->
+                        <seg type="note">no rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-40" unit="chapter" xml:id="RC_40"/>
@@ -4720,7 +4747,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) Kassidorus fu dechius de Melsium (illisible #SL)</seg>
                         <seg type="location">B21-3va</seg>
-                        <seg type="note">rubric(partially)+hist. initial</seg>
+                        <seg type="note">rubric(partially)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-42" unit="chapter" xml:id="RC_42"/>
@@ -4754,7 +4781,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible)</seg>
                         <seg type="location">B21-5va</seg>
-                        <seg type="note">rubric(inacessible)+hist. initial</seg>
+                        <seg type="note">rubric(inacessible)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-43" unit="chapter" xml:id="RC_43"/>
@@ -4790,7 +4817,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Chi endroit revient li contes a Helkanam l'emperris de Coustantinoble.</seg>
                         <seg type="location">B21-7ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-44" unit="chapter" xml:id="RC_44"/>
@@ -4823,7 +4850,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B21-9vb</seg>
-                        <seg type="note">no rubric. hist. initial</seg>
+                        <seg type="note">no rubric. hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-45" unit="chapter" xml:id="RC_45"/>
@@ -4859,7 +4886,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Si com Polus vint a Kassidorus.</seg>
                         <seg type="location">B21-11vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-46" unit="chapter" xml:id="RC_46"/>
@@ -4892,7 +4919,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ci endroit revient li contes a Helkanor et a son (illisible #SL)</seg>
                         <seg type="location">B21-12rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-47" unit="chapter" xml:id="RC_47"/>
@@ -4925,7 +4952,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ci endroit revient cis otes a la damoisiele.(illisible #SL)</seg>
                         <seg type="location">B21-15va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-48" unit="chapter" xml:id="RC_48"/>
@@ -4961,13 +4988,13 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est ci endroit ensi com empereres envoia en plusors cuerre sa fem.(illisible #SL)</seg>
                         <seg type="location">B21-18va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_48" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ci vient li concontes a Kassidorus.</seg><!-- #SL vérif stp :) -->
                         <seg type="location">B21-20va</seg>
-                        <seg type="note">extra rubric+hist. initial corresponding to V2 32vc</seg>
+                        <seg type="note">extra rubric+hist.initial corresponding to V2 32vc</seg>
                     </ab>
                 </div>
                 <milestone n="4-49" unit="chapter" xml:id="RC_49"/>
@@ -5000,7 +5027,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B21-22ra</seg>
-                        <seg type="note">no rubric+hist. initial</seg>
+                        <seg type="note">no rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-50" unit="chapter" xml:id="RC_50"/>
@@ -5033,13 +5060,13 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ci endroit revient li contes a Licorum ensi com il trova Helkanor.</seg>
                         <seg type="location">B21-23ra</seg>
-                        <seg type="note">rubric+hist. initial(B21-23rb)</seg>
+                        <seg type="note">rubric+hist.initial(B21-23rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">Che sunt (inaccessible) (illisible #SL)</seg>
                         <seg type="location">B21-23vb</seg>
-                        <seg type="note">extra rubric+hist. initial corresponding to V2 36rb</seg>
+                        <seg type="note">extra rubric+hist.initial corresponding to V2 36rb</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -5051,7 +5078,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">li secons poins d'amistié.</seg>
                         <seg type="location">B21-24ra</seg>
-                        <seg type="note">extra rubric+hist. initial corresponding to V2 36rc</seg>
+                        <seg type="note">extra rubric+hist.initial corresponding to V2 36rc</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -5063,7 +5090,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est li quars poins d'amistié.</seg>
                         <seg type="location">B21-24va</seg>
-                        <seg type="note">extra rubric+hist. initial corresponding to V2 36va</seg>
+                        <seg type="note">extra rubric+hist.initial corresponding to V2 36va</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -5117,7 +5144,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est ci endroit ensi XXX(help #SL).</seg>
                         <seg type="location">B21-26ra</seg>
-                        <seg type="note">extra rubric+hist. initial corresponding to V2 37vc (§374)</seg>
+                        <seg type="note">extra rubric+hist.initial corresponding to V2 37vc (§374)</seg>
                     </ab>
                 </div>
                 <milestone n="4-51" unit="chapter" xml:id="RC_51"/>
@@ -5150,7 +5177,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est ci endroit ensi come Kassidorus fu asegiés dedens Costantinoble.</seg>
                         <seg type="location">B5-1rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-52" unit="chapter" xml:id="RC_52"/>
@@ -5187,7 +5214,7 @@
                         <seg type="rubric">C'est ci endroit coment Helkanor conte a son pere et a son aioul ou il et sa mere avoient despuis
                             qu'il s'estoient parti de Costantinnoble et ou il avoient despuis conversé, si dist en tel maniere ci aprés.</seg>
                         <seg type="location">B5-4ra</seg>
-                        <seg type="note">rubric+hist. initial(B5-4rb)</seg>
+                        <seg type="note">rubric+hist.initial(B5-4rb)</seg>
                     </ab>
                 </div>
                 <milestone n="4-53" unit="chapter" xml:id="RC_53"/>
@@ -5220,7 +5247,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Kassidorus s'en ala en Ytalie.</seg>
                         <seg type="location">B5-5ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-54" unit="chapter" xml:id="RC_54"/>
@@ -5252,13 +5279,13 @@
                     <ab corresp="#Cassidorus_V_54" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">?</seg>
-                        <seg type="note">Missing section in this damaged manuscript</seg>
+                        <seg type="note">missing section in this damaged manuscript</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_54" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B5-8ra</seg>
-                        <seg type="note">extra hist. initial corresponding to V2 46vb (§420). no rubric</seg>
+                        <seg type="note">extra hist.initial corresponding to V2 46vb (§420). no rubric</seg>
                     </ab>
                 </div>
                 <milestone n="4-55" unit="chapter" xml:id="RC_55"/>
@@ -5291,7 +5318,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est ci endroit ensi come li empereres revint d'Italie en Gresce.</seg>
                         <seg type="location">B5-9ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-56" unit="chapter" xml:id="RC_56"/>
@@ -5324,7 +5351,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un conte de Bretaigne.</seg>
                         <seg type="location">B5-11va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-57" unit="chapter" xml:id="RC_57"/>
@@ -5357,7 +5384,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un marcheans de Lombardie ki fu destruis pour ce qu'il avoit fait de son sierf.</seg>
                         <seg type="location">B5-12rb</seg>
-                        <seg type="note">rubric+hist. initial(B5-12va)</seg>
+                        <seg type="note">rubric+hist.initial(B5-12va)</seg>
                     </ab>
                 </div>
                 <milestone n="4-58" unit="chapter" xml:id="RC_58"/>
@@ -5390,7 +5417,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un maistre ki salua l'empereur.</seg>
                         <seg type="location">B20-38ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                         <seg type="note">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
@@ -5424,7 +5451,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un visconte ki jadis fu en Puille et cil fu apielés fous larges.</seg>
                         <seg type="location">B20-36rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-60" unit="chapter" xml:id="RC_60"/>
@@ -5457,7 +5484,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un riche bourgois ki jadis fu en Costantinoble.</seg>
                         <seg type="location">B20-35vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-61" unit="chapter" xml:id="RC_61"/>
@@ -5490,7 +5517,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-34ra</seg>
-                        <seg type="note">no rubric. hist. initial</seg>
+                        <seg type="note">no rubric. hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-62" unit="chapter" xml:id="RC_62"/>
@@ -5523,14 +5550,14 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) d'un maistre ki jadis (inaccessible) fu en Gresce (inaccessible)</seg>
                         <seg type="location">B20-33ra</seg>
-                        <seg type="note">rubric(partially)+hist. initial</seg>
+                        <seg type="note">rubric(partially)+hist.initial</seg>
                         <seg type="note">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-31rb</seg>
-                        <seg type="note">extra hist. initial(partially) corresponding to V2 59ra. no rubric</seg>
+                        <seg type="note">extra hist.initial(partially) corresponding to V2 59ra. no rubric</seg>
                     </ab>
                 </div>
                 <milestone n="4-63" unit="chapter" xml:id="RC_63"/>
@@ -5563,7 +5590,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) Sartaingne ki la fu.</seg>
                         <seg type="location">B20-29va</seg>
-                        <seg type="note">rubric(partially)+hist. initial</seg><!-- CC: initiale historiée longue I // Incipit Pely -->
+                        <seg type="note">rubric(partially)+hist.initial</seg><!-- CC: initiale historiée longue I // Incipit Pely -->
                     </ab>
                 </div>
                 <milestone n="4-64" unit="chapter" xml:id="RC_64"/>
@@ -5596,7 +5623,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">?</seg>
                         <seg type="location">B20-29rb</seg>
-                        <seg type="note">inaccessible(no certainty that there is any rubric or hist. initial)</seg>
+                        <seg type="note">inaccessible(no certainty that there is any rubric or hist.initial)</seg>
                     </ab>
                 </div>
                 <milestone n="4-65" unit="chapter" xml:id="RC_65"/>
@@ -5629,7 +5656,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes d'un borgois ki jadis fu en Ataines.(help #SL)</seg>
                         <seg type="location">B20-24vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-66" unit="chapter" xml:id="RC_66"/>
@@ -5662,7 +5689,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un rois ki jadis fu XXX deskelenus(help #SL)</seg>
                         <seg type="location">B20-24vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-67" unit="chapter" xml:id="RC_67"/>
@@ -5695,7 +5722,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Cis contes est d'un borgois ki jadis fu en Gresce.</seg>
                         <seg type="location">B20-23ra</seg>
-                        <seg type="note">rubric+hist. initial</seg><!-- CC: initiale historiée longue J // Incipit Pely -->
+                        <seg type="note">rubric+hist.initial</seg><!-- CC: initiale historiée longue J // Incipit Pely -->
                     </ab>
                 </div>
                 <milestone n="4-68" unit="chapter" xml:id="RC_68"/>
@@ -5728,7 +5755,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-20va</seg>
-                        <seg type="note">hist. initial. no rubric</seg>
+                        <seg type="note">hist.initial. no rubric</seg>
                     </ab>
                 </div>
                 <milestone n="4-69" unit="chapter" xml:id="RC_69"/>
@@ -5761,7 +5788,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-20rb</seg>
-                        <seg type="note">hist. initial. no rubric</seg>
+                        <seg type="note">hist.initial. no rubric</seg>
                     </ab>
                 </div>
                 <milestone n="4-70" unit="chapter" xml:id="RC_70"/>
@@ -5795,7 +5822,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-18ra</seg>
-                        <seg type="note">no rubric+hist. initial</seg>
+                        <seg type="note">no rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-71" unit="chapter" xml:id="RC_71"/>
@@ -5828,7 +5855,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi com Polus fu respités.</seg>
                         <seg type="location">B20-18rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-72" unit="chapter" xml:id="RC_72"/>
@@ -5889,7 +5916,7 @@
                         <seg type="witness">R</seg>
                         <seg type="incipit">Ci endroit comence li istoire d'Elkanum et de Peliarmenum son frere ki desireter le voloit.</seg>
                         <seg type="location">B20-15ra</seg>
-                        <seg type="note">incipit+hist. initial</seg>
+                        <seg type="note">incipit+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-2" unit="chapter" xml:id="RH_2"/>
@@ -5922,7 +5949,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ci endroit revient a l'emperris ki fu apielee Helkanam isi com el morut.</seg>
                         <seg type="location">B20-14va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-3" unit="chapter" xml:id="RH_3"/>
@@ -5954,7 +5981,7 @@
                     <ab corresp="#Helcanus_V_3" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">?</seg>
-                        <seg type="note">Missing section in this damaged manuscript</seg>
+                        <seg type="note">missing section in this damaged manuscript</seg>
                     </ab>
                 </div>
                 <milestone n="5-4" unit="chapter" xml:id="RH_4"/>
@@ -5986,7 +6013,7 @@
                     <ab corresp="#Helcanus_V_4" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">?</seg>
-                        <seg type="note">Missing section in this damaged manuscript</seg>
+                        <seg type="note">missing section in this damaged manuscript</seg>
                     </ab>
                 </div>
                 <milestone n="5-5" unit="chapter" xml:id="RH_5"/>
@@ -6021,7 +6048,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible)l'amende a l'empereur (help #SL) Fremor et si frere. fu(inaccessible).</seg>
                         <seg type="location">B20-6vb</seg>
-                        <seg type="note">rubric+hist. initial(B20-6ra)</seg>
+                        <seg type="note">rubric+hist.initial(B20-6ra)</seg>
                     </ab>
                 </div>
                 <milestone n="5-6" unit="chapter" xml:id="RH_6"/>
@@ -6054,7 +6081,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B20-2vb</seg>
-                        <seg type="note">no rubric. hist. initial</seg>
+                        <seg type="note">no rubric. hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-7" unit="chapter" xml:id="RH_7"/>
@@ -6087,7 +6114,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come li empereres ocist  le traïtour.</seg>
                         <seg type="location">B20-1rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-8" unit="chapter" xml:id="RH_8"/>
@@ -6123,7 +6150,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B4-5ra</seg>
-                        <seg type="note">no rubric. hist. initial</seg>
+                        <seg type="note">no rubric. hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-9" unit="chapter" xml:id="RH_9"/>
@@ -6159,7 +6186,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi com li empereres fu en ontes.(help #SL)</seg>
                         <seg type="location">B4-1ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-10" unit="chapter" xml:id="RH_10"/>
@@ -6192,7 +6219,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi (inaccessible) li rois d'Espaigne (inaccessible help #SL)</seg>
                         <seg type="location">B23-29vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-11" unit="chapter" xml:id="RH_11"/>
@@ -6225,7 +6252,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B23-28rb</seg>
-                        <seg type="note">no rubric+hist. initial+§</seg>
+                        <seg type="note">no rubric+hist.initial+§</seg>
                     </ab>
                 </div>
                 <milestone n="5-12" unit="chapter" xml:id="RH_12"/>
@@ -6261,7 +6288,7 @@
                         <seg type="rubric">C'est ci endroit ensi come Diomarcus li rois d'Aragon fu descondis dou roi d'Espaigne
                         et il se retraist arriere en Aragon pour avoir gringnor forche. etc.</seg>
                         <seg type="location">B23-24ra</seg>
-                        <seg type="note">rubric+hist. initial(B23-24rb)</seg>
+                        <seg type="note">rubric+hist.initial(B23-24rb)</seg>
                     </ab>
                 </div>
                 <milestone n="5-13" unit="chapter" xml:id="RH_13"/>
@@ -6294,7 +6321,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B23-23va</seg>
-                        <seg type="note">no rubric+hist. initial</seg>
+                        <seg type="note">no rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="5-14" unit="chapter" xml:id="RH_14"/>
@@ -6329,7 +6356,7 @@
                     <ab corresp="#Helcanus_V_14" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">?</seg>
-                        <seg type="note">Missing section in this damaged manuscript</seg>
+                        <seg type="note">missing section in this damaged manuscript</seg>
                     </ab>                    
                 </div>
                 <milestone n="5-15" unit="chapter" xml:id="RH_15"/>
@@ -6363,7 +6390,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi com Peliarmenus parti du chastiel Mignot.</seg>
                         <seg type="location">B3-6vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                         <seg type="note">apparent (partially) red indications (X...) on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
@@ -6399,7 +6426,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est .i. examples ke Peliarmenus conta a son XXX Yosiam XXX (help #SL).</seg>
                         <seg type="location">B3-4va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                         <seg type="note">apparent (partially) red indications (XIII) on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
@@ -6472,7 +6499,7 @@
                         <seg type="witness">R</seg>
                         <seg type="incipit">XXX (help #SL)</seg>
                         <seg type="location">B6-13va</seg>
-                        <seg type="note">incipit(red)+hist. initial</seg>
+                        <seg type="note">incipit(red)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-2" unit="chapter" xml:id="RP_2"/>
@@ -6517,7 +6544,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi que Peliarmenus fu repairiés de la queste de l'empereur de Costantinoble son pere.</seg>
                         <seg type="location">B6-11rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-3" unit="chapter" xml:id="RP_3"/>
@@ -6557,7 +6584,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Bourleus fist norrir les .ii. enfans, Dorus et Cassidore.</seg>
                         <seg type="location">B6-7vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-4" unit="chapter" xml:id="RP_4"/>
@@ -6594,7 +6621,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Helkanus estoit en la prison d'amours.</seg>
                         <seg type="location">B7-1rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-5" unit="chapter" xml:id="RP_5"/>
@@ -6635,7 +6662,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi comme Clyodorus issi en la queste de Helkanus.</seg>
                         <seg type="location">B8-1rb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-6" unit="chapter" xml:id="RP_6"/>
@@ -6671,7 +6698,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B9-3ra</seg>
-                        <seg type="note">no rubric+hist. initial</seg>
+                        <seg type="note">no rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-7" unit="chapter" xml:id="RP_7"/>
@@ -6711,7 +6738,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi que Peliarmenus XXX(help #SL) de Costantinoble.</seg>
                         <seg type="location">B10-3vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-8" unit="chapter" xml:id="RP_8"/>
@@ -6751,7 +6778,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Mirus et si compaignon furent el mesage a Peliarmenum en Costantinoble.</seg>
                         <seg type="location">B11-4ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-9" unit="chapter" xml:id="RP_9"/>
@@ -6795,13 +6822,13 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B12-2vb</seg>
-                        <seg type="note">rubric+hist. initial displaced later (160vb in V2 (§154)</seg>
+                        <seg type="note">rubric+hist.initial displaced later (160vb in V2 (§154). no §)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est la bataille de CouXXX (help #SL) ensi come XXX.</seg>
                         <seg type="location">B12-4ra</seg>
-                        <seg type="note">displaced rubric+hist. initial</seg>
+                        <seg type="note">displaced rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-10" unit="chapter" xml:id="RP_10"/>
@@ -6838,7 +6865,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Si com li XXX(help #SL).</seg>
                         <seg type="location">B14-1va</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-11" unit="chapter" xml:id="RP_11"/>
@@ -6876,7 +6903,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">XXX<!-- REVOIR>photo mal prise -->.</seg>
                         <seg type="location">B14-4ra</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-12" unit="chapter" xml:id="RP_12"/>
@@ -6913,7 +6940,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Karus XXta Peliarmenus pour le souceurs.</seg>
                         <seg type="location">B13-2vb</seg>
-                        <seg type="note">rubric+hist. initial</seg>
+                        <seg type="note">rubric+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="6-13" unit="chapter" xml:id="RP_13"/>
@@ -6950,7 +6977,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi que Karus fu repairiés de Peliarmenus et il ot eut bataille a Mirus.</seg>
                                 <seg type="location">B13-7ra</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-14" unit="chapter" xml:id="RP_14"/>
@@ -6989,7 +7016,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi come Peliarmenus fu desconfis et il se retraist.</seg>
                                 <seg type="location">B15-4ra</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-15" unit="chapter" xml:id="RP_15"/>
@@ -7027,7 +7054,7 @@
                             <ab corresp="#Pelyarmenus_V_15" type="ms_instance">
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">?</seg>
-                                <seg type="note">Missing section in this damaged manuscript</seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
                             </ab>
                         </div>
                         <milestone n="6-16" unit="chapter" xml:id="RP_16"/>
@@ -7065,7 +7092,7 @@
                             <ab corresp="#Pelyarmenus_V_16" type="ms_instance">
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">?</seg>
-                                <seg type="note">Missing section in this damaged manuscript</seg>
+                                <seg type="note">missing section in this damaged manuscript</seg>
                             </ab>
                         </div>
                         <milestone n="6-17" unit="chapter" xml:id="RP_17"/>
@@ -7106,7 +7133,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi come Dorus fu envoiiés cuerre a Lembourch.</seg>
                                 <seg type="location">B16-2va</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-18" unit="chapter" xml:id="RP_18"/>
@@ -7142,7 +7169,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">?</seg>
                                 <seg type="location">B17-3va</seg>
-                                <seg type="note">inaccessible(no certainty that there is any rubric or hist. initial)</seg>
+                                <seg type="note">inaccessible(no certainty that there is any rubric or hist.initial)</seg>
                             </ab>
                         </div>
                         <milestone n="6-19" unit="chapter" xml:id="RP_19"/>
@@ -7179,7 +7206,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi come Peliarmenus et li sien se reteraissent en Costantinoble.</seg>
                                 <seg type="location">B17-5rb</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-20" unit="chapter" xml:id="RP_20"/>
@@ -7216,7 +7243,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi come .i. mes conte au roi d'Aragon que Josias encontre lui.</seg>
                                 <seg type="location">B17-8vb</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-21" unit="chapter" xml:id="RP_21"/>
@@ -7254,7 +7281,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ensi que Peliarmenus (inaccessible) Helkanum son frere XXX(help #SL) en prison (inaccessible).</seg>
                                 <seg type="location">B17-13va</seg>
-                                <seg type="note">rubric(partially)+hist. initial(B17-14ra? (inaccessible))</seg>
+                                <seg type="note">rubric(partially)+hist.initial(B17-14ra? (inaccessible))</seg>
                             </ab>
                         </div>
                         <milestone n="6-22" unit="chapter" xml:id="RP_22"/>
@@ -7407,7 +7434,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">(inaccessible)</seg>
                                 <seg type="location">B17-16rb</seg>
-                                <seg type="note">rubric(inaccessible)+hist. initial(partially)</seg>
+                                <seg type="note">rubric(inaccessible)+hist.initial(partially)</seg>
                             </ab>
                         </div>
                         <milestone n="6-26" unit="chapter" xml:id="RP_26"/>
@@ -7445,7 +7472,7 @@
                                 <seg type="rubric">Ci en(inaccessible) ent li contes a l'empereur de Costantino(inaccessible)e 
                                     et a son fil Fastidorum de Rome.</seg>
                                 <seg type="location">B17-18ra</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-27" unit="chapter" xml:id="RP_27"/>
@@ -7518,7 +7545,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">(inaccessible) Nera (inaccessible) l'amoit.(#SL)</seg>
                                 <seg type="location">B17-21va</seg>
-                                <seg type="note">rubric(partially)+hist. initial(partially)</seg>
+                                <seg type="note">rubric(partially)+hist.initial(partially)</seg>
                             </ab>
                         </div>
                         <milestone n="6-29" unit="chapter" xml:id="RP_29"/>
@@ -7555,7 +7582,7 @@
                                 <seg type="witness">R</seg>
                                 <seg type="rubric">Ci endroit (inaccessible) li contes a Helkanum (inaccessible).</seg>
                                 <seg type="location">B17-22vb</seg>
-                                <seg type="note">rubric+hist. initial</seg>
+                                <seg type="note">rubric+hist.initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-30" unit="chapter" xml:id="RP_30"/>
