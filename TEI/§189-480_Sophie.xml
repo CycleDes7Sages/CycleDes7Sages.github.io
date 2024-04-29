@@ -2905,7 +2905,7 @@
                   <app>
                      <lem wit="#V2 #G #X2"><rs type="person" key="Ascanus">mon frere</rs> est</lem>
                      <rdg wit="#B">est mes freres</rdg>
-                  </app> assis dedenz <placeName key="Nise">Nise</placeName> du <rs type="person"
+                  </app> assis dedenz <placeName key="Nise">Nise</placeName> du<!-- Help PD : commenter ici l'emploi de "du"? A-t-il le sens de "par"? --> <rs type="person"
                      key="Japhus">filz le <rs type="person" key="Odonie">roy de <placeName
                            key="Frise">Frise</placeName></rs></rs> vostre cousin et de <persName
                      key="Helcanus">Helcanus</persName> vostre frere, si n’a pooir de issir
@@ -2940,7 +2940,7 @@
                      <rdg wit="#X2">cui</rdg>
                   </app> il eust <app>
                      <lem wit="#V2 #G #X2">onques afaire</lem>
-                     <rdg wit="#B">afaire onques</rdg>
+                     <rdg wit="#B">afaire onques</rdg><!-- Help PD : supprimer la variante -->
                   </app> ?</said> Dont a fait maintenant ses clers devant lui venir et fist escrire
                lectres et briez <app>
                   <lem wit="#V2 #G #X2">et</lem>
@@ -2987,7 +2987,7 @@
                   </app>, et je <app>
                      <lem wit="#V2 #G #X2">demorrai ci</lem>
                      <rdg wit="#B">ci demorrai</rdg>
-                  </app> et porverrai ma terre, car je croi bien, <app>
+                  </app><!-- Help PD ne pas garder la variante --> et porverrai ma terre, car je croi bien, <app>
                      <lem wit="#V2 #B">se</lem>
                      <rdg wit="#G #X2">que, se</rdg>
                   </app> je <app>
@@ -3128,7 +3128,7 @@
                <app>
                   <lem wit="#V2 #G #X2">et</lem>
                   <rdg wit="#B">puis</rdg>
-               </app>
+               </app><!-- Help PD : enlever de l'apparat l'alternance "et/puis", cf. constitution du texte -->
                <app>
                   <lem wit="#V2 #G #X2">a pris</lem>
                   <rdg wit="#B">prist</rdg>
@@ -3248,7 +3248,7 @@
                      </app> l’autre</lem>
                   <rdg wit="#X2">des autres</rdg>
                </app> et sont venu as chevaus poindre. Si les ont poins si adroit que bien s’en
-               peust on merveillier qui les veist, car tant aigrement vindrent ensemble que <app>
+               peust on merveillier qui les veist<!-- Help PD le redoublement du pronom "on" et "qui" est-il à commenter? J'ai l'impression qu'on attendrait "bien s'en peust on merveiller" ou "bien s'en peust merveiller qui les veist", mais moins les deux ensemble. -->, car tant aigrement vindrent ensemble que <app>
                   <lem wit="#V2 #G #X2">eulz</lem>
                   <rdg wit="#B">il</rdg>
                </app> meismes <app>
@@ -3281,7 +3281,7 @@
                <app>
                   <lem wit="#V2 #G #X2">leur coups de</lem>
                   <rdg wit="#B"/>
-               </app> leur <cb n="f"/>lances. Dont <app>
+               </app> leur<!-- Help PD : commenter le redoublement de "leur"? --> <cb n="f"/>lances. Dont <app>
                   <lem wit="#V2 #G #X2">mistrent</lem>
                   <rdg wit="#B">mist</rdg>
                </app>
@@ -3619,7 +3619,7 @@
                   </app> lieu que tu me savras pour faire 
                      <app>                   
                      <lem wit="#V2 #G #X2">de toi</lem>
-                        <rdg wit="#B">XXX</rdg></app>
+                        <rdg wit="#B">XXX</rdg></app><!-- Help PD : attention à la variante de B ici -->
                      ma volenté, se ainssi 
                      <app>
                      <lem wit="#V2 #G">n’est</lem>
@@ -3726,7 +3726,7 @@
                   dedenz <app>
                      <lem wit="#V2 #G">quant</lem>
                      <rdg wit="#B #X2">combien</rdg>
-                  </app> seront <app>
+                  </app><!-- Help PD : le passage est difficile à comprendre. J'ai l'impression qu'il faut lire "dedenz quant" = "d'ici quand".--> seront <app>
                      <lem wit="#B #G #X2">il</lem>
                      <rdg wit="#V2">il bien</rdg>
                   </app> ci ? ce dist <persName key="Mirrus">Myrrus</persName>.</said><said
@@ -4000,7 +4000,7 @@
                      <lem wit="#V2 #G #X2">voulez</lem>
                      <rdg wit="#B">voliez</rdg>
                   </app> otroier <num>x<hi rend="exp">m</hi></num> chevaliers, je feroie secors <cb n="f"/>a <rs type="person" key="Melode">la pucele</rs>, et vous di por voir que
-                  je en leveroie <persName key="Pelyarmenus">Peliarmenus</persName>
+                  je en leveroie<!-- Help PD ou "enleveroie" en un mot? --> <persName key="Pelyarmenus">Peliarmenus</persName>
                   <app>
                      <lem wit="#V2 #G #X2">du tout ou je</lem>
                      <rdg wit="#B">ou je du tout</rdg>
@@ -5144,7 +5144,7 @@
                         <rdg wit="#X2">mis</rdg>
                      </app> seur leur hyaumes et les espees empoigniees, et maintenant<note
                         type="notecritique"><hi rend="italique">et</hi> en tête de principale après
-                        une proposition temporelle.</note></lem>
+                        une proposition temporelle.</note><!-- Help PD on pourrait compléter la note en donnant la valeur de "et" dans ce contexte. --></lem>
                   <rdg wit="#G">Mais ilz</rdg>
                </app> se sont adossé et <app>
                   <lem wit="#V2 #G #X2">ont feru</lem>
@@ -5565,7 +5565,7 @@
                </app> comme fait li leus entre les <app>
                   <lem wit="#V2 #G #X2">brebis</lem>
                   <rdg wit="#B">oueilles</rdg>
-               </app> et il est fameilleus, tout aussi <app>
+               </app> et il est fameilleus<!-- Help PD : on pourrait ici donner une valeur à "et" en proposant une traduction "quand il est affamé". -->, tout aussi <app>
                   <lem wit="#V2 #G #X2">fait</lem>
                   <rdg wit="#B">faisoit</rdg>
                </app> cil qui <app>
@@ -7021,7 +7021,7 @@
                   <rdg wit="#G">passerent</rdg>
                </app> la <placeName key="Forest de Vulgue">Forest de Vulgue</placeName> et se
                mistrent les os par la contree, qui moult es<cb n="b"/>toit estrange assez<note
-                  type="notecritique">B place <hi rend="italique">assez</hi> après le point, le
+                  type="notecritique">B place <hi rend="italique">assez</hi> après le point,<!-- Help PD je ne parlerais pas du fait que "B place le point" car techniquement la ponctuation est la tienne. --> le
                   faisant ainsi appartenir à la phrase suivante.</note>. Poi trouverent de villes ne
                de chastiaus qui contre eulz ne fussent, mais si fors <app>
                   <lem wit="#V2 #G #X2">n’estoient</lem>
@@ -7150,9 +7150,9 @@
                      <lem wit="#V2 #G">si freres</lem>
                      <rdg wit="#B">il freres (<hi rend="italique">sic</hi>)</rdg>
                      <rdg wit="#X2">‹l›[s]i freres</rdg>
-                  </app></rs> a ceulz a <app>
+                  </app><!-- Help PD : est-ce que tu veux commenter les différentes variantes ici? Comme plus haut on a une surdétermination de la possession. N'attendrait-on pas "li freres"? --></rs> a ceulz a <app>
                   <lem wit="#V2 #G #X2">cui</lem>
-                  <rdg wit="#B">qui</rdg>
+                  <rdg wit="#B">qui</rdg><!-- Help PD je ne suis pas certaine qu'on a dit qu'on gardait alternance qui/cui. -->
                </app> il estoit <app>
                   <lem wit="#V2 #G #X2">fust</lem>
                   <rdg wit="#B"/>
@@ -7181,7 +7181,7 @@
                   </app>
                   <app>
                      <lem wit="#V2 #G #X2">et conjoié (<hi rend="italique">sic</hi>)</lem>
-                     <rdg wit="#B"/>
+                     <rdg wit="#B"/><!-- Help PD : attention "sic" apparaît dans le texte édité. J'enlèverais le sic, c'est le verbe "conjoyer" "congédier". -->
                   </app> de lui quant il me commanda a faire ce que je fis. <app>
                      <lem wit="#V2 #G #X2">Et</lem>
                      <rdg wit="#B"/>
