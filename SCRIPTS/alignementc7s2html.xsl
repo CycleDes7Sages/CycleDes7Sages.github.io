@@ -98,6 +98,9 @@
                 <td class="ms_V1">
                     <xsl:text>V1 </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <h2><a href="{@url}" target="_blank">🖼️</a></h2>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -114,6 +117,10 @@
                     <xsl:if test="seg[@type='note']">
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
+                    </xsl:if>                    
+                    <xsl:if test="seg[@type='commentary']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='commentary']"/>
                     </xsl:if>
                 </td>
             </xsl:when>
@@ -545,7 +552,7 @@
                         <xsl:value-of select="seg[@type='note']"/>
                     </xsl:if>
                 </td>
-            </xsl:when>
+            </xsl:when>            
             <xsl:otherwise>
                 <td>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
