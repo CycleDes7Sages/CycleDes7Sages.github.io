@@ -603,6 +603,7 @@
             <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées du ms. X2 inaccessible</change>
             <change who="#CC" when="2023-11-27">Introduction revue</change>
             <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
+            <change who="#CC" when="2024-04-25">Alignement complet de R + Header lié</change>            
         </revisionDesc>
     </teiHeader>
     <text>
@@ -612,9 +613,12 @@
                 <div type="alignment" xml:id="R7S_V_1">
                     <ab corresp="#R7S_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
-                        <seg type="incipit">illisible<unclear reason="faded"/></seg>
-                        <seg type="location">1ra-b-c</seg>
+                        <seg type="incipit">(illisible)<unclear reason="faded"/></seg>
+                        <seg type="location">1ra-b-c</seg>                        
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f7.item.r=fr.zoom"/>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
+                        <seg type="commentary">Ce premier folio est passé et ne laisse donc pas lire l'incipit indiqué à longues lignes 
+                        sous l'enluminure.</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -623,7 +627,7 @@
                         de Coustantinoble.</seg>
                         <seg type="location">1ra</seg>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
-                        <seg type="note">Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
+                        <seg type="commentary">Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
                         concentration on Pelyarmenus, whose romance does not start with any implicit</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
@@ -644,6 +648,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris met l’empereour a raison que il mande son filz et les .vii. sages.</seg>
                         <seg type="location">2ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f9.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(2rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_2" type="ms_instance">
@@ -674,7 +679,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li empereres commanda que son filz fu remis en chartre pour 
                             la vergongne que il avoit faite a l’empereris sa femme.</seg>
-                        <seg type="location">3ra</seg>
+                        <seg type="location">3ra</seg>                        
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f11.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(3rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
@@ -701,7 +707,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris dist a l’emperour que aussi li puist il avenir de son filz comme 
                             il fist au pin de son piniau.</seg>
-                        <seg type="location">3va</seg>
+                        <seg type="location">3va</seg>                        
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f12.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_4" type="ms_instance">
@@ -729,7 +736,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Bancillas salue l’empereour et li dist que aussi li puist il avenir de son filz 
                             comme au vavassour de son levrier.</seg>
-                        <seg type="location">4ra</seg>
+                        <seg type="location">4ra</seg>                       
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f13.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>                        
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
@@ -737,7 +745,7 @@
                         <seg type="rubric">Ici commence Bancillas un conte du chevalier qui tua son levrier.</seg>
                         <seg type="location">3vb</seg>
                         <seg type="note">rubric+initial. no miniature</seg>
-                        <seg type="note">The rubric given in B, corresponding to the one given in V1, 
+                        <seg type="commentary">The rubric given in B, corresponding to the one given in V1, 
                             is not indicated at the same place : 
                             B associates this rubric to a previous paragraph in V1, given in 3vc. 
                             The paragraphs do not correspond between 
@@ -768,7 +776,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Anciles salue l’emperour et li dist que aussi li puist il avenir de son filz 
                             que il fist Ypocras de son neveu.</seg>
-                        <seg type="location">5rb</seg>
+                        <seg type="location">5rb</seg>                       
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f15.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_6" type="ms_instance">
@@ -796,7 +805,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris dist a l’emperour que ainssi li puist il avenir de croire le conseil 
                             des .vii. sages comme il fist a celui qui ot sa teste getee en la longaigne par son filz.</seg>
-                        <seg type="location">5vc</seg>
+                        <seg type="location">5vc</seg>                        
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f16.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_7" type="ms_instance">
@@ -824,7 +834,8 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Lentulus salue l’emperour et dist que aussi li puist venir de son filz 
                             que au vavassour de sa femme.</seg>
-                        <seg type="location">6vc</seg>
+                        <seg type="location">6vc</seg>                       
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f18.item.r=fr.zoom"/>
                         <seg type="note">miniature(6vb)+rubric+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
@@ -860,6 +871,7 @@
                         <seg type="rubric">Comment Manonidas li tors salue l’emperour et li dist que se il fait morir son filz sanz 
                             jugement que aussi l’en puist il avenir que il fist au riche ancien sage de sa femme.</seg>
                         <seg type="location">8ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f21.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
@@ -867,8 +879,8 @@
                         <seg type="rubric">Ci commence maistre Malquidans un conte de l'ancien sage qui fist sa femme sainier de 
                             .ii. bras.</seg>
                         <seg type="location">7vb</seg>
-                        <seg type="note">rubric+initial. no miniature
-                        Subject: different name for the wise one</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
+                        <seg type="commentary">Subject: different name for the wise one</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -890,6 +902,7 @@
                         <seg type="rubric">Comment l’empereris conte a l’empereour comment on fist fondre or en la bouche et es oreille 
                             l’empereour Crassus pour sa convoitise.</seg>
                         <seg type="location">9ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f23.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(9rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
@@ -918,6 +931,7 @@
                         <seg type="rubric">Comment Catons salue l’empereour et li dist que aussi li puist il avenir de son filz 
                             que au bourgois qui tua sa pie qui voir li disoit pour les paroles de sa femme.</seg>
                         <seg type="location">10ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f25.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(10rb)</seg>
                     </ab>
                     <ab corresp="#R7S_V_11" type="ms_instance">
@@ -945,6 +959,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereris dist a l’empereour que ainssi li puist il avenir de son filz 
                             que il fist au roy Herode qui perdi sa veue par le conseil des .vii. sages.</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f26.item.r=fr.zoom"/>
                         <seg type="location">10vb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
@@ -974,6 +989,7 @@
                         <seg type="rubric">Comment Jesse li sages salue l’empereour et li dist que ainssi li puist il avenir de son filz 
                             que il fist au visconte qui morut por sa femme qui le pendi puis qu’il fu mors.</seg>
                         <seg type="location">11rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f27.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(11va)+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_13" type="ms_instance">
@@ -1002,6 +1018,7 @@
                         <seg type="rubric">Comment l’empereris devise a l’empereour de Jenus que il fist par son enging une beste 
                             si merveilleuse qu’il en chaça les Sarrasins qui estoient venus assir Romme.</seg>
                         <seg type="location">12rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f29.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_14" type="ms_instance">
@@ -1030,6 +1047,7 @@
                         <seg type="rubric">Comment Mereneus salue l’empereour et li dist que aussi li puist il avenir de son filz
                             comme il fist a cellui qui miex creoit les paroles sa femme que ce qu'il veoit.</seg>
                         <seg type="location">12vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f31.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(13ra)+initial(13ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
@@ -1064,6 +1082,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li damoisiaus espont au roy le cri des .ii. corbiaus et de la corbe.</seg>
                         <seg type="location">14va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f34.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
@@ -1076,8 +1095,8 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.</seg>
                         <seg type="location">16vb-c</seg>
-                        <seg type="note">extra rubric+miniature(16vb-c)+initial(16vc) 
-                            (kind of extended version of the end of R7S)</seg>
+                        <seg type="note">extra rubric+miniature(16vb-c)+initial(16vc)</seg>
+                        <seg type="commentary">kind of extended version of the end of R7S</seg>
                         <!-- SV: cas plus spécifique: version étendue de la fin du R7S dans B -->
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
@@ -1099,6 +1118,7 @@
                         <seg type="explicit">Explicit les .vii. sages de Romme. 
                             Ci fine li livres des .vii. sages de Romme et de la marrastre qui fu arse.</seg>
                         <seg type="location">14vc+15ra-b</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f35.item.r=fr.zoom"/>
                         <seg type="note">explicit(14vc)+miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
                     </ab>
                     <ab corresp="#R7S_V_17" type="ms_instance">
@@ -1118,8 +1138,8 @@
                         <seg type="explicit"><unclear reason="faded">Ci fine li livres</unclear> des .vii. sages de Romme et de la
                             marrastre quy fu arse.</seg>
                         <seg type="location">2ra-b-c</seg>
-                        <seg type="note">rubric+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r. and R7S missing before its explicit</seg>
+                        <seg type="note">rubric+miniature(2ra-b-c)+initial(2ra+2rb+2rc)</seg>
+                        <seg type="commentary">Beginning of ms. on f. 2r. and R7S missing before its explicit</seg>
                     </ab>
                 </div>
                 <milestone n="2-1" unit="chapter" xml:id="RM_1"/>
@@ -1129,6 +1149,7 @@
                         <seg type="incipit">Et commence li livres de Marques de Romme. 
                             Comment Dyoclesiens regna aprés la mort son pere en grant painne.</seg>
                         <seg type="location">15ra-b</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f35.item.r=fr.zoom"/>
                         <seg type="note">miniature(15ra-b)+explicit(red)+implicit(red)+initial(15ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_1" type="ms_instance">
@@ -1150,8 +1171,8 @@
                         <seg type="incipit">Et commence li livres de Marques. Comment Dyoclesiens regna aprés la mort 
                             de son pere en grant painne.</seg>
                         <seg type="location">2ra-b-c</seg>
-                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)
-                            Beginning of ms. on f. 2r.</seg>
+                        <seg type="note">explicit(red)+implicit(red)+miniature(2ra-b-c)+initial(2ra+2rb+2rc)</seg>
+                        <seg type="commentary">Beginning of ms. on f. 2r.</seg>
                     </ab>
                 </div>
                 <milestone n="2-2" unit="chapter" xml:id="RM_2"/>
@@ -1160,6 +1181,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Du songe et de l'avision que li empereres vit en son dormant.</seg>
                         <seg type="location">18va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f42.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(18vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
@@ -1187,6 +1209,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques li seneschaus de Romme fist apporter les huches du tresor au temple.</seg>
                         <seg type="location">20va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f46.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(20vb)+initial(20vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
@@ -1214,6 +1237,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereriz volt couper le poing a Marques.</seg>
                         <seg type="location">22vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f50.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(22vc)</seg>
                     </ab>
                     <ab corresp="#Marques_V_4" type="ms_instance">
@@ -1241,6 +1265,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques jousta a la quintainne et tous ses compaignons.</seg>
                         <seg type="location">24rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f53.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(24va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
@@ -1269,6 +1294,7 @@
                         <seg type="rubric">Comment Marques de Romme parole aus damoiseles. 
                             Et comment il coupa la teste au maistre et a touz ses compaignons.</seg>
                         <seg type="location">27rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f59.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_6" type="ms_instance">
@@ -1298,6 +1324,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques s’en ala en Costantinnoble.</seg>
                         <seg type="location">30vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f66.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_7" type="ms_instance">
@@ -1325,6 +1352,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques et la royne alerent ensemble en .i. vergier et parlerent de plusieurs choses.</seg>
                         <seg type="location">32rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f69.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(32va)+initial(32va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
@@ -1346,9 +1374,9 @@
                         <seg type="rubric">Comment Marques et Laurine parollent ensamble en .i. vergier de plusieurs choses.</seg>
                         <seg type="location">18rc</seg>
                         <seg type="note">rubric+miniature(18va-b)+initial(18va)</seg>
-                        <seg type="note">Subject: precision of Laurine's name; 
+                        <seg type="commentary">Subject: precision of Laurine's name; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
-                        <seg type="note">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma : proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-9" unit="chapter" xml:id="RM_9"/>
@@ -1358,6 +1386,7 @@
                         <seg type="rubric">Comment Marques revint a la royne et entra ou chastel de Bel Manoir 
                             et une pucelle si li vint a l’encontre.</seg>
                         <seg type="location">34vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f75.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(35ra)+initial(35ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
@@ -1365,7 +1394,7 @@
                         <seg type="rubric">Comment Marques vint a Bel Manoir ou la suer a l'empereeur de Coustantinoble estoit.</seg>
                         <seg type="location">38vb</seg>
                         <seg type="note">rubric+miniature+initial</seg>
-                        <seg type="note">Subject : intersting precision of Laurine's actual status; 
+                        <seg type="commentary">Subject : intersting precision of Laurine's actual status; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
@@ -1381,9 +1410,9 @@
                             et une pucelle si li vint a l'encontre.</seg>
                         <seg type="location">20vc</seg>
                         <seg type="note">rubric+miniature(20vb-c)+initial(20vb)</seg>
-                        <seg type="note">Subject : precision of Laurine's name; 
+                        <seg type="commentary">Subject : precision of Laurine's name; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
-                        <seg type="note">Stemma : interesting position of X between B and V</seg>
+                        <seg type="commentary">Stemma : interesting position of X between B and V</seg>
                     </ab>
                 </div>
                 <milestone n="2-10" unit="chapter" xml:id="RM_10"/>
@@ -1393,6 +1422,7 @@
                         <seg type="rubric">Comment l’empereriz de Romme s’en ala en Lombardie au duc son pere. 
                             Et comment li empereres la fist querre.</seg>
                         <seg type="location">38rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f82.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(38va)+initial(38va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_10" type="ms_instance">
@@ -1423,6 +1453,7 @@
                         <seg type="rubric">Comment li empereres de Costantinnoble envoia une lettres a l’empereeur de 
                             Romme, qui estoit son cousin germain.</seg>
                         <seg type="location">40rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f85.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_11" type="ms_instance">
@@ -1453,6 +1484,7 @@
                         <seg type="rubric">Comment li roys de Frise manda a l’empereeur de Costantinnoble par .i. message 
                             que il se viengne rendre a lui et crier merci.</seg>
                         <seg type="location">43rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f91.item.r=fr.zoom"/>
                         <seg type="note">miniature(43ra)+rubric+initial(43rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_12" type="ms_instance">
@@ -1485,6 +1517,7 @@
                             et comment il coupa a Patan le braz destre et le pié destre et l’outra et vainqui. 
                             Et comment il s’en revint en Costantinnoble sain et haitié.</seg>
                         <seg type="location">44ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f93.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(44rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_13" type="ms_instance">
@@ -1517,6 +1550,7 @@
                         <seg type="rubric">Comment l’empereiz compte a l’empereeur comment li damoisiaus de Romme fu deceuz 
                             par son escuier qui li embla son anel.</seg>
                         <seg type="location">45vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f96.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(46ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
@@ -1537,7 +1571,7 @@
                         <seg type="rubric">ø</seg>
                         <seg type="location">31ra</seg>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="note">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma : proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-15" unit="chapter" xml:id="RM_15"/>
@@ -1547,6 +1581,7 @@
                         <seg type="rubric">Comment les .vii. sages de Romme s’agenouillierent devant l’empereeur 
                             et li prierent a jointes mains qu’il eust pitié de Marques.</seg>
                         <seg type="location">46va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f98.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(46vb)+initial(46vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_15" type="ms_instance">
@@ -1577,6 +1612,7 @@
                         <seg type="rubric">Comment l’empereris compte a l’empereeur et aus barons que il fu .i. empereeur a Romme 
                             qui moult se fioit en son seneschal, lequel seneschal deçut l’empereeur et sa femme que il ot fianciee.</seg>
                         <seg type="location">47rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f99.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(47rc)+initial(47rc)</seg>
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
@@ -1606,6 +1642,7 @@
                         <seg type="rubric">Comment Maistre Amcilles compte a l’empereeur que la fille d’un bourgois mist sus a Marin, 
                             qui moines estoit, qui l’avoit engroissiee et il estoit femme.</seg>
                         <seg type="location">48ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f101.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
@@ -1635,6 +1672,7 @@
                         <seg type="rubric">Comment l’empereris compte a l’empereeur de Ypocras qui avoit garandi son neveu de mort par 
                             herbes, et que ausi li .vii. sage garandiroient Marques de mort par leurs paroles.</seg>
                         <seg type="location">48va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f102.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(48vb)+initial(48vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
@@ -1664,6 +1702,7 @@
                         <seg type="rubric">Comment Mestre Tulles compte a l’empereeur de Herodias qui fist demander 
                             par sa fille le chief saint Jehan Baptistre a Herode.</seg>
                         <seg type="location">49rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f103.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(49va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
@@ -1684,7 +1723,7 @@
                         <seg type="rubric">ø</seg>
                         <seg type="location">34ra</seg>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="note">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma : proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-20" unit="chapter" xml:id="RM_20"/>
@@ -1693,6 +1732,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereriz compte son compte a l’empereeur pour faire mettre Marques a mort.</seg>
                         <seg type="location">49vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f104.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_20" type="ms_instance">
@@ -1721,6 +1761,7 @@
                         <seg type="rubric">Comment li empereres fait lire par .i. clerc l’essample que Malcuidans bailla 
                             pour ce qu’il ne pot entrer en la salle.</seg>
                         <seg type="location">50vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f107.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(51ra)+initial(51ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
@@ -1740,7 +1781,7 @@
                         <seg type="witness">X1</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="note">no rubric+miniature+initial</seg>
-                        <seg type="note">There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
+                        <seg type="commentary">There is a gap in X1: the section given, in V1, in ff. 50v-51r-51va is lacking. 
                             Following approximately the same layout as in V1, X1 gives, on f. 34vc, the paragraph given
                             in V1 on f. 50rc and gives, on f. 35ra, what V1 gives on f. 51vb (starting at the beginning of this new column).
                             <!-- SV: cas plus spécifique: trou dans X1-->.</seg>
@@ -1754,6 +1795,7 @@
                             deceuz par sa debonnaireté par son seneschal qui fist couper la teste au filz l’empereeur et l’empereeur 
                             son pere desposer de l’empire et lui faire faire empereeur par ses dons.</seg>
                         <seg type="location">51vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f109.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(52ra)+initial(52ra)</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
@@ -1775,7 +1817,7 @@
                         <seg type="rubric">ø</seg>
                         <seg type="location">35rb</seg>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="note">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma : proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-23" unit="chapter" xml:id="RM_23"/>
@@ -1785,6 +1827,7 @@
                         <seg type="rubric">Comment Jesse vint a la court et ne pot entrer ens et bailla au portier .i. brief a 
                             qui il dit qu’il le baillast a l’empereeur et qu’il le feist lire par .i. clerc.</seg>
                         <seg type="location">52vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f110.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
@@ -1805,7 +1848,7 @@
                         <seg type="rubric">ø</seg>
                         <seg type="location">35vc</seg>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="note">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma : proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-24" unit="chapter" xml:id="RM_24"/>
@@ -1814,6 +1857,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment l’empereriz compte comment Clyges deçut son oncle de sa femme.</seg>
                         <seg type="location">53va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f112.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
@@ -1834,7 +1878,7 @@
                         <seg type="rubric">Comment l'empereriz compte comment Clyges deçut son oncle de sa fame.</seg>
                         <seg type="location">37va</seg>
                         <seg type="note">rubric+miniature+initial</seg>
-                        <seg type="note">Stemma : proximity VX</seg>
+                        <seg type="commentary">Stemma : proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-25" unit="chapter" xml:id="RM_25"/>
@@ -1844,6 +1888,7 @@
                         <seg type="rubric">Ci dist comment li .vii. sage de Romme se firent amener a la court a l’empereeur de 
                             Romme dedenz une grant tonne.</seg>
                         <seg type="location">54ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f113.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
@@ -1871,7 +1916,7 @@
                             Romme dedenz une grant tonne.</seg>
                         <seg type="location">38rb</seg>
                         <seg type="note">rubric+miniature(38ra-b)+initial(38ra)</seg>
-                        <seg type="note">Stemma : proximity VX</seg>
+                        <seg type="commentary">Stemma : proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-26" unit="chapter" xml:id="RM_26"/>
@@ -1881,14 +1926,15 @@
                         <seg type="rubric">Comment l’empereriz de Romme et Othesbons son nourri furent ars pour 
                             la grande desloiauté que il avoient faite et pourpensée envers Marques le seneschal.</seg>
                         <seg type="location">55rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f115.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques reconnut au passer le norri a la dame.</seg>
                         <seg type="location">60ra</seg>
-                        <seg type="note">rubric+miniature(60rb)+initial(60rb)
-                        Subject : intersting presentation of Marques' role in the discovery</seg>
+                        <seg type="note">rubric+miniature(60rb)+initial(60rb)</seg>
+                        <seg type="commentary">Subject : intersting presentation of Marques' role in the discovery</seg>
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1914,8 +1960,8 @@
                         <seg type="rubric">Ci dist comment l’empereriz de Romme et Othesbons son nourri furent ars pour 
                             la grande desloyauté qu'il avoient fecte et pourpensée envers Marques le preudomme seneschal.</seg>
                         <seg type="location">40rc</seg>
-                        <seg type="note">displaced rubric+miniature+initial from RM_26 
-                            In X1, the rubric is given, on f.40rc, supposely after Laurin_V_1 and before Laurin_V_2. 
+                        <seg type="note">displaced rubric+miniature+initial from RM_26</seg> 
+                        <seg type="commentary">In X1, the rubric is given, on f.40rc, supposely after Laurin_V_1 and before Laurin_V_2. 
                             Considering that this whole section (X1 40rv) seems to have been displaced, we have prefered 
                             to present these data here, in connection to Roman de Marques and not to the next novel.</seg>
                     </ab>
@@ -1926,6 +1972,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="explicit">Explicit. Ici fine le Rommans et la vie de Marques le seneschal de Romme.</seg>
                         <seg type="location">56ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f117.item.r=fr.zoom"/>
                         <seg type="note">explicit+implicit+miniature(56rb-c)+initial(56rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
@@ -1933,8 +1980,8 @@
                         <seg type="explicit">Explicit. Ci endroit fenist le livre de Marques le seneschal de Romme qui ot a femme Laurine,
                         la suer a l'empereor de Constentinoble.</seg>
                         <seg type="location">60vc</seg>
-                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)
-                        Subject : interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
+                        <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
+                        <seg type="commentary">Subject : interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1956,6 +2003,7 @@
                         <seg type="incipit">Ci commence li livres de l’empereeur Fiseus qui fu filz a l’empereeur Dyoclesiens 
                             qui ot moult a faire tant comme il vesqui en ce siecle.</seg>
                         <seg type="location">56ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f117.item.r=fr.zoom"/>
                         <seg type="note">explicit+implicit+miniature(56rb-c)+initial(56rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
@@ -1963,7 +2011,7 @@
                         <seg type="incipit">Ci commence li livres de Laurin, le fils Marques le seneschal de Romme.</seg>
                         <seg type="location">60vc</seg>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
-                        <seg type="note">Subject : concentration on Laurin himself instead of Fiseus</seg>
+                        <seg type="commentary">Subject : concentration on Laurin himself instead of Fiseus</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1987,6 +2035,7 @@
                         <seg type="rubric">Comment li empereres et li roys de Sezille entrerent dedenz une chapelle pour parler 
                             li .i. a l’autre.</seg>
                         <seg type="location">60rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f125.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_2" type="ms_instance">
@@ -2018,6 +2067,7 @@
                         <seg type="rubric">Comment Synador parole a Galyenne, la fille au duc de Consorre. 
                             Et comment ele li compte du chevalier qui le veult avoir a force.</seg>
                         <seg type="location">63rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f131.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_3" type="ms_instance">
@@ -2047,6 +2097,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Synador parole au sire de Gorre et le fait metre en une fort prison.</seg>
                         <seg type="location">64rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f134.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(64va)+initial(64va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_4" type="ms_instance">
@@ -2076,6 +2127,7 @@
                         <seg type="rubric">Ci lairai a parler de Synador et de ses compaignons et vendrai a Galienne 
                             que Synador laissa en tel point comme vous avez oÿ devant.</seg>
                         <seg type="location">69rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f143.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(69rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_5" type="ms_instance">
@@ -2112,6 +2164,7 @@
                         <seg type="rubric">Comment Synador de Puille se combati au seigneur de Gorre qui vouloit avoir Galyenne. 
                             Et le conquist Synador et l’eust occis se on ne li eust osté.</seg>
                         <seg type="location">71ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f147.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
@@ -2141,6 +2194,7 @@
                         <seg type="rubric">Ci vient li comptes au garçon Synador qui estoit eschapez de la bataille de Maupertuis 
                             et estoit revenuz a Romme dire a l’empereeur comment Synador avoit esté assaillis, si comme dessus est dit.</seg>
                         <seg type="location">71rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f147.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_7" type="ms_instance">
@@ -2184,6 +2238,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques se combat a Gastor pour Gallyenne de Consorre.</seg>
                         <seg type="location">80vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f167.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(81ra)+initial(81ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_8" type="ms_instance">
@@ -2219,6 +2274,7 @@
                         <seg type="rubric">Comment Fyseum l’empereres conquist Romme contre Othesbons et contre les .vii. sages. 
                             Et comment il leur fist crever les iex et percier les mains.</seg>
                         <seg type="location">88ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f181.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(88rb)+initial(88rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_9" type="ms_instance">
@@ -2267,6 +2323,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Marques espousa Dyogenne.</seg>
                         <seg type="location">96va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f198.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_10" type="ms_instance">
@@ -2296,6 +2353,7 @@
                         <seg type="rubric">Comment Synador recongnut Marques quant il vint a Bonivent et que lui 
                             et ceulz de la cité li firent grant feste a sa venue.</seg>
                         <seg type="location">100rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f205.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_11" type="ms_instance">
@@ -2332,6 +2390,7 @@
                         <seg type="rubric">Comment Laurins se parti de Costantinoble 
                             et s’en ala en estrange terre pour adventures querre.</seg>
                         <seg type="location">104rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f213.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_12" type="ms_instance">
@@ -2362,6 +2421,7 @@
                         <seg type="rubric">Comment Alyenor s’en vint aprés ceulz qui enmenoient le chevalier dont li comptes parolle 
                             et le voult rescourre.</seg>
                         <seg type="location">104vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f214.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(105ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_13" type="ms_instance">
@@ -2393,6 +2453,7 @@
                         <seg type="rubric">Comment Laurins et ses compaignons se combatent aus robeeurs en leur chastel tot a pié 
                             et comment il rescourent .i. chevalier a qui li malfaiteur voloient tolir s’amie.</seg>
                         <seg type="location">107ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f219.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_14" type="ms_instance">
@@ -2423,6 +2484,7 @@
                         <seg type="rubric">Comment li roys Baudemagus va aprés le chevalier que il vit et puis le perdi. 
                             Et comment il encontra la pucele qui chantoit.</seg>
                         <seg type="location">109rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f223.item.r=fr.zoom"/>
                         <seg type="note">miniature(109rb)+rubric+initial(109rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_15" type="ms_instance">
@@ -2454,6 +2516,7 @@
                         <seg type="rubric">Comment Laurin si s’esveilla et s’asist d’encoste la fontainne ou il avoit dormi. 
                             Et comment il resgarda la pucelle et parolle a li.</seg>
                         <seg type="location">110vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f226.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_16" type="ms_instance">
@@ -2484,6 +2547,7 @@
                         <seg type="rubric">Comment Laurin s’en vint parler a l’ermite que Jagonce li avoit enseignié. 
                             Et comment il jousta au revenir a .iii. chevaliers qui enmenoient une pucelle.</seg>
                         <seg type="location">113ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f231.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(113rb)+initial(113rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_17" type="ms_instance">
@@ -2514,6 +2578,7 @@
                         <seg type="rubric">Comment Mirador li faus se presenta a Jagonce. 
                             Et comment Desiers en est venus touz armez devant li pour combattre a Laurin, qui encore n’estoit venuz.</seg>
                         <seg type="location">114rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f233.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_18" type="ms_instance">
@@ -2545,6 +2610,7 @@
                         <seg type="rubric">Comment Laurins se combat ou pré encontre Desier et l’a abatu par .ii. foys a terre par 
                             devant Jagonce que Desier vouloit avoir a femme.</seg>
                         <seg type="location">116rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f238.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(116va)+initial(116va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_19" type="ms_instance">
@@ -2576,6 +2642,7 @@
                             la forest ou il virent au matin le tournoi des chevaliers qui couvertures avoient de .ii. couleurs. 
                             Et comment il tournoierent avecques eulz.</seg>
                         <seg type="location">119ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f243.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_20" type="ms_instance">
@@ -2608,6 +2675,7 @@
                         <seg type="rubric">Comment Euriet enmenoit le vallet sus son cheval et Baudemagus et Mirador 
                             sont sus .i. autre qui se prennent a une grant compaignie de gent.</seg>
                         <seg type="location">120va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f246.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(120vb)+initial(120vb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_21" type="ms_instance">
@@ -2639,6 +2707,7 @@
                         <seg type="rubric">Comment Mirador et ses compaignons se departirent l’un de l’autre. 
                             Et comment Mirador perdi .i. brachet qu’il avoit et se mist en la queste de Laurin de Costantinoble.</seg>
                         <seg type="location">123rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f251.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_22" type="ms_instance">
@@ -2670,6 +2739,7 @@
                             Et comment il fist tourser tout l’avoir et ramena au vavassour sa fille qui li avoit esté ravie. 
                             Et comment il trouvera Laurin que il queroit.</seg>
                         <seg type="location">127rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f259.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_23" type="ms_instance">
@@ -2702,6 +2772,7 @@
                         <seg type="rubric">Comment Baudemagus se parti de ses compaignons et encontra .i. chevalier armé 
                             qui enmenoit une pucelle tout a pié.</seg>
                         <seg type="location">128va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f262.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_24" type="ms_instance">
@@ -2732,6 +2803,7 @@
                         <seg type="rubric">Comment Euriet se parti de Baudemagus et se mist en la queste de Laurin 
                             qui de ses compaignons s’estoit partis comme davant est dit.</seg>
                         <seg type="location">129va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f264.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_25" type="ms_instance">
@@ -2762,6 +2834,7 @@
                         <seg type="rubric">Comment Marques et Synador qui se estoient partiz d’Arragon pour querre Laurin vindrent 
                             en Galice et se combatirent pour le cors saint Jaque que on en vouloit porter ent a force.</seg>
                         <seg type="location">131ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f266.item.r=fr.zoom"/>
                         <seg type="note">miniature(130vc)+rubric+initial(131ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_26" type="ms_instance">
@@ -2793,6 +2866,7 @@
                         <seg type="rubric">Comment li roys Baudemagus se parti de Prosperpyne quant il li ot rendue sa pucelle 
                             et puis se mist au chemin pour querre le roy Artus.</seg>
                         <seg type="location">132vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f270.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_27" type="ms_instance">
@@ -2823,6 +2897,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment .ii. chevaliers se combatent ensemble dont li uns recognut l’autre.</seg>
                         <seg type="location">134rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f273.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(134rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_28" type="ms_instance">
@@ -2851,6 +2926,7 @@
                         <seg type="rubric">Ci vient li comptes a Laurin et a Mirador que Euries a consuy 
                             et se mist avecques eulz au chemin pour aller au roy Artus.</seg>
                         <seg type="location">135rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f275.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_29" type="ms_instance">
@@ -2881,6 +2957,7 @@
                         <seg type="rubric">Ci vient li comptes au tournoiement que li roys Artus fist crier. 
                             Et comment Marques et Synador le firent si bien que il en orent le pris de touz.</seg>
                         <seg type="location">137rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f279.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_30" type="ms_instance">
@@ -2918,6 +2995,7 @@
                         <seg type="rubric">Ci vient li comptes a Laurin si comme il se parti de Wincestre 
                             et ala aprés .i. chevalier et une pucelle.</seg>
                         <seg type="location">141rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f287.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(141va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_31" type="ms_instance">
@@ -2948,6 +3026,7 @@
                         <seg type="rubric">Comment Laurin mist a outrance le chevalier qui menoit la damoiselle. 
                             Et comment elle s’arma pour combatre a Laurin.</seg>
                         <seg type="location">143vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f292.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_32" type="ms_instance">
@@ -2984,6 +3063,7 @@
                         <seg type="rubric">Comment Marques de Romme et Synador de Puille se furent parti du tournoient 
                             et ont tant erré qu’il ont ataint Laurin.</seg>
                         <seg type="location">146ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f297.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(146rb)+initial(146rb)</seg>
                     </ab>
                    <ab corresp="#Laurin_V_33" type="ms_instance">
@@ -2991,7 +3071,7 @@
                         <seg type="rubric">Comment Maligne se combati encontre Kex le seneschal et le mist en sa merci.</seg>
                         <seg type="location">157ra</seg>
                         <seg type="note">rubric+miniature+initial</seg>
-                       <seg type="note">Subject : different subject</seg>
+                       <seg type="commentary">Subject : different subject</seg>
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3015,6 +3095,7 @@
                         <seg type="rubric">Comment li roys Artus vint a Wincestre pour faire houneur 
                             et feste au roy d’Arragon et a ses compaignons.</seg>
                         <seg type="location">147rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f300.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(147va)+initial(147va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_34" type="ms_instance">
@@ -3050,6 +3131,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Laurins se combati a Gauvain et ne savoit on qui il estoit.</seg>
                         <seg type="location">148vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f302.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(149ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_35" type="ms_instance">
@@ -3079,6 +3161,7 @@
                         <seg type="rubric">Ci vient li comptes au roy Marques et a Synador. 
                             Comment il se partirent de Galienne et de Dyogenne.</seg>
                         <seg type="location">150vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f306.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_36" type="ms_instance">
@@ -3109,6 +3192,7 @@
                         <seg type="rubric">Comment li roys de Cartage avoit assise la royne d’Arragon 
                             quant il sot que Marques n’i estoit mie.</seg>
                         <seg type="location">152rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f309.item.r=fr.zoom"/>
                         <seg type="note">miniature(152rb)+rubric+initial(152rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_37" type="ms_instance">
@@ -3139,6 +3223,7 @@
                         <seg type="rubric">Comment Marques envoia .i. chevalier a Kamaalot au roy Artus. 
                             Et comment il se parti de Gomer a tout les chevalier que la pucelle li bailla.</seg>
                         <seg type="location">154rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f313.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_38" type="ms_instance">
@@ -3170,6 +3255,7 @@
                         <seg type="rubric">Ci vient li contes au marquis de Nerbonne. 
                             Et comment Gauvin et si compaignon li vindrent aidier.</seg>
                         <seg type="location">154vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f314.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_39" type="ms_instance">
@@ -3200,6 +3286,7 @@
                         <seg type="rubric">Comment monseigneur Gauvain et les compaignons de la table roonde 
                             vindrent en l’aide au roy Marques.</seg>
                         <seg type="location">156vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f318.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(157ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_40" type="ms_instance">
@@ -3229,6 +3316,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li Syrrien quistrent leur seigneur entre les mors et le trouverent, si l’emporterent.</seg>
                         <seg type="location">157vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f320.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(157vc)+initial(157vc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_41" type="ms_instance">
@@ -3257,6 +3345,7 @@
                         <seg type="rubric">Comment li roys Marques laissa sa femme et s’en vint a Romme et devint convers 
                             et comment la royne se dormoit son oreillié entre ses bras.</seg>
                         <seg type="location">159vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f324.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial(160ra)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_42" type="ms_instance">
@@ -3287,6 +3376,7 @@
                         <seg type="rubric">Comment Laurins et ses compaignons vindrent au chastel de Gomer, 
                             la ou il avoit moult grant duel.</seg>
                         <seg type="location">160va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f326.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_43" type="ms_instance">
@@ -3318,6 +3408,7 @@
                         <seg type="rubric">Comment Laurin et si compaignon se partirent de Radoul 
                             et s’en vindrent a Wincestre jouster a la table roonde et enmenerent leurs amies avecques euls.</seg>
                         <seg type="location">163va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f332.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_44" type="ms_instance">
@@ -3348,6 +3439,7 @@
                         <seg type="rubric">Comment Laurins s’en revint de Bretaingne et amena Jagonce et s’en revint 
                             par Romme en Constantinnoble.</seg>
                         <seg type="location">166rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f337.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_45" type="ms_instance">
@@ -3378,6 +3470,7 @@
                         <seg type="rubric">Comment la suer Marques se fist amener a Romme par devant l’apostole 
                             et confessa par devant tous sa traïson.</seg>
                         <seg type="location">167rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f339.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_46" type="ms_instance">
@@ -3408,6 +3501,7 @@
                         <seg type="rubric">Comment li roys Marques fu revenus en Arragon et ne trouva mie sa femme 
                             et comment il le fist querre par toute sa terre.</seg>
                         <seg type="location">168rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f341.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(168rc)+initial(168rc)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_47" type="ms_instance">
@@ -3438,6 +3532,7 @@
                         <seg type="rubric">Comment la royne passa mer et l’amena on en Sezille. 
                             Et comment Gaurris li enmainne son enfant et sa pucelle.</seg>
                         <seg type="location">169vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f344.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Laurin_V_48" type="ms_instance">
@@ -3467,6 +3562,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la royne d’Arragon estoit a Narus et le vouloit avoir .i. bourgois a femme.</seg>
                         <seg type="location">170rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f346.item.r=fr.zoom"/>
                         <seg type="note">rubric+miniature(170va)+initial(170va)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_49" type="ms_instance">
@@ -3496,6 +3592,7 @@
                         <seg type="explicit">Ci fine li livres de Marques le seneschal de Romme 
                             et de Laurin son filz empereeur de Coustantinnoble.</seg>
                         <seg type="location">172rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f349.item.r=fr.zoom"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(172rb-c)+initial(172rb)</seg>
                     </ab>
                     <ab corresp="#Laurin_V_50" type="ms_instance">
@@ -3525,6 +3622,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="incipit">Ci commence li livres de Cassidorus, empereeur de Costantinnoble.</seg>
                         <seg type="location">172rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f349.item.r=fr.zoom"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(172rb-c)+initial(172rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_1" type="ms_instance">
