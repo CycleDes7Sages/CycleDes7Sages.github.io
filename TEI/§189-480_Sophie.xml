@@ -10912,7 +10912,7 @@
                </app> entendu, si ot moult grant <pb n="183"/>merveille de ce <app>
                   <lem wit="#V2 #G #X2">qu’il ot dit et</lem>
                   <rdg wit="#B"/>
-               </app> qu’il ot oÿ. <app>
+               </app> qu’il ot oÿ<!-- Help PD : Penses-tu qu'on pourrait faire une note : "Le premier "il" renvoie à Cliodorus et le second au roi. La version de B est plus simple en cela." -->. <app>
                   <lem wit="#V2 #B #X2">Si <app>
                         <lem wit="#V2 #X2">li</lem>
                         <rdg wit="#B"/>
@@ -12533,7 +12533,7 @@
                      <lem wit="#V2 #B #X2">Sui</lem>
                      <rdg wit="#G"/>
                   </app>, sire?</said> dist il. <said aloud="true" direct="true">Certes, oÿl. Mais
-                  que vous preudons soiez.</said><said rendition="dialogue" aloud="true"
+                  que vous preudons soiez.<!-- Help PD : ponctuer autrement pour ne pas laisser seule la proposition "mais...", "Certes, oÿl, mais que..." --></said><said rendition="dialogue" aloud="true"
                   direct="true">Sire, dist il, <app>
                      <lem wit="#V2 #G #X2">Diex y parface les desfautes</lem>
                      <rdg wit="#B">ce que y faut, Dieus le parface</rdg>
@@ -12655,7 +12655,7 @@
                </app> sont entrez en une moult <app>
                   <lem wit="#V2 #G #X2">bele</lem>
                   <rdg wit="#B">riche</rdg>
-               </app> chambre et puis en la tierce. Et lors vint li chevaliers a une fenestre et
+               </app> chambre et puis en la tierce<!-- Help PD : n'est pas étrange de passer d'une très belle chambre à la tierce. On pourrait expliquer que la référence à cette "tierce" chambre est logique : la première est celle de la rencontre, la deuxième celle où ils entrent avant la dernière, la troisième. -->. Et lors vint li chevaliers a une fenestre et
                l’ouvri et puis apela <persName key="Clyodorus">Clyodorus</persName> et li dist :
                   <said aloud="true" direct="true">Venez avant et regardez leenz se vous <app>
                      <lem wit="#V2 #G #X2">de riens</lem>
@@ -12689,7 +12689,7 @@
                   <lem wit="#V2 #G #X2">le <app>
                         <lem wit="#V2 #G">pooient</lem>
                         <rdg wit="#X2">pooit on</rdg>
-                     </app> entendre. Et entendi bien <persName key="Clyodorus"
+                     </app> entendre<!-- Help PD : Il me sembleq qu'on pourrait faire une note sur tout l'univers arthurien que convoque ce passage depuis l'entrée dans ce lieu mystérieux jusqu'à la présence du nain. -->. Et entendi bien <persName key="Clyodorus"
                      >Clyodorus</persName></lem>
                   <rdg wit="#B">pooit Clyodorus entendre ce</rdg>
                </app> que il disoit. Et en celui escout choisi que li <num>i</num> des <num>ii</num>
@@ -12776,7 +12776,7 @@
                   </app>. Et sitost comme vous savrez que ele ceenz <app>
                      <lem wit="#V2 #G #X2">enterra</lem>
                      <rdg wit="#B">enterra en cest hostel</rdg>
-                  </app>, vostre fin est venue se vous ne faites ce que je vous dirai.</said><said
+                  </app><note type="notecritique"><hi rend="italique">enterra</hi> = entrera, cf. analyse linguistique.</note>, vostre fin est venue se vous ne faites ce que je vous dirai.</said><said
                   rendition="dialogue" aloud="true" direct="true">Quel chose est ce ?</said> dist
                il. <said aloud="true" direct="true">Par foi, ce dist <rs type="person"
                      key="Chevalier de Mignot">li chevaliers</rs>, il couvient que je vous mete <app>
@@ -13072,7 +13072,7 @@
                   </app> et <app>
                      <lem wit="#V2 #G #X2">voult</lem>
                      <rdg wit="#B"/>
-                  </app> savoir se il estoit tiex comme il se faisoit. Un jour le fist venir a lui
+                  </app> savoir se il estoit tiex comme il se faisoit.<!-- Help PD Mettre une note rapide sur ce type de comparaison elliptique qu'on retrouve ailleurs? --> Un jour le fist venir a lui
                   et li dist : <seg ana="discoursEnchassé">Comment, biau sire, pouez vous estre tiex
                      comme je entens ?</seg>
                   <seg ana="discoursEnchassé">Damoisele, dist il, quiex entendez vous que je sui
@@ -13094,7 +13094,7 @@
                      </app> que vous <app>
                         <lem wit="#V2 #G #X2">me fussiez</lem>
                         <rdg wit="#B">fussiez autres que</rdg>
-                     </app> de bonne nature, que je metroie mon cuer en vous et seriez sires de moi, <app>
+                     </app><!-- Help PD : je me demande si la logique ne voudrait pas qu'on lise "se je ne cuidoie que vous NE fussiez", ce que laisse penser la version de B. Ici on pourrait juste dire qu'il faut comprendre "si je supposais que vous fussiez de bonne nature pour moi". --> de bonne nature, que je metroie mon cuer en vous et seriez sires de moi, <app>
                         <lem wit="#V2 #G #X2">si</lem>
                         <rdg wit="#B">ce</rdg>
                      </app> que vous porriez bien faire autant de <app>
@@ -13255,7 +13255,7 @@
                      <lem wit="#V2 #G #X2">metroit</lem>
                      <rdg wit="#B"/>
                   </app> felonnie entre piez. Dont fist li deables <rs type="place" key="Citerne"
-                     >ceste cisterne</rs> ainssi comme vous la <app>
+                     >ceste cisterne</rs><!-- Help PD : ajoueter une note : "Cette cisterne trouvera une réalisation plus positive, en contraste, dans la caverne dans laquelle vivra Cassidorus lors de sa retraite choisie et non subie comme ici. --> ainssi comme vous la <app>
                      <lem wit="#V2 #G #X2">veez</lem>
                      <rdg wit="#B">veez, dist li chevaliers</rdg>
                   </app>. Et est faite <app>
@@ -13319,7 +13319,7 @@
                      <rdg wit="#B">l'empereur</rdg>
                      <rdg wit="#G">et son compaignon l'empereur</rdg>
                   </app><note type="notecritique">Sur ce passage, voir ci-dessus <hi rend="italique"
-                        >Introduction</hi>.</note><app>
+                        >Introduction littéraire</hi>.</note><app>
                      <lem wit="#V2 #B #X2">et <rs type="person" key="Daphus">son
                         compaignon</rs></lem>
                      <rdg wit="#G"/>
@@ -13398,7 +13398,7 @@
                </app> la chambre ou <rs type="person" key="Cassidorus">li emperieres</rs> et
                   <persName key="Daphus">Daphus</persName> estoient, <said who="#nar">tout ainssi
                   comme je vous ai compté</said>. Quant il virent <rs type="person" key="Celidoine"
-                  >la damoisele</rs>, si sont sailliz en piez et commencierent a joie faire. <rs
+                  >la damoisele</rs>, si sont sailliz en piez et commencierent a joie faire.<!-- Help PD : ici ce n'est pas simple de suivre car les deux phrases qui suivent n'ont pas de verbe conjugué. Est-ce qu'on pourrait juste préciser ceci : Les deux phrases qui suivent, qui sont averbales, servent seulement à présenter rapidement les deux personnages en question et les grands traits de leur nouvelle vie.". --> <rs
                   type="person" key="Cassidorus">Li emperie<pb n="187"/>res</rs>, qui a ce estoit <app>
                   <lem wit="#V2 #G #X2">menez</lem>
                   <rdg wit="#B">amenez</rdg>
@@ -13613,7 +13613,7 @@
                   </app> ne voudroit <app>
                      <lem wit="#V2 #G #X2">d’autre chose</lem>
                      <rdg wit="#B">d'el</rdg>
-                  </app> oïr parler. Et quant vous le tendrez en tel point, si savrez <app>
+                  </app> oïr parler<note type="notecritique">On retrouve ici, sous une forme très affaiblie, le ressort du <hi rend="italique">Roman des Sept Sages</hi> qui repose sur le désir de l'empereur d'entendre à chaque fois une nouvelle histoire.</note><!-- Help PD je me suis permise d'ajouter cette note. -->. Et quant vous le tendrez en tel point, si savrez <app>
                      <lem wit="#V2 #B #X2">se</lem>
                      <rdg wit="#G">si</rdg>
                   </app> je <app>
@@ -13935,12 +13935,9 @@
                </app>. Mais tout ce ne les pot tenir que il n’eussent volenté de partir d’eles,
                   <said who="#nar">et vous dirai que il firent a cele foiz</said>. </p>
             <p n="P316"><note type="apparat">Pas de nouveau § B</note><c ana="lettrine 2"
-               >M</c>aintenant que il furent a leur volenté s’en vindrent au <rs type="person"
+               >M</c>aintenant que il furent a leur volenté<!-- Help PD : pourrait-on mettre une virgule après "volenté? --> s’en vindrent au <rs type="person"
                   key="Chevalier de Mignot">chevalier en qui garde il estoient et avoient esté grant
-                  piece</rs>, si l’ont <app>
-                  <lem wit="#V2 #G #X2">mercié</lem>
-                  <rdg wit="#B">moult mercié</rdg>
-               </app> de ce qu’il avoit ainssi esploitié qu’il estoient delivré <app>
+                  piece</rs>, si l’ont mercié de ce qu’il avoit ainssi esploitié qu’il estoient delivré <app>
                   <lem wit="#V2 #B #X2">par</lem>
                   <rdg wit="#G">de <add hand="main1" place="above">par</add></rdg>
                </app> lui et <app>
@@ -14135,7 +14132,7 @@
                   </app> plus prochainement que je porrai et <app>
                      <lem wit="#V2 #G #X2">ne me ferai mie</lem>
                      <rdg wit="#B">pas ne me ferai</rdg>
-                  </app> cougnoistre deci <app>
+                  </app><!-- Help PD : je ne garderais pas cette variante --> cougnoistre deci <app>
                      <lem wit="#V2 #G #X2">a tant</lem>
                      <rdg wit="#B">adont</rdg>
                   </app> que je sarai qui <app>
@@ -14221,7 +14218,7 @@
                   <lem wit="#V2 #X2">ses olz</lem>
                   <rdg wit="#B">son ost, et estoit</rdg>
                   <rdg wit="#G">ses ostz</rdg>
-               </app> pour faire a <persName key="Pelyarmenus">Pelyarmenus</persName> secours et
+               </app><!-- Help PD : faire une note sur cette forme un peu incongrue, non? --> pour faire a <persName key="Pelyarmenus">Pelyarmenus</persName> secours et
                aide. </p>
             <p n="P319"><c ana="lettrine 2">Q</c>uant il oÿ ceste nouvele, si fu moult yriez. Il
                s’apensa que <said aloud="false" direct="false">
