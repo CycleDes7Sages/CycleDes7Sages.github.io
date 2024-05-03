@@ -322,8 +322,11 @@
                               spécifique, la présentation du témoin (@witness), le titre du
                               chapitre, c'est-à-dire la rubrique (@rubric) dans les cas de nouveaux
                               chapitres, le début du paragraphe (@paragraph), sa localisation dans
-                              le manuscrit traité (@location) et une note (@note). Cette note,
-                              systématique dans les cas de nouveaux chapitres et optionnelle dans
+                              le manuscrit traité (@location) et une note (@note).
+                              Pour les manuscrits dont l'accès numérique est garanti par un lien ark, nous avons 
+                              également inséré pour les rubriques, entre la mention de la localisation et celle de la note, 
+                              le lien en question dans une balise <gi>graphic</gi> qui référence cet url (@url). 
+                              La note, systématique dans les cas de nouveaux chapitres et optionnelle dans
                               les cas de nouveaux paragraphes - selon la nécessité ou non de
                               préciser un élément paratextuel, son absence ou toute autre particularité dans les autres
                               témoins -, vise à préciser l'organisation et la mise en page exacte de ce nouveau chapitre (le
@@ -467,6 +470,7 @@
                   <change who="#CC" when="2023-11-27">Introduction revue</change>
                   <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
                   <change who="#CC" when="2024-04-26">Alignement complet du manuscrit R + Header lié</change>
+                  <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>
             </revisionDesc>
       </teiHeader>
       <text>
@@ -482,6 +486,7 @@
                                           .ii. enfanz petiz a l'empereour.</seg>
                                     <seg type="paragraph">En ceste partie dist li contes</seg>
                                     <seg type="location">130vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(131ra-b)+initial(131ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_01" type="ms_instance">
@@ -981,7 +986,8 @@
                                           dire nouvelles de ce qu'il ot trouvé de l'empereour.</seg>
                                     <seg type="paragraph">Aprés ce que Pelyarmenus se fu partis
                                           d'Espaigne,</seg>
-                                    <seg type="location">133vc</seg>
+                                    <seg type="location">133vc</seg>                                    
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f272.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
@@ -1405,6 +1411,7 @@
                                     <seg type="paragraph">Or dist li comptes que Borleuz estoit ducs
                                           et quens</seg>
                                     <seg type="location">136vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f278.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
@@ -2432,6 +2439,7 @@
                                           fu renforciee a Helcanus, si comme devant vous ai
                                           dit.</seg>
                                     <seg type="location">142rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f289.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(142rc)+initial(142rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_66" type="ms_instance">
@@ -3086,6 +3094,7 @@
                                     <seg type="paragraph">Ci endroit dist li comptes que, quant
                                           Clyodorus se fu partiz de Borleuz,</seg>
                                     <seg type="location">146vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f298.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(146vc)+initial(146vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_87" type="ms_instance">
@@ -3629,6 +3638,7 @@
                                     <seg type="paragraph">Ci endroit dist li comptes de Bourleuz que
                                           il avoit eu grant cure des .ii. enfanz,</seg>
                                     <seg type="location">150vb-c</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f306.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(150vc)+initial(150vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_104" type="ms_instance">
@@ -4011,6 +4021,7 @@
                                     <seg type="paragraph">Or dist li comptes que, quant li roys se
                                           fu partis de Pelyarmenus,</seg>
                                     <seg type="location">153rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f311.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_116" type="ms_instance">
@@ -4606,6 +4617,7 @@
                                           pucelle courtoisement envers Myrus et ses
                                           compaignons.</seg>
                                     <seg type="location">156vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f318.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(157ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_135" type="ms_instance">
@@ -5143,6 +5155,7 @@
                                     <seg type="paragraph">Ci endroit dit li comptes que, quant li
                                           dui chevalier Myrus et Malquidant furent</seg>
                                     <seg type="location">160rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f325.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(160rb-c)+initial(160va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_152" type="ms_instance">
@@ -5940,6 +5953,7 @@
                                     <seg type="paragraph">Ci endroit dit li comptes que, quant li
                                           garçons fu eschapez des traïteurs,</seg>
                                     <seg type="location">165rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f335.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_178" type="ms_instance">
@@ -6285,6 +6299,7 @@
                                     <seg type="paragraph">Ci endroit dit li comptes que bien .ii.
                                           mois fu Myrrus et son compaignon avec la pucele</seg>
                                     <seg type="location">167rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f339.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_189" type="ms_instance">
@@ -6901,6 +6916,7 @@
                                     <seg type="paragraph">Ci endroit dit li contes que, quant Karus,
                                           li freres Ascanus, se fu partiz de la cité de Nise,</seg>
                                     <seg type="location">171rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f347.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_209" type="ms_instance">
@@ -7535,6 +7551,7 @@
                                           en la cité de Nise, si comme vous orrez.</seg>
                                     <seg type="paragraph">Or dist li contes que, quant Karus se fu partiz de Mirrus,</seg>
                                     <seg type="location">174vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f354.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_229" type="ms_instance">
@@ -8874,6 +8891,7 @@
                                           contenu en l’ystoire.</seg>
                                     <seg type="paragraph">Ci endroit dit li comptes que, quant Helcanus fu ainssi traÿz comme devant est dit,</seg>
                                     <seg type="location">181vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f368.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(181vb-c)+initial(181vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_279" type="ms_instance">
@@ -8996,6 +9014,7 @@
                                           secours.</seg>
                                     <seg type="paragraph">Or dit li comptes que, quant Clyodorus se fu partiz de Helcanus et des autres,</seg>
                                     <seg type="location">182va</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f370.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(182vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_283" type="ms_instance">
@@ -9993,6 +10012,7 @@
                                           et s’en ala tout a pié au Chastel Mignot.</seg>
                                     <seg type="paragraph">Ci endroit dit li comptes que, quant li emperieres et Daphus se furent partiz de la cisterne</seg>
                                     <seg type="location">188vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f382.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_320" type="ms_instance">
@@ -10355,6 +10375,7 @@
                                           devenus, si comme vous avez devant oÿ.</seg>
                                     <seg type="paragraph">Ci endroit dit li compte que, quant Borleuz et li autre baron qui devant Laomedon estoient</seg>
                                     <seg type="location">190rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f386.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(190va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_333" type="ms_instance">
@@ -10559,6 +10580,7 @@
                                           lance.</seg>
                                     <seg type="paragraph">Ci endroit dit li comptes, qui ne se puet taire, que Myrrus encontra Dubius en son venir</seg>
                                     <seg type="location">191vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f388.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(191vb-c)+initial(191vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_340" type="ms_instance">
@@ -10784,6 +10806,7 @@
                                           et comment il revint.</seg>
                                     <seg type="paragraph">Or dit li comptes que, quant Pelyarmenus vit que il ne porroit riens faire contre les Frisons,</seg>
                                     <seg type="location">193rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f391.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(193rb-c)+initial(193rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_348" type="ms_instance">
@@ -11223,6 +11246,7 @@
                                           Pelyarmenus.</seg>
                                     <seg type="paragraph">Or dit li comptes que, quant li rois d’Arragon et li autres furent revenuz arriere,</seg>
                                     <seg type="location">196rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f397.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_364" type="ms_instance">
@@ -11764,6 +11788,7 @@
                                           frere, a Romme a Fastidorus et a sa mere.</seg>
                                     <seg type="paragraph">Ci endroit dit li comptes que, quant li doi chevalier se furent parti de Pelyarmenus,</seg>
                                     <seg type="location">200rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f405.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(200rb-c)+initial(200rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_384" type="ms_instance">
@@ -12100,6 +12125,7 @@
                                           meschief pour Helcanus.</seg>
                                     <seg type="paragraph">Ci endroit dit li contes que, quant Aphode ot parlé a Helcanus,</seg>
                                     <seg type="location">202va</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f410.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_396" type="ms_instance">
@@ -12405,6 +12431,7 @@
                                           combatre.</seg>
                                     <seg type="paragraph">Or dit li contes que grant piece sist li emperieres de Costentinnoble devant Laomedon</seg>
                                     <seg type="location">204vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f414.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(204vb-c)+initial(204vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_407" type="ms_instance">
@@ -13034,6 +13061,7 @@
                                           a Romme pour querre Helcanus, son bon ami.</seg>
                                     <seg type="paragraph">Ci endroit dit li contes que, quant li emperieres et li autre baron orent envoié a Romme,</seg>
                                     <seg type="location">208va</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f422.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_430" type="ms_instance">
@@ -13043,7 +13071,7 @@
                                     <seg type="paragraph">Ci endroit dit li contes que, quant li emperieres et li autre baron orent envoié a Romme,</seg>
                                     <seg type="location">423ra</seg>
                                     <seg type="note">rubric+miniature+initial</seg> 
-                                    <seg type="note">Subject : focus on a different subject</seg>
+                                    <seg type="commentary">Subject : focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_430" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -13315,6 +13343,7 @@
                                           pour querre Nera, la suer Josyas d’Espaigne.</seg>
                                     <seg type="paragraph">Ci endroit dit li contes que, quant li chevalier se furent partiz de Laomedon,</seg>
                                     <seg type="location">210rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f425.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_440" type="ms_instance">
@@ -13545,6 +13574,7 @@
                                           Costentinnoble.</seg>
                                     <seg type="paragraph">Or dit li contes que, quant li emperieres de Costentinnoble et li autre baron virent</seg>
                                     <seg type="location">211vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f428.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_448" type="ms_instance">
@@ -13771,6 +13801,7 @@
                                           example a Fastidorus, son frere.</seg>
                                     <seg type="paragraph">Veritez fu, ce dist Peliarmenus, qu’en la cité d’Antyoche ot jadiz .i. Sarrazin.</seg>
                                     <seg type="location">212vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f430.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(212vc)+initial(212vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_456" type="ms_instance">
@@ -14288,6 +14319,7 @@
                                           par force.</seg>
                                     <seg type="paragraph">Or dit li comptes que tant servi Nera a son seigneur et a sa dame</seg>
                                     <seg type="location">215vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f436.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(216ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_475" type="ms_instance">
@@ -14461,6 +14493,7 @@
                                           queste de Nera, s'amie.</seg>
                                     <seg type="paragraph">Ci endroit dist li comptes que, quant Helcanus ot entendu la verité de Nera s’amie,</seg>
                                     <seg type="location">1ra-b</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f7.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(1ra-b)+initial(1ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_481" type="ms_instance">
@@ -15136,6 +15169,7 @@
                                           quant il ala parler a l'ermite.</seg>
                                     <seg type="paragraph">Or dist li contes que veritez est, si com l’estoire le raconte et tesmoingne,</seg>
                                     <seg type="location">5vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f16.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_507" type="ms_instance">
@@ -15307,6 +15341,7 @@
                                           Dyalogus.</seg>
                                     <seg type="paragraph">Aprés ce dist li contes que, puisque la pais fu ordenee des enfanz l’empereeur de Constentinoble,</seg>
                                     <seg type="location">7rb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f19.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(7rb-c)+initial(7rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_514" type="ms_instance">
@@ -15728,6 +15763,7 @@
                                           la forest et amenez o eulz.</seg>
                                     <seg type="paragraph">Or dist li contes que li chaceeur furent a Rome reperié, et bien cuidierent trouver leur seingneur.</seg>
                                     <seg type="location">9vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f24.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(10ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_532" type="ms_instance">
@@ -16170,6 +16206,7 @@
                                           Cassidorus, qui est en l'ermitage avec le lyon.</seg>
                                     <seg type="paragraph">Or dist li contes que, quant li emperieres Cassidorus ce fu mis en la roche,</seg>
                                     <seg type="location">12vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f30.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(12vb-c)+initial(12vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_551" type="ms_instance">
@@ -16274,6 +16311,7 @@
                                           encontre Dorus et Helcanus, et i vint Fastidorus et toute
                                           sa baronnie o lui.</seg>
                                     <seg type="location">13vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f32.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(13vb-c)+initial(13vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_555" type="ms_instance">
@@ -16849,6 +16887,7 @@
                                           telle feste que elle dura .xv. jors.</seg>
                                     <seg type="paragraph">Ci endroit dit li contes que Dorus, qui moult avoit le cuer a ce que on parlast de lui</seg>
                                     <seg type="location">17rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f39.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_580" type="ms_instance">
@@ -17494,6 +17533,7 @@
                                           gaaingnier.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que, quant li prince et li baron se furent mis tout hors de Rome,</seg>
                                     <seg type="location">20vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f47.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(21ra-b)+initial(21ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_608" type="ms_instance">
@@ -17522,7 +17562,7 @@
                                     <seg type="paragraph">Ci endroit dist li contes que, quant li prince et li baron furent mis tout hors de Rome,</seg>
                                     <seg type="location">105rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject : different subject</seg>
+                                    <seg type="commentary">Subject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_608" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -17633,6 +17673,7 @@
                                           jouent as eschés.</seg>
                                     <seg type="paragraph">Or dist li contes que, aprés ce que li baron et li prince de Rome se furent partis</seg>
                                     <seg type="location">21vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f48.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(21vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_613" type="ms_instance">
@@ -17642,7 +17683,7 @@
                                     <seg type="paragraph">Or nous dist ci endroit li contes que, aprés ce que li baron et li prince de mainte region se furent partis</seg>
                                     <seg type="location">451rc</seg>
                                     <seg type="note">rubric+miniature+initial</seg> 
-                                    <seg type="note">Subject : different subject</seg>
+                                    <seg type="commentary">Subject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_613" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -17873,6 +17914,7 @@
                                           ceule avec le lyon.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que, quant li emperieres et l’empereris se furent partis de Rome,</seg>
                                     <seg type="location">23ra</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f51.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(23rb-c)+initial(23rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_623" type="ms_instance">
@@ -18857,6 +18899,7 @@
                                           l'emperere ou il estoit avec le chastelain.</seg>
                                     <seg type="paragraph">Or nous dist ci endroit li contes que, ainsi que li empereres fu partis de Rome,</seg>
                                     <seg type="location">28vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f62.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_666" type="ms_instance">
@@ -19396,6 +19439,7 @@
                                           detint.</seg>
                                     <seg type="paragraph">En ceste partie dist li contes que, quant ceste bataille fu ainsint outree</seg>
                                     <seg type="location">31ra-b</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f67.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(31rb)+initial(31rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_689" type="ms_instance">
@@ -19885,6 +19929,7 @@
                                           et Celydus l'en delivra.</seg>
                                     <seg type="paragraph">Or dist li contes ci endroit que, quant le prince ce fu partis d’Antyoche,</seg>
                                     <seg type="location">33vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f73.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(34ra)+initial(34ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_710" type="ms_instance">
@@ -19894,7 +19939,7 @@
                                     <seg type="paragraph">Or dist li contes ci endroit que, quant le prince ce fu partis d’Antyoche,</seg>
                                     <seg type="location">464va</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject : focus on a different subject</seg>
+                                    <seg type="commentary">Subject : focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_710" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -19912,7 +19957,7 @@
                                     <seg type="paragraph">Or dist li contes ci endroit que, quant le prince ce fu partis d’Antyoche,</seg>
                                     <seg type="location">118va</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject : different subject // B</seg>
+                                    <seg type="commentary">Subject : different subject // B</seg>
                               </ab>
                         </div>
                         <div type="alignment" xml:id="Pelyarmenus_V_711">
@@ -20538,6 +20583,7 @@
                                           frere, en leur paÿs.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes, ainsi com vous avez devant oÿ,</seg>
                                     <seg type="location">36vc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f78.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(37ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_738" type="ms_instance">
@@ -20870,6 +20916,7 @@
                                           Helcanus.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que quant les .ii. parties se furent aprestees de ferir ensemble</seg>
                                     <seg type="location">38rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f81.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_752" type="ms_instance">
@@ -21448,6 +21495,7 @@
                                           remis en sa queste.</seg>
                                     <seg type="paragraph">Pource que je ne puis pas mener mon conte a ce qu’il ne couviengne savoir l’une chace aprés l’autre,</seg>
                                     <seg type="location">41rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f87.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_777" type="ms_instance">
@@ -22155,6 +22203,7 @@
                                           conme cil qui aloit querant Dorus.</seg>
                                     <seg type="paragraph">En ceste partie dist li contes que Hayno, dont vous avez oï dessus, ne chaça pas les siens en vain,</seg>
                                     <seg type="location">45rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f96.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(45va)+initial(45va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_808" type="ms_instance">
@@ -22574,6 +22623,7 @@
                                           Dorus en son chastel.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes que, quant Abylon vit que quant Abylon vit que que Dorus ne venoit,</seg>
                                     <seg type="location">47vb</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f100.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_826" type="ms_instance">
@@ -22702,6 +22752,7 @@
                                           mors.</seg>
                                     <seg type="paragraph">Ci endroit dist li contes, si conme vous avez oï devant,</seg>
                                     <seg type="location">48rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f101.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_831" type="ms_instance">
@@ -22923,6 +22974,7 @@
                                           en sa ceulle avec le chastelain.</seg>
                                     <seg type="paragraph">Ci endroit reconmence li contes que verité fu, ainsi com vous trouverez en l'ystoire,</seg>
                                     <seg type="location">49rc</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f103.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_840" type="ms_instance">
@@ -23144,6 +23196,7 @@
                                           de Rome et de Constentinoble, et aprés conmence li
                                           derreains de ses enfans.</seg>
                                     <seg type="location">50rb-c</seg>
+                                    <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f105.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_explicit" type="ms_instance">

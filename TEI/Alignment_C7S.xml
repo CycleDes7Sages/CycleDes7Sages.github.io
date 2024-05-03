@@ -485,7 +485,10 @@
                 Chacune de ces entrées précise tour à tour, 
                 dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, c'est-à-dire la rubrique (@rubric),
                     sa localisation dans le manuscrit traité (@location) et une note (@note). 
-                    Cette note vise à préciser l'organisation et mise 
+                    Pour les manuscrits dont l'accès numérique est garanti par un lien ark, nous avons 
+                    également inséré entre la mention de la localisation et celle de la note le lien en question
+                    dans une balise <gi>graphic</gi> qui référence cet url (@url). 
+                    La note vise à préciser l'organisation et mise 
                     en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist.initial" dans le 
                     cas du manuscrit R qui organise différemment sa matière) et la précision du lieu exact de ces 
                     trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même folio du manuscrit dépeint. 
@@ -603,7 +606,8 @@
             <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées du ms. X2 inaccessible</change>
             <change who="#CC" when="2023-11-27">Introduction revue</change>
             <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
-            <change who="#CC" when="2024-04-25">Alignement complet de R + Header lié</change>            
+            <change who="#CC" when="2024-04-25">Alignement complet de R + Header lié</change>  
+            <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>          
         </revisionDesc>
     </teiHeader>
     <text>
@@ -3682,6 +3686,7 @@
                         <seg type="rubric">Comment Erga la femme Edypus et Helcana sa fille amoient Cassidorus, et voult la mere ferir
                             sa fille enmi les dens.</seg>
                         <seg type="location">177ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f359.item.r=fr"/>
                         <seg type="note">rubric+miniature(177rb)+initial(177rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_3" type="ms_instance">
@@ -3712,6 +3717,7 @@
                         <seg type="rubric">Comment li message que la femme Edypum et sa fille avoient envoié a Cassydorus vint a lui
                             et fist ce pour quoi il y vint.</seg>
                         <seg type="location">179ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f363.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_4" type="ms_instance">
@@ -3742,6 +3748,7 @@
                         <seg type="rubric">Comment Cassydorus prist les lectres que la mere et la fille li envoierent et les lut
                             et s'en conseilla a .iii. chevaliers.</seg>
                         <seg type="location">179va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f363.item.r=fr"/>
                         <seg type="note">miniature(179rc)+rubric+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_5" type="ms_instance">
@@ -3771,6 +3778,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Ci vient li conte a Edypus qui estoit devant Tiberyade comment Lapsus envoia .i. chevalier a lui.</seg>
                         <seg type="location">182ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f369.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_6" type="ms_instance">
@@ -3801,6 +3809,7 @@
                         <seg type="rubric">Comment Cassidorus se part de Edipum quant il ot conquis Askarum et s'en vint en Contestantinnoble
                             et comment li baron et cil du paÿs firent grant feste de sa venue.</seg>
                         <seg type="location">186ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f377.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_7" type="ms_instance">
@@ -3830,6 +3839,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li premiers princes conte son compte a Cassidorum.</seg>
                         <seg type="location">187rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f379.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_8" type="ms_instance">
@@ -3857,6 +3867,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucelle conte son compte a Cassidorum en son dormant d'un vilain qui prist femme.</seg>
                         <seg type="location">187vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f381.item.r=fr"/>
                         <seg type="note">rubric+miniature(188ra)+initial(188ra)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_9" type="ms_instance">
@@ -3885,6 +3896,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment uns des princes conte son compte a Cassidorus du prince de Soffos.</seg>
                         <seg type="location">189rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f383.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_10" type="ms_instance">
@@ -3912,6 +3924,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele conte son compte a Cassidorum du roy d'Ynde.</seg>
                         <seg type="location">190rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f385.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_11" type="ms_instance">
@@ -3939,6 +3952,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li secons princes se mist au devant de l'empereeur et li bailla unes lettres.</seg>
                         <seg type="location">191ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f387.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_12" type="ms_instance">
@@ -3966,14 +3980,15 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele revint tierce fois devant Cassidorus en son dormant.</seg>
                         <seg type="location">191va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f388.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_13" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci endroit commence l'un des princes son conte.</seg>
                         <seg type="location">205ra</seg>
-                        <seg type="note">rubric+initial. no miniature
-                            Subject : en réalité, le texte suit bien avec le récit d'Helcana</seg>
+                        <seg type="note">rubric+initial. no miniature</seg>
+                        <seg type="commentary">Subject : in fact, the story is Helcana's and not one of the prince's</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3994,6 +4009,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Cils comptes est du roy d'Ynde.</seg>
                         <seg type="location">192va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f390.item.r=fr"/>
                         <seg type="note">rubric+miniature(192vb)+initial(192vb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_14" type="ms_instance">
@@ -4021,6 +4037,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucelle redist .i. autre compte a Cassidorum en son dormant.</seg>
                         <seg type="location">193vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f392.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_15" type="ms_instance">
@@ -4048,6 +4065,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment le soudan Alphasar de Babiloine conte .i. faus conte.</seg>
                         <seg type="location">194vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f394.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_16" type="ms_instance">
@@ -4075,6 +4093,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele dist son compte a Cassydorum d'un sot que li roys de Perse envoia a son pere.</seg>
                         <seg type="location">195vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f396.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_17" type="ms_instance">
@@ -4103,6 +4122,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Cilz contes est d'un clerc qui ot non Faphar.</seg>
                         <seg type="location">196va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f398.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_18" type="ms_instance">
@@ -4130,6 +4150,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele dit son conte a Cassydorus.</seg>
                         <seg type="location">197ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f399.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_19" type="ms_instance">
@@ -4157,6 +4178,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li septismes commence son compte.</seg>
                         <seg type="location">198ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f400.item.r=fr"/>
                         <seg type="note">miniature(197vc)+rubric+initial(198ra)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_20" type="ms_instance">
@@ -4184,6 +4206,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucelle conte son compte a Cassidorus d'un riche vilain de Navarre.</seg>
                         <seg type="location">199ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f403.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial(199rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_21" type="ms_instance">
@@ -4211,6 +4234,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment le huitieme des princes vint devant l'empereeur en guise d'estrange homme.</seg>
                         <seg type="location">199ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f404.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial(199rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_22" type="ms_instance">
@@ -4239,6 +4263,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele dist a Cassidorus un conte d'un empereeur de Romme.</seg>
                         <seg type="location">200ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f405.item.r=fr"/>
                         <seg type="note">rubric+miniature(200rb)+initial(200rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_23" type="ms_instance">
@@ -4267,6 +4292,7 @@
                         <seg type="rubric">Comment li princes qui vint en guise de marcheant que on avoit desrobé conte a Cassydorum
                             de Celidum.</seg>
                         <seg type="location">200vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f407.item.r=fr"/>
                         <seg type="note">rubric+miniature(201ra)+initial(201ra)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_24" type="ms_instance">
@@ -4296,6 +4322,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele conte son compte a Cassidorum d'un roy sarrazin qui ot eu femme.</seg>
                         <seg type="location">201rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f407.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_25" type="ms_instance">
@@ -4323,6 +4350,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li disiemes princes dist son conte pour decevoir l'empereour.</seg>
                         <seg type="location">203vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f412.item.r=fr"/>
                         <seg type="note">rubric+miniature(203vc)+initial(203vc)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_26" type="ms_instance">
@@ -4350,6 +4378,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment Cassidorus s'en revint en la cité par le faus conte.</seg>
                         <seg type="location">204ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f413.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial(204rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_27" type="ms_instance">
@@ -4377,6 +4406,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la damoisele conte d'un marcheant de Lombardie.</seg>
                         <seg type="location">204rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f413.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_28" type="ms_instance">
@@ -4404,6 +4434,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">C'est li comptes de Naason.</seg>
                         <seg type="location">204va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f414.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_29" type="ms_instance">
@@ -4431,6 +4462,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li princes en guise de truhant conta son compte pour destourner l'empereour de sa voie.</seg>
                         <seg type="location">205rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f415.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_30" type="ms_instance">
@@ -4464,6 +4496,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment la pucele dist son compte d'un conte de Picardie.</seg>
                         <seg type="location">205vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f416.item.r=fr"/>
                         <seg type="note">rubric+miniature(205vc)+initial(205vc)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_31" type="ms_instance">
@@ -4497,6 +4530,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">C'est le compte de un roy d'Arrabe que la pucele compte a Cassidorus.</seg>
                         <seg type="location">206ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f417.item.r=fr"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_32" type="ms_instance">
@@ -4530,6 +4564,7 @@
                         <seg type="witness">V1</seg>
                         <seg type="rubric">Comment li douziesmes princes conte .i. compte du roy de Bretaigne.</seg>
                         <seg type="location">206vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f7.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(1ra)+initial(1ra)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_33" type="ms_instance">
@@ -4564,6 +4599,7 @@
                         <seg type="rubric">Comment la pucele vint prendre congié a Cassidorum 
                             et conta .i. conte de la damoisele de Cartage.</seg>
                         <seg type="location">2va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f10.item.r=fran%C3%A7ais%2022549.zoom#"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_34" type="ms_instance">
@@ -4617,6 +4653,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Cassidorus se parti de ses princes et se mist en mer pour aler querre s'amie.</seg>
                         <seg type="location">4vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f14.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_35" type="ms_instance">
@@ -4651,6 +4688,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Cassidorus entra en la chambre ou s'amie estoit.</seg>
                         <seg type="location">7vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f20.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_36" type="ms_instance">
@@ -4684,6 +4722,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Cassidorus laissa sa femme a mesun et s'en ala a Romme.</seg>
                         <seg type="location">8vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f22.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_37" type="ms_instance">
@@ -4718,6 +4757,7 @@
                         <seg type="rubric">Ainssi comme l'empereris de Romme conjoi l'empereeur de Coustentinnoble 
                             quant il vint devant lui.</seg>
                         <seg type="location">10vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f26.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_38" type="ms_instance">
@@ -4753,6 +4793,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci endroit vient li contes a Helcana, empereris de Coustentinnoble.</seg>
                         <seg type="location">11vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f28.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_39" type="ms_instance">
@@ -4786,6 +4827,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci aprés devise comment li messages a trouvé Cassidorus.</seg>
                         <seg type="location">14rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f33.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_40" type="ms_instance">
@@ -4810,7 +4852,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">B21-2vb</seg>
-                        <seg type="note">no rubric+initial+§</seg><!-- VERIF DENOM -->
+                        <seg type="note">no rubric+hist.initial+§</seg>
                     </ab>
                 </div>
                 <milestone n="4-41" unit="chapter" xml:id="RC_41"/>
@@ -4820,6 +4862,7 @@
                         <seg type="rubric">Comment .i. des princes dist .i. conte a l'empereeur Cassydorus d'un bourgois de la 
                             cité de Romme comment il en avint.</seg>
                         <seg type="location">15rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f35.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_41" type="ms_instance">
@@ -4855,6 +4898,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme le sage de Romme conte .i. conte a l'emperere Cassidorus.</seg>
                         <seg type="location">17rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f39.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_42" type="ms_instance">
@@ -4890,6 +4934,7 @@
                         <seg type="rubric">Ci endroit devise comment l'empereris de Coustentinnoble s'en ala, 
                             son petit enfant entre ses bras.</seg>
                         <seg type="location">19ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f43.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_43" type="ms_instance">
@@ -4925,6 +4970,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Helcanor et Ydoines sont en oroisons.</seg>
                         <seg type="location">21vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f48.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_44" type="ms_instance">
@@ -4959,6 +5005,7 @@
                         <seg type="rubric">Ci aprés devise comment Polus vint par le commendement aus hermites crier merci a l'empereeur
                             de Coustentinnoble.</seg>
                         <seg type="location">23vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f52.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_45" type="ms_instance">
@@ -4994,6 +5041,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Helcanor et Ydoine se partirent de Polus et revindrent en leur recet.</seg>
                         <seg type="location">25rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f56.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(25va)+initial(25va)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_46" type="ms_instance">
@@ -5027,6 +5075,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci parle de la damoisele qui ne pot enfanter.</seg>
                         <seg type="location">27vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f60.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_47" type="ms_instance">
@@ -5061,6 +5110,7 @@
                         <seg type="rubric">Ci endroit dist li contes comment les barons de Coustentinnoble se mistrent en la queste 
                             par maint paÿs pour trouver lor dame et tant que Lichorus s'en ala li premiers.</seg>
                         <seg type="location">30vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f66.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(30vc)+initial(30vc)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_48" type="ms_instance">
@@ -5102,6 +5152,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci devise comment Cassydorus s'en ist em bataille contre Edypus.</seg>
                         <seg type="location">34rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f73.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_49" type="ms_instance">
@@ -5135,6 +5186,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci devise comment Licorus prist congié a Ydoine et se mist au chemin et son lyon o lui.</seg>
                         <seg type="location">35vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f76.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
@@ -5252,6 +5304,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci vient li contes a Cassidorus si comme il issi par nuit pour aler querre le secours.</seg>
                         <seg type="location">38rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f81.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_51" type="ms_instance">
@@ -5286,6 +5339,7 @@
                         <seg type="rubric">Comment Helcanus fist la pais entre son pere et son aiol qui le guerroioit et l'avoit assis
                             devant Coustentinoble.</seg>
                         <seg type="location">41rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f87.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_52" type="ms_instance">
@@ -5322,6 +5376,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment li empereres Cassydorus se parti de Coustentinoble pour aler querre sa femme.</seg>
                         <seg type="location">42rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f89.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_53" type="ms_instance">
@@ -5355,6 +5410,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment li prince de Coustentuinoble requirent Edypum qu'il les delivrast.</seg>
                         <seg type="location">45ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f95.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(45rb)+initial(45rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_54" type="ms_instance">
@@ -5393,6 +5449,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme li empereres ramaine l'empereris en Coustentinoble.</seg>
                         <seg type="location">47vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f100.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_55" type="ms_instance">
@@ -5426,6 +5483,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci dist li maistres son conte du conte de Bretaigne.</seg>
                         <seg type="location">49vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f104.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_56" type="ms_instance">
@@ -5459,6 +5517,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme Helcanus conta son comptes a son pere.</seg>
                         <seg type="location">50va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f106.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_57" type="ms_instance">
@@ -5492,6 +5551,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme li secons maistres fist son compte.</seg>
                         <seg type="location">51vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f108.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(51vc)+initial(51vc)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_58" type="ms_instance">
@@ -5517,7 +5577,7 @@
                         <seg type="rubric">Cis contes est d'un maistre ki salua l'empereur.</seg>
                         <seg type="location">B20-38ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="note">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
                 <milestone n="4-59" unit="chapter" xml:id="RC_59"/>
@@ -5526,6 +5586,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment li enfés a commencié son compte du visconte de Puille qui jadiz fu.</seg>
                         <seg type="location">54ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f113.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(54rb)+initial(54rb)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_59" type="ms_instance">
@@ -5559,6 +5620,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme li tiers maistres fait son compte d'un bourgois.</seg>
                         <seg type="location">54vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f114.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(54vc)+initial(54vc)</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_60" type="ms_instance">
@@ -5592,6 +5654,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme li enfes conte son compte du conte de Flandres.</seg>
                         <seg type="location">56ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f117.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_61" type="ms_instance">
@@ -5625,6 +5688,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Le conte au quart maistre qui de soi et d'un bourgois conta.</seg>
                         <seg type="location">56vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f118.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
@@ -5650,7 +5714,7 @@
                         <seg type="rubric">(inaccessible) d'un maistre ki jadis (inaccessible) fu en Gresce (inaccessible)</seg>
                         <seg type="location">B20-33ra</seg>
                         <seg type="note">rubric(partially)+hist.initial</seg>
-                        <seg type="note">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -5665,6 +5729,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Helcanus li enfes conte .i. conte a son pere l'empereour.</seg>
                         <seg type="location">60rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f125.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_63" type="ms_instance">
@@ -5698,6 +5763,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci endroit conte uns maistres d'un duc de Loherainne.</seg>
                         <seg type="location">60vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f126.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_64" type="ms_instance">
@@ -5731,6 +5797,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme Helcanus li enfes s'en vouloit aler sanz congié et li empereres la fist retourner.</seg>
                         <seg type="location">63rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f131.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_65" type="ms_instance">
@@ -5764,6 +5831,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment uns maistres conte un compte a l'empereour.</seg>
                         <seg type="location">65rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f135.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_66" type="ms_instance">
@@ -5797,6 +5865,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme li enfes dist .i. conte a son pere de Vaspiour qui engendra .i. filz a sa fille.</seg>
                         <seg type="location">66vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f138.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_67" type="ms_instance">
@@ -5830,6 +5899,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme uns homs vint devant l'empereour pour conter .i. conte du prevost de Hongrie.</seg>
                         <seg type="location">69ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f143.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_68" type="ms_instance">
@@ -5863,6 +5933,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment li enfes dist a son pere .i. autre conte.</seg>
                         <seg type="location">69vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f144.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_69" type="ms_instance">
@@ -5896,6 +5967,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment li .xii. prince orent fait la confession de leur tort.</seg>
                         <seg type="location">71vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f148.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_70" type="ms_instance">
@@ -5930,6 +6002,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme li .xii. prince furent ars touz fors que Polus.</seg>
                         <seg type="location">72ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f149.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_71" type="ms_instance">
@@ -5982,7 +6055,8 @@
                             finir, et bien i sarai repairier, quant il plaira a tres noble persone et covignable, Guion, conte de Flandres et 
                             marchis de Namur.</seg>
                         <seg type="location">B20-15va</seg>
-                        <seg type="note">"explicit"(brown, in the text). These are the last lines on this folio, uncomplete.</seg>
+                        <seg type="note">"explicit"(brown, in the text).</seg>
+                        <seg type="commentary">These are the last lines on this folio, uncomplete.</seg>
                     </ab>
                 </div>
                 <milestone n="5-1" unit="chapter" xml:id="RH_1"/>
@@ -5991,6 +6065,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme l'empereris de Romme se part de Coustentinoble.</seg>
                         <seg type="location">74rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f153.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_1" type="ms_instance">
@@ -6024,6 +6099,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Si comme li empereres de Coustentinnoble ala a Romme avec l'empereris.</seg>
                         <seg type="location">74vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f154.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(74vc)+initial(74vc)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_2" type="ms_instance">
@@ -6057,6 +6133,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Daphus et li empereres se partirent par nuit du chastel.</seg>
                         <seg type="location">82vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f170.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial(83ra)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_3" type="ms_instance">
@@ -6089,7 +6166,8 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comme Daphus et li empereres se departirent de chiez l'oncle Daphus.</seg>
                         <seg type="location">83vc</seg>
-                        <seg type="note">rubric+miniature(84ra)+initial(84ra)</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f173.item.r=fran%C3%A7ais%2022549.zoom"/>
+                        <seg type="note">rubric+initial(84ra). no miniature</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_4" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -6121,6 +6199,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Fremor et ses freres offirent l'amende a l'empereour.</seg>
                         <seg type="location">84vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f174.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_5" type="ms_instance">
@@ -6140,8 +6219,8 @@
                         <seg type="rubric">Comment Fremor et ses freres offrent l'amende a l'empereor.
                         + Comment li emperieres et Daphus conquistrent le duc de Maience.</seg>
                         <seg type="location">244rb</seg>
-                        <seg type="note">rubric+miniature(244ra-b)+initial(247rb).
-                        Second rubric read at the bottom of 244rb, just before the miniature, as a legend.</seg>
+                        <seg type="note">rubric+miniature(244ra-b)+initial(247rb)</seg>
+                        <seg type="commentary">second rubric read at the bottom of 244rb, just before the miniature, as a legend.</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_5" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -6156,6 +6235,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci vient li contes au chevalier qui li pors ocist en sa chace.</seg>
                         <seg type="location">88vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f182.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_6" type="ms_instance">
@@ -6189,6 +6269,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci dist li contes comment li empereres vint en Arragon.</seg>
                         <seg type="location">90rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f185.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_7" type="ms_instance">
@@ -6223,6 +6304,7 @@
                         <seg type="rubric">Comment Cassidorus qui venoit d'Arragon s'en revint au chastel Mignot et comment il conquist 
                             Calcas et jut la nuit avec la pucele a qui le chastiaus estoit.</seg>
                         <seg type="location">99va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f204.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(99vb-c)+initial(99vb)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_8" type="ms_instance">
@@ -6259,6 +6341,7 @@
                         <seg type="rubric">Comme li empereres et Daphus sont venu au chastel Mignot et ont conquis ceulz qui pour Calcas
                             l'avoient assailly.</seg>
                         <seg type="location">103vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f212.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(103vc)+initial(103vc)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_9" type="ms_instance">
@@ -6294,6 +6377,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Ci vient li contes au roy d'Espaigne qui atendoit l'empereour au jour qu'il avoit au roy d'Arragon.</seg>
                         <seg type="location">106ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f217.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_10" type="ms_instance">
@@ -6327,6 +6411,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Josias et Helcanus orent le pris de la quintainne.</seg>
                         <seg type="location">107vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f220.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_11" type="ms_instance">
@@ -6361,6 +6446,7 @@
                         <seg type="rubric">Comment li roys d'Arragon fu desconfis et sa gent occise devant le chastel d'Aquarie fors que ne
                             sai quans qu'il enmena o lui.</seg>
                         <seg type="location">111rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f228.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(111va-b)+initial(111va)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_12" type="ms_instance">
@@ -6396,6 +6482,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Fastydorus et Pelyarmenus se mistrent a voie pour secourre le roy d'Arragon.</seg>
                         <seg type="location">112ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f229.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_13" type="ms_instance">
@@ -6430,6 +6517,7 @@
                         <seg type="rubric">Ci vient li comptes aus .ii. damoisiaus de Romme qui se sont partis du roy d'Espaigne et
                             enmainent leurs femmes en leur terre a grant feste et a grant joie.</seg>
                         <seg type="location">117vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f240.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(117vb-c)+initial(117vb)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_14" type="ms_instance">
@@ -6464,6 +6552,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="rubric">Comment Pelyarmenus se parti du chastel Mignot et s'en revint devers le roy d'Espaigne.</seg>
                         <seg type="location">125vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f256.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial(125vc)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_15" type="ms_instance">
@@ -6490,7 +6579,7 @@
                         <seg type="rubric">Ensi com Peliarmenus parti du chastiel Mignot.</seg>
                         <seg type="location">B3-6vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="note">apparent (partially) red indications (X...) on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) red indications (X...) on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
                 <milestone n="5-16" unit="chapter" xml:id="RH_16"/>
@@ -6500,6 +6589,7 @@
                         <seg type="rubric">Comment Pelyarmenus conte .i. faus compte d'un homme de Romme a Josias d'Espaigne por Helcanus
                             metre a mort.</seg>
                         <seg type="location">127ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f259.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_16" type="ms_instance">
@@ -6526,7 +6616,7 @@
                         <seg type="rubric">C'est .i. examples ke Peliarmenus conta a son XXX Yosiam XXX (help #SL).</seg>
                         <seg type="location">B3-4va</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="note">apparent (partially) red indications (XIII) on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) red indications (XIII) on the top-margin</seg><!-- revoir -->
                     </ab>
                 </div>
                 <milestone n="5-17" unit="chapter" xml:id="RH_17"/>
@@ -6535,6 +6625,7 @@
                         <seg type="witness">V2</seg>
                         <seg type="incipit">Ci fine li livres de Cassydorus.</seg>
                         <seg type="location">130vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">explicit(red)+incipit(red)+miniature(131ra-b)+initial(131ra)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_17" type="ms_instance">
@@ -6570,6 +6661,7 @@
                             Comment il avoit pourchacié vers Dyalogus son frere, le bastart, de metre a mort les 
                             .ii. enfanz petiz a l'empereour.</seg>
                         <seg type="location">130vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f267.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">explicit(red)+incipit(red)+miniature(131ra-b)+initial(131ra)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_1" type="ms_instance">
@@ -6610,6 +6702,7 @@
                             pere, et comment il revint a Romme a l'empereriz sa mere
                             dire nouvelles de ce qu'il ot trouvé de l'empereour.</seg>
                         <seg type="location">133vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f272.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_2" type="ms_instance">
@@ -6654,6 +6747,7 @@
                             un chevalier qui les vit chiez le duc Bourleuz ou aventure
                             le mena.</seg>
                         <seg type="location">136vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f278.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance">
@@ -6693,6 +6787,7 @@
                         <seg type="rubric">Comment Helcanus fu remis en la prison par le
                             commandement Josias.</seg>
                         <seg type="location">142rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f289.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(142rc)+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_4" type="ms_instance">
@@ -6731,6 +6826,7 @@
                             se fu partis du duc Bourleuz, si comme devant est dit,
                             pour aler au chastel, la ou il trova Fremor.</seg>
                         <seg type="location">146vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f298.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(146vc)+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_5" type="ms_instance">
@@ -6771,6 +6867,7 @@
                         <seg type="rubric">Comment Pelyarmenus voult estre empereour de
                             Constentinoble et metre Helcanus son frere a mort.</seg>
                         <seg type="location">150vb-c</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f306.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(150vc)+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_6" type="ms_instance">
@@ -6808,6 +6905,7 @@
                             de Constentinoble et que li baron le receussent et li
                             aidassent.</seg>
                         <seg type="location">153rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f311.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_7" type="ms_instance">
@@ -6848,6 +6946,7 @@
                             conseil a la damoisele et ala en son message, lui et ses
                             compaignons.</seg>
                         <seg type="location">156vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f318.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial(157ra)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_8" type="ms_instance">
@@ -6887,13 +6986,14 @@
                         <seg type="rubric">Comment Myrus se combati encontre Malquidant
                             por Helcanus son seigneur deffendre.</seg>
                         <seg type="location">160rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f325.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature(160rb-c)+initial(160va)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">376va</seg>
-                        <seg type="note">Rubric displaced later (160vb in V2 (§154)</seg>
+                        <seg type="note">rubric displaced later (160vb in V2 (§154)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
                         <seg type="witness">B</seg>
@@ -6937,6 +7037,7 @@
                         <seg type="rubric">Comment le garçon eschapa des traïteurs et
                             s’en ala en Frise a Japhus, le filz au roy de Frise.</seg>
                         <seg type="location">165rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f335.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_10" type="ms_instance">
@@ -6974,6 +7075,7 @@
                         <seg type="rubric">Comment Mirrus est demouré avec la pucele et
                             y demoura par .ii. mois entre lui et son compaignon.</seg>
                         <seg type="location">167rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f339.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_11" type="ms_instance">
@@ -7012,6 +7114,7 @@
                         <seg type="rubric">Comment Myrrus se parti pour porter le
                             message a Pelyarmenus de par Helcanus, son frere.</seg>
                         <seg type="location">171rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f347.item.r=fran%C3%A7ais%2022549.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_12" type="ms_instance">
@@ -7049,6 +7152,7 @@
                                     <seg type="rubric">Comment Karus se parti de Mirrus et s’en ala
                                           en la cité de Nise, si comme vous orrez.</seg>
                                     <seg type="location">174vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f354.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_13" type="ms_instance">
@@ -7087,6 +7191,7 @@
                                           et l’enmena pris en Costentinnoble, si comme il est
                                           contenu en l’ystoire.</seg>
                                     <seg type="location">181vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f368.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(181vb-c)+initial(181vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_14" type="ms_instance">
@@ -7126,6 +7231,7 @@
                                           s’en ala en Espaigne et au roy d’Arragon pour querre
                                           secours.</seg>
                                     <seg type="location">182va</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f370.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(182vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_15" type="ms_instance">
@@ -7163,6 +7269,7 @@
                                     <seg type="rubric">Comment li emperieres se parti de la cisterne
                                           et s’en ala tout a pié au Chastel Mignot.</seg>
                                     <seg type="location">188vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f382.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_16" type="ms_instance">
@@ -7202,6 +7309,7 @@
                                           grant meschief de ce que il ne sorent que Helcanus estoit
                                           devenus, si comme vous avez devant oÿ.</seg>
                                     <seg type="location">190rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f386.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(190va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_17" type="ms_instance">
@@ -7242,6 +7350,7 @@
                                     <seg type="rubric">Comment Mirrus abati Dubius de cop de
                                           lance.</seg>
                                     <seg type="location">191vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f388.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(191vb-c)+initial(191vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
@@ -7278,6 +7387,7 @@
                                     <seg type="rubric">Comment Pelyarmenus se parti de la bataille
                                           et comment il revint.</seg>
                                     <seg type="location">193rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f391.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(193rb-c)+initial(193rc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_19" type="ms_instance">
@@ -7315,6 +7425,7 @@
                                     <seg type="rubric">Ci repaire li comptes au roy d'Arragon et a
                                           Pelyarmenus.</seg>
                                     <seg type="location">196rb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f397.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_20" type="ms_instance">
@@ -7352,6 +7463,7 @@
                                     <seg type="rubric">Comment Pelyarmenus envoia Helcanus, son
                                           frere, a Romme a Fastidorus et a sa mere.</seg>
                                     <seg type="location">200rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f405.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(200rb-c)+initial(200rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_21" type="ms_instance">
@@ -7390,6 +7502,7 @@
                                     <seg type="rubric">Comment Aphode et Ysodore furent a grant
                                           meschief pour Helcanus.</seg>
                                     <seg type="location">202va</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f410.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_22" type="ms_instance">
@@ -7427,6 +7540,7 @@
                                           et sa gent vindrent de Laomedon devant Costentinnoble pour
                                           combatre.</seg>
                                     <seg type="location">204vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f414.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(204vb-c)+initial(204vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_23" type="ms_instance">
@@ -7467,6 +7581,7 @@
                                     <seg type="rubric">Comment Nera se parti de Laomedon et s’en ala
                                           a Romme pour querre Helcanus, son bon ami.</seg>
                                     <seg type="location">208va</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f422.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
@@ -7475,7 +7590,7 @@
                                           envoierent a Romme.</seg>
                                     <seg type="location">423ra</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject : focus on a different subject</seg>
+                                    <seg type="commentary">Subject : focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -7505,6 +7620,7 @@
                                     <seg type="rubric">Comment li chevalier se mistrent a la voie
                                           pour querre Nera, la suer Josyas d’Espaigne.</seg>
                                     <seg type="location">210rb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f425.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_25" type="ms_instance">
@@ -7543,6 +7659,7 @@
                                     <seg type="rubric">Comment li emperieres fu devant
                                           Costentinnoble.</seg>
                                     <seg type="location">211vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f428.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_26" type="ms_instance">
@@ -7581,6 +7698,7 @@
                                     <seg type="rubric">Comment Peliarmenus raconte .i. mauvais
                                           example a Fastidorus, son frere.</seg>
                                     <seg type="location">212vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f430.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature(212vc)+initial(212vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_27" type="ms_instance">
@@ -7617,6 +7735,7 @@
                                     <seg type="rubric">Comment li seneschaus volt amer Nera et avoir
                                           par force.</seg>
                                     <seg type="location">215vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f436.item.r=fran%C3%A7ais%2022549.zoom"/>
                                     <seg type="note">rubric+miniature+initial(216ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_28" type="ms_instance">
@@ -7654,6 +7773,7 @@
                                     <seg type="rubric">Comment Helcanus issi de prison et ala en la
                                           queste de Nera, s'amie.</seg>
                                     <seg type="location">1ra-b</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f7.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(1ra-b)+initial(1ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_29" type="ms_instance">
@@ -7691,6 +7811,7 @@
                                     <seg type="rubric">Ci devise conment l'emperere trouva le lyon
                                           quant il ala parler a l'ermite.</seg>
                                     <seg type="location">5vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f16.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_30" type="ms_instance">
@@ -7723,6 +7844,7 @@
                                           en chaçant le porc pource que il ne li avoit envoié
                                           Dyalogus.</seg>
                                     <seg type="location">7rb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f19.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(7rb-c)+initial(7rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_31" type="ms_instance">
@@ -7756,6 +7878,7 @@
                                           quistrent Peliarmenus et Dyalogus, que Dorus avoit pris en
                                           la forest et amenez o eulz.</seg>
                                     <seg type="location">9vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f24.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(10ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
@@ -7790,6 +7913,7 @@
                                     <seg type="rubric">Ci revient li contes a l'empereeur
                                           Cassidorus, qui est en l'ermitage avec le lyon.</seg>
                                     <seg type="location">12vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f30.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(12vb-c)+initial(12vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_551" type="ms_instance">
@@ -7823,6 +7947,7 @@
                                           encontre Dorus et Helcanus, et i vint Fastidorus et toute
                                           sa baronnie o lui.</seg>
                                     <seg type="location">13vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f32.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(13vb-c)+initial(13vb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_34" type="ms_instance">
@@ -7859,6 +7984,7 @@
                                           de l'empereris, qu'il avoit reprise, si qu'il en firent
                                           telle feste que elle dura .xv. jors.</seg>
                                     <seg type="location">17rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f39.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_35" type="ms_instance">
@@ -7894,6 +8020,7 @@
                                           tournoient ensemble a cheval perdre et a cheval
                                           gaaingnier.</seg>
                                     <seg type="location">20vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f47.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(21ra-b)+initial(21ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
@@ -7919,7 +8046,7 @@
                                           furent.</seg>
                                     <seg type="location">105rb</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Suject : different subject</seg>
+                                    <seg type="commentary">Suject : different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -7938,6 +8065,7 @@
                                     <seg type="rubric">Ci devise conment li empereres et l'empereris
                                           jouent as eschés.</seg>
                                     <seg type="location">21vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f48.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(21vc)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_37" type="ms_instance">
@@ -7973,6 +8101,7 @@
                                           devint ouvrier gaaigne pain, et l'empereris demoroit en la
                                           ceule avec le lyon.</seg>
                                     <seg type="location">23ra</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f51.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(23rb-c)+initial(23rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_38" type="ms_instance">
@@ -8011,6 +8140,7 @@
                                           frere, qui morts estoit, et conment il vint a son pere
                                           l'emperere ou il estoit avec le chastelain.</seg>
                                     <seg type="location">28vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f62.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_39" type="ms_instance">
@@ -8055,6 +8185,7 @@
                                           devise conment il alerent par Antyoche et le prince les
                                           detint.</seg>
                                     <seg type="location">31ra-b</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f67.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(31rb)+initial(31rb)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_40" type="ms_instance">
@@ -8091,6 +8222,7 @@
                                           sa guaite, que Dyanor avoit ocis, et en fu mis en prison,
                                           et Celydus l'en delivra.</seg>
                                     <seg type="location">33vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f73.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(34ra)+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_41" type="ms_instance">
@@ -8099,7 +8231,7 @@
                                           roy de Jerusalem au parlement.</seg>
                                     <seg type="location">464va</seg>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject: focus on a different subject</seg>
+                                    <seg type="commentary">Subject: focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_41" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8115,7 +8247,7 @@
                                           comment il ala au parlement a Rohais.</seg>
                                     <seg type="location">118va</seg>
                                     <seg type="note">rubric+miniature+initial</seg> 
-                                   <seg type="note">Subject : different subject // B</seg>
+                                   <seg type="commentary">Subject : different subject // B</seg>
                               </ab>
                         </div>
                         <milestone n="6-42" unit="chapter" xml:id="RP_42"/>
@@ -8128,6 +8260,7 @@
                                           conment Pelyarmenus ala veoir Helcanus et Dorus, son
                                           frere, en leur paÿs.</seg>
                                     <seg type="location">36vc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f78.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial(37ra)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_42" type="ms_instance">
@@ -8164,6 +8297,7 @@
                                           conment Mirrus ala en mesage a Pelyarmenus de par
                                           Helcanus.</seg>
                                     <seg type="location">38rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f81.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_43" type="ms_instance">
@@ -8198,6 +8332,7 @@
                                     <seg type="rubric">Ci revient li contes a Helcanus, qui s'est
                                           remis en sa queste.</seg>
                                     <seg type="location">41rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f87.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_44" type="ms_instance">
@@ -8230,6 +8365,7 @@
                                           chevalier qui si bien le fist conme nulz le pot faire,
                                           conme cil qui aloit querant Dorus.</seg>
                                     <seg type="location">45rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f96.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature(45va)+initial(45va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_45" type="ms_instance">
@@ -8264,6 +8400,7 @@
                                           devenus, et devise conment la damoiselle avoit detenu
                                           Dorus en son chastel.</seg>
                                     <seg type="location">47vb</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f100.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_46" type="ms_instance">
@@ -8298,6 +8435,7 @@
                                           se mist aprés Dorus aprés ce que l'en sot que Helcanus fu
                                           mors.</seg>
                                     <seg type="location">48rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f101.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_47" type="ms_instance">
@@ -8333,6 +8471,7 @@
                                           conment il fu mis en terre et conment l'empereris revint
                                           en sa ceulle avec le chastelain.</seg>
                                     <seg type="location">49rc</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f103.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_48" type="ms_instance">
@@ -8369,6 +8508,7 @@
                                     <seg type="explicit">Ci fenist le livre de Cassydorus, empereeur
                                           de Rome et de Constentinoble.</seg>
                                     <seg type="location">50rb-c</seg>
+                                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f105.item.r=fran%C3%A7ais%2022550.zoom"/>
                                     <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50va)</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_49" type="ms_instance">
@@ -8402,6 +8542,7 @@
                             li lyons emporta les .iiii. enfans l'un aprés l'autre a tous les berceus en .i. hermitage la ou li hermites 
                             les bercoit et nourrissoit.</seg>
                         <seg type="location">50rb-c</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f105.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">explicit(brown)+incipit(red)+miniature(50rb-c)+initial(50va)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_1" type="ms_instance">
@@ -8432,6 +8573,7 @@
                         <seg type="rubric">Ci devise comment Nichole trouva les .iiii. enfans chiez l'ermite et comment .i. cerf 
                             blanc et une biche venoient tous les jours a l'ermitage pour avoir du lait a nourrir les enfans.</seg>
                         <seg type="location">51va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f108.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_2" type="ms_instance">
@@ -8464,6 +8606,7 @@
                         <seg type="rubric">Ci devise comment Celydus et Dyanor son cousin vindrent au chastel de Rohais et comment
                             li princes du chastel les fist bienveignans.</seg>
                         <seg type="location">53rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f111.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_3" type="ms_instance">
@@ -8497,6 +8640,7 @@
                             et puis comment les barons alerent a conseil pour li donner fenme et il leur dist qu'il n'auroit ja autre 
                             que Alerie, la suer au prince d'Antyoche.</seg>
                         <seg type="location">55va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f116.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(55vb)+initial(55vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_4" type="ms_instance">
@@ -8533,6 +8677,7 @@
                             qui estoit mort, qui les envoia chiez sa fenme et la duchesse de Lembourc avec lui. Et de qu'il en avint
                             si com vous orrez ou conte ci aprés.</seg>
                         <seg type="location">61va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f128.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(61vb)+initial(61vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_5" type="ms_instance">
@@ -8567,6 +8712,7 @@
                         <seg type="rubric">Ci devise comment l'empereris fist venir .i. phylosophe pour savoir mon qui estoit l'enfant
                             qu'ele avoit et comment il conta la verité a la duchesse.</seg>
                         <seg type="location">69vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f144.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_6" type="ms_instance">
@@ -8599,6 +8745,7 @@
                             et avec Nichole et devise comment li enfant alerent en la forest vestus des piaus des bestes et trouverent 
                             veneeurs et chevaliers qui chacoient le cerf blanc.</seg>
                         <seg type="location">72vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f150.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial(72vc)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_7" type="ms_instance">
@@ -8631,6 +8778,7 @@
                         <seg type="rubric">Ci devise comment les chevaliers au roy de Hongrie vindrent querre les .iiii. enfans qui
                             estoient chiez l'ermite et estoient touz armez. Et comment la pucele Nichole ala avec euls.</seg>
                         <seg type="location">75rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f155.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">miniature(75ra)+rubric+initial(75rb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_8" type="ms_instance">
@@ -8664,6 +8812,7 @@
                         le chastelain pour oïr nouvelles de ses .iiii. enfans et comment il leur conta comment il en estoit alé, si comme il 
                         est desus dit.</seg>
                         <seg type="location">76va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f158.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(76vb)+initial(76vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_9" type="ms_instance">
@@ -8696,6 +8845,7 @@
                         <seg type="rubric">Ci devise comment les .iiii. damoisiaus furent amenez au roy de Hongrie et Nichole avec eulz
                             et comment le roy les enmena la ou la royne sa fame estoit et devise comment on les bailla a endoctriner.</seg>
                         <seg type="location">78vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f162.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_10" type="ms_instance">
@@ -8729,6 +8879,7 @@
                             Et devise comment le prince d'Antyoche ala parler a sa suer qu'il avoit fet mettre en la tour avec ses concubines,
                             ainsi com vous orrez.</seg>
                         <seg type="location">81ra</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f167.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial(81rb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_11" type="ms_instance">
@@ -8763,6 +8914,7 @@
                         <seg type="rubric">Ci devise li contes de la meschine, qui ot enfant du chanoine devant dit a qui son enfant fu 
                             changiez, comment elle se mist a voie d'aler au .S. Sepucre et devise comment vous orrez qu'il avint ci aprés.</seg>
                         <seg type="location">86vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f178.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_12" type="ms_instance">
@@ -8795,6 +8947,7 @@
                             et comment le roy d'Arragon l'ala reconforter. Et comment il penssa a donner li Raimfort son filz a mariage 
                             et s'en conseilla a Edypus et quele en fu la responsse.</seg>
                         <seg type="location">88va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f182.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(88vb)+initial(88vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_13" type="ms_instance">
@@ -8827,6 +8980,7 @@
                         <seg type="rubric">Ci endroit devise comment l'empereris et Belyns chevauchierent ensemble et aloient querant l'enfant
                             et la meschine et tant qu'il en oïrent nouvelles en Cartage ou il les trouverent.</seg>
                         <seg type="location">92va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f190.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_14" type="ms_instance">
@@ -8858,6 +9012,7 @@
                         <seg type="rubric">Ci vient li contes a Japhus, a Josyas et a Mardocheus comment il entrerent en la Forest Perilleuse 
                             pour querre aventures.</seg>
                         <seg type="location">100va-b</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f206.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">miniature(100va-b)+rubric+initial(100va)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_15" type="ms_instance">
@@ -8889,6 +9044,7 @@
                         <seg type="rubric">Comment Josyas d'Espaigne trouva une chace de chiens qui couroient aprés .i. cerf que la royne 
                             de Ripleurjoie chacoit et ses puceles.</seg>
                         <seg type="location">107vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f220.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(107vb-c)+initial(107vb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_16" type="ms_instance">
@@ -8921,6 +9077,7 @@
                             aventures. Et comment il commença a chanter et comment il encontra en son chemin .i. chevalier navré trop durement
                             d'un gros espié quarré parmi le cors.</seg>
                         <seg type="location">112rc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f229.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(112rb-c)+initial(112rb)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_17" type="ms_instance">
@@ -8953,6 +9110,7 @@
                         <seg type="rubric">Ci vient li contes a Japhus de Frise comment les puceles l'enmenerent en prison et comment
                             il chantoient toutes de joie.</seg>
                         <seg type="location">121vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f248.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial(122ra)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_18" type="ms_instance">
@@ -8984,6 +9142,7 @@
                         <seg type="rubric">Ci vient li contes aus .iiii. damoisiaus les filz a l'empereour Cassydorus de Costentinnoble
                             comment li roys de Hongrie les fist norrir.</seg>
                         <seg type="location">123vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f252.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_19" type="ms_instance">
@@ -9015,6 +9174,7 @@
                         <seg type="witness">V3</seg>
                         <seg type="rubric">Ci vient li contes au chastelain de Gomor comment il parole aus .iiii. filz l'empereour Cassidorus.</seg>
                         <seg type="location">125vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f256.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Kanor_V_20" type="ms_instance">
@@ -9046,6 +9206,7 @@
                         <seg type="rubric">Comment les .iiii. damoisel qui en la tour estoient firent tant qu'il orent la chastelainne et avec
                             li une de ses puceles.</seg>
                         <seg type="location">127vc</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f260.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_21" type="ms_instance">
@@ -9078,6 +9239,7 @@
                             et une de ses puceles. Et comment li sires de Princefueil fist assaillir la tour et puis comment li rois de Hongrie
                             delivra les .iiii. damoisiaus et la chastelaine. Et comment li sires de Princefueil s'enfoui de paour.</seg>
                         <seg type="location">129vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f264.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(129va-b)+initial(129va)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_22" type="ms_instance">
@@ -9109,6 +9271,7 @@
                         <seg type="witness">V3</seg>
                         <seg type="rubric">Ci vient li contes au roy Celidus de Jherusalem et a Dyanor son bon cousin.</seg>
                         <seg type="location">134va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f274.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_23" type="ms_instance">
@@ -9139,6 +9302,7 @@
                         <seg type="rubric">Ci vient li contes du prince de Bethsaïda comment il voult donner a Raimfort la duchesse afaitié, 
                             si comme Dyomarques li rois d'Arragon l'avoit pourchacié.</seg>
                         <seg type="location">138vb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f282.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_24" type="ms_instance">
@@ -9170,6 +9334,7 @@
                         <seg type="rubric">Ci vient li contes comment li rois de Hongrie delivra les .iiii. damoisiaus du chastel de Cyno.
                             Et comment il les fist chevaliers.</seg>
                         <seg type="location">141rb</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f287.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_25" type="ms_instance">
@@ -9200,6 +9365,7 @@
                         <seg type="rubric">Ci dit li contes comment Dorus et ses freres encontrent .i. char et comment il entrerent dedenz
                             et pendirent leur escus au char.</seg>
                         <seg type="location">146va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f298.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_26" type="ms_instance">
@@ -9231,6 +9397,7 @@
                         <seg type="rubric">Ci vient li contes a l'empereriz de Costentinnoble comment ele parole a son filz Libanor
                             que ele avoit norri et comment ele li conte l'aventure.</seg>
                         <seg type="location">152rb-c</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f309.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature(152rb-c)+initial(152va)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_27" type="ms_instance">
@@ -9262,6 +9429,7 @@
                         <seg type="rubric">Ci dist li contes comment les .ii. damoisiaus se partirent de la princesse de Cartage et de la grant
                             feste que l'en fist a Romme de Libanor.</seg>
                         <seg type="location">156va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f318.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_28" type="ms_instance">
@@ -9293,6 +9461,7 @@
                         <seg type="explicit">Cy fine le livre de Marques de Romme, de Laurin, de Cassidorus et de Peliarmenus, et des faiz 
                             de pluseurs empereurs de Romme et de Costentinnoble si comme il est devant contenu en l'istoire.</seg>
                         <seg type="location">163va</seg>
+                        <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f332.item.r=fran%C3%A7ais%2022550.zoom"/>
                         <seg type="note">explicit(brown)</seg>
                     </ab>
                     <ab corresp="#Kanor_V_29" type="ms_instance">

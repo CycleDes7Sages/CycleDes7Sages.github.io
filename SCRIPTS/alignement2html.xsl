@@ -96,7 +96,11 @@
         <xsl:choose>
             <xsl:when test="seg[@type='witness']='V2'">
                 <td class="ms_V2">
-                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:text>f°</xsl:text>
+                    <xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <a href="{@url}" target="_blank">🖼️</a>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
