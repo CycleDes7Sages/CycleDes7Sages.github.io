@@ -300,6 +300,9 @@
                         <td class="ms_X1">
                             <xsl:text>X1 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -323,6 +326,9 @@
                         <td class="ms_X1">                            
                             <xsl:text>X1 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -373,6 +379,9 @@
                         <td class="ms_X2">
                             <xsl:text>X2 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -396,6 +405,9 @@
                         <td class="ms_X2">
                             <xsl:text>X2 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -444,6 +456,9 @@
                 <td class="ms_G">
                     <xsl:text>G </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <a href="{@url}" target="_blank">🖼️</a>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -540,6 +555,9 @@
                 <td class="ms_C">
                     <xsl:text>C </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <a href="{@url}" target="_blank">🖼️</a>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
