@@ -32,7 +32,7 @@
         <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
     </xsl:template>    
     <xsl:template match="l">
-        <i><br/><xsl:text> </xsl:text><br/></i>
+        <br/><xsl:text> </xsl:text><xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cb">
         <sup><span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
@@ -129,7 +129,7 @@
     <xsl:template match="seg">
         <xsl:choose>
             <xsl:when test="@ana='lettre'">"<xsl:apply-templates/>"</xsl:when>
-            <xsl:when test="@ana='chanson'">"<xsl:apply-templates/>"</xsl:when>
+            <xsl:when test="@ana='chanson'"><xsl:apply-templates/></xsl:when>
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
