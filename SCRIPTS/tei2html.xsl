@@ -30,6 +30,9 @@
     </xsl:template>
     <xsl:template match="pb">
         <sup><span class="pb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
+    </xsl:template>    
+    <xsl:template match="l">
+        <i><br/><xsl:text> </xsl:text><br/></i>
     </xsl:template>
     <xsl:template match="cb">
         <sup><span class="cb">[<xsl:value-of select="@n"/>]</span><xsl:text></xsl:text><xsl:apply-templates/></sup>
