@@ -636,13 +636,19 @@
 
           <elementSpec ident="lem" module="textcrit" mode="change">
             <attList>
-              <attDef ident="wit" mode="change" usage="req">
+              <attDef ident="wit" mode="change" usage="opt">
                 <valList type="closed">
                   <valItem ident="#B"/>
                   <valItem ident="#G"/>
                   <valItem ident="#X2"/>
                   <valItem ident="#V2"/>
                   <valItem ident="#V3"/>
+                </valList>
+              </attDef>
+              <attDef ident="source" mode="change" usage="opt"><!-- POURCC : commenter cette modification de l'ODD : source 
+              si pas de wit car notre autorité-->
+                <valList type="closed">
+                  <valItem ident="éd."/>
                 </valList>
               </attDef>
             </attList>
