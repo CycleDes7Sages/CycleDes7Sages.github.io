@@ -443,12 +443,15 @@
           <elementSpec ident="hi" module="core" mode="change">
             <attList>
               <attDef ident="rend" mode="change" usage="req">
-                <valList>
+                <valList mode="change" type="closed">
                   <valItem ident="exp">
                     <desc>indication des chiffres en exposant</desc>
                   </valItem>
                   <valItem ident="italique">
                     <desc>indication en italique, dans les notes critiques en particulier</desc>
+                  </valItem>
+                  <valItem ident="latin">
+                    <desc>indication des mots latins, à faire figurer en petites capitales</desc>
                   </valItem>
                 </valList>
               </attDef>

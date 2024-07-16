@@ -52,10 +52,18 @@
                 <i><xsl:apply-templates/></i>
             </xsl:when>
         </xsl:choose>
+        <xsl:choose>
+            <xsl:when test="@rend='latin'">
+                <span class="latin"><xsl:apply-templates/></span>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="hi[@type='italique']">
         <i><xsl:apply-templates/></i>
-    </xsl:template>  
+    </xsl:template>
+    <xsl:template match="hi[@type='latin']">
+        <span class="latin"><xsl:apply-templates/></span>
+    </xsl:template> 
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@rendition='dialogue'">
