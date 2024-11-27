@@ -257,7 +257,7 @@
                             <msContents>
                                 <msItem>
                                     <locus from="B1-1r" to="B1-5v"/>
-                                    <title>Cassidorus §167-178</title>
+                                    <title>Cassidorus §167-179</title>
                                 </msItem>
                                 <msItem>
                                     <locus from="B22-2v" to="B22-1r"/>
@@ -269,19 +269,19 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="B21-1r" to="B21-11v"/>
-                                    <title>Cassidorus §222-XXX</title><!-- à compléter -->
+                                    <title>Cassidorus §222-279</title>
                                 </msItem>
                                 <msItem>
                                     <locus from="B21-14r" to="B21-14v"/>
-                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                    <title>Cassidorus §279-284</title>
                                 </msItem>
                                 <msItem>
                                     <locus from="B21-12r" to="B21-13v"/>
-                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                    <title>Cassidorus §285-296</title>
                                 </msItem>
                                 <msItem>
                                     <locus from="B21-15r" to="B21-26v"/>
-                                    <title>Cassidorus §XXX</title><!-- à compléter -->
+                                    <title>Cassidorus §296-374</title>
                                 </msItem>
                                 <msItem>
                                     <locus from="B5-1r" to="B5-12v"/>
@@ -487,7 +487,10 @@
                     sa localisation dans le manuscrit traité (@location) et une note (@note). 
                     Pour les manuscrits dont l'accès numérique est garanti par un lien ark, nous avons 
                     également inséré entre la mention de la localisation et celle de la note le lien en question
-                    dans une balise <gi>graphic</gi> qui référence cet url (@url). 
+                    dans une balise <gi>graphic</gi> qui référence cet url (@url). Notons que pour les manuscrits <hi rend="italique">B</hi> 
+                    et <hi rend="italique">X2</hi> les liens fournis par les bibliothèques concernées ne permettent soit pas de renvoyer 
+                    au folio exact soit de rendre l'illustration du folio dans une qualité satisfaisante. Face à ce dilemme, nous 
+                    avons favorisé la deuxième solution, dans l'espoir que la résolution puisse à terme être optimisée. 
                     La note vise à préciser l'organisation et mise 
                     en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist.initial" dans le 
                     cas du manuscrit R qui organise différemment sa matière) et la précision du lieu exact de ces 
@@ -607,7 +610,8 @@
             <change who="#CC" when="2023-11-27">Introduction revue</change>
             <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
             <change who="#CC" when="2024-04-25">Alignement complet de R + Header lié</change>  
-            <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>          
+            <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>   
+            <change who="#CC" when="2024-11-27">Intégration des données relatives à X2, ainsi que les liens url concernés.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -630,9 +634,10 @@
                         Et aprés de Laurin et de Cassydorus. Et de Pelyarmenus. Et aprés li fait des empereurs de Romme et 
                         de Coustantinoble.</seg>
                         <seg type="location">1ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0003_70x70.jpg"/>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
                         <seg type="commentary">Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
-                        concentration on Pelyarmenus, whose romance does not start with any implicit</seg>
+                        concentration on Pelyarmenus, whose romance does not start with any implicit.</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -660,6 +665,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">1vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0004_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_2" type="ms_instance">
@@ -693,6 +699,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">2vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0006_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial+§</seg>
                     </ab>
                     <ab corresp="#R7S_V_3" type="ms_instance">
@@ -722,6 +729,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame son conte du petit pinel qui essorba le grain pin.</seg>
                         <seg type="location">3ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0007_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_4" type="ms_instance">
@@ -752,6 +760,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ici commence Bancillas un conte du chevalier qui tua son levrier.</seg>
                         <seg type="location">3vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0008_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                         <seg type="commentary">The rubric given in B, corresponding to the one given in V1, 
                             is not indicated at the same place : 
@@ -763,6 +772,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ici commence la dame son conte du varlet qui tua le sengler en gratant.</seg>
                         <seg type="location">4rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0009_70x70.jpg"/>
                         <seg type="note">extra rubric+initial corresponding to V1 4vb (no §)</seg>
                     </ab>
                     <ab corresp="#R7S_V_5" type="ms_instance">
@@ -793,6 +803,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence Augustes .i. conte du neveu Ypocras.</seg>
                         <seg type="location">4vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0010_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_6" type="ms_instance">
@@ -822,7 +833,8 @@
                     <ab corresp="#R7S_V_7" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame .i. conte de celui qui geta la teste son pere en une longaigne.</seg>
-                        <seg type="location">6rc</seg>
+                        <seg type="location">5rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0011_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_7" type="ms_instance">
@@ -854,12 +866,14 @@
                         <seg type="rubric">Ci commence maistres Lentulles son conte de la dame qui fist fuster son seigneur 
                             vilainement.</seg>
                         <seg type="location">6rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0013_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence l'empereys un conte de celui qui livra sa femme au gros roy de Puille.</seg>
                         <seg type="location">7ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0015_70x70.jpg"/>
                         <seg type="note">extra rubric+initial corresponding to V1 7rc</seg>
                     </ab>
                     <ab corresp="#R7S_V_8" type="ms_instance">
@@ -891,6 +905,7 @@
                         <seg type="rubric">Ci commence maistre Malquidans un conte de l'ancien sage qui fist sa femme sainier de 
                             .ii. bras.</seg>
                         <seg type="location">7vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0016_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                         <seg type="commentary">Subject: different name for the wise one</seg>
                     </ab>
@@ -922,6 +937,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame son conte.</seg>
                         <seg type="location">8vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0018_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_9" type="ms_instance">
@@ -952,6 +968,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence maistre Catons .i. conte du bourgois qui tua sa pie.</seg>
                         <seg type="location">10ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0021_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_11" type="ms_instance">
@@ -982,6 +999,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la dame un conte du roy Herode qui perdi sa veue.</seg>
                         <seg type="location">10vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0022_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_12" type="ms_instance">
@@ -1012,6 +1030,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence li sages son conte.</seg>
                         <seg type="location">11vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0024_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_13" type="ms_instance">
@@ -1042,6 +1061,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence la fausse emperereys son conte.</seg>
                         <seg type="location">13ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0029_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_14" type="ms_instance">
@@ -1072,6 +1092,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Ci commence li sages son conte de celui qui crut miex sa femme que ce que il veoit as yex.</seg>
                         <seg type="location">13vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0028_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
@@ -1079,6 +1100,7 @@
                         <seg type="rubric">Comment le fils a l'empereeur de Romme conte a son pere le conte de  celui qui son enfant
                             geta en mer.</seg>
                         <seg type="location">15va</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0032_70x70.jpg"/>
                         <seg type="note">extra rubric+miniature+initial corresponding to V1 14rb</seg>
                     </ab>
                     <ab corresp="#R7S_V_15" type="ms_instance">
@@ -1108,15 +1130,16 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">15vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0032_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment la male marrastre conte un conte pour sa destruction.</seg>
                         <seg type="location">16vb-c</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0034_70x70.jpg"/>
                         <seg type="note">extra rubric+miniature(16vb-c)+initial(16vc)</seg>
-                        <seg type="commentary">kind of extended version of the end of R7S</seg>
-                        <!-- SV: cas plus spécifique: version étendue de la fin du R7S dans B -->
+                        <seg type="commentary">Inclusion of a 16th story, called Noverca in the tradition.</seg>                        
                     </ab>
                     <ab corresp="#R7S_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1145,6 +1168,7 @@
                         <seg type="witness">B</seg>
                         <seg type="explicit">Explicit.</seg>
                         <seg type="location">17rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0036_70x70.jpg"/>
                         <seg type="note">explicit(brown)+incipit(red)+miniature(17va-b)+initial(17va)</seg>
                     </ab>
                     <ab corresp="#R7S_V_17" type="ms_instance">
@@ -1178,6 +1202,7 @@
                         <seg type="incipit">Ci commence li livres du fils a l'empereour qui fu nommez Dyoclesiens. Et de Marques,
                             le seneschal de Romme.</seg>
                         <seg type="location">17rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0036_70x70.jpg"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(17va-b)+initial(17va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_1" type="ms_instance">
@@ -1211,6 +1236,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">21rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0043_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_2" type="ms_instance">
@@ -1241,6 +1267,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">23rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0047_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_3" type="ms_instance">
@@ -1271,6 +1298,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment l'empereis volt coper le poing a Marques, le seneschal, par grande traÿson.</seg>
                         <seg type="location">25rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0051_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial(25va)</seg>
                     </ab>
                     <ab corresp="#Marques_V_4" type="ms_instance">
@@ -1301,6 +1329,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">27rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0055_70x70.jpg"/>
                         <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_5" type="ms_instance">
@@ -1332,6 +1361,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques mist a mort tous les larrons qui estoient en la roche.</seg>
                         <seg type="location">30rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0061_70x70.jpg"/>
                         <seg type="note">rubric+miniature(30rb-c)+initial(30rb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_6" type="ms_instance">
@@ -1364,6 +1394,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques abati la quintaine.</seg>
                         <seg type="location">34ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0069_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_7" type="ms_instance">
@@ -1394,8 +1425,9 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques et Laurine parlerent ensemble en .i. vregier.</seg>
                         <seg type="location">35vc</seg>
-                        <seg type="note">rubric+miniature+initial
-                            Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0072_70x70.jpg"/>
+                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="commentary">Subject: precision of Laurine's name; rectification of V/G's misconsideration of Laurine as a queen</seg>
                     </ab>
                     <ab corresp="#Marques_V_8" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -1430,6 +1462,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques vint a Bel Manoir ou la suer a l'empereeur de Coustantinoble estoit.</seg>
                         <seg type="location">38vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0078_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                         <seg type="commentary">Subject : intersting precision of Laurine's actual status; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
@@ -1468,6 +1501,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment l'empereys se parti de Romme.</seg>
                         <seg type="location">42va</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0086_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_10" type="ms_instance">
@@ -1501,6 +1535,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li empereres de Romme envoia son seneschal a l'empereeur de Coustantinoble.</seg>
                         <seg type="location">44vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0090_70x70.jpg"/>
                         <seg type="note">rubric+miniature(44vb-c)+initial(44vc)</seg>
                     </ab>
                     <ab corresp="#Marques_V_11" type="ms_instance">
@@ -1535,6 +1570,7 @@
                         <seg type="rubric">Comment li rois de Frise manda a l'empereeur de Coustantinoble que il li venist merci crier
                             nus pies et en chemise.</seg>
                         <seg type="location">47vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0096_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_12" type="ms_instance">
@@ -1569,6 +1605,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques et Patans se combatent ensembless(sic).</seg>
                         <seg type="location">48vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0098_70x70.jpg"/>
                         <seg type="note">miniature(48vb)+rubric+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_13" type="ms_instance">
@@ -1604,6 +1641,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">50vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0102_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_14" type="ms_instance">
@@ -1637,6 +1675,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li .vii. sage prierent a l'empereour pour Marques.</seg>
                         <seg type="location">51va</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0104_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Marques_V_15" type="ms_instance">
@@ -1670,6 +1709,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">52rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0105_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_16" type="ms_instance">
@@ -1702,6 +1742,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">52vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0106_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_17" type="ms_instance">
@@ -1734,6 +1775,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">53rc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0107_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_18" type="ms_instance">
@@ -1766,6 +1808,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">54rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0109_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_19" type="ms_instance">
@@ -1798,6 +1841,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment monta en la tour pour veoir s'amie. Et comment il fu guetiés.</seg>
                         <seg type="location">54va</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0110_70x70.jpg"/>
                         <seg type="note">rubric+miniature(54vb)+initial(54vb)</seg>
                     </ab>
                     <ab corresp="#Marques_V_20" type="ms_instance">
@@ -1829,6 +1873,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">55vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0112_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_21" type="ms_instance">
@@ -1864,6 +1909,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">56vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0114_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_22" type="ms_instance">
@@ -1898,6 +1944,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">57va</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0116_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_23" type="ms_instance">
@@ -1930,6 +1977,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">58rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0117_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_24" type="ms_instance">
@@ -1963,12 +2011,14 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
                         <seg type="location">58vb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0118_70x70.jpg"/>
                         <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment li .vii. sage se firent amener en une tonne a la court l'empereor.</seg>
                         <seg type="location">59rb</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0119_70x70.jpg"/>
                         <seg type="note">extra rubric+miniature+initial corresponding to V1 54va</seg>
                     </ab>
                     <ab corresp="#Marques_V_25" type="ms_instance">
@@ -2003,6 +2053,7 @@
                         <seg type="witness">B</seg>
                         <seg type="rubric">Comment Marques reconnut au passer le norri a la dame.</seg>
                         <seg type="location">60ra</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0121_70x70.jpg"/>
                         <seg type="note">rubric+miniature(60rb)+initial(60rb)</seg>
                         <seg type="commentary">Subject : intersting presentation of Marques' role in the discovery</seg>
                     </ab>
@@ -2052,6 +2103,7 @@
                         <seg type="explicit">Explicit. Ci endroit fenist le livre de Marques le seneschal de Romme qui ot a femme Laurine,
                         la suer a l'empereor de Constentinoble.</seg>
                         <seg type="location">60vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0123_70x70.jpg"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
                         <seg type="commentary">Subject : interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
                     </ab>
@@ -2084,6 +2136,7 @@
                         <seg type="witness">B</seg>
                         <seg type="incipit">Ci commence li livres de Laurin, le fils Marques le seneschal de Romme.</seg>
                         <seg type="location">60vc</seg>
+                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0123_70x70.jpg"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
                         <seg type="commentary">Subject : concentration on Laurin himself instead of Fiseus</seg>
                     </ab>
@@ -2157,7 +2210,7 @@
                     <ab corresp="#Laurin_V_3" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Sinador parole a Galienne, la fille au duc de Consorre. 
-                            Et comment elle ly compte du chevalier qui la veult avoir a force etc<!-- harmoniser etc. parfois etcaetea -->.</seg>
+                            Et comment elle ly compte du chevalier qui la veult avoir a force, etc.</seg>
                         <seg type="location">68ra</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f141.item"/>
                         <seg type="note">rubric+miniature+initial</seg>
@@ -3068,7 +3121,7 @@
                     <ab corresp="#Laurin_V_29" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Cy vient ly comptes a Laurin et a Mirador que Euriés a consuy 
-                            et se mist aveques eulx au chemin pour aler au roy Artus etc.</seg>
+                            et se mist aveques eulx au chemin pour aler au roy Artus, etc.</seg>
                         <seg type="location">145vb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f296.item"/>
                         <seg type="note">rubric+miniature+initial</seg>
@@ -3108,7 +3161,7 @@
                     <ab corresp="#Laurin_V_30" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Cy vient ly comptes au tournoiement que le roy Artus fist crier a Vincestre.
-                            Et comment Marques et Sinador le firent si bien que ilz en orent le pris de tous etc.</seg>
+                            Et comment Marques et Sinador le firent si bien que ilz en orent le pris de tous, etc.</seg>
                         <seg type="location">148ra</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f300.item"/>
                         <seg type="note">miniature(147vb)+rubric+initial(148ra)</seg>
@@ -3180,7 +3233,7 @@
                     <ab corresp="#Laurin_V_32" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Laurin mist a outrance le chevalier qui menoit la damoiselle.
-                        Et comment elle s'arma pour combatre a Laurin etc.</seg>
+                        Et comment elle s'arma pour combatre a Laurin, etc.</seg>
                         <seg type="location">154vb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f314.item"/>
                         <seg type="note">rubric+miniature+initial</seg>
@@ -4701,7 +4754,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_30" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="rubric">Comment ly princes en guise de truant conta son compte pour destourner l'empereur de sa voie etc.</seg>
+                        <seg type="rubric">Comment ly princes en guise de truant conta son compte pour destourner l'empereur de sa voie, etc.</seg>
                         <seg type="location">221rb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f448.item"/>
                         <seg type="note">rubric+miniature(221va)+initial(221va)</seg>
@@ -5863,7 +5916,7 @@
                         <seg type="rubric">Cis contes est d'un maistre ki salua l'empereur.</seg>
                         <seg type="location">B20-38ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="commentary">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink</seg>
                     </ab>
                 </div>
                 <milestone n="4-59" unit="chapter" xml:id="RC_59"/>
@@ -6008,7 +6061,7 @@
                         <seg type="rubric">(inaccessible) d'un maistre ki jadis (inaccessible) fu en Gresce (inaccessible)</seg>
                         <seg type="location">B20-33ra</seg>
                         <seg type="note">rubric(partially)+hist.initial</seg>
-                        <seg type="commentary">apparent (partially) red indications on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -6424,7 +6477,7 @@
                     </ab>
                     <ab corresp="#Helcanus_V_2" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="rubric">Si comme l'empereur de Constantinnoble ala a Romme avec l'empereris etc.</seg>
+                        <seg type="rubric">Si comme l'empereur de Constantinnoble ala a Romme avec l'empereris, etc.</seg>
                         <seg type="location">295va</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f596.item"/>
                         <seg type="note">rubric+miniature+initial</seg>
@@ -6538,11 +6591,11 @@
                     <ab corresp="#Helcanus_V_5" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">Comment Fremor et ses freres offrent l'amende a l'empereor.
-                        + Comment li emperieres et Daphus conquistrent le duc de Maience.</seg><!-- SV : donner en 2e rubrique ? -->
+                        + Comment li emperieres et Daphus conquistrent le duc de Maience.</seg><!-- SV : donner en 2e rubrique ? cf. comm. ci-dessous -->
                         <seg type="location">244rb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f487.item"/>
                         <seg type="note">rubric+miniature(244ra-b)+initial(247rb)</seg>
-                        <seg type="commentary">second rubric read at the bottom of 244rb, just before the miniature, as a legend.</seg>
+                        <seg type="commentary">second rubric read at the bottom of 244rb, just before the miniature, as a kind of legend.</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_5" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -6799,14 +6852,16 @@
                     </ab>
                     <ab corresp="#Helcanus_V_12" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">XXX</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci devise et parle comment li contes s'en revient au roy d'Arragon tout ainsi comme il fu desconfiz
+                        et toute sa compaignie desconfiz et ocis le chastel d'Aquarie fors que ne sai quanz qu'il en amena o lui.</seg>
+                        <seg type="location">1ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000006/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(1ra-b)+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_12" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est ci endroit ensi come Diomarcus li rois d'Aragon fu descondis dou roi d'Espaigne
-                        et il se retraist arriere en Aragon pour avoir gringnor forche. etc.</seg>
+                        et il se retraist arriere en Aragon pour avoir gringnor forche, etc.</seg>
                         <seg type="location">B23-24ra</seg>
                         <seg type="note">rubric+hist.initial(B23-24rb)</seg>
                     </ab>
@@ -6835,9 +6890,10 @@
                     </ab>
                     <ab corresp="#Helcanus_V_13" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">XXX</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">ø</seg>
+                        <seg type="location">1va</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000007/full/90,/0/default.jpg"/>
+                        <seg type="note">no rubric+miniature. initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_13" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -6873,9 +6929,11 @@
                     </ab>
                     <ab corresp="#Helcanus_V_14" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">XXX</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci revient li comptes aus .ii. damoisiaus de Romme qui se sont partiz du roy d'Espaigne et enmainent 
+                            leur fames en leur terre a grant feste et a grant joie.</seg>
+                        <seg type="location">5vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00000f/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(5vb-c)+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_14" type="ms_instance">
                         <seg type="witness">R</seg>
@@ -6908,8 +6966,9 @@
                     </ab>
                     <ab corresp="#Helcanus_V_15" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">XXX</seg>
-                        <seg type="location">XXX</seg>
+                        <seg type="rubric">Comment Pelyarmenus se parti du chastel Mignot et s'en revint devers le roy d'Espaigne.</seg>
+                        <seg type="location">12rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00001c/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_15" type="ms_instance">
@@ -6917,7 +6976,7 @@
                         <seg type="rubric">Ensi com Peliarmenus parti du chastiel Mignot.</seg>
                         <seg type="location">B3-6vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="commentary">apparent (partially) red indications (X...) on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink.</seg>
                     </ab>
                 </div>
                 <milestone n="5-16" unit="chapter" xml:id="RH_16"/>
@@ -6946,16 +7005,18 @@
                     </ab>
                     <ab corresp="#Helcanus_V_16" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">XXX.</seg>
-                        <seg type="location">XXX</seg>
-                        <seg type="note">XXX</seg>
+                        <seg type="rubric">Comment Pelyarmenuz conte .i. faus compte d'un homme de Romme a Josyas d'Espaigne pour 
+                            Helcanus metre a mort.</seg>
+                        <seg type="location">13rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00001e/full/90,/0/default.jpg"/>                        
+                        <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_16" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">C'est .i. examples ke Peliarmenus conta a son XXX Yosiam le damoisiel d'Espagne.(help #SL).</seg>
                         <seg type="location">B3-4va</seg>
                         <seg type="note">rubric+hist.initial</seg>
-                        <seg type="commentary">apparent (partially) red indications (XIII) on the top-margin</seg><!-- revoir -->
+                        <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink.</seg>
                     </ab>
                 </div>
                 <milestone n="5-17" unit="chapter" xml:id="RH_17"/>
@@ -6984,6 +7045,7 @@
                         <seg type="witness">X2</seg>
                         <seg type="explicit">Ci fine li livres de Cassidorus.</seg>
                         <seg type="location">16rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000024/full/90,/0/default.jpg"/>
                         <seg type="note">explicit(red)+incipit(red)+miniature(16rb-c)+initial(16rc)</seg>
                     </ab>
                     <ab corresp="#Helcanus_V_17" type="ms_instance">
@@ -7025,6 +7087,7 @@
                         <seg type="incipit">Si parlerons aprés de Pelyarmenus de Romme comment il avoit pourchacié 
                             vers Dyalogus son frere, le bastart, de metre a mort les .ii. enfanz petiz a l'empereour.</seg>
                         <seg type="location">16rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000024/full/90,/0/default.jpg"/>
                         <seg type="note">explicit(red)+incipit(red)+miniature(16rb-c)+initial(16rc)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_1" type="ms_instance">
@@ -7072,6 +7135,7 @@
                             a l'empereriz sa mere dire nouvelles de ce qu'il ot trouvé
                             de l'empereour.</seg>
                         <seg type="location">18vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000029/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_2" type="ms_instance">
@@ -7114,6 +7178,7 @@
                             l'empereour furent congneu par .i. chevalier qui les vit
                             chiez le duc Borleuz ou aventure le mena.</seg>
                         <seg type="location">21rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00002e/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance">
@@ -7153,6 +7218,7 @@
                         <seg type="rubric">Ci dist comment Helcanus fu remis en la
                             prison par le commandement Josyas.</seg>
                         <seg type="location">25vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000037/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_4" type="ms_instance">
@@ -7196,6 +7262,7 @@
                             se fu partis du duc Borleuz, si comme devant est dit, pour
                             aler au chastel, la ou il trouva Fremor.</seg>
                         <seg type="location">29vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00003f/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_5" type="ms_instance">
@@ -7234,6 +7301,7 @@
                         <seg type="rubric">Comment Pelyarmenus volt estre empereor et
                             metre Helcanus son frere a mort.</seg>
                         <seg type="location">32vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000045/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_6" type="ms_instance">
@@ -7276,6 +7344,7 @@
                             de Coustantinoble et que li baron le receussent et li
                             aidassent.</seg>
                         <seg type="location">34vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000049/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature(34vc)+initial(34vc)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_7" type="ms_instance">
@@ -7318,6 +7387,7 @@
                             conseil a la damoisele et ala en son message, li et ses
                             compaignons.</seg>
                         <seg type="location">37vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00004f/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_8" type="ms_instance">
@@ -7364,6 +7434,7 @@
                             pour Helcanus son seigneur deffendre en
                             Coustantinoble.</seg>
                         <seg type="location">40va</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000055/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature(40va-b)+initial(40va)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
@@ -7409,6 +7480,7 @@
                         <seg type="rubric">Comment li garçons eschapa des traïtours et
                             s’en ala en Frise a Japhus.</seg>
                         <seg type="location">44rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00005d/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature(44va)+initial(44va)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_10" type="ms_instance">
@@ -7449,6 +7521,7 @@
                         <seg type="rubric">Comment Myrrus est demourez avec la pucele et
                             y demoura par .ii. mois li et son compaignon.</seg>
                         <seg type="location">46rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000060/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_11" type="ms_instance">
@@ -7489,6 +7562,7 @@
                         <seg type="rubric">Comment Myrrus se parti pour porter le
                             message a Pelyarmenus de par Helcanus, son frere.</seg>
                         <seg type="location">49va</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000067/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature(49vb)+initial(49vb)</seg>
                     </ab>
                     <ab corresp="#Pelyarmenus_V_12" type="ms_instance">
@@ -7528,6 +7602,7 @@
                                     <seg type="rubric">Comment Karus se parti de Mirrus et s’en ala
                                           en la cité de Nise.</seg>
                                     <seg type="location">52vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00006d/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_13" type="ms_instance">
@@ -7569,6 +7644,7 @@
                                     <seg type="rubric">C'est comment Pelyarmenus ot traï Helcanus
                                           son frere et le mena pris en Coustantinoble.</seg>
                                     <seg type="location">58vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00007b/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(59ra-b)+initial(59ra)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_14" type="ms_instance">
@@ -7610,6 +7686,7 @@
                                     <seg type="rubric">Comment Cliodorus se parti de Helcanus et
                                           s’en ala en Espaigne et au roy d’Arragon.</seg>
                                     <seg type="location">59vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00007c/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_15" type="ms_instance">
@@ -7650,6 +7727,7 @@
                                           et s’en ala tout a pié li et sa compaignie au Chastel
                                           Mignot.</seg>
                                     <seg type="location">64vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000086/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_16" type="ms_instance">
@@ -7692,6 +7770,7 @@
                                           meschief de ce que il ne sorent que Helcanus estoit
                                           devenuz.</seg>
                                     <seg type="location">66vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00008a/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_17" type="ms_instance">
@@ -7730,6 +7809,7 @@
                                     <seg type="rubric">Comment Myrrus abaty Dubyus de cop de
                                           lance.</seg>
                                     <seg type="location">67vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00008c/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(67vb-c)+initial(67vc)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_18" type="ms_instance">
@@ -7769,6 +7849,7 @@
                                     <seg type="rubric">Comment Pelyarmenus se parti de la bataille
                                           et comment il revint en sa terre.</seg>
                                     <seg type="location">69rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00008f/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(69rb-c)+initial(69rb)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_19" type="ms_instance">
@@ -7808,6 +7889,7 @@
                                     <seg type="rubric">Ci repaire li contes au roy d'Arragon et a
                                           Pelyarmenus.</seg>
                                     <seg type="location">71vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000094/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_20" type="ms_instance">
@@ -7848,6 +7930,7 @@
                                     <seg type="rubric">Ensi que Pelyarmenus envoia Helcanus, son
                                           frere, a Romme a Fastidorus et a sa mere.</seg>
                                     <seg type="location">75rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00009b/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(75rb-c)+initial(75rb)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_21" type="ms_instance">
@@ -7887,6 +7970,7 @@
                                     <seg type="rubric">Comment Aphode et Ysodore furent en grant
                                           meschief pour Helcanus.</seg>
                                     <seg type="location">77rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000a0/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_22" type="ms_instance">
@@ -7930,6 +8014,7 @@
                                           sa gent vindrent de Laomedon devant Coustantinnoble pour
                                           combatre a Peliarmenus.</seg>
                                     <seg type="location">79ra</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000a4/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(79rb-c)+initial(79rb)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_23" type="ms_instance">
@@ -7970,6 +8055,7 @@
                                     <seg type="rubric">Si comme Nera se parti de Laomedon et s’en
                                           ala a Romme querre Helcanus, son bon ami.</seg>
                                     <seg type="location">82rc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000ab/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(82va)+initial(82va)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
@@ -8009,6 +8095,7 @@
                                     <seg type="rubric">Comment li chevalier se mistrent a la voie
                                           pour querre Nera, la suer Josyas d’Espaigne.</seg>
                                     <seg type="location">83vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000ad/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_25" type="ms_instance">
@@ -8048,6 +8135,7 @@
                                     <seg type="rubric">Comment li empereres fu devant
                                           Coustantinoble.</seg>
                                     <seg type="location">85rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000b0/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_26" type="ms_instance">
@@ -8088,6 +8176,7 @@
                                     <seg type="rubric">Comment Peliarmenus conte .i. mauvais
                                           essample.</seg>
                                     <seg type="location">86ra</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000b2/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial(86rb)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_27" type="ms_instance">
@@ -8126,6 +8215,7 @@
                                     <seg type="rubric">Comment li seneschaus vaut amer Nera et avoir
                                           par force.</seg>
                                     <seg type="location">88vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000b7/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(88vc)+initial(88vc)</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_28" type="ms_instance">
@@ -8165,6 +8255,7 @@
                                     <seg type="rubric">Comment Helcanus issi de prison et ala en
                                           queste de Nera, s'amie.</seg>
                                     <seg type="location">89vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000b9/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_29" type="ms_instance">
@@ -8204,6 +8295,7 @@
                                     <seg type="rubric">Ensi comme li emperes trova le lyon quant il
                                           ala parler a l'ermite.</seg>
                                     <seg type="location">93ra</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000c0/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8239,6 +8331,7 @@
                                     <seg type="rubric">Si comme Dorus prist Peliarmenus pour ce
                                           qu'il ne li avoit mie envoié Dyalogus.</seg>
                                     <seg type="location">94rb-c</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000c2/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(94rb-c)+initial(94rb)</seg>
                               </ab>
                         </div>
@@ -8276,6 +8369,7 @@
                                     <seg type="rubric">Comment li chevalier quirent Peliarmenus et
                                           Dyalogus, que Dorus avoit pris en la forest.</seg>
                                     <seg type="location">96rc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000c6/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8309,6 +8403,7 @@
                                     <seg type="rubric">Ci vient li contes a l'empereour Cassidorus,
                                           qui est en l'ermitage avec le lyon.</seg>
                                     <seg type="location">98va</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000cb/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8347,6 +8442,7 @@
                                     <seg type="rubric">Comment li prince et li baron vindrent au
                                           jour qui leur fu mis de la pais.</seg>
                                     <seg type="location">99rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000cc/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+initial. no miniature</seg>
                               </ab>
                         </div>
@@ -8384,6 +8480,7 @@
                                           Romme firent feste de l'empereour quant il reprist sa
                                           femme.</seg>
                                     <seg type="location">101vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000d3/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(102ra-b)+initial(102ra)</seg>
                               </ab>
                         </div>
@@ -8422,6 +8519,7 @@
                                           es armes Leus et des princes et des chevaliers qui y
                                           furent.</seg>
                                     <seg type="location">105rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000da/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                                     <seg type="commentary">Suject : different subject</seg>
                               </ab>
@@ -8432,6 +8530,7 @@
                                           qui furent au tournoy. Et fu Dorus un des miex
                                           faisans.</seg>
                                     <seg type="location">106ra-b</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000dd/full/90,/0/default.jpg"/>
                                     <seg type="note">doubling rubric+miniature(106ra-b)+initial(106ra) already on 105rb</seg>
                               </ab>
                         </div>
@@ -8466,6 +8565,7 @@
                                     <seg type="rubric">Comment li empereres Cassidorus et
                                           l'empereris jouent aus eschés.</seg>
                                     <seg type="location">106vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000de/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(106vc)+initial(106vc)</seg>
                               </ab>
                         </div>
@@ -8507,6 +8607,7 @@
                                           l'empereris se mistrent en l'ermytage la ou li lyons les
                                           mena.</seg>
                                     <seg type="location">108rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000e1/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8552,6 +8653,7 @@
                                     <seg type="rubric">Ci vient li contes du roy Celydus de
                                           Jherusalem.</seg>
                                     <seg type="location">113vb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000ec/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8592,6 +8694,7 @@
                                           cousin, qui se partirent de l'empereeur et se mistrent en
                                           leur voie.</seg>
                                     <seg type="location">115vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000f2/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(116ra-b)+initial(116ra)</seg>
                               </ab>
                         </div>
@@ -8628,6 +8731,7 @@
                                     <seg type="rubric">Ci vient li contes au prince d'Antyoche
                                           comment il ala au parlement a Rohais.</seg>
                                     <seg type="location">118va</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000f8/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg> 
                                    <seg type="commentary">Subject : different subject // B</seg>
                               </ab>
@@ -8667,6 +8771,7 @@
                                     <seg type="rubric">Ci se taist li contes de Celydus et parole de
                                           Pelyarmenus.</seg>
                                     <seg type="location">121va</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000ff/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8706,6 +8811,7 @@
                                           en Coustentinoble mettre le preu Helcanus et Dorus, son
                                           frere, a mort par traÿson.</seg>
                                     <seg type="location">123ra</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000102/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(123ra-b)+initial(123rb)</seg>
                               </ab>
                         </div>
@@ -8739,6 +8845,7 @@
                                     <seg type="rubric">Ci vient li contes a Helcanus, qui s'est mis
                                           en sa queste.</seg>
                                     <seg type="location">126ra</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000108/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(126ra-b)+initial(126ra)</seg>
                               </ab>
                         </div>
@@ -8774,6 +8881,7 @@
                                           qui si bien le fist comme nulz le pot faire aprés
                                           Dorus.</seg>
                                     <seg type="location">130rb</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000110/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8811,6 +8919,7 @@
                                           Hayno le retint por savoir qu'il estoit devenus, et
                                           comment la damoiselle l'avoit detenu en son chastel.</seg>
                                     <seg type="location">132rc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000114/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
                         </div>
@@ -8847,6 +8956,7 @@
                                     <seg type="rubric">Ci vient li contes a Mardocheus, si commne il
                                           se mist aprés Dorus aprés ce que Helcanus fu mors.</seg>
                                     <seg type="location">132vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000116/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature(133ra)+initial(133ra)</seg>
                               </ab>
                         </div>
@@ -8886,6 +8996,7 @@
                                           ainssic comme il morut par la traÿson a la
                                           chastelaine.</seg>
                                     <seg type="location">133vc</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000118/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
                         </div>
@@ -8919,7 +9030,8 @@
                                     <seg type="explicit">Ci fine li livres de Cassidorus, empereour
                                           de Romme et de Coustentinoble.</seg>
                                     <seg type="location">134vc</seg>
-                                    <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
+                                  <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00011a/full/90,/0/default.jpg"/>
+                                    <seg type="note">explicit(brown)+incipit(brown)+miniature(135ra-b)initial(135ra)</seg>
                               </ab>
                         </div>
                 <milestone n="7-1" unit="incipit" xml:id="RK_1"/>
@@ -8953,8 +9065,9 @@
                         <seg type="witness">X2</seg>
                         <seg type="incipit">Aprés conmence li deerrains
                             de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">explicit(brown)+incipit(XXX)+miniature(135ra-b)initial(135ra)</seg>
+                        <seg type="location">134vc</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00011a/full/90,/0/default.jpg"/>
+                        <seg type="note">explicit(brown)+incipit(brown)+miniature(135ra-b)initial(135ra)</seg>
                     </ab>
                 </div>
                 <milestone n="7-2" unit="chapter" xml:id="RK_2"/>
@@ -8984,11 +9097,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_2" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci revient li contes a la pucelle Nichole qui suivoit les enfans que li lyons emportoit.</seg>
+                        <seg type="location">136rb</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00011c/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-3" unit="chapter" xml:id="RK_3"/>
@@ -9017,10 +9129,9 @@
                     </ab>
                     <ab corresp="#Kanor_V_3" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci vient li contes a Celydus et a Dyanor son cousin comment il vindrent au chastel de Rohais.</seg>
+                        <seg type="location">137vc</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00011f/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9054,11 +9165,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_4" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">ø</seg>
+                        <seg type="location">140ra</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000124/full/90,/0/default.jpg"/>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="7-5" unit="chapter" xml:id="RK_5"/>
@@ -9093,11 +9203,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_5" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes aus princes de Coustantinoble comment il se combatirent au roy d'Arragon et comment 
+                        Mardocheus et Josias d'Espaingne et un leur compaignon alerent en la forest mervelleuse eulz aventurer.</seg>
+                        <seg type="location">145vc</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000130/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(146ra-b)+initial(146ra)</seg>
                     </ab>
                 </div>
                 <milestone n="7-6" unit="chapter" xml:id="RK_6"/>
@@ -9126,10 +9236,9 @@
                     </ab>
                     <ab corresp="#Kanor_V_6" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Comment l'empereris et la duchesce parolent ensemble de pluseurs choses.</seg>
+                        <seg type="location">153vc</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00013f/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9161,11 +9270,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_7" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci parole des .iiii. enfans a l'empereour Cassydorus comment li lyons les porta en la roche.</seg>
+                        <seg type="location">156va</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000145/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature+initial(156vb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-8" unit="chapter" xml:id="RK_8"/>
@@ -9195,11 +9303,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_8" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Comment les quatre damoisiaus conterent a l'ermyte des chevaliers et des chevaus.</seg>
+                        <seg type="location">158vc</seg>                              
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000149/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-9" unit="chapter" xml:id="RK_9"/>
@@ -9230,11 +9337,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_9" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">ø</seg>
+                        <seg type="location">160rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00014c/full/90,/0/default.jpg"/>
+                        <seg type="note">no rubric+miniature+initial</seg>
                     </ab>
                 </div>
                 <milestone n="7-10" unit="chapter" xml:id="RK_10"/>
@@ -9263,10 +9369,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_10" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci vient li contes as .iiii. damoisiaus les filz Cassidorus comment les chevaliers les aporterent au roy
+                            de Hongrie.</seg>
+                        <seg type="location">162ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000150/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9301,10 +9407,9 @@
                     </ab>
                     <ab corresp="#Kanor_V_11" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Comment les messages revindrent au roy Celidus au chastel de Margas.</seg>
+                        <seg type="location">164rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000154/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9334,11 +9439,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_12" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Conment la meschine que li chanoines fist banir s'en ala et enporta l'enfant a l'empereris pour le sien
+                            si comme il est dessus dit.</seg>
+                        <seg type="location">169rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00015e/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(169rc)+initial(169rc)</seg>
                     </ab>
                 </div>
                 <milestone n="7-13" unit="chapter" xml:id="RK_13"/>
@@ -9369,10 +9474,9 @@
                     </ab>
                     <ab corresp="#Kanor_V_13" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci vient li contes a l'emfant de l'empereris qui fu changiez a l'enfant au chanoine.</seg>
+                        <seg type="location">171ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000162/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9402,10 +9506,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_14" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci aprés vient li contes a l'empereris de Costentinnoble comment elle se mist en guise d'escuier 
+                            et s'en ala entre lui et Belins.</seg>
+                        <seg type="location">174rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000168/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9435,11 +9539,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_15" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes a Jasphus, a Josias et a Mardocheus comment il entrerent en la forest perilleuse.</seg>
+                        <seg type="location">180vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000175/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(180vb-c)+initial(180vb)</seg>
+                        <seg type="commentary">Miniatur and initial not colored.</seg>
                     </ab>
                 </div>
                 <milestone n="7-16" unit="chapter" xml:id="RK_16"/>
@@ -9447,7 +9551,7 @@
                     <ab corresp="#Kanor_V_16" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
                         <seg type="rubric">Comment Josyas d'Espaigne trouva une chace de chiens qui couroient aprés .i. cerf que la royne 
-                            de Ripleurjoie chacoit et ses puceles.</seg>
+                            de Ripleurjoie chaçoit et ses puceles.</seg>
                         <seg type="location">107vc</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f220.item"/>
                         <seg type="note">rubric+miniature(107vb-c)+initial(107vb)</seg>
@@ -9461,18 +9565,18 @@
                     <ab corresp="#Kanor_V_16" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="rubric">Comment Josias d'Espaigne trouva une chace de chiens qui couroient aprés .i. cerf que la royne 
-                            de Ripleurjoye chacoit et ses pucelles.</seg>
+                            de Ripleurjoye chaçoit et ses pucelles.</seg>
                         <seg type="location">549va</seg>                              
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f1104.item"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                     <ab corresp="#Kanor_V_16" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Comment Josias d'Espaigne trouva une chace de chiens qui couroient aprés .i. cerf que la royne 
+                            de Ripleurjoie chaçoit entre li et ses puceles.</seg>
+                        <seg type="location">186vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000181/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(186vb-c)+initial(186vb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-17" unit="chapter" xml:id="RK_17"/>
@@ -9503,11 +9607,12 @@
                     </ab>
                     <ab corresp="#Kanor_V_17" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes a Mardocheus qui s'estoit mis en la forest perilleuse pour querre aventures. 
+                            Et comment il commença a chanter et comment il encontra en son chemin .i. chevalier navré trop durement d'un
+                            gros espié quarré parmi le cors.</seg>
+                        <seg type="location">190rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000188/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(190rb-c)+initial(190rb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-18" unit="chapter" xml:id="RK_18"/>
@@ -9536,11 +9641,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_18" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes a Japhus de Frise comment les puceles l'enmenerent en prison et comment 
+                            il chantoient toutes de joie.</seg>
+                        <seg type="location">198rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000198/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(198rb-c)+initial(198rb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-19" unit="chapter" xml:id="RK_19"/>
@@ -9570,11 +9675,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_19" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes as .iiii. damoisiaus les filz a l'empereor Cassidorus de Costentinnoble comment 
+                            li roys de Hongrie les fist norrir.</seg>
+                        <seg type="location">199vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00019b/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-20" unit="chapter" xml:id="RK_20"/>
@@ -9602,11 +9707,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_20" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes au chastelain de Gomor comment il parole as .iiii. filz l'empereour Cassidorus.</seg>
+                        <seg type="location">201rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x00019e/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+initial. no miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-21" unit="chapter" xml:id="RK_21"/>
@@ -9635,10 +9739,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_21" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Comment li .iiii. damoisel qui en la tour estoient firent tant qu'il orent la chastelaine et avec 
+                            li une pucele.</seg>
+                        <seg type="location">203ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001a2/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9670,11 +9774,12 @@
                     </ab>
                     <ab corresp="#Kanor_V_22" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes aux .iiii. freres si comme il orent la chastelaine de Chyno avec eulz en la tour
+                            et une de ses puceles. Et comment li sires de Princefueil fist assaillir la tor et puis comment le roy de Hongrie
+                            delivra lez .iiii. damoisiaus et la chastelaine. Et le sire de Princefoil s'enfui de paour.</seg>
+                        <seg type="location">204rc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001a5/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(204va-b)+initial(204va)</seg>
                     </ab>
                 </div>
                 <milestone n="7-23" unit="chapter" xml:id="RK_23"/>
@@ -9701,18 +9806,17 @@
                     </ab>
                     <ab corresp="#Kanor_V_23" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes au roy Celidus de Jherusalem et a Dyanor son cousin.</seg>
+                        <seg type="location">208vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001ad/full/90,/0/default.jpg"/>
+                        <seg type="note">miniature(20va)+rubric+initial(208vb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-24" unit="chapter" xml:id="RK_24"/>
                 <div type="alignment" xml:id="Kanor_V_24">
                     <ab corresp="#Kanor_V_24" type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
-                        <seg type="rubric">Ci vient li contes du prince de Bethsaïda comment il voult donner a Raimfort la duchesse afaitié, 
+                        <seg type="rubric">Ci vient li contes du prince de Bethsaïda comment il voult donner a Raimfort la duchesse a fame, 
                             si comme Dyomarques li rois d'Arragon l'avoit pourchacié.</seg>
                         <seg type="location">138vb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f282.item"/>
@@ -9726,7 +9830,7 @@
                     </ab>
                     <ab corresp="#Kanor_V_24" type="ms_instance">
                         <seg type="witness">G</seg>
-                        <seg type="rubric">Ci vient li contes au prince de Bethsaïda comment il voult donner a Rainfort la duchesse afaitié, 
+                        <seg type="rubric">Ci vient li contes au prince de Bethsaïda comment il voult donner a Rainfort la duchesse a fame, 
                             si comme Dyomarques le roy d'Arragon l'avoit pourchacié.</seg>
                         <seg type="location">578vb</seg>                              
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f1162.item"/>
@@ -9734,10 +9838,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_24" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci vient li contes au prince de Bethsaÿda comment il voult donner a Raimfort la duchesse a fame, 
+                            si comme Dyomarques li roys d'Arragon l'avoit pourchacié.</seg>
+                        <seg type="location">212ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001b4/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9766,10 +9870,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_25" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
+                        <seg type="rubric">Ci vient li contes comment li roys de Hongrie delivra les .iiii. damoisiaus du chastel de Cyno 
+                            et comment il les fist chevaliers.</seg>
+                        <seg type="location">214ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001b8/full/90,/0/default.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
                     </ab>
                 </div>
@@ -9799,11 +9903,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_26" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">ø</seg>
+                        <seg type="location">218rb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001c0/full/90,/0/default.jpg"/>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-27" unit="chapter" xml:id="RK_27"/>
@@ -9832,11 +9935,11 @@
                     </ab>
                     <ab corresp="#Kanor_V_27" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">Ci vient li contes a l'empereris de Costentinnoble comment ele parole a son filz Libanor que elle 
+                            avoit norri et comment ele li conte l'aventure.</seg>
+                        <seg type="location">222vc</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001c9/full/90,/0/default.jpg"/>
+                        <seg type="note">rubric+miniature(222vb-c)+initial(222vb)</seg>
                     </ab>
                 </div>
                 <milestone n="7-28" unit="chapter" xml:id="RK_28"/>
@@ -9865,11 +9968,10 @@
                     </ab>
                     <ab corresp="#Kanor_V_28" type="ms_instance">
                         <seg type="witness">X2</seg>
-                        <seg type="rubric">Ci fine li livres de Cassidorus, empereour
-                            de Romme et de Coustentinoble, aprés conmence li deerrains
-                            de ses enfans. Explicit.</seg>
-                        <seg type="location">134vc</seg>
-                        <seg type="note">rubric+miniature+initial</seg>
+                        <seg type="rubric">ø</seg>
+                        <seg type="location">226ra</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001d0/full/90,/0/default.jpg"/>
+                        <seg type="note">initial. no rubric+miniature</seg>
                     </ab>
                 </div>
                 <milestone n="7-29" unit="explicit" xml:id="RK_29"/>
@@ -9902,6 +10004,7 @@
                         <seg type="explicit">Ci fine li livres de Marques de Romme, de Laurin, de Cassidorus, et de Pelyarmenus, 
                             et des fais de pluseurs empereours de Romme et de Coustantinnoble si comme il est devant contenu en l'ystoire.</seg>
                         <seg type="location">231vb</seg>
+                        <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0001db/full/90,/0/default.jpg"/>
                         <seg type="note">explicit(brown)</seg>
                     </ab>
                 </div>
