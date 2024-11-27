@@ -1,19 +1,38 @@
+@font-face {
+    font-family: 'Crimson';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crimson'), url(https://brick.freetls.fastly.net/fonts/crimson/400.woff) format('woff');
+}
+
 p{
     text-indent:1em;
     text-align:justify;
     height: auto;
     font-size:20px;
     word-spacing:5px;
+    line-height: 1.4;
+    text-indent: 1em;
+    font-family: 'Crimson';
 }
 h1 {
     color:darkred;
     font-size:30px;
     text-align:center;
+    font-family: 'Crimson';
 }
 h2 {
     color:darkred;
     font-size:15px;
     text-align:center;
+    font-family: 'Crimson';
+}
+
+.title {
+   color:darkred;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Crimson'; 
 }
 
 body {

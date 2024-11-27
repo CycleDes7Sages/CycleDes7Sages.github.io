@@ -207,7 +207,7 @@
             <content>
               <sequence>
                 <elementRef key="title" minOccurs="1" maxOccurs="1"/>
-                <elementRef key="respStmt" minOccurs="5" maxOccurs="15"/>
+                <elementRef key="respStmt" minOccurs="1" maxOccurs="15"/>
               </sequence>
             </content>
           </elementSpec>

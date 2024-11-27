@@ -4,14 +4,40 @@
     <xsl:template match="/">
         <html>
             <head>
+                
                 <title>Le Roman de Pelyarmenus, édition en cours d'élaboration par Camille Carnaille, Prunelle Deleville, Sophie Lecomte 
                     (sous la direction de Simone Ventura)</title>
                 <link rel="stylesheet" type="text/css" href="../ASSETS/Pelyarmenus.css"/>
+                <meta http-equiv="cache-control" content="no-cache"/>
+                <meta http-equiv="expires" content="0"/>
+                <meta http-equiv="pragma" content="no-cache"/>
+                <script>
+                    function toggleTooltip(element) {
+                    const tooltip = element.nextSibling;
+                    tooltip.classList.toggle('active');
+                    element.addEventListener('mouseleave', () => {
+                    tooltip.classList.remove('active');
+                    });
+                    }
+                    
+                    function hideTooltip(element) {
+                    element.classList.remove('active');
+                    }
+                    
+                </script>
             </head>
-            <body><xsl:apply-templates/></body>
+            <body><span class="title">
+                <i>Édition du Roman de Pelyarmenus</i>
+            </span>
+                <br/>
+                <br/>
+                <xsl:apply-templates/></body>
         </html>
     </xsl:template>
     <xsl:template match="teiHeader">
+    </xsl:template>
+    <xsl:template match="title">
+        <h1><xsl:text> </xsl:text><xsl:apply-templates/></h1>
     </xsl:template>
     <xsl:template match="head[@type='rubrique']">
         <h1><span class="headNum">[<xsl:value-of select="substring-after(@n,'R')"/>]</span><xsl:text> </xsl:text><xsl:apply-templates/></h1>
@@ -66,7 +92,8 @@
     </xsl:template> 
     <xsl:template match="said">
         <xsl:choose>
-            <xsl:when test="@rendition='dialogue'">
+            <xsl:when test="@rendition='dialogue'"> <!-- SG, j'ai réalisé, sur la base de l'application de ce script à une section de texte 
+            bien plus congrue, que le code faisait perdre des pans entiers de discours. Help !!-->
                 <xsl:choose>
                     <!--<xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and matches(.,'^.*[\.!\?]$')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>-->
                     <xsl:when test="preceding-sibling::said and not(following-sibling::said[1][@rendition='dialogue']) and ends-with(.,'.')"><br/> – <xsl:apply-templates/>&#xA0;»<br/></xsl:when>
@@ -139,6 +166,105 @@
             <xsl:when test="@ana='lettre'">"<xsl:apply-templates/>"</xsl:when>
             <xsl:when test="@ana='chanson'"><xsl:apply-templates/></xsl:when>
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
+        </xsl:choose>
+        <xsl:choose>
+            <xsl:when test="@rendition = 'dialogue'">
+                <xsl:choose>
+                    <!-- Condition propre au discours direct avec incise terminale non suivie d'un DD -->
+                    <!-- Type : – Et j'en ferai la besougne », dist il. (§§132, 159) -->
+                    <!-- On met la virgule à la fin du DD et le script la met après les » -->
+                    <!-- Ce test doit être en premier sinon il y a conflit avec un autre test -->
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., ',')"
+                        ><span style="white-space: nowrap;">—&#xA0;</span><xsl:value-of
+                            select="substring(., 1, string-length(.) - 1)"/>&#xA0;»,</xsl:when>
+                    
+                    <!-- Template pour les spécifiques pour les discours en fin de <p> -->
+                    <xsl:when test="@style = 'last'">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
+                    </xsl:when>
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg and following-sibling::seg[1][@rendition = 'dialogue']">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
+                    </xsl:when>
+                    
+                    <xsl:when test="following-sibling::seg[1][@rendition = 'dialogue']">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
+                    </xsl:when>
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg or position() = 1 and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., '.')"
+                        ><span style="white-space: nowrap;"
+                            >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., '?')"
+                        ><span style="white-space: nowrap;"
+                            >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., '!')"
+                        ><span style="white-space: nowrap;"
+                            >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
+                    
+                    <xsl:when
+                        test="preceding-sibling::seg and not(following-sibling::seg[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))"
+                        ><span style="white-space: nowrap;"
+                            >–&#xA0;</span><xsl:apply-templates/>&#xA0;»</xsl:when>
+                </xsl:choose>
+            </xsl:when>
+            
+            
+            <!-- Template pour les débuts DIALOGUE -->
+            
+            <xsl:when test="position() = 1 and following-sibling::seg[@rendition = 'dialogue']">
+                «&#xA0;<xsl:apply-templates/></xsl:when>
+            
+            
+            <xsl:when test="@direct = 'true' and @aloud = 'true' and not(@rendition = 'dialogue')">
+                <xsl:choose>
+                    <!-- Template pour les débuts DIALOGUE qui ont une suite dans le même <p> -->
+                    <xsl:when test="following-sibling::seg[1][@rendition = 'dialogue']">
+                        «&#xA0;<xsl:apply-templates/></xsl:when>
+                    
+                    <!-- Template pour les spécifiques pour les discours type "dis me tu" -->
+                    <xsl:when test="@style = 'nogap'">
+                        «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:when>
+                    
+                    <!-- Template pour les spécifiques pour les discours en fin de <p> -->
+                    <xsl:when test="@style = 'last'"> «&#xA0;<xsl:apply-templates/></xsl:when>
+                    
+                    <!-- Template pour les spécifiques pour les discours enchâssés -->
+                    <xsl:when test="@style = 'embedded'"> “<xsl:apply-templates/>”</xsl:when>
+                    
+                    <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD (ou sans incise) -->
+                    <!-- Type : – Et j'en ferai la besougne ! » dist il. -->
+                    <xsl:when
+                        test="not(preceding-sibling::seg[1][@rendition = 'dialogue']) and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., '!')"
+                        > «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
+                    
+                    <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD -->
+                    <!-- Type : – Et j'en ferai la besougne », dist il. -->
+                    <!-- On met la virgule à la fin du DD et le script la met après les » -->
+                    <xsl:when
+                        test="not(preceding-sibling::seg[1][@rendition = 'dialogue']) and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., ',')"
+                        > «&#xA0;<xsl:value-of select="substring(., 1, string-length(.) - 1)"
+                        />&#xA0;», </xsl:when>
+                    
+                    <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD -->
+                    <!-- Type : – Et j'en ferai la besougne ? » dist il. -->
+                    <xsl:when
+                        test="not(preceding-sibling::seg[1][@rendition = 'dialogue']) and not(following-sibling::seg[1][@rendition = 'dialogue']) and ends-with(., '?')"
+                        > «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
+                    
+                    <xsl:otherwise> «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="unclear">
