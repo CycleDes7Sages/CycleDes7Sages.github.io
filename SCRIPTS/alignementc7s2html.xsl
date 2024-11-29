@@ -79,7 +79,14 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="teiHeader"/><!-- offrir accès au projectDesc du TeiHeader pour documenter le tableau directement sur la page HTML -->
+    <xsl:template match="teiHeader">
+        <head>
+            <title>Alignement du C7S</title>
+        </head>
+        <body>
+            <xsl:apply-templates/><!-- CC : à dvlpr !!! -->
+        </body>
+    </xsl:template>
     
     <xsl:template match="div[@type='alignment']">
         <tr>
@@ -91,6 +98,8 @@
         </tr>
     </xsl:template>
     
+    <xsl:template match="num">.<span class="num"><xsl:apply-templates/></span>.</xsl:template><!-- SG : moyen de se passer d'un CSS, que je n'aie pas créé
+    à ce stade (et qui ne saurait prendre en charge, sur la base de mes capacités, le rendu du tableau), et de donner les num en petites capitales ?-->
     <xsl:template match="ab[@type='ms_instance']">
         
         <xsl:choose>
@@ -99,7 +108,7 @@
                     <xsl:text>V1 </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <xsl:if test="graphic[@url]">
-                            <a href="{@url}" target="_blank">🖼️</a>
+                        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                     </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
@@ -129,7 +138,7 @@
                     <xsl:text>V2 </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <xsl:if test="graphic[@url]">
-                        <a href="{@url}" target="_blank">🖼️</a>
+                        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                     </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
@@ -155,7 +164,7 @@
                     <xsl:text>V3 </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>                    
                     <xsl:if test="graphic[@url]">
-                        <a href="{@url}" target="_blank">🖼️</a>
+                        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                     </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
@@ -182,6 +191,9 @@
                         <td class="ms_B">                            
                             <xsl:text>B </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -301,7 +313,7 @@
                             <xsl:text>X1 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                             <xsl:if test="graphic[@url]">
-                                <a href="{@url}" target="_blank">🖼️</a>
+                                <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                             </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
@@ -327,7 +339,7 @@
                             <xsl:text>X1 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                             <xsl:if test="graphic[@url]">
-                                <a href="{@url}" target="_blank">🖼️</a>
+                                <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                             </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
@@ -380,7 +392,7 @@
                             <xsl:text>X2 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                             <xsl:if test="graphic[@url]">
-                                <a href="{@url}" target="_blank">🖼️</a>
+                                <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                             </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
@@ -406,7 +418,7 @@
                             <xsl:text>X2 </xsl:text>
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                             <xsl:if test="graphic[@url]">
-                                <a href="{@url}" target="_blank">🖼️</a>
+                                <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                             </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
@@ -457,7 +469,7 @@
                     <xsl:text>G </xsl:text>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
                     <xsl:if test="graphic[@url]">
-                        <a href="{@url}" target="_blank">🖼️</a>
+                        <a href="{@url}" target="_blank" class="GallicaLink">🖼️</a>
                     </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
