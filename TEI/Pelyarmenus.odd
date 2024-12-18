@@ -562,7 +562,7 @@
 
           <elementSpec ident="note" module="core" mode="change">
             <attList>
-              <attDef ident="type" mode="change" usage="req">
+              <attDef ident="type" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="apparat"/>
                   <valItem ident="notecritique"/>
