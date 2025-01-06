@@ -8554,6 +8554,13 @@
                                   <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000c6/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
                               </ab>
+                            <ab corresp="#Pelyarmenus_V_32" type="ms_instance">
+                                <seg type="witness">C</seg>
+                                <seg type="rubric">ø</seg>
+                                <seg type="location">3ra</seg>
+                                <seg type="note">no rubric+miniature+initial</seg>
+                                <seg type="commentary">recapitulated + damaged section</seg>
+                            </ab>
                         </div>
                         <milestone n="6-33" unit="chapter" xml:id="RP_33"/>
                         <div type="alignment" xml:id="Pelyarmenus_V_551">
@@ -8634,7 +8641,8 @@
                                 <seg type="rubric">ø</seg>
                                 <seg type="location">3ra</seg>
                                 <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f11.item.zoom"/>
-                                <seg type="note">absent section in this condensed version of this part of the text CF.FP</seg>
+                                <seg type="note">no rubric+miniature+initial+§</seg>
+                                <seg type="commentary">recapitulated + damaged section (apparent ellipse here)</seg>
                             </ab>
                             <ab corresp="#Pelyarmenus_V_34" type="ms_instance">
                                 <seg type="witness">C</seg>
@@ -8693,7 +8701,7 @@
                                 <seg type="rubric">ø</seg>
                                 <seg type="location">3vb</seg>
                                 <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f12.item"/>
-                                <seg type="note">no rubric+miniature+initial. CF.FP §(symbole seul)</seg>
+                                <seg type="note">no rubric+miniature+initial</seg>
                             </ab>
                         </div>
                         <milestone n="6-36" unit="chapter" xml:id="RP_36"/>
@@ -8950,11 +8958,11 @@
                                 <seg type="rubric">ø</seg>
                                 <seg type="location">16ra</seg>
                                 <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f40.item.zoom"/>
-                                <seg type="note">no rubric+miniature+initial. absent section in this condensed version of this part of the text CF.FP</seg>
+                                <seg type="note">no rubric+miniature+initial. absent section in the condensed version of this part of the text</seg>
                                 <seg type="commentary">In the last paragraph in which we can see a concordance, the text explicitely exprims 
                                     its intention to go forward : "Et trovons en l'istoire, por plus briement outre passer,"
                                     <hi rend="italique">cf.</hi> édition du <hi rend="italique">Roman de Kanor</hi> according to this manuscript 
-                                by Florian-Pierre Zanardi : CF.FP link, §105</seg>
+                                by Florian-Pierre Zanardi, §105</seg>
                             </ab>
                         </div>
                         <milestone n="6-41" unit="chapter" xml:id="RP_41"/>
@@ -9000,7 +9008,7 @@
                                 <seg type="rubric">ø</seg>
                                 <seg type="location">16rb</seg>
                                 <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f37.item.zoom"/>
-                                <seg type="note">no rubric+miniature+initial. absent section in this condensed version of this part of the text</seg>                                
+                                <seg type="note">no rubric+miniature+initial. absent section in the condensed version of this part of the text</seg>                                
                             </ab>
                         </div>
                         <milestone n="6-42" unit="chapter" xml:id="RP_42"/>
@@ -9226,7 +9234,7 @@
                                 <seg type="witness">C</seg>
                                 <seg type="rubric">ø</seg>
                                 <seg type="location"></seg>
-                                <seg type="note">no rubric+miniature+initial+§. Missing section in this recapitulation</seg>
+                                <seg type="note">no rubric+miniature+initial+§. recapitulated section</seg>
                             </ab>
                         </div>
                         <milestone n="6-47" unit="chapter" xml:id="RP_47"/>
@@ -9314,7 +9322,7 @@
                                   <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000118/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
-                            <ab corresp="#Pelyarmenus_V_48" type="ms_instance">
+                            <ab corresp="#Pelyarmenus_V_48" type="ms_instance"><!-- CAMILLE! -->
                                 <seg type="witness">C</seg>
                                 <seg type="rubric">ø</seg>
                                 <seg type="location"></seg>
