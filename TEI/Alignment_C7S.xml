@@ -238,11 +238,11 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="2v" to="26v"/> 
-                                    <title>Pelyarmenus §446-842</title>
+                                    <title>Pelyarmenus §446-848</title>
                                 </msItem>
                                 <msItem>
-                                    <locus from="27r" to="XXX"/><!-- à compléter --> 
-                                    <title>Kanor §XXX</title>
+                                    <locus from="26v" to="70rb"/> 
+                                    <title>Kanor</title>
                                 </msItem>
                             </msContents>
                         </msDesc>
@@ -572,7 +572,7 @@
                     témoin, dont nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière 
                     ci-dessus dans la présentation des témoins), mais aussi de fragments des sections conservées, selon l'état de 
                     chaque folio concerné, mais aussi des absences dans la matière pourtant présentée de manière plus ou moins 
-                    linéaire. En ce qui concerne les rubriques, nous avons tenté de procéder de manière uniforme au traitement 
+                    linéaire. En ce qui concerne les rubriques, nous avons tenté de procéder de manière uniforme avec le traitement 
                     que nous avions réservé aux autres témoins manuscrits. 
                     Dans les cas où nous ne disposions pas d'accès à cette section, nous avons intégré la mention "(inaccessible)"
                     pour indiquer que l'état de détérioration du manuscrit ne nous offrait pas accès à la portion de texte concernée.
@@ -594,9 +594,30 @@
                     -"no rubric. hist.initial"
                     -"rubric+hist.initial displaced later (XXX in V2 (§XXX)" (avec la précision "no §" le cas échéant);
                     -et "displaced rubric+hist.initial" directement en lien.</p>
+                <p>6)Le cas du manuscrit C:
+                Ce témoin nécessitait aussi une prise en charge spécifique en regard de la particularité de son projet même, puisque, dans 
+                ce manuscrit, le texte se concentre sur ce que J. Palermo a désigné comme le troisième épicycle et en particulier sur la 
+                situation de bigamie de Cassidorus, et ses conséquences sur sa nombreuse lignée. Conformément au relevé effectué 
+                dans la présentation des témoins, le manuscrit donne à lire tour à tour une "récapitulation" des romans de 
+                <hi rend="italique">Cassidorus</hi> et de <hi rend="italique">Helcanus</hi>, puis offre un accès plus "traditionnel" 
+                    à la suite et fin de la matière, tout en conservant une tendance à abréger, mais aussi parfois à compléter 
+                    la matière telle qu'on peut la lire dans nos autres témoins. 
+                    Ce manuscrit se montrant également très particulier dans son organisation, doté d'aucune enluminure et de très 
+                    peu de rubriques, peu d'informations textuelles se trouvent donc accessibles dans le relevé effectué dans le cadre de 
+                    ce travail d'Alignement. Nous avons néanmoins toujours précisé la localisation dans ce manuscrit de chaque entrée dans le 
+                    reste de la tradition et précisé, comme pour nos autres témoins, quel élément d'organisation se trouvait absent le cas échéant. 
+                    Nous avons également précisé, quand cela s'imposait tout particulièrement, dans un commentaire spécifique si : 
+                    - l'exposé de la matière se faisait très condensé : "recapitulated section"
+                    - la matière était en outre peu accessible, pour les premiers folios partiellement détruits du manuscrit : 
+                    "recapitulated+damaged section"
+                    -l'exposé de la matière se faisait au contraire de manière plus étendue : "amplified section". 
+                    Pour la récapitulation comme pour l'amplification, il nous faut cependant souligner qu'il s'agit là d'une 
+                    tendance assez générale dans ce manuscrit qui offre un accès résolument autre à la matière du Cycle. Ces 
+                    précisions interviennent pour les sections les plus marquantes en la matière.                
+                </p>
                 <p><title>Précisions de présentation</title>
                 Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
-                notre édition du Roman de Pelyarmenus, lié à ce projet d'alignement.</p>
+                notre édition du <hi rend="italique">Roman de Pelyarmenus</hi>, lié à ce projet d'alignement.</p>
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
@@ -606,12 +627,13 @@
             <change who="#CC" when="2023-10-10">Harmonisation des formulations de cas spécifiques posés dans l'alignement,
                 cf. réunion avec SV</change>
             <change who="#CC" when="2023-10-16">Alignement des rubriques du Roman de Laurin</change>
-            <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées du ms. X2 inaccessible</change>
+            <change who="#CC" when="2023-11-12">Alignement des rubriques terminée, à l'exception des sections concernées de X2 inaccessible</change>
             <change who="#CC" when="2023-11-27">Introduction revue</change>
             <change who="#CC" when="2024-03-05">XSLT revu, harmonisation des informations + introduction revue</change>
             <change who="#CC" when="2024-04-25">Alignement complet de R + Header lié</change>  
             <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>   
-            <change who="#CC" when="2024-11-27">Intégration des données relatives à X2, ainsi que les liens url concernés.</change>
+            <change who="#CC" when="2024-11-27">Intégration des données relatives à X2, ainsi que les liens url concernés</change>
+            <change who="#CC" when="2025-01-08">Alignement complet de C + Header lié</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -4584,7 +4606,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_22" type="ms_instance">
                         <seg type="witness">B</seg>
-                        <seg type="rubric">Comment il moustre plus ens le tref (help #SL).</seg>
+                        <seg type="rubric">Comment il moustre plus ens le tref<!-- help #SL-->.</seg>
                         <seg type="location">213va</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0428_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
@@ -4857,7 +4879,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_30" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Li .xxii.ismes contes d'un prinche qui decut Kassidorum par ses fallardes(help #SL).</seg>
+                        <seg type="rubric">Li .xxii.ismes contes d'un prinche qui decut Kassidorum par ses fallardes<!-- help #SL-->.</seg>
                         <seg type="location">B1-1va</seg>
                         <seg type="note">rubric+hist.initial(1ra, partially)</seg>
                     </ab>
@@ -4931,7 +4953,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_32" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible).ismes conte d'un prinche d'Arrabe qui moult ama (illisible). (help #SL)</seg>
+                        <seg type="rubric">(inaccessible).ismes conte d'un prinche d'Arrabe qui moult ama (illisible).<!-- help #SL--></seg>
                         <seg type="location">B1-2ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5294,7 +5316,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_41" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible) Kassidorus fu dechius de Melsium (illisible #SL)</seg>
+                        <seg type="rubric">(inaccessible) Kassidorus fu dechius de Melsium (illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-3va</seg>
                         <seg type="note">rubric(partially)+hist.initial</seg>
                     </ab>
@@ -5486,7 +5508,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_46" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ci endroit revient li contes a Helkanor et a son (illisible #SL)</seg>
+                        <seg type="rubric">Ci endroit revient li contes a Helkanor et a son (illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-12rb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5523,7 +5545,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_47" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ci endroit revient cis otes a la damoisiele.(illisible #SL)</seg>
+                        <seg type="rubric">Ci endroit revient cis otes a la damoisiele.(illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-15va</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5563,7 +5585,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_48" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est ci endroit ensi com empereres envoia en plusors cuerre sa fem.(illisible #SL)</seg>
+                        <seg type="rubric">C'est ci endroit ensi com empereres envoia en plusors cuerre sa fem.(illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-18va</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5649,7 +5671,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Che sunt (inaccessible) (illisible #SL)</seg>
+                        <seg type="rubric">Che sunt (inaccessible) (illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-23vb</seg>
                         <seg type="note">extra rubric+hist.initial corresponding to V2 36rb</seg>
                     </ab>
@@ -5685,13 +5707,13 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Saluistes condoit par consel XXX(help #SL) dist :</seg>
+                        <seg type="rubric">Saluistes condoit par consel XXX<!-- help #SL--> dist :</seg>
                         <seg type="location">B21-25ra</seg>
                         <seg type="note">extra rubric corresponding to V2 36vc</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Seneches (inaccessible) (illisible #SL)</seg>
+                        <seg type="rubric">Seneches (inaccessible) (illisible<!-- help #SL-->)</seg>
                         <seg type="location">B21-25rb</seg>
                         <seg type="note">extra rubric corresponding to V2 37ra</seg>
                     </ab>
@@ -5727,7 +5749,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est ci endroit ensi XXX(help #SL).</seg>
+                        <seg type="rubric">C'est ci endroit ensi XXX<!-- help #SL-->.</seg>
                         <seg type="location">B21-26ra</seg>
                         <seg type="note">extra rubric+hist.initial corresponding to V2 37vc (§374)</seg>
                     </ab>
@@ -6227,7 +6249,7 @@
                         <seg type="witness">R</seg>
                         <seg type="rubric">(inaccessible) Sartaingne ki la fu.</seg>
                         <seg type="location">B20-29va</seg>
-                        <seg type="note">rubric(partially)+hist.initial</seg><!-- CC: initiale historiée longue I // Incipit Pely -->
+                        <seg type="note">rubric(partially)+hist.initial</seg>
                     </ab>
                 </div>
                 <milestone n="4-64" unit="chapter" xml:id="RC_64"/>
@@ -6336,7 +6358,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_66" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Cis contes est d'un rois ki jadis fu sires d'eskelenius.(help #SL)</seg>
+                        <seg type="rubric">Cis contes est d'un rois ki jadis fu sires d'eskelenius.<!-- help #SL--></seg>
                         <seg type="location">B20-24vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -6890,7 +6912,7 @@
                     </ab>
                     <ab corresp="#Helcanus_V_9" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ensi com li empereres fu en ontes.(help #SL)</seg>
+                        <seg type="rubric">Ensi com li empereres fu en ontes.<!-- help #SL--></seg>
                         <seg type="location">B4-1ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -6927,7 +6949,7 @@
                     </ab>
                     <ab corresp="#Helcanus_V_10" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ensi (inaccessible) li rois d'Espaigne (inaccessible help #SL)</seg>
+                        <seg type="rubric">Ensi (inaccessible) li rois d'Espaigne (inaccessible<!-- help #SL-->)</seg>
                         <seg type="location">B23-29vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -7161,7 +7183,7 @@
                     </ab>
                     <ab corresp="#Helcanus_V_16" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est <num>i</num> examples ke Peliarmenus conta a son XXX Yosiam le damoisiel d'Espagne.(help #SL).</seg>
+                        <seg type="rubric">C'est <num>i</num> examples ke Peliarmenus conta a son XXX Yosiam le damoisiel d'Espagne<!-- help #SL-->.</seg>
                         <seg type="location">B3-4va</seg>
                         <seg type="note">rubric+hist.initial</seg>
                         <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink.</seg>
@@ -7242,7 +7264,7 @@
                     </ab>
                     <ab corresp="#Pelyarmenus_V_1" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="incipit">Ensi comme dyalgus ieta dorum ors/ois coiuere et le cuida metre a mort.(help #SL)</seg>
+                        <seg type="incipit">Ensi comme dyalgus ieta dorum ors/ois coiuere et le cuida metre a mort.<!-- help #SL--></seg>
                         <seg type="location">B6-13va</seg>
                         <seg type="note">no explicit+incipit. rubric+hist.initial</seg>
                     </ab>
@@ -9234,8 +9256,9 @@
                             <ab corresp="#Pelyarmenus_V_46" type="ms_instance">
                                 <seg type="witness">C</seg>
                                 <seg type="rubric">ø</seg>
-                                <seg type="location"></seg>
-                                <seg type="note">no rubric+miniature+initial+§. recapitulated section</seg>
+                                <seg type="location">26ra</seg>
+                                <seg type="note">no rubric+miniature+initial+§</seg>
+                                <seg type="commentary">recapitulated section</seg>
                             </ab>
                         </div>
                         <milestone n="6-47" unit="chapter" xml:id="RP_47"/>
@@ -9323,12 +9346,13 @@
                                   <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x000118/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+initial(134ra). no miniature</seg>
                               </ab>
-                            <ab corresp="#Pelyarmenus_V_48" type="ms_instance"><!-- CAMILLE! -->
+                            <ab corresp="#Pelyarmenus_V_840" type="ms_instance">
                                 <seg type="witness">C</seg>
                                 <seg type="rubric">ø</seg>
-                                <seg type="location"></seg>
-                                <graphic url="XXX"/>
-                                <seg type="note">XXX</seg>
+                                <seg type="location">26va</seg>
+                                <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f58.item"/>
+                                <seg type="note">no rubric+miniature+initial+§</seg>
+                                <seg type="commentary">recapitulated section</seg>
                             </ab>
                         </div>
                         <milestone n="6-49" unit="explicit" xml:id="RP_49"/>
@@ -10556,8 +10580,7 @@
                     <ab corresp="#Kanor_V_29" type="ms_instance">
                         <seg type="witness">G</seg>
                         <seg type="explicit">Cy fine le livre de Marques de Romme, de Laurin, de Cassidorus et de Peliarmenus, et des faiz 
-                            de pluseurs empereurs de Romme et de Constantinoble si comme il est devant contenu en l'istoire. 
-                            L'an mil .cccclxvi. fu escript cest rommant par Micheau Gonnot, pbre demourant a Crosant (help #SL).</seg>
+                            de pluseurs empereurs de Romme et de Constantinoble si comme il est devant contenu en l'istoire.</seg>
                         <seg type="location">601vb</seg>                              
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f1208.item"/>
                         <seg type="note">explicit(brown)+signature(brown)</seg>
