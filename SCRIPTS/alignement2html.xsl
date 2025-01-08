@@ -46,7 +46,7 @@
                 vertical-align:top;
                 }
                 .ms_C{
-                background-color: #19349a;
+                background-color: #566cc1;
                 vertical-align:top;
                 }
                 .subblock::before { 
@@ -119,11 +119,18 @@
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
                     </xsl:if>
+                    <xsl:if test="seg[@type='commentary']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='commentary']"/>
+                    </xsl:if>
                                     </td>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='V3'">
                 <td class="ms_V3">
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <a href="{@url}" target="_blank">🖼️</a>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -142,6 +149,10 @@
                         <br/><hr/>
                         <xsl:value-of select="seg[@type='note']"/>
                     </xsl:if>
+                    <xsl:if test="seg[@type='commentary']">
+                        <br/><hr/>
+                        <xsl:value-of select="seg[@type='commentary']"/>
+                    </xsl:if>
                 </td>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='B'">
@@ -149,6 +160,9 @@
                     <xsl:when test="not(following-sibling::ab/seg[@type='witness']='B') and not(preceding-sibling::ab/seg[@type='witness']='B')">
                         <td class="ms_B">
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -166,12 +180,19 @@
                             <xsl:if test="seg[@type='note']">
                                 <br/><hr/>
                                 <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
                             </xsl:if>
                         </td>
                     </xsl:when>
                     <xsl:when test="not(preceding-sibling::ab/seg[@type='witness']='B')">
                         <td class="ms_B">
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -190,9 +211,16 @@
                                 <br/><hr/>
                                 <xsl:value-of select="seg[@type='note']"/>
                             </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
                             <xsl:if test="following-sibling::ab[1]/seg[@type='witness']='B'">
                                 <span class="subblock">
                                     <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[1]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
                                     <br/>
                                     <xsl:if test="following-sibling::ab[1]/seg[@type='rubric']">
                                         <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='rubric']"/></i>
@@ -211,11 +239,18 @@
                                         <br/><hr/>
                                         <xsl:value-of select="following-sibling::ab[1]/seg[@type='note']"/>
                                     </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='commentary']"/>
+                                    </xsl:if>
                                 </span>
                             </xsl:if>
                             <xsl:if test="following-sibling::ab[2]/seg[@type='witness']='B'">
                                 <span class="subblock">
                                     <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[2]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
                                     <br/>
                                     <xsl:if test="following-sibling::ab[2]/seg[@type='rubric']">
                                         <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[2]/seg[@type='rubric']"/></i>
@@ -233,11 +268,18 @@
                                         <br/><hr/>
                                         <xsl:value-of select="following-sibling::ab[2]/seg[@type='note']"/>
                                     </xsl:if>
+                                    <xsl:if test="following-sibling::ab[2]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[2]/seg[@type='commentary']"/>
+                                    </xsl:if>
                                 </span>
                             </xsl:if>
                             <xsl:if test="following-sibling::ab[3]/seg[@type='witness']='B'">
                                 <span class="subblock">
                                     <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[3]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
                                     <br/>
                                     <xsl:if test="following-sibling::ab[3]/seg[@type='rubric']">
                                         <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[3]/seg[@type='rubric']"/></i>
@@ -256,6 +298,10 @@
                                         <br/><hr/>
                                         <xsl:value-of select="following-sibling::ab[3]/seg[@type='note']"/>
                                     </xsl:if>
+                                    <xsl:if test="following-sibling::ab[3]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[3]/seg[@type='commentary']"/>
+                                    </xsl:if>
                                 </span>
                             </xsl:if>
                         </td>
@@ -267,6 +313,9 @@
                     <xsl:when test="not(following-sibling::ab/seg[@type='witness']='X2') and not(preceding-sibling::ab/seg[@type='witness']='X2')">
                         <td class="ms_X2">
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -284,12 +333,19 @@
                             <xsl:if test="seg[@type='note']">
                                 <br/><hr/>
                                 <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
                             </xsl:if>
                         </td>
                     </xsl:when>
                     <xsl:when test="not(preceding-sibling::ab/seg[@type='witness']='X2')">
                         <td class="ms_X2">
                             <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
                             <br/>
                             <xsl:if test="seg[@type='rubric']">
                                 <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
@@ -308,9 +364,16 @@
                                 <br/><hr/>
                                 <xsl:value-of select="seg[@type='note']"/>
                             </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
                             <xsl:if test="following-sibling::ab[1]/seg[@type='witness']='X2'">
                                 <span class="subblock">
                                     <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[1]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
                                     <br/>
                                     <xsl:if test="following-sibling::ab[1]/seg[@type='rubric']">
                                         <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='rubric']"/></i>
@@ -329,6 +392,10 @@
                                         <br/><hr/>
                                         <xsl:value-of select="following-sibling::ab[1]/seg[@type='note']"/>
                                     </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='commentary']"/>
+                                    </xsl:if>
                                 </span>
                             </xsl:if>
                         </td>
@@ -336,77 +403,289 @@
                 </xsl:choose>
             </xsl:when>            
             <xsl:when test="seg[@type='witness']='G'">
-                <td class="ms_G">
-                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
-                    <br/>
-                    <xsl:if test="seg[@type='rubric']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
-                    <xsl:if test="seg[@type='note']">
-                        <br/><hr/>
-                        <xsl:value-of select="seg[@type='note']"/>
-                    </xsl:if>
-                </td>
+                <xsl:choose>
+                    <xsl:when test="not(following-sibling::ab/seg[@type='witness']='G') and not(preceding-sibling::ab/seg[@type='witness']='G')">
+                        <td class="ms_G">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                    <xsl:when test="not(preceding-sibling::ab/seg[@type='witness']='G')">
+                        <td class="ms_G">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
+                            <xsl:if test="following-sibling::ab[1]/seg[@type='witness']='G'">
+                                <span class="subblock">
+                                    <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[1]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
+                                    <br/>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='rubric']">
+                                        <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='rubric']"/></i>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='incipit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='incipit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='explicit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='explicit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='note']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='note']"/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='commentary']"/>
+                                    </xsl:if>
+                                </span>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='R'">
-                <td class="ms_R">
-                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
-                    <br/>
-                    <xsl:if test="seg[@type='rubric']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
-                    <xsl:if test="seg[@type='note']">
-                        <br/><hr/>
-                        <xsl:value-of select="seg[@type='note']"/>
-                    </xsl:if>
-                </td>
+                <xsl:choose>
+                    <xsl:when test="not(following-sibling::ab/seg[@type='witness']='R') and not(preceding-sibling::ab/seg[@type='witness']='R')">
+                        <td class="ms_R">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                    <xsl:when test="not(preceding-sibling::ab/seg[@type='witness']='R')">
+                        <td class="ms_R">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
+                            <xsl:if test="following-sibling::ab[1]/seg[@type='witness']='R'">
+                                <span class="subblock">
+                                    <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[1]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
+                                    <br/>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='rubric']">
+                                        <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='rubric']"/></i>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='incipit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='incipit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='explicit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='explicit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='note']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='note']"/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="seg[@type='commentary']"/>
+                                    </xsl:if>
+                                </span>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="seg[@type='witness']='C'">
-                <td class="ms_C">
-                    <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
-                    <br/>
-                    <xsl:if test="seg[@type='rubric']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='incipit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:if test="seg[@type='explicit']">
-                        <i style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></i>
-                        <br/>
-                    </xsl:if>
-                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
-                    <xsl:if test="seg[@type='note']">
-                        <br/><hr/>
-                        <xsl:value-of select="seg[@type='note']"/>
-                    </xsl:if>
-                </td>
+                <xsl:choose>
+                    <xsl:when test="not(following-sibling::ab/seg[@type='witness']='C') and not(preceding-sibling::ab/seg[@type='witness']='C')">
+                        <td class="ms_C">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                    <xsl:when test="not(preceding-sibling::ab/seg[@type='witness']='C')">
+                        <td class="ms_C">
+                            <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                            <xsl:if test="graphic[@url]">
+                                <a href="{@url}" target="_blank">🖼️</a>
+                            </xsl:if>
+                            <br/>
+                            <xsl:if test="seg[@type='rubric']">
+                                <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='incipit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='incipit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='explicit']">
+                                <b style="color: #801818;"><xsl:value-of select="seg[@type='explicit']"/></b>
+                                <br/>
+                            </xsl:if>
+                            <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                            <xsl:if test="seg[@type='note']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='note']"/>
+                            </xsl:if>
+                            <xsl:if test="seg[@type='commentary']">
+                                <br/><hr/>
+                                <xsl:value-of select="seg[@type='commentary']"/>
+                            </xsl:if>
+                            <xsl:if test="following-sibling::ab[1]/seg[@type='witness']='C'">
+                                <span class="subblock">
+                                    <xsl:text>f°</xsl:text><xsl:value-of select="following-sibling::ab[1]/seg[@type='location']"/>
+                                    <xsl:if test="graphic[@url]">
+                                        <a href="{@url}" target="_blank">🖼️</a>
+                                    </xsl:if>
+                                    <br/>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='rubric']">
+                                        <i style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='rubric']"/></i>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='incipit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='incipit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='explicit']">
+                                        <b style="color: #801818;"><xsl:value-of select="following-sibling::ab[1]/seg[@type='explicit']"/></b>
+                                        <br/>
+                                    </xsl:if>
+                                    <xsl:text>§ </xsl:text><i><xsl:value-of select="seg[@type='paragraph']"/></i>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='note']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="following-sibling::ab[1]/seg[@type='note']"/>
+                                    </xsl:if>
+                                    <xsl:if test="following-sibling::ab[1]/seg[@type='commentary']">
+                                        <br/><hr/>
+                                        <xsl:value-of select="seg[@type='commentary']"/>
+                                    </xsl:if>
+                                </span>
+                            </xsl:if>
+                        </td>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <td>
                     <xsl:text>f°</xsl:text><xsl:value-of select="seg[@type='location']"/>
+                    <xsl:if test="graphic[@url]">
+                        <a href="{@url}" target="_blank">🖼️</a>
+                    </xsl:if>
                     <br/>
                     <xsl:if test="seg[@type='rubric']">
                         <i style="color: #801818;"><xsl:value-of select="seg[@type='rubric']"/></i>
