@@ -98,9 +98,21 @@
         </tr>
     </xsl:template>
     
+    <xsl:template match="hi[@type='italique']"><!-- SG help ça ne fonctionne pas -->
+        <i><xsl:apply-templates/></i>
+    </xsl:template>
+    <xsl:template match="hi">       
+        <xsl:choose>
+            <xsl:when test="@rend='italique'">
+                <i><xsl:apply-templates/></i>
+            </xsl:when>
+        </xsl:choose>        
+    </xsl:template>
+    
     <xsl:template match="num">.<span class="num"><xsl:apply-templates/></span>.</xsl:template><!-- SG : moyen de se passer d'un CSS, que je n'aie pas créé
     à ce stade (et qui ne saurait prendre en charge, sur la base de mes capacités, le rendu du tableau), et de donner les num en petites capitales ?-->
     <xsl:template match="ab[@type='ms_instance']">
+        
         
         <xsl:choose>
             <xsl:when test="seg[@type='witness']='V1'">
