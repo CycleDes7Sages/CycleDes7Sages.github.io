@@ -452,20 +452,22 @@
         <encodingDesc>
             <projectDesc>
                 <p><title>Alignement du C7S</title>
-                    Ce document vise à donner accès à la macrostructure du Cycle des Sept Sages de Rome, tel qu'il se présente 
+                    Ce document vise à donner accès à la macrostructure du <hi rend="italique">Cycle des Sept Sages de Rome</hi>, tel qu'il se présente 
                     dans les six manuscrits qui donnent (ou ont donné) à lire l'ensemble du cycle, listés dans le <gi>sourceDesc</gi> 
                     ci-dessus. Nous avons procédé à l'alignement de l'ensemble des sept romans qu'il contient, en reprenant 
-                leurs débuts (implicit), fins (explicit) et chacun des chapitres qui les structurent, selon les rubriques données dans
+                    leurs débuts (<hi rend="italique">implicit</hi>), fins (<hi rend="italique">explicit</hi>) et chacun des chapitres 
+                    qui les structurent, selon les rubriques données dans
                 chacun des manuscrits, ainsi que les éléments de décor qui viennent aussi les structurer (miniatures, initiales, etc.).
-                L'organisation est fondée sur celle que présente le manuscrit siglé V, qui a servi de manuscrit de base 
-                au travail d'édition des romans de Cassidorus (par J. Palermo), Helcanus (par H. Niedzielski), 
-                Pelyarmenus (en cours d'élaboration par notre équipe de recherche) et Kanor (par M. McMunn).
+                L'organisation est fondée sur celle que présente le manuscrit siglé <hi rend="italique">V</hi>, qui a servi de manuscrit de base 
+                au travail d'édition des romans de <hi rend="italique">Cassidorus</hi> (par J. Palermo), <hi rend="italique">Helcanus</hi> 
+                    (par H. Niedzielski), <hi rend="italique">Pelyarmenus</hi> (en cours d'élaboration par notre équipe de recherche) et 
+                    <hi rend="italique">Kanor</hi> (par M. McMunn).
                 Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
                 comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
                     de l'organisation comme des nuances présentées dans les autres témoins.                    
                     Nous avons dans
                     ce sens précisé l'intitulé de chaque entrée, donnée par le @xml:id
-                    correspondant, par un renvoi à ce manuscrit V, pour indiquer la
+                    correspondant, par un renvoi à ce manuscrit <hi rend="italique">V</hi>, pour indiquer la
                     distance critique qui se doit d'être considérée face à cette
                     organisation et assumer cette numérotation du
                     roman telle que nous l'avons établie sur la base des différents paragraphes 
@@ -474,12 +476,14 @@
                     Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre (c'est-à-dire chaque rubrique), 
                     indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant la mention indicative, 
                     donnée dans une <gi>milestone</gi> via un autre @xml:id se référant au roman et au numéro de chapitre dans ledit roman. 
-                    Chacune de ces <gi>div</gi> contient la présentation du chapitre en question dans chacun des quatre témoins répertoriés,
+                    Chacune de ces <gi>div</gi> contient la présentation du chapitre en question dans chacun des quatre témoins principaux répertoriés,
                 repris dans une balise <gi>ab</gi> qui renvoie au chapitre en question et précise, dans le cas du premier de ces <gi>ab</gi>,
-                qu'il s'agit du manuscrit considéré comme base de ce travail d'alignement. À ces quatre entrées ont pu être adjointes 
+                qu'il s'agit du manuscrit considéré comme base de ce travail d'alignement. À ces quatre entrées (une pour chacun 
+                de ces principaux témoins) ont pu être adjointes 
                 les mentions de rubriques supplémentaires données dans d'autres manuscrits. L'objectif, pour chacune de ces références, était 
-                de présenter l'organisation macrostructurelle du cycle, soit d'identifier, pour chacun des quatre témoins, la rubrique, si 
-                une rubrique est donnée en correspondance avec ce que présente le manuscrit V donc, le lieu où celle-ci se trouve dans le témoin,
+                de présenter l'organisation macrostructurelle du cycle, soit d'identifier, pour chacun de ces quatre témoins, la rubrique, si 
+                une rubrique est donnée en correspondance avec ce que présente le manuscrit <hi rend="italique">V</hi> donc, 
+                    le lieu où celle-ci se trouve dans le témoin,
                 et quelques indications paratextuelles.</p>
                 <p><title>Relevé et organisation des informations</title>
                 Chacune de ces entrées précise tour à tour, 
@@ -491,39 +495,41 @@
                     et <hi rend="italique">X2</hi> les liens fournis par les bibliothèques concernées ne permettent soit pas de renvoyer 
                     au folio exact soit de rendre l'illustration du folio dans une qualité satisfaisante. Face à ce dilemme, nous 
                     avons favorisé la deuxième solution, dans l'espoir que la résolution puisse à terme être optimisée. 
-                    La note vise à préciser l'organisation et mise 
+                    La note vise quant à elle à préciser l'organisation et la mise 
                     en page exacte de ce nouveau chapitre (le plus communément "rubric+miniature+initial ou "rubric"hist.initial" dans le 
-                    cas du manuscrit R qui organise différemment sa matière) et la précision du lieu exact de ces 
+                    cas du manuscrit <hi rend="italique">R</hi> qui organise différemment sa matière) et la précision du lieu exact de ces 
                     trois éléments quand ils ne se trouvent pas tous sur la même colonne ou le même folio du manuscrit dépeint. 
                     D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces manuscrits. 
                     Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.
                     Il convient auparavant de poser quelques nuances dans cette procédure d'encodage en ce 
-                    qui concerne le manuscrit R. Son état de conservation ne permettait en effet ni de donner
+                    qui concerne le manuscrit <hi rend="italique">R</hi>. Son état de conservation ne permettait en effet pas de donner
                     accès à l'ensemble de la matière, puisque les folios conservés ne nous laissent lire le texte que 
                     jusqu'au chapitre RP_29 et laissent aussi béants quelques trous dans la matière. Nous 
                     préciserons également ci-dessous les divers cas de figure qui se sont présentés. 
                     Nous devons d'ores et déjà assumer la différence de traitement que nous avons réservé à ce manuscrit. 
                     Eu égard son état de conservation mais aussi son organisation assez différente de la matière face à ce que 
-                    nous pouvons lire dans nos autres témoins, nous avons dû renoncer à donner, comme pour les autres manuscrits, 
-                    le début de chaque paragraphe, mais aussi les notes qui spécifiaient si le nouveau paragraphe en question 
-                    se situait bien à cet endroit ou à un autre. Nous nous sommes efforcés d'offrir l'accès le plus complet aux 
-                    rubriques, mais ce travail n'était pas réalisable pour les paragraphes, qui ne sont pas toujours accessibles 
-                    ou seulement difficilement lisibles, ce qui compliquait trop l'identification des débuts de paragraphe 
-                    telle que nous l'avons effectuée pour nos quatre principaux témoins. Aussi, nous n'avons donc indiqué pour 
-                    ce témoin que la localisation du paragraphe en question parmi les folios, sans aucune autre spécification.</p>
+                    nous pouvons lire dans nos autres témoins, nous avons dû renoncer à donner un accès aussi complet qu'aux autres manuscrits. 
+                    De même, dans le cas du manuscrit <hi rend="italique">C</hi>, nous avons dû faire face aux difficultés posées 
+                    à la fois par une organisation différente de la matière en regard de ce que l'on peut lire dans les autres témoins 
+                    (le texte ne débute qu'en cours du <hi rend="italique">Roman de Cassidorus</hi>, mais la structuration est profondément 
+                    différente aussi tout au long du texte donné) et par un état de conservation parfois plus complexe. Ici aussi,
+                    nous avons dû nous résoudre à une économie des données, 
+                    nous contenter d'identifier les rares rubriques données, préciser quel état de structuration (souvent là aussi assez différent 
+                    de ce que l'on trouve dans les autres témoins) offre le manuscrit, mais sans entrer dans le détail des jeux de déplacement 
+                    ou de décalage de la matière que ceci pouvait impliquer.</p>
                 <p><title>Cas particuliers présentés</title> 
                     1)Rubriques ajoutées: 
                     Dans plusieurs cas, des rubriques ont été ajoutées dans certains manuscrits par rapport à
-                    l'organisation des chapitres donnée dans le manuscrit V. Nous avons
+                    l'organisation des chapitres donnée dans le manuscrit <hi rend="italique">V</hi>. Nous avons
                     choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au
-                    @corresp renvoyant au xml:id du paragraphe qui donne, dans V, la section
+                    @corresp renvoyant au xml:id du paragraphe qui donne, dans <hi rend="italique">V</hi>, la section
                     contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
-                    précise, de manière systématique et volontairement concise : 
+                    précise, de manière systématique et volontairement concise: 
                     "extra rubric+miniature+initial/hist.initial". 
-                Par souci de précision, nous avons indiqué où se situe dans V la portion de texte que ce témoin associe 
+                    Par souci de précision, nous avons indiqué où se situe dans <hi rend="italique">V</hi> la portion de texte que ce témoin associe 
                 à une nouvelle rubrique, par la mention "corresponding to V XXX".
                 Le plus communément, ces rubriques ajoutées correspondent à une portion de texte donnée comme un 
-                nouveau paragraphe dans V, mais si tel n'est pas le cas, cette mention est précisée par celle "(no §)".</p>
+                nouveau paragraphe dans <hi rend="italique">V</hi>, mais si tel n'est pas le cas, cette mention est précisée par celle "(no §)".</p>
                 <p>2)Rubriques absentes: 
                     Quand la rubrique n'est pas donnée dans un témoin
                     (qu'elle soit ou non en réalité déplacée, selon le cas de figure plus spécifique
@@ -532,44 +538,46 @@
                     au lieu auquel la portion de texte en question peut se lire, introduite ou non par
                     la rubrique. Le <gi>seg</gi> @note
                     vient préciser que les rubrique, miniature et initiale sont absentes,
-                    selon la formule systématique et volontairement concise : 
+                    selon la formule systématique et volontairement concise: 
                     "no incipit/rubric+miniature+initial/hist.initial". L'idée était ainsi de
-                    détailler que la structure par rubrique dans V n'était pas suivie dans
+                    détailler que la structure par rubrique dans <hi rend="italique">V</hi> n'était pas suivie dans
                     cet autre témoin, mais que la portion de texte correspondante était
                     présentée par un simple nouveau paragraphe dans ce témoin. 
                     Dans les cas, rares, où la portion de texte concernée n'est pas même donnée 
                     dans un nouveau paragraphe, la note se conclut sur "+§".</p>
                 <p>3)Rubriques déplacées: 
                     Il arrive également que des rubriques, liées à tel
-                    paragraphe et donc à tel lieu du texte dans V, soient plutôt associées
+                    paragraphe et donc à tel lieu du texte dans <hi rend="italique">V</hi>, soient plutôt associées
                     à un pararaphe donné plus tôt/tard dans un autre témoin. Par souci de
                     précision, nous avons donc noté comme absentes les rubriques
-                    présentées de pair avec le texte lu dans V (tout en précisant, dans le
+                    présentées de pair avec le texte lu dans <hi rend="italique">V</hi> (tout en précisant, dans le
                     <gi>seg</gi> @note, que la rubrique en question a été déplacée,
                     selon la formule "rubric displaced later/before (XXX in V)") 
-                    et ajouté, au niveau du paragraphe concerné, un <gi>seg</gi> @rubrique
+                    et ajouté une nouvelle entrée avec un <gi>seg</gi> @rubrique
                     pour indiquer cette rubrique ajoutée, en réalité
                     déplacée. Dans ces cas, le <gi>seg</gi> @note précise, de manière
-                    systématique et volontairement concise : "displaced rubric from XXX
+                    systématique et volontairement concise: "displaced rubric from XXX
                     (XXX in V)". L'idée est ainsi de préciser le chapitre auquel cette
-                    rubrique est associée dans le manuscrit V, mais aussi la portion de
-                    texte exacte de V avec laquelle cette rubrique telle que donnée dans
+                    rubrique est associée dans le manuscrit <hi rend="italique">V</hi>, mais aussi la portion de
+                    texte exacte de <hi rend="italique">V</hi> avec laquelle cette rubrique telle que donnée dans
                     cet autre témoin est associée.</p>
                 <p>4)Décoration manquante:
                     Il arrive également que, dans la mise en page du manuscrit, 
                     tous les éléments généralement réunis pour marquer ce que nous lisons comme un nouveau chapitre
                     ne soient pas donnés. Il peut ainsi manquer la miniature qui suit souvent une rubrique. 
-                    Dans ces cas, le relevé "rubric"miniature+initial" habituel est adapté comme suit : "rubric+initial. no miniature".
+                    Dans ces cas, le relevé "rubric"miniature+initial" habituel est adapté comme suit: "rubric+initial. no miniature".
                     Dans certains cas de figure (surtout associés avec la technique, commune au cycle dès son roman-souche, 
                     du récit enchâssé qui ne requiert pas de manière systématique d'être introduit par un nouveau chapitre, surtout
-                    quand ceux-ci se suivent rapidement comme c'est le cas dans le Roman des Sept Sages de Rome, celui de Marques et 
-                    encore celui de Cassidorus), il arrive que ce que V présente comme un nouveau chapitre introduit par une rubrique, 
+                    quand ceux-ci se suivent rapidement comme c'est le cas dans le <hi rend="italique">Roman des Sept Sages de Rome</hi>, 
+                    celui de <hi rend="italique">Marques</hi> et 
+                    encore celui de <hi rend="italique">Cassidorus</hi>), il arrive que ce que <hi rend="italique">V</hi> 
+                    présente comme un nouveau chapitre introduit par une rubrique, 
                     une miniature et une initiale n'est indiqué dans d'autres témoins que par une initiale. 
-                    Nous avons présenté comme suit cette information : "initial. no rubric+miniature"</p>
-                <p>5)Le cas du manuscrit R: 
+                    Nous avons présenté comme suit cette information: "initial. no rubric+miniature"</p>
+                <p>5)Le cas du manuscrit <hi rend="italique">R</hi>: 
                     Les particularités de ce manuscrit rescapé de l'incendie qui a frappé la Bibliothèque Nationale de Turin ont 
                     requis des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce 
-                    témoin, dont nous ne disposons pour une part que de fragments du Cycle entier (voir répartition de la matière 
+                    témoin, dont nous ne disposons pour une part que de fragments du cycle entier (voir répartition de la matière 
                     ci-dessus dans la présentation des témoins), mais aussi de fragments des sections conservées, selon l'état de 
                     chaque folio concerné, mais aussi des absences dans la matière pourtant présentée de manière plus ou moins 
                     linéaire. En ce qui concerne les rubriques, nous avons tenté de procéder de manière uniforme avec le traitement 
@@ -587,14 +595,15 @@
                     ou tout à fait perdus, ce que nous avons précisé par la note "missing section in this damaged manuscript".
                     Dans certains cas de figure, nous avons également indiqué par la mention "(illisible)" le fait que la portion 
                     de texte en question était difficile à transcrire en raison de l'état de conservation du manuscrit une fois encore.
-                    Tout comme pour nos autres témoins, nous avons aussi à l'occasion précisé en note si l'un ou l'autre élément qui indique 
+                    Tout comme pour nos autres témoins, nous avons aussi à l'occasion précisé si la rubrique n'est pas donnée ("ø") ou
+                    en note si l'un ou l'autre élément qui indique 
                     la transition des chapitres (rubrique ou initiale historiée) se trouvait manquante ou déplacée par les mentions habituelles
                     -"no rubric+hist.initial" ("+§" le cas échéant, avec pour rappel, la précision que si cette mention n'est pas adjointe, 
                     la portion de texte en question est bien donnée comme un nouveau paragraphe à défaut d'un nouveau chapitre); 
                     -"no rubric. hist.initial"
-                    -"rubric+hist.initial displaced later (XXX in V2 (§XXX)" (avec la précision "no §" le cas échéant);
+                    -"rubric+hist.initial displaced later (XXX in V (§XXX)" (avec la précision "no §" le cas échéant);
                     -et "displaced rubric+hist.initial" directement en lien.</p>
-                <p>6)Le cas du manuscrit C:
+                <p>6)Le cas du manuscrit <hi rend="italique">C</hi>:
                 Ce témoin nécessitait aussi une prise en charge spécifique en regard de la particularité de son projet même, puisque, dans 
                 ce manuscrit, le texte se concentre sur ce que J. Palermo a désigné comme le troisième épicycle et en particulier sur la 
                 situation de bigamie de Cassidorus, et ses conséquences sur sa nombreuse lignée. Conformément au relevé effectué 
@@ -604,20 +613,23 @@
                     la matière telle qu'on peut la lire dans nos autres témoins. 
                     Ce manuscrit se montrant également très particulier dans son organisation, doté d'aucune enluminure et de très 
                     peu de rubriques, peu d'informations textuelles se trouvent donc accessibles dans le relevé effectué dans le cadre de 
-                    ce travail d'Alignement. Nous avons néanmoins toujours précisé la localisation dans ce manuscrit de chaque entrée dans le 
+                    ce travail d'alignement. Nous avons néanmoins toujours précisé la localisation dans ce manuscrit de chaque entrée dans le 
                     reste de la tradition et précisé, comme pour nos autres témoins, quel élément d'organisation se trouvait absent le cas échéant. 
-                    Nous avons également précisé, quand cela s'imposait tout particulièrement, dans un commentaire spécifique si : 
-                    - l'exposé de la matière se faisait très condensé : "recapitulated section"
-                    - la matière était en outre peu accessible, pour les premiers folios partiellement détruits du manuscrit : 
+                    Nous avons également précisé, quand cela s'imposait tout particulièrement, dans un commentaire spécifique si: 
+                    - l'exposé de la matière se faisait très condensé: "recapitulated section"
+                    - la matière était en outre peu accessible, pour les premiers folios partiellement détruits du manuscrit: 
                     "recapitulated+damaged section"
-                    -l'exposé de la matière se faisait au contraire de manière plus étendue : "amplified section". 
+                    -l'exposé de la matière se faisait au contraire de manière plus étendue: "amplified section". 
                     Pour la récapitulation comme pour l'amplification, il nous faut cependant souligner qu'il s'agit là d'une 
-                    tendance assez générale dans ce manuscrit qui offre un accès résolument autre à la matière du Cycle. Ces 
+                    tendance assez générale dans ce manuscrit qui offre un accès résolument autre à la matière du cycle. Ces 
                     précisions interviennent pour les sections les plus marquantes en la matière.                
                 </p>
                 <p><title>Précisions de présentation</title>
                 Dans notre relevé des rubriques, nous avons suivi la logique d'une édition interprétative, selon les critères établis pour
-                notre édition du <hi rend="italique">Roman de Pelyarmenus</hi>, lié à ce projet d'alignement.</p>
+                notre édition du <hi rend="italique">Roman de Pelyarmenus</hi>, lié à ce projet d'alignement. 
+                    Nous avons ainsi résolu les abréviations (au mieux de nos connaissances dans les cas qui pouvaient rester sujets à 
+                    hésitation, en particulier dans le cas du manuscrit <hi rend="italique">R</hi>.
+                <!-- à compléter --></p>
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
@@ -634,6 +646,7 @@
             <change who="#CC" when="2024-05-03">Intégration des liens url des illustrations dans V + Header lié</change>   
             <change who="#CC" when="2024-11-27">Intégration des données relatives à X2, ainsi que les liens url concernés</change>
             <change who="#CC" when="2025-01-08">Alignement complet de C + Header lié</change>
+            <change who="#CC" when="2025-01-30">Révision de l'Alignement pour les colonnes liées à G, X et R + Header lié</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -643,7 +656,7 @@
                 <div type="alignment" xml:id="R7S_V_1">
                     <ab corresp="#R7S_V_1" type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
-                        <seg type="incipit">(illisible)<unclear reason="faded"/></seg>
+                        <seg type="incipit">(illisible)</seg>
                         <seg type="location">1ra-b-c</seg>                        
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b52513529f/f7.item.r=fr#"/>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
@@ -658,7 +671,7 @@
                         <seg type="location">1ra</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0003_70x70.jpg"/>
                         <seg type="note">miniature(1ra-b-c)+rubric+initial(1ra)</seg>
-                        <seg type="commentary">Subject : implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
+                        <seg type="commentary">Subject: implicit for the whole cycle + exception of Helcanus and Kanor (nomely), but interesting 
                         concentration on Pelyarmenus, whose romance does not start with any implicit.</seg>
                     </ab>
                     <ab corresp="#R7S_V_1" type="ms_instance">
@@ -785,7 +798,7 @@
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0008_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
                         <seg type="commentary">The rubric given in B, corresponding to the one given in V1, 
-                            is not indicated at the same place : 
+                            is not indicated at the same place: 
                             B associates this rubric to a previous paragraph in V1, given in 3vc. 
                             The paragraphs do not correspond between 
                             these two witnesses in this section.</seg><!-- SV: cas plus spécifique: bizarrerie de B -->
@@ -1465,7 +1478,7 @@
                         <seg type="note">rubric+miniature(18va-b)+initial(18va)</seg>
                         <seg type="commentary">Subject: precision of Laurine's name; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
-                        <seg type="commentary">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma: proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-9" unit="chapter" xml:id="RM_9"/>
@@ -1484,7 +1497,7 @@
                         <seg type="location">38vb</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0078_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
-                        <seg type="commentary">Subject : intersting precision of Laurine's actual status; 
+                        <seg type="commentary">Subject: intersting precision of Laurine's actual status; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
                     </ab>
                     <ab corresp="#Marques_V_9" type="ms_instance">
@@ -1502,9 +1515,9 @@
                         <seg type="location">20vc</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f42.item.zoom"/>
                         <seg type="note">rubric+miniature(20vb-c)+initial(20vb)</seg>
-                        <seg type="commentary">Subject : precision of Laurine's name; 
+                        <seg type="commentary">Subject: precision of Laurine's name; 
                             rectification of V/G's misconsideration of Laurine as a queen</seg>
-                        <seg type="commentary">Stemma : interesting position of X between B and V</seg>
+                        <seg type="commentary">Stemma: interesting position of X between B and V</seg>
                     </ab>
                 </div>
                 <milestone n="2-10" unit="chapter" xml:id="RM_10"/>
@@ -1675,7 +1688,7 @@
                         <seg type="location">31ra</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f63.item.zoom"/>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="commentary">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma: proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-15" unit="chapter" xml:id="RM_15"/>
@@ -1842,7 +1855,7 @@
                         <seg type="location">34ra</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f69.item.zoom"/>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="commentary">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma:proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-20" unit="chapter" xml:id="RM_20"/>
@@ -1944,7 +1957,7 @@
                         <seg type="location">35rb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f71.item.zoom"/>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="commentary">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma:proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-23" unit="chapter" xml:id="RM_23"/>
@@ -1978,7 +1991,7 @@
                         <seg type="location">35vc</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f72.item.zoom"/>
                         <seg type="note">initial. no rubric+miniature</seg>
-                        <seg type="commentary">Stemma : proximity BX</seg>
+                        <seg type="commentary">Stemma:proximity BX</seg>
                     </ab>
                 </div>
                 <milestone n="2-24" unit="chapter" xml:id="RM_24"/>
@@ -2011,7 +2024,7 @@
                         <seg type="location">37va</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f76.item.zoom"/>
                         <seg type="note">rubric+miniature+initial</seg>
-                        <seg type="commentary">Stemma : proximity VX</seg>
+                        <seg type="commentary">Stemma:proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-25" unit="chapter" xml:id="RM_25"/>
@@ -2053,7 +2066,7 @@
                         <seg type="location">38rb</seg>
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b105363274/f77.item.zoom"/>
                         <seg type="note">rubric+miniature(38ra-b)+initial(38ra)</seg>
-                        <seg type="commentary">Stemma : proximity VX</seg>
+                        <seg type="commentary">Stemma:proximity VX</seg>
                     </ab>
                 </div>
                 <milestone n="2-26" unit="chapter" xml:id="RM_26"/>
@@ -2072,7 +2085,7 @@
                         <seg type="location">60ra</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0121_70x70.jpg"/>
                         <seg type="note">rubric+miniature(60rb)+initial(60rb)</seg>
-                        <seg type="commentary">Subject : intersting presentation of Marques' role in the discovery</seg>
+                        <seg type="commentary">Subject:intersting presentation of Marques' role in the discovery</seg>
                     </ab>
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2085,7 +2098,7 @@
                     <ab corresp="#Marques_V_26" type="ms_instance">
                         <seg type="witness">X1</seg>
                         <seg type="rubric">ø</seg>
-                        <seg type="note">rubric displaced later, cf. Marques_V_26</seg>
+                        <seg type="note">rubric displaced later, <hi rend="italique">cf.</hi> RM_26</seg>
                         <seg type="commentary">X1 seems to have inverted two folios, 39rv and 40rv, on this section.
                             Presenting approximately the same layout, which could explain the inversion, 
                             V1 54vc is corresponding to X1 38vc; V1 55rv to X1 40rv; V1 56rv to X1 39r; and, back to normal, V1 57ra to X1 41ra. 
@@ -2122,7 +2135,7 @@
                         <seg type="location">60vc</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0123_70x70.jpg"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
-                        <seg type="commentary">Subject : interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
+                        <seg type="commentary">Subject:interesting insistance on Laurine, and her status, before the next novel focused on her son.</seg>
                     </ab>
                     <ab corresp="#Marques_V_27" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2155,7 +2168,7 @@
                         <seg type="location">60vc</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0123_70x70.jpg"/>
                         <seg type="note">explicit(brown)+implicit(red)+miniature(61ra-b)+initial(61ra)</seg>
-                        <seg type="commentary">Subject : concentration on Laurin himself instead of Fiseus</seg>
+                        <seg type="commentary">Subject:concentration on Laurin himself instead of Fiseus</seg>
                     </ab>
                     <ab corresp="#Laurin_V_1" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -2325,7 +2338,7 @@
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">B</seg>
                         <seg type="rubric">ø</seg>
-                        <seg type="note">rubric displaced before. <hi rend="italique">cf.</hi> Laurin_V_5</seg>                
+                        <seg type="note">rubric displaced before. <hi rend="italique">cf.</hi> RL_5.</seg>                
                     </ab>
                     <ab corresp="#Laurin_V_6" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -3291,7 +3304,7 @@
                         <seg type="location">157ra</seg>
                        <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0315_70x70.jpg"/>
                         <seg type="note">rubric+miniature+initial</seg>
-                       <seg type="commentary">Subject : different subject</seg>
+                       <seg type="commentary">Subject: different subject</seg>
                     </ab>
                     <ab corresp="#Laurin_V_33" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4289,7 +4302,7 @@
                         <seg type="location">205ra</seg>
                         <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0411_70x70.jpg"/>
                         <seg type="note">rubric+initial. no miniature</seg>
-                        <seg type="commentary">Subject : in fact, the story is Helcana's and not one of the prince's</seg>
+                        <seg type="commentary">Subject:in fact, the story is Helcana's and not one of the prince's</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_13" type="ms_instance">
                         <seg type="witness">G</seg>
@@ -4913,7 +4926,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_32" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible)ismes conte d'un prinche d'Arrabe qui moult ama (illisible).</seg>
+                        <seg type="rubric">(inaccessible)ismes conte d'un prinche d'Arrabe qui moult ama (illisible)</seg>
                         <seg type="location">B1-2ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5048,8 +5061,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_35" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible)s'est Kassidorus<!--HELP CC ou -um, à 
-                            voir--> partis de ses princes et vait cuerre s'amie.</seg>
+                        <seg type="rubric">(inaccessible)s'est Kassidorus partis de ses princes et vait cuerre s'amie.</seg>
                         <seg type="location">B2-7ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5086,7 +5098,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_36" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">ø<!--HELP CC ceci indique bien qu'il n'y en a pas, mais que c'est accessible et lisible?--></seg>
+                        <seg type="rubric">ø</seg>
                         <seg type="location">B2-5vb</seg>
                         <seg type="note">no rubric. hist.initial</seg>
                     </ab>
@@ -5277,8 +5289,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_41" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible)ut Kasidorus fu dechius de Melsium f(illisible)metre en priso(inaccessible)<!--HELP CC, je me demande s'il ne serait pas plus clair de 
-                        remplacer les "inaccessible" et "illisible" par [...]--></seg>
+                        <seg type="rubric">(inaccessible)ut Kasidorus fu dechius de Melsium f(illisible)metre en priso(inaccessible)</seg>
                         <seg type="location">B21-3va</seg>
                         <seg type="note">rubric(partially)+hist.initial</seg>
                     </ab>
@@ -5433,7 +5444,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_45" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Si com Polus vint a Kassidorus<!--HELP CC ou -um (c'est abrégé)-->.</seg>
+                        <seg type="rubric">Si com Polus vint a Kassidorus.</seg>
                         <seg type="location">B21-11vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5470,7 +5481,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_46" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ci endroi revient li contes a Helkanor et a son (illisible).</seg>
+                        <seg type="rubric">Ci endroi revient li contes a Helkanor et a son (illisible)</seg>
                         <seg type="location">B21-12rb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5547,13 +5558,13 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_48" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est ci endroit ensi com<!--HELP CC je ne lis pas "com" -> remplacer par illisible?--> empereres envoia en pluisors cuerre sa fem.</seg>
+                        <seg type="rubric">C'est ci endroit ensi (illisible) empereres envoia en pluisors cuerre sa fem.</seg>
                         <seg type="location">B21-18va</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_48" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Ci vient li concontes (sic)<!--HELP CC--> a Kassidorus<!--HELP CC ou -um, abrégé-->.</seg>
+                        <seg type="rubric">Ci vient li concontes (sic) a Kassidorus.</seg>
                         <seg type="location">B21-20va</seg>
                         <seg type="note">extra rubric+hist.initial corresponding to V2 32vc</seg>
                     </ab>
@@ -5633,9 +5644,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Che sunt (inaccessible)<!--HELP CC cf. mon commentaire précédent: ici, 
-                            on a un mélange de'inaccessible et d'illisible -> on mettrait simplement [...], 
-                            ce serait plus simple-->lie (?)<!--HELP CC italiques pour la parenthèse?--> Helkan(illisible).</seg>
+                        <seg type="rubric">Che sunt (inaccessible)lie Helkan(illisible)</seg>
                         <seg type="location">B21-23vb</seg>
                         <seg type="note">extra rubric+hist.initial corresponding to V2 36rb</seg>
                     </ab>
@@ -5671,13 +5680,13 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Saluistes condoit par consel ovrer. Dist :</seg>
+                        <seg type="rubric">Saluistes condoit par consel ovrer. Dist:</seg>
                         <seg type="location">B21-25ra</seg>
                         <seg type="note">extra rubric corresponding to V2 36vc</seg>
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Senekes (inaccessible)nt quel force vie(illisible).<!--HELP CC vérifier que tu as quand même mis des points à la fin des rubriques de R qui se terminent par "inaccessible" ou "illisible"--></seg>
+                        <seg type="rubric">Senekes (inaccessible)nt quel force vie(illisible)</seg>
                         <seg type="location">B21-25rb</seg>
                         <seg type="note">extra rubric corresponding to V2 37ra</seg>
                     </ab>
@@ -5701,7 +5710,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Boeches nos aprent que çou<!--HELP CC c > ç partout--> est legiere chose de soi destorner des maus que on a l'uel puet voir.</seg>
+                        <seg type="rubric">Boeches nos aprent que çou est legiere chose de soi destorner des maus que on a l'uel puet voir.</seg>
                         <seg type="location">B21-26ra</seg>
                         <seg type="note">extra rubric corresponding to V2 37va</seg>
                     </ab>
@@ -5713,7 +5722,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_50" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(illisible) endroit ensi ome<!--HELP CC soit c'est "comme", soit c'est "ome", qu'en penses-tu?--> (illisible).</seg>
+                        <seg type="rubric">(illisible) endroit ensi comme (illisible)</seg>
                         <seg type="location">B21-26vb</seg>
                         <seg type="note">extra rubric+hist.initial corresponding to V2 37vc (§374)</seg>
                     </ab>
@@ -5750,7 +5759,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_51" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est ci endroit ensi come Kassidorus fu asegiés dedens Costantinob(illisible).</seg>
+                        <seg type="rubric">C'est ci endroit ensi come Kassidorus fu asegiés dedens Costantinob(illisible)</seg>
                         <seg type="location">B5-1rb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -5907,8 +5916,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_55" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est ci endroit ensi come li empereres<!--HELP CC entre "li" et "revint", je mettrais illisible, on ne déchiffre 
-                            pas--> revint d'Italie en Gresce.</seg>
+                        <seg type="rubric">C'est ci endroit ensi come li empereres revint d'Italie en Gresce.</seg>
                         <seg type="location">B5-9ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -6019,8 +6027,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_58" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Cis contes est d'un mastre ki salva<!--HELP CC j'ai mis "salva", plus probable que
-                            "salua", mais je ne connais pas le contexte--> l'empereur.</seg>
+                        <seg type="rubric">Cis contes est d'un mastre ki salua l'empereur.</seg>
                         <seg type="location">B20-38ra</seg>
                         <seg type="note">rubric+hist.initial</seg>
                         <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink</seg>
@@ -6169,7 +6176,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_62" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">(inaccessible) d'un maistre ki jadis (inaccessible) fu en Gres(inaccessible).</seg>
+                        <seg type="rubric">(inaccessible) d'un maistre ki jadis (inaccessible) fu en Gres(inaccessible)</seg>
                         <seg type="location">B20-33ra</seg>
                         <seg type="note">rubric(partially)+hist.initial</seg>
                         <seg type="commentary">apparent (partially) chapter numerotation on the top-margin in red ink</seg>
@@ -6324,7 +6331,7 @@
                     </ab>
                     <ab corresp="#Cassidorus_V_66" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Cis contes est d'un roi (lettre suscrite illisible<!--HELP CC-->) ki jadis fu sires d'Eskelenius.</seg>
+                        <seg type="rubric">Cis contes est d'un roi ki jadis fu sires d'Eskelenius.</seg>
                         <seg type="location">B20-24vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -7244,7 +7251,7 @@
                     <ab corresp="#Pelyarmenus_V_1" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="incipit">Ensi comme Dyalgus jeta Dorum ou (illisible)rre et le cuida 
-                            metre a mor(illisible).</seg>
+                            metre a mor(illisible)</seg>
                         <seg type="location">B6-13va</seg>
                         <seg type="note">no explicit+incipit. rubric+hist.initial</seg>
                     </ab>
@@ -7339,7 +7346,7 @@
                     <ab corresp="#Pelyarmenus_V_3" type="ms_instance">
                         <seg type="witness">R</seg>
                         <seg type="rubric">Ensi come Bourleus fist 
-                            norrir les <num>ii</num> enfans, Dorus et Kassidore.<!--HELP CC il faut dire qq part que tu résous les abréviations, même dans R, sinon qqn qui retourne au ms. va tiquer--></seg>
+                            norrir les <num>ii</num> enfans, Dorus et Kassidore.</seg>
                         <seg type="location">B6-7vb</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -7609,7 +7616,7 @@
                     </ab>
                     <ab corresp="#Pelyarmenus_V_9" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">C'est la bataille de Mirium et de Malcuidant<!--HELP CC je ne lis plus rien entre Mir et ensi, mais peut-être avez-vous lu directement sur le ms.--> ensi come <!--HELP CC idem à partir d'ici, pour moi c'est illisible, on devine trop-->ele fu faite en Costantinoble.</seg>
+                        <seg type="rubric">C'est la bataille de Mirium et de Malcuidant ensi come ele fu faite en Costantinoble.</seg>
                         <seg type="location">B12-4ra</seg>
                         <seg type="note">displaced rubric+hist.initial</seg>
                     </ab>
@@ -7650,7 +7657,7 @@
                     </ab>
                     <ab corresp="#Pelyarmenus_V_10" type="ms_instance">
                         <seg type="witness">R</seg>
-                        <seg type="rubric">Si com li garçons<!--HELP CC pour moi "garçons" est illisible--> vint a Helkanus.</seg>
+                        <seg type="rubric">Si com li garçons vint a Helkanus.</seg>
                         <seg type="location">B14-1va</seg>
                         <seg type="note">rubric+hist.initial</seg>
                     </ab>
@@ -8028,9 +8035,7 @@
                               </ab>
                             <ab corresp="#Pelyarmenus_V_19" type="ms_instance">
                                 <seg type="witness">R</seg>
-                                <seg type="rubric">En(illisible)e Peliarmenus et li sien se reteraissent<!--HELP CC 
-                                voir si la forme est attestée, dans le ms. on a "ret(abréviation)aisent", pour t'éviter d'y 
-                                retourner--> en Costantinoble.</seg>
+                                <seg type="rubric">En(illisible)e Peliarmenus et li sien se retraissent en Costantinoble.</seg>
                                 <seg type="location">B17-5rb</seg>
                                 <seg type="note">rubric+hist.initial</seg>
                             </ab>
@@ -8071,7 +8076,7 @@
                               </ab>
                             <ab corresp="#Pelyarmenus_V_20" type="ms_instance">
                                 <seg type="witness">R</seg>
-                                <seg type="rubric">Ensi comme <num>i</num> mes conte au roi d'Aragon que Yosias encotre (sic)<!--HELP CC--> lui.</seg>
+                                <seg type="rubric">Ensi comme <num>i</num> mes conte au roi d'Aragon que Yosias encotre (sic) lui.</seg>
                                 <seg type="location">B17-8vb</seg>
                                 <seg type="note">rubric+hist.initial</seg>
                             </ab>
@@ -8113,7 +8118,7 @@
                               </ab>
                             <ab corresp="#Pelyarmenus_V_21" type="ms_instance">
                                 <seg type="witness">R</seg>
-                                <seg type="rubric">Ensi comme Peliarmenus (inaccessible) Helkanum son frere a Rome en prison (inaccessible).</seg>
+                                <seg type="rubric">Ensi comme Peliarmenus (inaccessible) Helkanum son frere a Rome en prison (inaccessible)</seg>
                                 <seg type="location">B17-13vb</seg>
                                 <seg type="note">rubric(partially)+hist.initial(B17-14ra? (inaccessible))</seg>
                             </ab>
@@ -8220,7 +8225,7 @@
                                     <seg type="location">423ra</seg>
                                   <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0847_70x70.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="commentary">Subject : focus on a different subject</seg>
+                                    <seg type="commentary">Subject:focus on a different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_24" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8774,7 +8779,7 @@
                                     <seg type="location">105rb</seg>
                                   <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000da/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="commentary">Suject : different subject</seg>
+                                    <seg type="commentary">Subject: different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_36" type="ms_instance">
                                     <seg type="witness">X2</seg>
@@ -8811,7 +8816,7 @@
                                     <seg type="location">451rc</seg>
                                   <graphic url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0903_70x70.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg>
-                                    <seg type="note">Subject : different subject</seg>
+                                    <seg type="note">Subject: different subject</seg>
                               </ab>
                               <ab corresp="#Pelyarmenus_V_37" type="ms_instance">
                                     <seg type="witness">G</seg>
@@ -8992,9 +8997,9 @@
                                 <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f40.item.zoom"/>
                                 <seg type="note">no rubric+miniature+initial</seg>
                                 <seg type="commentary">recapitulated section. In the last paragraph in which we can see a concordance, the text explicitely exprims 
-                                    its intention to go forward : "Et trovons en l'istoire, por plus briement outre passer,"
+                                    its intention to go forward: "Et trovons en l'istoire, por plus briement outre passer,"
                                     <hi rend="italique">cf.</hi> édition du <hi rend="italique">Roman de Kanor</hi> according to this manuscript 
-                                by Florian-Pierre Zanardi, §105</seg>
+                                by Florian-Pierre Zanardi, §105.</seg>
                             </ab>
                         </div>
                         <milestone n="6-41" unit="chapter" xml:id="RP_41"/>
@@ -9033,7 +9038,7 @@
                                     <seg type="location">118va</seg>
                                   <graphic url="https://bl.digirati.io/images/ark:/81055/vdc_100057738490.0x0000f8/full/90,/0/default.jpg"/>
                                     <seg type="note">rubric+miniature+initial</seg> 
-                                   <seg type="commentary">Subject : different subject // B</seg>
+                                   <seg type="commentary">Subject: different subject // B</seg>
                               </ab>
                             <ab corresp="#Pelyarmenus_V_41" type="ms_instance">
                                 <seg type="witness">C</seg>
@@ -9994,7 +9999,7 @@
                         <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f64.item.zoom"/>
                         <seg type="note">initial. no rubric+miniature. Approximate concordance in this recapitulated section</seg>
                         <seg type="commentary">In this section starts the exact concordance we can find between the version offered in this 
-                        particular manuscript and the version better known in our other witnesses. cf. f. 30ra in this manuscript.</seg>
+                        particular manuscript and the version better known in our other witnesses. <hi rend="italique">cf.</hi> f. 30ra in this manuscript.</seg>
                     </ab>                   
                 </div>
                 <milestone n="7-15" unit="chapter" xml:id="RK_15"/>
