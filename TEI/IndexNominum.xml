@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Index nominum et légende relationnelle du Roman de Pelyarmenus étudié dans le cadre du projet C7S</title>
+            <title><hi rend="italique">Index nominum et locorum</hi> du 
+               <hi rend="italique">Roman de Pelyarmenus</hi></title>
             <respStmt>
                <resp>Élaboration</resp>
                <persName key="CC" xml:id="CC">Camille Carnaille</persName>
@@ -46,49 +47,46 @@
                      et de <persName ref="#Fastige">Fastige</persName></note>
                   <note type="relationships">Frère jumeau de <persName ref="#Fastidorus">Fastidorus</persName></note>
                   <note type="relationships">Demi-frère de <persName ref="#Helcanus">Helcanus</persName>,
-                     <persName ref="#Cassidoire">Cassidoire</persName>, <persName ref="#Dorus">Dorus</persName>
-                  et de <persName ref="#Dialogus">Dialogus</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Ysidore">Ysidore</persName></note>
+                     <persName ref="#Cassidore">Cassidore</persName>, <persName ref="#Dorus">Dorus</persName>
+                  et de <persName ref="#Dyalogus">Dyalogus</persName></note>
+                  <note type="relationships">Époux de <persName ref="#Ysodore">Ysodore</persName></note>
                </person>
                <person xml:id="Cassidorus">
                   <persName>Cassidorus</persName>
-                  <occupation>Empereur de <placeName ref="#Constantinople">Constantinople</placeName>
-                     et de <placeName ref="#Rome">Rome</placeName></occupation>
+                  <occupation>Empereur de <placeName ref="#Constantinople">Constantinople</placeName>, par son père
+                     <persName ref="#Laurin">Laurin</persName>
+                     et de <placeName ref="#Rome">Rome</placeName>, par son mariage avec <persName ref="#Fastige"></persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Laurin">Laurin</persName> 
+                     et de <persName ref="#Cassidore1">Cassidore de <placeName ref="#Frise">Frise</placeName></persName></note>
                   <note type="relationships">Père de <persName ref="#Pelyarmenus">Pelyarmenus</persName>
                   <persName ref="#Helcanus">Helcanus</persName>, <persName ref="#Fastidorus">Fastidorus</persName>, 
-                     <persName ref="#Dorus">Dorus</persName>, <persName ref="#Cassidoire">Cassidoire</persName> 
+                     <persName ref="#Dorus">Dorus</persName>, <persName ref="#Cassidore">Cassidore</persName> 
                   <persName ref="#Celydus">Celydus</persName></note>
                   <note type="relationships">Époux de <persName ref="#Helcana">Helcana</persName> 
                      et de <persName ref="#Fastige">Fastige</persName></note>
-                  <note type="relationships">Amant de <persName ref="#Celidoine">Celidoine</persName></note>
-                  <note type="relationships">Fils de <persName ref="#Laurin">Laurin</persName> 
-                     et de <persName ref="#Cassidoire1">Cassidoire</persName></note>
-                  <event>
-                     <p>Fait seigneur de <placeName ref="#Rome">Rome</placeName> lors de son mariage avec 
-                        <persName ref="#Fastige">Fastige</persName></p>
-                  </event>
+                  <note type="relationships">Amant de <persName ref="#Celidoine">Celidoine</persName></note>                 
                </person>
                <person xml:id="Helcana">
                   <persName>Helcana</persName>
-                  <occupation>Reine de <placeName ref="#Galilée">Galilée</placeName> et
-                     impératrice de <placeName ref="#Constantinople">Constantinople</placeName>
-                     par son mari <persName ref="#Cassidorus">Cassidorus</persName></occupation>
-                  <note type="relationships">Épouse de <persName ref="#Cassidorus"></persName></note>
-                  <note type="relationships">Mère de <persName ref="#Helcanus">Helcanus</persName>, 
-                     puis de <persName ref="#Cassidoire">Cassidoire</persName> et de <persName ref="#Dorus">Dorus</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Edypus2">Edypus le jeune</persName></note>
-                  <note type="relationships">Fille de <persName ref="#Edypus2">Edypus l'ancien</persName> 
+                  <occupation>Princesse de <placeName ref="#Galilée">Galilée</placeName> et
+                     impératrice de <placeName ref="#Constantinople">Constantinople</placeName>,
+                     par son mariage avec <persName ref="#Cassidorus">Cassidorus</persName></occupation>
+                  <note type="relationships">Fille de <persName ref="#Edypus">Edypus dit l'ancien</persName> 
                      et de <persName ref="#Erga">Erga</persName></note>
+                  <note type="relationships">Épouse (première) de <persName ref="#Cassidorus"></persName></note>
+                  <note type="relationships">Mère de <persName ref="#Helcanus">Helcanus</persName>, 
+                     puis de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Edypus2">Edypus dit le jeune</persName></note>                  
                </person>
                <person xml:id="Fastige">
                   <persName>Fastige</persName>
-                  <occupation>Impéatrice de <placeName ref="#Rome">Rome</placeName></occupation>
-                  <note type="relationships">Épouse de <persName ref="#Cassidorus"></persName></note>
-                  <note type="relationships">Mère de <persName ref="#Fastidorus">Fastidorus</persName>
-                     et de <persName ref="#Pelyarmenus">Pelyarmenus</persName>
-                     et de <persName ref="Dialogus">Dialogus</persName>
-                     puis des quadruplets</note>
-                  <note type="relationships">Fille de <persName ref="#Fiséus">Fiséus</persName></note>
+                  <occupation>Impératrice de <placeName ref="#Rome">Rome</placeName>, par son père <persName ref="#Fiseus">Fiseus</persName></occupation>
+                  <note type="relationships">Fille de <persName ref="#Fiseus">Fiseus</persName></note>
+                  <note type="relationships">Épouse (deuxième) de <persName ref="#Cassidorus"></persName></note>
+                  <note type="relationships">Mère de <persName ref="Dyalogus">Dyalogus</persName>, des jumeaux 
+                     <persName ref="#Fastidorus">Fastidorus</persName> et <persName ref="#Pelyarmenus">Pelyarmenus</persName>
+                     puis des quadruplets, <persName ref="#Kanor">Kanor</persName>, <persName ref="#Sicor">Sicor</persName>, 
+                     <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor">Rusticor</persName></note>
                </person>
                <person xml:id="Celidoine">
                   <persName>Celidoine</persName>
@@ -99,319 +97,323 @@
                <person xml:id="Helcanus">
                   <persName>Helcanus</persName>
                   <occupation>Empereur de <placeName ref="#Constantinople">Constantinople</placeName> 
-                     à la disparition de son père <persName ref="#Cassidorus">Cassidorus</persName></occupation>
+                     par son père <persName ref="#Cassidorus">Cassidorus</persName></occupation>
                   <note type="relationships">Fils de <persName ref="#Cassidorus"></persName>
                   et de <persName ref="#Helcana">Helcana</persName></note>
+                  <note type="relationships">Époux de <persName ref="#Nera">Nera</persName></note>
+                  <note type="relationships">Père de <persName ref="#Libanor">Neror/Libanor</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Cassidore">Cassidore</persName> 
+                     et de <persName ref="#Dorus">Dorus</persName></note>
                   <note type="relationships">Demi-frère de <persName ref="#Fastidorus">Fastidorus</persName>
                   et de <persName ref="#Pelyarmenus">Pelyarmenus</persName>
-                  et des quadruplets</note>
-                  <note type="relationships">Frère de <persName ref="#Cassidoire">Cassidoire</persName> 
-                     et de <persName ref="#Dorus">Dorus</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Nera">Nera</persName></note>
+                     et des quadruplets, <persName ref="#Kanor">Kanor</persName>, <persName ref="#Sicor">Sicor</persName>, 
+                     <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor">Rusticor</persName></note>
                   <event>
-                     <p>Tué à l'instigation de son frère <persName ref="#Pelyarmenus">Pelyarmenus</persName></p>
+                     <p>Mort à l'instigation de son demi-frère <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
+                     lors de la dernière guerre du <hi rend="italique">Roman de Pelyarmenus</hi></p>
                   </event>
                </person>
                <person xml:id="Fastidorus">
                   <persName>Fastidorus</persName>
-                  <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> à la disparition de sa mère
+                  <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> par sa mère
                   <persName ref="#Fastige">Fastige</persName></occupation>
                   <note type="relationships">Fils de <persName ref="#Cassidorus">Cassidorus</persName> 
-                     et de <persName ref="#Fastige">Fastige</persName></note>
+                     et de <persName ref="#Fastige">Fastige</persName></note>                  
+                  <note type="relationships">Époux de <persName ref="#Aphode">Aphode</persName></note>
                   <note type="relationships">Frère jumeau de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                   <note type="relationships">Demi-frère de <persName ref="#Helcanus">Helcanus</persName>,
-                     <persName ref="#Cassidoire">Cassidoire</persName>, <persName ref="#Dorus">Dorus</persName>
-                  et de <persName ref="#Dialogus">Dialogus</persName></note>
+                     <persName ref="#Cassidore">Cassidore</persName>, <persName ref="#Dorus">Dorus</persName>
+                  et de <persName ref="#Dyalogus">Dyalogus</persName></note>
                   <note type="relationships">Époux de <persName ref="#Aphode">Aphode</persName></note>
                   <event>
-                     <p>Finalement tué à l'instigation de son demi-frère <persName ref="#Pelyarmenus">Pelyarmenus</persName></p>
+                     <p>Mort à l'instigation de son frère jumeau <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
+                     pour s'accaparer du trône de <placeName ref="#Rome">Rome</placeName></p>
                   </event>
                </person>
-               <person xml:id="Cassidoire">
-                  <persName>Cassidoire</persName>
-                  <occupation>Duchesse de <placeName ref="Limbourc">Lembourc</placeName>
-                  par son mariage avec Leus</occupation>
+               <person xml:id="Cassidore">
+                  <persName>Cassidore</persName>
+                  <occupation>Duchesse de <placeName ref="Limbourg">Lembourc</placeName>
+                  par son mariage avec <persName ref="#Leus">Leus</persName></occupation>
                   <note type="relationships">Fille de <persName ref="#Cassidorus">Cassidorus</persName> 
-                     et de <persName ref="#Helcana">Helcana</persName></note>
-                  <note type="relationships">Demi-soeur de <persName ref="#Fastidorus">Fastidorus</persName>
-                  et de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Helcanus">Helcanus</persName>
+                     et de <persName ref="#Helcana">Helcana</persName></note>                  
+                  <note type="relationships">Épouse de <persName ref="#Leus">Leus</persName> puis de 
+                  <persName ref="#Raimfort">Raimfort</persName>, roi d'Aragon (<hi rend="italique">cf. Roman de Kanor</hi>)</note>
+                  <note type="relationships">Sœur de <persName ref="#Helcanus">Helcanus</persName>
                      et de <persName ref="#Dorus">Dorus</persName></note>
-                  <note type="relationships">Épouse de <persName ref="#Leus">Leus</persName></note>
-                  <event>
-                     <p>Souhaitée tuée à l'instigation de son demi-frère <persName ref="#Pelyarmenus">Pelyarmenus</persName></p>
-                  </event>
+                  <note type="relationships">Demi-sœur de <persName ref="#Fastidorus">Fastidorus</persName>
+                     et de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                </person>
                <person xml:id="Dorus">
                   <persName>Dorus</persName>
-                  <occupation>seigneur de <placeName ref="#Grèce">Grèce</placeName> par son père
+                  <occupation>Seigneur de <placeName ref="#Limbourg">Lembourc</placeName> par son mariage avec 
+                     <persName ref="#Luce">Luce</persName> et seigneur de <placeName ref="#Grèce">Grèce</placeName> par don de son père
                   <persName ref="#Cassidorus">Cassidorus</persName></occupation>
                   <note type="relationships">Fils de <persName ref="#Cassidorus">Cassidorus</persName> 
                      et de <persName ref="#Helcana">Helcana</persName></note>
+                  <note type="relationships">Époux de <persName ref="#Luce">Luce</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Helcanus">Helcanus</persName>
+                     et de <persName ref="#Cassidore">Cassidore</persName></note>
                   <note type="relationships">Demi-frère de <persName ref="#Fastidorus">Fastidorus</persName>
                   et de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
-                  <note type="relationships">Frère de <persName ref="#Helcanus">Helcanus</persName>
-                     et de <persName ref="#Cassidoire">Cassidoire</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Luce">Luce</persName></note>
-                  <event>
-                     <p>Souhaité tué à l'instigation de son demi-frère <persName ref="#Pelyarmenus">Pelyarmenus</persName>
-                     par <persName ref="#Dialogus">Dialogus</persName></p>
-                  </event>
                </person>
                <person xml:id="Celydus">
                   <persName>Celydus</persName>
-                  <occupation>Élu roi de <placeName ref="#Jérusalem"></placeName></occupation>
+                  <occupation>Roi de <placeName ref="#Jérusalem">Jérusalem</placeName> par élection</occupation>
                   <note type="relationships">Fils de <persName ref="#Cassidorus">Cassidorus</persName>
                   et de <persName ref="#Celidoine"></persName></note>
+                  <note type="relationships">Époux de <persName ref="#Alerie">Alerie</persName></note>
                </person>
-               <person xml:id="Dialogus">
-                  <persName>Dialogus</persName>
-                  <note type="relationships">Fils bâtard de <persName ref="#Fastige">Fastige</persName></note>
+               <person xml:id="Dyalogus">
+                  <persName>Dyalogus</persName>
+                  <note type="relationships">Fils bâtard de <persName ref="#Fastige">Fastige</persName> et de 
+                  <persName ref="#Othebon">Othebon</persName>, protégé de la mère de Fastige (<hi rend="italique">cf. Roman de Marques</hi>)</note>
                   <note type="relationships">Demi-frère de <persName ref="#Fastidorus">Fastidorus</persName>
                   et de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                </person>
-               <person xml:id="Fiséus">
-                  <persName>Fiséus</persName>
+               <person xml:id="Fissee">
+                  <persName>Fissee (Fiseus)</persName>
                   <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> avant sa fille 
                      <persName ref="#Fastige">Fastige</persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Fastige">Diocletien</persName>, empereur du 
+                  <hi rend="italique">Roman des Sept Sages</hi></note>
                   <note type="relationships">Père de <persName ref="#Fastige">Fastige</persName></note>
                </person>
-               <person xml:id="Edypus1">
-                  <persName>Edypus l'ancien</persName>
+               <person xml:id="Edypus">
+                  <persName>Edypus dit l'ancien</persName>
                   <occupation>Seigneur de <placeName ref="#Galilée">Galilée</placeName></occupation>
-                  <note type="relationships">Père de <persName ref="#Edypus2">Edypus</persName>
+                  <note type="relationships">Père de <persName ref="#Edypus2">Edypus dit le jeune</persName>
                   et de <persName ref="#Helcana">Helcana</persName></note>
                </person>
                <person xml:id="Edypus2">
-                  <persName>Edypus le jeune</persName>
+                  <persName>Edypus dit le jeune</persName>
                   <occupation>Seigneur de <placeName ref="#Galilée">Galilée</placeName>
-                  après son père <persName ref="#Edypus1">Edypus l'ancien</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Edypus1">Edypus</persName></note>
+                  par son père <persName ref="#Edypus">Edypus dit l'ancien</persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Edypus">Edypus dit l'ancien</persName></note>
                   <note type="relationships">Frère de <persName ref="#Helcana">Helcana</persName></note>
+                  <note type="relationships">Oncle de <persName ref="#Helcanus">Helcanus</persName>, 
+                  <persName ref="#Cassidore">Cassidore</persName> et <persName ref="#Dorus">Dorus</persName></note>
                </person>
                <person xml:id="Erga">
                   <persName>Erga</persName>
-                  <occupation>Reine de <placeName ref="#Galilée"></placeName></occupation>
-                  <note type="relationships">Épouse de <persName ref="#Edypus1">Edypus l'ancien</persName></note>
-                  <note type="relationships">Mère de <persName ref="#Helcana">Helcana</persName></note>
+                  <occupation>Reine de <placeName ref="#Galilée"></placeName> par son mari 
+                     <persName ref="#Edypus">Edypus dit l'ancien</persName></occupation>
+                  <note type="relationships">Épouse de <persName ref="#Edypus">Edypus dit l'ancien</persName></note>
+                  <note type="relationships">Mère de <persName ref="#Helcana">Helcana</persName></note>                  
+                  <note type="note">Non-nommée dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
+               </person>
+               <person xml:id="Hecube">
+                  <persName>Hecube</persName>
+                  <occupation>Princesse d'<placeName ref="#Espagne">Espagne</placeName>. 
+                     Reine d'<placeName ref="#Aragon">Aragon</placeName> par son mari 
+                     <persName ref="#Dyomarques">Dyomarques</persName></occupation>
+                  <note type="relationships">Fille (premième) du roi d'Espagne <persName ref="#Theodore">Theodore</persName></note>                  
+                  <note type="relationships">Épouse du <persName ref="#Dyomarques">Dyomarques</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Aphode">Aphode</persName>, 
+                     de <persName ref="#Ysodore">Ysodore</persName>, de <persName ref="#Nera">Nera</persName> 
+                     et de <persName ref="#Josyas">Josyas</persName></note>
+                  <note type="note">Non-nommée dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
                </person>
                <person xml:id="Aphode">
                   <persName>Aphode</persName>
-                  <occupation>Impératrice de <placeName ref="#Rome">Rome</placeName> par son mari 
-                  <persName ref="#Fastidorus">Fastidorus</persName> après la disparition de son père
-                  <persName ref="#Cassidorus">Cassidorus</persName></occupation>
-                  <note type="relationships">Fille (deuxième) du <persName ref="#RoidEspagne">Roi d'Espagne</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Hécube">Hécube</persName>, 
-                  de <persName ref="#Ysidore">Ysidore</persName> et de <persName ref="#Nera">Nera</persName></note>
+                  <occupation>Princesse d'<placeName ref="#Espagne">Espagne</placeName>. 
+                     Impératrice de <placeName ref="#Rome">Rome</placeName> par son mari 
+                  <persName ref="#Fastidorus">Fastidorus</persName></occupation>
+                  <note type="relationships">Fille (deuxième) du roi d'Espagne <persName ref="#Theodore">Theodore</persName></note>                  
                   <note type="relationships">Épouse de <persName ref="#Fastidorus">Fastidorus</persName></note>
-               </person>
-               <person xml:id="Ysidore">
-                  <persName>Ysidore</persName>
-                  <note type="relationships">Fille (quatrième) du <persName ref="#RoidEspagne">Roi d'Espagne</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Hécube">Hécube</persName>, 
-                     de <persName ref="#Aphode">Aphode</persName> et de <persName ref="#Nera">Nera</persName></note>
-                  <note type="relationships">Épouse de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
-               </person>
+                  <note type="relationships">Sœur de <persName ref="#Hecube">Hecube</persName>, 
+                     de <persName ref="#Nera">Nera</persName>, de <persName ref="#Ysodore">Ysodore</persName> 
+                     et de <persName ref="#Josyas">Josyas</persName></note>
+               </person>               
                <person xml:id="Nera">
                   <persName>Nera</persName>
-                  <occupation>Impératrice de <placeName ref="#Constantinople">Constantinople</placeName> par son mari
-                  <persName ref="#Helcanus">Helcanus</persName> à la disparition de son père
-                  <persName ref="#Cassidorus">Cassidorus</persName></occupation>
-                  <note type="relationships">Fille (troisième) du <persName ref="#RoidEspagne">Roi d'Espagne</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Hécube">Hécube</persName>, 
-                     de <persName ref="#Ysidore">Ysidore</persName> et de <persName ref="#Aphode">Aphode</persName></note>
+                  <occupation>Princesse d'<placeName ref="#Espagne">Espagne</placeName>. 
+                     Impératrice de <placeName ref="#Constantinople">Constantinople</placeName> par son mari
+                     <persName ref="#Helcanus">Helcanus</persName></occupation>
+                  <note type="relationships">Fille (troisième) du roi d'Espagne <persName ref="#Theodore">Theodore</persName></note>                  
                   <note type="relationships">Épouse de <persName ref="#Helcanus">Helcanus</persName></note>
+                  <note type="relationships">Mère de <persName ref="#Libanor">Neror/Libanor</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Hecube">Hecube</persName>, 
+                     de <persName ref="#Aphode">Aphode</persName>, de <persName ref="#Ysodore">Ysodore</persName> 
+                     et de <persName ref="#Josyas">Josyas</persName></note>
                </person>
-               <person xml:id="Hécube">
-                  <persName>Hécube</persName>
-                  <occupation>Reine d'<placeName ref="#Aragon">Aragon</placeName> par son mari 
-                  <persName ref="#Dyomarques">Dyomarques</persName></occupation>
-                  <note type="relationships">Fille (premième) du <persName ref="#RoidEspagne">Roi d'Espagne</persName></note>
-                  <note type="relationships">Soeur de <persName ref="#Aphode">Aphode</persName>, 
-                     de <persName ref="#Ysidore">Ysidore</persName> et de <persName ref="#Nera">Nera</persName></note>
-                  <note type="relationships">Épouse du <persName ref="#Dyomarques">Dyomarques</persName></note>
+               <person xml:id="Ysodore">
+                  <persName>Ysodore</persName>
+                  <occupation>Princesse d'<placeName ref="#Espagne">Espagne</placeName></occupation>
+                  <note type="relationships">Fille (quatrième) du roi d'Espagne <persName ref="#Theodore">Theodore</persName></note>
+                  <note type="relationships">Épouse de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Hecube">Hecube</persName>, 
+                     de <persName ref="#Aphode">Aphode</persName>, de <persName ref="#Nera">Nera</persName> et de <persName ref="#Josyas">Josyas</persName></note>
                </person>
-               <person xml:id="RoidEspagne">
-                  <persName>Roi d'Espagne</persName>
-                  <occupation>Roi de <placeName ref="#Espagne">Espagne</placeName></occupation>
-                  <note type="relationships">Père de <persName ref="#Hécube">Hécube</persName>, de <persName ref="#Aphode">Aphode</persName>
-                     de <persName ref="#Ysidore">Ysidore</persName> et de <persName ref="#Nera">Nera</persName>
-                  et de <persName ref="#Josias">Josias</persName></note>
+               <person xml:id="Theodore">
+                  <persName>Theodore</persName>
+                  <occupation>Roi d'<placeName ref="#Espagne">Espagne</placeName></occupation>
+                  <note type="relationships">Père de <persName ref="#Hecube">Hecube</persName>, de <persName ref="#Aphode">Aphode</persName>
+                     de <persName ref="#Ysodore">Ysodore</persName>, de <persName ref="#Nera">Nera</persName>
+                  et de <persName ref="#Josyas">Josyas</persName></note>                  
+                  <note type="note">Non-nommé dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
+               </person>
+               <person xml:id="Josyas">
+                  <persName>Josyas</persName>
+                  <occupation>Roi de <placeName ref="#Espagne">Espagne</placeName> par son père
+                     <persName ref="#Theodore">Theodore</persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Theodore">Theodore</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Hecube">Hecube</persName>, de <persName ref="#Aphode">Aphode</persName>, 
+                     de <persName ref="#Nera">Nera</persName> et de <persName ref="#Ysodore">Ysodore</persName></note>
                </person>
                <person xml:id="Dyomarques">
                   <persName>Dyomarques</persName>
-                  <occupation>Roi de <placeName ref="#Aragon">Aragon</placeName></occupation>
+                  <occupation>Roi de <placeName ref="#Aragon">Aragon</placeName> par sa mère <persName ref="#Diogenne">Diogenne</persName></occupation>
                   <note type="relationships">Fils de <persName ref="#Marques">Marques</persName>
-                   et de <persName ref="#Diogène">Diogène</persName></note>
-                  <note type="relationships">Oncle de <persName ref="#Cassidorus">Cassidorus</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Hécube">Hécube</persName></note>
+                     et de <persName ref="#Diogenne">Diogenne</persName></note>
+                  <note type="relationships">Époux de <persName ref="#Hecube">Hecube</persName></note>
+                  <note type="relationships">Oncle de <persName ref="#Cassidorus">Cassidorus</persName> et de ses enfants</note>
                </person>
-               <person xml:id="RoideFrise">
-                  <persName>Roi de Frise</persName>
+               <person xml:id="Odonie">
+                  <persName>Odonie</persName>
                   <occupation>Roi de <placeName ref="#Frise">Frise</placeName></occupation>
-                  <note type="relationships">Frère de <persName ref="#Cassidoire1">Cassidoire</persName></note>
+                  <note type="relationships">Père de <persName ref="#Japhus">Japhus</persName>, <persName ref="#Heleus">Heleus</persName> 
+                     et de <persName ref="#Nazareus">Nazareus</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Cassidore1">Cassidore de Frise</persName></note>
                   <note type="relationships">Oncle de <persName ref="#Cassidorus">Cassidorus</persName>
                   et de l'épouse de <persName ref="#Bourleus">Bourleus</persName></note>
-               </person>
-               <person xml:id="Josias">
-                  <persName>Josias</persName>
-                  <occupation>Roi de <placeName ref="#Espagne">Espagne</placeName> après son père
-                  <persName ref="#RoidEspagne">Roi d'Espagne</persName></occupation>
-                  <note type="relationships">Fils du <persName ref="#RoidEspagne">Roi d'Espagne</persName></note>
-                  <note type="relationships">Frère de <persName ref="#Hécube">Hécube</persName>, de <persName ref="#Aphode">Aphode</persName>
-                     de <persName ref="#Ysidore">Ysidore</persName> et de <persName ref="#Nera">Nera</persName></note>
-               </person>
+               </person>               
+               <person xml:id="Japhus">
+                  <persName>Japhus</persName>
+                  <occupation>Roi de <placeName ref="#Frise">Frise</placeName> par son père 
+                     <persName ref="#Odonie">Odonie</persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Odonie">Odonie</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Heleus">Heleus</persName> 
+                     et de <persName ref="#Nazareus">Nazareus</persName></note>
+               </person>      
                <person xml:id="Marques">
                   <persName>Marques</persName>
-                  <occupation>Sénéchal de <placeName ref="#Rome">Rome</placeName> par <persName ref="#Fiséus">Fiséus</persName>
-                     et roi de <placeName ref="#Aragon">Aragon</placeName> par sa femme 
-                     <persName ref="#Diogène">Diogène</persName></occupation>
-                  <note type="relationships">Père de <persName ref="#Laurin">Laurin</persName> et de 
-                   <persName ref="#Dyomarques">Dyomarques</persName></note>
-                  <note type="relationships">Époux (deuxième) de <persName ref="#Diogène">Diogène</persName></note>
+                  <occupation>Sénéchal de <placeName ref="#Rome">Rome</placeName> par <persName ref="#Fissee">Fiseus</persName>
+                     et roi d'<placeName ref="#Aragon">Aragon</placeName> par sa femme 
+                     <persName ref="#Diogenne">Diogenne</persName></occupation>
                   <note type="relationships">Époux (premier) de <persName ref="#Laurine">Laurine</persName></note>
+                  <note type="relationships">Époux (deuxième) de <persName ref="#Diogenne">Diogenne</persName></note>                  
+                  <note type="relationships">Père de <persName ref="#Laurin">Laurin</persName> et de 
+                     <persName ref="#Dyomarques">Dyomarques</persName></note>
                </person>
-               <person xml:id="Diogène">
-                  <persName>Diogène</persName>
-                  <occupation>Reine de <placeName ref="#Aragon">Aragon</placeName></occupation>
+               <person xml:id="Diogenne">
+                  <persName>Diogenne</persName>
+                  <occupation>Reine d'<placeName ref="#Aragon">Aragon</placeName></occupation>
                   <note type="relationships">Fille du Roi d'Aragon (anciennement)</note>
                   <note type="relationships">Épouse (seconde) de <persName ref="#Marques">Marques</persName></note>
                   <note type="relationships">Mère de <persName ref="#Dyomarques">Dyomarques</persName></note>
                </person>
                <person xml:id="Laurine">
                   <persName>Laurine</persName>
-                  <occupation>Impératrice de <placeName ref="#Constantinople">Constantinople</placeName></occupation>
                   <note type="relationships">Épouse (première) de <persName ref="#Marques">Marques</persName></note>
                   <note type="relationships">Mère de <persName ref="#Laurin">Laurin</persName></note>
+                  <note type="relationships">Sœur de l'empereur de <placeName ref="#Constantinople">Constantinople</placeName></note>
                </person>
                <person xml:id="Laurin">
                   <persName>Laurin</persName>
-                  <occupation>Empereur de <placeName ref="#Constantinople">Constantinople</placeName></occupation>
+                  <occupation>Empereur de <placeName ref="#Constantinople">Constantinople</placeName> par son oncle</occupation>
                   <note type="relationships">Fils de <persName ref="#Marques">Marques</persName>
                   et de <persName ref="#Laurine">Laurine</persName></note>
-                  <note type="relationships">Époux, premier, de <persName ref="#Cassidoire1">Cassidoire</persName></note>
-                  <note type="relationships">Époux, deuxième, de <persName ref="#Jagonce">Jagonce</persName></note>
+                  <note type="relationships">Époux (premier) de <persName ref="#Cassidore1">Cassidore de Frise</persName></note>
+                  <note type="relationships">Époux (deuxième) de <persName ref="#Jagonce">Jagonce</persName></note>
                   <note type="relationships">Père de <persName ref="#Cassidorus">Cassidorus</persName></note>
                </person>
-               <person xml:id="Cassidoire1">
-                  <persName>Cassidoire de Frise</persName>
-                  <occupation>Impératrice de <placeName ref="#Constantinople">Constantinople</placeName> par son mari
+               <person xml:id="Cassidore1">
+                  <persName>Cassidore de Frise</persName>
+                  <occupation>Princesse de Frise.
+                     Impératrice de <placeName ref="#Constantinople">Constantinople</placeName> par son mari
                   <persName ref="#Laurin">Laurin</persName></occupation>
-                  <note type="relationships">Fille du Roi de Frise (anciennement)</note>
-                  <note type="relationships">Soeur du <persName ref="#RoideFrise">Roi de Frise</persName></note>
+                  <note type="relationships">Fille du Roi de Frise</note>
                   <note type="relationships">Épouse de <persName ref="#Laurin">Laurin</persName></note>
                   <note type="relationships">Mère de <persName ref="#Cassidorus">Cassidorus</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Odonie">Odonie</persName></note>
+                  <note type="note">Non-nommée dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
                </person>
                <person xml:id="Jagonce">
-                  <persName>Jagonce de Radoul</persName>
+                  <persName>Jagonce</persName>
                   <occupation>Maîtresse du <placeName ref="#Radoul">château Radoul</placeName></occupation>
-                  <note type="relationships">Épouse de <persName ref="#Laurin">Laurin</persName></note>
+                  <note type="relationships">Épouse (deuxième) de <persName ref="#Laurin">Laurin</persName></note>
+               </person>
+               <person xml:id="Borleuz">
+                  <persName>Borleuz</persName>
+                  <occupation>Duc de <placeName ref="#Lembourc">Lembourc</placeName></occupation>
+                  <note type="relationships">Époux de la <persName ref="#DuchessedeLembourc">Duchesse de Lembourc</persName></note>
+                  <note type="relationships">Père de quatre fils, dont <persName ref="#Leus">Leus</persName>
+                     et de <persName ref="#Luce">Luce</persName></note>
+                  <note type="relationships">Beau-père de <persName ref="#Cassidore">Cassidore</persName> 
+                  et de <persName ref="#Dorus">Dorus</persName></note>
+                  <event>
+                     <p>Mort lors de la dernière guerre du <hi rend="italique">Roman de Pelyarmenus</hi></p>
+                  </event>
+               </person>
+               <person xml:id="DuchessedeLembourc">
+                  <persName>Duchesse de Lembourc</persName>
+                  <occupation>Duchesse de <placeName ref="#Lembourc">Lembourc</placeName> par son époux</occupation>
+                  <note type="relationships">Épouse de <persName ref="#Borleuz">Borleuz</persName></note>
+                  <note type="relationships">Mère de quatre fils, dont <persName ref="#Leus">Leus</persName>
+                     et de <persName ref="#Luce">Luce</persName></note>
+                  <note type="relationships">Nièce de <persName ref="#Odonie">Odonie</persName></note>
                </person>
                <person xml:id="Leus">
                   <persName>Leus</persName>
-                  <occupation>Duc de <placeName ref="Limbourc">Lembourc</placeName> après son père 
-                     <persName ref="#Bourleus">Bourleus</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Bourleus">Bourleus</persName> et de la nièce du
-                     <persName ref="#RoideFrise">Roi de Frise</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Cassidoire">Cassidoire</persName></note>
+                  <occupation>Duc de <placeName ref="Lembourc">Lembourc</placeName> par son père 
+                     <persName ref="#Borleuz">Borleuz</persName></occupation>
+                  <note type="relationships">Fils de <persName ref="#Borleuz">Borleuz</persName> et de la 
+                     <persName ref="#DuchessedeLembourc">Duchesse de Lembourc</persName></note>
+                  <note type="relationships">Époux de <persName ref="#Cassidore">Cassidore</persName></note>
+                  <note type="relationships">Frère de <persName ref="#Luce"></persName></note>
+                  <event>
+                     <p>Mort lors du tournoi de célébration de l'union renouvelée de 
+                        <persName ref="#Cassidorus">Cassidorus</persName> et de <persName ref="#Fastige">Fastige</persName> 
+                        dans le <hi rend="italique">Roman de Pelyarmenus</hi></p>
+                  </event>
                </person>
                <person xml:id="Luce">
                   <persName>Luce</persName>
                   <occupation>Reine de <placeName ref="#Grèce">Grèce</placeName> par son époux 
                      <persName ref="#Dorus">Dorus</persName></occupation>
-                  <note type="relationships">Fille de <persName ref="#Bourleus">Bourleus</persName> et de la nièce du
-                     <persName ref="#RoideFrise">Roi de Frise</persName></note>
+                  <note type="relationships">Fille de <persName ref="#Borleuz">Borleuz</persName> et de la 
+                     <persName ref="#Duchesse de Lembourc">Duchesse de Lembourc</persName></note>
                   <note type="relationships">Épouse de <persName ref="#Dorus">Dorus</persName></note>
+                  <note type="relationships">Sœur de <persName ref="#Leus">Leus</persName></note>
                </person>
-               <person xml:id="Japhus">
-                  <persName>Japhus</persName>
-                  <occupation>Roi de <placeName ref="#Frise">Frise</placeName> après son père le 
-                  <persName ref="#RoideFrise">Roi de Frise</persName></occupation>
-                  <note type="relationships">Fils du <persName ref="#RoideFrise">Roi de Frise</persName></note>
+               <person xml:id="Clyodorus">
+                  <persName>Cloyodorus</persName>
+                  <occupation>Seigneur d'Aquilée en <placeName ref="#Grèce">Grèce</placeName> par son père</occupation>
+                  <note type="relationships">Fils de <persName ref="#Melsius">Melsius</persName></note>
                </person>
-               <person xml:id="Bourleus">
-                  <persName>Bourleus</persName>
-                  <occupation>Duc de <placeName ref="#Limbourc">Lembourc</placeName></occupation>
-                  <note type="relationships">Époux de la nièce du <persName ref="#RoideFrise">Roi de Frise</persName></note>
-                  <note type="relationships">Père de <persName ref="#Leus">Leus</persName>
-                  et de <persName ref="#Luce">Luce</persName></note>
+               <person xml:id="Melsius">
+                  <persName>Melsius</persName>
+                  <occupation>Seigneur d'Aquilée en <placeName ref="#Grèce">Grèce</placeName>.
+                  Gardien de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></occupation>
+                  <note type="relationships">Père de <persName ref="#Clyodorus">Cloyodorus</persName></note>
+                  <note type="relationships">Frère du <persName ref="#SeigneurdeGonfort">Seigneur de Gonfort</persName></note>
+                  <note type="relationships">Oncle de <persName ref="#Melode">Melode</persName></note>
                </person>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Pelyarmenus"/>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Helcanus"/>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Fastidorus"/>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Cassidoire"/>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Dorus"/>
-               <relation type="familial" name="paternel" active="#Cassidorus" passive="#Celydus"/>
-               <relation type="familial" name="matrimonial" mutual="#Cassidorus #Helcana"/>
-               <relation type="familial" name="matrimonial" mutual="#Cassidorus #Fastige"/>
-               <relation type="familial" name="amoureux" mutual="#Cassidorus #Celidoine"></relation>
-               <relation type="familial" name="paternel" active="#Laurin" passive="#Cassidorus"/>
-               <relation type="familial" name="maternel" active="#Cassidoire1" passive="#Cassidorus"/>
-               <relation type="familial" name="oncle" active="#Dyomarques" passive="#Cassidorus"/>
-               <relation type="familial" name="oncle" active="#RoideFrise" passive="#Cassidorus"/>
-               <relation type="familial" name="fraternel" mutual="#Pelyarmenus #Fastidorus"/>
-               <relation type="familial" name="fraternel" mutual="#Helcanus #Cassidoire #Dorus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Pelyarmenus #Dialogus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Fastidorus #Dialogus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Pelyarmenus #Helcanus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Fastidorus #Helcanus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Pelyarmenus #Cassidoire"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Pelyarmenus #Dorus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Fastidorus #Cassidoire"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Fastidorus #Dorus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Fastidorus #Celydus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Pelyarmenus #Celydus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Helcanus #Celydus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Cassidoire #Celydus"/>
-               <relation type="familial" name="semi-fraternel" mutual="#Dorus #Celydus"/>
-               <relation type="familial" name="matrimonial" mutual="#Pelyarmenus #Ysidore"/>
-               <relation type="familial" name="matrimonial" mutual="#Fastidorus #Aphode"/>
-               <relation type="familial" name="matrimonial" mutual="#Helcanus #Nera"/>
-               <relation type="familial" name="matrimonial" mutual="#Dorus #Luce"/>
-               <relation type="familial" name="matrimonial" mutual="#Cassidoire #Leus"/>
-               <relation type="familial" name="matrimonial" mutual="#Dyomarques #Hécube"/>
-               <relation type="familial" name="paternel" active="#RoidEspagne" passive="#Hécube"/>
-               <relation type="familial" name="paternel" active="#RoidEspagne" passive="#Aphode"/>
-               <relation type="familial" name="paternel" active="#RoidEspagne" passive="#Nera"/>
-               <relation type="familial" name="paternel" active="#RoidEspagne" passive="#Ysidore"/>
-               <relation type="familial" name="paternel" active="#RoidEspagne" passive="#Josias"/>
-               <relation type="familial" name="fraternel" mutual="#Josias #Ysidore #Nera #Aphode #Hécube"/>
-               <relation type="familial" name="paternel" active="#Bourleus" passive="#Leus"/>
-               <relation type="familial" name="paternel" active="#Bourleus" passive="#Luce"/>
-               <relation type="familial" name="paternel" active="#Marques" passive="#Dyomarques"/>
-               <relation type="familial" name="paternel" active="#Marques" passive="#Laurin"/>
-               <relation type="familial" name="matrimonial" mutual="#Marques #Diogène"/>
-               <relation type="familial" name="matrimonial" mutual="#Marques #Laurine"/>
-               <relation type="familial" name="matrimonial" mutual="#Laurin #Cassidoire1"/>
-               <relation type="familial" name="matrimonial" mutual="#Laurin #Jagonce"/>
-               <relation type="familial" name="fraternel" mutual="#RoideFrise #Cassidoire1"/>
-               <relation type="familial" name="paternel" active="#Fiséus" passive="#Fastige"/>
-               <relation type="familial" name="paternel" active="#Edypus1" passive="#Helcana"/>
-               <relation type="familial" name="paternel" active="#Edypus1" passive="#Edypus2"/>
-               <relation type="familial" name="fraternel" mutual="#Edypus2 #Helcana"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Helcanus"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Cassidoire"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Dorus"/>
-               <relation type="familial" name="maternel" active="#Fastige" passive="#Dialogus"/>
-               <relation type="familial" name="maternel" active="#Fastige" passive="#Fastidorus"/>
-               <relation type="familial" name="maternel" active="#Fastige" passive="#Pelyarmenus"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Helcanus"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Cassidoire"/>
-               <relation type="familial" name="maternel" active="#Helcana" passive="#Dorus"/>
-               <relation type="familial" name="maternel" active="#Laurine" passive="#Laurin"/>
-               <relation type="familial" name="maternel" active="#Diogène" passive="#Dyomarques"/>
-               <relation type="familial" name="maternel" active="#Celidoine" passive="#Celydus"/>
-               <relation type="feudal" name="vassality" active="#Fiséus" passive="#Marques"/>
-               <relation type="parties" name="allies" mutual="#Helcanus #Bourleus #RoidEspagne #RoideFrise #Josias #Edypus2 #Japhus"/>
-               <relation type="parties" name="allies" mutual="#Pelyarmenus #Dyomarques"/>
-               <relation type="parties" name="ennemies" mutual="#Helcanus #Pelyarmenus"/>
-               <relation type="parties" name="ennemies" mutual="#Helcanus #Dyomarques"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #Bourleus"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #RoidEspagne"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #Edypus2"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #Josias"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #RoideFrise"/>
-               <relation type="parties" name="ennemies" mutual="#Pelyarmenus #Japhus"/>
+               <person xml:id="Melode">
+                  <persName>Melode</persName>
+                  <occupation>Dame de <placeName ref="#Gonfort">Gonfort</placeName> par son père. 
+                     Gardienne de de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></occupation>
+                  <note type="relationships">Fille du <persName ref="#SeigneurdeGonfort">Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
+                  <note type="relationships">Épouse de <persName ref="#Mirrus">Mirrus</persName></note>
+                  <note type="relationships">Nièce de <persName ref="#Melsius">Melsius</persName></note>
+               </person>
+               <person xml:id="SeigneurdeGonfort">
+                  <persName>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></persName>
+                  <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></occupation>
+                  <note type="relationships">Père de <persName ref="#Melode">Melode</persName> et de 
+                  <persName ref="#Cerchus">Cerchus</persName></note>
+               </person>
+               <person xml:id="Cerchus">
+                  <persName>Cerchus</persName>
+                  <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName> par son père</occupation>
+                  <note type="relationships">Fils du <persName ref="#SeigneurdeGonfort">Seigneur de 
+                     <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
+                  <note type="relationships">Frère de <persName ref="#Melode">Melode</persName></note>
+                  <event>
+                     <p>Mort dans le guet-apens dressé par <persName ref="#Ascanus">Ascanus</persName> dans le 
+                     <hi rend="italique">Roman de Pelyarmenus</hi></p>
+                  </event>
+               </person>
             </listPerson>
          </particDesc>
          <settingDesc>
@@ -431,14 +433,14 @@
                <place xml:id="Galilée">
                   <placeName>Galilée</placeName>
                </place>
-               <place xml:id="Limbourc">
+               <place xml:id="Lembourc">
                   <placeName>Lembourc</placeName>
                </place>
                <place xml:id="Frise">
                   <placeName>Frise</placeName>
                </place>
-               <place xml:id="Grèce">
-                  <placeName>Grèce</placeName>
+               <place xml:id="Grece">
+                  <placeName>Grece</placeName>
                </place>
                <place xml:id="Radoul">
                   <placeName>Château Radoul</placeName>
@@ -446,8 +448,11 @@
                <place xml:id="Mignot">
                   <placeName>Château Mignot</placeName>
                </place>
-               <place xml:id="Jérusalem">
-                  <placeName>Jérusalem</placeName>
+               <place xml:id="Jerusalem">
+                  <placeName>Jerusalem</placeName>
+               </place>
+               <place xml:id="Gonfort">
+                  <placeName>Gonfort</placeName>
                </place>
             </listPlace>
          </settingDesc>
