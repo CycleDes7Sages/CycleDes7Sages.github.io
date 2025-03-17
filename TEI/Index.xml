@@ -110,7 +110,8 @@
                      <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor">Rusticor</persName></note>
                   <event>
                      <p>Mort à l'instigation de son demi-frère <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
-                     lors de la dernière guerre du <hi rend="italique">Roman de Pelyarmenus</hi></p>
+                     lors de la bataille finale devant <placeName ref="#Costentinnoble">Constantinople</placeName> 
+                        dans le <hi rend="italique">Roman de Pelyarmenus</hi></p>
                   </event>
                </person>
                <person xml:id="Fastidorus">
@@ -368,6 +369,8 @@
                      et de <persName ref="#Luce">Luce</persName></note>
                   <note type="relationships">Beau-père de <persName ref="#Cassidore">Cassidore</persName> 
                   et de <persName ref="#Dorus">Dorus</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                     d'<persName ref="#Helcanus">Helcanus</persName></note>
                   <event>
                      <p>Mort lors de la bataille finale devant <placeName ref="#Costentinnoble">Constantinople</placeName> dans le
                         <hi rend="italique">Roman de Pelyarmenus</hi></p>
@@ -408,6 +411,8 @@
                   <persName>Cloyodorus</persName>
                   <occupation>Seigneur d'Aquilée en <placeName ref="#Grèce">Grèce</placeName> par son père</occupation>
                   <note type="relationships">Fils de <persName ref="#Melsius">Melsius</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                     d'<persName ref="#Helcanus">Helcanus</persName></note>
                </person>
                <person xml:id="Melsius">
                   <persName>Melsius</persName>
@@ -416,6 +421,7 @@
                   <note type="relationships">Père de <persName ref="#Clyodorus">Cloyodorus</persName></note>
                   <note type="relationships">Frère du <persName ref="#SeigneurdeGonfort">Seigneur de Gonfort</persName></note>
                   <note type="relationships">Oncle de <persName ref="#Melode">Melode</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
                </person>
                <person xml:id="Melode">
                   <persName>Melode</persName>
@@ -427,7 +433,7 @@
                   <note type="relationships">Nièce de <persName ref="#Melsius">Melsius</persName></note>
                </person>
                <person xml:id="SeigneurdeGonfort">
-                  <persName>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></persName>
+                  <persName>Seigneur de Gonfort</persName>
                   <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></occupation>
                   <note type="relationships">Père de <persName ref="#Melode">Melode</persName> et de 
                   <persName ref="#Cerchus">Cerchus</persName></note>
@@ -454,8 +460,9 @@
                   <occupation>Duc de <placeName ref="#Nise">Nicée</placeName> par son père</occupation>
                   <note type="relationships">Fils de <persName ref="#Polus">Polus</persName></note>
                   <note type="relationships">Frère de <persName ref="#Karus">Karus</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                   <event>
-                     <p>Mort lors de la bataille de <placeName ref="#Nise">Nise</placeName> dans le
+                     <p>Mort lors de la bataille de <placeName ref="#Nise">Nicée</placeName> dans le
                         <hi rend="italique">Roman de Pelyarmenus</hi> avant que son frère ne déclare la paix</p>
                   </event>
                </person>
@@ -465,6 +472,9 @@
                   <note type="relationships">Fils de <persName ref="#Polus">Polus</persName></note>
                   <note type="relationships">Frère de <persName ref="#Ascanus">Ascanus</persName></note>
                   <note type="relationships">Père de <persName ref="#Mardocheus">Mardocheus</persName></note>
+                  <note type="relationships">Allié d'abord de <persName ref="#Pelyarmenus">Pelyarmenus</persName> et ensuite de  
+                     <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                     d'<persName ref="#Helcanus">Helcanus</persName></note>
                </person>
                <person xml:id="Mardocheus">
                   <persName>Mardocheus</persName>
@@ -472,6 +482,8 @@
                      Comte de <placeName ref="#Flandres">Flandres</placeName> par son beau-père</occupation>
                   <note type="relationships">Fils de <persName ref="#Karus">Karus</persName></note>
                   <note type="relationships">Époux de la fille de <persName ref="#Robert">Robert</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                     d'<persName ref="#Helcanus">Helcanus</persName></note>
                </person>
                <person xml:id="Mirrus">
                   <persName>Mirrus</persName>
@@ -480,6 +492,8 @@
                   <note type="relationships">Fils de <persName ref="#Mirador">Mirador</persName> et de 
                   <persName ref="#CelidoinedEsquarre">Celidoine d'Esquarre</persName></note>
                   <note type="relationships">Époux de <persName ref="#Melode">Melode</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                     d'<persName ref="#Helcanus">Helcanus</persName></note>
                   <event>
                      <p>Mort lors de la bataille finale devant <placeName ref="#Costentinnoble">Constantinople</placeName> dans le
                         <hi rend="italique">Roman de Pelyarmenus</hi></p>
@@ -531,6 +545,7 @@
                   <note type="relationships">Ami de <persName ref="#Dyane">Dyane</persName></note>
                   <note type="relationships">Père de <persName ref="#Dyanor">Dyanor</persName></note>
                   <note type="relationships">Frère de <persName ref="#Fremor">Fremor</persName></note>
+                  <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
                </person>
                <person xml:id="Dyane">
                   <persName>Dyane</persName>
@@ -554,11 +569,13 @@
             <person xml:id="Marsuphien">
                <persName>Marsuphien</persName>
                <occupation>Duc d'<placeName ref="#Athaines">Athènes</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
             </person>
             <person xml:id="DucdAthaines">
                <persName>Duc d'Athènes</persName>
                <occupation>Duc d'<placeName ref="#Athaines">Athènes</placeName> par <persName ref="#Pelyarmenus">Pelyarmenus</persName></occupation>
                <note type="relationships">Époux de la <persName ref="#DuchessedAthaines">Duchesse d'Athènes</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
             </person>
             <person xml:id="DuchessedAthaines">
                <persName>Duchesse d'Athènes</persName>
@@ -591,6 +608,8 @@
                élection.</occupation>
                <note type="relationships">Père de <persName ref="#Ganor">Ganor</persName></note>
                <note type="relationships">Oncle de <persName ref="#Abylon">Abylon</persName></note>
+               <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> et 
+                  d'<persName ref="#Helcanus">Helcanus</persName></note>
             </person>
             <person xml:id="Ganor">
                <persName>Ganor</persName>
@@ -600,6 +619,8 @@
                <persName>Robert</persName>
                <occupation>Comte de <placeName ref="#Gant">Gand</placeName></occupation>
                <note type="relationships">Beau-père de <persName ref="#Mardocheus">Mardocheus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                  d'<persName ref="#Helcanus">Helcanus</persName></note>
                <event>
                   <p>Mort lors de la bataille finale devant <placeName ref="#Costentinnoble">Constantinople</placeName> dans le
                      <hi rend="italique">Roman de Pelyarmenus</hi></p>
@@ -608,6 +629,8 @@
             <person xml:id="Licorus">
                <persName>Licorus</persName>
                <occupation>Seigneur de <placeName ref="#Ninive">Ninive</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                  d'<persName ref="#Helcanus">Helcanus</persName></note>
             </person>
             <person xml:id="Ydoine">
                <persName>Ydoine</persName>
@@ -630,11 +653,13 @@
                <occupation>Duc de <placeName ref="#Laomedon">Laomedon</placeName></occupation>
                <note type="relationships">Père de <persName ref="#Botrus">Botrus</persName> 
                et de <persName ref="#Tuleus">Tuleus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
             </person>
             <person xml:id="Botrus">
                <persName>Botrus</persName>
                <note type="relationships">Fils de <persName ref="#Clerus">Clerus</persName></note>
                <note type="relationships">Frère de <persName ref="#Tuleus">Tuleus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                <event>
                   <p>Mort lors de la bataille de <placeName ref="#Laomedon">Laomedon</placeName> dans le
                      <hi rend="italique">Roman de Pelyarmenus</hi></p>
@@ -645,10 +670,12 @@
                <occupation>Duc de <placeName ref="#Laomedon">Laomedon</placeName> par son père</occupation>
                <note type="relationships">Fils de <persName ref="#Clerus">Clerus</persName></note>
                <note type="relationships">Frère de <persName ref="#Botrus">Botrus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
             </person>
             <person xml:id="Hayno">
                <persName>Hayno</persName>
                <occupation>Chevalier de la marche de <placeName ref="#Henaut">Hainaut</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Dorus">Dorus</persName></note>
             </person>
             <person xml:id="Nichole">
                <persName>Nichole</persName>
@@ -673,6 +700,10 @@
                <persName>Fastre</persName>
                <occupation>Écuyer du <persName ref="#Gomor">Châtelain de Gomor</persName></occupation>
             </person>
+            <person xml:id="Chambrière">
+               <persName>Chambrière</persName>
+               <occupation>Chambrière de la <persName ref="#Chastelainne">Châtelaine de Gomor</persName></occupation>
+            </person>
             <person xml:id="Lapsus">
                <persName>Lapsus</persName>
                <occupation>Seigneur de <placeName ref="#Tyberiade">Tyberiade</placeName></occupation>
@@ -696,6 +727,79 @@
                <occupation>Chevalier du <placeName ref="#Mignot">Château Mignot</placeName>. 
                Gardien de <persName ref="#Cassidorus">Cassidorus</persName> et 
                   de <persName ref="#Daphus">Daphus</persName> à la <placeName ref="#Citerne">citerne</placeName></occupation>
+            </person>
+            <person xml:id="Artigier">
+               <persName>Artigier</persName>
+               <note type="relationships">Époux (premier) de <persName ref="#Épouse1">Première épouse d'Artigier</persName></note>
+               <note type="relationships">Époux (deuxième) de <persName ref="#Épouse2">Deuxième épouse d'Artigier</persName></note>
+               <note type="relationships">Père de <persName ref="#Fils1">Premier fils d'Artigier</persName></note>
+               <note type="relationships">Père de <persName ref="#Atrax">Atrax</persName></note>
+               <note>Équivalent de <persName ref="#Cassidorus">Cassidorus</persName> dans le récit de 
+                  <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>               
+            </person>
+            <person xml:id="Atrax">
+               <persName>Atrax</persName>
+               <note type="relationships">Fils de <persName ref="#Artigier">Artigier</persName> et de <persName ref="#Épouse2">Deuxième épouse d'Artigier</persName></note>
+               <note type="relationships">Demi-frère de <persName ref="#Fils1">Premier fils d'Artigier</persName></note>
+               <note>Équivalent de <persName ref="#Pelyarmenus">Pelyarmenus</persName> dans son récit</note>
+            </person>
+            <person xml:id="Fils1">
+               <persName>Premier fils d'Artigier</persName>
+               <note type="relationships">Fils de <persName ref="#Artigier">Artigier</persName> et de <persName ref="#Épouse1">Première épouse d'Artigier</persName></note>
+               <note type="relationships">Demi-frère de <persName ref="#Atrax">Atrax</persName></note>
+               <note>Équivalent de <persName ref="#Helcanus">Helcanus</persName> dans le récit de 
+                  <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+            </person>
+            <person xml:id="Épouse1">
+               <persName>Première épouse d'Artigier</persName>
+               <note type="relationships">Épouse (première) de <persName ref="#Artigier">Artigier</persName></note>
+               <note type="relationships">Mère de <persName ref="#Fils1">Premier fils d'Artigier</persName></note>
+               <note>Équivalent de <persName ref="#Helcana">Helcana</persName> dans le récit de 
+                  <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+            </person>
+            <person xml:id="Épouse2">
+               <persName>Deuxième épouse d'Artigier</persName>
+               <note type="relationships">Épouse (deuxième) de <persName ref="#Artigier">Artigier</persName></note>
+               <note type="relationships">Mère de <persName ref="#Atrax">Atrax</persName></note>
+               <note>Équivalent de <persName ref="#Fastige">Fastige</persName> dans le récit de 
+                  <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+            </person>
+            <person xml:id="Hardamon">
+               <persName>Hardamon</persName>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+               <event>
+                  <p>Mort (par <persName ref="#Leus">Leus</persName>) lors de la bataille de <placeName ref="#Costentinnoble">Constantinople</placeName></p>
+               </event>
+            </person>
+            <person xml:id="Kamasson">
+               <persName>Kamasson</persName>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>               
+            </person>
+            <person xml:id="Cassus">
+               <persName>Cassus, <hi rend="italique">aka</hi> Cassidorus</persName>
+               <note>Nom sous lequel <persName ref="#Cassidorus">Cassidorus</persName> se présente chez <persName ref="#Theodore">Theodore</persName> dans le 
+               <hi rend="italique">Roman d'Helcanus</hi></note>
+            </person>
+            <person xml:id="Torqueus">
+               <persName>Torqueus</persName>
+               <note type="relationships">Ami de <persName ref="#AmieTorqueus">Amie de Torqueus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
+                  (par opposition à <persName ref="#Karus">Karus</persName>)</note>
+            </person>
+            <person xml:id="AmieTorqueus">
+               <persName>Amie de Torqueus</persName>
+               <occupation>Fille d'un bourgeois de <placeName ref="#Nise">Nicée</placeName></occupation>
+            </person>
+            <person xml:id="Leodorus">
+               <occupation>Duc</occupation>
+               <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
+            </person>
+            <person xml:id="Malquidant">
+               <persName>Malquidant</persName>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+               <event>
+                  <p>Mort lors du duel qui l'oppose à <persName ref="#Mirrus">Mirrus</persName></p>
+               </event>
             </person>
          </particDesc>
          <settingDesc>
