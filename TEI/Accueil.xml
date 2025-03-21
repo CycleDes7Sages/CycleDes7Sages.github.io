@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Page d'accueil du site Web du Projet Canoniser les Sept Sages</title>
+            <respStmt>
+               <resp>Élaboration</resp>
+               <persName key="CC" xml:id="CC">Camille Carnaille</persName>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
+            sont référencées dans les documents ad hoc.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="title">Canoniser les Sept Sages de Rome (C7S) : Livre, langues, écriture sérielle (XIII-XV<hi rend="exposant">e</hi> siècles)</head>
+         <p>Ce site web donne accès aux résultats du projet de recherche <hi rend="bold">Canoniser les Sept Sages</hi>, 
+            financé par  par le FNS (Suisse) et le FNRS (Wallonie-Belgique) 
+            dans le cadre de l’instrument PDR Lead Agency, entre 2021 et 2025, dans cet objectif de "canoniser", d'illustrer 
+            toute la richesse du <hi rend="italique">Cycle des Sept Sages de Rome</hi>.</p>
+         <p>Vous trouverez donc ici la présentation  des objets et enjeux du projet, de l'équipe qui l'a mené à bien, des  
+            activités et résultats impliqués. En particulier, vous pourrez découvrir l'édition critique du 
+            <hi rend="italique">Roman de Pelyarmenus</hi>, avec les analyses qui en ont été fournies, ainsi que
+            l'alignement réalisé des manuscrits cycliques du <hi rend="italique">Cycle 
+            des Sept Sages de Rome</hi>.
+         </p>
+      </body>
+  </text>
+</TEI>
