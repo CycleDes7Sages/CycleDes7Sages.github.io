@@ -1,0 +1,76 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>À propos - Aspects techniques</title>
+            <respStmt>
+               <resp>Élaboration</resp>
+               <name key="CC" xml:id="CC">Camille Carnaille</name>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
+               sont référencées dans les documents ad hoc.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>       
+         <div>
+            <head type="title">Aspects techniques</head>
+            <p>L’ensemble des données ayant servi à la création de ce site (modèles OCR, fichiers TEI) est disponible sur le <ref target="https://github.com/CycleDes7Sages">GitHub</ref> du projet.
+               Les données TEI sont disponibles sous licence CC-BY-NC-SA 4.0.</p>
+            <div>
+               <head type="sub">Transcription</head>
+               <p>Le manuscrit de base utilisé pour l'édition du <hi rend="italique">Roman de Pelyarmenus</hi>, le manuscrit BnF
+                  fr. 22549-22550 (<hi rend="italique">V<hi rend="exposant">2</hi></hi> et <hi rend="italique">V<hi rend="exposant">3</hi></hi>) 
+                  a été transcrit automatiquement, avec vérification exhaustive des données, via
+                     la plateforme HTR de l'INRIA <ref target="https://escriptorium.inria.fr/">eScriptorium</ref> avec l'aide  
+                     du modèle développé par <ref target="https://ciham.cnrs.fr/annuaire/membres_statutaires/ariane-pinche/">Ariane Pinche</ref>.
+               La collation sur les autres témoins a été effectuée sans soutien technique.</p>                     
+            </div>
+            <div>
+               <head type="subtitle">Encodage TEI</head>
+               <p>Le schéma TEI et la documentation utilisés 
+                  pour l’encodage du <hi rend="italique">Roman de Pelyarmenus</hi>
+                  est disponible sur GitHub : 
+                  <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/TEI/Pelyarmenus.odd">ODD Pelyarmenus</ref>, 
+                  mais aussi dans la section introductive de l'édition sur ce site <!-- Link to Établissement du texte -->.</p>
+               <list>
+                  <item>Le <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/tree/main/TEI-Pelyarmenus">fichier TEI</ref> 
+                     de l'édition du <hi rend="italique">Roman de Pelyarmenus</hi> a été généré, via un fichier CSS 
+                     <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/ASSETS/Pelyarmenus.css"/> et
+                     une feuille XSLT 
+                     <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/SCRIPTS/tei2html.xsl"/>.</item>
+                  <item>Le fichier <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/TEI-Alignement/Alignment_Pelyarmenus.xml"/> 
+                     de l'alignement du <hi rend="italique">Roman de Pelyarmenus</hi> a été généré, via une feuille XSLT 
+                     <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/SCRIPTS/alignement2html.xsl"/></item>
+                  <item>Le fichier <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/TEI-Alignement/Alignment_C7S.xml"/> 
+                     de l'alignement du <hi rend="italique">Cycle des Sept Sages</hi> a été généré, via une feuille XSLT 
+                     <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/SCRIPTS/alignementc7s2html.xsl"/></item>                  
+               </list>
+            </div>
+            <div>
+               <head type="subtitle">IIIF</head>
+               <p>Les images et les manifestes IIIF des quatre principaux témoins manuscrits traités ici 
+                  sont hébergés sur les sites web des bibliothèques concernées (BnF, KBR, BL) référencées dans la présentation 
+                  des manuscrits en introduction de l'édition du <hi rend="italique">Roman de Pelyarmenus</hi>.</p>
+            </div>            
+            <div>
+               <head type="subtitle">Le site web</head>
+               <p>XXX <!-- To be completed --></p>
+            </div>
+         </div>       
+     </body>
+  </text>
+</TEI>

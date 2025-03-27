@@ -1,0 +1,90 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>À propos - Mentions légales</title>
+            <respStmt>
+               <resp>Élaboration</resp>
+               <name key="CC" xml:id="CC">Camille Carnaille</name>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
+               sont référencées dans les documents ad hoc.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>       
+         <div>
+            <head type="title">Mentions légales</head>
+            <div>
+               <head type="subtitle">Éditeur du site Web</head>
+               <p>
+                  Université de Genève
+                  <lb/>
+                  Rue du Général-Dufour 24
+                  <lb/>
+                  CH-1211 Genève 4
+                  <lb/>
+                  T. +41 (0)22 379 71 11
+               </p>
+            </div>
+            <div>
+               <head type="subtitle">Directrice de publication</head>
+               <p>Mme Yasmina FOHER-JANSSENS - Professeure (Département de Langues et littératures françaises et latines médiévales, 
+                  Faculté des lettres de l'Université de Genève)</p>
+            </div>            
+            <div>
+               <head type="subtitle">Hébergement du site web</head>
+               <p>E-Research (Université de Genève)</p>
+            </div>
+            <div>
+               <head type="subtitle">Webmaster</head>
+               <p>Mme Camille CARNAILLE - Postdoctorante (Département de Langues et littératures françaises et latines médiévales, 
+                  Faculté des lettres de l'Université de Genève)</p>
+               <p>Jinntec <!-- to be completed --></p>
+            </div>
+            <div>
+               <head type="subtitle">Droits d'auteur</head>               
+               <p>
+                  L’utilisation des transcriptions et des métadonnées, dans un cadre privé ou public non-commercial, est autorisée et gratuite, 
+                  selon les termes de la licence :
+                  <hi rend="bold">Creative Commons Attribution - Pas d’utilisation commerciale - Partage dans les mêmes conditions 4.0 International (CC-BY-NC-SA 4.0)</hi>.</p> 
+                  <p>Pour faire référence aux données mises à disposition ici :
+                  <hi rend="italique">Canoniser les Sept Sages (2021-2025)</hi>, projet de recherche de l'Université de Genève
+                  et de l'Université libre de Bruxelles, dirigé par Yasmina Foehr-Janssens et Simone Ventura, CC-BY-NC-SA.</p>
+                  <p>Le nom de la source de l'édition numérique du <hi rend="italique">Roman de Pelyarmenus</hi> sera mentionné 
+                  de la manière suivante :
+                  Camille Carnaille, Prunelle Deleville et Sophie Lecomte, <hi rend="italique">Le Roman de Pelyarmenus</hi>, 
+                  édition nativement numérique, 2025.</p>
+                  <p>Le nom de la source de l'alignement du <hi rend="italique">Roman de Pelyarmenus</hi> 
+                     comme du <hi rend="italique">Cycle des Sept Sages</hi> sera mentionné 
+                  de la manière suivante :
+                  Camille Carnaille, Alignement du <hi rend="italique">Cycle des Sept Sages</hi> et du <hi rend="italique">Roman de Pelyarmenus</hi>, 
+                  2025.</p>
+            </div>
+            <div>
+               <head type="subtitle">Mises à jour</head>
+               <p>
+                  Notre équipe met tout en œuvre pour assurer l’exactitude des informations diffusées sur son site à la date de leur mise en ligne, ainsi que leur mise à jour régulière. 
+                  Cependant, nous ne garantissons pas l’absence d’omissions ou d’erreurs et vous remercions par avance pour vos retours et suggestions permettant d’enrichir les données diffusées. 
+                  Nous nous réservons le droit de modifier, à tout moment et sans préavis, le contenu du site Web.
+               </p>
+               <p>Dernière mise à jour des mentions légales : 27/03/2025.</p>
+            </div>
+         </div>       
+      </body>
+   </text>
+</TEI>
