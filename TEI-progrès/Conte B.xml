@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/Pelyarmenus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Conte conclusif du <hi rend="italique">Roman des Sept Sages</hi> selon <hi rend="italique">B</hi></title>
+            <respStmt>
+               <resp>Transcription, analyse</resp>
+               <persName key="CC">Camille Carnaille</persName>               
+            </respStmt>
+         </titleStmt>
+         <extent>Transcription du conte XXX contenu dans le manuscrit cyclique B</extent>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118,
+               Nancy-Université (France)</authority>
+            <availability status="restricted">
+               <licence>usage pour les membres de l'équipe</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bruxelles</settlement>
+                        <repository>KBR</repository>
+                        <idno>9245</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <locus from="16vb" to="17rc"/>
+                           <title>Conte XXX</title>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <handDesc>
+                           <handNote xml:id="main1">Première main</handNote>                          
+                        </handDesc>
+                        <decoDesc>
+                           <decoNote xml:id="lettrine6"/>
+                        </decoDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>Le texte édité est basé sur le ms. V. Les corrections apportées visent à réparer
+                  les bévues du copiste ; certaines omissions non erronées de V qui pourraient
+                  dériver d’un saut du même au même ont été corrigées et commentées en note. Lorsque
+                  le texte de V est fautif et que les leçons des autres témoins sont adiaphores,
+                  nous suivons B, qui est le premier manuscrit collationné, sauf justification
+                  contraire dans les notes critiques. Les corrections, toutes ope codici, sont
+                  signalées dans le texte entre crochets carrés. En cas de correction, les graphies
+                  sont uniformisées d’après l’usus scribendi de V pour les mots seuls et les courts
+                  syntagmes n’excédant pas cinq mots ; la graphie du témoin dont provient la
+                  correction est indiquée entre parenthèses. Dans tous les autres cas, les
+                  corrections respectent la graphie du témoin dont elles proviennent ; si plusieurs
+                  témoins partagent la leçon, la graphie suit l’ordre de collation, alphabétique :
+                  BGX2.</p>
+            </correction>
+            <normalization>
+               <p>Conformément à l’usage, nous distinguons le u du v et le i du j. Pour le futur des
+                  verbes avoir et savoir, nous transcrivons ainsi avroie et non auroie ; savra et
+                  non saura, par convention mais également par analogie avec des formes comme averez
+                  (§193) ou saverai (§213), sporadiques. Concernant la conjugaison de pouvoir, nous
+                  transcrivons pouez, pouons, pouoir, conformément au traitement du u dans les
+                  textes de cette époque.</p>
+               <p>L’édition restitue intactes les particularités graphiques propres à la rédaction
+                  des scribes différents de V2 et de V3. Nous livrons ci-dessous la liste exhaustive
+                  des abréviations employées par les deux copistes
+                  <!-- POURCC à compléter quand intro finie --></p>
+               <p>La séparation des mots vise à rendre le texte le plus intelligible possible pour
+                  un lectorat contemporain.<!-- POURCC à compléter quand intro finie --> Nous détaillons
+                  ici la liste exacte de ce travail de segmentation : Expressions composées Les
+                  expressions composées usuelles ou celles qui sont passées soudées dans la langue
+                  moderne sont transcrites en un seul mot : - les adverbes nonporquant, dorenavant
+                  (mais d’ores en avant), malgré (sauf quand il s’agit de l’adjectif mal et du
+                  substantif gré), depuis, puisque, toujours (mais touz jours), jamés, huimés (mais
+                  mes hui), pourquoi interrogatif, autrefois ‘jadis’, atant, dusques, jusques,
+                  toutevoies (mais toutes voies), l’endemain, parmi, partout adverbe ; - que que
+                  ‘quoi que’ pour le distinguer de l’adverbe concessif, qui que ; - les déterminants
+                  lequel, laquelle, auquel, ledit, oudit ; - les adjectifs ou noms composés, les
+                  verbes s’écrivent en un mot quand ils existent encore dans la langue française
+                  comme tel et en deux mots lorsque le manuscrit les sépare et que la composition
+                  n’existe plus aujourd’hui : mal bailli et mal talent mais bienvenu, bienfait,
+                  malveuillance, enmener, ensuivre ; - le verbe asavoir (différent d’une
+                  construction préposition a + savoir). En revanche nous maintenons une séparation
+                  dans lonc temps , de ci a tant que (mais atant adverbe), onques mes (à cause de la
+                  place de l’adverbe dans la phrase) , pieça mes, piece mes, a tout préposition (y
+                  compris a touz, a toute), devant dit . Nous séparons également toujours l’adverbe
+                  tres de l’adjectif qu’il modifie, contrairement à l’agglutination du manuscrit.
+                  Destinataires Les adresses Ma dame, Mon seigneur sont toujours écrites en deux
+                  mots. Dans le cas de mon seigneur (que je sache la volenté de mon seigneur § 140,
+                  il s’agit de distinguer l’emploi du titre monseigneur. Préfixes de réciprocité Ces
+                  préfixes sont accolés au verbe : il s’entreferirent, il s’entraiment, il
+                  s’entraprochent. En revanche, une apostrophe est de mise entre la préposition et
+                  le pronom dans contr’eus ou entr’eus. Agglutination et prépositions
+                  agglutinées<!-- POURCC compléter surtout ici -->
+               </p>
+            </normalization>
+            <punctuation>
+               <p>La ponctuation du manuscrit V est confiée au punctus elevatus et au colon (:). Ce
+                  dernier s’emploie systématiquement après l’interjection Ha, en discours direct. Le
+                  copiste du témoin V2 et celui de V<hi rend="exp">3</hi> termine souvent la
+                  ligne par un jambage exponctué, que nous n’avons pas rendu dans la transcription.
+                  Les copistes présentent également systématiquement ou presque des y avec des
+                  points suscrits, que nous avons choisi aussi de ne pas rendre. De nombreuses
+                  majuscules rythment également le texte ; nous avons conservé ce signe mais selon
+                  les usages actuels. Les majuscules qui coïncident avec des initiales ornées ont
+                  une fonction ornementale évidente : elles introduisent un nouveau paragraphe ou un
+                  nouveau chapitre lorsqu’elles suivent la séquence enluminure+rubrique. Chiffres :
+                  La seule ponctuation proprement médiévale que nous avons retenue est celle des
+                  points encadrants les notations numériques. Nous ne traduisons ainsi pas ces
+                  chiffres en toutes lettres mais conservons ce système. Majuscules : Les noms
+                  propres suivants prennent une majuscule : Sainte Eglise, Saint Esperit, Nostre
+                  Seigneur, Nostre Sauveour (quand il désigne Dieu) mais saint Nicholas et saint
+                  Pierre de Romme (qui désigne le saint et non la fête ou le lieu) ; Palais Majour,
+                  Bretaigne la Menour. Le pronom Il et les possessifs portent aussi la majuscule
+                  lorsqu’il renvoie à Dieu. Dialogues : Le changement de locuteur dans les dialogues
+                  se marque par l’usage du tiret long. Pour faciliter le balisage les incises comme
+                  dist il sont comprises dans les guillemets, lorsque le discours direct continue.
+                  Emploi de la virgule, du point et du point-virgule : Nous n’utilisons pas la
+                  virgule pour les énumérations réalisées au moyen des conjonctions de coordination
+                  ne et et, sauf pour le cas d’un changement de point de vue. Quand deux
+                  propositions coordonnées par et ou ou ont des sujets différents, la virgule est de
+                  mise devant ces conjonctions. La présence de la virgule marque également que l’on
+                  entre dans un nouveau groupe verbal doté de ses propres compléments. Les
+                  propositions incidentes et les propositions subordonnées sont placées entre
+                  virgules. La virgule sert à isoler tout élément explicatif, comme une épithète non
+                  liée, une apposition, une explicitation (c’est a savoir, c’est a dire … ; Or sais
+                  je bien de voir que, se il fust miens, que .... / et cuidoit on que de prouesce
+                  passeroit le pere, tout eust il le non del meilleur chevalier de Galylee). La
+                  virgule s’emploie également devant o ou entre dans les tournures : Helcanus vint,
+                  o lui trente compaignons, et chevaucha ... Nous distinguons par une virgule les
+                  relations déterminatives des relatives qualificatives. Précisons seulement que les
+                  relatives du type il vit le chevalier qui combatoit, puisqu’elles indiquent un
+                  processus (« qui est en train de... »), ne sont pas séparées par une virgule. La
+                  virgule permet aussi de distinguer l’emploi de mais, puis, si, ains, coordonnants
+                  de leurs autres emplois. Le point est utilisé quand une nouvelle phrase propose un
+                  changement de sujet, comme le point-virgule lorsqu’il y a un changement de point
+                  de vue au sein d’une même phrase. Et et si : Nous avons évité de commencer une
+                  phrase par Si ou Et, sauf pour les cas où le texte marque un changement de sujet
+                  ou de point de vue. Emploi du point d’exclamation : Le point d’exclamation est
+                  systématiquement employé après l’interjection Ha ! et l’adverbe Comment ! marquant
+                  l’étonnement. Il est généralement employé avec l’impératif et le subjonctif
+                  optatif. Usage de signes diacritiques Cédille : La cédille indique que la lettre c
+                  a la valeur phonétique [s]. Accent : L’accent aigu est placé sur : -la lettre e
+                  ayant valeur de [e] tonique pour distinguer du [e] central atone, uniquement en
+                  syllabe finale, dans les mots se terminant donc par -e ou -es : verité, mangié,
+                  adés, aprés, etc. ; - les monosyllabes en -es homographes : pour distinguer lés
+                  ‘large’ de l’article les ; le nom nés ‘navire’ de l’enclise nes ; le nom dés de
+                  l’article ou la préposition des, le nom trés de l’adverbe tres, le nom més
+                  ‘messager’ de l’adverbe mes, etc. ; - la terminaison en -es des noms propres :
+                  Zachariés ; - la désinence de P5, comme volés, et la désinence de P2 du verbe
+                  pouvoir, comme dans tu pués pour le distinguer du verbe puer. Tréma : Notre
+                  recours au tréma est restreint. Il nous sert uniquement à distinguer des
+                  homographes ou presque homographes : « pais » de païs ou paÿs ; oi (verbe avoir)
+                  de oï (participe passé du verbe oïr) ; air ‘air’ de aïr ‘haine’ ; chaï ou chaÿ de
+                  chai pour distinguer le participe passé de la P1 du verbe ; chairent (présent) de
+                  chaïrent (passé simple) ; fui (P1 du parfait du verbe ‘être’) de fuï (verbe fuir).
+                  Nous avons volontairement limité cette liste. Nous aurions pu, par exemple, faire
+                  la distinction entre seü (le participe passé de suivir) et seu ‘connaissance’,
+                  mais il ne nous a pas semblé pertinent de marquer ici une différence que la
+                  syntaxe du texte éclaire largement. Nous employons en outre le tréma pour rendre
+                  compte d’un hiatus qui s’est maintenu dans la langue moderne mais que les graphies
+                  peuvent masquer. Ainsi de d’oïr et ses dérivés (sauf sur oiant, qui ne connaît
+                  plus de hiatus aujourd’hui), obeïr, conjoïr, conjoï (on entend encore aujourd’hui
+                  le hiatus dans jouir, mais pas sur conjoui), haïr, traïson.</p>
+            </punctuation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Le présent document s'intègre dans le projet FNS/FNRS "Canoniser les Sept Sages de Rome". 
+                L'objectif est ici de donner accès à la version particulière qu'offre le manuscrit B (Bruxelles, KBR 9245) 
+                en particulier ici pour le <hi rend="italique">Roman des Sept Sages de Rome</hi>. On peut en effet lire dans ce témoin 
+                un conte supplémentaire inscrit dans ce roman à tiroirs, qui n'est pas inédit dans la tradition et mériterait 
+                donc d'être mieux étudié dans ce contexte. La transcription donnée ici de cet énième et dernier conte 
+                ajouté dans ce manuscrit s'inscrit dans cette visée.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fro">français médiéval</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#CC" when="2024-10-28">Création du fichier</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div>
+            <p n="P1"><note type="apparat">Le présent document ne visant qu'à donner accès à la version particulière 
+                qu'offre entre autres (à lister) le témoin manuscrit siglé B (Bruxelles KBR 9245) pour la conclusion du 
+                <hi rend="italique">Roman des Sept Sages de Rome</hi>, nous débutons la transcription que nous souhaitons en offrir 
+                uniquement quand commence cet ajout dans la tradition, en cours de paragraphe, sans aucune rupture 
+                à noter à cet endroit dans le manuscrit. Notons que, dans le manuscrit V (qui a servi de base à l'édition des romans du second 
+                épicycle du cycle qui se forme à la suite de ce roman), à l'issue de quatre lignes supplémentaires qui viennent clore sur la 
+                question posée par l'empereur à l'impératrice de confirmer ces accusations, et sa confirmation, le paragraphe se clôt ainsi avant de 
+                laisser place au paragraphe conclusif, lui aussi retravaillé, cela est discuté ci-dessous, dans la version offerte par B.</note><pb n="16rb"/>
+                <said aloud="true" direct="true">Et quant ele vit que je ne le feroie mie, si se fist sainier et descira ses draps et 
+                    dist que <seg ana="discoursEnchassé">ce avoie je fait</seg>. 
+                Si vous pri, biau pere, que vous m'en faciez droit a l'esgart <cb n="c"/>de vostre court. Et se ele le veut nijer, je sui
+                prest de prouver par bataille ou par jugement a l'esgart de vos pers.</said>
+                Li empereres et tuit li baron furent mout esbahi de la parole. 
+                <said aloud="true" direct="true">Par l'ame mon pere, dist li empereres, je ferai droit jugement.</said> 
+                Adont fu li empereys esbahie, si dist : 
+                <said aloud="true" direct="true">Sire, ne creez mie cel deable, il est tous forssenez et ne set que il dist. Si vous assotera. 
+                Mauvais traistres, dist ele, voirement me volis tu efforcier et desciras ma robe et depeças mon visage.</said>
+                <said rendition="dialogue" aloud="true" direct="true">Sire, dist li damoisiaus, je sui tout prest de prouver envers un autre 
+                    chevalier que ele ment comme desloiaus et traytresse.</said>
+                <said rendition="dialogue" aloud="true" direct="true">Seigneurs, dist li empereres, conseillies moi.</said> 
+                <said rendition="dialogue" aloud="true" direct="true">Sire, dist li uns des senateurs, je vous conseilleroie 
+                    que vous feissiez pais de ceste chose.</said>
+                <said rendition="dialogue" aloud="true" direct="true">Par foi, dist li damoisiaus, ou je serai destruit ou ele sera destruite, 
+                    se loial jugement ne me faut, car elle a fait son pooir de moi destruire. Si pri a mon pere et a tous les haus hommes 
+                    qui ci sont que il me tiegnent droit et facent avoir loial jugement.</said>
+                Atant se lieve un chevalier qui estoit neveu au fils a l'empereor et dist : 
+                <said aloud="true" direct="true">Sire empereres, oyes, et trestous vos barons. Vostre fils a esté en grant aventure de mort. 
+                    Et je sui tout prest de prover cors a cors encontre un chevalier que ce est veritez que vostre fils dist. 
+                    Si le tenez a droit si comme vous estes droituriers.</said>
+                <said rendition="dialogue" aloud="true" direct="true">Et se je fail de droit faire, dist li empereres, dont soie je honnis.</said> 
+                Et quant l'empereys oÿ ce, si trembla de paour. Et un chevalier qui estoit neveu l'empereys <cb n="d"/>dist :
+                <said aloud="true" direct="true">Sire, je sui pres et appareilliés de prouver cors a cors contre un chevalier 
+                    que ce que li empereys dist est voir et que vostre fils ment.</said>
+                Atant fu la bataille otroiee et d'une part et d'autre. Or tost dist li empereres : 
+                <said aloud="true" direct="true">Alez vous appareiller sans respit quar je ne mengerai si sera faite la bataille 
+                    et le quelque soit en avra sa deserte et sa merite.</said> 
+                Mout fu la court troublee de cele aventure. Que vous feroie je lonc conte ?
+                Li chevalier vindrent a la bataille et le champ fu bien gardé. Et tout le pueple prioit que Dieus en donnast a chascun 
+                son droit. Li chevalier hurterent chevaus des esperons et se ferirent roidement des espiés et des lances et des escus 
+                si que il cheÿrent tous <num>ii</num> a la terre. Li chevaliers au fils a l'empereour monta seur son cheval, et li chevaliers
+                a l'empereys ne pot assener au sien. Ains fu si bleciés que il ne vit point de clarté. Li chevaliers au damoisel donna a son
+                aversaire tel cop seur la teste que il li rompi les las de son hiaume, si que li hiaumes li cheÿ a terre, et puis le feri du 
+                plat, si que il l'estonna tot. Et puis li dist : 
+                <said aloud="true" direct="true">Rent toi, recreant !</said> et il ne sonna mot. 
+                Et cil le feri si que il le pourfendi dusques es dens. Et lors cheÿ cil mors a la terre. 
+                <said aloud="true" direct="true">Sire, fait li chevaliers au damoisel, ai je bien fait ce que je doi ?</said>
+                Et ceuls qui gardoient le champ distrent <said aloud="true" direct="true">oÿl</said>. 
+                <said rendition="dialogue" aloud="true" direct="true">Sire, dist li chevaliers au fils a <cb n="e"/>l'empereour, faites nous droit de la fausse femme, 
+                car vous et tous les autres veez bien que ele a tort.</said>
+                Et li empereres a dit :
+                <said aloud="true" direct="true">Je le ferai que ce est drois. Venez avant, dist li empereres, fausse empereis desloial qui 
+                moi et mon fils volies honnir, vous le comperes de vostre cors et de vostre ame.</said>
+                Lors la fist prendre et mener hors de la vile, et fist faire <num>i</num> grant feu d'espines 
+                et puis dist : 
+                <said aloud="true" direct="true">Jehissiés la fausseté que vous volies bastir.</said>
+                Ele vit que ele ne seroit de noient espargnié, si dist : 
+                <said aloud="true" direct="true">Sire empereres, je voi bien que je ne serai de riens esparnié et que il me couvient morir, 
+                car voirement ai je eu tort envers vostre fils et Diex l'a bien demoustré, mais je cuidoie que 
+                vous deussiés faire aussi comme un chevaliers fist qui par l'enortement de sa femme destruit 
+                son fils.</said>
+                <said rendition="dialogue" aloud="true" direct="true">Et comment l'en avint il, dist li empereres ?</said>
+                <said rendition="dialogue" aloud="true" direct="true">Sire, je le vous dirai non pas pour mon miex, mais pour mon pis.</said></p>
+        </div>
+          <div>
+            <head type="rubrique"><cb n="d"/>Comment la male marrastre conte un <cb n="e"/>conte pour sa destruccion.
+            <note type="apparat">La rubrique se lit à longues lignes sur ces deux colonnes, avant que le texte ne débute en haut de la colonne 
+            sur laquelle est donnée la rubrique, juste avant l'enluminure qui vient terminer les colonnes.</note></head>
+            <figure>
+                <graphic
+                    url="https://viewerd.kbr.be/display/B/6/4/5/3/1/3/9/0000-00-00_00/zoomgallery/BE-KBR00_B-16453139_0000-00-00_00_0032_70x70.jpg"/>
+                <figDesc>Enluminure de 15 UR, sur deux colonnes, d-e. Se font face deux groupes de personnages menés par, à gauche, 
+                    l'empereur figuré assis et couronné, suivi par trois hommes, et une dame, la marrastre probablement, elle aussi 
+                suivie de trois personnages.</figDesc>
+            </figure>
+              <p n="P2"><cb n="e"/><said aloud="true" direct="true"><c ana="lettrine6">S</c>ire, il avint que uns damoisiaus ama mout 
+                  une damoisele, et ele lui. Et tant que 
+            il en ot <num>i</num> fil qui crut et amenda. Et tant que la dame morut. Li chevaliers en fu forment iriés et fu longuement veves 
+            sans femme et se remaria et prist une femme qui mout en haÿ l'enfant, por ce que il estoit hoirs de la terre au chevalier et que li 
+            sien enfant, se ele les avoit, ni aroient riens. Si commença a mal dire de l'enfant et disoit au chevalier que ses fils li fesoit damage 
+            du sien. Li chevaliers amoit sa femme et la creoit de quanque ele disoit. Si en haÿ son enfant pour le dit de sa femme. Li chevaliers 
+            avoit une coupe d'or et ses fix avoit une huche ou il metoit ses choses. Une nuit, se fu li enfes couchies, si se dormoit 
+            et sa marrastre vint a son lit et prist sa clef et deffrema <pb n="17"/>sa huche et mist dedenz la coupe son pere et puis refrema la huche 
+                et remist la clef a la coroie de l'enfant desouz le cheves de son lit. Et lors s'en revint couchier jusques au matin. 
+                L'endemain quant il fu temps de mengier, si mist l'en tables napes, sel et coutiaus et hennas d'argent et de madre. 
+                <seg ana="discoursEnchassé">Sire, dist la dame, qu'est nostre grant coupe devenue ?</seg>
+                <seg rendition="dialogue" ana="discoursEnchassé">Dame, dist il, ce vous doi je demander.</seg>
+                <seg rendition="dialogue" ana="discoursEnchassé">Sire, dist la dame, demandez la a vostre filz qui toutes vos choses emble.</seg> 
+                  <seg rendition="dialogue" ana="discoursEnchassé">Dame, fait il, je croi qu'il ne l'a mie, querez la bien partout.</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Sire, dist ele, nous l'avons quise en touz les liex de ceste maison fors en 
+                      sa huche et la est ele, ou il l'a vendue a aucun orfevre.</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Sez tu, dist li chevaliers a son filz, que ma coupe est devenue ?</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Sire, dist li enfes, si m'aïst Diex, nenil.</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Sire, dist la marrastre, cuidiez vous bien, l'eust il qu'il le reconneust. 
+                      Nenil, par foi, ja lerres ne regehira son meffait se force ne l'i fait faire. Mais deffremez sa huche et prenez garde se 
+                      ele y est ou non.</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Par dieu, dist li enfes qui n'i penssoit nul mal, je la deffermerai volentiers.</seg> 
+            Lors la deffrema et ouvri et ses peres y regarda, si a veue sa coupe. 
+                  <seg ana="discoursEnchassé">Ore, sire, dist la marrastre, vous ne me voliez croire !</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Par foi, fait li sires, or va il malement ! 
+                      Or sai je bien que vous avez voir dist de moult de choses ne onques mais ne me percui si bien 
+            que mes filz fust lerres comme je fais ore. Or vueil je bien que il soit destruis car je n'ai que faire de larron.</seg>
+            Lors apela <num>iii</num> de ses serjanz et leur commanda a noijer son <cb n="b"/>son filz. Cil le pristrent si isnelement que il n'ot 
+                  loisir de soi escondire. Si l'enmenerent a une grant riviere et li lierent une grant pierre au col et le noijierent. 
+                  Or avoit li enfes <num>ii</num> cousins de la sereur sa mere qui le venoient veoir, si encontrerent les <num>iii</num> sergens qui 
+                  l'avoient noijé. Et li uns des <num>iii</num> cuida que cil eussent veu ce que il avoient fait, si ot tele paor que il se noia, et 
+                  les autres <num>ii</num> s'en furent. Et cil les pristrent et leur demanderent que il avoient et distrent : 
+                  <seg ana="discoursEnchassé">Or nous contez voir, ou nous vous couperons les testes.</seg>
+                  <seg rendition="dialogue" ana="discoursEnchassé">Nous avons, dist li uns, par le commandement du seigneur de 
+                      cestui castel noijé son filz par le dit de sa marrastre qui touz jourz l'acusoit a son pere.</seg>
+            Quant cil l'oïrent, si furent dolent de leur cousin qui noijés estoit. Si occistrent tantost les <num>ii</num> serjanz et puis monterent 
+                  ou chastel, si trouverent le chevalier et sa femme, si les occistrent ambedeuz et puis 
+            s'en repairirent en leur païs. Ainsi vengierent cil leur cousin qui noiez estoit. 
+            Et tout ainsi eusse je fait de vostre filz se je peusse par aventure ou pis encore.</said>
+                  <note type="apparat">Ici, la narration du manuscrit B semble a priori recouper avec celle que l'on 
+                      peut lire dans d'autres témoins, en particulier pour cette première énonciation de l'empereur 
+                      sur laquelle s'ouvre ce qui est présenté au début du dernier paragraphe du roman dans le manuscrit V 
+                      qui a servi de base à l'édition des romans de continuation dans le cycle qui s'ouvre à l'issue du 
+                      <hi rend="italique">Roman des sept sages</hi> qui s'achève ici.
+                      De manière intéressante, la portée de la conclusion qui y est offerte n'est cependant pas la même. 
+                      Si l'on décrit dans les deux cas la mise à mort de l'impératrice, suivie d'une forme de moralisation 
+                      évidente pour juger les traitres (<hi rend="italique">cf.</hi> V f.14vc), le manuscrit B varie une fois encore en ouvrant plus explicitement sur 
+                      la suite du récit qui va débuter avec le <hi rend="italique">Roman de Marques de Rome</hi> qui 
+                      relate les aventures du jeune fils de l'empereur devenu lui-même empereur à la mort de son père.</note>
+            <said rendition="dialogue" aloud="true" direct="true">Par mon chief, dist li empereres, bien vous estes jugiee.</said>
+            Lors la fist geter ou feu ou ele fu tost arsse et ot sa deserte de sa traïson. Et li empereres et ses filz et tuit li baron repairierent 
+            et s'en alerent et les <num>vii</num> sages furent moult liez de ce que il furent si bien venu a chief de leur oeuvre, et li empereres 
+                  leur guerredonna bien la painne que il orent de son fil <cb n="c"/>aprendre. Et lors repaira chascuns en sa besoigne.
+              Et li empereres tint son filz por ami et furent puis ensamble tant comme il vesqui et aprés sa mort fu ses filz empereres de Romme. 
+              Et ainsi li aida Dieus pour sa loiauté et honni sa marrastre pour sa fausseté. Et puis li avint auques pres autel cas comme il fist a 
+              son pere de la seue femme, et fu par sa femme aussi deceüs et plus que ses peres n'avoit esté de sa marrastre. Et orent li 
+                  <num>vii</num> sage moult de paine et moult a souffrir pour sa femme, car ele fu plus male et plus desloiaus et plus plaine de mal 
+              art que sa marrastre. Aprés ces choses avint que li empereres Diocleciens devint de moult grant aage et acoucha malades
+              d'une grant enfermeté et d'une grant langueur, par quoi il morut. Ses jones filz a qui l'empire demoura et tuit li baron de la terre
+              en firent moult grant duel, car moult avoit esté preudomme et tenu sa terre en pais toute sa vie. L'en enseveli le cors mout richement 
+              a l'usage du païs. Ainsi comme il aferoit a empereeur et fu mis en terre a grant honneur et a grant sollempnité.</p>
+        </div>
+      </body>
+   </text>
+</TEI>

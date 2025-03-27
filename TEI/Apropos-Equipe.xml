@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Page À propos - Équipe du site Web du Projet Canoniser les Sept Sages</title>
+            <title>À propos - Équipe</title>
             <respStmt>
                <resp>Élaboration</resp>
-               <persName key="CC" xml:id="CC">Camille Carnaille</persName>
+               <name key="CC" xml:id="CC">Camille Carnaille</name>
                <!-- ORCID 0000-0001-5396-8929 -->
             </respStmt>
          </titleStmt>
@@ -29,17 +29,18 @@
    </teiHeader>
    <text>
       <body>
+         <div>
          <head type="title">Équipe</head>
          <p>Camille Carnaille (ULB - UNIGE pendant le projet) : 
             Postdoctorante au sein du projet  « Canoniser les Sept Sages », Camille Carnaille est titulaire d’un doctorat, 
             obtenu à l’Université de Genève en 2021, qu’elle a consacré à l’étude du jeu des émotions dans la littérature médiévale française. 
             Elle s'intéresse aux questions comportementales, aux normes prescrites en la matière, aux jeux de performance et aux questions de vérité
             impliquées dans ce contexte. Dans le cadre du présent projet, elle s'est initiée aux enjeux de l’édition numérique 
-            dans le cadre du travail mené sur le <hi rend="italique">Roman de Pelyarmenus</hi><!-- If possible link to Edition -->. 
+            dans le cadre du travail mené sur le <hi rend="italique">Roman de Pelyarmenus</hi><!-- Link to Edition -->. 
             Elle s'est aussi chargée de l'analyse 
-            littéraire de ce texte<!-- if possible link to Résumé et étude littéraire-->, avec Prunelle Deleville, 
-            ainsi que de l'alignement des manuscrits cycliques pour le <hi rend="italique">Roman de Pelyarmenus</hi><!-- If possible link to 
-            Alignement_Pelyarmenus--> et pour l'ensemble du Cycle<!-- If possible link to Alignement_C7S -->. 
+            littéraire de ce texte<!-- Link to Résumé et étude littéraire-->, avec Prunelle Deleville, 
+            ainsi que de l'alignement des manuscrits cycliques pour le <hi rend="italique">Roman de Pelyarmenus</hi><!-- Link to 
+            Alignement_Pelyarmenus--> et pour l'ensemble du Cycle<!-- Link to Alignement_C7S -->. 
          </p>
          <p>Prunelle Deleville (ULB - UNIGE pendant le projet) : 
             Prunelle Deleville a réalisé l’édition et le commentaire littéraire d’une réécriture de 
@@ -47,10 +48,10 @@
             dans le cadre du projet de recherche « Ovide en français ». Elle s’intéresse tout particulièrement à la réception de 
             l’Antiquité au Moyen Âge et à la traduction du latin vers le français médiéval mais aussi à l’allégorie en général. 
             Au sein du présent projet, elle a eu le plaisir de collaborer à l’édition numérique du 
-            <hi rend="italique">Roman de Pelyarmenus</hi><!-- If possible link to Edition -->. 
+            <hi rend="italique">Roman de Pelyarmenus</hi><!-- Link to Edition -->. 
             Elle s'est aussi chargée de l'analyse 
-            littéraire de ce texte<!-- if possible link to Résumé et étude littéraire-->, avec Camille Carnaille, 
-            ainsi que du glossaire<!-- If possible link to Glossaire --> et de la table des proverbes <!-- If possible link to Table -->.
+            littéraire de ce texte<!-- Link to Résumé et étude littéraire-->, avec Camille Carnaille, 
+            ainsi que du glossaire<!-- Link to Glossaire --> et de la table des proverbes <!-- Link to Table -->.
          </p>
          <p>Yasmina Foehr-Janssens (UNIGE) : 
             Yasmina Foehr-Janssens co-dirige le projet « Canoniser les Sept Sages » avec Simone Ventura. 
@@ -67,8 +68,8 @@
             dirigé par Lino Leonardi et Richard Trachsler. Elle a ensuite bénéficié de bourses de recherche post-doctorales 
             (Fondazione Ezio Franceschini de Florence, puis Scuola Normale Superiore de Pise) pour parachever le travail d’édition. 
             Elle a également terminé une nouvelle édition critique de <hi rend="italique">Guy de Warwick</hi> en prose. 
-            Elle a collaboré au projet pour l'étude philologique<!-- If possible link to Étude codico --> et l'édition critique 
-            du <hi rend="italique">Roman de Pelyarmenus</hi><!-- If possible link to Edition -->.           
+            Elle a collaboré au projet pour l'étude philologique<!-- Link to Étude codico --> et l'édition critique 
+            du <hi rend="italique">Roman de Pelyarmenus</hi><!-- Link to Edition -->.           
          </p>
          <p>Mello Meylan (UNIGE pendant le projet) :
             Mello (Aminoël) Meylan a obtenu son Master en littérature médiévale et philosophie à l’Université de Fribourg en novembre 2020 
@@ -83,8 +84,8 @@
             Ses intérêts de recherche couvrent les domaines de l’édition, de l’analyse linguistique (particulièrement lexicale et syntaxique) 
             et du traitement numérique de textes longs en prose française, occitane et catalane entre le XIII<hi rend="exposant">e</hi> et le 
             XV<hi rend="exposant">e</hi> siècle. Dans le projet, il s'est chargé de l'étude linguistique 
-            du <hi rend="italique">Roman de Pelyarmenus</hi><!-- If possible link to Étude linguistique -->, 
-            ainsi que de la supervision de l'édition<!-- If possible link to Edition -->.
+            du <hi rend="italique">Roman de Pelyarmenus</hi><!-- Link to Étude linguistique -->, 
+            ainsi que de la supervision de l'édition<!-- Link to Edition -->.
          </p>
          <p>Florian-Pierre Zanardi (UNIGE - Lumière-Lyon II pendant le projet) : 
             Florian-Pierre Zanardi est titulaire d'un Master en langue et littérature françaises obtenu à l'université Jean-Moulin-Lyon-III 
@@ -95,6 +96,32 @@
             L'étude littéraire a pour objectif de mettre au jour le système de remaniements narratifs qui donne à cette version un place singulière 
             dans l'économie du cycle.
          </p>
+         </div>
+         <div>
+            <head type="title">Partenaires</head>
+            <p><hi rend="bold">Bibliothèques</hi>
+            <list>
+               <item>Bibliohtèque nationale de France <!-- Link to https://www.bnf.fr/fr --></item>
+               <item>British Library <!-- Link to https://www.bl.uk/ --></item>
+               <item>Bibliothèque royale de Belgique <!-- Link to  https://www.kbr.be/fr/--></item>
+            </list></p>
+            <p><hi rend="bold">Laboratoires et Universités</hi>
+               <list>
+                  <item>Université libre de Bruxelles <!-- Link to https://www.ulb.be --></item>
+               <item>Université de Genève <!-- Link to https://www.unige.ch/ --></item>
+                  <item>ATILF <!-- Link to https://www.atilf.fr/--></item>
+               </list>
+            </p>
+            <p><hi rend="bold">Collègues</hi>
+               <list>
+                  <item>Bertrand Gaiffe (ATILF) <!-- Link to https://dl.acm.org/profile/81310482335 --></item>
+                  <item>Yan Greub (ATILF/UNIGE) <!-- Link to https://www.unige.ch/lettres/mela/enseignant/philologie/yan-greub --></item>
+                  <item>Gilles Souvay (ATILF) <!-- Link to  https://perso.atilf.fr/gsouvay/--></item>
+                  <item>Ariane Pinche (CNRS) <!-- Link to https://ciham.cnrs.fr/annuaire/membres_statutaires/ariane-pinche/ --></item>
+                  <item>Simon Gabay (UNIGE) <!-- Link to https://www.unige.ch/lettres/humanites-numeriques/equipe/collaborateurs/simon-gabay --></item>
+               </list>
+            </p>
+         </div>
       </body>
    </text>
 </TEI>

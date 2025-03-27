@@ -1,0 +1,138 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>À propos - Aspects techniques</title>
+            <respStmt>
+               <resp>Élaboration</resp>
+               <name key="CC" xml:id="CC">Camille Carnaille</name>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
+               sont référencées dans les documents ad hoc.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body xml:id="static">       
+         <div>
+            <head type="title">Aspects techniques</head>
+            <p>L’ensemble des données ayant servi à la création de ce site (modèles OCR, fichiers TEI) est disponible sur le <ref target="https://github.com/CycleDes7Sages">GitHub</ref> du projet.
+               Les données TEI sont disponibles sous licence CC-BY-NC-SA 4.0.</p>
+            <div>
+               <head type="sub">Transcription</head>
+               <p>Le manuscrit de base utilisé pour l'édition du <hi rend="italique">Roman de Pelyarmenus</hi>, le manuscrit BnF
+                  fr. 22549-22550 (<hi rend="italique">V<hi rend="exposant">2</hi></hi> et <hi rend="italique">V<hi rend="exposant">3</hi></hi>) 
+                  a été transcrit automatiquement (avec vérification exhaustive des données) avec 
+                     la plateforme HTR de l'INRIA <ref target="https://escriptorium.inria.fr/">eScriptorium</ref> avec l'aide  
+                     du modèle développé par <ref target="https://ciham.cnrs.fr/annuaire/membres_statutaires/ariane-pinche/">Ariane Pinche</ref>.
+               La collation sur les autres témoins a été effectuée sans soutien technique.</p>
+                     
+            </div>
+            <div>
+               <head type="sub">Encodage TEI</head>
+               <p>Le schéma TEI et la documentation utilisés 
+                  pour l’encodage du <hi rend="italique">Roman de Pelyarmenus</hi>
+                  est disponible sur GitHub : <ref target="https://github.com/CycleDes7Sages/CycleDes7Sages.github.io/blob/main/TEI/Pelyarmenus.odd">ODD Pelyarmenus</ref>.</p>
+               <list>
+                  <item>Le <ref target="https://github.com/DesenrollandoElCordel/Moreno-TEI-files">fichier TEI</ref> 
+                     de l'édition du <hi rend="italique">Roman de Pelyarmenus</hi> ont été générés, via une feuille XSLT, 
+                     à partir des fichiers .</item>
+                  <item>Les <ref target="https://github.com/DesenrollandoElCordel/Varios-TEI-files">fichiers TEI</ref> 
+                     du corpus <hi rend="italic">Pliegos Varios</hi> ont été générés, via une feuille XSLT, 
+                     à partir des fichiers XML-ALTO produits par <hi rend="italic">eScriptorium</hi>.</item>
+                  <item>Les <ref target="https://github.com/DesenrollandoElCordel/engravings-catalogue/tree/main/xml-files">illustrations</ref> ont fait l’objet d’une description détaillée dans un tableur Excel. Chaque ligne de ce tableau a ensuite été transformée en XML-TEI avec un script Python. La taxonomie utilisée pour la description des illustrations a été encodée en XML-TEI. La détection d’images similaires au sein de notre corpus a été réalisée avec l’outil <ref target="https://www.robots.ox.ac.uk/~vgg/software/vise/">VISE</ref> (<hi rend="italic">Visual Geometry Group Image Search Engine</hi>, Université d’Oxford).</item>
+               </list>
+            </div>
+            <div>
+               <head type="sub">IIIF</head>
+               <p>Les images et les manifestes IIIF sont hébergés sur la plateforme <ref target="https://hedera.unige.ch/">hedera</ref> de l’Université de Genève.</p>
+            </div>
+            <div>
+               <head type="sub">La détection des noms de lieu</head>
+               <p>Les noms de lieu ont été détectés automatiquement à l’aide du framework <ref target="https://github.com/flairNLP/flair">Flair</ref>. Après plusieurs tests de fine-tuning de modèles préexistants, dont les résultats détaillés sont décrits sur <ref target="https://github.com/DesenrollandoElCordel/pliegos-ner">GitHub</ref>, notre meilleur modèle a obtenu un taux de précision de 96,67%.</p>
+               <p>Les données ont été exportées au format CoNLL 2002, qui lui-même suit le standard IOB (Inside-Outside-Beginning). Elles ont ensuite été enrichies de plusieurs manières afin de les insérer dans nos fichiers TEI et de créer une carte interactive avec <ref target="https://desenrollandoelcordel.github.io/peripleo-pliegos/#/?/?/?/mode=points">Peripleo</ref> :</p>
+               <list>
+                  <item>Dans un premier temps, nous avons extrait les noms de lieu afin de les répertorier dans un fichier CSV ;</item>
+                  <item>Ce fichier a été une première fois enrichi avec des informations géographiques issues de Wikidata, à l’aide d’<ref target="https://openrefine.org/">Open Refine</ref> ;</item>
+                  <item>Nous l’avons ensuite complété avec des informations issues de nos fichiers TEI ;</item>
+                  <item>À partir de ce fichier, nous avons injecté les informations sur les noms de lieu dans chaque fichier TEI et généré un index de tous les lieux. Pour en savoir plus sur l’encodage des noms de lieu, voir la page <ref target="criterios_edicion">Critères d'édition</ref> ;</item>
+                  <item>Enfin, ce fichier a été converti en JSON afin de les afficher avec <hi rend="italic">Peripleo</hi>. Le <ref target="https://github.com/DesenrollandoElCordel/peripleo-pliegos">code</ref> utilisé pour générer la carte s’appuie sur <ref target="https://github.com/sib-swiss/dh-dataviz">celui</ref> développé par Élisa Nury, dans le cadre du projet FNS <ref target="https://mark16.sib.swiss/">Mark-16</ref>.</item>
+               </list>
+               <p>Tous les scripts utilisés pour chacune de ces étapes ont été écrits en Python et sont accessibles <ref target="https://github.com/DesenrollandoElCordel/code-python">ici</ref>.</p>
+            </div>
+            <div>
+               <head type="sub">Le site web</head>
+               <p>Ce site a été réalisé avec l’application <ref target="http://teipublisher.com/exist/apps/tei-publisher-home/index.html">TEI-Publisher</ref> (version 8.0.0, licence GPLv3). Les spécifications techniques sont les suivantes :</p>
+               <list>
+                  <item>Serveur Linux Debian 11</item>
+                  <item>Apache HTTP Server</item>
+                  <item>eXist-DB version 6.0.1</item>
+                  <item>Java Runtime Environment 11</item>
+               </list>
+            </div>
+         </div>
+         
+         <div xml:lang="en">
+            <head type="main">Technical aspects</head>
+            <p>All the data used to create this site (OCR models, TEI files, site source code, Python scripts) are available on the project's <ref target="https://github.com/DesenrollandoElCordel">GitHub</ref>.
+               The TEI data is licensed under CC-BY-NC-SA 4.0; the site's source code under GPLv.3.</p>
+            <div>
+               <head type="sub">Transcription</head>
+               <list>
+                  <item>The <hi rend="italic">Moreno</hi> corpus was automatically transcribed with the <ref target="https://transkribus.eu/lite/fr">Transkribus</ref> software (model accuracy: 98.21%). The data were exported in PAGE-XML format.</item>
+                  <item>The <hi rend="italic">Pliegos varios</hi> corpus was automatically transcribed on the HTR platform of the University of Geneva (<ref target="https://www.unige.ch/lettres/humanites-numeriques/recherche/projets-de-la-chaire/fondue">FoNDUE</ref>), using Baobab HPC service. FoNDUE is a free service, based on the <ref target="https://gitlab.inria.fr/scripta/escriptorium">eScriptorium</ref> infrastructure (Model accuracy for segmentation: 86% | Model accuracy for transcription: 96,7%).
+                     For the segmentation of documents, we followed the <ref target="https://github.com/SegmOnto">SegmOnto</ref> vocabulary.</item>
+               </list>
+            </div>
+            <div>
+               <head type="sub">TEI encoding</head>
+               <p>The TEI schema and documentation used for the encoding of the <hi rend="italic">Moreno</hi> and <hi rend="italic">Varios</hi> corpus, as well as for the catalogue of illustrations, is available on GitHub: <ref target="https://github.com/DesenrollandoElCordel/Moreno-TEI-files/blob/main/Schema/oddPliego_varios.odd">ODD pliegos</ref> | <ref target="https://github.com/DesenrollandoElCordel/engravings-catalogue/blob/main/schema/pliegos_illustrations.odd">ODD illustrations</ref>.</p>
+               <list>
+                  <item>The <ref target="https://github.com/DesenrollandoElCordel/Moreno-TEI-files">TEI files</ref> of the <hi rend="italic">Moreno</hi> corpus were generated, via an XSLT sheet, from the PAGE-XML files produced by <hi rend="italic">Transkribus</hi>.</item>
+                  <item>The <ref target="https://github.com/DesenrollandoElCordel/Varios-TEI-files">TEI files</ref> of the <hi rend="italic">Pliegos varios</hi> corpus were generated, via an XSLT sheet, from the XML-ALTO files produced by <hi rend="italic">eScriptorium</hi>.</item>
+                  <item>The <ref target="https://github.com/DesenrollandoElCordel/engravings-catalogue/tree/main/xml-files">illustrations</ref> were described in detail in an Excel spreadsheet. Each row of this table was then transformed into XML-TEI with a Python script. The taxonomy used for the description of the illustrations was encoded in XML-TEI. The detection of similar images within our corpus was carried out with <ref target="https://www.robots.ox.ac.uk/~vgg/software/vise/">VISE</ref> (<hi rend="italic">Visual Geometry Group Image Search Engine</hi>, Université d’Oxford).</item>
+               </list>
+            </div>
+            <div>
+               <head type="sub">IIIF</head>
+               <p>IIIF images and manifests are hosted on the infrastructure <ref target="https://hedera.unige.ch/">hedera</ref> of the University of Geneva.</p>
+            </div>
+            <div>
+               <head type="sub">The specific case of place names</head>
+               <p>Place names were detected automatically using the <ref target="https://github.com/flairNLP/flair">Flair</ref> framework. After several fine-tuning tests of pre-existing models, with detailed results described on the project's <ref target="https://github.com/DesenrollandoElCordel/pliegos-ner">GitHub</ref>, our best model achieved an accuracy rate of 96.67 %.</p>
+               <p>The data was exported in CoNLL 2002 format, which itself follows the IOB (Inside-Outside-Beginning) standard. The data was then enriched in a number of ways so that it could be inserted into our TEI files and used to create an interactive map with <ref target="https://desenrollandoelcordel.github.io/peripleo-pliegos/#/?/?/?/mode=points">Peripleo</ref> :</p>
+               <list>
+                  <item>First, we extracted the place names and listed them in a CSV file;</item>
+                  <item>This file was first enhanced with geographical information from Wikidata, using <ref target="https://openrefine.org/">Open Refine</ref> ;</item>
+                  <item>We then added information from our TEI files;</item>
+                  <item>From this file, we injected the place name information into each TEI file and generated an index of all the places. To find out more about the encoding of place names, see the <ref target="criterios_edicion">Editorial principles</ref> page;</item>
+                  <item>Finally, this file was converted to JSON for display with <hi rend="italic">Peripleo</hi>. The <ref target="https://github.com/DesenrollandoElCordel/peripleo-pliegos">code</ref> used to generate the map is based on <ref target="https://github.com/sib-swiss/dh-dataviz">that</ref> developed by Élisa Nury as part of the <ref target="https://mark16.sib.swiss/">Mark-16</ref> SNSF project.</item>
+               </list>
+               <p>All the scripts used for each of these steps were written in Python and can be accessed <ref target="https://github.com/DesenrollandoElCordel/code-python">here</ref>.</p>
+            </div>
+            <div>
+               <head type="sub">El sitio web</head>
+               <p>This site was created with the <ref target="http://teipublisher.com/exist/apps/tei-publisher-home/index.html">TEI-Publisher</ref> application (version 8.0.0, GPLv3 license). The technical specifications are as follows:</p>
+               <list>
+                  <item>Serveur Linux Debian 11</item>
+                  <item>Apache HTTP Server</item>
+                  <item>eXist-DB version 6.0.1</item>
+                  <item>Java Runtime Environment 11</item>
+               </list>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
