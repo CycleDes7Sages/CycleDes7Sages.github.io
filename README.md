@@ -16,3 +16,4 @@ Ce repository GitHub donne accès d'une part à l'édition du _Roman de Pelyarme
 et d'autre part à l'alignement produit pour ce _Roman de Pelyarmenus_, ainsi que pour l'ensemble du Cycle, qui 
 permet de visualiser la matière de l'ensemble du cycle sur la base des manuscrits qui le contiennent (ou l'ont contenu)
 dans son entièreté.
+
