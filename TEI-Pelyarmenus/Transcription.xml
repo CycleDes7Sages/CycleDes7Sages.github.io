@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription</title>
+            <respStmt>
+               <resp>Élaboration</resp>
+               <name key="CC" xml:id="CC">Camille Carnaille</name>
+               <!-- ORCID 0000-0001-5396-8929 -->
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+            <authority>FNS (Suisse)</authority>
+            <authority>FNRS (Wallonie, Belgique)</authority>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
+            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
+               sont référencées dans les documents ad hoc.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>       
+         <div>
+            <head type="title">Transcription</head>
+            <p>Pour transcrire le manuscrit Paris, BnF, fr. 22 549-22550 (<hi rend="italique">V</hi>) qui nous a servi de base, 
+               nous avons pu recourir à la <ref target="https://escriptorium.inria.fr/">plateforme eScriptorium déployée par l'INRIA</ref>. 
+            Cette plateforme pratique l'HTR (Handwritten Text Recognition), moyennant la bonne prise en charge, segmentation et vérification 
+            des données bien sûr (avec un taux de réussite assez conséquent, de 95,5%). 
+            Rarement réalisée dans les travaux d'édition, la transcription diplomatique qu'elle nous a permis d'obtenir nous semblait 
+            trop précieuse pour être délaissée. Nous en donnons donc ici accès, sous format PDF. <!-- LINK --> 
+            </p>                       
+         </div>       
+      </body>
+   </text>
+</TEI>
