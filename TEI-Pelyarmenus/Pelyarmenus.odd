@@ -155,6 +155,7 @@
       </div>
       <div>
         <head>L'ODD</head>
+        
         <schemaSpec ident="septSages" start="TEI">
           <moduleRef key="core"
             include="add cb del graphic head hi lg l name note num p pb resp respStmt rs said title unclear"/>
@@ -173,8 +174,7 @@
           <moduleRef key="textstructure" include="TEI body text div"/>
           <moduleRef key="transcr" include="handNotes handShift subst supplied"/>
           <moduleRef key="analysis" include="c"/>
-
-
+          
           <elementSpec ident="teiHeader" module="header" mode="change">
             <content>
               <sequence>
@@ -251,8 +251,6 @@
               </sequence>
             </content>
           </elementSpec>
-
-
 
           <elementSpec ident="sourceDesc" module="header" mode="change">
             <content>
@@ -458,8 +456,6 @@
             </attList>
           </elementSpec>
 
-
-
           <elementSpec ident="c" module="analysis" mode="change">
             <attList>
               <attDef ident="ana" mode="change" usage="req">
@@ -628,15 +624,6 @@
             </attList>
           </elementSpec>
 
-          <!-- <elementSpec ident="app" module="textcrit" mode="change"> 
-          <content>
-            <sequence>
-              <elementRef key="lem" minOccurs="1" maxOccurs="1"/>
-              <elementRef key="rdg" minOccurs="1" maxOccurs="4"/>
-            </sequence>
-          </content>
-        </elementSpec> -->
-
           <elementSpec ident="lem" module="textcrit" mode="change">
             <attList>
               <attDef ident="wit" mode="change" usage="opt">
@@ -672,19 +659,14 @@
           </elementSpec>
           
           <elementSpec ident="said" mode="change">
-            <constraintSpec ident="narrator" scheme="schematron">
-              <!-- <constraint>
-                <sch:rule context="tei:said[./@who]">
-                  <sch:assert test="not(./@direct)">Direct est interdit si c'est le narrateur qui parle</sch:assert>
+            <constraintSpec ident="no-nested-said" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said">
+                  <sch:report test="descendant::tei:said[./not(@who)]"></sch:report>
                 </sch:rule>
               </constraint>
             </constraintSpec>
-            <constraintSpec ident="narrator2" scheme="schematron">
-              <constraint>
-                <sch:rule context="tei:said[./@who]">
-                  <sch:assert test="not(./@aloud)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
-                </sch:rule>
-              </constraint>-->
+            <constraintSpec ident="narrator" scheme="schematron">              
             </constraintSpec>
             <constraintSpec ident="character_aloud" scheme="schematron">
               <constraint>
@@ -781,7 +763,7 @@
               </attDef>
             </attList>
           </elementSpec>
-
+          
           <elementSpec ident="rs" module="core" mode="change">
             <attList>
               <attDef ident="type" mode="replace" usage="req">
