@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="roman-de-pelyarmenus-presentation">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,24 +29,25 @@
    </teiHeader>
    <text>
       <body>
-         <head type="title">Présentation : l'édition critique du <hi rend="italique">Roman de Pelyarmenus</hi></head>
-         <p>Ici peut se lire l'édition critique réalisée du <hi rend="italique">Roman de Pelyarmenus</hi>, cinquième des
-            six continuations apportées au <hi rend="italique">Roman des Sept Sages de Rome</hi>. 
-         Ce roman, jusqu'alors seulement partiellemment accessible (dans la thèse de doctorat de Lorna Bullwinke Brodtkorb), 
-         constituait le chaînon manquant dans la lecture du <hi rend="italique">Cycle des Sept Sages</hi> (voir la 
-            <ref target="Bibliographie.xml">Bibliographie</ref>).</p>
-         <p>Pour entourer <ref target="Roman%20de%20Pelyarmenus.xml">cette édition critique</ref>, se trouvent ici aussi intégrés le 
-            <ref target="Litteraire.xml">résumé et l'étude littéraire du roman</ref>, 
-            <ref target="Codicologique.xml">son étude codicologique et philologique</ref>, 
-            <ref target="Pelyarmenus.odd">les critères d'établissement du texte</ref>, 
-            <ref target="Linguistique.xml">l'étude linguistique</ref>,
-            <ref target="Transcription.xml">la transcription complète dont nous 
-               avons conservé trace</ref>, et finalement la <ref target="Bibliographie.xml">bibliographie de travail</ref>.</p>
-         <p>En annexes, se trouvent aussi l'<hi rend="italique"><ref target="Index.xml">Index nominum et locorum</ref></hi>, 
-            le <ref target="Glossaire.xml">glossaire</ref> (réalisé avec l'aide précieuse 
-            du laboratoire ATILF en la personne de Gilles Souvay) puis la <ref target="Table.xml">table des proverbes</ref>.
-            
-         </p>
+         <div>
+            <head type="title">Présentation : l'édition critique du <hi rend="italique">Roman de Pelyarmenus</hi></head>
+            <p>Ici peut se lire l'édition critique réalisée du <hi rend="italique">Roman de Pelyarmenus</hi>, cinquième des
+               six continuations apportées au <hi rend="italique">Roman des Sept Sages de Rome</hi>. 
+            Ce roman, jusqu'alors seulement partiellemment accessible (dans la thèse de doctorat de Lorna Bullwinke Brodtkorb), 
+            constituait le chaînon manquant dans la lecture du <hi rend="italique">Cycle des Sept Sages</hi> (voir la 
+               <ref target="Bibliographie.xml">Bibliographie</ref>).</p>
+            <p>Pour entourer <ref target="Roman%20de%20Pelyarmenus.xml">cette édition critique</ref>, se trouvent ici aussi intégrés le 
+               <ref target="Litteraire.xml">résumé et l'étude littéraire du roman</ref>, 
+               <ref target="Codicologique.xml">son étude codicologique et philologique</ref>, 
+               <ref target="Pelyarmenus.odd">les critères d'établissement du texte</ref>, 
+               <ref target="Linguistique.xml">l'étude linguistique</ref>,
+               <ref target="Transcription.xml">la transcription complète dont nous 
+                  avons conservé trace</ref>, et finalement la <ref target="Bibliographie.xml">bibliographie de travail</ref>.</p>
+            <p>En annexes, se trouvent aussi l'<hi rend="italique"><ref target="Index.xml">Index nominum et locorum</ref></hi>, 
+               le <ref target="Glossaire.xml">glossaire</ref> (réalisé avec l'aide précieuse 
+               du laboratoire ATILF en la personne de Gilles Souvay) puis la <ref target="Table.xml">table des proverbes</ref>.
+            </p>
+         </div>
       </body>
    </text>
 </TEI>
