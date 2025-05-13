@@ -658,14 +658,7 @@
             </attList>
           </elementSpec>
           
-          <elementSpec ident="said" mode="change">
-            <constraintSpec ident="no-nested-said" scheme="schematron">
-              <constraint>
-                <sch:rule context="tei:said">
-                  <sch:report test="descendant::tei:said[./not(@who)]"></sch:report>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
+          <elementSpec ident="said" mode="change">            
             <constraintSpec ident="narrator" scheme="schematron">              
             </constraintSpec>
             <constraintSpec ident="character_aloud" scheme="schematron">
@@ -705,6 +698,17 @@
                   <valItem ident="dialogue"/>
                 </valList>
               </attDef>
+              <attDef ident="type" mode="replace" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="enchassé"/>
+                </valList>
+              </attDef>
+              <attDef ident="ana" mode="replace" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="to-continue"/>
+                  <valItem ident="continued"/>
+                </valList>
+              </attDef>
             </attList>
           </elementSpec>
 
@@ -713,14 +717,8 @@
               <attDef ident="ana" mode="replace" usage="req">
                 <valList type="closed">
                   <valItem ident="proverbe"/>
-                  <valItem ident="discoursEnchassé"/>
                   <valItem ident="lettre"/>
                   <valItem ident="chanson"/>
-                </valList>
-              </attDef>
-              <attDef ident="rendition" mode="replace" usage="opt">
-                <valList type="closed" mode="replace">
-                  <valItem ident="dialogue"/>
                 </valList>
               </attDef>
             </attList>
@@ -825,19 +823,7 @@
               <attDef ident="xml:space" mode="delete"/>
               <attDef ident="xml:lang" mode="delete"/>
             </attList>
-          </classSpec>
-
-          <!--<classSpec ident="att.global.linking" type="atts" mode="change">
-          <attList>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-          </attList>
-        </classSpec>-->
+          </classSpec>          
 
           <classSpec ident="att.global.linking" type="atts" mode="change">
             <attList>
