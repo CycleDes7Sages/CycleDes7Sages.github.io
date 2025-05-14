@@ -17,3 +17,8 @@ et d'autre part à l'alignement produit pour ce _Roman de Pelyarmenus_, ainsi qu
 permet de visualiser la matière de l'ensemble du cycle sur la base des manuscrits qui le contiennent (ou l'ont contenu)
 dans son entièreté.
 
+## Data package based on the tei-publisher-data-template
+
+TEI Publisher's data template was used to set this repository as a data app to be used with TEI Publisher-generated publication app for C7S.
+
+Separating the data from application code has many benefits, particularly for actively developed applications and data sets. This way changes to your code can be deployed without redeploying and reindexing your data and vice versa. It is also easier to maintain separate repositories (e.g. in Git) and only grant certain privileges separately to editorial and developer teams.
