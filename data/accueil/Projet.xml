@@ -18,12 +18,15 @@
             <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
             <authority>FNS (Suisse)</authority>
             <authority>FNRS (Wallonie, Belgique)</authority>
-            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
-            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
+            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118,
+               Nancy-Université (France)</authority>
+            <availability status="restricted">
+               <p>à l'usage des personnes impliquées dans ce projet</p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
-               sont référencées dans les documents ad hoc.</p>
+            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept
+               Sages, dont les sources sont référencées dans les documents ad hoc.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -31,50 +34,57 @@
       <body>
          <div>
             <head type="title">Le projet Canoniser les Sept Sages</head>
-            <p>Dans cet objectif revendiqué de canoniser la matière des Sept Sages de Rome, ce projet de recherche avait pour objectif 
-               d'offrir un accès complet et une meilleure compréhension du <hi rend="italique">Cycle des Sept Sages de Rome</hi>, en tant 
-               qu'objet complexe en vue d'une inscription durable dans le canon de la littérature française médiévale.
-            </p>
-            <p>Pour cela, nos efforts ont porté sur l'édition des textes encore inaccessibles (l’intégralité du 
-               <hi rend="italique">Roman de Pelyarmenus</hi>, ainsi que ce que donne à lire le particulier manuscrit BnF fr. 1446) 
-               et l’analyse des récits, dans leurs contextes esthétique, politique et culturel.            
-               Il s’agit également de déterminer les critères distinctifs de l’histoire littéraire 
-               qui ont contribué à minorer l’importance de ce monument littéraire. 
-               Notre projet cherchait ainsi à repondre aux grandes questions suivantes : 
-               <lb/>
-               - Quels sont les éléments qui mènent, à partir d’un récit nodal, à la prolifération narrative jusqu’à la création 
-               d’une série aux dimensions imposantes ?
-               <lb/>
-               - Quelles sont les conditions (matérielles, culturelles, sociologiques) qui ont facilité le succès, d’abord, 
-               puis l’oubli progressif du cycle ?
-               <lb/>
-               - Quels sont les rapports entre pouvoir(s) politique(s), mécénat(s) et fiction(s) littéraire(s) ?
-               <lb/>
-               - Dans quelle mesure la demande d’œuvres de grande envergure en prose est-elle en rapport 
-               avec l’essor de la langue française comme langue de culture (inter)nationale ?            
-            </p>
-            <p>Plus spécifiquement, nos travaux se sont organisés en trois axes interconnectés :
-            </p>
-            <p>1) Lire le Cycle :<lb/>
-               - Avérer le rôle du cycle dans la pratique médiévale de l'écriture sérielle.<lb/>
-            - Évaluer le « roman de clergie » sous le prisme du genre.</p>
-            <p>2) Étudier le <hi rend="italique">Roman de Pelyarmenus</hi> :<lb/>
-               - Fournir une <ref target="roman-de-pelyarmenus">édition critique nativement numérique</ref>, complétée par une édition papier (publiée auprès de la SATF), basée sur le manuscrit 
-            <hi rend="italique">V</hi> (Paris, BnF, fr. 22549 et fr. 22550) et la collation des copies <hi rend="italique">B</hi>, 
-               <hi rend="italique">X<hi rend="exp">2</hi></hi> et <hi rend="italique">G</hi>, de l'ensemble du roman, encore en grande partie 
-               inédit au début du projet.<lb/>
-               - Mener une <ref target="roman-de-pelyarmenus-linguistique">étude linguistique</ref> et 
-               <ref target="roman-de-pelyarmenus-litteraire">littéraire</ref> de ce roman.</p>
-            <p>3) <ref target="roman-de-pelyarmenus-codicologique">Analyser les manuscrits</ref> : <lb/>
-            - Étudier les rapports entre lieux de production et variétés linguistiques. <lb/>
-            - Analyser le cycle afin de déceler les étapes de sa constitution. <lb/>
-            - Étudier les rapports entre la structure matérielle des manuscrits et les éléments 
-            (para)textuels organisant les contenus de l’œuvre, en particulier au travers des moyens de visualisation permis par 
-               <ref target="cycle-des-sept-sages-alignement">l'alignement de 
-            ces manuscrits</ref>.<lb/>               
-               - Mieux connaître et comprendre certains témoins plus compliqués (le ms. BnF 1446 qui a fait l'objet de la thèse de Florian-Pierre Zanardi,
-            ou le ms. Turin, BN 1605 partiellement brûlé dans l'incendie de la bibliothèque de Turin).
-            </p>
+            <p>Dans cet objectif revendiqué de canoniser la matière des Sept Sages de Rome, ce
+               projet de recherche avait pour objectif d'offrir un accès complet et une meilleure
+               compréhension du <hi rend="italique">Cycle des Sept Sages de Rome</hi>, en tant
+               qu'objet complexe en vue d'une inscription durable dans le canon de la littérature
+               française médiévale. </p>
+            <p>Pour cela, nos efforts ont porté sur l'édition des textes encore inaccessibles
+               (l’intégralité du <hi rend="italique">Roman de Pelyarmenus</hi>, ainsi que ce que
+               donne à lire le particulier manuscrit BnF fr. 1446) et l’analyse des récits, dans
+               leurs contextes esthétique, politique et culturel. Il s’agit également de déterminer
+               les critères distinctifs de l’histoire littéraire qui ont contribué à minorer
+               l’importance de ce monument littéraire. </p>
+            <p>Notre projet cherchait ainsi à repondre aux grandes questions suivantes :</p>
+            <list>
+               <item>Quels sont les éléments qui mènent, à partir d’un récit nodal, à la
+                  prolifération narrative jusqu’à la création d’une série aux dimensions imposantes
+                  ? </item>
+               <item>Quelles sont les conditions (matérielles, culturelles, sociologiques) qui ont
+                  facilité le succès, d’abord, puis l’oubli progressif du cycle ? </item>
+               <item>Quels sont les rapports entre pouvoir(s) politique(s), mécénat(s) et fiction(s)
+                  littéraire(s) ? </item>
+               <item>Dans quelle mesure la demande d’œuvres de grande envergure en prose est-elle en
+                  rapport avec l’essor de la langue française comme langue de culture
+                  (inter)nationale ? </item>
+            </list>
+
+            <p>Plus spécifiquement, nos travaux se sont organisés en trois axes interconnectés : </p>
+            <list type="ordered">
+               <item>Lire le Cycle :<lb/> - Avérer le rôle du cycle dans la pratique médiévale de
+                  l'écriture sérielle.<lb/> - Évaluer le « roman de clergie » sous le prisme du
+                  genre. </item>
+               <item>Étudier le <hi rend="italique">Roman de Pelyarmenus</hi> : <lb/> - Fournir une
+                     <ref target="roman-de-pelyarmenus">édition critique nativement numérique</ref>,
+                  complétée par une édition papier (publiée auprès de la SATF), basée sur le
+                  manuscrit <hi rend="italique">V</hi> (Paris, BnF, fr. 22549 et fr. 22550) et la
+                  collation des copies <hi rend="italique">B</hi>, <hi rend="italique">X<hi
+                        rend="exp">2</hi></hi> et <hi rend="italique">G</hi>, de l'ensemble du
+                  roman, encore en grande partie inédit au début du projet.<lb/> - Mener une <ref
+                     target="roman-de-pelyarmenus-linguistique">étude linguistique</ref> et <ref
+                     target="roman-de-pelyarmenus-litteraire">littéraire</ref> de ce roman.</item>
+               <item><ref target="roman-de-pelyarmenus-codicologique">Analyser les
+                  manuscrits</ref> : <lb/> - Étudier les rapports entre lieux de production et
+                  variétés linguistiques. <lb/> - Analyser le cycle afin de déceler les étapes de sa
+                  constitution. <lb/> - Étudier les rapports entre la structure matérielle des
+                  manuscrits et les éléments (para)textuels organisant les contenus de l’œuvre, en
+                  particulier au travers des moyens de visualisation permis par <ref
+                     target="cycle-des-sept-sages-alignement">l'alignement de ces
+                  manuscrits</ref>.<lb/> - Mieux connaître et comprendre certains témoins plus
+                  compliqués (le ms. BnF 1446 qui a fait l'objet de la thèse de Florian-Pierre
+                  Zanardi, ou le ms. Turin, BN 1605 partiellement brûlé dans l'incendie de la
+                  bibliothèque de Turin). </item>
+            </list>
          </div>
       </body>
    </text>
