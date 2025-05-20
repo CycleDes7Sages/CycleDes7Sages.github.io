@@ -1,46 +1,1085 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="roman-de-pelyarmenus-bibliographie">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Bibliographie</title>
-            <respStmt>
-               <resp>Élaboration</resp>
-               <name key="CC" xml:id="CC">Camille Carnaille</name>
-               <!-- ORCID 0000-0001-5396-8929 -->
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <authority>UniGE (Université de Genève, Suisse)</authority>
-            <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
-            <authority>FNS (Suisse)</authority>
-            <authority>FNRS (Wallonie, Belgique)</authority>
-            <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR 7118, Nancy-Université (France)</authority>
-            <availability status="restricted"> <p>à l'usage des personnes impliquées dans ce projet</p> </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les Sept Sages, dont les sources 
-               sont référencées dans les documents ad hoc.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>       
-         <div>
-            <head type="title">Bibliographie</head>
-            <p>Voici la liste des références enregistrées au fil de nos travaux autour du <hi rend="italique">Cycle des Sept Sages</hi>.</p>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliographie</title>
+                <respStmt>
+                    <resp>Élaboration</resp>
+                    <name key="YFJ">Yasmina Foehr-Janssens</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>UniGE (Université de Genève, Suisse)</authority>
+                <authority>ULB (Université Libre de Bruxelles, Belgique)</authority>
+                <authority>FNS (Suisse)</authority>
+                <authority>FNRS (Wallonie, Belgique)</authority>
+                <authority>ATILF (Analyse et Traitement Informatique de la Langue Française), UMR
+                    7118, Nancy-Université (France)</authority>
+                <availability status="restricted">
+                    <p>à l'usage des personnes impliquées dans ce projet</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Ce document vise à ouvrir la porte à toutes les données du projet Canoniser les
+                    Sept Sages, dont les sources sont référencées dans les documents ad hoc.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
             <div>
-               <head type="subtitle">Éditions</head>
-               <p>XXX</p>                     
+                <head type="title">Bibliographie</head>
+                <p>Voici la liste des références enregistrées au fil de nos travaux autour du <hi
+                        rend="italique">Cycle des Sept Sages</hi>.</p>
+                <div>
+                    <head type="subtitle">Éditions</head>
+                    <div>
+                        <head><hi rend="i">Roman des sept sages de Rome</hi>, version A
+                            (prose)</head>
+                        <list>
+                            <item>
+                                <p>[Plomb, P. B. (1899)], <hi rend="i">De Middelnederlandsche
+                                        bewerking van het Gedicht van den VII Vroeden van binnen
+                                        Rom</hi>, éd. Herman Peter Barend Plomp, Utrecht, J. van
+                                    Boekhouden, 1899 [contient une éd. du texte français en prose,
+                                    version <hi rend="i">A</hi>, d’après le ms. Paris Fr. 95].</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <hi rend="i">Les sept sages de Rome : roman en prose du
+                                        XIII</hi>
+                                    <hi rend="i">e</hi>
+                                    <hi rend="i"> siècle d'après le manuscrit No 2137 de la
+                                        B.N.</hi>, 1981, Section de traitement automatique des
+                                    textes d'ancien français, Nancy, Centre de recherches et
+                                    d'applications linguistiques Université de Nancy II (Travaux du
+                                    CRAL 2).</p>
+                            </item>
+                            <item>
+                                <p>[Coco, S. (2016)], <hi rend="i">Il </hi>Roman des sept sages<hi
+                                        rend="i"> : edizione critica del gruppo β/a della redazione
+                                        A</hi>., éd. S. Coco, Dottorato di ricerca in Italianistica
+                                    e filologia romanza, Parma, University of Parma, Department of
+                                    Italian Studies and Romance Philology. </p>
+                            </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>
+                            <hi rend="i">Roman des sept sages de Rome, </hi>autres versions</head>
+                        <list>
+                            <item>
+                                <p>[Paris, G. (1876]), <hi rend="i">Deux rédactions du </hi>Roman
+                                    des sept sages, Paris, Firmin Didot (Société des anciens textes
+                                    français).</p>
+                            </item>
+                            <item>
+                                <p>[Speer, M. B. (1989)], <hi rend="i">Le Roman des Sept Sages de
+                                        Rome, a Critical Edition of the Two Verse Redactions of a
+                                        Twelfth-Century Romance</hi>, ed. M. B. Speer, Lexington,
+                                    French Forum, 1989.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    [Speer, M. B. &amp;
+                                    Foehr-Janssens, Y. (2017)], <hi rend="i">Le Roman des sept sages
+                                        de Rome, édition critique et traduction des deux rédactions
+                                        en vers d’un roman du XIIe siècle</hi>, éd. M. B. Speer et
+                                    Y. Foehr-Janssens, Paris, Champion, 2017 (Champion
+                                    Classiques).</p>
+                            </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>
+                            <anchor xml:id="_heading=h.dpn42ffy5378"/> Continuations des <hi
+                                rend="i">Sept sages</hi>
+                        </head>
+                        <list>
+                            <item>
+                                <p>[Alton, J. (1889)], <hi rend="i">Le roman de Marques de
+                                    Rome</hi>, ed. J.Alton, Tübingen, Literarischer Verein in
+                                    Stuttgart, 1889 (Bibliothek des Litterarischen Vereins in
+                                    Stuttgart, 187). </p>
+                            </item>
+                            <item>
+                                <p>[Panvini, B. (1993)], <hi rend="i">Marques, li senechaus de
+                                        Rome</hi>, <hi rend="i">romanzo francese del 13.
+                                    Secolo</hi>, ed. Bruno Panvini, Soveria Mannelli, Rubbettino,
+                                    1993 (Medioevo romanzo e orientale. Testi, 1).</p>
+                            </item>
+                            <item>
+                                <p>[Thorpe, L. (1959)], <hi rend="i">Le roman de Laurin, fils de
+                                        Marques le sénéchal, Text of MS. B.N. f. fr. 22548</hi>, ed.
+                                    L. Thorpe,<hi rend="i"> </hi>Cambridge, Heffer, 1959 (University
+                                    of Nottingham Research Publications, 2). <hi rend="b">[= </hi>
+                                    <hi rend="b i">Laurin</hi>
+                                    <hi rend="b">]</hi>.</p>
+                            </item>
+                            <item>
+                                <p>[Palermo, J. (1963-1964)], <hi rend="i">Le roman de
+                                        Cassidorus</hi>, éd. J. Palermo, Paris, Picard, 1963-64
+                                    (Société des anciens textes français), 2 t.<hi rend="b"> [= </hi>
+                                    <hi rend="b i">Cassidorus</hi>
+                                    <hi rend="b">]</hi>.</p>
+                            </item>
+                            <item>
+                                <p>[Niedzielski, H. (1966)], <hi rend="i">Le roman de Helcanus,
+                                        Édition critique d'un texte en prose du XIII</hi>
+                                    <hi rend="i">e</hi>
+                                    <hi rend="i"> siècle</hi>, éd. H. Niedzielski, Genève, Droz,
+                                    1966 (Textes littéraires français, 121) <hi rend="b">[= </hi>
+                                    <hi rend="b i">Helcanus</hi>
+                                    <hi rend="b">]</hi>.</p>
+                            </item>
+                            <item>
+                                <p>[Brodtkorb, L. B. (1965)], <hi rend="i">Le roman de
+                                        Pelyarmenus</hi>: <hi rend="i">A Preliminary study and
+                                        partial edition of an unpublished thirteenth-century prose
+                                        romance</hi>, ed. L. B. Brodtkorb, Ph.D, Yale University,
+                                    New Haven, 1965 <hi rend="b">[= </hi>
+                                    <hi rend="b i">Pelyarmenus</hi>
+                                    <hi rend="b">]</hi>.</p>
+                            </item>
+                            <item>
+                                <p>[McMunn, M. (1978a)], <hi rend="i">Le roman de Kanor : édition
+                                        critique d'un texte en prose du XIII</hi>
+                                    <hi rend="i">e</hi>
+                                    <hi rend="i"> siècle</hi>, éd. M. T. McMunn, Ph. D.
+                                    dissertation, University of Connecticut, Storrs, 1978 <hi
+                                        rend="b">[= </hi>
+                                    <hi rend="b i">Kanor</hi>
+                                    <hi rend="b">]</hi>.</p>
+                            </item>
+                        </list>
+                        <p/>
+                    </div>
+
+                </div>
+                <div>
+                    <head type="subtitle">Études</head>
+                    <list>
+                        <item>
+                            <p>Adams, D., et Thorpe L. (1975), « <hi rend="i">Li Hystoire de
+                                    Giglan</hi> et <hi rend="i">Le Roman de Laurin</hi> », <hi
+                                    rend="i">Romania</hi> 96, p. 389-402.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.cs8afmfmh413"/>Aïache-Berne, M. (1992), «
+                                    <hi rend="i">Roman des Sept Sages</hi> et ses continuations »,
+                                in Hasenohr, G. &amp; Zink, M. (éd.), <hi rend="i">Dictionnaire des
+                                    lettres françaises : le Moyen Âge</hi>, éd. revue, Paris,
+                                Fayard, p. 1317-1320. [Réimpr. : Paris, Fayard (La Pochothèque),
+                                1994]. </p>
+                        </item>
+                        <item>
+                            <p>Artola, G. (1978), « The Nature of the <hi rend="i">Book of
+                                    Sindbad</hi> », in Niedzielski, H., Runte, H. R. &amp;
+                                Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven sages of
+                                    Rome</hi>, <hi rend="i">op. cit</hi>., p. 7-31.</p>
+                        </item>
+                        <item>
+                            <p>Azzam, W., Collet, O. &amp; Foehr-Janssens, Y. (2005), « Les
+                                Manuscrits littéraires français : pour une sémiotique du recueil
+                                médiéval », <hi rend="i">Revue belge de philologie et
+                                    d’histoire</hi> 3, p. 639-669.</p>
+                        </item>
+                        <item>
+                            <p>Azzam, W., Collet, O. &amp; Foehr-Janssens, Y. (2007), « Cohérence et
+                                éclatement, réflexion sur les recueils littéraires du moyen âge »,
+                                    <hi rend="i">Babel</hi> 16, p. 31-59. </p>
+                        </item>
+                        <item>
+                            <p>Azzam, W., Collet, O. &amp; Foehr-Janssens, Y. (2010), « Mise en
+                                recueil et fonctionnalité de l’écrit », in Collet, O. &amp;
+                                Foehr-Janssens, Y. (éd.), <hi rend="i">Le Recueil au Moyen Âge : le
+                                    Moyen Âge central</hi>, Turnhout, Brepols (Texte, Codex et
+                                Contexte 8), p. 11-34. </p>
+                        </item>
+                        <item>
+                            <p>Bambeck, M. (1967), « Zur altchristlichen Vorgeschichte der Metaphor
+                                "Ohren des Herzens" in <hi rend="i">Marques de Rome</hi> und in der
+                                    <hi rend="i">Sainte Leocadie</hi> des Gautier de Coincy », <hi
+                                    rend="i">Zeitschrift für französische Sprache und Literatur</hi>
+                                77, p. 23-29.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.x2dt0rz63re6"/>Barbato, M. (2011), « La
+                                sociolinguistique et l’histoire des variétés romanes anciennes »,
+                                    <hi rend="i">Revue Tranel (Travaux neuchâtelois de
+                                    linguistique)</hi> 53, p. 77-92.</p>
+                        </item>
+                        <item>
+                            <p>Baumgartner, E. (1973), « Sur les pièces lyriques du <hi rend="i"
+                                    >Tristan en prose</hi> », <hi rend="i">Études de langue et de
+                                    littérature du Moyen-Âge offertes à Felix Lecoy par ses
+                                    collègues, ses élèves et ses amis</hi>, Paris, Champion, p.
+                                19-25. </p>
+                        </item>
+                        <item>
+                            <p>Besamusca, P., Gerritsen, W. P., Hogetoorn, C. &amp; Lie, R. S. H.,
+                                (éd.) (1994), <hi rend="i">Cyclification: the development of
+                                    Narrative Cycles in the Chansons de Geste and the Arthurian
+                                    Romances</hi>, North-Holland, Amsterdam, Oxford, New York,
+                                Tokyo, Royal Netherlands Academy of Arts and Sciences
+                                (Verhandelingen der Koninklijke Nederlandse Akademie van
+                                Wetenschappen. Afd. Letterkunde. Nieuwe reeks ; 159). </p>
+                        </item>
+                        <item>
+                            <p>Besson, A., Ferré, V. &amp; Pradeau, C. (éd.) (2008), <hi rend="i"
+                                    >Cycles et collection</hi>, Paris, L’Harmattan. </p>
+                        </item>
+                        <item>
+                            <p>Berne, M. (1978), « La tradition manuscrite des versions française A
+                                et L du <hi rend="i">Roman des Sept Sages </hi>: Problèmes et
+                                Solutions », in Niedzielski, H., Runte, H. R. &amp; Hendrickson, W.
+                                L. (éd.), <hi rend="i">Studies on the Seven sages of Rome</hi>, <hi
+                                    rend="i">op. cit</hi>., p. 88-90.</p>
+                        </item>
+                        <item>
+                            <p>Bossuat, R. (1946), « Un débat d'amour dans le Roman de Cassidorus »,
+                                in <hi rend="i">Études romanes dédiées à Mario Roques</hi>, Paris,
+                                Droz (Publications romanes et françaises, 25), p. 62-75. </p>
+                        </item>
+                        <item>
+                            <p>Bradley, C. &amp; Karras, R. M. (2010), « Masculine Sexuality and a
+                                Double Standard in Early Thirteenth Century Flanders? », <hi
+                                    rend="i">Leidschrift. Historisch Tiijdschrift</hi> 25:3, p.
+                                63-77.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.p5wmxm75bkwk"/>Carman, J. N. (1967-1968),
+                                « New light on Le <hi rend="i">Roman de Cassidorus</hi> », <hi
+                                    rend="i">Romance Philology</hi> 21, p. 212-222. </p>
+                        </item>
+                        <item>
+                            <p>Collet, O. (2000), « Littérature, histoire, pouvoir et mécénat : la
+                                cour de Flandre au XIIIe siècle », <hi rend="i">Médiévales</hi>
+                                n°38, <hi rend="i">L'invention de l'histoire</hi>, p. 87-110.</p>
+                        </item>
+                        <item>
+                            <p>Collet, O. (2001), « <hi rend="i">Translatio imperii</hi> : la route
+                                des Flandres », in <hi rend="i">Roma antica nel Medioevo : mito,
+                                    rappresentazioni, sopravvivenze nella “Respublica Christiana”
+                                    dei secoli IX-XIII : atti della quattordicesima Settimana
+                                    internazionale di studio</hi>, Milan, V&amp;P Università, 2001,
+                                p. 309-325. </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1978), « Dyogenne et Jaspis dans <hi rend="i">Le roman
+                                    de Laurin</hi> ou le motif inverse de la reine corruptrice du
+                                    <hi rend="i">Lai de Lanval</hi> », in <hi rend="i">Mélanges de
+                                    littérature du Moyen Âge au XX</hi>
+                                <hi rend="i">e</hi>
+                                <hi rend="i"> offerts à Mademoiselle Jeanne Lods</hi>, Paris, École
+                                normale supérieure de jeunes filles (Collection de l'École normale
+                                supérieure de jeunes filles, 10), t. 1, p. 115-125. </p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.zbbq2trag70z"/>Colliot, R. (1979), « Un
+                                visage de la "demoiselle arthurienne" du treizième siècle, d'après
+                                les neuf rencontres de Gauvain dans l'<hi rend="i">Âtre
+                                    périlleux</hi> comparées à celles de Laurin dans le <hi rend="i"
+                                    >Roman de Laurin, fils de Marques </hi>», <hi rend="i">Bulletin
+                                    bibliographique de la Société internationale arthurienne = The
+                                    Bibliographical Bulletin of the International Arthurian
+                                    Society</hi> 31, p. 265-266. </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1984), « Les bizarreries amoureuses dans le <hi rend="i"
+                                    >Roman de Laurin</hi> », in Buschinger, D. &amp; Crépin, A.
+                                (éd.), <hi rend="i">Amour, mariage et transgression au Moyen
+                                    Âge</hi>, <hi rend="i">Actes du colloque des 24-27 mars
+                                    1983</hi>, Göppingen, Kümmerle, p. 301-305. </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1987), « La mauvaise vieillesse des <hi rend="i">Sept
+                                    Sages de Rome</hi> », in <hi rend="i">Vieillesse et
+                                    vieillissement au Moyen Âge</hi>, Aix-en-Provence : Presses
+                                Universitaires de Provence.</p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1995a), « Lancelot-guerrier d'après le <hi rend="i"
+                                    >Roman de Laurin</hi> », in Buschinger, D. &amp; Zink, M. (éd.),
+                                    <hi rend="i">Lancelot-Lanzelet, Hier et aujourd'hui, recueil
+                                    d'articles assemblés pour fêter les 90 ans de Alexandre
+                                    Micha</hi>, Wodan vol 51 Série 3, vol. 29, Greifswald,
+                                Reineke-Verlag, p. 101-109. </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1995b), « Pouvoir masculin, pouvoir féminin dans <hi
+                                    rend="i">Le Roman de Laurin, fils de Marques Le Sénéchal</hi>.
+                                Antagonismes et alliances », in Wolfzettel, F. (éd.), <hi rend="i"
+                                    >Arthurian romance and gender = Masculin/féminin dans le roman
+                                    arthurien médiéval = Geschlechterrollen im mittelalterlichen
+                                    Artusroman. Actes choisis du XVII</hi>
+                                <hi rend="i">e</hi>
+                                <hi rend="i"> Congrès International Arthurien</hi>, Internationale
+                                Forschungen zur allgemeinen und vergleichenden
+                                Literaturwissenschaft, 10, Amsterdam/Atlanta, Rodopi, p. 226-237.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1995c), « Arthur roi de la chevalerie terrienne dans le
+                                    <hi rend="i">Roman de Laurin</hi> », <hi rend="i">PRIS-MA</hi>
+                                XI, 2, p. 211-220. </p>
+                        </item>
+                        <item>
+                            <p>Colliot, R. (1998), « Dyogenne, l'héroïne courtoise d'un seul
+                                amour », in Faucon, J. C., Labbé, A. &amp; Quéruel, D. (éd.), <hi
+                                    rend="i">Miscellanea medievalia</hi>, <hi rend="i">Mélanges
+                                    offerts à Philippe Ménard</hi>, Paris, Champion, p. 361-367.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Combes, A. &amp; Szkilnik, M. (éd.) (2013), <hi rend="i">Le Texte
+                                    dans le texte. L’interpolation médiévale</hi>, Paris, Garnier.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Conde Silvestre, J. C. (2007), <hi rend="i">Sociolingu</hi>
+                                <hi rend="i">̈</hi>
+                                <hi rend="i">ística histórica</hi>, Madrid, Gredos. </p>
+                        </item>
+                        <item>
+                            <p>Cotelli, S. (2009), « Sociolinguistique historique : un tour
+                                d’horizon théorique et méthodologique », in Aquino-Weber, D. et al.
+                                (éd.), <hi rend="i">Sociolinguistique historique du domaine
+                                    gallo-roman. Enjeux et méthodologies</hi>, Bern, Peter Lang, p.
+                                3-24. </p>
+                        </item>
+                        <item>
+                            <p>Crist, L. S. (1978), « The French prose <hi rend="i">Saladin</hi>,
+                                the Wheel of Fortune, and the Cyclic Principle », in Niedzielski,
+                                H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi rend="i"
+                                    >Studies on the Seven sages of Rome</hi>, <hi rend="i"
+                                    >op. cit</hi>., p. 212-218.</p>
+                        </item>
+                        <item>
+                            <p>De Cant, G. (1995), <hi rend="i">Jeanne et Marguerite de
+                                    Constantinople, comtesses de Flandre et de Hainaut au </hi>
+                                <hi rend="i">xiii</hi>
+                                <hi rend="i">e</hi>
+                                <hi rend="i"> siècle</hi>, Bruxelles, Racine.</p>
+                        </item>
+                        <item>
+                            <p>Devereaux, R. (2004), « Exposing narratives: truth, crime and the
+                                body in <hi rend="i">Marques de Rome</hi> », in Banks, K. &amp;
+                                Harris, J. (éd.), <hi rend="i">Exposure: Revealing Bodies, Unveiling
+                                    Representations</hi>, New York et Oxford, Lang (Modern French
+                                Identities, 29), p. 81-91. </p>
+                        </item>
+                        <item>
+                            <p>Dubois-Collet, A.-L. (2019), <hi rend="i">Éduquer l’homme, former la
+                                    masculinité laïque : réflexions et pastorale mendiante au XIIIe
+                                    siècle</hi>, thèse, Université de Genève. </p>
+                        </item>
+                        <item>
+                            <p>Farrell, A. J. (1978), « A Late Spanish Survival of the Seven Sages :
+                                    <hi rend="i">Historia de los siete sabios de Roma</hi>, Madrid,
+                                1858 », in Niedzielski, H., Runte, H. R. &amp; Hendrickson, W. L.
+                                (éd.), <hi rend="i">Studies on the Seven sages of Rome</hi>, <hi
+                                    rend="i">op. cit</hi>., p. 91-103.</p>
+                        </item>
+                        <item>
+                            <p>Ferlampin-Acher, C. (2017a), « Interpolations et ‘extrapolations’.
+                                Études de quelques épisodes arthuriens en contexte non arthurien »,
+                                in Ferlampin-Acher, C. (éd.),<hi rend="i"> Arthur après Arthur. La
+                                    matière arthurienne tardive en dehors du roman arthurien
+                                    [1270-1530], de l'intertextualité au phénomène de mode</hi>,
+                                Rennes, Presses universitaires de Rennes, p. 137-155. </p>
+                        </item>
+                        <item>
+                            <p>Ferlampin-Acher, C. (2017b), « <hi rend="i">Laurin</hi>, ‘li contes
+                                de Bretaigne’ sont ‘sage et de sens aprendant’ ? », in
+                                Ferlampin-Acher, C. &amp; Gîrbea, C. (éd.), <hi rend="i">Matières à
+                                    débat. La notion de « matière » littéraire dans la littérature
+                                    médiévale</hi>, Rennes, Presses universitaires de Rennes
+                                (« Interférences »), p. 441-462. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (1994), <hi rend="i">Le Temps des fables : le
+                                </hi>Roman des sept sages de Rome <hi rend="i">ou l’autre voie du
+                                    roman</hi>, Paris, Champion (Nouvelle Bibliothèque du Moyen
+                                Âge). </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (1997a), « La Trahison des Sages : évolution de la
+                                clergie dans le <hi rend="i">Roman des Sept Sages</hi> et ses
+                                continuations », <hi rend="i">Les Cahiers du C.R.I.S.M.A</hi> 3,
+                                p. 291-303. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (1997b), « Les Contes desrimez du <hi rend="i"
+                                    >Roman de Cassidorus</hi> : le fantôme de la musique », <hi
+                                    rend="i">Romania</hi> 115, p. 118-137. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (1997c), « Une recluse fort (peu) courtoise :
+                                destin d’une anecdote dans le <hi rend="i">Roman des Sept Sages</hi>
+                                », in Mullaly, E. &amp; Thompson, J. (éd.), <hi rend="i">The Court
+                                    and Cultural Diversity. International Courtly Literature Society
+                                    1995</hi>, p.385-394.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.9hr3lcrbcrj0"/>Foehr-Janssens, Y. (2000),
+                                    <hi rend="i">La Veuve en majesté : deuil et savoir au féminin
+                                    dans la littérature française médiévale</hi>, Genève, Droz,
+                                p. 125-170. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y., Bellon-Méguelle, H. &amp; Schaller Wu, S. (2002),
+                                « L’Honneur de la clergie dans les <hi rend="i">Fables de Pierre
+                                    Alphonse</hi>. À propos d'une des traductions françaises de la
+                                    <hi rend="i">Disciplina clericalis</hi> », in Huber, C. &amp;
+                                Lähnemann, H. (éd.),<hi rend="i"> Courtly Literature and Clerical
+                                    Culture = Littérature courtoise et culture cléricale = Höfische
+                                    Literatur und Klerikerkultur : Selected papers from the Tenth
+                                    Triennial Congress of the International Courtly Literature
+                                    Society (Universität Tübingen, Deutschland, 28. Juli – 3. August
+                                    2001)</hi>, Tübingen, Attempto Verlag, p. 149-160.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.t8wjmiz8o1pz"/>Foehr-Janssens, Y.
+                                (2005a), « Un Assemblage nouveau : les histoires sur la ruse des
+                                femmes dans la <hi rend="i">Disciplina clericalis</hi> de Pierre
+                                Alphonse », in Rossi, L. (éd.), <hi rend="i">La circulation des
+                                    nouvelles au Moyen Âge : Actes de la journée d'études
+                                    (Université de Zurich, 24 janvier 2002)</hi>, Alessandria, Ed.
+                                dell'Orso (Revue critique de philologie romane, Textes et études ;
+                                2), p. 225-251. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2005b), « “Le Seigneur et le prince de tous les
+                                contes” : <hi rend="i">Le Dit du Barisel</hi> et sa position
+                                initiale dans le manuscrit B. N. f. fr. 837 », in Mikhaïlova, M.
+                                    (éd.),<hi rend="i"> Mouvances et jointures. Du Manuscrit au
+                                    texte médiéval</hi>, Orléans, Paradigme (Medievalia 55), p.
+                                153-171.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2006), « Quelle Fin pour un enseignement d’un
+                                père à son fils ? La Clôture du texte dans les manuscrits des <hi
+                                    rend="i">Fables de Pierre Aufors</hi> (<hi rend="i">Chastoiement
+                                    d’un père à son fils, version A</hi>) », in Busby, K. &amp;
+                                Kleinhenz, C. (éd.), <hi rend="i">Courtly Arts and the art of
+                                    courtliness, selected papers from the Eleventh Triennal Congress
+                                    of the International Courtly Literature Society</hi>,
+                                Woodbridge, Brewer, p. 399-417.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2011), « Arthur et les sept sages : confluences
+                                de la fiction bretonne et du roman de clergie ? », in Arseneau, I.
+                                &amp; Gingras, F. (éd.), <hi rend="i">Cultures courtoises en
+                                    mouvement</hi>, Montréal, Presses de l'Université de Montréal,
+                                p. 277-290.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2011), « La Parole condensée : poétique du récit
+                                bref dans les recueils de contes enchâssé », in Croizy-Naquet, C.,
+                                Harf-Lancner, L. &amp; Szkilnik, M. (éd.), <hi rend="i">Faire court.
+                                    L’esthétique de la brièveté dans la littérature du Moyen
+                                    Âge</hi>, Paris, Presses de la Sorbonne nouvelle, 2011,
+                                p.229-248.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2011), « Quand les bêtes se taisent ou
+                                jacassent : les fables animales dans le <hi rend="i">Roman des Sept
+                                    Sages</hi> en vers », in Boivin, J.-M., Cerquiglini-Toulet, J.
+                                &amp; Harf-Lancner, L., <hi rend="i">Les fables avant La
+                                    Fontaine</hi>, Genève, Droz, 2011, p. 319-331.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. &amp; Uhlig, M. (éd.) (2014), <hi rend="i"
+                                    >D’Orient en Occident : les recueils de fables enchâssées avant
+                                    les Mille et une Nuits</hi>, Turnhout, Brepols (CELAMA ; 16), p.
+                                329-349.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.6np19gbb19a0"/>Foehr-Janssens, Y. (éd.)
+                                (2015), « Châsses, coffres et tiroirs : le récit dans le récit »,
+                                    <hi rend="i">Cahiers de Recherches Médiévales et Humanistes</hi>
+                                29, 2015.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.ekwfvgvdk6we"/>Foehr-Janssens, Y. (2016),
+                                « Le désir et le savoir : le <hi rend="i">Roman des sept sages</hi>
+                                et la quête du roi philosophe », in Carta, C. et al. (éd.), <hi
+                                    rend="i">Enseñar deleitando = Plaire et instruire</hi>, Bern ,
+                                Peter Lang Edition, p. 207-226. </p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2017), « Les voyages des <hi rend="i">Mille et
+                                    une nuits</hi> ou quand la traduction fabrique l’œuvre
+                                originale », in Cassin, B. (éd.), <hi rend="i">Après Babel,
+                                    traduire</hi>, Paris, Actes Sud/Mucem, 2017, p. 121-128.</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2020a), « Misogyny and the trends of a European
+                                success: the French Prose <hi rend="i">Roman des sept sages de Rome
+                                    »</hi>, <hi rend="i">Narrative culture</hi> special issue, issue
+                                7.2 [sous presse]. </p>
+                        </item>
+                        <item>
+                            <p> 🡺 via Yasmina-Foehr-Janssens</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. (2020b), « La filiation comme principe de
+                                l’amplification ? Les continuations <hi rend="i">du Roman des sept
+                                    sages de Rome</hi> ou l’écriture par génération », in <hi
+                                    rend="i">Faire Long</hi>, Paris, Presses de la Sorbonne Nouvelle
+                                [soumis]. </p>
+                        </item>
+                        <item>
+                            <p>🡺 via Yasmina-Foehr-Janssens</p>
+                        </item>
+                        <item>
+                            <p>Foehr-Janssens, Y. &amp; Prescendi, F. (2020c), « Animaux nourriciers
+                                – nourrices animales : mythes et récits d’enfance des héros
+                                (antiquité/moyen âge) », in Foehr-Janssens, Y. &amp; Solfaroli
+                                Camillocci, D. (éd.), <hi rend="i">Allaiter. Histoire(s) et cultures
+                                    d’une pratique,</hi> Turnhout, Brepols [soumis, accepté]. </p>
+                        </item>
+                        <item>
+                            <p>🡺 via Yasmina-Foehr-Janssens</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.sfduuzgrgc27"/>Foehr-Janssens, Y. (2021),
+                                « Le nom de la mère : stratégies de nomination et identité des héros
+                                dans les continuations romanesques des Sept Sages de Rome », dans
+                                Par le non conuist an l’ome. Études d’onomastique littéraire
+                                médiévale, dir. Christine Ferlampin-Acher, Fabienne Pomel, Emese
+                                Egedi-Kovács, Budapest : Collège Eötvös József ELTE – CELLAM
+                                Université Rennes 2, 2021, p. 369-380. </p>
+                        </item>
+                        <item>
+                            <p>Foulet, A. (1929), Couronnement de Renart, Paris, Princeton. </p>
+                        </item>
+                        <item>
+                            <p>Gelzer, H. (1915), « Zum <hi rend="i">Marques de Rome</hi> », <hi
+                                    rend="i">Zeitschrift für französische Sprache und
+                                    Litteratur</hi> 43, p. 74-81. </p>
+                        </item>
+                        <item>
+                            <p>Gilleland, B. B. (1978), « The <hi rend="i">Dolopathos</hi> of
+                                Johannes de Alta Silva : A New Evaluation », in Niedzielski, H.,
+                                Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on
+                                    the Seven sages of Rome</hi>, <hi rend="i">op. cit</hi>.,
+                                p. 32-42.</p>
+                        </item>
+                        <item>
+                            <p>Grossel, M.-G. (1996), « ‘Les grands voyages nourrissent le rêve’ :
+                                géographie et roman ‘byzantin’ (<hi rend="i">Le Roman de
+                                    Cassidorus</hi>) », in Buschinger, D. &amp; Spiewok, W.
+                                    (éd.),<hi rend="i"> Die Geographie in der mittelalterlichen
+                                    Epik : actes du colloque du Centre d'Études Médiévales de
+                                    l'Université de Picardie Jules Verne, Saint-Valéry-sur-Somme, 28
+                                    - 31 mars 1996</hi>, Greifswald, Reineke-Verlag p. 35-50. </p>
+                        </item>
+                        <item>
+                            <p>Halász, K. (1986), « The intermingling of romance models in a
+                                13th-century prose romance: <hi rend="i">Roman de Laurin</hi> », <hi
+                                    rend="i">Forum for Modern Language Studies</hi> 22:3,
+                                p. 273-283.</p>
+                        </item>
+                        <item>
+                            <p>Halász, K. (1990), « Pères et fils. Couple de personnages privilégié
+                                dans le cycle romanesque des <hi rend="i">Sept sages de Rome</hi> »,
+                                    <hi rend="i">Acta litteraria </hi>XXXII, p. 177-184. </p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.sotkhh5af3w"/>Halász, K. (1994), « La
+                                généalogie comme principe générateur de récits dans la création
+                                cyclique », in Besamusca, P., Gerritsen, W. P., Hogetoorn, C. &amp;
+                                Lie, R. S. H., (éd.), <hi rend="i">Cyclification</hi>,<hi rend="i">
+                                    op. cit.</hi>, p. 153-154. </p>
+                        </item>
+                        <item>
+                            <p>Huot, S., <hi rend="i">Postcolonial Fictions in the Roman de
+                                    Perceforet - Cultural Identities and Hybridities</hi>,
+                                Woodbridge, Suffolk; Rochester, NY.,Boydell &amp; Brewer, 2007. </p>
+                        </item>
+                        <item>
+                            <p>Jaunzems, J. (1978), « Structure and Meaning in the <hi rend="i"
+                                    >Seven Sages of Rome</hi> », in Niedzielski, H., Runte, H. R.
+                                &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven
+                                    sages of Rome</hi>, <hi rend="i">op. cit</hi>., p. 43-62.</p>
+                        </item>
+                        <item>
+                            <p>Johnson, S. (1978), « Le Montage de la personnification de la Mort
+                                d’Hélinand », in Niedzielski, H., Runte, H. R. &amp; Hendrickson, W.
+                                L. (éd.), <hi rend="i">Studies on the Seven sages of Rome</hi>, <hi
+                                    rend="i">op. cit</hi>., p. 240-248.</p>
+                        </item>
+                        <item>
+                            <p>Karras, R. M. (2014), « Clergé, mariage et masculinité au Moyen
+                                Âge », in <hi rend="i">Une histoire sans les hommes est-elle
+                                    possible ? Genre et masculinités</hi> [en ligne]. Lyon, ENS
+                                Éditions. </p>
+                        </item>
+                        <item>
+                            <p>Kelly, D. (1978), « Motif and structure as Amplification of Topoi in
+                                the <hi rend="i">Sept Sages</hi>», in Niedzielski, H., Runte, H. R.
+                                &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven
+                                    sages of Rome</hi>, <hi rend="i">op. cit</hi>., p. 133-154. </p>
+                        </item>
+                        <item>
+                            <p>Kelly, D. (1985), « <hi rend="i">Disjointure</hi> and the elaboration
+                                of prose romance: the example of the <hi rend="i">Seven Sages of
+                                    Rome</hi> », in Burgess, G. S. &amp; Taylor, R. A. (éd.), <hi
+                                    rend="i">The Spirit of Court</hi>, Cambridge, Brewer,
+                                p. 208-216. </p>
+                        </item>
+                        <item>
+                            <p>Lacy, G. F. (1978), « Augustinian Imagery and Fabliau “Obscenity” »,
+                                in Niedzielski, H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi
+                                    rend="i">Studies on the Seven sages of Rome</hi>, <hi rend="i"
+                                    >op. cit</hi>., p. 219-230.</p>
+                        </item>
+                        <item>
+                            <p>Lagomarsini, C. (2014), <hi rend="i">Les Aventures des Bruns.
+                                    Compilazione guironiana del secolo XIII attribuibile a
+                                    Rustichello da Pisa</hi>, Firenze, Edizioni del Galluzzo. </p>
+                        </item>
+                        <item>
+                            <p>Lagomarsini, C. (2015), <hi rend="i">Lais, épîtres et épigraphes en
+                                    vers dans le cycle de </hi>Guiron le Courtois, Paris, Garnier.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Lusignan, S. (2012), <hi rend="i">Essai d'histoire sociolinguistique
+                                    : Le français picard au Moyen Âge</hi>, Paris, Classiques
+                                Garnier (Recherches littéraires médiévales ; 13). </p>
+                        </item>
+                        <item>
+                            <p>Lett, D. (2012), « Les régimes de genre dans les sociétés
+                                occidentales de l’Antiquité au XVIIe siècle », <hi rend="i">Annales.
+                                    Histoire, Sciences sociales</hi> 67, p. 562-572.</p>
+                        </item>
+                        <item>
+                            <p>Luyckx, T. (1952), <hi rend="i">Het grafelijk geslacht Dampierre en
+                                    zijn strijd tegen Filips de Schone</hi>, Leuven, Davidsfonds.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Matsubara, H. (1978), « Chinese and Japanese versions of <hi rend="i"
+                                    >Gaza</hi> », in Niedzielski, H., Runte, H. R. &amp;
+                                Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven sages of
+                                    Rome, op. cit.,</hi> p. 104-108.</p>
+                        </item>
+                        <item>
+                            <p>Maulu, M. (2018), « La tradition occitane et catalane du <hi rend="i"
+                                    >Livre des Sept Sages de Rome</hi> », <hi rend="i">Romania
+                                </hi>138, p. 5-37. </p>
+                        </item>
+                        <item>
+                            <p>McNamara, J. A. (1994), « The Herrenfrage : The Restructuring of the
+                                Gender System, 1050-1150 », in Lees, C. A., Fenster, T. &amp;
+                                McNamara, J. A. (éd.), <hi rend="i">Medieval Masculinities</hi>, <hi
+                                    rend="b">lieu,</hi> University of Minnesota Press. </p>
+                        </item>
+                        <item>
+                            <p>McMunn, M. T. (1977), « The miniatures of the <hi rend="i">Roman de
+                                    Kanor</hi> and the illustration of medieval romance », <hi
+                                    rend="i">Manuscripta</hi> 21, p. 18-19. </p>
+                        </item>
+                        <item>
+                            <p>McMunn, M. T. (1978b), « Psychological realism and the representation
+                                of medieval children in the <hi rend="i">Roman de Kanor</hi> », in
+                                Niedzielski, H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi
+                                    rend="i">Studies on the Seven Sages of Rome, op. cit</hi>.,
+                                p. 181-200. </p>
+                        </item>
+                        <item>
+                            <p>McMunn, M. T. (1981), « Naming conventions in the <hi rend="i">Roman
+                                    de Kanor</hi> », <hi rend="i">Connecticut Onomastic Review</hi>
+                                2, p. 56-61. </p>
+                        </item>
+                        <item>
+                            <p>McMunn, M. T. (1989), « Translating the medieval romance narrative:
+                                from text to image in the <hi rend="i">Roman de Kanor</hi> », <hi
+                                    rend="i">Romance Languages Annual</hi> 1, p. 277-284. </p>
+                        </item>
+                        <item>
+                            <p>McMunn, M. T. (1990), « Bestiary influences in two thirteenth-century
+                                romances », in Clark, W. B. &amp; McMunn, M. T. (éd.), <hi rend="i"
+                                    >Beasts and Birds of the Middle Ages: The Bestiary and its
+                                    Legacy</hi>, Philadelphia, University of Pennsylvania Press, p.
+                                134-144. </p>
+                        </item>
+                        <item>
+                            <p>Mermier, G. R. (1978), « D’un chapitre du <hi rend="i">Miseria Humane
+                                    Conditionis</hi> du Pape Innocent III aux <hi rend="i">Quinze
+                                    Joies de Mariage</hi> », in Niedzielski, H., Runte, H. R. &amp;
+                                Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven sages of
+                                    Rome</hi>, <hi rend="i">op. cit</hi>., p. 231-239.</p>
+                        </item>
+                        <item>
+                            <p>Morato, N. (2010), <hi rend="i">Il ciclo di </hi>Guiron le
+                                    Courtois<hi rend="i">. Strutture e testi nella tradizione
+                                    manoscritta</hi>, Firenze, Edizioni del Galluzzo. </p>
+                        </item>
+                        <item>
+                            <p>Morand, P. (2014), <hi rend="i">Lectures cycliques : le réseau
+                                    inter-romanesque dans les cycles du Graal du XIIIe siècle</hi>,
+                                Paris, Champion. </p>
+                        </item>
+                        <item>
+                            <p>&gt; Morato, N. (2016), CR, <hi rend="i">Medium Aevum</hi> 85/2, p.
+                                339-340.</p>
+                        </item>
+                        <item>
+                            <p>Niedzielski, H. (1978a), « La formation d'un cycle littéraire au
+                                Moyen-Âge : exemple des <hi rend="i">Sept sages de Rome </hi>», in
+                                Niedzielski, H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi
+                                    rend="i">Studies on the Seven Sages of Rome</hi>, <hi rend="i"
+                                    >op. cit.</hi>, p. 119-132. </p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.uz9o98w4ggp5"/>Niedzielski, H. (1978b),
+                                « Helcanus, A Child Prodigy ? Or, Children's Precocious Maturity
+                                Illustrated in Various Romances in the Cycle of the <hi rend="i"
+                                    >Sept sages de Rome</hi> », in Niedzielski, H., Runte, H. R.
+                                &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven
+                                    Sages of Rome</hi>, <hi rend="i">op. cit</hi>., p. 173-180. </p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.3705nca1a4e2"/>Niedzielski, H., Runte, H.
+                                R. &amp; Hendrickson, W. L. (éd.) (1978), <hi rend="i">Studies on
+                                    the Seven Sages of Rome and other Essays Dedicated to the Memory
+                                    of Jean Misrahi</hi>, Honolulu, Educational Research Associates.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Niedzielski, H. (1985a), « Le monde chevaleresque et courtois du <hi
+                                    rend="i">Roman de Helcanus</hi> », <hi rend="i">Society of the
+                                    Seven Sages Newsletter</hi>, 12, p. 7-12. </p>
+                        </item>
+                        <item>
+                            <p>Niedzielski, H. (1985b), « Le <hi rend="i">Roman de Helcanus</hi>,
+                                chronique de guerres ibériques ? », in Carmona, F. &amp; Flores, F.
+                                J. (éd.), <hi rend="i">La lengua y la literatura en tiempos de
+                                    Alfonso X. Actas del congreso internacional, Murcia, 5-10 marzo
+                                    1984</hi>, Murcia, Universidad de Murcia, Facultad de letras,
+                                grossDepartamento de literaturas romanicas, p. 437-448. </p>
+                        </item>
+                        <item>
+                            <p>Palermo, J. (1959), « À la recherche du "Seigneur devant nommé" du
+                                    <hi rend="i">Roman de Kanor</hi> », <hi rend="i">Romance
+                                    Philology</hi> 12, p. 243-251.</p>
+                        </item>
+                        <item>
+                            <p>Palermo, J. (1960-1961), « Les limites du <hi rend="i">Roman de
+                                    Cassidorus</hi> : l'apport des manuscrits de Bruxelles », <hi
+                                    rend="i">Romance Philology</hi>, 14, p. 22-27.</p>
+                        </item>
+                        <item>
+                            <p>Palermo, J. (1961), « La délimitation du texte du <hi rend="i">roman
+                                    de Cassidorus</hi> (XIIIe s.) », in <hi rend="i">Langue et
+                                    littérature : actes du 8. Congrès de la Fédération
+                                    Internationale des Langues et Littératures Modernes</hi>, Paris,
+                                Les Belles Lettres, p. 221-222.</p>
+                        </item>
+                        <item>
+                            <p>Palermo, J. (1991), « <hi rend="i">Sept sages de Rome</hi>,
+                                Continuations », in Lacy, Norris J. (éd.),<hi rend="i"> The New
+                                    Arthurian Encyclopedia</hi>, New York, Garland, p. 413-414. </p>
+                        </item>
+                        <item>
+                            <p>Paris, P. (1836-1848), <hi rend="i">Les Manuscrits françois de la
+                                    Bibliothèque du roi</hi>, Paris, t. 1, p. 116-117. </p>
+                        </item>
+                        <item>
+                            <p>Pickens, R. T. (1978), « History and Meaning in the <hi rend="i"
+                                    >Lais</hi> of Marie de France », in Niedzielski, H., Runte, H.
+                                R. &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven
+                                    sages of Rome</hi>, <hi rend="i">op. cit</hi>., p. 201-211.</p>
+                        </item>
+                        <item>
+                            <p>Pintzuk, S., Taylor, A. &amp; Warner, A. (2017), « Corpora and
+                                Quantitative Methods », in Ledgeway A. &amp; Roberts, I. (éd.), <hi
+                                    rend="i">The Cambridge Handbook of Historical Syntax</hi>
+                                (Cambridge Handbooks in Language and Linguistics), Cambridge,
+                                Cambridge University Press, p. 218-240. </p>
+                        </item>
+                        <item>
+                            <p>Plante, S. (2019), « Des manuscrits d’ici et d’ailleurs. Le comte de
+                                Flandre, l’histoire et l’Orient latin dans la seconde moitié du
+                                XIIIe siècle, <hi rend="i">Memini : travaux et documents </hi>25.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Queffélec, A. (1972), « Étude de la syntaxe du pronom personnel
+                                complément de l'infinitif dans le manuscrit V du <hi rend="i">Roman
+                                    de Helcanus</hi> », <hi rend="i">Annales de l'Université de
+                                    Brazzaville</hi> 8, p. 3-14. </p>
+                        </item>
+                        <item>
+                            <p>Radtke, E. (2006), « Historische Pragmalinguistik: Aufgabenbereich »,
+                                in Ernst, G. et al. (éd.) (2003-2009), <hi rend="i">Romanische
+                                    Sprachgeschichte/Histoire linguistique de la Romania</hi> (3
+                                vols.), Berlin, de Gruyter, 2, p. 2292-2302. </p>
+                        </item>
+                        <item>
+                            <p>Reichenberger, K. (1978), « Actualité et critique littéraire :
+                                problèmes de l’esthétique de la réception : <hi rend="i">la Ballade
+                                    des Seigneurs du Temps Jadis</hi> de Villon », in Niedzielski,
+                                H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi rend="i"
+                                    >Studies on the Seven sages of Rome</hi>, <hi rend="i"
+                                    >op. cit</hi>., p. 259-269.</p>
+                        </item>
+                        <item>
+                            <p>Rouse, R. &amp; Rouse, M. (1996), « The <hi rend="i">Sept Sages de
+                                    Rome </hi>», in Meier, C., Hüpper, D. &amp; Keller, H. (éd.),<hi
+                                    rend="i"> Der Codex in Gebrauch,</hi> München, W. F. Verlag.
+                            </p>
+                        </item>
+                        <item>
+                            <p>Rouse, R. &amp; Rouse, M. (2010), « French Literature and the Counts
+                                of Saint-Pol ca. 1178-1377 », <hi rend="i">Viator</hi> 41/1,
+                                p. 101-140. Réédité dans <hi rend="i">Bound fast with letters</hi>,
+                                Notre Dame, 2013. </p>
+                        </item>
+                        <item>
+                            <p>Runte, H. R. (1978), « The Matron of Ephesus : The Growth of the
+                                Story in the <hi rend="i">Roman des Sept Sages de Rome</hi> », in
+                                Niedzielski, H., Runte, H. R. &amp; Hendrickson, W. L. (éd.), <hi
+                                    rend="i">Studies on the Seven sages of Rome</hi>, <hi rend="i"
+                                    >op. cit</hi>., p. 109-118.</p>
+                        </item>
+                        <item>
+                            <p>Schenck, D. P. (1978), « Illusion in Villon’s <hi rend="i"
+                                    >Testament</hi> », in Niedzielski, H., Runte, H. R. &amp;
+                                Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven sages of
+                                    Rome</hi>, <hi rend="i">op. cit</hi>., p. 249-258.</p>
+                        </item>
+                        <item>
+                            <p>Seláf, L. (2009), « Vassaux et rivaux : les rapports de force entre
+                                les matières épiques de la littérature française médiévale », in
+                                Burrichter, B. &amp; Rimpau L. (éd.), <hi rend="i">Herr –
+                                    Herrschaft ? Hierarchien in Mittelalter und Renaissance</hi>,
+                                Heidelberg, Winter, 2009, p. 19-36.</p>
+                        </item>
+                        <item>
+                            <p>Seláf, L. (2012), « A breton mondakor motivumai a Roman de
+                                Kanorban », in Horvath, K. (éd.), <hi rend="i">La Joie des Cours.
+                                    Etudes médiévales et humanistes</hi>, Budapest, ELTE Eotvos
+                                kiado, p. 225-234.</p>
+                        </item>
+                        <item>
+                            <p>Seláf, L. (2016), « Constantinople et la Hongrie dans le cycle des
+                                    <hi rend="i">Sept Sages de Rome</hi> », in E. Egedi-Kovács
+                                    (éd.), <hi rend="i">Byzance et l’Occident III : Écrits et
+                                    manuscrits</hi>, Budapest, ELTE, 2016. p. 153-166.</p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1971), <hi rend="i">The </hi>Roman de Cassidorus<hi
+                                    rend="i"> : Narrative Tradition and Innovation in a
+                                    Thirteenth-Century Cyclical Prose Romance</hi>, Ph.D, Princeton
+                                University.</p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1973-1974), « Cassidorus : the fallen hero », <hi
+                                    rend="i">Romance Philology</hi> 27, p. 479-487. </p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1978), « The dame-pucelle debate in the <hi rend="i"
+                                    >Roman de Cassidorus</hi> », in Niedzielski, H., Runte, H. R.
+                                &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the Seven
+                                    Sages</hi>, <hi rend="i">op. cit., </hi>p. 155-172. </p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. &amp; Foulet, A. (1980), « Is Marques de Rome a derhymed
+                                romance? », <hi rend="i">Romania</hi> 101, p. 336-365.</p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1981-1982), « Beyond the frame : verisimilitude,
+                                clergie, and class in the <hi rend="i">Roman de Marques de
+                                Rome</hi>», <hi rend="i">Romance Philology</hi> 35, p. 305-334.</p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1983), «Recycling the Seven Sages of Rome», <hi
+                                    rend="i">Zeitschrift für romanische Philologie</hi> 99,
+                                p. 288-303. </p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1986), « The Prince’s Baptism in the <hi rend="i">Roman
+                                    des Sept Sages</hi> : Formal and Doctrinal Intertexts », <hi
+                                    rend="i">Medieval et Humanistica</hi> 14 (1986), p. 59-80.</p>
+                        </item>
+                        <item>
+                            <p>Speer, M. B. (1997), « The Prodigial Knight, the Hungry Mother and
+                                the Triple Murder : Mirrors and Marvels in the <hi rend="i"
+                                    >Dolopathos </hi>Dog Story », in Mullaly, E. &amp; Thompson, J.
+                                (éd.), <hi rend="i">The Court and Cultural Diversity. International
+                                    Courtly Literature Society 1995</hi>, p. 375-383.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.w2p3xlgtkrfr"/>Stanger, M. D. (1957), «
+                                Literary Patronage at the Medieval Court of Flanders », <hi rend="i"
+                                    >French Studies</hi> 11, p. 214-229. </p>
+                        </item>
+                        <item>
+                            <p>
+                                <anchor xml:id="_heading=h.ddiqgsanczvv"/>Sturm-Maddox, S. &amp;
+                                Maddox, D. (éd.) (1996), <hi rend="i">Transtextualities : of Cycles
+                                    and Cyclicity in Medieval French Literature</hi>, Binghamton
+                                (New York), Center for Medieval and Early Modern Renaissance Studies
+                                (Medieval and Renaissance Texts and Studies; 149). </p>
+                        </item>
+                        <item>
+                            <p>Sunderland, L. (2017), <hi rend="i">Old French Narrative Cycles:
+                                    Heroism between Ethics and Morality</hi>. Cambridge, Boydell
+                                &amp; Brewer. </p>
+                        </item>
+                        <item>
+                            <p>Taylor, J. H. M. (1994), « Order from Accident. Cyclic Consciousness
+                                at the End of the Middle Ages », in Besamusca, P., Gerritsen, W. P.,
+                                Hogetoorn, C. &amp; Lie, R. S. H., (éd.), <hi rend="i"
+                                    >Cyclification</hi>, <hi rend="i">op. cit</hi>., p. 59-73. </p>
+                        </item>
+                        <item>
+                            <p>Taylor, J. (1996), « The Sense of a Beginning: Genealogy and
+                                Plenitude in Late Medieval Narrative Cycles », in Sturm-Maddox, S.
+                                &amp; Maddox, D. (éd.), <hi rend="i">Transtextualities</hi>, <hi
+                                    rend="i">op. cit</hi>., p. 93-123. </p>
+                        </item>
+                        <item>
+                            <p>Thorpe, L. (1948), « Paulin Paris and the French Sequels to the <hi
+                                    rend="i">Sept Sages de Rome</hi> », <hi rend="i">Scriptorium
+                                </hi>II, p. 63-68.</p>
+                        </item>
+                        <item>
+                            <p>Thorpe, L. (1950), Le roman de Laurin, fils de Marques le sénéchal:
+                                    <hi rend="i">A First Contribution to the Study of the
+                                    Linguistics of an Unpublished Thirteenth-Century
+                                    Prose-Romance</hi>, Cambridge, Bowes and Bowes (University of
+                                Nottingham Research Publications, 1).</p>
+                        </item>
+                        <item>
+                            <p>Thorpe, L. (1970), « Les "contes desrimez" et les premiers romans en
+                                prose », in Payen, J.-C. &amp; Régnier, C. (éd.), <hi rend="i"
+                                    >Mélanges de langue et de littérature du Moyen Âge et de la
+                                    Renaissance offerts à Jean Frappier, </hi>Genève, Droz
+                                (Publications romanes et françaises, 112), t. 2, p. 1031-1041. </p>
+                        </item>
+                        <item>
+                            <p>Trachsler, R. (2000), <hi rend="i">Disjointures - Conjointures :
+                                    études sur l’interférence des matières narratives dans la
+                                    littérature française du Moyen Âge</hi>, Tübingen, Basel, A.
+                                Francke (Romanica Helvetica ; 120).</p>
+                        </item>
+                        <item>
+                            <p>Uhlig, M. (2014), « Quand “<hi rend="i">Postcolonial</hi>” et “<hi
+                                    rend="i">Global</hi>” riment avec “<hi rend="i">Médiéval</hi>” :
+                                sur quelques approches théoriques anglo-saxonnes », <hi rend="i"
+                                    >Perspectives médiévales</hi>, 35.</p>
+                        </item>
+                        <item>
+                            <p>Uhlig, M. (2018), « Métalepse et flux narratif au Moyen Âge : le
+                                récit à tiroirs, un Éden d’avant la transgression », Fabula-LhT, n°
+                                20, « Le Moyen Âge pour laboratoire », janvier 2018, URL : <ref
+                                    target="http://www.fabula.org/lht/20/uhlig.html">
+                                    <hi rend="u">http://www.fabula.org/lht/20/uhlig.html</hi>
+                                </ref>. </p>
+                        </item>
+                        <item>
+                            <p>Van Camp, V. (2016), « Les archives des comtes de Hainaut entre 1280
+                                et 1321 : Une recherche exploratoire », in Hélary, X., Nieus, J.-F.,
+                                Provost, A. &amp; Suttor, M. (éd.), <hi rend="i">Les archives
+                                    Princières XII</hi>
+                                <hi rend="i">e</hi>
+                                <hi rend="i">-XV</hi>
+                                <hi rend="i">e</hi>
+                                <hi rend="i"> siècles</hi>, Arras, Artois Presses Université, p.
+                                67-92. </p>
+                        </item>
+                        <item>
+                            <p>Van Coolput-Storms, C. (2017), « Désir, frustration, désespoir: les
+                                objets peuvent-ils tenir leurs promesses ? », <hi rend="i"
+                                    >Memini</hi> 22-23. </p>
+                        </item>
+                        <item>
+                            <p>Van Buuren-Veenenbos, C. (1978), « A Middle Scots Versiono of the <hi
+                                    rend="i">Seven Sages of Rome</hi> », in Niedzielski, H., Runte,
+                                H. R. &amp; Hendrickson, W. L. (éd.), <hi rend="i">Studies on the
+                                    Seven sages of Rome</hi>, <hi rend="i">op. cit</hi>.,
+                                p. 63-78.</p>
+                        </item>
+                        <item>
+                            <p>Van der Meulen, J. (2000), « Avesnes en Dampierre of ‘De kunst der
+                                liefde’. Over boeken, bischoppen en Henegouwse ambities », in De
+                                Boer, D. E. H., Cordfunke, E. H. P. &amp; Sarfatij, H. (éd.), <hi
+                                    rend="i">1299 : één graaf, drie graafschappen. De vereniging van
+                                    Holland, Zeeland en Henegouwen</hi>, Hilversum, Verloren, p.
+                                47-72.</p>
+                        </item>
+                        <item>
+                            <p>Ventura, S. (2017), « Sulla “storia” di Griselda e Gualtieri in
+                                catalano e in francese alla fine del Trecento », <hi rend="i"
+                                    >Heliotropia</hi> 14, p. 203-225.</p>
+                        </item>
+                        <item>
+                            <p>Ventura<hi rend="i">Medioevo Romanzo</hi> XLI, p. 316-363. </p>
+                        </item>
+                        <item>
+                            <p>Ventura, S. (2019), « Digital Editing and Linguistic Analysis: the
+                                    <hi rend="i">Histoire Ancienne Jusqu’à César</hi> », <hi
+                                    rend="i">Textual Cultures</hi>, 12, p. 33-56.</p>
+                        </item>
+                        <item>
+                            <p>Ventura, S. (2019), « Novellas of Walter and Griselda: The Circle of
+                                Obedience and the Aesthetics of Uncertainty », <hi rend="i"
+                                    >Romania</hi> 137, p. 277-318. </p>
+                        </item>
+                        <item>
+                            <p>Wahlen, B. (2010), <hi rend="i">L’écriture à rebours. </hi>
+                                <ref
+                                    target="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991005264489705524&amp;context=L&amp;vid=41SLSP_VGE:VU1&amp;lang=fr&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=41SLSP_VGE_DN_CI&amp;query=any%2Ccontains%2Cwahlen%20%C3%A9criture%20%C3%A0%20rebours&amp;offset=0">
+                                    <hi rend="i">Le "Roman de Meliadus" du XIII</hi>
+                                </ref>
+                                <ref
+                                    target="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991005264489705524&amp;context=L&amp;vid=41SLSP_VGE:VU1&amp;lang=fr&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=41SLSP_VGE_DN_CI&amp;query=any%2Ccontains%2Cwahlen%20%C3%A9criture%20%C3%A0%20rebours&amp;offset=0">
+                                    <hi rend="i">e</hi>
+                                </ref>
+                                <ref
+                                    target="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991005264489705524&amp;context=L&amp;vid=41SLSP_VGE:VU1&amp;lang=fr&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=41SLSP_VGE_DN_CI&amp;query=any%2Ccontains%2Cwahlen%20%C3%A9criture%20%C3%A0%20rebours&amp;offset=0">
+                                    <hi rend="i"> au XVIII</hi>
+                                </ref>
+                                <ref
+                                    target="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991005264489705524&amp;context=L&amp;vid=41SLSP_VGE:VU1&amp;lang=fr&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=41SLSP_VGE_DN_CI&amp;query=any%2Ccontains%2Cwahlen%20%C3%A9criture%20%C3%A0%20rebours&amp;offset=0">
+                                    <hi rend="i">e</hi>
+                                </ref>
+                                <ref
+                                    target="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991005264489705524&amp;context=L&amp;vid=41SLSP_VGE:VU1&amp;lang=fr&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=41SLSP_VGE_DN_CI&amp;query=any%2Ccontains%2Cwahlen%20%C3%A9criture%20%C3%A0%20rebours&amp;offset=0">
+                                    <hi rend="i"> siècle</hi>
+                                </ref>, Genève, Droz. </p>
+                        </item>
+                        <item>
+                            <p>Zinelli, F. (2016), « Il francese di Martin da Canal », in Babbi, A.
+                                M. &amp; Concina, C. (éd.), <hi rend="i">Francofonie medievali.
+                                    Lingue e letterature gallo-romanze fuori di Francia (sec. XII –
+                                    XV)</hi>, Verona, Fiorini, p. 1-66. </p>
+                        </item>
+                    </list>
+
+                </div>
             </div>
-            <div>
-               <head type="subtitle">Études</head>
-               <list>
-                  <item>XXX</item>                  
-               </list>
-            </div>            
-         </div>       
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>
