@@ -34,8 +34,42 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p><title><hi rend="italique">Index nominum et locorum</hi></title></p>
             <p>Ce document vise à encoder l'ensemble des personnages et des lieux qui gravitent dans le 
-               <hi rend="italique">Roman de Pelyarmenus</hi> en regard des @key correspondantes dans son édition critique.</p> 
+               <hi rend="italique">Roman de Pelyarmenus</hi> en regard des @key correspondantes dans son édition critique.</p>
+            <p><title>Quelques considérations introductives</title></p> 
+               <p>À la croisée des pratiques d'élaboration des index dans les éditions critiques et des enjeux et atouts d'une édition
+             numérique, le présent index offre une liste complète des personnages et lieux introduits dans la trame du récit.
+            Ceci inclut les personnages et lieux non spécifiquement dénommés, dans une portée d'aide à la lecture d'un texte 
+            particulièrement foisonnant en la matière. Au-delà des noms de personnages ou de 
+            lieux, auront donc été insérées des balises servant à l'identification de personnages temporairement ou jamais 
+            nommés, sous la balise <gi>rs</gi>, par le même biais d'une @key servant au rassemblement des données sous la même 
+            entrée.</p> 
+            <p>Pour les noms de personnages ou de lieux, l'orthographe retenue est celle qui se faisait majoritaire au 
+            fil du récit. Pour les personnages dont le nom provient de romans précédant ou suivant la trame du <hi rend="italique">Pelyarmenus</hi>, 
+            nous avons suivi celle qui était utilisée dans l'édition en question. 
+            Pour les personnages ou lieux qui n'ont pas été 
+            explicitement nommés dans le roman ou qui pouvaient prêter à confusion, 
+            nous avons choisi d'apposer des étiquettes les plus brèves et pertinentes possibles 
+            en regard des usages attestés par ailleurs dans le récit. Pour répondre aux nécessités de cet encodage numérique, 
+            ces étiquettes sont données de manière quelque peu télégraphique, en accolant les différentes informations nécessaires 
+            à documenter cette identité, du type "DuchessedeLembourc" ou "Cassidore1".</p>
+            <p>À cette étiquette correspond aussitôt une entrée introduite par une version normalisée et plus explicite de ce nom.  
+            Pour les noms de personnages, elle reste conforme à l'étiquette employée au fil de l'étiquetage des entités nommées 
+            du roman. Pour les personnages non-nommés ou au nom plus ambigu, nous avons bien sûr présenté 
+            de manière plus lisible et explicite les informations données en étiquetage. 
+            Pour les noms de lieux, nous avons préféré indiquer l'orthographe moderne du lieu que nous pouvions ainsi identifier.</p>
+            <p>Par la suite, nous avons tour à tour précisé le ou les titres du personnage en question (et la manière dont 
+               ces titres lui ont été accordés), ainsi que les 
+               différentes relations dans lesquelles il est pris, à commencer par sa filiation, ses propres enfants, 
+            son ou ses mariages, ses liens de fraternité/sororité, puis tout autre lien qui était bon à indiquer pour 
+            éclairer sa place dans le récit. Dans les cas où ces informations lignagères (par descendance 
+            ou mariage) ne le rendaient pas directement évident, 
+            nous avons indiqué dans quelle(s) alliance(s) s'intégrait le personnage. 
+            Nous avons encore renseigné ensuite si le personnage trouvait la mort dans le roman et 
+            à quelle occasion, pour mettre en lumière les différentes phases de guerres et d'alliances qui s'enchaînent dans le récit, mais 
+            aussi si ce nom n'était pas issu du <hi rend="italique">Roman de Pelyarmenus</hi> lui-même, ainsi que toute variante 
+            signifiante apportée à ce nom.</p>
          </projectDesc>
       </encodingDesc>
       <profileDesc>
@@ -125,7 +159,6 @@
                   <note type="relationships">Demi-frère de <persName ref="#Helcanus">Helcanus</persName>,
                      <persName ref="#Cassidore">Cassidore</persName>, <persName ref="#Dorus">Dorus</persName>
                   et de <persName ref="#Dyalogus">Dyalogus</persName></note>
-                  <note type="relationships">Époux de <persName ref="#Aphode">Aphode</persName></note>
                   <event>
                      <p>Mort à l'instigation de son frère jumeau <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
                      pour s'accaparer du trône de <placeName ref="#Rome">Rome</placeName></p>
@@ -419,7 +452,7 @@
                   <occupation>Seigneur d'Aquilée en <placeName ref="#Grèce">Grèce</placeName>.
                   Gardien de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></occupation>
                   <note type="relationships">Père de <persName ref="#Clyodorus">Cloyodorus</persName></note>
-                  <note type="relationships">Frère du <persName ref="#SeigneurdeGonfort">Seigneur de Gonfort</persName></note>
+                  <note type="relationships">Frère du <persName ref="#SeigneurGonfort">Seigneur de Gonfort</persName></note>
                   <note type="relationships">Oncle de <persName ref="#Melode">Melode</persName></note>
                   <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
                </person>
@@ -427,21 +460,25 @@
                   <persName>Melode</persName>
                   <occupation>Dame de <placeName ref="#Gonfort">Gonfort</placeName> par son père. 
                      Gardienne de de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></occupation>
-                  <note type="relationships">Fille du <persName ref="#SeigneurdeGonfort">Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
+                  <note type="relationships">Fille du <persName ref="#SeigneurGonfort">Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
                   <note type="relationships">Épouse de <persName ref="#Mirrus">Mirrus</persName></note>
                   <note type="relationships">Sœur de <persName ref="#Cerchus">Cerchus</persName></note>
                   <note type="relationships">Nièce de <persName ref="#Melsius">Melsius</persName></note>
                </person>
-               <person xml:id="SeigneurdeGonfort">
+               <person xml:id="SeigneurGonfort">
                   <persName>Seigneur de Gonfort</persName>
                   <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName></occupation>
                   <note type="relationships">Père de <persName ref="#Melode">Melode</persName> et de 
                   <persName ref="#Cerchus">Cerchus</persName></note>
                </person>
+               <person xml:id="PortierGonfort">
+                  <persName>Portier de Gonfort</persName>
+                  <note type="relationships">Portier du château de <placeName ref="#Gonfort"></placeName></note>
+               </person>
                <person xml:id="Cerchus">
                   <persName>Cerchus</persName>
                   <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName> par son père</occupation>
-                  <note type="relationships">Fils du <persName ref="#SeigneurdeGonfort">Seigneur de 
+                  <note type="relationships">Fils du <persName ref="#SeigneurGonfort">Seigneur de 
                      <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
                   <note type="relationships">Frère de <persName ref="#Melode">Melode</persName></note>
                   <event>
@@ -531,7 +568,7 @@
                   <note type="relationships">Fils aîné de la Dame d'<placeName ref="#Alemaingne">Allemagne</placeName></note>
                   <note type="relationships">Frère de <persName ref="#Daphus">Daphus</persName></note>
                </person>
-               <person xml:id="DeuxièmeFrère">
+               <person xml:id="Frère2">
                   <persName>Deuxième frère de Fremor</persName>
                   <occupation>Prince d'<placeName ref="#Alemaingne">Allemagne</placeName> par sa mère</occupation>
                   <note type="relationships">Fils de la Dame d'<placeName ref="#Alemaingne">Allemagne</placeName></note>
@@ -587,6 +624,8 @@
                <occupation>Prince de <placeName ref="#Puille">Pouilles</placeName> par son père</occupation>
                <note type="relationships">Fils du Roi de <placeName ref="#Puille">Pouilles</placeName></note>
                <note type="relationships">Père de <persName ref="#Galyen">Galyen</persName></note>
+               <note type="relationships">Compagnon de <persName ref="#Marques">Marques</persName> dans le 
+               <hi rend="italique">Roman de Laurin</hi></note>
             </person>
             <person xml:id="Galyen">
                <persName>Galyen</persName>
@@ -801,11 +840,172 @@
                   <p>Mort lors du duel qui l'oppose à <persName ref="#Mirrus">Mirrus</persName></p>
                </event>
             </person>
+            <person xml:id="Pêcheur">
+               <persName>Pêcheur</persName>
+               <note type="relationships">Sauveur de <persName ref="#Dorus">Dorus</persName>, jeté à l'eau dans le 
+               <placeName ref="#Tibre">Tibre</placeName> à <placeName ref="#Rome">Rome</placeName></note>
+               <note type="relationships">Époux de <persName ref="#Pêcheuse">Pêcheuse</persName></note>
+               <note type="relationships">Père du <persName ref="#FilsduPêcheur">Fils du Pêcheur</persName></note>
+            </person>
+            <person xml:id="Pêcheuse">
+               <persName>Femme du Pêcheur</persName>               
+               <note type="relationships">Épouse du <persName ref="#Pêcheur">Pêcheur</persName> qui recueille 
+                  <persName ref="#Dorus">Dorus</persName></note>               
+               <note type="relationships">Mère du <persName ref="#FilsduPêcheur">Fils du Pêcheur</persName></note>
+            </person>
+            <person xml:id="FilsduPêcheur">
+               <persName>Fils du Pêcheur</persName>               
+               <note type="relationships">Fils aîné du <persName ref="#Pêcheur">Pêcheur</persName>
+               et de la <persName ref="#Pêcheuse">Pêcheuse</persName> qui recueillent <persName ref="#Dorus">Dorus</persName></note>
+               <note type="relationships">Lui-même adjuvant de <persName ref="#Dorus">Dorus</persName> dans la capture 
+               de <persName ref="#Pelyarmenus">Pelyarmenus</persName> et <persName ref="#Dyalogus">Dyalogus</persName></note>
+            </person>
+            <person xml:id="Vieille">
+               <persName>Pauvre vieille</persName>
+               <note type="relationships">Protectrice de <persName ref="#Cassidore">Cassidore</persName> après 
+                  sa fuite du <placeName ref="#PalaisMajour">Palais Majeur</placeName>, puis de <persName ref="#Dorus">Dorus</persName> 
+               avant qu'ils soient pris en charge par <persName ref="#Borleuz">Borleuz</persName></note>
+            </person>
+            <person xml:id="HôteBorleuz">
+               <persName>Hôte de Borleuz</persName>
+               <note type="relationships">Bourgeois, hôte de <persName ref="#Borleuz">Borleuz</persName> à 
+                  <placeName ref="#Costentinnoble">Constantinople</placeName></note>
+               <note type="relationships">Fils de l'<persName ref="#Aubergiste">Aubergiste</persName></note>
+            </person>
+            <person xml:id="Aubergiste">
+               <persName>Aubergiste</persName>
+               <note type="relationships">Père de l'<persName ref="#Hôte">Hôte</persName> de <persName ref="#Borleuz">Borleuz</persName></note>
+               <note type="relationships">Aubergiste qui accueille et aide <persName ref="#Synador">Synador</persName> 
+               dans le <hi rend="italique">Roman de Laurin</hi></note>
+            </person>
+            <person xml:id="PrinceGrec">
+               <persName>Prince Grec</persName>
+               <occupation>Prince de <placeName ref="#Grece">Grèce</placeName> par son père</occupation>
+               <note type="relationships">Fils du roi de <placeName ref="#Grece">Grèce</placeName> 
+               auquel <persName ref="#Pelyarmenus">Pelyarmenus</persName> décide de promettre <persName ref="#Nera">Nera</persName></note>
+            </person>
+            <person xml:id="Confesseur">
+               <persName>Confesseur de Laurin</persName>
+               <note type="relationships">Ermite auquel <persName ref="#Laurin">Laurin</persName> 
+               veut se confesser en amont de sa confrontation contre <persName ref="#Detriet">Detriet</persName> 
+               pour le compte de <persName ref="#Jagonce">Jagonce</persName> dans le <hi rend="italique">Roman de Laurin</hi></note>
+            </person>
+            <person xml:id="SeigneurMalPas">
+               <persName>Seigneur du Mal Pas</persName>
+               <occupation>Seigneur du <placeName ref="#MalPas">Mal Pas</placeName> 
+                  par <persName ref="#Laurin">Laurin</persName> qui accorde ces terres à sa lignée</occupation> 
+               <note type="relationships">Ennemi de la <persName ref="#DemoiselleVieuxChar">Demoiselle du Vieux Char</persName> 
+               (qui conteste son héritage), contre laquelle le défend <persName ref="#Helcanus">Helcanus</persName></note>
+            </person>
+            <person xml:id="DemoiselleVieuxChar">
+               <persName>Demoiselle du Vieux Char</persName>
+               <note type="relationships">Ennemie du <persName ref="#SeigneurMalPas">Seigneur de Mal Pas</persName></note>
+               <note type="relationships">Aimée de <persName ref="#Mirrus">Mirrus</persName> qui la défend dans ce combat</note>
+            </person>
+            <person xml:id="SeigneurCartagieu">
+               <persName>Seigneur de Cartage</persName>
+               <occupation>Seigneur de <placeName ref="#Cartagieu">Cartage</placeName></occupation>
+               <note type="relationships">Époux de la <persName ref="#DameCartagieu">Dame de Cartage</persName></note>
+               <note type="relationships">Père de l'<persName ref="#EnfantCartagieu">Enfant des seigneurs de Cartage</persName></note>
+            </person>
+            <person xml:id="DameCartagieu">
+               <persName>Dame de Cartage</persName>
+               <note type="relationships">Épouse du <persName ref="#SeigneurCartagieu">Seigneur de Cartage</persName></note>
+               <note type="relationships">Mère de l'<persName ref="#EnfantCartagieu">Enfant des seigneurs de Cartage</persName></note>
+            </person>
+            <person xml:id="EnfantCartagieu">
+               <persName>Enfant des seigneurs de Cartage</persName>
+               <note type="relationships">Enfant du <persName ref="#SeigneurCartagieu">Seigneur de Cartage</persName> et de 
+                  la <persName ref="#DameCartagieu">Dame de Cartage</persName></note>
+               <note type="relationships">Enfant placée sous la garde de <persName ref="#Nera">Nera</persName>, accusée 
+               de son assassinat</note>
+               <event>
+                  <p>Tuée par le <persName ref="#Senechal">Sénéchal de Cartage</persName></p>
+               </event>
+            </person>
+            <person  xml:id="Senechal">
+               <persName>Sénéchal de Cartage</persName>
+               <occupation>Sénéchal du <persName ref="#SeigneurCartagieu">Seigneur de Cartage</persName></occupation>
+               <note type="relationships">Amoureux de <persName ref="#Nera">Nera</persName> qui refuse ses avances</note>
+               <note type="relationships">Meurtrier de l'<persName ref="#EnfantCartagieu">Enfant des seigneurs de Cartage</persName>, 
+               comme le prouve finalement <persName ref="#Helcanus">Helcanus</persName>par le duel judiciaire qui les oppose</note>
+            </person>
+            <person xml:id="Juges">
+               <persName>Juges de Cartage</persName>
+               <note type="relationships">Juges chargés du procès rendu de Nera pour la mort de 
+                  l'<persName ref="#EnfantCartagieu">Enfant des seigneurs de Cartage</persName></note>
+            </person>
+            <person xml:id="Mariniers">
+               <persName>Mariniers</persName>
+               <note type="relationships">Mariniers, père et fils, qui véhiculent et convoitent <persName ref="#Nera">Nera</persName></note>
+            </person>
+            <person xml:id="Marinier1">
+               <persName>Marinier père</persName>
+               <note type="relationships">Père de <persName ref="#Marinier2">Marinier fils</persName></note>
+               <note type="relationships">Amoureux de <persName ref="#Nera">Nera</persName> qu'il convoite, occasionnant
+                  sa fatale dispute avec son fils</note>
+               <event>
+                  <p>Tué dans une dispute avec son fils, <persName ref="#Marinier2">Marinier fils</persName></p>
+               </event>
+            </person>
+            <person xml:id="Marinier2">
+               <persName>Marinier fils</persName>
+               <note type="relationships">Fils de <persName ref="#Marinier1">Marinier père</persName></note>
+               <note type="relationships">Amoureux de <persName ref="#Nera">Nera</persName> qu'il convoite, occasionnant
+                  sa fatale dispute avec son père</note>
+               <event>
+                  <p>Tué dans une dispute avec son père, <persName ref="#Marinier1">Marinier père</persName></p>
+               </event>
+            </person>
+            <person xml:id="DemoiselleNera">
+               <persName>Demoiselle de Nera</persName>
+               <note type="relationships">Compagne de <persName ref="#Nera">Nera</persName> lors de ses pérégrinations en mer et à 
+               <placeName ref="#Cartagieu">Cartage</placeName></note>
+            </person>
+            <person xml:id="HôteHelcanus">
+               <persName>Hôte d'Helcanus</persName>
+               <note type="relationships">Châtelain, hôte d'<persName ref="#Helcanus">Helcanus</persName> en chemin 
+               pour <placeName ref="#Cartagieu">Cartage</placeName> 
+                  et qui lui relate les mésaventures de <persName ref="#Nera">Nera</persName></note>
+            </person>
+            <person xml:id="DemoiselleTentation">
+               <persName>Demoiselle de la tentation</persName>
+               <note type="relationships">Demoiselle que <persName ref="#Cassidorus">Cassidorus</persName> puis 
+               <persName ref="#Daphus">Daphus</persName> cherchent à sauver 
+                  du <persName ref="#ChevalierTentation">Chevalier de la tentation</persName> avant de comprendre le caractère diabolique 
+               de cette apparition dans la <placeName ref="#ForestEspiere">Forêt d'Espiere</placeName> </note>
+            </person>
+            <person xml:id="ChevalierTentation">
+               <persName>Chevalier de la tentation</persName>
+               <note type="relationships">Chevalier dont <persName ref="#Cassidorus">Cassidorus</persName> puis 
+                  <persName ref="#Daphus">Daphus</persName> cherchent à sauver la 
+                  <persName ref="#DemoiselleTentation">Demoiselle de la tentation</persName> avant de comprendre le caractère diabolique 
+                  de cette apparition dans la <placeName ref="#ForestEspiere">Forêt d'Espiere</placeName></note>
+            </person>
+            <person xml:id="ErmiteEspiere">
+               <persName>Ermite d'Espiere</persName>
+               <occupation>Ermite de la <placeName ref="#ForestEspiere">Forêt d'Espiere</placeName></occupation>
+               <note type="relationships">Ermite recherché par <persName ref="#Cassidorus">Cassidorus</persName> pour faire sa 
+               pénitence à l'issue de sa relation avec <persName ref="#Celidoine">Celidoine</persName></note>
+            </person>
          </particDesc>
          <settingDesc>
             <listPlace xml:id="pb-places">
                <place xml:id="Rome">
                   <placeName>Rome</placeName>
+               </place>
+               <place xml:id="Tybre">
+                  <placeName>Tibre</placeName>
+                  <note>Fleuve de <placeName ref="#Rome">Rome</placeName></note>
+               </place>
+               <place xml:id="PalaisMajour">
+                  <placeName>Palais Majeur</placeName>
+                  <note>Palais de <placeName ref="#Rome">Rome</placeName></note>
+               </place>
+               <place xml:id="TourCroissant">
+                  <placeName>Tour du Croissant</placeName>
+                  <note>Tour du <placeName ref="#PalaisMajour">Palais Majeur</placeName></note>
+                  <note>Lieu de détention d'<persName ref="#Helcanus">Helcanus</persName></note>
                </place>
                <place xml:id="Costentinnoble">
                   <placeName>Constantinople</placeName>
@@ -825,13 +1025,13 @@
                </place>
                <place xml:id="Lucembourc">
                   <placeName>Luxembourg</placeName>
-                  <note>Ville de Limbourg</note>
+                  <note>Ville de <placeName ref="#Lembourc">Limbourg</placeName></note>
                </place>
                <place xml:id="Frise">
                   <placeName>Frise</placeName>
                </place>
                <place xml:id="Grece">
-                  <placeName>Grece</placeName>
+                  <placeName>Grèce</placeName>
                </place>
                <place xml:id="Athaines">
                   <placeName>Athènes</placeName>
@@ -841,12 +1041,16 @@
                </place>
                <place xml:id="Mignot">
                   <placeName>Château Mignot</placeName>
-                  <note>Château en Espagne</note>
+                  <note>Château situé en <placeName ref="#Espaigne">Espagne</placeName></note>
                </place>
                <place xml:id="ForestMignot">
                   <placeName>Forêt Mignot</placeName>
                   <note>Forêt entourant le <placeName ref="#Mignot">Château Mignot</placeName> et 
                      la <placeName ref="#Citerne">citerne</placeName></note>
+                  <note>Forêt dans laquelle entre <persName ref="#Clyodorus">Clyodorus</persName> dans sa quête de
+                  <persName ref="#Cassidorus">Cassidorus</persName>. Déjà évoquée à la première 
+                     arrivée de <persName ref="#Cassidorus">Cassidorus</persName> chez 
+                     <persName ref="#Celidoine">Celidoine</persName> dans le <hi rend="italique">Roman d'Helcanus</hi></note>
                </place>
                <place xml:id="Citerne">
                   <placeName>Citerne</placeName>
@@ -867,11 +1071,11 @@
                </place>
                <place xml:id="Ninine">
                   <placeName>Ninine</placeName>
-                  <note>Ville à proximité de Nicée</note>
+                  <note>Ville à proximité de <placeName ref="#Nise">Nicée</placeName></note>
                </place>
                <place xml:id="Esquarre">
                   <placeName>Esquarre</placeName>
-                  <note>Ville de Bretagne</note>
+                  <note>Ville de <placeName ref="#Bretaigne">Bretagne</placeName></note>
                </place>
                <place xml:id="Bretaigne">
                   <placeName>Bretagne</placeName>
@@ -881,11 +1085,11 @@
                </place>
                <place xml:id="Gant">
                   <placeName>Gand</placeName>
-                  <note>Ville de Flandres</note>
+                  <note>Ville de Flandres, voisine de <placeName ref="#Cassel">Cassel</placeName></note>
                </place>
                <place xml:id="Cassel">
                   <placeName>Cassel</placeName>
-                  <note>Ville de Flandres</note>
+                  <note>Ville de Flandres, voisine de <placeName ref="#Gant">Gand</placeName></note>
                </place>
                <place xml:id="ForestVulgue">
                   <placeName>Forêt de Vulgue</placeName>
@@ -899,14 +1103,42 @@
                </place>
                <place xml:id="Patras">
                   <placeName>Patras</placeName>
-                  <placeName>Forêt proche de la ville de <placeName ref="#Gomor">Gomor</placeName> 
+                  <placeName>Forêt proche du <placeName ref="#ChastelGomor">Château Gomor</placeName> 
                   et entourant <placeName ref="#Robur">Robur</placeName></placeName>
                </place>
                <place xml:id="Robur">
                   <placeName>Robur</placeName>
+                  <note>Ermitage proche du <placeName ref="#ChastelGomor">Château Gomor</placeName></note>
                </place>
                <place xml:id="ChastelGomor">
                   <placeName>Château Gomor</placeName>
+                  <note>Château de <persName ref="#Gomor">Gomor</persName></note>
+               </place>
+               <place xml:id="EgliseSaintNicholas">
+                  <placeName>Église Saint Nicolas</placeName>
+                  <note>Église à l'édification de laquelle travaille <persName ref="#Cassidorus">Cassidorus</persName> 
+                  à <placeName ref="#Gomor">Gomor</placeName></note>
+               </place>
+               <place xml:id="MalPas">
+                  <placeName>Mal Pas</placeName>
+                  <note>Terres données à la lignée du <persName ref="#SeigneurMalPas">Seigneur de Mal Pas</persName></note>
+               </place>
+               <place xml:id="Cartagieu">
+                  <placeName>Cartage</placeName><!-- VERIF : SV/et al. OK ? -->
+                  <note>Ville dans laquelle est débarquée <persName ref="#Nera">Nera</persName> après sa navigation 
+                  éperdue à la mort des mariniers</note>
+               </place>
+               <place xml:id="ForestEspiere">
+                  <placeName>Forêt d'Espiere</placeName>
+                  <note>Forêt dans laquelle s'engage <persName ref="#Cassidorus">Cassidorus</persName> à la recherche 
+                  de l'<persName ref="#ErmiteEspiere">Ermite d'Espiere</persName> après un épisode de tentation marqué par les apparitions 
+                  des <persName ref="#DemoiselleTentation">Demoiselle de la tentation</persName> et 
+                  <persName ref="#ChevalierTentation">Chevalier de la Tentation</persName></note>
+               </place>
+               <place xml:id="Espiere">
+                  <placeName>Espiere</placeName>
+                  <note>Ermitage de l'<persName ref="#ErmiteEspiere">Ermite d'Espiere</persName> dans la 
+                     <placeName ref="#ForestEspiere">Forêt d'Espiere</placeName></note>
                </place>
             </listPlace>
          </settingDesc>
