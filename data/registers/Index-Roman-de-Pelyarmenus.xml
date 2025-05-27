@@ -26,9 +26,9 @@
             <listWit>
                <witness xml:id="V2">Manuscrit de base 1ère partie</witness>
                <witness xml:id="V3">Manuscrit de base 2ème partie</witness>
-               <witness xml:id="X2"></witness>
-               <witness xml:id="G"></witness>
-               <witness xml:id="B"></witness>
+               <witness xml:id="X2"/>
+               <witness xml:id="G"/>
+               <witness xml:id="B"/>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -90,7 +90,7 @@
                   <persName>Cassidorus</persName>
                   <occupation>Empereur de <placeName ref="#Costentinnoble">Constantinople</placeName>, par son père
                      <persName ref="#Laurin">Laurin</persName>
-                     et de <placeName ref="#Rome">Rome</placeName>, par son mariage avec <persName ref="#Fastige"></persName></occupation>
+                     et de <placeName ref="#Rome">Rome</placeName>, par son mariage avec <persName ref="#Fastige">Fastige</persName></occupation>
                   <note type="relationships">Fils de <persName ref="#Laurin">Laurin</persName> 
                      et de <persName ref="#Cassidore1">Cassidore de <placeName ref="#Frise">Frise</placeName></persName></note>
                   <note type="relationships">Père de <persName ref="#Pelyarmenus">Pelyarmenus</persName>
@@ -108,7 +108,7 @@
                      par son mariage avec <persName ref="#Cassidorus">Cassidorus</persName></occupation>
                   <note type="relationships">Fille de <persName ref="#Edypus">Edypus dit l'ancien</persName> 
                      et de <persName ref="#Erga">Erga</persName></note>
-                  <note type="relationships">Épouse (première) de <persName ref="#Cassidorus"></persName></note>
+                  <note type="relationships">Épouse (première) de <persName ref="#Cassidorus">Cassidorus</persName></note>
                   <note type="relationships">Mère de <persName ref="#Helcanus">Helcanus</persName>, 
                      puis de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></note>
                   <note type="relationships">Sœur de <persName ref="#Edypus2">Edypus dit le jeune</persName></note>                  
@@ -117,7 +117,7 @@
                   <persName>Fastige</persName>
                   <occupation>Impératrice de <placeName ref="#Rome">Rome</placeName>, par son père <persName ref="#Fiseus">Fiseus</persName></occupation>
                   <note type="relationships">Fille de <persName ref="#Fiseus">Fiseus</persName></note>
-                  <note type="relationships">Épouse (deuxième) de <persName ref="#Cassidorus"></persName></note>
+                  <note type="relationships">Épouse (deuxième) de <persName ref="#Cassidorus">Cassidorus</persName></note>
                   <note type="relationships">Mère de <persName ref="Dyalogus">Dyalogus</persName>, des jumeaux 
                      <persName ref="#Fastidorus">Fastidorus</persName> et <persName ref="#Pelyarmenus">Pelyarmenus</persName>
                      puis des quadruplets, <persName ref="#Kanor">Kanor</persName>, <persName ref="#Sicor">Sicor</persName>, 
@@ -133,7 +133,7 @@
                   <persName>Helcanus</persName>
                   <occupation>Empereur de <placeName ref="#Costentinnoble">Constantinople</placeName> 
                      par son père <persName ref="#Cassidorus">Cassidorus</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Cassidorus"></persName>
+                  <note type="relationships">Fils de <persName ref="#Cassidorus">Cassidorus</persName>
                   et de <persName ref="#Helcana">Helcana</persName></note>
                   <note type="relationships">Époux de <persName ref="#Nera">Nera</persName></note>
                   <note type="relationships">Père de <persName ref="#Libanor">Neror/Libanor</persName></note>
@@ -247,7 +247,7 @@
                </person>
                <person xml:id="Erga">
                   <persName>Erga</persName>
-                  <occupation>Reine de <placeName ref="#Bethsaÿda"></placeName> par son mari 
+                  <occupation>Reine de <placeName ref="#Bethsaÿda">Bethsaïde</placeName> par son mari 
                      <persName ref="#Edypus">Edypus dit l'ancien</persName></occupation>
                   <note type="relationships">Épouse de <persName ref="#Edypus">Edypus dit l'ancien</persName></note>
                   <note type="relationships">Mère de <persName ref="#Helcana">Helcana</persName></note>                  
@@ -440,7 +440,7 @@
                   <note type="relationships">Fils de <persName ref="#Borleuz">Borleuz</persName> et de la 
                      <persName ref="#DuchessedeLembourc">Duchesse de Limbourg</persName></note>
                   <note type="relationships">Époux de <persName ref="#Cassidore">Cassidore</persName></note>
-                  <note type="relationships">Frère de <persName ref="#Luce"></persName></note>
+                  <note type="relationships">Frère de <persName ref="#Luce">Luce</persName></note>
                   <event>
                      <p>Tué lors du tournoi de célébration de l'union renouvelée de 
                         <persName ref="#Cassidorus">Cassidorus</persName> et de <persName ref="#Fastige">Fastige</persName></p>
@@ -488,7 +488,7 @@
                </person>
                <person xml:id="PortierGonfort">
                   <persName>Portier de Gonfort</persName>
-                  <note type="relationships">Portier du château de <placeName ref="#Gonfort"></placeName></note>
+                  <note type="relationships">Portier du château de <placeName ref="#Gonfort">Gonfort</placeName></note>
                </person>
                <person xml:id="Cerchus">
                   <persName>Cerchus</persName>
@@ -556,7 +556,7 @@
                <person xml:id="FilleMirador">
                   <persName>Fille de Mirador</persName>
                   <note type="relationships">Fille de <persName ref="#Mirador">Mirador</persName> et de 
-                     <persName ref="#CelidoinedEsquarre"></persName></note>
+                     <persName ref="#CelidoinedEsquarre">Celidoine d'Esquarre</persName></note>
                   <note type="relationships">Sœur de <persName ref="#Mirrus">Mirrus</persName></note>
                </person>
                <person xml:id="CelidoinedEsquarre">
@@ -598,7 +598,7 @@
                </person>
                <person xml:id="Dyane">
                   <persName>Dyane</persName>
-                  <note type="relationships">Amie de <persName ref="#Daphus"></persName></note>
+                  <note type="relationships">Amie de <persName ref="#Daphus">Daphus</persName></note>
                   <note type="relationships">Mère de <persName ref="#Dyanor">Dyanor</persName></note>
                   <note type="relationships">Cousine de <persName ref="#Celidoine">Celidoine</persName></note>
                </person>
@@ -1178,17 +1178,17 @@
             <person xml:id="Alyenor">
                <persName>Alyenor</persName>
                <occupation>Favorite de <persName ref="#Melchis">Melchis</persName></occupation>
-               <note type="relationships">Amie de <persName ref="#Dyanor"></persName></note>
+               <note type="relationships">Amie de <persName ref="#Dyanor">Dyanor</persName></note>
             </person>
             <person xml:id="Leodore">
                <persName>Leodore</persName>
                <occupation>Favorite de <persName ref="#Melchis">Melchis</persName></occupation>
-               <note type="relationships">Amie de <persName ref="#Dyanor"></persName></note>
+               <note type="relationships">Amie de <persName ref="#Dyanor">Dyanor</persName></note>
             </person>
             <person xml:id="Fauque">
                <persName>Fauque</persName>
                <occupation>Favorite de <persName ref="#Melchis">Melchis</persName></occupation>
-               <note type="relationships">Amie de <persName ref="#Dyanor"></persName></note>
+               <note type="relationships">Amie de <persName ref="#Dyanor">Dyanor</persName></note>
             </person>
             <person xml:id="Guetteur">
                <persName>Guetteur</persName>
