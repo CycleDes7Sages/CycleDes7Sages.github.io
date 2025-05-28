@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Légende - Alignement Pelyarmenus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><title>Légende</title></p>
+            <p>Sont ici rendus accessibles les tableaux de structuration des manuscrits témoins du
+            <hi rend="italique">Roman de Pelyarmenus</hi> : 
+            Manuscrit <hi rend="italique">V<hi rend="exp">2</hi></hi> et <hi rend="italique">V<hi rend="exp">3</hi></hi>
+            <ref target="https://gallica.bnf.fr/ark:/12148/btv1b52513516p/f267.item">(Paris, BnF, fr. 22549</ref>
+            <ref target="https://gallica.bnf.fr/ark:/12148/btv1b52513332z/f7.item">(et 22550)</ref>
+            Manuscrit <hi rend="italique">B</hi> 
+            <ref target="https://uurl.kbr.be/1934974">(Bruxelles, KBR, 9245)</ref>
+            Manuscrit <hi rend="italique">G</hi> 
+            <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525128401/f708.item">(Paris, BnF, fr. 93)</ref>
+            Manuscrit <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+            <ref target="https://www.bl.uk/uv/#?manifest=https://bl.digirati.io/iiif/ark:/81055/vdc_100057738488.0x000001">(London, BL, Harley 4903)</ref>
+               Manuscrit <hi rend="italique">R</hi> (Torino, BL, 1650)<lb/>
+               Manuscrit <hi rend="italique">C</hi> 
+               <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f7.item">(Paris, BnF, fr. 1446)</ref></p>
+            <p>L'ensemble des remarques introductives pour encadrer ces résultats est accessible <ref target="principes-et-enjeux">ici</ref>.            
+            Pour chaque portion de texte donnée dans les différents manuscrits suit un code par icônes qui permet d'offrir accès de manière synthétique aux composantes de la structuration dans chaque témoin :<lb/>
+            [icon for rubric] = Rubrique<lb/>
+            [icon for incipit] = Incipit<lb/>
+            [icon for explicit] = Explicit<lb/>   
+            [icon for miniature] = Enluminure<lb/>
+            [icon for initial] = Initiale<lb/>
+            [icon for no §] = Pas de nouveau paragraphe<lb/>
+            [icon for extra §] = Paragraphe supplémentaire<lb/>
+            Si ces icônes apparaissent barrées, c'est que l'élément en question est absent du manuscrit concerné. 
+            L'ordre dans lequel elles apparaissent est représentatif de celui dans lequel ces éléments paratextuels sont répartis dans le manuscrit.</p>
+            <p>Pour tout autre renseignement utile et la description complète de ce code, nous renvoyons à la page Principes et Enjeux.</p>
+      </body>
+  </text>
+</TEI>
