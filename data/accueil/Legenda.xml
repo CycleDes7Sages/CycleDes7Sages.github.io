@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="roman-de-pelyarmenus-legenda">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Légende - Roman de Pelyarmenus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Légende</head>
+
+            <p>Voici l'édition critique nativement numérique du Roman de Pelyarmenus, réalisée par
+               notre équipe. </p>
+            <p> Pour encadrer ce travail, plusieurs remarques liminaires et analyses du roman ont
+               été rédigées par nos soins, voir <ref target="index.html#roman-de-pelyarmenus"
+                  >Introduction</ref>. </p>
+            <p> Est ici donné le texte critique, ainsi que l'apparat et les notes critiques,
+               accessibles en cochant les boutons dédiés dans la barre supérieure. </p>
+            <p> Ces informations apparaissent respectivement en marges gauche et droite. Il est
+               aussi possible de faire apparaître directement l'apparat en plaçant le curseur sur la
+               portion de texte en question dans le texte critique. Les notes critiques sont
+               également lisibles en bas de page. </p>
+            <p> Le texte a été organisé en chapitres, conformément à l'usage des rubriques dans le
+               manuscrit V. Une page a été dédiée à chacune de ces portions de texte. Il est
+               possible de naviguer de l'une à l'autre de ces pages via le bouton "Table des
+               matières" dans la barre supérieure. </p>
+            <p> Un petit code couleurs a été appliqué au texte pour mettre en relief quelques
+               informations utiles à la lecture : </p>
+
+            <list>
+               <item> En rouge sont données les rubriques, la mention des enluminures et leur
+                  légende, ainsi que les initiales qui marquent le début de chaque paragraphe, selon
+                  la structuration du texte dans le manuscrit V. </item>
+               <item>En bleu sont présentées les mentions de personnages, explicitement nommés ou
+                  non. En passant le curseur sur la mention du personnage en question apparaissent
+                  les données de la fiche qui lui est dédiée dans l'index nominum. </item>
+               <item>En vert sont, dans la même logique, présentées les mentions de lieux,
+                  explicitement nommés ou non. On peut de la même manière faire apparaître les
+                  informations qui lui sont liées dans l'index locorum en passant le curseur à cet
+                  endroit.</item>
+            </list>
+         </div>
+
+      </body>
+   </text>
+</TEI>
