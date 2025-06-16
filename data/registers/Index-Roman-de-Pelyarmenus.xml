@@ -457,7 +457,7 @@
                </person>
                <person xml:id="Clyodorus">
                   <persName>Cloyodorus</persName>
-                  <occupation>Seigneur d'Aquilée en <placeName ref="#Grèce">Grèce</placeName> par son père</occupation>
+                  <occupation>Seigneur d'<placeName ref="#Aquilee">Aquilée</placeName> en <placeName ref="#Grèce">Grèce</placeName> par son père</occupation>
                   <note type="relationships">Fils de <persName ref="#Melsius">Melsius</persName></note>
                   <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName> puis 
                      d'<persName ref="#Helcanus">Helcanus</persName></note>
@@ -468,7 +468,7 @@
                   Gardien de <persName ref="#Cassidore">Cassidore</persName> et de <persName ref="#Dorus">Dorus</persName></occupation>
                   <note type="relationships">Père de <persName ref="#Clyodorus">Cloyodorus</persName></note>
                   <note type="relationships">Frère du <persName ref="#SeigneurGonfort">Seigneur de Gonfort</persName></note>
-                  <note type="relationships">Oncle de <persName ref="#Melode">Melode</persName></note>
+                  <note type="relationships">Oncle de <persName ref="#Melode">Melode</persName> et <persName ref="#Cerchus">Cerchus</persName></note>
                   <note type="relationships">Allié de <persName ref="#Cassidorus">Cassidorus</persName></note>
                </person>
                <person xml:id="Melode">
@@ -492,12 +492,12 @@
                </person>
                <person xml:id="Cerchus">
                   <persName>Cerchus</persName>
-                  <occupation>Seigneur de <placeName ref="#Gonfort">Gonfort</placeName> par son père</occupation>
                   <note type="relationships">Fils du <persName ref="#SeigneurGonfort">Seigneur de 
                      <placeName ref="#Gonfort">Gonfort</placeName></persName></note>
                   <note type="relationships">Frère de <persName ref="#Melode">Melode</persName></note>
                   <event>
-                     <p>Tué dans le guet-apens dressé par <persName ref="#Ascanus">Ascanus</persName></p>
+                     <p>Tué (par <persName ref="#Mirrus">Mirrus</persName>) dans le guet-apens dressé par 
+                        <persName ref="#Ascanus">Ascanus</persName></p>
                   </event>
                </person>
                <person xml:id="Polus">
@@ -1207,7 +1207,7 @@
             </person>
             <person xml:id="Nestor">
                <persName>Nestor</persName>
-               <note type="relationships">Seigneur du camp d'<persName ref="#Helcanus">Helcanus</persName> lors de la 
+               <note type="relationships">Allié d'<persName ref="#Helcanus">Helcanus</persName> lors de la 
                   bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
             </person>
             <person xml:id="DucPuille">
@@ -1219,8 +1219,51 @@
             <person xml:id="PrinceAquilee">
                <persName>Prince d'Aquilée</persName>
                <occupation>Prince de <placeName ref="#Aquilee">Aquilée</placeName></occupation>
-               <note type="relationships">Seigneur du camp de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                <note type="relationships">Remplaçant sur ce trône de <persName ref="#Clyodorus">Clyodorus</persName></note>
+            </person>
+            <person xml:id="Thabor">
+               <persName>Thabor</persName>
+               <occupation>Marquis de <placeName ref="#Fabonne">Fabonne</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors de la 
+                  bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
+               <event>
+                  <p>Tué (par <persName ref="#Dorus">Dorus</persName> et <persName ref="#Mirrus">Mirrus</persName>) 
+                     lors de la bataille finale de <placeName ref="#Tabour">Tabor</placeName></p>
+               </event>
+            </person>
+            <person xml:id="MarquisMontyr">
+               <persName>Marquis de Montyr</persName>
+               <occupation>Marquis de <placeName ref="#Montyr">Montyr</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors de la 
+                  bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
+               <event>
+                  <p>Tué (par <persName ref="#Dorus">Dorus</persName> et <persName ref="#Mirrus">Mirrus</persName>) 
+                     lors de la bataille finale de <placeName ref="#Tabour">Tabor</placeName></p>
+               </event>
+            </person>
+            <person xml:id="ComtePise">
+               <persName>Comte de Pise</persName>
+               <occupation>Comte de <placeName ref="#Pise">Pise</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors de la 
+                  bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
+            </person>
+            <person xml:id="PrinceLamoree">
+               <persName>Prince de Lamorée</persName>
+               <occupation>Prince de <placeName ref="#Lamoree">Lamorée</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors de la 
+                  bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
+            </person>
+            <person xml:id="SeigneurLabor">
+               <persName>Seigneur de Terre de Labour</persName>
+               <occupation>Seigneur de <placeName ref="#TerreLabor">Terre de Labour</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors de la 
+                  bataille de <placeName ref="#Costentinnoble">Constantinople</placeName> et de la 
+                  bataille finale de <placeName ref="#Tabour">Tabor</placeName></note>
+               <event>
+                  <p>Tué (par <persName ref="#Dorus">Dorus</persName>) 
+                     lors de la bataille finale de <placeName ref="#Tabour">Tabor</placeName></p>
+               </event>
             </person>
          </particDesc>
          <settingDesc>
@@ -1274,7 +1317,7 @@
                </place>
                <place xml:id="Athaines">
                   <placeName>Athènes</placeName>
-                  <note>Ville de <placeName ref="#Grece">Grèce</placeName></note>
+                  <note>Ville de l'actuelle Grèce</note>
                </place>
                <place xml:id="Radoul">
                   <placeName>Château Radoul</placeName>
@@ -1330,15 +1373,16 @@
                </place>
                <place xml:id="Aquilee">
                   <placeName>Aquilée</placeName>
-                  <note>Ville de l'actuelle Italie</note>
+                  <note>Ville de l'actuelle Italie, dépendante de l'empire de Byzance dans l'Antiquité (ce qui expliquerait ce rapprochement 
+                  avec la Grèce)</note>
                </place>
                <place xml:id="Gant">
                   <placeName>Gand</placeName>
-                  <note>Ville de Flandres, voisine de <placeName ref="#Cassel">Cassel</placeName></note>
+                  <note>Ville des actuelles Flandres belges, voisine de <placeName ref="#Cassel">Cassel</placeName></note>
                </place>
                <place xml:id="Cassel">
                   <placeName>Cassel</placeName>
-                  <note>Ville de Flandres, voisine de <placeName ref="#Gant">Gand</placeName></note>
+                  <note>Ville des actuelles Flandres, voisine de <placeName ref="#Gant">Gand</placeName></note>
                </place>
                <place xml:id="ForestVulgue">
                   <placeName>Forêt de Vulgue</placeName>
@@ -1363,6 +1407,8 @@
                <place xml:id="ChastelGomor">
                   <placeName>Château Gomor</placeName>
                   <note>Château de <persName ref="#Gomor">Gomor</persName></note>
+                  <note>Notons bien sûr la proximité phonétique avec la ville biblique de débauche de Gomorrhe, renforcée par 
+                  la fin tragique qu'y connaît <persName ref="#Cassidorus">Cassidorus</persName></note>
                </place>
                <place xml:id="EgliseSaintNicholas">
                   <placeName>Église Saint-Nicolas</placeName>
@@ -1371,7 +1417,8 @@
                </place>
                <place xml:id="MalPas">
                   <placeName>Mal Pas</placeName>
-                  <note>Terres données à la lignée du <persName ref="#SeigneurMalPas">Seigneur de Mal Pas</persName></note>
+                  <note>Terres données à la lignée du <persName ref="#SeigneurMalPas">Seigneur de Mal Pas</persName> par 
+                     <persName ref="#Laurin">Laurin</persName></note>
                </place>
                <place xml:id="Cartagieu">
                   <placeName>Carthage</placeName>
@@ -1381,7 +1428,7 @@
                </place>
                <place xml:id="Thebes">
                   <placeName>Thèbes</placeName>
-                  <note>ille de l'actuelle Grèce</note>
+                  <note>Ville de l'actuelle Grèce</note>
                </place>
                <place xml:id="Sezille">
                   <placeName>Sicile</placeName>
@@ -1435,6 +1482,21 @@
                   <note>Plaines sur lesquelles se tient la bataille finale devant <placeName ref="#Costentinnoble">Constantinople</placeName></note>
                   <note>Ces plaines peuvent être rapprochés du Mont Tabor, en actuel Israël, que le Pères de
                      l’Église identifièrent comme le lieu de la Transfiguration</note>
+               </place>
+               <place xml:id="ChastelThabor">
+               <placeName>Thabor</placeName>
+                  <note>Château de <persName ref="#Marsuphien">Marsuphien</persName> où le retrouve <persName ref="#Borleuz">Borleuz</persName></note>
+               </place>
+               <place xml:id="Montyr">
+                  <placeName>Montyr</placeName>
+               </place>
+               <place xml:id="Pise">
+                  <placeName>Pise</placeName>
+                  <note>Ville de l'actuelle Italie</note>
+               </place>
+               <place xml:id="TerreLabor">
+                  <placeName>Terre de Labour</placeName>
+                  <note>Région de l'actuelle Italie</note>
                </place>
             </listPlace>
          </settingDesc>
