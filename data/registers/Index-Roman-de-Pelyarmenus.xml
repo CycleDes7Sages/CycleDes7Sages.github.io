@@ -1265,6 +1265,20 @@
                      lors de la bataille finale de <placeName ref="#Tabour">Tabor</placeName></p>
                </event>
             </person>
+            <person xml:id="Dubyus">
+               <persName>Dubyus</persName>
+               <occupation>Comte de <placeName ref="#Japhe">Japhe</placeName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName> lors des 
+                  batailles successives de <placeName ref="#Nise">Nicée</placeName>, de <placeName ref="#Laomedon">Laomedon</placeName> 
+                  et finalement de <placeName ref="#Costentinnoble">Constantinople</placeName>, toujours en confrontation 
+               avec <persName ref="#Mirrus">Mirrus</persName></note>
+            </person>
+            <person xml:id="Geffroy">
+               <persName>Geffroy</persName>
+               <occupation>Bourgeois de <placeName ref="#Costentinnoble">Constantinople</placeName></occupation>
+               <note type="relationships">Hôte de <persName ref="#Mirrus">Mirrus</persName> lors de sa délégation auprès de 
+               <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+            </person>
          </particDesc>
          <settingDesc>
             <listPlace xml:id="pb-places">
@@ -1349,15 +1363,16 @@
                </place>
                <place xml:id="Nise">
                   <placeName>Nicée</placeName>
-                  <note>Ville de l'actuelle Turquie</note>
-                  <note>Objectif de la première croisade (1097)</note>
+                  <note>Importante cité anatolienne, siège des premier et septième conciles de l'Église chrétienne, 
+                     prise lors de la première croisade (1097) et capitale de l'empire de Nicée après la quatrième croisade (1204), 
+                     située dans l'actuelle Turquie</note>
                </place>
                <place xml:id="Alemaingne">
                   <placeName>Allemagne</placeName>
                </place>
-               <place xml:id="Ninine">
-                  <placeName>Ninine</placeName>
-                  <note>Ville à proximité de <placeName ref="#Nise">Nicée</placeName></note>
+               <place xml:id="Ninive">
+                  <placeName>Ninive</placeName>
+                  <note>Importante cité mésopotamienne, située dans l'actuel Irak</note>
                </place>
                <place xml:id="Esquarre">
                   <placeName>Esquarre</placeName>
@@ -1489,6 +1504,16 @@
                </place>
                <place xml:id="Montyr">
                   <placeName>Montyr</placeName>
+               </place>
+               <place xml:id="Japhe">
+                  <placeName>Japhe</placeName>
+                  <note>Ville/Région associée au comte <persName ref="#Dubyus">Dubyus</persName>, une première et unique fois 
+                  sous le nom de "Vaspre" (leçon commune à tous les manuscrits) puis de "Japhe" (trois occurrences)</note>
+               </place>
+               <place xml:id="Vaspre">
+                  <placeName>Vaspre</placeName>
+                  <note>Ville/Région associée au comte <persName ref="#Dubyus">Dubyus</persName>, une première et unique fois 
+                     sous le nom de "Vaspre" (leçon commune à tous les manuscrits) puis de "Japhe" (trois occurrences)</note>
                </place>
                <place xml:id="Pise">
                   <placeName>Pise</placeName>
