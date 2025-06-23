@@ -223,12 +223,18 @@
                      <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor">Rusticor</persName></note>
                </person>
                <person xml:id="Fissee">
-                  <persName>Fissee (Fiseus)</persName>
+                  <persName>Fiseus</persName>
                   <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> avant sa fille 
                      <persName ref="#Fastige">Fastige</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Fastige">Diocletien</persName>, empereur du 
+                  <note type="relationships">Fils de <persName ref="#Diocletien">Diocletien</persName>, empereur du 
                   <hi rend="italique">Roman des Sept Sages</hi></note>
                   <note type="relationships">Père de <persName ref="#Fastige">Fastige</persName></note>
+               </person>
+               <person xml:id="Diocletien">
+                  <persName>Diocletien</persName>
+                  <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> avant son fils</occupation>
+                  <note type="relationships">Père de <persName ref="#Fissee">Fissee</persName>, empereur du 
+                     <hi rend="italique">Roman du Marques de Rome</hi></note>
                </person>
                <person xml:id="Edypus">
                   <persName>Edypus dit l'ancien</persName>
@@ -1158,10 +1164,10 @@
             </person>
             <person  xml:id="Melchis">
                <persName>Melchis</persName>
-               <occupation>Prince d'<placeName ref="#Antioche">Antioche</placeName></occupation>
+               <occupation>Prince d'<placeName ref="#Antyoche">Antioche</placeName></occupation>
                <note type="relationships">Frère de <persName ref="#Alerie">Alerie</persName></note>
                <note type="relationships">Hôte de <persName ref="#Celydus">Celydus</persName> et 
-                  <persName ref="#Dyanor">Dyanor</persName> qui les détient à <placeName ref="#Antioche">Antioche</placeName></note>
+                  <persName ref="#Dyanor">Dyanor</persName> qui les détient à <placeName ref="#Antyoche">Antioche</placeName></note>
             </person>
             <person xml:id="Alerie">
                <persName>Alerie</persName>
@@ -1192,7 +1198,7 @@
             </person>
             <person xml:id="Guetteur">
                <persName>Guetteur</persName>
-               <occupation>Guetteur d'<placeName ref="#Antioche">Antioche</placeName></occupation>
+               <occupation>Guetteur d'<placeName ref="#Antyoche">Antioche</placeName></occupation>
                <event>
                   <p>Tué par <persName ref="#Dyanor">Dyanor</persName> dont il a surpris les 
                   amours avec <persName ref="#Alyenor">Alyenor</persName>, <persName ref="#Leodore">Leodore</persName> et 
@@ -1218,7 +1224,7 @@
             </person>
             <person xml:id="PrinceAquilee">
                <persName>Prince d'Aquilée</persName>
-               <occupation>Prince de <placeName ref="#Aquilee">Aquilée</placeName></occupation>
+               <occupation>Prince d'<placeName ref="#Aquilee">Aquilée</placeName> par <persName ref="#Pelyarmenus">Pelyarmenus</persName></occupation>
                <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                <note type="relationships">Remplaçant sur ce trône de <persName ref="#Clyodorus">Clyodorus</persName></note>
             </person>
@@ -1300,12 +1306,93 @@
                <note type="relationships">Chevalier romain, associé d'abord à la troupe de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
                <note type="relationships">Chevalier qui vient en aide de <persName ref="#Dorus">Dorus</persName></note>
             </person>
+            <person xml:id="PortierAbbaye">
+               <persName>Portier de l'abbaye</persName>
+               <occupation>Portier de l'<placeName ref="#Abbaye">abbaye</placeName></occupation>
+            </person>
+            <person xml:id="Abbé">
+               <persName>Abbé</persName>
+               <occupation>Abbé de l'<placeName ref="#Abbaye">abbaye</placeName></occupation>
+               <note type="relationships">Descendant des ennemis d'<persName ref="#Helcana">Helcana</persName></note>
+               <note type="relationships">Allié de facto de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+            </person>
+            <person xml:id="Garçon">
+               <persName>Garçon d'écurie</persName>
+               <occupation>Garçon de l'écurie de l'<placeName ref="#Abbaye">abbaye</placeName></occupation>
+            </person>
+            <person xml:id="Cyboule">
+               <persName>Cyboule</persName>
+               <occupation>Comtesse des Plains de Gaivre du <placeName ref="#Nesai">Château Nesai</placeName></occupation>
+               <note type="relationships">Descendante des ennemis d'<persName ref="#Helcana">Helcana</persName></note>
+               <note type="relationships">Sœur de <persName ref="#Vespertine">Vespertine</persName></note>
+               <note type="relationships">Ennemie de facto de <persName ref="#Dorus">Dorus</persName></note>
+               <note type="note">Non-nommée dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
+            </person>
+            <person xml:id="Vespertine">
+               <persName>Vespertine</persName>
+               <note type="relationships">Sœur de <persName ref="#Cyboule">Cyboule</persName></note>
+               <note type="relationships">Défenseure de <persName ref="#Dorus">Dorus</persName></note>
+               <note type="note">Non-nommée dans le <hi rend="italique">Roman de Pelyarmenus</hi></note>
+            </person>
+            <person xml:id="Aïeul">
+               <persName>Aïeul de Cyboule</persName>
+               <note type="relationships">Aïeul de <persName ref="#Cyboule">Cyboule</persName></note>
+               <note type="relationships">Ennemi d'<persName ref="#Helcana">Helcana</persName></note>
+            </person>
+            <person xml:id="EnnemiDorus">
+               <persName>Chevalier ennemi poursuivi par Dorus</persName>
+               <note type="relationships">Chevalier de la troupe de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+               <note type="relationships">Chevalier poursuivi par <persName ref="#Dorus">Dorus</persName> jusqu'à <placeName ref="#Nesai">Nesai</placeName></note>
+            </person>
+            <person xml:id="Évêque">
+               <persName>Évêque</persName>
+               <note type="relationships">Évêque chargé des funérailles de <persName ref="#Cassidorus">Cassidorus</persName></note>
+            </person>
+            <person xml:id="Melior">
+               <persName>Melior</persName>
+               <note type="relationships">Chevalier frison de la troupe de <persName ref="#Nazareus">Nazareus</persName></note>
+               <note type="relationships">Opposant de <persName ref="#Dyalogus">Dyalogus</persName></note>
+            </person>
+            <person xml:id="ComteYtalie">
+               <persName>Comte d'Italie</persName>
+               <occupation>Comte d'<placeName ref="#Ytalie">Italie</placeName></occupation>
+               <note type="relationships">Comte exilé par <persName ref="#Pelyarmenus">Pelyarmenus</persName> à sa prise de pouvoir</note>
+            </person>
+            <person xml:id="DucLande">
+               <persName>Duc de Lande</persName>
+               <occupation>Duc de <placeName ref="#Lande">Lande</placeName></occupation>
+               <note type="relationships">Chef de la faction des Frisons lors de la bataille de <placeName ref="#Nise">Nicée</placeName></note>
+            </person>
+            <person xml:id="Argus">
+               <persName>Argus</persName>
+               <occupation>Comte d'<placeName ref="#Ytalie">Italie</placeName> par <persName ref="#Pelyarmenus">Pelyarmenus</persName></occupation>
+               <note type="relationships">Allié de <persName ref="#Pelyarmenus">Pelyarmenus</persName></note>
+               <note type="relationships">Remplaçant sur ce trône du <persName ref="#ComteYtalie">Comte d'Italie</persName></note>
+               <note type="relationships">Opposant de <persName ref="#Nazareus">Nazareus</persName></note>
+            </person>
+            <person xml:id="saintPierre">
+               <persName>saint Pierre</persName>
+               <note type="relationships">Saint auquel les parents fictifs de <persName ref="#Nera">Nera</persName> sont dits l'avoir vouée 
+               dans le récit qu'elle fait aux mariniers</note>
+            </person>
+            <person xml:id="saintNicholas">
+               <persName>saint Nicolas</persName>
+               <note type="relationships">Saint à la gloire duquel est bâtie l'église du <placeName ref="#ChastelGomor">Château Gomor</placeName></note>
+            </person>
+            <person xml:id="saintMichiel">
+               <persName>saint Michel</persName>
+               <note type="relationships">Saint auquel est vouée la chapelle de la grande église de <placeName ref="#Rome">Rome</placeName></note>
+            </person>
          </particDesc>
          <settingDesc>
             <listPlace xml:id="pb-places">
                <place xml:id="Rome">
                   <placeName>Rome</placeName>
                   <note>Ville de l'actuelle Italie</note>
+               </place>
+               <place xml:id="Ytalie">
+                  <placeName>Italie</placeName>
+<note>Souvent dite majeure</note>                  
                </place>
                <place xml:id="Tybre">
                   <placeName>Tibre</placeName>
@@ -1324,12 +1411,45 @@
                   <placeName>Constantinople</placeName>
                   <note>Ville de l'actuelle Turquie</note>
                </place>
+               <place xml:id="BiauManoir">
+                  <placeName>Beau Manoir</placeName>
+                  <note>Palais de <placeName ref="#Costentinnoble">Constantinople</placeName></note>
+               </place>
+               <place xml:id="PrarieBiaux">
+                  <placeName>Prairie des Biaux</placeName>
+                  <note>Prairie proche de <placeName ref="#Costentinnoble">Constantinople</placeName></note>
+                  <note>Lieu de l'affrontement de <persName ref="#Malquidant">Malquidant</persName> et 
+                  <persName ref="#Mirrus">Mirrus</persName></note>
+               </place>               
+               <place xml:id="MésGuichart">
+                  <placeName>Més Guichart</placeName>
+                  <note>Lieu proche de la <placeName ref="#PrarieBiaux">Prairie des Biaux</placeName></note>
+                  <note>Lieu de l'embuscade tendue par <persName ref="#Dyalogus">Dyalogus</persName></note>
+               </place>
+               <place xml:id="VilPas">
+                  <placeName>Vil Pas</placeName>
+                  <note>Lieu de la <placeName ref="#ForestVulgue">Forêt de Vulgue</placeName></note>
+                  <note>Lieu de l'embuscade tendue par <persName ref="#Ascanus">Ascanus</persName></note>
+               </place>
+               <place xml:id="ForestGaut">
+                  <placeName>Forêt du Gaut</placeName>
+                  <note>Forêt proche de <placeName ref="#Laomedon">Laomedon</placeName></note>
+                  <note>Lieu de l'embuscade tendue par <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
+                     et <persName ref="#Dyalogus">Dyalogus</persName></note>
+               </place>
                <place xml:id="Arragon">
                   <placeName>Aragon</placeName>
                   <note>Région de l'actuelle Espagne</note>
                </place>
+               <place xml:id="Gomer">
+                  <placeName>Gomer</placeName>
+                  <note>Château de <persName ref="#Dyomarques">Dyomarques</persName></note>
+               </place>
                <place xml:id="Espaigne">
                   <placeName>Espagne</placeName>
+               </place>
+               <place xml:id="Galylee">
+                  <placeName>Galilée</placeName>
                </place>
                <place xml:id="Bethsaÿda">
                   <placeName>Bethsaïde</placeName>
@@ -1379,6 +1499,31 @@
                   <placeName>Jérusalem</placeName>
                   <note>Ville de l'actuel pays d'Israël</note>
                </place>
+               <place xml:id="Sepucre">
+                  <placeName>saint Sépulcre</placeName>
+                  <note>Lieu de pèlerinage situé à <placeName ref="#Jerusalem">Jérusalem</placeName></note>
+                  <note>Objectif du voyage de <persName ref="#Celydus">Celydus</persName> et <persName ref="#Dyanor">Dyanor</persName></note>
+               </place>
+               <place xml:id="TourDames">
+                  <placeName>Tour des Dames</placeName>
+                  <note>Tour d'<placeName ref="#Antyoche">Antioche</placeName></note>
+                  <note>Tour dans laquelle sont gardées les trois favorites de <persName ref="#Melchis">Melchis</persName></note>
+               </place>
+               <place xml:id="Verger">
+                  <placeName>Verger</placeName>
+                  <note>Verger d'<placeName ref="#Antyoche">Antioche</placeName></note>
+                  <note>Verger qui abrite les rencontres amoureuses de <persName ref="#Dyanor">Dyanor</persName></note>
+               </place>
+               <place xml:id="Rohais">
+                  <placeName>Rohais</placeName>
+                  <note>Ville dans laquelle est située la rencontre entre <persName ref="#Melchis">Melchis</persName> et 
+                  <persName ref="#Hainfroy">Hainfroy</persName></note>
+               </place>
+               <place xml:id="Dyerlo">
+                  <placeName>Dyerlo</placeName>
+                  <note>Château associé au royaume d'<placeName ref="#Antyoche">Antioche</placeName></note>
+                  <note>Château de <persName ref="#Melchis">Melchis</persName> assiégé par <persName ref="#Hainfroy">Hainfroy</persName></note>
+               </place>
                <place xml:id="Gonfort">
                   <placeName>Gonfort</placeName>
                </place>
@@ -1420,6 +1565,12 @@
                   <placeName>Cassel</placeName>
                   <note>Ville des actuelles Flandres, voisine de <placeName ref="#Gant">Gand</placeName></note>
                </place>
+               <place xml:id="ForestMartrai">
+                  <placeName>Forêt de Martrai</placeName>
+                  <note>Forêt proche de <placeName ref="#Rome">Rome</placeName></note>
+                  <note>Forêt dans laquelle <persName ref="#Dorus">Dorus</persName> capture <persName ref="#Pelyarmenus">Pelyarmenus</persName> 
+                  et <persName ref="#Dyalogus">Dyalogus</persName></note>
+               </place>
                <place xml:id="ForestVulgue">
                   <placeName>Forêt de Vulgue</placeName>
                   <note>Forêt entourant l'<placeName ref="#ErmitageVulgue">Ermitage de Vulgue</placeName></note>
@@ -1449,7 +1600,11 @@
                <place xml:id="EgliseSaintNicholas">
                   <placeName>Église Saint-Nicolas</placeName>
                   <note>Église à l'édification de laquelle travaille <persName ref="#Cassidorus">Cassidorus</persName> 
-                  dans la ville autour du <placeName ref="#ChastelGomor">Château Gomor</placeName></note>
+                  dans la ville du <placeName ref="#ChastelGomor">Château Gomor</placeName></note>
+               </place>
+               <place xml:id="Cleodor">
+                  <placeName>Cleodor</placeName>
+                  <note>Port proche du <placeName ref="#ChastelGomor">Château Gomor</placeName></note>
                </place>
                <place xml:id="MalPas">
                   <placeName>Mal Pas</placeName>
@@ -1502,6 +1657,12 @@
                   <note>Ermitage de l'<persName ref="#ErmiteEspiere">Ermite d'Espiere</persName> dans la 
                      <placeName ref="#ForestEspiere">Forêt d'Espiere</placeName></note>
                </place>
+               <place xml:id="Tanière">
+                  <placeName>Tanière du Lion</placeName>
+                  <note>Tanière du <persName ref="#Lion">Lion</persName></note>
+                  <note>Tanière dans laquelle vit d'abord <persName ref="#Cassidorus">Cassidorus</persName> avant de parvenir 
+                  à rejoindre <placeName ref="#Espiere">Espiere</placeName></note>
+               </place>
                <place xml:id="Normandie">
                   <placeName>Normandie</placeName>
                   <note>Région de l'actuelle France</note>
@@ -1509,7 +1670,7 @@
                <place xml:id="Ostrac">
                   <placeName>Ostrac</placeName>                  
                </place>
-               <place xml:id="Antioche">
+               <place xml:id="Antyoche">
                   <placeName>Antioche</placeName>
                   <note>Ville de l'actuelle Turquie</note>
                </place>
@@ -1523,8 +1684,17 @@
                <placeName>Thabor</placeName>
                   <note>Château de <persName ref="#Marsuphien">Marsuphien</persName> où le retrouve <persName ref="#Borleuz">Borleuz</persName></note>
                </place>
+               <place xml:id="Nesai">
+                  <placeName>Nesai</placeName>
+                  <note>Château situé dans la <placeName ref="#ForestCostentinnoble">Forêt de Constantinople</placeName></note>
+                  <note>Château de <persName ref="#Cyboule">Cyboule</persName></note>
+               </place>
                <place xml:id="Montyr">
                   <placeName>Montyr</placeName>
+               </place>
+               <place xml:id="Lande">
+                  <placeName>Lande</placeName>
+                  <note>Région associée (dans la Frise) au <persName ref="#DucLande">Duc de Lande</persName></note>
                </place>
                <place xml:id="Japhe">
                   <placeName>Japhe</placeName>
@@ -1543,6 +1713,28 @@
                <place xml:id="TerreLabor">
                   <placeName>Terre de Labour</placeName>
                   <note>Région de l'actuelle Italie</note>
+               </place>
+               <place xml:id="ForestCostentinnople">
+                  <placeName>Forêt de Constantinople</placeName>
+                  <note>Forêt proche de <placeName ref="#Costentinnoble">Constantinople</placeName></note>
+                  <note>Forêt dans laquelle fuit <persName ref="#Pelyarmenus">Pelyarmenus</persName>, 
+                     <persName ref="#Dorus">Dorus</persName> à sa suite</note>
+               </place>
+               <place xml:id="Abbaye">
+                  <placeName>Abbaye</placeName>
+                  <note>Abbaye située dans la <placeName ref="#ForestCostentinnople">Forêt de Constantinople</placeName> </note>
+                  <note>Abbaye dans laquelle passent <persName ref="#Pelyarmenus">Pelyarmenus</persName>, ainsi que 
+                     <persName ref="#Dorus">Dorus</persName></note>
+               </place>
+               <place xml:id="Constance">
+                  <placeName>Constance</placeName>
+                  <note>Ville proche de <placeName ref="#Laomedon">Laomedon</placeName></note>
+               </place>
+               <place xml:id="ChastelMaraga">
+                  <placeName>Château Maraga</placeName>
+                  <note>Château située sur la mer de <placeName ref="#Frise">Frise</placeName></note>
+                  <note>Château de <persName ref="#Fremor">Fremor</persName> et de 
+                     <persName ref="#Daphus">Daphus</persName></note>
                </place>
             </listPlace>
          </settingDesc>
