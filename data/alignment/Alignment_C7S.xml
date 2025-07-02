@@ -656,7 +656,8 @@
     </teiHeader>
     <text>
         <body>
-            <div n="1" type="chapter" xml:id="R7S">
+            <div n="1" type="book" xml:id="R7S">
+                <head>Roman des Sept Sages de Rome</head>
                 <div type="alignment" xml:id="R7S_1" n="1-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -1250,7 +1251,8 @@
                     </ab>
                 </div>
             </div>
-            <div n="2" type="chapter" xml:id="Marques">
+            <div n="2" type="book" xml:id="Marques">
+                <head>Roman de Marques</head>
                 <div type="alignment" xml:id="Marques_1" n="2-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -2261,7 +2263,8 @@
                     </ab>
                 </div>
             </div>
-            <div n="3" type="chapter" xml:id="Laurin">  
+            <div n="3" type="book" xml:id="Laurin">  
+                <head>Roman de Laurin</head>
                 <div type="alignment" xml:id="Laurin_1" n="3-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -4195,7 +4198,8 @@
                     </ab>
                 </div>
             </div>
-                <div n="4" type="chapter" xml:id="Cassidorus">                
+            <div n="4" type="book" xml:id="Cassidorus"> 
+                <head>Roman de Cassidorus</head>
                 <div type="alignment" xml:id="Cassidorus_1" n="-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V1</seg>
@@ -7072,8 +7076,8 @@
                     </ab>
                 </div>
             </div>
-            <div n="5" type="chapter" xml:id="Helcanus">
-                
+            <div n="5" type="book" xml:id="Helcanus">
+                <head>Roman de Helcanus</head>
                 <div type="alignment" xml:id="Helcanus_1" n="-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -7784,8 +7788,8 @@
                     </ab>
                 </div>
             </div>
-            <div n="6" type="chapter" xml:id="Pelyarmenus">
-                
+            <div n="6" type="book" xml:id="Pelyarmenus">
+                <head>Roman de Pelyarmenus</head>
                 <div type="alignment" xml:id="Pelyarmenus_1" n="-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V2</seg>
@@ -9939,8 +9943,8 @@
                     </ab>
                 </div>
             </div>
-            <div n="7" type="chapter" xml:id="Kanor">
-                
+            <div n="7" type="book" xml:id="Kanor">
+                <head>Roman de Kanor</head>
                 <div type="alignment" xml:id="Kanor_1" n="7-1">
                     <ab type="ms_instance" subtype="base">
                         <seg type="witness">V3</seg>
