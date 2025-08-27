@@ -454,42 +454,50 @@
         <encodingDesc>
             <projectDesc>
                 <p><title>Alignement du C7S</title>
-                    Ce document vise à donner accès à la macrostructure du <hi rend="italique">Cycle des Sept Sages de Rome</hi>, tel qu'il se présente 
+                    Cet outil d'alignement vise à donner accès à la macrostructure du 
+                    <hi rend="italique">Cycle des Sept Sages de Rome</hi>, tel qu'il se présente 
                     dans les six manuscrits qui donnent (ou ont donné) à lire l'ensemble du cycle, listés dans le <gi>sourceDesc</gi> 
                     ci-dessus. Nous avons procédé à l'alignement de l'ensemble des sept romans qu'il contient, en reprenant 
                     leurs débuts (<hi rend="italique">incipit</hi>), fins (<hi rend="italique">explicit</hi>) et chacun des chapitres 
-                    qui les structurent, selon les rubriques données dans
+                    qui les structurent. Cette organisation suit les rubriques et formules de transition données dans
                 chacun des manuscrits, ainsi que les éléments de décor qui viennent aussi les structurer (miniatures, initiales, etc.).
-                L'organisation est fondée sur celle que présente le manuscrit siglé <hi rend="italique">V</hi>, qui a servi de manuscrit de base 
+                L'organisation est principalement fondée sur celle que présente le manuscrit siglé <hi rend="italique">V</hi>, 
+                    qui a servi de manuscrit de base 
                 au travail d'édition des romans de <hi rend="italique">Cassidorus</hi> (par J. Palermo), <hi rend="italique">Helcanus</hi> 
-                    (par H. Niedzielski), <hi rend="italique">Pelyarmenus</hi> (en cours d'élaboration par notre équipe de recherche) et 
+                    (par H. Niedzielski), <hi rend="italique">Pelyarmenus</hi> (ses premiers chapitres, par L. Brodtkorb, et
+                    par notre propre équipe de recherche) et 
                     <hi rend="italique">Kanor</hi> (par M. McMunn).
                 Dans notre travail d'édition comme dans ce travail d'alignement, nous n'avons pas pour autant considéré ce manuscrit
                 comme une base stricte, mais de manière plus souple ici comme une référence pour favoriser la compréhension 
                     de l'organisation comme des nuances présentées dans les autres témoins.                    
-                    l est cependant important 
+                    Il est cependant important 
                     de souligner que l'organisation même des données que nous donnons ici à lire
                     est directement circonscrite à celle que propose en particulier ce manuscrit.</p>
                 <p><title>Enjeux et pratique de travail</title>
                     Au fil de ce travail d'alignement, nous avons donc listé chaque nouveau chapitre (c'est-à-dire chaque rubrique), 
-                    indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant la mention indicative se référant au roman et au numéro de chapitre dans ledit roman. 
+                    indiqué dans une <gi>div</gi> spécifique, précisée par un @xml:id, suivant une mention indicative 
+                    se référant au titre du roman et au numéro de chapitre ainsi identifié. 
                     Chacune de ces <gi>div</gi> contient la présentation du chapitre en question dans chacun des quatre témoins principaux répertoriés,
-                repris dans une balise <gi>ab</gi> qui renvoie au chapitre en question et précise, dans le cas du premier de ces <gi>ab</gi>,
-                qu'il s'agit du manuscrit considéré comme base de ce travail d'alignement. À ces quatre entrées (une pour chacun 
-                de ces principaux témoins) ont pu être adjointes 
-                les mentions de rubriques supplémentaires données dans d'autres manuscrits. L'objectif, pour chacune de ces références, était 
-                de présenter l'organisation macrostructurelle du cycle, soit d'identifier, pour chacun de ces quatre témoins, la rubrique, si 
+                repris dans une balise <gi>ab</gi> qui renvoie au chapitre en question et indique, dans le cas du premier de ces <gi>ab</gi>,
+                qu'il s'agit du manuscrit considéré comme base de ce travail d'alignement. Aux quatre entrées créées pour chacun 
+                de ces chapitres (une pour chacun 
+                de nos principaux témoins) ont pu être adjointes 
+                les mentions de rubriques supplémentaires données en surplus ou dans d'autres manuscrits. 
+                L'objectif, pour chacune de ces références, était 
+                de présenter l'organisation macrostructurelle du cycle, soit d'identifier, pour chacun des quatre principaux témoins, la rubrique, si 
                 une rubrique est donnée en correspondance avec ce que présente le manuscrit <hi rend="italique">V</hi> donc, 
-                    le lieu où celle-ci se trouve dans le témoin,
+                    le lieu où celle-ci se trouve dans le témoin, son contenu exact
                 et quelques indications paratextuelles.</p>
                 <p><title>Relevé et organisation des informations</title>
                 Chacune de ces entrées précise tour à tour, 
-                dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, c'est-à-dire la rubrique (@rubric),
+                dans un <gi>seg</gi> spécifique, la présentation du témoin (@witness), le titre du chapitre, c'est-à-dire le texte de la rubrique 
+                    ou de l'incipit/explicit (@rubric/incipit/explicit),
                     sa localisation dans le manuscrit traité (@location) et une note (@note).<lb/> 
                     Pour les manuscrits dont l'accès numérique est garanti par un lien ark, nous avons 
-                    également inséré entre la mention de la localisation (qui vaut avant tout pour l'enluminure) et celle de la note le lien en question
-                    dans une balise <gi>graphic</gi> qui référence cet url (@url). Notons que pour les manuscrits <hi rend="italique">B</hi> 
-                    et <hi rend="italique">X2</hi> les liens fournis par les bibliothèques concernées ne permettent soit pas de renvoyer 
+                    également inséré le lien en question
+                    dans une balise <gi>graphic</gi> qui référence cet url (@url) pour le folio concerné par l'enluminure. 
+                    Notons que, pour les manuscrits <hi rend="italique">B</hi> 
+                    et <hi rend="italique">X2</hi>, les liens fournis par les bibliothèques concernées ne permettent soit pas de renvoyer 
                     au folio exact soit de rendre l'illustration du folio dans une qualité satisfaisante. Face à ce dilemme, nous 
                     avons favorisé la deuxième solution, dans l'espoir que la résolution puisse à terme être optimisée. 
                     La note vise quant à elle à préciser l'organisation et la mise 
@@ -499,17 +507,18 @@
                     D'autres précisions ont pu y être données, selon les quelques cas particuliers qui ont été relevés au fil de ces manuscrits. 
                     Pour clarifier la présentation qui en sera donnée, nous listons ici ces divers cas de figure.<lb/>
                     Il convient auparavant de poser quelques nuances dans cette procédure d'encodage en ce 
-                    qui concerne le manuscrit <hi rend="italique">R</hi>. Son état de conservation ne permettait en effet pas de donner
+                    qui concerne le manuscrit <hi rend="italique">R</hi> et le manuscrit <hi rend="italique">C</hi>. 
+                    L'état de conservation de <hi rend="italique">R</hi> ne permettait en effet pas de donner
                     accès à l'ensemble de la matière, puisque les folios conservés ne nous laissent lire le texte que 
-                    jusqu'au chapitre RP_29 et laissent aussi béants quelques trous dans la matière. Nous 
+                    jusqu'au chapitre numéroté Pelyarmenus-29 et laissent aussi béants quelques trous dans la matière. Nous 
                     préciserons également ci-dessous les divers cas de figure qui se sont présentés. 
                     Nous devons d'ores et déjà assumer la différence de traitement que nous avons réservé à ce manuscrit. 
                     Eu égard son état de conservation mais aussi son organisation assez différente de la matière face à ce que 
                     nous pouvons lire dans nos autres témoins, nous avons dû renoncer à donner un accès aussi complet qu'aux autres manuscrits.<lb/> 
                     De même, dans le cas du manuscrit <hi rend="italique">C</hi>, nous avons dû faire face aux difficultés posées 
                     à la fois par une organisation différente de la matière en regard de ce que l'on peut lire dans les autres témoins 
-                    (le texte ne débute qu'en cours du <hi rend="italique">Roman de Cassidorus</hi>, mais la structuration est profondément 
-                    différente aussi tout au long du texte donné) et par un état de conservation parfois plus complexe. Ici aussi,
+                    (le texte ne débute qu'en cours du <hi rend="italique">Roman de Cassidorus</hi>, et surtout la structuration est profondément 
+                    différente tout au long du texte donné) et par un état de conservation parfois plus complexe. Ici aussi,
                     nous avons dû nous résoudre à une économie des données, 
                     nous contenter d'identifier les rares rubriques données, préciser quel état de structuration (souvent là aussi assez différent 
                     de ce que l'on trouve dans les autres témoins) offre le manuscrit, mais sans entrer dans le détail des jeux de déplacement 
@@ -517,7 +526,7 @@
                 <p><title>Cas particuliers présentés</title> 
                     1)Rubriques ajoutées:<lb/> 
                     Dans plusieurs cas, des rubriques ont été ajoutées dans certains manuscrits par rapport à
-                    l'organisation des chapitres donnée dans le manuscrit <hi rend="italique">V</hi>. Nous avons
+                    l'organisation des chapitres que l'on trouve dans le manuscrit <hi rend="italique">V</hi>. Nous avons
                     choisi de les indiquer dans une nouvelle section <gi>ab</gi>, au
                     @corresp renvoyant au xml:id du paragraphe qui donne, dans <hi rend="italique">V</hi>, la section
                     contenue. À l'issue de cette <gi>ab</gi>, le <gi>seg</gi> @note
@@ -574,10 +583,10 @@
                     requis des informations spécifiques. La transcription n'est donc que rarement complète en ce qui concerne ce 
                     témoin, dont nous ne disposons pour une part que de fragments du cycle entier (voir répartition de la matière 
                     ci-dessus dans la présentation des témoins) et de fragments des sections conservées, selon l'état de 
-                    chaque folio concerné, mais aussi des absences dans la matière pourtant présentée de manière plus ou moins 
-                    linéaire.<lb/> En ce qui concerne les rubriques, nous avons tenté de procéder de manière uniforme avec le traitement 
+                    chaque folio concerné, mais aussi les absences dans la matière pourtant présentée de manière plus ou moins 
+                    linéaire.<lb/> En ce qui concerne les rubriques, nous avons tenté de procéder de manière homogène avec le traitement 
                     que nous avions réservé aux autres témoins manuscrits. 
-                    Dans les cas où nous ne disposions pas d'accès à cette section, nous avons intégré la mention "(inaccessible)"
+                    Dans les cas où nous ne disposions pas d'accès à la section concernée, nous avons intégré la mention "(inaccessible)"
                     pour indiquer que l'état de détérioration du manuscrit ne nous offrait pas accès à la portion de texte concernée.
                     Nous avons également précisé en note que la rubrique était lisible de manière incomplète "(partiellement)", voire également 
                     aussi ce qu'il en était de l'initiale historiée qui la suit dans la plupart des cas par la même remarque 
