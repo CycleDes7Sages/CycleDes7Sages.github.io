@@ -231,43 +231,32 @@
                      </item>
                   </list>
                </item>
-               <item n="Bibliographie">
-                  <desc>Bibliographie</desc>
+               <item n="Introduction">
+                  <!-- <desc>Introduction</desc> -->
                   <note/>
                   <ptr type="image" target="resources/images/hi-alignment.jpg"/>
                   <list type="links">
+                     <item> <ref target="roman-de-pelyarmenus-presentation"> Présentation</ref> </item>
+                  </list>
+                  <!-- 
+                  <list type="links">
+                     <item><ref target="roman-de-pelyarmenus-litteraire"> Résumé et étude littéraire </ref></item>
+                     <item><ref target="roman-de-pelyarmenus-codicologique"> Étude codicologique et philologique </ref></item>
+                     <item><ref target="roman-de-pelyarmenus-linguistique">Étude linguistique </ref></item> 
+                  </list>
+               -->
+                  <!-- <list type="links">
+                     <item>  <ref target="roman-de-pelyarmenus-odd">Critères d'édition et ODD </ref></item>
+                  </list> -->
+                  <list type="links">
+                     <item> <ref target="roman-de-pelyarmenus-transcription"> Transcription diplomatique</ref> </item>
                      <item>
-                        <ref target="roman-de-pelyarmenus-bibliographie">Explore</ref>
+                        <ref target="roman-de-pelyarmenus-bibliographie">Bibliographie</ref>
                      </item>
                   </list>
                </item>
             </list>
          </div>
-
-         <!--  <div>
-                        <head>Introduction</head>
-                        <list>
-                           <item> Présentation </item>
-                           <item> Résumé et étude littéraire </item>
-                           <item> Étude codicologique et philologique </item>
-                           <item> Critères d'édition et ODD </item>
-                           <item> Étude linguistique </item>
-                           <item> Transcription diplomatique </item>
-                           <item> Bibliographie </item>
-                        </list>
-                     </div>
-                     <div>
-                        <head>Édition critique</head>
-                     </div>
-                     <div>
-                        <head>Annexes</head>
-                        <list>
-                           <item>Glossaire </item>
-                           <item> Index locorum </item>
-                           <item>Index nominum </item>
-                           <item>Table des proverbes </item>
-                        </list>
-                     </div>-->
 
          <div type="section" xml:lang="en" n="More">
             <head>Partenaires</head>
