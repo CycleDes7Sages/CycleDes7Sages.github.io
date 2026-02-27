@@ -6,6 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <!-- À propos - Résultats -->
             <title>À propos - Résultats</title>
             <respStmt>
                <resp>Élaboration</resp>
@@ -31,7 +32,7 @@
       <body>
          <div>
             <head type="title">Résultats</head>
-            <div>
+            <div xml:id="resultats-publications">
                <head type="subtitle">Publications</head>
                <p>
                   <list>                     
@@ -100,7 +101,8 @@
                   </list>
                </p>
             </div>
-            <div><head type="subtitle">Communications scientifiques</head>
+            <div xml:id="resultats-communications">
+               <head type="subtitle">Communications scientifiques</head>
                <p>
                   <list>
                      <item>Camille <hi rend="latin">Carnaille</hi>, « Un <hi rend="italique">Game of Thrones</hi> médiéval ? 
@@ -218,7 +220,8 @@
                   </list>
                </p>
             </div>
-            <div><head type="subtitle">Manifestations scientifiques</head>
+            <div xml:id="resultats-manifestations">
+               <head type="subtitle">Manifestations scientifiques</head>
                <list>
                   <item>Colloque international "Reassessing Canon Formation in Medieval Literature" 
                      - Barcelona, 21 février <hi rend="bold">2025</hi>.</item>
