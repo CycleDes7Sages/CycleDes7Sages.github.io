@@ -1,0 +1,488 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="landing">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition Landing Page</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="hero" xml:lang="fr">
+            <head>Canoniser les</head>
+            <head>
+               <lb/>
+               <hi rend="strong"> Sept Sages de Rome</hi>
+            </head>
+            <p>Ce projet de recherche avait pour objectif d'offrir un accès complet et une meilleure
+               compréhension du Cycle des Sept Sages de Rome, en tant qu'objet complexe en vue d'une
+               inscription durable dans le canon de la littérature française médiévale.</p>
+         </div>
+         <div type="about" xml:lang="fr" n="About">
+            <head type="title">
+               <hi>Canoniser les Sept Sages de Rome</hi>
+            </head>
+            <p>Ce site web donne accès aux résultats du projet de recherche <hi rend="bold"
+                  >Canoniser les Sept Sages (C7S) : Livre, langues, écriture sérielle (<num
+                     type="century">xiii-xv</num>
+                  <hi rend="exp">e</hi> siècles)</hi>, financé entre 2021 et 2025 par par le FNS
+               (Suisse) et le FNRS (Wallonie-Belgique) dans le cadre d'un programme de soutien à la
+               recherche "PDR Lead Agency". L'objectif de "canoniser les Sept Sages de Rome"
+               correspondait à l'ambition d'illustrer toute la richesse du <hi rend="italique">Cycle
+                  des Sept Sages de Rome</hi>, un imposant ensemble de récits du <num type="century"
+                  >xiii</num>
+               <hi rend="exp">e</hi> siècle, et de l'inscrire durablement dans le canon de la
+               littérature française médiévale.</p>
+            <p>Vous trouverez donc ici la présentation des objets et enjeux du projet, de l'équipe
+               qui l'a mené à bien, des activités et résultats impliqués. En particulier, vous
+               pourrez découvrir l'édition critique du <hi rend="italique">Roman de
+               Pelyarmenus</hi>, avec les analyses qui en ont été fournies, ainsi que l'alignement
+               réalisé des manuscrits cycliques du <hi rend="italique">Cycle des Sept Sages de
+                  Rome</hi>, dans son ensemble et de manière plus précise pour le <hi
+                  rend="italique">Roman de Pelyarmenus</hi>.</p>
+         </div>
+
+         <div type="projet" xml:lang="fr" n="Projet">
+            <head type="title">
+               <hi>Le projet Canoniser les Sept Sages</hi>
+            </head>
+            <p>Dans cet objectif revendiqué de canoniser la matière des Sept Sages de Rome, ce
+               projet de recherche avait pour objectif d'offrir un accès complet au <hi
+                  rend="italique">Cycle des Sept Sages de Rome</hi>, en tant qu'objet complexe en
+               vue d'une inscription durable dans le canon de la littérature française
+               médiévale.</p>
+            <p>Pour cela, nos efforts ont porté sur l'édition des textes encore inaccessibles
+               (l’intégralité du <hi rend="italique">Roman de Pelyarmenus</hi>, ainsi que ce que
+               donne à lire le particulier manuscrit BnF fr. 1446) et l’analyse des récits, dans
+               leurs contextes esthétique, politique et culturel. Il s’agit également de déterminer
+               les critères distinctifs de l’histoire littéraire qui ont contribué à minorer
+               l’importance de ce monument littéraire.</p>
+            <p>Notre projet cherchait ainsi à répondre aux grandes questions suivantes :</p>
+            <list>
+               <item>Quels sont les éléments qui mènent, à partir d’un récit nodal, à la
+                  prolifération narrative jusqu’à la création d’une série aux dimensions imposantes
+                  ? </item>
+               <item>Quelles sont les conditions (matérielles, culturelles, sociologiques) qui ont
+                  facilité le succès, d’abord, puis l’oubli progressif du cycle ? </item>
+               <item>Quels sont les rapports entre pouvoir(s) politique(s), mécénat(s) et fiction(s)
+                  littéraire(s) ? </item>
+               <item>Dans quelle mesure la demande d’œuvres de grande envergure en prose est-elle en
+                  rapport avec l’essor de la langue française comme langue de culture
+                  (inter)nationale ? </item>
+            </list>
+
+            <p>Plus spécifiquement, nos travaux se sont organisés en trois axes interconnectés : </p>
+            <list type="ordered">
+               <item>Lire le Cycle :<lb/> - Avérer le rôle du cycle dans la pratique médiévale de
+                  l'écriture sérielle.<lb/> - Évaluer le « roman de clergie » sous le prisme du
+                  genre. </item>
+               <item>Étudier le <hi rend="italique">Roman de Pelyarmenus</hi> : <lb/> - Fournir une
+                     <ref target="roman-de-pelyarmenus">édition critique nativement numérique</ref>,
+                  complétée par une édition papier (publiée auprès de la SATF), basée sur le
+                  manuscrit <hi rend="italique">V</hi> (Paris, BnF, fr. 22549 et fr. 22550) et la
+                  collation des copies <hi rend="italique">B</hi>, <hi rend="italique">X<hi
+                        rend="exp">2</hi>
+                  </hi> et <hi rend="italique">G</hi>, de l'ensemble du roman, encore en grande
+                  partie inédit au début du projet.<lb/> - Mener une <ref
+                     target="roman-de-pelyarmenus-linguistique">étude linguistique</ref> et <ref
+                     target="roman-de-pelyarmenus-litteraire">littéraire</ref> de ce roman.</item>
+               <item>
+                  <ref target="roman-de-pelyarmenus-codicologique">Analyser les manuscrits</ref> :
+                  <lb/> - Étudier les rapports entre lieux de production et variétés linguistiques.
+                  <lb/> - Analyser le cycle afin de déceler les étapes de sa constitution. <lb/> -
+                  Étudier les rapports entre la structure matérielle des manuscrits et les éléments
+                  (para)textuels organisant les contenus de l’œuvre, en particulier au travers des
+                  moyens de visualisation permis par <ref target="cycle-des-sept-sages-alignement"
+                     >l'alignement de ces manuscrits</ref>.<lb/> - Mieux connaître et comprendre
+                  certains témoins plus compliqués (le ms. BnF 1446 qui a fait l'objet de la thèse
+                  de Florian-Pierre Zanardi, ou le ms. Turin, BN 1605 partiellement brûlé dans
+                  l'incendie de la bibliothèque de Turin). </item>
+            </list>
+         </div>
+
+         <div type="cycle" n="C7S" xml:lang="fr">
+            <head type="title">Le <hi rend="italique">Cycle des Sept Sages</hi>
+            </head>
+            <p>Le cycle narratif des Sept sages de Rome, objet de notre recherche, est une vaste
+               chronique fictive en vers puis en prose datant du <num>xii</num>
+               <hi rend="exp">e</hi> siècle. Ce cycle rassemble un roman souche, <hi rend="italique"
+                  >le Roman des Sept Sages de Rome</hi>, et six continuations du <num type="century"
+                  >xiii</num>
+               <hi rend="exp">e</hi> siècle : les romans de <hi rend="italique">Marques de
+               Rome</hi>, de <hi rend="italique">Laurin</hi>, de <hi rend="italique"
+               >Cassidorus</hi>, de <hi rend="italique">Helcanus</hi>, de <hi rend="italique"
+                  >Pelyarmenus</hi> et de <hi rend="italique">Kanor</hi> (près de 600 f.
+               manuscrits).</p>
+            <p>Cette énorme ‘matière’ porte sur une lignée fictive d’empereurs de Rome et de
+               Constantinople, descendants du sage Caton. Elle a suscité l’intérêt des milieux
+               aristocratiques de l’époque. Parmi les mécènes intéressés par la composition ou la
+               diffusion de ce cycle, on compte Gui de Dampierre, comte de Flandres (1225-1305).
+               C’est bien là un des facteurs décisifs pour la constitution du cycle et pour la
+               compilation de manuscrits-bibliothèque, parmi lesquels on compte de véritables
+               chefs-d’œuvre de l’artisanat libraire médiéval.</p>
+
+            <list type="links">
+               <item>
+                  <ref target="cycle">en savoir plus</ref>
+               </item>
+            </list>
+         </div>
+
+         <div type="apropos" n="À propos" xml:lang="fr">
+            <head type="title">À propos</head>
+            <list type="links">
+               <item>
+                  <ref target="resultats">Résultats</ref>
+               </item>
+               <item>
+                  <ref target="roman-de-pelyarmenus">Aspects techniques</ref>
+               </item>
+               <item>
+                  <ref target="roman-de-pelyarmenus">Mentions légales</ref>
+               </item>
+            </list>
+         </div>
+
+         <div type="highlights" xml:lang="fr">
+            <head>Highlights</head>
+            <list>
+               <item n="Roman de Pelyarmenus">
+                  <desc>Roman de Pelyarmenus</desc>
+                  <ptr type="image" target="resources/images/hi-pelyarmenus.jpg"/>
+                  <list type="links">
+                     <item>
+                        <ref target="roman-de-pelyarmenus-introduction">Introduction</ref>
+                     </item>
+                     <item>
+                        <ref target="roman-de-pelyarmenus">Édition critique</ref>
+                     </item>
+                  </list>
+               </item>
+               <item n="Alignement">
+                  <ptr type="image" target="resources/images/hi-alignment.jpg"/>
+                  <list type="links">
+                     <item>
+                        <ref target="principes">Roman de Pelyarmenus</ref>
+                     </item>
+                     <item>
+                        <ref target="principes">Cycle des Sept Sages</ref>
+                     </item>
+                  </list>
+               </item>
+               <item n="Roman de Pelyarmenus">
+                  <desc>Annexes</desc>
+                  <ptr type="image" target="resources/images/hi-pelyarmenus.jpg"/>
+                  <list type="links">
+                     <item>
+                        <ref target="places">Index locorum</ref>
+                     </item>
+                     <item>
+                        <ref target="people">Index nominum</ref>
+                     </item>
+                  </list>
+                  <list type="links">
+                     <item>
+                        <ref target="roman-de-pelyarmenus-glossaire">Glossaire</ref>
+                     </item>
+                     <item>
+                        <ref target="roman-de-pelyarmenus-proverbes">Table des proverbes</ref>
+                     </item>
+                  </list>
+               </item>
+               <item n="Bibliographie">
+                  <desc>Bibliographie</desc>
+                  <note/>
+                  <ptr type="image" target="resources/images/hi-alignment.jpg"/>
+                  <list type="links">
+                     <item>
+                        <ref target="roman-de-pelyarmenus-bibliographie">Explore</ref>
+                     </item>
+                  </list>
+               </item>
+            </list>
+         </div>
+
+         <!--  <div>
+                        <head>Introduction</head>
+                        <list>
+                           <item> Présentation </item>
+                           <item> Résumé et étude littéraire </item>
+                           <item> Étude codicologique et philologique </item>
+                           <item> Critères d'édition et ODD </item>
+                           <item> Étude linguistique </item>
+                           <item> Transcription diplomatique </item>
+                           <item> Bibliographie </item>
+                        </list>
+                     </div>
+                     <div>
+                        <head>Édition critique</head>
+                     </div>
+                     <div>
+                        <head>Annexes</head>
+                        <list>
+                           <item>Glossaire </item>
+                           <item> Index locorum </item>
+                           <item>Index nominum </item>
+                           <item>Table des proverbes </item>
+                        </list>
+                     </div>-->
+
+         <div type="section" xml:lang="en" n="More">
+            <head>Partenaires</head>
+            <p>Use this section to provide short descriptions and links to other resources in the
+               collection.</p>
+
+            <div>
+               <head>Bibliothèques</head>
+               <p>
+                  <list>
+                     <item><ref target="https://www.bnf.fr/fr">Bibliothèque nationale de
+                           France</ref></item>
+                     <item><ref target="https://www.bl.uk/">British Library</ref></item>
+                     <item><ref target="https://www.kbr.be/fr/">Bibliothèque royale de
+                           Belgique</ref></item>
+                  </list></p>
+            </div>
+
+            <div>
+               <head>Laboratoires et Universités</head>
+               <p>
+                  <list>
+                     <item><ref target="https://ladisco.ulb.be/">Université libre de
+                        Bruxelles</ref></item>
+                     <item><ref target="https://www.unige.ch/lettres/mela/enseignant/littframed"
+                           >Université de Genève</ref></item>
+                     <item><ref target="https://www.atilf.fr/">ATILF</ref></item>
+                  </list>
+               </p>
+            </div>
+
+            <div>
+               <head>Collègues</head>
+               <p>
+                  <list>
+                     <item><ref target="https://dl.acm.org/profile/81310482335">Bertrand Gaiffe
+                           (ATILF)</ref></item>
+                     <item><ref
+                           target="https://www.unige.ch/lettres/mela/enseignant/philologie/yan-greub"
+                           >Yan Greub (ATILF/UNIGE)</ref></item>
+                     <item><ref target="https://perso.atilf.fr/gsouvay/">Gilles Souvay
+                        (ATILF)</ref></item>
+                     <item><ref
+                           target="https://ciham.cnrs.fr/annuaire/membres_statutaires/ariane-pinche/"
+                           >Ariane Pinche (CNRS)</ref></item>
+                     <item><ref
+                           target="https://www.unige.ch/lettres/humanites-numeriques/equipe/collaborateurs/simon-gabay"
+                           >Simon Gabay (UNIGE)</ref></item>
+                  </list>
+               </p>
+            </div>
+         </div>
+
+         <div type="team" xml:lang="fr" n="Équipe">
+            <head>Équipe et partenaires</head>
+            <p>Das Jinks-Editionsprojekt wird von einem engagierten Team aus Historiker:innen,
+               digitalen Archivar:innen und Designer:innen verwirklicht, die für die Geschichte der
+               Renaissance begeistert sind.</p>
+            <listPerson>
+               <person n="ULB - UniGE">
+                  <persName>Camille Carnaille</persName>
+                  <ptr type="avatar" target="resources/images/team/carnaille.jpg"/>
+                  <note> Postdoctorante au sein du projet « Canoniser les Sept Sages », Camille
+                     Carnaille est titulaire d’un doctorat, obtenu à l’Université de Genève en 2021,
+                     qu’elle a consacré à l’étude du jeu des émotions dans la littérature médiévale
+                     française. Elle s'intéresse aux questions comportementales, aux normes
+                     prescrites en la matière, aux jeux de performance et aux questions de vérité
+                     impliquées dans ce contexte. Dans le cadre du présent projet, elle s'est
+                     initiée aux enjeux de l’édition numérique dans le cadre du travail mené sur le
+                     Roman de Pelyarmenus. Elle s'est aussi chargée de l'analyse littéraire de ce
+                     texte, avec Prunelle Deleville, ainsi que de l'alignement des manuscrits
+                     cycliques pour le Roman de Pelyarmenus et pour l'ensemble du Cycle.</note>
+               </person>
+               <person n="ULB - UniGE">
+                  <persName>Prunelle Deleville</persName>
+                  <ptr type="avatar" target="resources/images/team/deleville.png"/>
+                  <note> Prunelle Deleville a réalisé l’édition et le commentaire littéraire d’une
+                     réécriture de l’Ovide moralisé pour sa thèse de doctorat, dans le cadre du
+                     projet de recherche « Ovide en français ». Elle s’intéresse tout
+                     particulièrement à la réception de l’Antiquité au Moyen Âge et à la traduction
+                     du latin vers le français médiéval mais aussi à l’allégorie en général. Au sein
+                     du présent projet, elle a eu le plaisir de collaborer à l’édition numérique du
+                     Roman de Pelyarmenus. Elle s'est aussi chargée de l'analyse littéraire de ce
+                     texte, avec Camille Carnaille, ainsi que du glossaire et de la table des
+                     proverbes .</note>
+               </person>
+               <person n="UniGE">
+                  <persName>Yasmina Foehr-Janssens</persName>
+                  <ptr type="avatar" target="resources/images/team/foehr.jpg"/>
+                  <note> Yasmina Foehr-Janssens co-dirige le projet « Canoniser les Sept Sages »
+                     avec Simone Ventura. Elle est Professeure de littérature française médiévale à
+                     l’Université de Genève et responsable des enseignements interdisciplinaires en
+                     Études Genre à la Faculté des Lettres. Sa recherche concerne les formes longues
+                     et brèves de la narration médiévale. Elle accorde un intérêt particulier à
+                     l’impact de la fabrique fictionnelle du genre sur le maniement poétique et
+                     rhétorique du récit. Elle a publié de nombreux travaux sur la tradition des
+                     Sept sages de Rome.</note>
+               </person>
+               <person n="UNamur - ULiège">
+                  <persName>Sophie Lecomte</persName>
+                  <ptr type="avatar" target="resources/images/team/lecomte.jpg"/>
+                  <note> Après des études en langues et littératures romanes (UNamur – ULg), Sophie
+                     Lecomte a obtenu un mandat d’aspirant F.R.S.-FNRS pour réaliser une thèse
+                     (Université de Namur – Università degli Studi di Siena) consacrée à l’édition
+                     critique partielle du Roman de Méliadus, premier volet du cycle arthurien de
+                     Guiron le Courtois, dans le cadre du projet du « Groupe Guiron », dirigé par
+                     Lino Leonardi et Richard Trachsler. Elle a ensuite bénéficié de bourses de
+                     recherche post-doctorales (Fondazione Ezio Franceschini de Florence, puis
+                     Scuola Normale Superiore de Pise) pour parachever le travail d’édition. Elle a
+                     également terminé une nouvelle édition critique de Guy de Warwick en prose.
+                     Elle a collaboré au projet pour l'étude philologique et l'édition critique du
+                     Roman de Pelyarmenus.</note>
+               </person>
+               <person n="UniGE">
+                  <persName>Mello Meylan</persName>
+                  <ptr type="avatar" target="resources/images/team/meylan.png"/>
+                  <note> Mello (Aminoël) Meylan a obtenu son Master en littérature médiévale et
+                     philosophie à l’Université de Fribourg en novembre 2020 après un Mémoire
+                     intitulé « L’a.b.c. nostre damme – Étude et édition du manuscrit Paris BnF fr.
+                     837 » sous la direction de la Professeure Marion Uhlig. Iel se consacre
+                     désormais à sa thèse de doctorat portant sur le Roman de Laurin, sur les
+                     particularités et spécificités de ce dernier, tout comme sur la place unique et
+                     centrale qu’il tient au sein du cycle des Sept Sages de Rome.</note>
+               </person>
+               <person n="ULB - UPF Barcelona">
+                  <persName>Simone Ventura</persName>
+                  <ptr type="avatar" target="resources/images/team/ventura.jpg"/>
+                  <note> Simone Ventura co-dirige le projet « Canoniser les Sept Sages » avec
+                     Yasmina Foehr-Janssens. Ses intérêts de recherche couvrent les domaines de
+                     l’édition, de l’analyse linguistique (particulièrement lexicale et syntaxique)
+                     et du traitement numérique de textes longs en prose française, occitane et
+                     catalane entre le XIIIe et le XVe siècle. Dans le projet, il s'est chargé de
+                     l'étude linguistique du Roman de Pelyarmenus, ainsi que de la supervision de
+                     l'édition.</note>
+               </person>
+               <person n="UniGE - Lumière-Lyon II">
+                  <persName>Florian-Pierre Zanardi</persName>
+                  <ptr type="avatar" target="resources/images/team/zanardi.jpg"/>
+                  <note> Florian-Pierre Zanardi est titulaire d'un Master en langue et littérature
+                     françaises obtenu à l'université Jean-Moulin-Lyon-III et de l'agrégation de
+                     lettres. En 2022, il entreprend une thèse de doctorat en littérature médiévale
+                     en cotutelle avec les universités de Genève et Lumière-Lyon-II. Le projet a
+                     pour ambition de fournir une édition numérique du Roman de Kanor contenu dans
+                     le manuscrit BnF, fr. 1446. Ce travail se propose d'employer les avancées de la
+                     philologie numérique pour analyser cette version non-cyclique de l'ultime roman
+                     du cycle des Sept Sages. L'étude littéraire a pour objectif de mettre au jour
+                     le système de remaniements narratifs qui donne à cette version un place
+                     singulière dans l'économie du cycle. </note>
+               </person>
+               <person n="e-editiones - JinnTec">
+                  <persName>Magdalena Turska</persName>
+                  <ptr type="avatar" target="resources/images/team/magdalena.png"/>
+                  <note> </note>
+               </person>
+               <person n="JinnTec">
+                  <persName>Julia Peshkova</persName>
+                  <ptr type="avatar" target="resources/images/team/julia.jpeg"/>
+                  <note> </note>
+               </person>
+            </listPerson>
+         </div>
+
+         <div type="team2" xml:lang="fr" n="team2">
+            <head type="title">Partenaires</head>
+            <p><hi rend="bold">Bibliothèques</hi>
+               <list>
+                  <item><ref target="https://www.bnf.fr/fr">Bibliothèque nationale de
+                     France</ref></item>
+                  <item><ref target="https://www.bl.uk/">British Library</ref></item>
+                  <item><ref target="https://www.kbr.be/fr/">Bibliothèque royale de
+                     Belgique</ref></item>
+               </list></p>
+            <p><hi rend="bold">Laboratoires et Universités</hi>
+               <list>
+                  <item><ref target="https://ladisco.ulb.be/">Université libre de
+                     Bruxelles</ref></item>
+                  <item><ref target="https://www.unige.ch/lettres/mela/enseignant/littframed"
+                        >Université de Genève</ref></item>
+                  <item><ref target="https://www.atilf.fr/">ATILF</ref></item>
+               </list>
+            </p>
+            <p><hi rend="bold">Collègues</hi>
+               <list>
+                  <item><ref target="https://dl.acm.org/profile/81310482335">Bertrand Gaiffe
+                        (ATILF)</ref></item>
+                  <item><ref
+                        target="https://www.unige.ch/lettres/mela/enseignant/philologie/yan-greub"
+                        >Yan Greub (ATILF/UNIGE)</ref></item>
+                  <item><ref target="https://perso.atilf.fr/gsouvay/">Gilles Souvay
+                     (ATILF)</ref></item>
+                  <item><ref
+                        target="https://ciham.cnrs.fr/annuaire/membres_statutaires/ariane-pinche/"
+                        >Ariane Pinche (CNRS)</ref></item>
+                  <item><ref
+                        target="https://www.unige.ch/lettres/humanites-numeriques/equipe/collaborateurs/simon-gabay"
+                        >Simon Gabay (UNIGE)</ref></item>
+               </list>
+            </p>
+         </div>
+
+         <div type="partners" xml:lang="fr" n="Partenaires">
+            <head>Partenaires</head>
+            <p>The Jinks edition project is brought to life by a dedicated team of historians,
+               digital archivists, and designers passionate about Renaissance history.</p>
+            <list rend="partner-logos">
+               <item>
+                  <ref type="uri" target="https://www.frs-fnrs.be/">
+                     <graphic url="resources/images/fnrs.png"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://www.ulb.be/">
+                     <graphic url="resources/images/Logo-ULB.svg"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://www.snf.ch/">
+                     <graphic url="resources/images/fns.svg"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://www.unige.ch/">
+                     <graphic url="resources/images/unige-logo.svg"/>
+                  </ref>
+               </item>
+            </list>
+            <list rend="partner-logos">
+               <item>
+                  <ref type="uri" target="https://jinntec.de">
+                     <graphic url="resources/images/jinntec.svg"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://e-editiones.org">
+                     <graphic url="resources/images/e-editiones-logo-color.svg"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://tei-c.org">
+                     <graphic url="resources/images/tei-with-text.svg"/>
+                  </ref>
+               </item>
+               <item>
+                  <ref type="uri" target="https://teipublisher.org">
+                     <graphic url="resources/images/tei-publisher-logo-color.svg"/>
+                  </ref>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
