@@ -1,6 +1,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mentions">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mentions-legales">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,9 +27,9 @@
    </teiHeader>
    <text>
       <body>       
-         <div>
+         <div xml:id="mentions-legales-all">
             <head type="title">Mentions légales</head>
-            <div>
+            <div xml:id="mentions-legales-site">
                <head type="subtitle">Éditeur du site Web</head>
                <p>
                   Université de Genève
@@ -41,27 +41,27 @@
                   T. +41 (0)22 379 71 11
                </p>
             </div>
-            <div>
+            <div  xml:id="mentions-legales-directrice">
                <head type="subtitle">Directrice de publication</head>
                <p>Mme Yasmina FOHER-JANSSENS - Professeure (Département de Langues et littératures françaises et latines médiévales, 
                   Faculté des lettres de l'Université de Genève)</p>
             </div>            
-            <div>
+            <div xml:id="mentions-legales-hebergement">
                <head type="subtitle">Hébergement du site web</head>
                <p>E-Research (Université de Genève)</p>
             </div>
-            <div>
+            <div xml:id="mentions-legales-webmaster">
                <head type="subtitle">Webmaster</head>
                <p>Mme Camille CARNAILLE - Postdoctorante (Département de Langues et littératures françaises et latines médiévales, 
                   Faculté des lettres de l'Université de Genève)</p>
                <p>Jinntec <!-- to be completed --></p>
             </div>
-            <div>
+            <div xml:id="mentions-legales-publication">
                <head type="subtitle">Publication</head>
                <p>L'édition du <hi rend="italique">Roman de Pelyarmenus</hi> qui fait l'un des principaux objets de ce site Web 
                a également été mise à disposition en version imprimée par la Société des Anciens Textes Français.</p>
             </div>
-            <div>
+            <div xml:id="mentions-legales-auteur">
                <head type="subtitle">Droits d'auteur</head>               
                <p>
                   L’utilisation des transcriptions et des métadonnées, dans un cadre privé ou public non-commercial, est autorisée et gratuite, 
@@ -83,7 +83,7 @@
                   Camille Carnaille, Alignement du <hi rend="italique">Cycle des Sept Sages</hi> et du <hi rend="italique">Roman de Pelyarmenus</hi>, 
                   2025.</p>
             </div>
-            <div>
+            <div xml:id="mentions-legales-update">
                <head type="subtitle">Mises à jour</head>
                <p>
                   Notre équipe met tout en œuvre pour assurer l’exactitude des informations diffusées sur son site à la date de leur mise en ligne, ainsi que leur mise à jour régulière. 
