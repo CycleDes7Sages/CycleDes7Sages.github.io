@@ -2419,8 +2419,8 @@
                      Rome, <hi rend="italique">cf.</hi> le <hi rend="italique">Roman
                      d’Helcanus</hi>, §248-251.</note>, si les vous demandera on, si comme drois et
                   raison l’enseigne. Et pour ce <app>
-                     <lem wit="#G #X2">nous</lem>
-                     <rdg wit="#V2">vous</rdg>
+                     <lem wit="#X2">nous</lem>
+                     <rdg wit="#V2 #G">vous</rdg>
                      <rdg wit="#B">si nous</rdg>
                   </app> en <app>
                      <lem wit="#B #X2">maintenons</lem>
@@ -2669,7 +2669,7 @@
                         avriez honte nous n’i avrions point d’ouneur</hi>: Pelyarmenus affirme son
                      propos de manière sentencieuse au moyen de la litote, en jouant sur le couple
                      honte / absence d’honneur. Il fait comprendre que la honte de Dyalogus
-                     s’étendrait aux membres de sa famille. </note>, et por ce vous di je <app>
+                     s’étendrait aux membres de sa famille.</note>, et por ce vous di je <app>
                      <lem wit="#V2 #G #X2">que</lem>
                      <rdg wit="#B"/>
                   </app>
@@ -7168,15 +7168,14 @@
                   <rdg wit="#B">J. ses freres a lui</rdg>
                   <rdg wit="#G">son frere Josias a lui</rdg>
                </app><note type="notecritique"><hi rend="italique">Josias ses freres a lui</hi>:
-                  Dans <hi rend="italique">V<hi rend="exp">2</hi></hi>, le groupe nominal en
+                  Dans <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>, le groupe nominal en
                   apposition <hi rend="italique">li siens freres</hi> est séparé du sujet <hi
-                     rend="italique">Josias</hi>. On ne peut déterminer avec certitude s’il s’agit
-                  d’une innovation fautive de <hi rend="italique">V<hi rend="exp">2</hi></hi> (qui
-                  aurait d’abord ajouté le complément prépositionnel <hi rend="italique">a lui</hi>,
-                  puis aurait tout de même copié l’apposition <hi rend="italique">li siens
-                     freres</hi>) ou si <hi rend="italique">B</hi> et <hi rend="italique">G</hi>
-                  interviennent indépendamment sur un texte problématique. Nous maintenons la leçon 
-                  de <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>. </note>, et <app>
+                     rend="italique">Josias</hi>, ce qui rend la syntaxe moins fluide que dans <hi rend="italique">B</hi> 
+                  ou <hi rend="italique">G</hi>, sans pour autant nécessiter une correction. 
+                  En outre, l'accord entre <hi rend="italique">V<hi rend="exp">2</hi></hi> et 
+                  <hi rend="italique">X<hi rend="exp">2</hi></hi> pourrait indiquer que la leçon remonte à leur ancêtre, et que 
+                  <hi rend="italique">G</hi> innove 
+                  en rétablissant un ordre plus attendu.</note>, et <app>
                   <lem wit="#V2 #G #X2">la trouva</lem>
                   <rdg wit="#B">l’a trouvee</rdg>
                </app> ainssi <app>
@@ -12835,7 +12834,13 @@
                   >Coustentinoble</placeName></rs>.</said> Et quant il entendi ce <app>
                   <lem wit="#V2 #X2">par sa gent</lem>
                   <rdg wit="#B #G"/>
-               </app>, si cuida bien que <persName key="Helcanus">Helcanus</persName>
+               </app><note type="notecritique"><hi rend="italique">par sa gent</hi>: Étant donné que les ajouts 
+                  propres à <hi rend="italique">V<hi rend="exp">2</hi></hi>, <hi rend="italique">a fortiori</hi> 
+                  de plusieurs termes, sont extrêmement rares (<hi rend="italique">cf.</hi> Annexe 1), et que l'accord 
+                  de <hi rend="italique">V<hi rend="exp">2</hi></hi> et <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+                  pourrait ici indiquer que la leçon remonte 
+                  à leur modèle commun, il est probable que <hi rend="italique">G</hi> omette le segment.</note>, 
+               si cuida bien que <persName key="Helcanus">Helcanus</persName>
                <app>
                   <lem wit="#V2 #G #X2">y fust lui</lem>
                   <rdg wit="#B">ce fust</rdg>
@@ -44736,7 +44741,7 @@
                   </app> de lui <app>
                      <lem wit="#V2 #G #X2">ne message</lem>
                      <rdg wit="#B"/>
-                  </app>, ne elle de moi.</said>Et quant ele oÿ ce, si fu toute esbahie, car ele
+                  </app>, ne elle de moi.</said> Et quant ele oÿ ce, si fu toute esbahie, car ele
                cuidoit que <rs type="person" key="Aphode">sa suer</rs> li eust dit aucune chose. Si
                ne li osa dire <app>
                   <lem wit="#V2 #B #X2">sa volenté</lem>
@@ -51833,10 +51838,12 @@
                </app> et i <app>
                   <lem wit="#V3 #G">en</lem>
                   <rdg wit="#B #X2"/>
-               </app> ot aucuns qui se mistrent aprés <app>
-                  <lem wit="#B #G #X2">lui</lem>
-                  <rdg wit="#V3"/>
-               </app>, et meismement <app>
+               </app> ot aucuns qui se mistrent <app>
+                  <lem wit="#V3">aprés</lem>
+               <rdg wit="#B #G #X2">a. lui</rdg>
+               </app><!--HELPPD remplacer l'emploi prép. de aprés par l'emploi adverbial, on maintient V dans ce cas; j'ai intégré une note et rénvoyé au glossaire--><note type="notecritique"><hi rend="italique">et i 
+               en ot aucuns qui se mistrent aprés</hi>: Usage adverbial de <hi rend="italique">aprés</hi> dans <hi rend="italique">V<hi rend="exp">3</hi></hi>, 
+                  <hi rend="italique">cf.</hi> Glossaire.</note>, et meismement <app>
                   <lem wit="#V3 #G #X2">li</lem>
                   <rdg wit="#B">si</rdg>
                </app> chevalier. <persName key="Mardocheus">Mardocheus</persName> s’en vint a sa
@@ -53456,9 +53463,9 @@
                      </app></lem>
                   <rdg wit="#G">estoit</rdg>
                </app>. <cb n="d"/>Quant <app>
-                  <lem wit="#B #G #X2">il</lem>
-                  <rdg wit="#V3"/>
-               </app> vit <rs type="person" key="Ysodore">sa fenme</rs>, si fu moult joiant, si
+                  <lem wit="#V3">vit</lem>
+               <rdg wit="#B #G #X2">il vit</rdg>
+               </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> <rs type="person" key="Ysodore">sa fenme</rs>, si fu moult joiant, si
                qu’il ne vousist <app>
                   <lem wit="#V3 #B #X2">pour</lem>
                   <rdg wit="#G">par</rdg>
@@ -66409,9 +66416,12 @@
                </app> a sa grant confusion ne l’autre partie a son grant martire. Lors ont tant
                chevauchié li uns sus les autres que les os ce sont entraprochié, et virent l’un
                l’autre qui <app>
-                  <lem wit="#B #G #X2">a</lem>
-                  <rdg wit="#V3"/>
-               </app> merveilles faisoient a redouter.</p>
+                  <lem wit="#V3">merveilles</lem>
+               <rdg wit="#B #G #X2">a m.</rdg>
+               </app><!--HELPPD ajouter au glossaire, j'ai maintenu V, avec l'emploi adverbial de "merveilles", et j'ai fait une note dans laquelle
+               je renvoie au glossaire; attention que le DMF ne note que "d'une façon surprenante", alors que c'est ici aussi l'équivalent, comme la loc. adv. "a merveilles", d'un 
+               adverbe d'intensité -> je n'ai pas fouillé plus--><note type="notecritique"><hi rend="italique">merveilles</hi>: Emploi adverbial, 
+               <hi rend="italique">cf.</hi> Glossaire</note> faisoient a redouter.</p>
             <p n="P751"><persName key="Dorus"><c ana="lettrine2">D</c>orus</persName>, qui la rage
                avoit dedens soi, et ne li chaloit quel <app>
                   <lem wit="#V3 #G #X2">painne</lem>
@@ -66755,13 +66765,10 @@
                   </app> sot de l’art de nigromance, fist tant que le deable la gari a ce que elle
                   s’acorda puis a <rs type="person" key="Cassidorus">mon pere</rs>, qui <rs
                      type="person" key="Fastige">ma mere</rs> en a menee, ainsi com <app>
-                     <lem wit="#B #G #X2">l’en</lem>
-                     <rdg wit="#V3"/>
-                  </app>
-                  <app>
-                     <lem wit="#V3 #B #G">set</lem>
+                     <lem wit="#V3">set</lem>
+                     <rdg wit="#B #G">l'en set</rdg>
                      <rdg wit="#X2">le set</rdg>
-                  </app> bien. Si le comparra <rs type="person" key="Helcanus">vostre
+                     </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> bien. Si le comparra <rs type="person" key="Helcanus">vostre
                   seingneur</rs>, si m’eïst <app>
                      <lem wit="#V3 #G #X2">Deux</lem>
                      <rdg wit="#B">Nostre Seigneur</rdg>
@@ -68395,10 +68402,10 @@
                </app> cuer de fouir si parfaitement qu’il ne les <app>
                   <lem wit="#V3 #G #X2">poist</lem>
                   <rdg wit="#B">pot</rdg>
-               </app> a ataindre jusques a la nuit que <app>
-                  <lem wit="#B #G #X2">il</lem>
-                  <rdg wit="#V3"/>
-               </app> se cuida esforcier, <app>
+               </app> a ataindre jusques a la nuit <app>
+                  <lem wit="#V3">que</lem>
+               <rdg wit="#B #G #X2">que il</rdg>
+               </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> se cuida esforcier, <app>
                   <lem wit="#V3 #B #X2">et</lem>
                   <rdg wit="#G">mes</rdg>
                </app> son cheval par mescheance <app>
@@ -69662,11 +69669,10 @@
                      <lem wit="#V3 #G">vous vodrez</lem>
                      <rdg wit="#B #X2">il vous plaira a</rdg>
                   </app> aler.</said><said rendition="dialogue" aloud="true" direct="true">Et
-                  conment, dist <persName key="Dorus">Dorus</persName>, le pour<cb n="f"/>roie <app>
-                     <lem wit="#B #G #X2">je</lem>
-                     <rdg wit="#V3"/>
-                  </app>
-                  <app>
+                  conment, dist <persName key="Dorus">Dorus</persName>, le <app>
+                     <lem wit="#V3">pour<cb n="f"/>roie</lem>
+                  <rdg wit="#B #G #X2">p. je</rdg>
+                  </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> <app>
                      <lem wit="#V3 #G">savoir</lem>
                      <rdg wit="#B #X2">s. quand</rdg>
                   </app> ? Je ne sai ou nous sonmes ne de quel part nous sonmes ci
@@ -71173,9 +71179,9 @@
                l’ont <app>
                   <lem wit="#V3 #G #X2">saisi</lem>
                   <rdg wit="#B">s. tout maintenant</rdg>
-               </app> de toutes pars et li ont enquis avant que il <app>
-                  <lem wit="#B #G #X2">li</lem>
-                  <rdg wit="#V3"/>
+               </app> de toutes pars et li ont enquis avant que <app>
+                  <lem wit="#V3">il</lem>
+               <rdg wit="#B #G #X2">il li</rdg>
                </app> feissent pis qu’il avoit, qui si fuioit <app>
                   <lem wit="#V3 #G">et</lem>
                   <rdg wit="#B #X2">et si</rdg>
@@ -71321,10 +71327,10 @@
                      <lem wit="#V3 #G #X2">vousist</lem>
                      <rdg wit="#B">vorroit</rdg>
                   </app></said>, et tot autresi distrent il a <persName key="Abylon"
-                  >Abylon</persName> fors que il leur die son non avant que <app>
-                  <lem wit="#B #G #X2">il</lem>
-                  <rdg wit="#V3"/>
-               </app> de eulz se departe pour l’amour et pour la courtoisie qu’il avoit fait a <rs
+                  >Abylon</persName> fors que il leur die son non avant <app>
+                     <lem wit="#V3">que</lem>
+                  <rdg wit="#B #G #X2">que il</rdg>
+                  </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> de eulz se departe pour l’amour et pour la courtoisie qu’il avoit fait a <rs
                   type="person" key="Dorus">leur seingneur</rs>. Lors leur dist <app>
                   <lem wit="#V3 #B #X2">a touz</lem>
                   <rdg wit="#G"/>
