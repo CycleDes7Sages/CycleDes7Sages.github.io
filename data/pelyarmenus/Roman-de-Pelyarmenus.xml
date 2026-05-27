@@ -4235,8 +4235,19 @@
                   <lem source="éd.">dus</lem>
                   <rdg wit="#V2 #G #X2">cuens</rdg>
                   <rdg wit="#B"/>
-               </app><note type="notecritique">Sur ce lieu, <hi rend="italique">cf.</hi> Note au
-                  texte.</note> grant pitié et li dist : <said aloud="true" direct="true"><app>
+                     </app><note type="notecritique"><hi rend="italique">dus</hi>: Bien que le texte mentionne à deux reprises 
+                        que Bourleus est <hi rend="italique">ducs et cuens</hi> (§17 et 32), ce personnage n’est 
+                        jamais désigné par la mention <hi rend="italique">li cuens</hi>. Le personnage de Bourleus, 
+                        qui fait son apparition au §16, est nommé ou désigné par <hi rend="italique">li sires</hi>, <hi rend="italique">li princes</hi> jusqu’au §32; 
+                        sa désignation oscille ensuite essentiellement entre <hi rend="italique">li ducs</hi> et son nom. L'erreur de 
+                        <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> en concomitance avec la lacune de <hi rend="exp">B</hi> indique sans 
+                        doute un problème en amont. Soit l'ancêtre de <hi rend="italique">BV<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> 
+                        donnait erronément <hi rend="italique">cuens</hi>, que transmettent <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> (mais 
+                        dans ce cas, si <hi rend="italique">B</hi> s’est rendu compte de l’erreur et n’a pas copié <hi rend="italique">cuens</hi>, 
+                        on s’attendrait à ce que le copiste ait proposé une correction <hi rend="italique">cuens</hi> > <hi rend="italique">dus</hi>à, soit 
+                        <hi rend="italique">B</hi> transmet telle quelle une lacune de son modèle que l’ancêtre 
+                        de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> tente de corriger par 
+                        <hi rend="italique">cuens</hi>.</note> grant pitié et li dist : <said aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Voirement</lem>
                      <rdg wit="#B">Dous amis, v.</rdg>
                   </app> sont il <app>
@@ -5750,7 +5761,7 @@
                   <rdg wit="#V2 #G #X2"><num>viii</num></rdg>
                </app> jourz<note type="notecritique">Le délai est erroné dans <hi rend="italique"
                         >V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>. Il est bien de trois
-                  jours précédemment (§53).</note>, <app>
+                  jours précédemment(§53).</note>, <app>
                   <lem wit="#V2 #B #G">dont</lem>
                   <rdg wit="#X2">et quant il fu venuz en la ville, dont</rdg>
                </app> s’est <app>
@@ -7315,10 +7326,10 @@
                      <lem wit="#B #X2">Chier</lem>
                      <rdg wit="#V2">Chiere</rdg>
                      <rdg wit="#G"/>
-               </app><note type="notecritique">Nous intervenons sur la finale -<hi
-                  rend="italique">re</hi> de <hi rend="italique">chiere</hi>, qui provient
-                  probablement de la proximité avec <hi rend="italique">frere</hi> juste
-                  après.</note>
+               </app><note type="notecritique"><hi rend="italique">Chiere</hi>: Nous intervenons sur la finale -<hi
+                  rend="italique">re</hi>, qui provient
+                  probablement de la fusion de <hi rend="italique">Chier</hi> et <hi rend="italique">frere</hi> dans l'ancêtre de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>, <hi rend="italique">cf.</hi> apparat.</note>
                   <app>
                      <lem wit="#B">frere</lem>
                      <rdg wit="#V2 #G #X2"/>
@@ -8151,9 +8162,17 @@
                      <lem wit="#V2 #G #X2">garder</lem>
                      <rdg wit="#B">moi garder</rdg>
                   </app> de mesprendre envers vous et envers ame de vostre partie <app>
-                     <lem wit="#B">vous en face</lem>
-                     <rdg wit="#V2 #G #X2">de ce vous fais je</rdg>
-                  </app> sage, par quoi <app>
+                     <lem wit="#V2 #G #X2">de ce vous</lem>
+                  <rdg wit="#B">vous en</rdg>
+                  </app> <app>
+                     <lem wit="#B">face</lem>
+                     <rdg wit="#V2 #G #X2">fais je</rdg>
+                  </app> sage<note type="notecritique"><hi rend="italique">Et Cil... sage</hi>: La leçon 
+                     de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> crée une anacoluthe et laisse le sujet Cil 
+                  en suspens. L'intervention d'après <hi rend="italique">B</hi> est nécessaire. À l'origine de la faute, il y a sans doute 
+                  une confusion entre la forme du subjonctif <hi rend="italique">face</hi> (sous 
+                     une forme comme <hi rend="italique">fage</hi>, comme dans <hi rend="italique">R</hi>?) et le 
+                     verbe <hi rend="italique">faire</hi> + pronom personnel de la P1.</note>, par quoi <app>
                      <lem wit="#V2 #G #X2">pis</lem>
                      <rdg wit="#B">je pis</rdg>
                   </app> n’en aie que j’ai encore desservi, et <app>
@@ -11162,23 +11181,22 @@
                      <num>c</num> chevaliers qui moult font a prisier.</said>
                <cb n="d"/><app>
                   <lem wit="#B">Quant <persName key="Borleuz">Borleuz</persName></lem>
-                  <rdg wit="#V2 #G #X2">Et dist <persName key="Helcanus">Helcanus</persName> que il
+                  <rdg wit="#V2 #G #X2">Et dist Helcanus <hi rend="italique">(sic)</hi> que il
                      est moult desirrans d’aler en Grece ou il onques ne furent pour faire aide a
                      Helcanus. Meismes Mirador y fust alez, mais viellesce le detint, dont il fist
-                     maint grant souspir. Quant il vit que il n’i pot aler, il s’atirerent moult
+                     maint grant souspir quant il vit que il n’i pot aler. Il s’atirerent moult
                      affaitiement <app>
                         <lem wit="#V2 #X2">et pristrent avoir pour euls et chevaus et armeures et se
                            mistrent a la voie et n’ont finé par leur journees tant que il sont venu
                            au duc <persName key="Borleuz">Bourleuz</persName></lem>
                         <rdg wit="#G"/>
                      </app>. Quant <persName key="Borleuz">Borleuz</persName></rdg>
-               </app><note type="notecritique">La correction d’après <hi rend="italique">B</hi>
-                  s’impose du fait que le passage de <hi rend="italique">V<hi rend="exp">2</hi>X<hi
-                        rend="exp">2</hi></hi> est la reprise d’une portion du paragraphe précédent,
-                  peut-être liée au changement de colonne. Il s’agit ainsi probablement d’un saut
-                  régressif sur <hi rend="italique">prisiez/prisier</hi>. Le copiste de <hi
-                     rend="italique">G</hi> s’en est aperçu dans la mesure où il supprime la fin de
-                  cette redite erronée.</note> oÿ <app>
+               </app><note type="notecritique">Le passage ajouté dans <hi rend="italique">V<hi rend="exp">2</hi>X<hi
+                        rend="exp">2</hi></hi> est la reprise d’une portion du paragraphe précédent. Il s’agit 
+                  ainsi probablement d’un saut régressif sur <hi rend="italique">prisiez/prisier</hi>, peut-être facilité 
+                  par le changement de colonne. Le copiste de <hi
+                     rend="italique">G</hi> s’est sans doute aperçu de l'erreur car il s'interrompt plus 
+                  tôt que <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi> (après <hi rend="italique">affaitiement</hi>).</note> oÿ <app>
                   <lem wit="#V2 #G #X2">ces nouveles</lem>
                   <rdg wit="#B">ce</rdg>
                </app>, si fu moult liez <app>
@@ -12335,15 +12353,16 @@
                      <rdg wit="#V2 #G #X2">Ore</rdg>
                   </app><note type="notecritique">L’accord de <hi rend="italique">BGV<hi rend="exp"
                            >2</hi></hi> sur la seconde occurrence de <hi rend="italique">ore</hi>
-                     indique qu’elle remonte à l’archétype. Soit l’archétype donnait un texte
+                     indique qu’elle remonte à leur ancêtre commun. Soit celui-ci donnait un texte
                      redondant, sur lequel intervient <hi rend="italique">B</hi> en substituant le
                      premier <hi rend="italique">Ore</hi> par <hi rend="italique">Car</hi>, soit la
-                     faute remonte à l’ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>G</hi>.
+                     faute remonte à l’ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> (faute 
+                     de lecture?).
                      Nous intervenons d’après <hi rend="italique">B</hi>, qui propose, au moins, une
                      conjecture satisfaisante permettant d’éviter la répétition.</note>
-                  <app>
-                     <lem wit="#X2">avenist</lem>
-                     <rdg wit="#V2 #B #G">a. ore</rdg>
+                  avenist <app>
+                     <lem wit="#V2 #B #G">ore</lem>
+                     <rdg wit="#X2"/>
                   </app> que vous venissiez seur lui en la terre et il vousist poursuivre ce que il
                   a encommencié, sachiez que il vous feroit prendre et metre em prison ou mort <app>
                      <lem wit="#V2 #G #X2">recevoir</lem>
@@ -13719,7 +13738,8 @@
                         rend="italique">mener joie</hi>, bien connue, mais l’emploi de <hi
                         rend="italique">mener (un état, une vie)</hi> ne considère pas l’idée de
                      mouvement que le texte tente de rendre ; <hi rend="italique">muer</hi> est plus
-                     adéquat et ce verbe est repris dans les phrases suivantes.</note> en joie, que
+                     adéquat et ce verbe est repris dans les phrases suivantes. <hi rend="italique">Cf.</hi> également 
+                  la n. au §609.</note> en joie, que
                   li donriez vous ?</said><said rendition="dialogue" aloud="true" direct="true">Par
                   foy, sire, il n’est nuls qui le <app>
                      <lem wit="#V2 #G #X2">feist</lem>
@@ -13757,7 +13777,7 @@
                      "et" (<hi rend="italique">V<hi rend="exp">2</hi></hi>) soit une erreur pour
                      "est", venue corriger l’omission de "fu", mais l’ordre des mots de <hi
                         rend="italique">V<hi rend="exp">2</hi></hi> étonne alors (on attendrait "cil
-                     que vous dites qui est filz Melsius a a non..."). La diffaction indique en
+                     que vous dites qui est filz Melsius a a non..."). La diffraction indique en
                      effet que le passage a posé problème dans toute la tradition, pour des raisons
                      difficiles à déterminer. Parce qu’il manque en effet un verbe, nous ajoutons
                      alors "fu" selon <hi rend="italique">BX<hi rend="exp">2</hi></hi> ou plus
@@ -17806,12 +17826,12 @@
                   </app>, alez en cele court, la derriere, et prenez <app>
                      <lem wit="#B">enula</lem>
                      <rdg wit="#V2 #G #X2">emyla (<hi rend="italique">sic</hi>)</rdg>
-                  </app><note type="notecritique">L’erreur commune à <hi rend="italique">V<hi
-                           rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> s’explique certainement par
-                     le caractère spécifique et savant du nom botanique <hi rend="italique"
+                  </app><note type="notecritique">Un contrôle sur <hi rend="italique">R</hi> montre 
+                     que l'erreur remonte à l'archétype, et que <hi rend="italique">B</hi> donne la bonne leçon par conjecture. Celle-ci s’explique certainement par une mauvaise 
+                     lecture des jambages, facilitée par le caractère spécifique et savant du nom botanique <hi rend="italique"
                         >enula</hi> du latin <hi rend="latin">inula</hi> "aunée" (DEAFplus). Le
                      terme est en effet plus attesté en afr. et mfr. sous sa forme héréditaire <hi
-                        rend="italique">eaune</hi> (FEW IV 784b-785a). </note> et autres herbes que
+                        rend="italique">eaune</hi> (FEW IV 784b-785a).</note> et autres herbes que
                   vous <cb n="c"/>y trouverez delez, <app>
                      <lem wit="#V2 #G #X2">qui</lem>
                      <rdg wit="#B">lesqueles</rdg>
@@ -27104,7 +27124,11 @@
                   </app> et avrai <app>
                      <lem wit="#B">a vous</lem>
                      <rdg wit="#V2 #G #X2"/>
-                  </app> parlé, en tel maniere que je vous amenrai <persName key="Helcanus"
+                  </app><note type="notecritique"><hi rend="italique">avrai a vous</hi>: La présence 
+                     de <hi rend="italique">avrai</hi> est sans doute en cause dans l'omission 
+                     de <hi rend="italique">a vous</hi> 
+                     par <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> (micro-saut du 
+                     même au même sur <hi rend="italique">av-</hi>).</note> parlé, en tel maniere que je vous amenrai <persName key="Helcanus"
                      >Helcanus</persName> si seul que <app>
                      <lem wit="#V2 #G #X2">il ne sera mie</lem>
                      <rdg wit="#B">mie n’avra</rdg>
@@ -44348,7 +44372,7 @@
                </app> encontrerent <name type="people" key="Romains">Rommains</name>, ou il aloient
                en <placeName key="Grece">Grece</placeName>, <said who="#nar">si comme devant est
                   dit</said>. Onques n’i ot nul <app>
-                  <lem wit="#V3">qui en peust oïr nules nouveles, tant seust cerchier, ne qu’eles
+                  <lem wit="#V2">qui en peust oïr nules nouveles, tant seust cerchier, ne qu’eles
                      fussent devenues</lem>
                   <rdg wit="#B">tant seust cherchier, qui peust nule nouvele oÿir d’eles ne que ele
                      fust devenue</rdg>
