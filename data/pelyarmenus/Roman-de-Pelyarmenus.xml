@@ -36901,9 +36901,9 @@
                      <lem wit="#V2 #B #X2">en soit donnee</lem>
                      <rdg wit="#G"/>
                   </app><note type="notecritique"><hi rend="italique">et bonne seurté en soit
-                        donnee</hi>: <hi rend="italique">V<hi rend="exp">2</hi></hi> et <hi
-                        rend="italique">X<hi rend="exp">2</hi></hi> conservent une faute à laquelle
-                     réagit <hi rend="italique">G</hi> en supprimant <hi rend="italique">en soit
+                        donnee</hi>: <hi rend="italique">G</hi> réagit à la faute commune 
+                     à <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> 
+                     en supprimant <hi rend="italique">en soit
                         donnee</hi>.</note>. Et je sai de voir que ce fera il volentiers.</said>
             </p>
             <p n="P352"><c ana="lettrine 2">Q</c>uant li baron l’entendirent, si <app>
@@ -37982,17 +37982,26 @@
                </app>. </p>
             <p n="P365"><c ana="lettrine 2">Q</c>uant il furent ainsi tuit meslé, <rs type="person"
                   key="Borleuz">li dux de <placeName key="Lembourc">Lembourc</placeName></rs> avoit
-                  <placeName key="Laomedon">Laomedon</placeName> laissié, <app>
+                  <placeName key="Laomedon">Laomedon</placeName> laissié <app>
                   <lem wit="#V2 #G #X2">garni</lem>
                   <rdg wit="#B">garnie</rdg>
-               </app> de gent, si que <app>
-                  <lem wit="#B">la avenist</lem>
-                  <rdg wit="#V2 #G #X2">se a la venist</rdg>
-               </app><note type="notecritique">Nous ne trouvons pas mention d’une tournure similaire
-                  à la leçon de <hi rend="italique">B</hi>, qui reste obscure par la présence de <hi
-                     rend="italique">la</hi>, mais qui permet au moins d’éviter le problème de
-                  syntaxe de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp"
-                  >2</hi></hi>.</note> que la ville ne peust estre
+               </app> de gent, si que, <app>
+                  <lem source="éd.">coi qu'il avenist</lem>
+                  <rdg wit="#V2 #G #X2">se a la venist que</rdg>
+                  <rdg wit="#B">la avenist que</rdg>                  
+               <rdg wit="#R">coi qu'il avenist [qi<hi rend="italique">?</hi>]aus</rdg></app><note type="notecritique">Le 
+                  contrôle sur <hi rend="italique">R</hi> permet 
+                  d'interpréter les leçons 
+                  insatisfaisantes de <hi rend="italique">B</hi>, d'une part, et de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>, 
+                  de l'autre, comme les résultats d'un problème 
+                  à hauteur de leur ancêtre commun, et de proposer une correction. La leçon 
+                  de <hi rend="italique">R</hi> que 
+                  nous portons partiellement au texte est suivie d'une chaîne graphique 
+               de quatre ou cinq lettres dont les deux premières sont difficiles 
+               à déchiffrer: <hi rend="italique">qiaus</hi> ? <!--HELPSV a-t-on des 
+                  cas de "si que [incise] que répété? + voir ce qu'on en fait, pourrait 
+                  être répétition de qi av-?--></note>, la ville ne peust estre
                perdue. Et la avoit <persName key="Josyas">Josyas</persName> laissiee <rs
                   type="person" key="Nera">sa se<cb n="e"/>reur</rs> en moult grant doute. <said
                   who="#nar"><app>
@@ -47137,12 +47146,11 @@
                   <app>
                      <lem wit="#V2 #B #X2">est</lem>
                      <rdg wit="#G">qui est</rdg>
-                  </app> en vie<note type="notecritique"><hi rend="italique">V<hi rend="exp"
-                        >2</hi></hi> et <hi rend="italique">X<hi rend="exp">2</hi></hi> donnent le
-                     même texte problématique, que <hi rend="italique">G</hi> corrige par
-                     conjecture, à moins de comprendre "j’ai reçu des nouvelles de mon fils: il est
-                     en vie", avec le verbe <hi rend="italique">est</hi> en tête de
-                     proposition.</note>, mais <app>
+                  </app> en vie<note type="notecritique">
+                     <hi rend="italique">que mon filz est en vie</hi>: La faute remonte au modèle 
+                     de <hi rend="italique">V<hi rend="exp"
+                        >2</hi>GX<hi rend="exp">2</hi></hi>; <hi rend="italique">G</hi> corrige par
+                     conjecture, comme ailleurs.</note>, mais <app>
                      <lem wit="#V2 #B #X2">ne</lem>
                      <rdg wit="#G">je ne</rdg>
                   </app> sai en quel lieu. Et cil qui le porra rendre ou dire nouveles de lui <app>
@@ -47688,8 +47696,10 @@
                   <lem wit="#V2 #G #X2">Et</lem>
                   <rdg wit="#B">que</rdg>
                </app> bien <app>
-                  <lem wit="#B">pooit sambler que il en fust plus dolans par chiere que</lem>
-                  <rdg wit="#V2 #G #X2">sembloit par chiere que <app>
+                  <lem wit="#V2 #G #X2">sembloit</lem>
+               <rdg wit="#B">pooit sambler</rdg></app> <app>
+                  <lem wit="#B">que il en fust plus dolans par chiere que</lem>
+                  <rdg wit="#V2 #G #X2">par chiere que <app>
                         <lem wit="#V2 #G">il</lem>
                         <rdg wit="#X2"/>
                      </app></rdg>
@@ -55635,10 +55645,15 @@
                         <rdg wit="#V3 #G #X2">Cassidore</rdg>
                      </app></persName><note type="notecritique"><hi rend="italique">voirs ce dist
                         Celidoine</hi>: C’est bien aux adieux de Celidoine, et non de Cassidore, à
-                     Cassidorus que le texte renvoie (<hi rend="italique">cf.</hi> §321). Remarquer
-                     en outre l’erreur de <hi rend="italique">V<hi rend="exp">3</hi></hi><hi
-                        rend="italique">G</hi>, qui placent les propos dans la bouche de
-                     Celidoine.</note> quant elle dist que <said aloud="true" direct="false"
+                        Cassidorus que le texte renvoie (<hi rend="italique">cf.</hi> §321). 
+                        La faute remonte à l'ancêtre 
+                        de <hi rend="italique">V<hi rend="exp">3</hi>GX<hi rend="exp">2</hi></hi> et se situe au 
+                        niveau du prénom <hi rend="italique">Celidoine</hi>, devenu 
+                        <hi rend="italique">Cassidore</hi>. Face à la faute, l'ancêtre 
+                        de <hi rend="italique">V<hi rend="exp">3</hi>G</hi> a ajouté le verbe 
+                        <hi rend="italique">est</hi> pour faire de <hi rend="italique">ce dist Cassidore</hi> 
+                        une incise marquant le changement de locuteur, sans toutefois rétablir 
+                        la cohérence narrative.</note> quant elle dist que <said aloud="true" direct="false"
                      type="enchassé">jamés ne vous verroit ne vous li</said>.</said><said
                   rendition="dialogue" aloud="true" direct="true"><persName key="Daphus"
                      >Daphus</persName>, dist il, voirement le dist ele. Mes <app>
@@ -62630,13 +62645,7 @@
                   <lem wit="#B #X2">meuz</lem>
                   <rdg wit="#V3">venus a m.</rdg>
                   <rdg wit="#G">venus</rdg>
-               </app><note type="notecritique"><hi rend="italique">V<hi rend="exp">3</hi></hi>
-                  pourrait transmettre une double leçon (<hi rend="italique">cf.</hi> aussi n. au
-                  §511 et Introduction), mais la proximité graphique entre les termes <hi
-                     rend="italique">venus</hi> et <hi rend="italique">meus</hi> est peut-être en
-                  cause. Il n’est pas exclu que <hi rend="italique">G</hi> corrige une faute de son
-                  modèle, comme ailleurs, <hi rend="italique">cf.</hi> Introduction
-                  philologique.</note> a tout <num>x</num> mile escus, et venoit sus <rs
+               </app> a tout <num>x</num> mile escus, et venoit sus <rs
                   type="person" key="Gomor">le chastelain de <placeName key="ChastelGomor"
                      >Gomor</placeName></rs>. Si veillierent cele nuit <num>xx</num> damoisel a <rs
                   type="place" key="EgliseSaintNicholas">l’eglisse monseingneur <persName
@@ -66931,10 +66940,11 @@
                   <lem wit="#B">souffri</lem>
                   <rdg wit="#V3 #G #X2">souffrir</rdg>
                </app><note type="notecritique"><hi rend="italique">Nostre Sires... souffri</hi>: La
-                     <hi rend="italique">varia lectio</hi> semble indiquer qu’il y a eu un problème
-                  en amont, auquel <hi rend="italique">G</hi> a réagi en omettant le pronom relatif
-                     <hi rend="italique">qui</hi>, qui remonte à l’archétype. Nous intervenons
-                  d’après <hi rend="italique">B</hi>.</note> que ses <num>ii</num> os s’esmurent a
+                     faute remonte à l'ancêtre 
+                     de <hi rend="italique">V<hi rend="exp">3</hi>GX<hi rend="exp">2</hi></hi>; 
+                  <hi rend="italique">G</hi>, comme ailleurs, intervient pour tenter de sauver le texte en 
+                  omettant le pronom relatif <hi rend="italique">qui</hi>, qui remonte à 
+                  l'archétype.</note> que ses <num>ii</num> os s’esmurent a
                venir ensemble, <said who="#nar">et vous dirai conment</said>. <persName key="Dorus"
                   >Dorus</persName>, qui cuidoit bien sormonter a <app>
                   <lem wit="#V3 #G #X2">fere</lem>
