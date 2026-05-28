@@ -3251,25 +3251,22 @@
                   <lem wit="#V2 #B #X2">avant et arriere</lem>
                   <rdg wit="#G"/>
                </app>, et tant que li temps passa <app>
-                  <lem wit="#B #G">que</lem>
-                  <rdg wit="#V2 #X2">de</rdg>
+                  <lem wit="#V2 #X2">de</lem>
+                  <rdg wit="#B #G">que</rdg>
                </app>
                <app>
                   <lem wit="#V2 #B #X2">ces</lem>
                   <rdg wit="#G">toutes ces</rdg>
-               </app>
+               </app> choses
                <app>
-                  <lem wit="#B #G">choses</lem>
-                  <rdg wit="#V2 #X2">choses que il</rdg>
-               </app><note type="notecritique"><hi rend="italique">que ces choses</hi>: Bien que le
-                  texte de <hi rend="italique">V<hi rend="exp">2</hi></hi> ne soit pas proprement
-                  erroné, nous intervenons d’après <hi rend="italique">BG</hi> Il est en effet plus
-                  économique de postuler que l’accord entre <hi rend="italique">B</hi> et <hi
-                     rend="italique">G</hi> indique une leçon d’archétype (<hi rend="italique">V<hi
-                        rend="exp">2</hi></hi> innoverait) que de supposer que <hi rend="italique"
-                     >G</hi> partage fortuitement la leçon de <hi rend="italique">B</hi> après être
-                  intervenu sur le texte de son modèle, de type <hi rend="italique">V<hi rend="exp"
-                        >2</hi></hi>. </note> furent mises en nonchaloir. Un jour s’en vint
+                  <lem wit="#V2 #X2">que il</lem>
+                  <rdg wit="#B #G"/>
+               </app><note type="notecritique"><hi rend="italique">de ces choses que il</hi>: 
+                  L'accord de <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>
+                  indique que la leçon remonte à l'ancêtre de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>, et que 
+                  <hi rend="italique">G</hi> innove en simplifiant la syntaxe (accord 
+                  fortuit avec <hi rend="italique">B</hi>). <hi rend="italique">R</hi> est ici illisible.</note> furent mises en nonchaloir. Un jour s’en vint
                   <persName key="Pelyarmenus">Pelyarmenus</persName> a <rs type="person"
                   key="Fastige">l’empereriz</rs> et li dist que <said aloud="true" direct="false"
                   >grant volenté avoit d’aler en <placeName key="Grece">Grece</placeName> pour
@@ -4018,9 +4015,9 @@
                   <lem wit="#V2 #G #X2">dist</lem>
                   <rdg wit="#B">li dist</rdg>
                </app> : <said aloud="true" direct="true">Sire chevaliers, il <app>
-                     <lem wit="#B #G">me</lem>
-                     <rdg wit="#V2 #X2"/>
-                  </app> samble que vous soiez femme a vostre duel <app>
+                     <lem wit="#V2 #X2">samble</lem>
+                  <rdg wit="#B #G">me s.</rdg>
+                  </app> que vous soiez femme a vostre duel <app>
                      <lem wit="#V2 #B #X2">faire</lem>
                      <rdg wit="#G">faire et li dist</rdg>
                   </app><note type="notecritique"><hi rend="italique">il me samble ... faire</hi>:
@@ -4149,7 +4146,18 @@
                      se vous ore les veiez et il fussent <app>
                      <lem wit="#V2 #X2">ore</lem>
                      <rdg wit="#B #G"/>
-                  </app> en vie ?</said><said rendition="dialogue" aloud="true" direct="true">Ha !
+                  </app><note type="notecritique"><hi rend="italique">se vous ore... ore</hi>: 
+                  Il peut s'agir tant d'une répétition indépendante de l'adverbe 
+                  dans <hi rend="italique">V<hi rend="exp">2</hi></hi> et 
+                     <hi rend="italique">X<hi rend="exp">2</hi></hi> que 
+                  d'une leçon remontant à l'ancêtre de 
+                     <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>, avec 
+                     valeur d'insistance,
+                     sur laquelle <hi rend="italique">G</hi> est intervenu en supprimant l'adverbe 
+                     jugé redondant. Cette partie 
+                  du paragraphe a brûlé dans <hi rend="italique">R</hi>. 
+                     Dans le doute, nous maitenons la leçon 
+                     de <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>.</note> en vie ?</said><said rendition="dialogue" aloud="true" direct="true">Ha !
                   sire, pour Dieu merci, <app>
                      <lem wit="#V2 #B #X2">porcoi ne</lem>
                      <rdg wit="#G"/>
@@ -8539,7 +8547,7 @@
                <rs type="person" key="Nera">la pucelle</rs> et li dist : <said rendition="dialogue"
                   aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Damoisele</lem>
-                     <rdg wit="#B">Ma demoisele</rdg>
+                     <rdg wit="#B">Ma d.</rdg>
                   </app>, <app>
                      <lem wit="#V2 #G #X2">comme il soit</lem>
                      <rdg wit="#B">se il est</rdg>
@@ -8955,7 +8963,7 @@
                   </app> fait.</said><said rendition="dialogue" aloud="true" direct="true"
                   ana="to-continue">Par Dieu, <app>
                      <lem wit="#V2 #G #X2">damoisele</lem>
-                     <rdg wit="#B">ma damoisele</rdg>
+                     <rdg wit="#B">ma d.</rdg>
                   </app>, or sachiez que la raison por quoi je l’ai fait <app>
                      <lem wit="#V2 #G #X2">si</lem>
                      <rdg wit="#B"/>
@@ -10219,11 +10227,12 @@
                      <lem wit="#B #G">je</lem>
                      <rdg wit="#V2 #X2">je meismes</rdg>
                   </app><note type="notecritique">La présence du premier <hi rend="italique"
-                        >meismes</hi> dans <hi rend="italique">V<hi rend="exp">2</hi></hi>+<hi
+                        >meismes</hi> dans <hi rend="italique">V<hi rend="exp">2</hi></hi><hi
                         rend="italique">X<hi rend="exp">2</hi></hi> crée une répétition gênante (par
                      anticipation du second <hi rend="italique">meismes</hi>), dans laquelle
-                     l’adjectif ne se justifie pas du point de vue du sens. Nous intervenons d’après
-                        <hi rend="italique">BG</hi>.</note> vous ai laissié acompter comment je
+                     l’adjectif ne se justifie pas du point de vue du sens (voir à ce 
+                     propos notre n. au §37). Nous intervenons d’après
+                        <hi rend="italique">BG</hi> et <hi rend="italique">R</hi>, ici contrôlable.</note> vous ai laissié acompter comment je
                   meismes m’acointai de lui. Ainssi comme <persName key="Detriet"><app>
                         <lem wit="#V2 #G">Deurriet</lem>
                         <rdg wit="#B">Deriet</rdg>
@@ -11067,10 +11076,15 @@
                   <lem wit="#B">la</lem>
                   <rdg wit="#V2 #X2">sa</rdg>
                   <rdg wit="#G"/>
-               </app><note type="notecritique">Le segment <hi rend="italique">qu’il en ot</hi> rend
-                  préférable la leçon de <hi rend="italique">B</hi>. Il est possible que <hi
+               </app> leesce qu’il en ot<note type="notecritique"><hi rend="italique">la leesce 
+                  qu'il en ot</hi>: 
+                  Le segment <hi rend="italique">qu’il en ot</hi> rend
+                  préférable la leçon de <hi rend="italique">B</hi>. L'omission indépendante de l'article 
+                  dans <hi rend="italique">G</hi> ne permet pas de déterminer si <hi
                      rend="italique">sa</hi> dérive d’une confusion <hi rend="italique">l</hi>/<hi
-                     rend="italique">s</hi>.</note> leesce qu’il en ot sormontoit le duel que il
+                        rend="italique">s</hi> indépendante 
+                  dans <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi> ou dans 
+                  l'ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>.</note> sormontoit le duel que il
                avoit de <persName key="Pelyarmenus">Pelyarmenuz</persName>. Mais trop estoit
                courouciez du bon <persName key="Melsius">Melsius</persName>, qui peres avoit esté a
                   <persName key="Clyodorus">Clyodorus</persName>, quant il sot l’aventure de sa
@@ -11338,13 +11352,16 @@
                <app>
                   <lem wit="#B #G">quant</lem>
                   <rdg wit="#V2 #X2">quar</rdg>
-               </app><note type="notecritique">Nous corrigeons ici, car la valeur attendue est plus
+               </app><note type="notecritique">Nous corrigeons ce qui dérive probablement d'une 
+                  erreur de lecture <hi rend="italique">quant</hi> > <hi rend="italique">quar</hi>; 
+                  <hi rend="italique">R</hi> donne lui aussi <hi rend="italique">quant</hi>. 
+                  La valeur attendue est plus
                   temporelle que causale, le texte faisant référence à l’attitude des enfants au
                   moment de retrouver leur frère. Remarquons en outre les effets de continuité
                   ménagés par la narration, qui semble souligner la transition des <hi
                      rend="italique">contenances</hi>, liées à Helcanus et à sa compagnie, au verbe
                      <hi rend="italique">contindrent</hi>, s’appliquant aux actions des autres
-                  personnages dont il sera question dans la suite du récit, dans une forme
+                  personnages dont il sera question par la suite, dans une forme
                   d'enchaînement du récit.</note> il furent amené devant <rs type="person"
                   key="Helcanus">leur frere</rs>.</p>
          </div>
@@ -13543,7 +13560,7 @@
                      Ménard, §102, p.107).</note> ?</said><said rendition="dialogue" aloud="true"
                   direct="true"><app>
                      <lem wit="#V2 #G #X2">Damoisele</lem>
-                     <rdg wit="#B">Ma damoisele</rdg>
+                     <rdg wit="#B">Ma d.</rdg>
                   </app>, dist il, <app>
                      <lem wit="#V2">en vie est il</lem>
                      <rdg wit="#B">li emperere est en vie</rdg>
@@ -15595,10 +15612,19 @@
                   <lem wit="#B #G #X2">mena</lem>
                   <rdg wit="#V2">m. maintenant</rdg>
                </app> au <rs type="place" key="BiauManoir">chastel</rs> amont. Li mengiers fu touz
-               pres et les <app>
-                  <lem wit="#B #G">tables</lem>
-                  <rdg wit="#V2 #X2">t. furent</rdg>
-               </app> mises. Il <app>
+               pres et les tables <app>
+                  <lem wit="#V2 #X2">furent</lem>
+                  <rdg wit="#B #G"/>
+               </app> mises<note type="notecritique"><hi rend="italique">et les tables furent mises</hi>: 
+                  La leçon de <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>, 
+                  qui ajoutent <hi rend="italique">furent</hi>, ne justifie pas une correction. 
+                  Le contrôle sur <hi rend="italique">R</hi>, 
+               qui s'accorde avec <hi rend="italique">BG</hi>, nous apprend qu'il ne s'agit 
+                  pas de la leçon originelle, que l'ajout 
+                  remonte à l'ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> 
+                  (avec omission de <hi rend="italique">G</hi>) ou qu'il soit indépendant dans 
+                  <hi rend="italique">V<hi rend="exp">2</hi></hi> et <hi rend="italique">X<hi rend="exp">2</hi></hi>. 
+               Voir aussi n. aux §§208 et 209.</note>. Il <app>
                   <lem wit="#V2 #G #X2">ont</lem>
                   <rdg wit="#B">l’ont</rdg>
                </app><note type="notecritique">Il n’est pas clair à quoi réfère le pronom régime
@@ -17468,7 +17494,7 @@
                   erronée sur laquelle s’accordent <hi rend="italique">B</hi> et <hi rend="italique"
                      >G</hi>. Si la faute remonte à l’archétype, <hi rend="italique">V<hi rend="exp"
                         >2</hi></hi> (+<hi rend="italique">X<hi rend="exp">2</hi></hi>) y aura réagi
-                  par conjecture.</note> estoient mené que
+                  par conjecture.<!--R Wood b12-5rb toute fin--></note> estoient mené que
                trop grant pitié estoit d’eulz veoir. Dont commencierent leur compaignons a regreter
                et eulz meismes a dementer <app>
                   <lem wit="#V2 #G #X2">et</lem>
@@ -18674,7 +18700,7 @@
                   rendition="dialogue" aloud="true" direct="true">
                   <app>
                      <lem wit="#V2 #G #X2">Damoisele</lem>
-                     <rdg wit="#B">Damoisele, pour Dieu</rdg>
+                     <rdg wit="#B">D., pour Dieu</rdg>
                   </app>, comment vous est ?</said><said rendition="dialogue" aloud="true"
                   direct="true">Sire, dist ele, ainssi comme <app>
                      <lem wit="#V2 #G">a</lem>
@@ -20613,7 +20639,7 @@
                   encourage à proposer une correction d’après <hi rend="italique">B</hi> (<hi
                      rend="italique">si</hi>), tout en conservant la conjonction temporelle <hi
                      rend="italique">Quant</hi> commune à <hi rend="italique">V<hi rend="exp"
-                        >2</hi>GX<hi rend="exp">2</hi></hi>.</note>:
+                        >2</hi>GX<hi rend="exp">2</hi></hi><!--R Wood b14-5rb-->.</note>:
                   <said rendition="dialogue" aloud="true" direct="true">Encore ne vous avons nous <app>
                      <lem wit="#V2 #G #X2">pas dite</lem>
                      <rdg wit="#B">dit</rdg>
@@ -21766,10 +21792,19 @@
                      <rdg wit="#V2 #X2">sire</rdg>
                      <rdg wit="#G"/>
                   </app><note type="notecritique">L’omission de <hi rend="italique">G</hi> pourrait
-                     indiquer que le copiste tente d’éviter une leçon erronée.</note>, <app>
-                     <lem wit="#B #G">dist il</lem>
-                     <rdg wit="#V2 #X2"/>
-                  </app>, tant avez <app>
+                     indiquer que le copiste, comme ailleurs, tente d’éviter une leçon erronée qu'il hérite de 
+                     son ancêtre commun avec 
+                     <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>. 
+                  <hi rend="italique">R</hi> est ici illisible.</note>, 
+                     <app><lem wit="#V2 #X2">tant</lem>
+                     <rdg wit="#B #G">dist il, t.</rdg>
+                     </app><note type="notecritique">L'incise de dialogue manque 
+                     dans <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>, ce qui 
+                     par ailleurs fréquent dans l'un ou l'autre 
+                     témoin. Le stemma ne permet pas de trancher en faveur d'une 
+                     correction; <hi rend="italique">R</hi> est par ailleurs illisible. Nous maintenons 
+                        la leçon de 
+                     <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>. Cf. aussi n. au §330.</note> avez <app>
                      <lem wit="#V2 #X2">fait</lem>
                      <rdg wit="#G">fet|fait</rdg>
                   </app> pour moi que vous <app>
@@ -21946,7 +21981,12 @@
                   <lem wit="#B">li</lem>
                   <rdg wit="#V2 #X2">leur</rdg>
                   <rdg wit="#G"/>
-               </app> dist : <said rendition="dialogue" aloud="true" direct="true">Damoisele, je
+               </app><note type="notecritique">Le pronom <hi rend="italique">leur</hi> introduit 
+               dans <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi> une 
+                  erreur de référent; nous le corrigeons donc d'après 
+                  <hi rend="italique">B</hi> et <hi rend="italique">R</hi>, ici contrôlable. On ne peut 
+                  déterminer avec certitude l'origine de la faute, puisqu'il est possible que <hi rend="italique">G</hi>, 
+               comme ailleurs, évite la difficulté en omettant le pronom.</note> dist : <said rendition="dialogue" aloud="true" direct="true">Damoisele, je
                   m’en vois en la vostre besoingne et <app>
                      <lem wit="#V2 #B #X2">en la <rs type="person" key="Helcanus">mon
                         seigneur</rs></lem>
@@ -22000,7 +22040,13 @@
                </app> ont rendu <app>
                   <lem wit="#B #G">son</lem>
                   <rdg wit="#V2 #X2">leur</rdg>
-               </app> salut et li demanderent <said aloud="true" direct="false">qui il
+               </app><note type="notecritique">Le pronom <hi rend="italique">leur</hi> dans 
+                  <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi> 
+                  génère une erreur de référent. Le stemma ne permet pas de déterminer si l'erreur 
+                  est indépendante dans <hi rend="italique">V<hi rend="exp">2</hi></hi> 
+                  et <hi rend="italique">X<hi rend="exp">2</hi></hi> ou si elle remonte à l'ancêtre 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> et 
+                  a été corrigée par <hi rend="italique">G</hi>, comme ailleurs. Cette partie de la phrase a brûlé dans <hi rend="italique">R</hi>.</note> salut et li demanderent <said aloud="true" direct="false">qui il
                estoit</said>, <app>
                   <lem wit="#V2 #G #X2">et il leur dist</lem>
                   <rdg wit="#B">Par foi, biax seigneurs, dist il</rdg>
@@ -22406,30 +22452,34 @@
                </app>. <said who="#nar">Si veul <app>
                      <lem wit="#V2 #G #X2">revenir</lem>
                      <rdg wit="#B">venir</rdg>
-                  </app> a <app>
-                     <lem wit="#B #G">lui</lem>
-                     <rdg wit="#V2 #X2">lui et conter</rdg>
-                  </app>, comment<note type="notecritique"><hi rend="italique">Si veul revenir a
-                        lui, comment</hi>: Dans <hi rend="italique">BG</hi>, la formule de fin de
+                  </app> a lui <app>
+                     <lem wit="#V2 #X2">et conter</lem>
+                     <rdg wit="#B #G"/>
+                  </app> comment<note type="notecritique"><hi rend="italique">Si veul revenir a
+                        lui et conter comment</hi>: Dans <hi rend="italique">BGR</hi>, la formule de fin de
                      paragraphe prend la forme d’une rubrique (<hi rend="italique">Si veul revenir a
-                        lui, comment il...</hi>). <hi rend="italique">V<hi rend="exp">2</hi></hi> a
-                     ressenti le besoin d’ajouter <hi rend="italique">et conter</hi> pour introduire
-                     l’interrogation indirecte, ce que le stemma permet d’identifier comme une
-                     innovation face au texte de l’archétype que transmettent <hi rend="italique"
-                        >B</hi> et <hi rend="italique">G</hi>. Nous intervenons donc sur <hi
-                        rend="italique">V<hi rend="exp">2</hi></hi>. Pour d’autres exemples de
-                     tournures similaires, <hi rend="italique">cf.</hi> par ex. <hi rend="italique"
-                        >Le Roman d’Helcanus</hi>, § 44 : <hi rend="italique">et retorne a Fremor et
+                        lui, comment il...</hi>). La leçon 
+                     de <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="exp">2</hi></hi>, qui ne 
+                     nécessite pas de correction et dans 
+                     laquelle <hi rend="italique">et conter</hi> introduit une 
+                     interrogative indirecte, n'est donc pas originelle; le stemma ne 
+                     permet pas de déterminer s'il s'agit d'un ajout indépendant 
+                     dans <hi rend="italique">V<hi rend="exp">2</hi></hi> et 
+                     <hi rend="italique">X<hi rend="exp">2</hi></hi> ou dans l'ancêtre 
+                     de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> 
+                     (<hi rend="italique">G</hi> étant dans ce cas intervenu). Voir aussi la n. aux 
+                     §§146 et 209. 
+                     Pour d’autres exemples de
+                     tournures similaires à celle de <hi rend="italique">BGR</hi>, 
+                     <hi rend="italique">cf.</hi> par ex. <hi rend="italique"
+                        >Le Roman de Helcanus</hi>, § 44 : <hi rend="italique">et retorne a Fremor et
                         a ses freres comme il esploitierent de l’amende faire envers
                         l’empereur...</hi> ; § 241 <hi rend="italique">Si veul parler des damoisiaus
                         de Romme comment il esploitierent ...</hi> ; § 332 <hi rend="italique">Si
-                        parlerons aprés de Pelyarmenus de Romme. Comment il avoit pourchacié vers
+                        parlerons aprés de Pelyarmenus de Romme. 
+                        Comment [<hi rend="italique">sic</hi>] il avoit pourchacié vers
                         Dyalogus, son frere le bastart, de metre a mort les .ij. enfanz petiz a
-                        l’empererour</hi> (à notre sens, et au vu des exemples précédents, il aurait
-                     été préférable que l’éditeur n’introduise pas de ponctuation forte après <hi
-                        rend="italique">Romme</hi> dans ce dernier exemple ; l’introduction d’une
-                     virgule avant <hi rend="italique">comme(nt)</hi> aurait également été
-                     souhaitable).</note> il aloit querre <app>
+                        l’empererour</hi>.</note> il aloit querre <app>
                      <lem wit="#V2 #B #X2">le</lem>
                      <rdg wit="#G"/>
                   </app> secours pour ceulz dedenz, qui n’estoient mie <app>
@@ -22500,10 +22550,15 @@
                      </app> et</lem>
                   <rdg wit="#G">Il</rdg>
                </app> ne fina par ses jornees tant que il oÿ nouveles que <persName
-                  key="Pelyarmenus">Pelyarmenus</persName> estoit a <num>i</num> sien <app>
-                  <lem wit="#B #G">chastel</lem>
-                  <rdg wit="#V2 #X2">ch. qui estoit</rdg>
-               </app> assez pres de <app>
+                  key="Pelyarmenus">Pelyarmenus</persName> estoit a <num>i</num> sien chastel <app>
+                  <lem wit="#V2 #X2">qui estoit</lem>
+                  <rdg wit="#B #G"/>
+               </app><note type="notecritique"><hi rend="italique">qui estoit</hi>: 
+                  <hi rend="italique">R</hi> s'accorde avec <hi rend="italique">BG</hi>, 
+               ce qui indique que la leçon de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>X<hi rend="italique">2</hi></hi> n'est pas originelle, 
+               sans pour autant nécessiter de correction. <hi rend="italique">Cf.</hi> aussi 
+                  les n. aux §§146 et 208.</note> assez pres de <app>
                   <lem wit="#V2 #G #X2"><placeName key="Costentinnoble"
                      >Costentinnoble</placeName></lem>
                   <rdg wit="#B">la cité de C.</rdg>
@@ -22933,15 +22988,17 @@
                         rend="italique">laroie</hi>) comme l’article + auxiliaire <hi
                         rend="italique">l’airoie</hi>, mais la phrase ne tourne pas (<hi
                         rend="italique">cf.</hi> d’ailleurs l’omission de <hi rend="italique"
-                     >G</hi>, qui évite le problème). Nous préférons intervenir en rétablissant la
+                     >G</hi>, qui évite le problème). Seule la partie <hi rend="italique">ne laroie</hi> 
+                     est lisible dans <hi rend="italique">R</hi>. 
+                     Nous préférons intervenir en rétablissant la
                      forme de l’infinitif <hi rend="italique">raconter</hi> dans la tournure <hi
                         rend="italique">laisser</hi> + inf. ’cesser de + inf.’, le narrateur
                      indiquant qu’il passe sur les détails pour éviter l’ennui de son
-                     public/lecteur. Comprendre "Je ne cesserais pas de raconter, je (vous)
+                     public/lecteur. Comprendre "Je ne cesserais [=Si je ne cessais] pas de raconter, je (vous)
                      ennuierais" ou, moins littéralement, "Si je continuais mon récit, je vous
                      ennuyerais"; pour cette construction hypothétique, qui procède par agrégation,
                         <hi rend="italique">cf.</hi> Buridant,
-                     §569.</note><app>
+                     §569.<!--R Wood b13-3va (peu d'espoir)--></note><app>
                      <lem wit="#V2 #G #X2">mais</lem>
                      <rdg wit="#B">ainz</rdg>
                   </app>
@@ -28039,9 +28096,12 @@
                   <lem wit="#V2 #G #X2">l’entendi</lem>
                   <rdg wit="#B">l’entent</rdg>
                </app>, si fu trop <app>
-                  <lem wit="#B #G">yriez</lem>
-                  <rdg wit="#V2 #X2">courouciez</rdg>
-               </app> et dist : <said aloud="true" direct="true">Par Dieu, <persName key="Clerus"
+                  <lem wit="#V2 #X2">courouciez</lem>
+                  <rdg wit="#B #G">yriez</rdg>
+               </app><note type="notecritique">La répartition des témoins indique que l'alternance 
+               entre ces deux adjectifs est sans doute polygénétique. Ailleurs dans le roman, on ne rencontre 
+               que trois substitutions de l'un par l'autre (deux fois dans <hi rend="italique">B</hi> au §74 
+               et une fois dans <hi rend="italique">G</hi> au §308).</note> et dist : <said aloud="true" direct="true">Par Dieu, <persName key="Clerus"
                      >Clerus</persName>, povre <app>
                      <lem wit="#B #G #X2">chevalerie feriez</lem>
                      <rdg wit="#V2">chevalerie›z‹[f]eriez</rdg>
@@ -29992,12 +30052,16 @@
                </app>, <app>
                   <lem wit="#B #G">que</lem>
                   <rdg wit="#V2 #X2">tant que</rdg>
-               </app><note type="notecritique">L’accord de <hi rend="italique">BG</hi> nous invite
-                  dans ce cas à intervenir: la répétition de l’élément corrélatif <hi
+               </app><note type="notecritique">La répétition de l’élément corrélatif <hi
                      rend="italique">tant</hi> pour exprimer le lien de conséquence, sans doute
                   favorisée par la présence du complément circonstanciel <hi rend="italique">l’un
                      jour... mains</hi>, n’est pas renseignée par Ménard, §248 ou Buridant, §562.
-                     <hi rend="italique">Cf.</hi> aussi n. au §434.</note> il <app>
+                  <hi rend="italique">Cf.</hi> aussi n. au §434. Sans que le stemma permette de 
+                  déterminer l'origine de la faute (<hi rend="italique">G</hi> pouvant, 
+                  comme ailleurs, intervenir après avoir 
+                  identifié la redondance), nous intervenons donc d'après 
+                  <hi rend="italique">BG</hi> 
+                  (<hi rend="italique">R</hi> n'est pas contrôlable).</note> il <app>
                   <lem wit="#V2 #G #X2">vint</lem>
                   <rdg wit="#B">s’embati</rdg>
                </app> el royaume d’<placeName key="Espaigne">Espaigne</placeName>. <app>
@@ -34447,10 +34511,13 @@
                   </app> estable ainçois que <app>
                      <lem wit="#V2 #G #X2">vous de moi vous departez</lem>
                      <rdg wit="#B">je me departe de vous</rdg>
-                  </app>.</said><said rendition="dialogue" aloud="true" direct="true">Certes, sire, <app>
-                     <lem wit="#B #G">dist il</lem>
-                     <rdg wit="#V2 #X2"/>
-                  </app>, vous dites verité.</said><said rendition="dialogue" aloud="true"
+                  </app>.</said><said rendition="dialogue" aloud="true" direct="true">Certes, <app>
+                     <lem wit="#V2 #X2">sire</lem>
+                  <rdg wit="#B #G">s., dist il</rdg>
+                  </app><note type="notecritique">Les incises de dialogue semblent un lieu 
+                     privilégié d'interventions dans les différents témoins, parfois de manière entropique 
+                     par rapport au stemma. 
+                     <hi rend="italique">Cf.</hi> aussi n. au §204.</note>, vous dites verité.</said><said rendition="dialogue" aloud="true"
                   direct="true"><app>
                      <lem wit="#V2 #G #X2">Sachiez, dist <rs type="person" key="Robert">li
                            cuens</rs></lem>
@@ -34596,7 +34663,7 @@
                      <lem wit="#V2 #B #X2">la</lem>
                      <rdg wit="#G"/>
                   </app> verité<note type="notecritique"><hi rend="italique">bien croi...
-                        verité</hi>: La phrase ne se construit pas dans <hi rend="italique">V<hi
+                        verité</hi>: <!--Wood R b16-2v (serait intéressant!!!)-->La phrase ne se construit pas dans <hi rend="italique">V<hi
                            rend="exp">2</hi></hi>+<hi rend="italique">X<hi rend="exp">2</hi></hi> en
                      raison de la présence du pronom <hi rend="italique">vous</hi>. Nous intervenons
                      d’après <hi rend="italique">BG</hi>, qui donnent une dislocation à gauche du
@@ -34607,7 +34674,7 @@
                      indépendamment <hi rend="italique">ope ingenii</hi> et aient ajouté <hi
                         rend="italique">bien</hi> pour éviter une syntaxe tordue, qui contrevient à
                      la loi de Tobler-Mussafia. <hi rend="italique">Cf.</hi> aussi Note
-                     linguistique.</note>.</said> Lors fist apeler <rs
+                     linguistique.<!--R wood b16-2va--></note>.</said> Lors fist apeler <rs
                   type="person" key="Prevot">le prevost</rs> et ceulz qui plus en firent a croire;
                et ala la chose en tel maniere que li bourgois <app>
                   <lem wit="#V2 #G #X2">en</lem>
@@ -38001,7 +38068,7 @@
                de quatre ou cinq lettres dont les deux premières sont difficiles 
                à déchiffrer: <hi rend="italique">qiaus</hi> ? <!--HELPSV a-t-on des 
                   cas de "si que [incise] que répété? + voir ce qu'on en fait, pourrait 
-                  être répétition de qi av-?--></note>, la ville ne peust estre
+                  être répétition de qi av-? R Wood b17-9rb--></note>, la ville ne peust estre
                perdue. Et la avoit <persName key="Josyas">Josyas</persName> laissiee <rs
                   type="person" key="Nera">sa se<cb n="e"/>reur</rs> en moult grant doute. <said
                   who="#nar"><app>
