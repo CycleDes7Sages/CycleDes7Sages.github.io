@@ -16448,12 +16448,17 @@
                   <lem wit="#G">moult noblement</lem>
                   <rdg wit="#V2">merveilleusement n.</rdg>
                   <rdg wit="#B #X2"/>
-               </app><note type="notecritique">Nous corrigeons <hi rend="italique">V<hi rend="exp"
-                        >2</hi></hi> car la présence de deux adverbes successifs en -<hi
-                     rend="italique">ment</hi> nous semble erronée (soit la faute remonte à
-                  l’ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>G</hi>, et <hi
-                     rend="italique">G</hi> la corrige, soit il s’agit d’une faute propre de <hi
-                     rend="italique">V<hi rend="exp">2</hi></hi>).</note> poli en leur armes. Et
+               </app><note type="notecritique">La présence de deux adverbes successifs en -<hi
+                  rend="italique">ment</hi> semble erronée dans <hi rend="italique">V<hi rend="exp"
+                     >2</hi></hi> (qu'il s'agisse d'une erreur de l’ancêtre 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi>, que <hi
+                     rend="italique">G</hi> corrigerait, ou d’une faute propre de <hi
+                     rend="italique">V<hi rend="exp">2</hi></hi>). Le stemma permet 
+                  en tout cas d'identifier l'ajout de l'adverbe 
+               <hi rend="italique">noblement</hi> comme une innovation de l'ancêtre 
+               de <hi rend="italique">V<hi rend="exp">2</hi>G</hi>. 
+                  <hi rend="italique">R</hi> s'accorde 
+                  avec <hi rend="italique">BX<hi rend="exp">2</hi></hi>.</note> poli en leur armes. Et
                sachiez que d’eulz <num>ii</num> ne peust on <app>
                   <lem wit="#V2 #G #X2">onques</lem>
                   <rdg wit="#B">ainç mais</rdg>
@@ -16487,10 +16492,12 @@
                   <rdg wit="#B">furent</rdg>
                </app> entrencontré si cruelment que li escu fendirent et volerent em <cb n="f"
                />pieces, et s’entrencontrerent de si grant vertu que li cheval s’entreoccistrent, et
-               euls meismes de corps et de pis <app>
-                  <lem wit="#B # #X2">s’entrehurterent</lem>
-                  <rdg wit="#V2">s’e. si et</rdg>
-               </app> en tele maniere que les hiaumes leur volerent des chiés, et furent <app>
+               euls meismes de corps et de pis s’entrehurterent <app>
+                  <lem wit="#V2">si et</lem>
+                  <rdg wit="#B #G #X2"/>
+               </app> en tele maniere<note type="notecritique"><hi rend="italique">si et en tele maniere</hi>: 
+               Commenter HELPSV <!--un autre cas chez Christine de Pizan? fréquent?-->. Cette partie du paragraphe a brûlé dans <hi rend="italique">R</hi> (au début de la 
+               colonne, juste après <hi rend="italique">pis</hi>).</note> que les hiaumes leur volerent des chiés, et furent <app>
                   <lem wit="#V2 #G">adont tel</lem>
                   <rdg wit="#B">si</rdg>
                   <rdg wit="#X2">tel</rdg>
@@ -17740,12 +17747,9 @@
                   aaisiez.</said> Dont ne sorent que faire de eulz desarmer pour leur plaies, et
                d’autre part il n’avoient nules robes dont il se peussent vestir, et tant qu’il se
                sont moult complaint. Et quant <rs type="person" key="ValetVulgue">li
-                  jouvenciaus</rs> oÿ ce, si <app>
-                  <lem wit="#V2 #G #X2">le dist</lem>
-                  <rdg wit="#B">l’a dit</rdg>
-               </app> au <rs type="person" key="Ydoine">viel homme</rs>. Et dont <app>
+                  jouvenciaus</rs> oÿ ce, si le dist au <rs type="person" key="Ydoine">viel homme</rs>. Et dont <app>
                   <lem wit="#V2 #G #X2">apela il</lem>
-                  <rdg wit="#B">les apela</rdg>
+                  <rdg wit="#B">les a.</rdg>
                </app>
                <app>
                   <lem wit="#V2 #G #X2"><persName key="Mirrus">Mirrus</persName></lem>
@@ -17755,10 +17759,13 @@
                   <lem wit="#B #G #X2">et</lem>
                   <rdg wit="#V2">et li dist et</rdg>
                </app><note type="notecritique">
-                  <hi rend="italique">V<hi rend="exp">2</hi></hi> a sans doute opéré un saut en
-                  avant sur <hi rend="italique">et</hi>, puis s’est aperçu de son erreur et a copié
-                  le segment omis (<hi rend="italique">et il vint a lui</hi>), sans pour autant
-                  exponctuer le passage redondant.</note>
+                  <hi rend="italique">V<hi rend="exp">2</hi></hi> a sans doute opéré 
+                  un saut en
+                  avant sur <hi rend="italique">et</hi>, puis s’est aperçu de 
+                  son erreur et a copié
+                  le segment omis 
+                  (<hi rend="italique">et il vint a lui</hi>), sans pour autant
+                  supprimer le passage redondant.</note>
                <app>
                   <lem wit="#V2 #X2">il</lem>
                   <rdg wit="#B #G">Mirus</rdg>
@@ -36504,25 +36511,28 @@
                   <lem wit="#B #G #X2">remuer</lem>
                   <rdg wit="#V2">r. et au garder que l’en fist</rdg>
                </app> de ses plaies. Et quant si frere <app>
-                  <lem wit="#V2 #G">le</lem>
+                  <lem wit="#V2 #G #X2">le</lem>
                   <rdg wit="#B">ce</rdg>
                </app> sorent, <persName key="Japhus">Japhus</persName> et <persName key="Heleus"
-                  >Heleuz</persName>
+                  >Heleuz</persName>,
                <app>
-                  <lem wit="#V2 #G #X2">et <app>
+                  <lem wit="#V2 #G #X2"><app>
+                     <lem wit="#V2 #G">et</lem>
+                  <rdg wit="#X2"/>
+                  </app> <app>
                         <lem wit="#V2 #X2">meismes</lem>
                         <rdg wit="#G"/>
                      </app> li <app>
                         <lem wit="#V2 #G">autre</lem>
                         <rdg wit="#X2"/>
-                     </app> baron <app>
+                     </app> baron, <app>
                         <lem wit="#V2 #X2">si</lem>
                         <rdg wit="#G"/>
                      </app> en furent trop <app>
                         <lem wit="#V2 #G">durement</lem>
                         <rdg wit="#X2"/>
                      </app></lem>
-                  <rdg wit="#B">si furent ausi comme touz desuez, meismes li autre baron en furent
+                  <rdg wit="#B">si furent ausi comme touz desvez, meismes li autre baron en furent
                      trop</rdg>
                </app> courouciez, car moult avoit esté <app>
                   <lem wit="#V2 #B #X2">souffisanz</lem>
@@ -36562,17 +36572,19 @@
                   <rdg wit="#B #X2"/>
                </app><note type="notecritique">Possible saut du même au même non erroné de <hi
                      rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi> sur -<hi
-                     rend="italique">ier</hi>.</note>, et entendre chascun <app>
-                  <lem wit="#V2 #G #X2">a</lem>
-                  <rdg wit="#B">au</rdg>
-               </app>
+                     rend="italique">ier</hi><!--HELPSL revoir la note et l'intro 
+                        philo ça n'a pas de sens-->.</note>, et entendre <app>
+                        <lem wit="#V2 #X2">chascun a</lem>
+                    <rdg wit="#B">ch. au</rdg>
+                  <rdg wit="#G">a ch.</rdg>
+                     </app>
                <app>
                   <lem wit="#B #G #X2">guerir</lem>
                   <rdg wit="#V2">g. soi meismes</rdg>
                </app>, si comme <app>
                   <lem wit="#V2 #G"><app>
                         <lem wit="#V2">il estoit grant mestier a cele foiz</lem>
-                        <rdg wit="#G">Ilz en avoient mestier</rdg>
+                        <rdg wit="#G">ilz en avoient mestier</rdg>
                      </app>, car trop en y avoit de malmenez <app>
                         <lem wit="#V2">et de bleciez</lem>
                         <rdg wit="#G"/>
