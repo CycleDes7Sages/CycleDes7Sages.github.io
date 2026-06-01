@@ -45683,9 +45683,9 @@
                         >Arragon</placeName></rs>, et la se mistrent il en paine de nous grever de
                   tout leur pooir. Aprés, il nous meschaï de ce que il espousa <rs type="person"
                      key="Fastige">nostre mere</rs>
-                  <app>
-                     <lem wit="#B #G #X2">et</lem>
-                     <rdg wit="#V2">et que</rdg>
+                     et <app>
+                     <lem wit="#V2">que</lem>
+                     <rdg wit="#B #G #X2"/>
                   </app>, quant ce vint que il li couvint laissier et <rs type="person"
                      key="Helcana">la seue fame</rs> fu morte, onques puis <app>
                      <lem wit="#V2 #G #X2">il</lem>
@@ -47896,10 +47896,10 @@
                      <rdg wit="#B">dont</rdg>
                      <rdg wit="#X2">m.</rdg>
                   </app>
-                  <app>
-                     <lem wit="#B #G">ala</lem>
-                     <rdg wit="#V2">ala partout</rdg>
-                     <rdg wit="#X2">ala dont</rdg>
+                  ala <app>
+                     <lem wit="#V2">partout</lem>
+                     <rdg wit="#B #G"/>
+                     <rdg wit="#X2">dont</rdg>
                   </app> la renommee moult loing.</said>
                <said who="#nar">Mais atant se <app>
                      <lem wit="#V2 #B #G">taist</lem>
@@ -47914,9 +47914,9 @@
                      <lem wit="#V2 #B #X2">ai</lem>
                      <rdg wit="#G">est</rdg>
                   </app>
-                  <app>
-                     <lem wit="#B #G #X2">dit</lem>
-                     <rdg wit="#V2">dit el compte</rdg>
+                  dit <app>
+                     <lem wit="#V2">el compte</lem>
+                     <rdg wit="#B #G #X2"/>
                   </app></said><note type="notecritique">L’enchaînement des mésaventures que connaît
                   Nera, avec les mariniers, puis avec le sénéchal, rappelle les récits de femmes
                   persécutées. La forme la plus proche des épisodes consacrées aux aventures de Nera
@@ -52199,10 +52199,8 @@
                </app> qui les menoient <said aloud="true" direct="false">quel chastel s’<app>
                      <lem wit="#V3 #G #X2">estoit</lem>
                      <rdg wit="#B">e. la</rdg>
-                  </app></said>. Dont furent cil <app>
-                  <lem wit="#B #G #X2">esbahi</lem>
-                  <rdg wit="#V3">e. et <hi rend="italique">(sic)</hi></rdg>
-               </app>, car <app>
+               </app></said>. Dont furent cil esbahiet<!--HELPSV on avait lu "esbahi et" et corrigé, mais 
+               je maintiens la graphie -> à intégrer à la note linguistique-->, car <app>
                   <lem wit="#V3 #B #X2"><app>
                         <lem wit="#V3 #X2">il</lem>
                         <rdg wit="#B"/>
@@ -53030,9 +53028,9 @@
                </app> rasazier. Quant il se furent ainsi conjoui, <persName key="Helcanus"
                   >Helcanus</persName> volt que on li amenast <persName key="Pelyarmenus"
                   >Peliarmenus</persName>, et on si fist. Et quant il vint devant lui, si se lessa
-               cheoir a ses piez devant <app>
-                  <lem wit="#B #G #X2">touz</lem>
-                  <rdg wit="#V3">t. ceus qui i estoient</rdg>
+               cheoir a ses piez devant touz <app>
+                  <lem wit="#V3">ceus qui i estoient</lem>
+                  <rdg wit="#B #G #X2"/>
                </app> et dist : <said aloud="true" direct="true">Frere, moult m’avez donné par
                   maintes fois a souffrir, et je a vous aussi. Or est du tout ainsi que vous estes
                   venus au desus de moi. Si vous requier merci, conme frere courpable envers
@@ -54580,9 +54578,9 @@
                   <rdg wit="#B #X2">cele</rdg>
                   <rdg wit="#G">la ou</rdg>
                </app> ou <rs type="person" key="Cassidorus">li emperieres</rs>
-               <app>
-                  <lem wit="#B #G #X2">estoit</lem>
-                  <rdg wit="#V3">e. demourez</rdg>
+               estoit <app>
+                  <lem wit="#V3">demourez</lem>
+                  <rdg wit="#B #G #X2"/>
                </app>
                <app>
                   <lem wit="#V3 #G">avec <rs type="person" key="ErmiteEspiere">l’ermite</rs></lem>
@@ -55246,13 +55244,20 @@
                   <lem wit="#V3 #X2">ainsi parler</lem>
                   <rdg wit="#B"/>
                   <rdg wit="#G">entendu</rdg>
-               </app>, si <app>
-                  <lem wit="#B #G #X2">dist</lem>
-                  <rdg wit="#V3">d. a</rdg>
-               </app> : <said aloud="true" direct="true"><persName key="Gasus"><app>
-                        <lem wit="#V3 #B #X2">Gasus</lem>
+               </app>, si dist <app>
+                  <lem wit="#V3">a</lem>
+                  <rdg wit="#B #G #X2"></rdg>
+               </app> <app>
+                        <lem wit="#V3 #B #X2"><persName key="Gasus">Gasus</persName></lem>
                         <rdg wit="#G">Amis</rdg>
-                     </app></persName>, bien avez dit ! Et je <app>
+                     </app><note type="notecritique"><hi rend="italique">a Gasus</hi>: 
+                     Dans <hi rend="italique">V<hi rend="exp">3</hi></hi>, 
+                        <hi rend="italique">Gasus</hi> est le complément 
+                     prépositionnel de <hi rend="italique">a</hi> ; dans 
+                        <hi rend="italique">BX<hi rend="exp">2</hi></hi>, 
+                     il s'agit de l'apostrophe. Au même endroit, <hi rend="italique">G</hi> donne lui aussi 
+                        une variante 
+                     singulière (<hi rend="italique">Amis</hi> en apostrophe).</note> : <said aloud="true" direct="true">Bien avez dit ! Et je <app>
                      <lem wit="#B #G #X2">vous</lem>
                      <rdg wit="#V3">vou›...‹[s]</rdg>
                   </app>
@@ -55662,9 +55667,9 @@
                      >furent... devis</hi>: Sur l’accord du verbe au pluriel avec le sujet <hi
                      rend="italique">chascun</hi>, <hi rend="italique">cf.</hi> Note
                   linguistique.</note>
-               <said who="#nar">si noblement que grans anuis seroit du <app>
-                     <lem wit="#B #G #X2">raconter</lem>
-                     <rdg wit="#V3">r. touz les mes qu’il orent</rdg>
+               <said who="#nar">si noblement que grans anuis seroit du raconter <app>
+                     <lem wit="#V3">touz les mes qu’il orent</lem>
+                     <rdg wit="#B #G #X2"/>
                   </app></said>. <said who="#nar">Que vous <app>
                      <lem wit="#V3 #B #X2">feroie</lem>
                      <rdg wit="#G">diroie</rdg>
@@ -58954,14 +58959,14 @@
                   <lem wit="#V3 #G #X2">peust</lem>
                   <rdg wit="#B">deust</rdg>
                </app>
-               <app>
-                  <lem wit="#B #G #X2">dire</lem>
-                  <rdg wit="#V3">d. – c’est a dire <persName key="Fastidorus"
-                     >Fastidorus</persName></rdg>
+               dire – <app>
+                  <lem wit="#V3">c’est a dire <persName key="Fastidorus"
+                     >Fastidorus</persName></lem>
+                  <rdg wit="#B #G #X2"/>
                </app><note type="notecritique">La précision isolée de <hi rend="italique">V<hi
-                        rend="exp">3</hi></hi> dénote le souci de rendre plus lisible la passation
+                        rend="exp">3</hi></hi> (<hi rend="italique">cf.</hi> Note au texte) rend plus lisible la passation
                   de pouvoir qui a été effectuée, ainsi que l’identité de ce nouvel empereur qui
-                  n’aura qu’un règne très éphémère.</note> que<note type="notecritique">Sur la
+                  n’aura qu’un règne très éphémère.</note> – que<note type="notecritique">Sur la
                   valeur polyvalente de <hi rend="italique">que</hi>, <hi rend="italique">cf.</hi>
                   Note linguistique.</note>
                <persName key="Celydus">Celydus</persName> ne se partist de <app>
@@ -59558,10 +59563,9 @@
                   <rdg wit="#B #X2">vint</rdg>
                </app>
                <app>
-                  <lem wit="#B #G #X2">a</lem>
-                  <rdg wit="#V3"><rs type="person" key="Nichole">la pucelle</rs> a</rdg>
-               </app>
-               <app>
+                  <lem wit="#V3"><rs type="person" key="Nichole">la pucelle</rs></lem>
+                  <rdg wit="#B #G #X2"/>
+               </app> a <app>
                   <lem wit="#V3 #G"><rs type="person" key="Fastige">l’empereris</rs></lem>
                   <rdg wit="#B #X2">a l’e. et li dist</rdg>
                </app> : <said rendition="dialogue" aloud="true" direct="true">Dame, je ne savroie
@@ -64268,9 +64272,9 @@
                pas ne fu a aprendre, escusa <rs type="person" key="Celydus">son <app>
                      <lem wit="#V3 #G #X2">cousin</lem>
                      <rdg wit="#B">compaignon</rdg>
-                  </app></rs> et se contint vers cele en autele maniere conme il fist vers <app>
-                  <lem wit="#B #G #X2"><rs type="person" key="Fauque">la premiere</rs></lem>
-                  <rdg wit="#V3">la premiere. Que vous feroie je lonc conte</rdg>
+               </app></rs> et se contint vers cele en autele maniere conme il fist vers <rs type="person" key="Fauque">la premiere</rs> <app>
+                  <lem wit="#V3">Que vous feroie je lonc conte ?</lem>
+                  <rdg wit="#B #G #X2"/>
                </app>. <app>
                   <lem wit="#V3 #G">Ausi conme</lem>
                   <rdg wit="#B #X2">Ce que</rdg>
@@ -66193,9 +66197,9 @@
                   rendition="dialogue" aloud="true" direct="true">Et pour ce feroit bon bien fere
                   qui bon seroit, car aprés nostre mort trouverons nous qui pou de bien fera pour
                   nous. Et pource que je ai encore eu pou d’espace de respondre vous de <rs
-                     type="person" key="Cassidorus">mon seingneur vostre <app>
-                        <lem wit="#B #G #X2">pere</lem>
-                        <rdg wit="#V3">p. et le nostre</rdg>
+                     type="person" key="Cassidorus">mon seingneur vostre pere <app>
+                        <lem wit="#V3">et le nostre</lem>
+                        <rdg wit="#B #G #X2"/>
                      </app></rs> vous puis je dire que j’ai envoié <num>iiii</num> mesages par
                   toutes les <num>iiii</num> parties du monde<note type="notecritique"><hi
                         rend="italique"> les <num>iiii</num> parties du monde</hi>: Le monde se
