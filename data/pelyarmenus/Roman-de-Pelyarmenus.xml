@@ -42843,8 +42843,8 @@
                </app>
                <persName key="Daphus">Daphus</persName> et <persName key="Mirrus">Mirrus</persName>
                et moult <app>
-                  <lem wit="#B #G #X2">d’autres</lem>
-                  <rdg wit="#V2">des a.</rdg>
+                  <lem wit="#V2">des autres</lem>
+                  <rdg wit="#B #G #X2">d’a.</rdg>
                </app> qui vindrent a lui. Et li dist <rs type="person" key="Cassidorus">li
                   emperieres</rs> : <said aloud="true" direct="true">Sire, <app>
                      <lem wit="#V2 #G">dist il</lem>
@@ -45523,9 +45523,11 @@
                      <rdg wit="#B">ferez</rdg>
                   </app>
                   <app>
-                     <lem wit="#B #G #X2">vostre</lem>
-                     <rdg wit="#V2">a v.</rdg>
-                  </app> talent.</said>
+                     <lem wit="#V2">a</lem>
+                     <rdg wit="#B #G #X2"/>
+                  </app><!--HELPPD attention ici modifier dans le glossaire: on maintient V, 
+                  et donc la construction "faire son talent" devient "faire A son talent", de 
+                  même sens d'après le DMF--> vostre talent.</said>
             </p>
             <p n="P453"><c ana="lettrine 2">Q</c>uant <rs type="person" key="Cassidorus">li
                   emperieres</rs> oÿ ce, si li dist : <said aloud="true" direct="true">Lieve toi et
@@ -50081,9 +50083,17 @@
                      <lem wit="#V3 #G">ore</lem>
                      <rdg wit="#B #X2"/>
                   </app> taire <app>
-                     <lem wit="#B #G #X2">de</lem>
-                     <rdg wit="#V3">atant de</rdg>
-                  </app>
+                     <lem wit="#V3">atant</lem>
+                     <rdg wit="#B #G #X2"/>
+                  </app><note type="notecritique"><hi rend="italique">ore taire atant</hi>: 
+                  Sur la présence / absence et l'utilisation conjointe des adverbes 
+                  <hi rend="italique">ore</hi> et <hi rend="italique">atant</hi> 
+                  dans le roman, cf. §§134, 208, 228, 278, 282, 
+                  480, 609, 665, 688, 709 et 737. L'analyse globale de ces 
+                  variantes indique que les adverbes sont parfois présents tous les deux 
+                  dans toute la tradition (§§ 228, 480 et 688) et 
+                  que la présence / absence / alternance est 
+                  tendanciellement polygénétique.</note> de
                   <app>
                      <lem wit="#V3 #G">eulz</lem>
                      <rdg wit="#B #X2">tous</rdg>
@@ -50753,9 +50763,9 @@
                   <lem wit="#V3 #G">monta</lem>
                   <rdg wit="#B #X2">puia</rdg>
                </app>
-               <app>
-                  <lem wit="#B #G #X2">tant</lem>
-                  <rdg wit="#V3">tant et erra</rdg>
+               tant <app>
+                  <lem wit="#V3">et erra</lem>
+                  <rdg wit="#B #G #X2"/>
                </app>
                <app>
                   <lem wit="#G #X2">qu’il</lem>
@@ -50847,9 +50857,9 @@
                   <lem wit="#V3 #G">n’avoit mengié</lem>
                   <rdg wit="#B #X2">fait ne l’avoit</rdg>
                </app>
-               <app>
-                  <lem wit="#B #G #X2">de</lem>
-                  <rdg wit="#V3">de pres de</rdg>
+               de <app>
+                  <lem wit="#V3">pres de</lem>
+                  <rdg wit="#B #G #X2"/>
                </app>
                <num>ii</num> jours. Quant il ot ce fet, si rendi graces a Nostre Seingneur et fist
                sa <app>
@@ -51344,9 +51354,10 @@
                      <lem wit="#V3 #G">tout</lem>
                      <rdg wit="#B #X2"/>
                   </app> quanque j’<app>
-                     <lem wit="#B #G #X2">avoie</lem>
-                     <rdg wit="#V3">en avoie</rdg>
-                  </app> vaillant.</said><said rendition="dialogue" aloud="true" direct="true">Par
+                     <lem wit="#V3">en</lem>
+                     <rdg wit="#B #G #X2"/>
+                  </app><!--HELPPD attention le maintien de V change-t-il qch. 
+                  au glossaire?--> avoie vaillant.</said><said rendition="dialogue" aloud="true" direct="true">Par
                   mon chief, ce dist <persName key="Dorus"><app>
                         <lem wit="#V3 #G">Dorus</lem>
                         <rdg wit="#B #X2">il</rdg>
@@ -52811,10 +52822,15 @@
                      <rdg wit="#G">vous</rdg>
                   </app> amis et des nostres.</said><said rendition="dialogue" aloud="true"
                   direct="true">Certes, sire, dist il, vous dites verité.</said> Dont parlerent de
-               plussors choses. <app>
-                  <lem wit="#B #G #X2">Et</lem>
-                  <rdg wit="#V3">Et quant il orent parlé assez ensemble, dont</rdg>
-               </app> se departi <rs type="person" key="Borleuz">li dus</rs> de <persName
+               plussors choses. Et <app>
+                  <lem wit="#V3">quant il orent parlé assez ensemble, dont</lem>
+                  <rdg wit="#B #X2"/>
+                  <rdg wit="#G">puis</rdg>
+               </app><note type="notecritique"><hi rend="exp">Et quant... 
+                  dont</hi>: 
+               Sur cette leçon isolée 
+               de <hi rend="italique">V<hi rend="exp">3</hi></hi>, <hi rend="italique">cf.</hi> Note 
+                  au texte.</note> se departi <rs type="person" key="Borleuz">li dus</rs> de <persName
                   key="Pelyarmenus">Peliarmenus</persName> moult debonnairement et l’aseura de ce
                qu’il pot <app>
                   <lem wit="#V3 #B #X2">que il toute la pais que il pourroit y metroit</lem>
@@ -53039,13 +53055,13 @@
                   toi.</said><note type="notecritique">En refusant d’échanger avec Pelyarmenus ainsi
                   à ses genoux, Helcanus met en lumière la dimension théâtrale, et surjouée, de
                   l’intervention de Pelyarmenus, et de sa fausseté ce faisant.</note> Dont le firent
-               drecier li <app>
-                  <lem wit="#V3 #G #X2">baron</lem>
-                  <rdg wit="#B">b. qui la estoient</rdg>
-               </app>. <app>
-                  <lem wit="#B #G #X2"><persName key="Helcanus">Helcanus</persName></lem>
-                  <rdg wit="#V3">Et quant il ce fu dreciez, H.</rdg>
-               </app> li dist : <said rendition="dialogue" aloud="true" direct="true">Par Dieu,
+               drecier li baron. <app><lem wit="#V3">Et quant il ce fu dreciez</lem>
+               <rdg wit="#B">qui la estoient, et</rdg>
+                  <rdg wit="#G #X2">Et</rdg>
+               </app><note type="notecritique"><hi rend="exp">Et quant il ce fu dreciez</hi>: 
+                  Sur cette leçon isolée 
+                  de <hi rend="italique">V<hi rend="exp">3</hi></hi>, <hi rend="italique">cf.</hi> Note 
+                  au texte.</note> <persName key="Helcanus">Helcanus</persName> li dist : <said rendition="dialogue" aloud="true" direct="true">Par Dieu,
                      <persName key="Pelyarmenus">Pelyarmenus</persName>, voirement dites vous verité
                   que moult avons donné a sousfrir li un a l’autre. Mes je ne sai ne ne voi que
                   toute la soffrance vous n’aiez pourchaciee. Et qui moult vous en eust lessié
@@ -53440,13 +53456,12 @@
                   </app>
                   <rs type="person" key="Pelyarmenus">mon frere</rs> fu pris et menez en <placeName
                      key="Grece">Gresce</placeName>.</said> Cil dist que <said aloud="true"
-                  direct="false">mauvessement le savoit, <app>
-                     <lem wit="#B #G #X2">car</lem>
-                     <rdg wit="#V3">car il estoit <hi rend="italique">(sic)</hi></rdg>
-                  </app> n’avoit il pas esté au prendre, mes ce qu’il en avoit entendu li diroit il
+                        direct="false">mauvessement le savoit, car il <app>
+                     <lem wit="#B #G #X2">n'avoit</lem>
+                     <rdg wit="#V3">estoit <hi rend="italique"> n'avoit il</hi></rdg>
+                  </app> pas esté au prendre, mes ce qu’il en avoit entendu li diroit il
                   volentiers</said>. Lors li conta <said aloud="true" direct="false">auques pres
-                  l’afaire, ainsi conme il avoit alé</said>, mes il onques ne le pot croire, si dist
-                : <said rendition="dialogue" aloud="true" direct="true"><app>
+                  l’afaire, ainsi conme il avoit alé</said>, mes il onques ne le pot croire, si dist : <said rendition="dialogue" aloud="true" direct="true"><app>
                      <lem wit="#V3 #G #X2">Il</lem>
                      <rdg wit="#B"/>
                   </app> ne puet estre ainsi avenu ! Bien sai de voir que mi honme meismes l’ont
@@ -53645,13 +53660,17 @@
                   <persName key="Nera">Nera</persName> et vindrent en la tour ou <persName
                   key="Pelyarmenus">Pelyarmenus</persName>
                <app>
-                  <lem wit="#V3 #B #X2">avoit entendu les <app>
-                        <lem wit="#B #X2">nouvelles</lem>
-                        <rdg wit="#V3">n. que <rs type="person" key="Ysodore">sa fenme</rs> et
-                              <persName key="Gasus">Gasus</persName> estoient venus</rdg>
+                  <lem wit="#V3 #B #X2">avoit entendu les nouvelles <app>
+                        <lem wit="#V3">que <rs type="person" key="Ysodore">sa fenme</rs> et
+                              <persName key="Gasus">Gasus</persName> estoient venus</lem>
+                        <rdg wit="#B #X2"/>
                      </app></lem>
                   <rdg wit="#G">estoit</rdg>
-               </app>. <cb n="d"/>Quant <app>
+               </app><note type="notecritique"><hi rend="exp">Et quant... 
+                  dont</hi>: 
+                  Sur cette leçon isolée 
+                  de <hi rend="italique">V<hi rend="exp">3</hi></hi>, <hi rend="italique">cf.</hi> Note 
+                  au texte.</note>. <cb n="d"/>Quant <app>
                   <lem wit="#V3">vit</lem>
                <rdg wit="#B #G #X2">il vit</rdg>
                </app><note type="notecritique">Sur la non-expression du pronom sujet, <hi rend="italique">cf.</hi> Note linguistique.</note> <rs type="person" key="Ysodore">sa fenme</rs>, si fu moult joiant, si
@@ -54527,13 +54546,10 @@
                   <rdg wit="#V3">p. nul</rdg>
                </app>
                <app>
-                  <lem wit="#V3 #G">en</lem>
-                  <rdg wit="#B #X2">leur</rdg>
-               </app>
-               <app>
-                  <lem wit="#V3 #G">reverroit</lem>
-                  <rdg wit="#B #X2">requerroit</rdg>
-               </app>. Dont n’i ot nul quil ne fust sou<cb n="d"/>ples, et distrent que <said
+                  <lem wit="#V3">en reverroit</lem>
+                  <rdg wit="#B #X2">leur requerroit</rdg>
+                  <rdg wit="#G">en revendroit</rdg>
+               </app><!--HELPSV peux-tu m'aider ici?-->. Dont n’i ot nul quil ne fust sou<cb n="d"/>ples, et distrent que <said
                   aloud="true" direct="false">moult volentiers li otrieroient <app>
                      <lem wit="#V3 #G"> tout ce que il voudroit demander de raison, sauve lor
                         honneur</lem>
@@ -55246,7 +55262,7 @@
                   <rdg wit="#G">entendu</rdg>
                </app>, si dist <app>
                   <lem wit="#V3">a</lem>
-                  <rdg wit="#B #G #X2"></rdg>
+                  <rdg wit="#B #G #X2"/>
                </app> <app>
                         <lem wit="#V3 #B #X2"><persName key="Gasus">Gasus</persName></lem>
                         <rdg wit="#G">Amis</rdg>
@@ -61328,9 +61344,10 @@
                      <lem wit="#V3 #G #X2">Sire</lem>
                      <rdg wit="#B">S., dist il</rdg>
                   </app>, sachiez que ci fait.</said><said rendition="dialogue" aloud="true"
-                  direct="true">Or vous soufrez, dist il, et je vous savrai a <app>
-                     <lem wit="#B #G #X2">dire</lem>
-                     <rdg wit="#V3">d. assez tost a dire</rdg>
+                     direct="true">Or vous soufrez, dist il, et je vous savrai a dire <app>
+                     <lem source="éd.">assez tost</lem>
+                     <rdg wit="#V3">a. t. a dire</rdg>
+                        <rdg wit="#B #G #X2"/>
                   </app>
                   <app>
                      <lem wit="#V3 #B #X2">quant je voudrai</lem>
@@ -62812,8 +62829,8 @@
                      <rdg wit="#B #X2">li doi d.</rdg>
                      <rdg wit="#G">Celydus</rdg>
                   </app></rs>. Lors <app>
-                  <lem wit="#B #G #X2">vindrent</lem>
-                  <rdg wit="#V3">vint</rdg>
+                  <lem wit="#V3">vint</lem>
+                  <rdg wit="#B #G #X2">vindrent</rdg>
                </app> nouvelles que <rs type="person" key="Marquis d’Ostrac">li marchiz</rs> estoit <app>
                   <lem wit="#B #X2">meuz</lem>
                   <rdg wit="#V3">venus a m.</rdg>
@@ -63948,11 +63965,27 @@
                      <lem wit="#V3 #G #X2">le</lem>
                      <rdg wit="#B">la</rdg>
                   </app> savrez.</said> Adonc ont lessié de <app>
-                  <lem wit="#B">ce a</lem>
+                     <lem source="éd.">celes a</lem>
+                  <rdg wit="#B">ce a</rdg>
                   <rdg wit="#V3">ce|le<del rend="exponctuation" hand="#main2">s</del></rdg>
                   <rdg wit="#G">celles a</rdg>
                   <rdg wit="#X2">ce le</rdg>
-               </app> parler et fist tant <rs type="person" key="Melchis">li prince</rs> que il vint
+               </app> parler<note type="notecritique"><hi rend="italique">Adonc 
+                  ont... parler</hi>: L'éclatement des leçons de 
+                  <hi rend="italique">V<hi rend="exp">3</hi></hi> 
+                  <hi rend="italique">G</hi> et <hi rend="italique">X<hi rend="exp">2</hi></hi> ne permet pas 
+               de déterminer avec certitude ce que contenait leur ancêtre 
+               commun. Il semble toutefois probable que la leçon de <hi rend="italique">G</hi> soit 
+               issue d'une conjecture du copiste, comme ailleurs. En outre, comme 
+               <hi rend="italique">V<hi rend="exp">3</hi></hi> a commencé à copier 
+                  une forme au pluriel avant de 
+               se corriger, il est possible 
+               que l'ancêtre de 
+               <hi rend="italique">V<hi rend="exp">3</hi>GX<hi rend="exp">2</hi></hi> 
+                  omettait déjà la préposition et que 
+                  <hi rend="italique">V<hi rend="exp">3</hi></hi> et 
+                  <hi rend="italique">X<hi rend="exp">2</hi></hi> aient 
+               réagi indépendamment pour amender le texte.</note> et fist tant <rs type="person" key="Melchis">li prince</rs> que il vint
                en <rs type="place" key="TourDames">la tour</rs> sanz le seu d’eulz.</p>
             <p n="P703"><c ana="lettrine2">L</c>es dames, <said who="#nar">ainsi com <app>
                      <lem wit="#V3 #G">je</lem>
@@ -67607,7 +67640,7 @@
                   <rdg wit="#B #X2">ses pesans</rdg>
                </app> cox endurer <app>
                   <lem wit="#V3 #X2">ne souffrir</lem>
-                  <rdg wit="#B #G"></rdg>
+                  <rdg wit="#B #G"/>
                </app><note type="notecritique"><hi rend="italique">endurer ne souffrir</hi>: 
                   Les variantes ne suivent pas la répartition des témoins dans le stemma, et on ne 
                   peut donc pas savoir s'il s'agit d'un ajout 
