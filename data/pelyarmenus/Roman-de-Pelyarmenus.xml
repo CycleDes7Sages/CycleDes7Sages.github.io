@@ -2662,9 +2662,10 @@
                      <rdg wit="#B"/>
                   </app>
                   <app>
-                     <lem wit="#X2">avrions</lem>
+                     <lem source="éd.">avrienz</lem>
                      <rdg wit="#V2 #G">avriez</rdg>
                      <rdg wit="#B">ariez</rdg>
+                  <rdg wit="#X2">avrions</rdg>
                   </app> point d’ouneur<note type="notecritique"><hi rend="italique">la ou vous
                         avriez honte nous n’i avrions point d’ouneur</hi>: Pelyarmenus affirme son
                      propos de manière sentencieuse au moyen de la litote, en jouant sur le couple
@@ -9851,12 +9852,17 @@
                         <lem wit="#B">Deriet</lem>
                         <rdg wit="#V2 #G">Deniet</rdg>
                         <rdg wit="#X2">Deniet li fiers</rdg>
-                     </app>
-                  </persName><note type="notecritique">La graphie du nom de ce personnage est
-                     sujette à caution. Ce personne dont les actions nous sont ainsi rappelées
-                     n'intervient pas à proprement parler dans le <hi rend="italique">Roman de
-                        Pelyarmenus</hi> et les rares occurrences ici alternent entre "Deriet" et
-                     "Detriet". C'est pourquoi nous corrigeons selon la forme Deriet.</note>, et la
+                     </app></persName><note type="notecritique">La graphie 
+                        du nom de Deriet est
+                     sujette à caution. Ce personnage, dont les actions nous sont ainsi 
+                     rappelées,
+                     n'intervient pas à proprement parler dans 
+                     le <hi rend="italique">Roman de
+                        Pelyarmenus</hi> et les rares occurrences ici 
+                        alternent entre <hi rend="italique">Deriet</hi> et
+                     <hi rend="italique">Detriet</hi>. 
+                        Nous corrigeons selon la forme <hi rend="italique">Deriet</hi> et 
+                        interprétons la faute comme dérivant d'une confusion paléographique.</note>, et la
                   pucelle apeloit on <persName key="Jagonce">Jagonce</persName>, et estoit dame du
                      <placeName key="Chatel Radoul">Chastel Radoul</placeName>. Celle ne <app>
                      <lem wit="#V2 #G #X2">daignoit</lem>
@@ -16040,9 +16046,9 @@
                   <rdg wit="#B">tout aussi furent</rdg>
                </app> cent serganz hardiz et preuz. Et sachiez que la citez fu moult estourmie d’uns
                et d’autres, meismes de bourgois, de dames et de damoiseles qui <app>
-                  <lem wit="#B #X2">vodrent</lem>
-                  <rdg wit="#V2 #G">voudroient</rdg>
-               </app> veoir le champ de la bataille. <persName key="Pelyarmenus"
+                  <lem wit="#V2 #G">voudroient</lem>
+                  <rdg wit="#B #X2">vodrent</rdg>
+               </app><!--HELPSV j'ai maintenu VG, ok ?--> veoir le champ de la bataille. <persName key="Pelyarmenus"
                   >Pelyarmenus</persName>, de l’autre part, avoit fait <app>
                   <lem wit="#V2 #B">faire</lem>
                   <rdg wit="#G"/>
@@ -16856,8 +16862,14 @@
                      <rdg wit="#G"/>
                   </app><note type="notecritique"><hi rend="italique">Que vous... atargant</hi>: Il
                      semble que <hi rend="italique">V<hi rend="exp">2</hi></hi> et <hi
-                        rend="italique">G</hi> héritent d’une même faute, que <hi rend="italique"
-                        >G</hi> corrige en omettant <hi rend="italique">la besoingne atargant</hi>.</note> ?</said> Tant ferirent <app>
+                        rend="italique">G</hi> héritent d’une même faute, qui condense 
+                     deux tournures en raison de la 
+                     confusion 
+                     <hi rend="italique">iroie</hi>/<hi rend="italique">diroie</hi> 
+                     (<hi rend="italique">que vous diroie je</hi> et 
+                     <hi rend="italique">que vous iroie je la besoingne atargant</hi>) et 
+                     que <hi rend="italique">G</hi> corrige en omettant <hi rend="italique">la besoingne 
+                           atargant</hi>.</note> ?</said> Tant ferirent <app>
                   <lem wit="#V2 #G #X2">les uns</lem>
                   <rdg wit="#B">l’un</rdg>
                </app> sus <app>
@@ -54960,12 +54972,17 @@
                   <app>
                      <lem wit="#B #X2">estoit entrez</lem>
                      <rdg wit="#V3 #G">entra</rdg>
-                  </app><note type="notecritique"><hi rend="italique">estoit entrez</hi>: <hi
-                        rend="italique">V<hi rend="exp">3</hi></hi> et <hi rend="italique">G</hi>
-                     donnent <hi rend="italique">entra</hi>, ce qui pose un problème de concordance;
-                     la présence de <hi rend="italique">estoit venus</hi> juste après nous incite à
-                     corriger cette forme d’après <hi rend="italique">BX<hi rend="exp"
-                     >2</hi></hi>.</note> en la salle et estoit venus a lui faisant tel signe que il
+                  </app><note type="notecritique"><hi rend="italique">estoit entrez</hi>: 
+                     <hi rend="italique">V<hi rend="exp">3</hi></hi> et <hi rend="italique">G</hi>
+                     donnent <hi rend="italique">entra</hi>, ce qui pose un 
+                     problème de concordance, puisqu'il s'agit du deuxième verbe de 
+                     la proposition subordonnée introduite 
+                     par <hi rend="italique">conment</hi> et non 
+                     d'un deuxième verbe de la proposition 
+                     principale, comme l'a sans doute compris à tort
+                     l'ancêtre de 
+                     <hi rend="italique">V<hi rend="exp">2</hi>G</hi>.
+                  </note> en la salle et estoit venus a lui faisant tel signe que il
                   o lui s’estoit mis a aler partout ou il <app>
                      <lem wit="#V3 #G #X2">aloit</lem>
                      <rdg wit="#B">iroit</rdg>
