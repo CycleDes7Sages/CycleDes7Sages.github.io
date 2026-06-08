@@ -14468,7 +14468,7 @@
                      </app></lem>
                   <rdg wit="#G"/>
                </app>. Il fu tart, <app>
-                  <lem wit="#V2 #G">si fu</lem>
+                  <lem wit="#V2 #G #X2">si fu</lem>
                   <rdg wit="#B">et</rdg>
                </app> temps de souper. <persName key="Mirrus">Myrus</persName> a fait venir <rs
                   type="person" key="Geffroy">son hoste</rs> devant lui et li enquist ou <rs
@@ -14509,7 +14509,7 @@
                      <rdg wit="#B #X2"/>
                   </app> demeure ou <app>
                      <lem wit="#V2 #G"><placeName key="BiauManoir">chastel</placeName></lem>
-                     <rdg wit="#B #X2">chastel lassus</rdg>
+                     <rdg wit="#B #X2">ch. lassus</rdg>
                   </app>.</said> Quant il oÿ ce, si mist <rs type="person" key="Geffroy">son
                   hoste</rs> a conseil et dist : <said rendition="dialogue" aloud="true"
                   direct="true" ana="to-continue">Amis, se vous nous vouliez aidier que nous <app>
@@ -14597,7 +14597,7 @@
                      <rdg wit="#B">a vous parler</rdg>
                   </app> pour <rs type="person" key="Mirrus"><num>i</num> chevalier qui ci
                      m’envoie</rs>, <app>
-                     <lem wit="#V2 #G">qui</lem>
+                     <lem wit="#V2 #G #X2">qui</lem>
                      <rdg wit="#B">si</rdg>
                   </app> est au <rs type="person" key="Odonie">roy de <placeName key="Frise"
                         >Frise</placeName></rs>, si voudroit a vous parler moult volentiers, mais
@@ -14742,10 +14742,7 @@
                      confusion <hi rend="italique">il/li</hi>, nous accueillons dans le texte
                      critique la leçon de <hi rend="italique">X<hi rend="exp">2</hi></hi>.</note>
                   respondi assez sagement, quar il dist venist <persName key="Helcanus"
-                     >Helcanus</persName> ou autres qui droit eust en la terre, <app>
-                     <lem wit="#V2 #G">et</lem>
-                     <rdg wit="#B"/>
-                  </app> il le recevroit, si que ja n’en seroit repris ne blasmez. Li conseuls
+                     >Helcanus</persName> ou autres qui droit eust en la terre, et il le recevroit, si que ja n’en seroit repris ne blasmez. Li conseuls
                      <persName key="Helcanus">Helcanus</persName> si et<note type="notecritique"
                      >Lire <hi rend="italique">et</hi> = <hi rend="italique">est</hi>, comme dans
                         <hi rend="italique">BGX<hi rend="exp">2</hi></hi>. Sur cet emploi (et
@@ -15307,7 +15304,7 @@
                      <hi rend="italique">Je vous demant... vostre</hi>: Comprendre "Je vous demande
                      si vous considérez comme la vôtre cette défense qu’il veut faire". Sur ce type
                      de dislocations, <hi rend="italique">cf.</hi> Note
-                  linguistique.</note>.</said><said rendition="dialogue" aloud="true" direct="true"
+                  linguistique.<!--HELPSL + parler de variante BX--></note>.</said><said rendition="dialogue" aloud="true" direct="true"
                   >Biaus sire, dist <persName key="Pelyarmenus">Pelyarmenus</persName>, quant je
                   vous respons, <app>
                      <lem wit="#V2 #G #X2">je vous fais</lem>
@@ -15624,7 +15621,16 @@
                   sage que vous avez a faire a <num>i</num> des plus redoutez chevaliers qui <app>
                      <lem wit="#V2 #G">soit ne qui</lem>
                      <rdg wit="#B #X2"/>
-                  </app> <app>
+                  </app><note type="notecritique"><hi rend="italique">qui soit ne qui</hi>: 
+                  Il peut tant s'agir d'un ajout de l'ancêtre 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> 
+                     que d'un saut du même au même sur 
+                     <hi rend="italique">qui</hi> de <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+                  (si la leçon remonte à l'ancêtre de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>) 
+                     ou d'un saut indépendant de <hi rend="italique">B</hi> et 
+                     <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+                     (si la leçon remonte à l'archétype).<!--contrôler R)--></note> <app>
                      <lem wit="#V2 #G #X2">onques</lem>
                   <rdg wit="#B">pieça</rdg>
                   </app> issist de <placeName key="Romme">Romme</placeName>.</said><said
@@ -16369,12 +16375,19 @@
                   <lem wit="#V2 #G #X2">que ceulz qui combatre se devoient</lem>
                   <rdg wit="#B"/>
                </app>. Il firent moult bien cestui commandement, quar nuls n’i demoura <app>
-                  <lem wit="#V2 #G #X2">fors les <num>ii</num> champions <app>
-                        <lem wit="#V2 #G">qui combatre se devoient</lem>
-                        <rdg wit="#X2"/>
-                     </app></lem>
+                  <lem wit="#V2 #G #X2">fors les <num>ii</num> <app>
+                     <lem wit="#X2">champions</lem>
+                  <rdg wit="#V2 #G">ch. qui combatre se devoient</rdg>
+                  </app></lem>
                   <rdg wit="#B">se li dui champion non</rdg>
-               </app> et <num>iiii</num> autres : <app>
+               </app><note type="notecritique">La leçon de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>G</hi> s'explique 
+               sans doute par une répétition du même segment un peu plus haut. Étant 
+               donné les ajouts inhabituels de 
+               l'ancêtre de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> 
+                  depuis le §150 (<hi rend="italique">cf.</hi> Note au texte), 
+               il est possible que cet ajout vise 
+               également à allonger le texte.</note> et <num>iiii</num> autres : <app>
                   <lem wit="#V2 #G">l’uns</lem>
                   <rdg wit="#B #X2">ce</rdg>
                </app> fu <persName key="Pelyarmenus">Pelyarmenus</persName>, et <rs type="person"
@@ -16449,9 +16462,16 @@
                </app> l’autre que <app>
                   <lem wit="#V2 #G">merveilles fu que</lem>
                   <rdg wit="#B #X2"/>
-               </app><note type="notecritique"><hi rend="italique">merveilles fu que</hi>: Possible saut du 
-               même au même sur <hi rend="italique">que</hi> dans 
-                  <hi rend="italique">BX<hi rend="exp">2</hi></hi>.</note> on ne sot l’eure. Si <app>
+               </app><note type="notecritique"><hi rend="italique">que merveilles fu que</hi>: 
+                  Il peut tant s'agir d'un ajout de l'ancêtre 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> 
+                  que d'un saut du même au même sur 
+                  <hi rend="italique">que</hi> de <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+                  (si la leçon remonte à l'ancêtre de 
+                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>) 
+                  ou d'un saut indépendant de <hi rend="italique">B</hi> et 
+                  <hi rend="italique">X<hi rend="exp">2</hi></hi> 
+                  (si la leçon remonte à l'archétype).<!--contrôler R)--></note> on ne sot l’eure. Si <app>
                   <lem wit="#V2 #G #X2">se sont</lem>
                   <rdg wit="#B">furent</rdg>
                </app> entrencontré si cruelment que li escu fendirent et volerent em <cb n="f"
