@@ -2173,7 +2173,7 @@
                   <lem wit="#V2 #G">tesmoigne</lem>
                   <rdg wit="#B #X2">tesmoingnage</rdg>
                </app><!--HELPPD ici il faut revoir le glossaire, j'ai édité tesmoigne et non tesmoigné et supprimé 
-               la note, en vertu de Mts, sv. tesmoigne--> en pluiseurs lieus de la
+               la note, d'après Mts, sv. tesmoigne--> en pluiseurs lieus de la
                queste por quoi il estoit partis de <placeName key="Rome">Romme</placeName>. <said
                   who="#nar">Mais, si comme l’estoire raconte</said>, plus estoit meuz pour leur
                grevance <app>
@@ -2671,7 +2671,7 @@
                      <rdg wit="#V2 #G">avriez</rdg>
                      <rdg wit="#B">ariez</rdg>
                   <rdg wit="#X2">avrions</rdg>
-                  </app><!--HELPSL attention ici bien classé dans NaT? B doit aller avec VG--> point d’ouneur<note type="notecritique"><hi rend="italique">la ou vous
+                  </app> point d’ouneur<note type="notecritique"><hi rend="italique">la ou vous
                         avriez honte nous n’i avrions point d’ouneur</hi>: Pelyarmenus affirme son
                      propos de manière sentencieuse au moyen de la litote, en jouant sur le couple
                      honte / absence d’honneur. Il fait comprendre que la honte de Dyalogus
@@ -4065,9 +4065,10 @@
                      <lem wit="#V2 #G #X2">veu</lem>
                      <rdg wit="#B">ci veu</rdg>
                   </app> mener, ne je ne sai comment je ne autres le <app>
-                     <lem wit="#X2 #B">porriens</lem>
-                     <rdg wit="#V2 #G">porriez</rdg>
-                  </app><!--HELPSV ne pas suivre graphie porrienz? attesté ailleurs hors correction?-->
+                     <lem source="éd.">porrienz</lem>
+                        <rdg wit="#V2 #G">porriez</rdg>
+                     <rdg wit="#X2 #B">porriens</rdg>                     
+                  </app>
                   <app>
                      <lem wit="#V2 #G #X2">plus</lem>
                      <rdg wit="#B"><num>c</num> tanz plus</rdg>
@@ -9603,12 +9604,14 @@
                      >laxare</hi>.</note> sanz laquelle li <app>
                      <lem wit="#V2 #G">temps</lem>
                      <rdg wit="#B #X2">contes</rdg>
-                  </app><note type="notecritique">La leçon de <hi rend="italique">V2G</hi> s’entend
+                  </app><note type="notecritique">La leçon de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> s’entend
                      au sens de "succession des parties de la durée" (GDC 10,753 ; FEW I, 185a), ici
-                     de la durée spécifique de l’histoire, dans une acception littéraire inédite,
-                     dont la formulation <hi rend="italique">li contes</hi> est plus habituelle dans
-                        <hi rend="italique">BX2</hi>. La référence à la brièveté du récit par le
-                     narrateur au début de la phrase accorde du poids<!--HELPSL reformuler vu stemma--> à la leçon <hi rend="italique"
+                     en référence à la durée spécifique de l’histoire; cette acception littéraire est 
+                     inédite<!--HELPPD ou "nous n'en trouvons pas mention" etc.?-->, 
+                     la formulation <hi rend="italique">li contes</hi>, 
+                     comme dans <hi rend="italique">BX<hi rend="exp">2</hi></hi>, étant plus habituelle. 
+                     La référence à la brièveté du récit par le
+                     narrateur au début de la phrase justifie toutefois la leçon <hi rend="italique"
                         >li tens</hi>, la maîtrise du temps semblant être un enjeu.</note> ne seroit
                   mie bien parfais</said>. Ainssi avint que <persName key="Clyodorus"
                   >Clyodorus</persName> chevauchoit <num>i</num> jour entre nonne et midi touz
@@ -9718,10 +9721,10 @@
                   <lem wit="#V2 #G">grant</lem>
                   <rdg wit="#B #X2">gente</rdg>
                </app><note type="notecritique">L'ancêtre 
-                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> banalise 
-                  sans doute 
-               la leçon de l'archétype. 
-                  <!--HELPSL contrôler R--></note> sale, et la estoient <rs type="person" key="Mirador">li peres</rs> et <rs
+                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> banalise la leçon 
+                  de l'archétype, comme le confirme 
+                  l'accord de <hi rend="italique">R</hi> 
+                  avec <hi rend="italique">BX<hi rend="exp">2</hi></hi>.</note> sale, et la estoient <rs type="person" key="Mirador">li peres</rs> et <rs
                   type="person" key="CelidoineEsquarre">la mere</rs> a <rs type="person"
                   key="FilleMirador">la pucelle</rs>, qui moult estoient de grant aage. Maintenant
                que il ont veu <rs type="person" key="Clyodorus">le chevalier</rs> et <rs
@@ -11954,7 +11957,8 @@
                   key="Pelyarmenus">Pelyarmenus</persName> le conjoÿ et <app>
                   <lem wit="#B #X2">puis seust</lem>
                   <rdg wit="#V2 #G">pour savoir</rdg>
-               </app><!--HELPSL contrôler R--> le courage de lui, bien peust dire : <said aloud="true" direct="true">Ci a
+               </app><note type="notecritique"><hi rend="italique">puis seust</hi>: 
+               Ces mots sont illisibles dans <hi rend="italique">R</hi>.</note> le courage de lui, bien peust dire : <said aloud="true" direct="true">Ci a
                   homme faus et traitre</said>, quar il ne beoit a el fors que il les peust tenir en
                lieu ou il eust pooir et dont les feist prendre et de pute mort morir. Lors dist a
                   <persName key="Borleuz">Borleuz</persName> : <said aloud="true" direct="true">Ha !
@@ -15348,7 +15352,9 @@
                      <hi rend="italique">Je vous demant... vostre</hi>: Comprendre "Je vous demande
                      si vous considérez comme la vôtre cette défense qu’il veut faire". Sur ce type
                      de dislocations, <hi rend="italique">cf.</hi> Note
-                  linguistique.<!--HELPSL + parler de variante BX--></note>.</said><said rendition="dialogue" aloud="true" direct="true"
+                  linguistique. Remarquer la variante 
+                  de <hi rend="italique">BX<hi rend="exp">2</hi></hi>, qui répètent 
+                     la conjonction <hi rend="italique">se</hi>.</note>.</said><said rendition="dialogue" aloud="true" direct="true"
                   >Biaus sire, dist <persName key="Pelyarmenus">Pelyarmenus</persName>, quant je
                   vous respons, <app>
                      <lem wit="#V2 #G #X2">je vous fais</lem>
@@ -15665,16 +15671,12 @@
                   sage que vous avez a faire a <num>i</num> des plus redoutez chevaliers qui <app>
                      <lem wit="#V2 #G">soit ne qui</lem>
                      <rdg wit="#B #X2"/>
-                  </app><note type="notecritique"><hi rend="italique">qui soit ne qui</hi>: 
-                  Il peut s'agir tant d'un ajout de l'ancêtre 
-                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> 
-                     que d'un saut du même au même sur 
-                     <hi rend="italique">qui</hi> de <hi rend="italique">X<hi rend="exp">2</hi></hi> 
-                  (si la leçon remonte à l'ancêtre de 
-                  <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>) 
-                     ou d'un saut indépendant de <hi rend="italique">B</hi> et 
-                     <hi rend="italique">X<hi rend="exp">2</hi></hi> 
-                     (si la leçon remonte à l'archétype).<!--contrôler R)--></note> <app>
+                  </app><note type="notecritique"><hi rend="italique">soit ne qui</hi>: 
+                  Le contrôle sur <hi rend="italique">R</hi> confirme qu'il s'agit d'un ajout de l'ancêtre 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> plutôt que d'un 
+                     saut du même au même sur 
+                     <hi rend="italique">qui</hi> de <hi rend="italique">B</hi> et 
+                     <hi rend="italique">X<hi rend="exp">2</hi></hi>.</note> <app>
                      <lem wit="#V2 #G #X2">onques</lem>
                   <rdg wit="#B">pieça</rdg>
                   </app> issist de <placeName key="Romme">Romme</placeName>.</said><said
@@ -16442,8 +16444,13 @@
                   <lem wit="#V2 #G #X2">qui estoient des plus gentilz seigneurs de toute la cité de
                         <placeName key="Costentinnoble">Constentinnoble</placeName></lem>
                   <rdg wit="#B"/>
-               </app><!--HELPSV de nouveau 2 variantes concurrentes? R n'a pas la 
-                  première-->, qui aussi bien estoient de l’une partie comme de l’autre. <app>
+               </app><note type="notecritique"><hi rend="italique">qui estoient... Constentinnoble</hi>: 
+               Il n'est pas impossible que <hi rend="italique">B</hi> effectue ici un saut du même au même à partir 
+               d'une leçon de type <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="italique">2</hi></hi>. 
+               <hi rend="italique">R</hi>, qui donne <hi rend="italique">autre 
+                  <num>ii</num> grant signor de Coust[...]</hi>, appuie 
+                  partiellement la leçon 
+                  de <hi rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>.</note>, qui aussi bien estoient de l’une partie comme de l’autre. <app>
                   <lem wit="#V2 #G #X2">Et si sachiez tout certainnement que, quant la bataille dut
                      estre commenciee, que li dui chevalier furent mis d’une part et <persName
                         key="Pelyarmenus">Pelyarmenus</persName> et <rs type="person" key="Gasus">le
@@ -16511,7 +16518,7 @@
                </app> l’autre que <app>
                   <lem wit="#V2 #G">merveilles fu que</lem>
                   <rdg wit="#B #X2"/>
-               </app><note type="notecritique"><hi rend="italique">que merveilles fu que</hi>: 
+               </app><note type="notecritique"><hi rend="italique">merveilles fu que</hi>: 
                   Il peut s'agir tant d'un ajout de l'ancêtre 
                   de <hi rend="italique">V<hi rend="exp">2</hi>G</hi> 
                   que d'un saut du même au même sur 
