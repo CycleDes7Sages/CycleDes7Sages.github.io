@@ -40821,7 +40821,7 @@
                   </app> chose bee <app>
                      <lem wit="#V2 #G #X2">que vous ne faites</lem>
                      <rdg wit="#B"/>
-                  </app>.</said><said rendition="dialogue" aloud="true" direct="true"><app>
+                  </app><!--HELPSL en suspens article stemma, ok ici?-->.</said><said rendition="dialogue" aloud="true" direct="true"><app>
                      <lem wit="#V2 #G #X2">Je ne sai, dist il, a quoi il bee</lem>
                      <rdg wit="#B"/>
                   </app>, mais ce que je di ferai je estable.</said> Dont se parti <persName
@@ -43165,7 +43165,11 @@
                            <rdg wit="#V2 #X2">son</rdg>
                         </app> maintien</lem>
                      <rdg wit="#G">diroie je</rdg>
-                  </app> ?</said>
+                  </app><note type="notecritique"><hi rend="italique">feroie... maintien</hi>:
+                     Remarquer la leçon singulière de <hi rend="italique">G</hi> qui évite
+                     peut-être, comme ailleurs, une difficulté remontant à l'ancêtre de <hi
+                        rend="italique">V<hi rend="exp">2</hi>GX<hi rend="exp">2</hi></hi>.</note>
+                  ?</said>
                <app>
                   <lem wit="#V2 #X2">Car</lem>
                   <rdg wit="#B #G"/>
@@ -62439,16 +62443,20 @@
                </app>, si se mistrent en leur chemin a aler cele part ou <rs type="person"
                   key="Cassidorus">li empereres</rs> avoit jadis conversé en <rs type="place"
                   key="Espiere">l’ermitage</rs>. Si n’arresterent tant qu’il <app>
-                  <lem wit="#G">vindrent la</lem>
-                  <rdg wit="#V3">v. la</rdg>
-                  <rdg wit="#B">v. en la forest qui moult estoit grant et horrible</rdg>
+                  <lem wit="#B">v. en la forest, qui moult estoit grant et horrible</lem>
+                  <rdg wit="#V3">v.</rdg>
+                  <rdg wit="#G">vindrent la</rdg>
                   <rdg wit="#X2">y v.</rdg>
-               </app><note type="notecritique"><hi rend="italique">vindrent la</hi>: L’éclatement de
-                  la tradition dérive sans doute d’une omission du locatif, comme dans <hi
-                     rend="italique">V<hi rend="exp">3</hi></hi>, à laquelle les trois autres
-                  témoins ont réagi indépendamment en ajoutant un complément circonstanciel de lieu,
-                  sous la forme d’un pronom, d’un adverbe ou d’un complément prépositionnel.</note>.
-               Cil qui joenne et de grant biauté <app>
+               </app><note type="notecritique"><hi rend="italique">vindrent la</hi>: L’éclatement
+                  des leçons de <hi rend="italique">V<hi rend="exp">3</hi>GX<hi rend="exp"
+                     >2</hi></hi> la tradition dérive sans doute d’une omission du locatif dans leur
+                  ancêtre commun (<hi rend="italique">cf.</hi> la leçon de <hi rend="italique">V<hi
+                        rend="exp">3</hi></hi>, qui ne tente pas de corriger). <hi rend="italique"
+                     >G</hi> et <hi rend="italique">X<hi rend="exp">2</hi></hi> auront réagi
+                  indépendamment en ajoutant un complément circonstanciel de lieu sous forme
+                  d'adverbe. Dans la mesure où la leçon peut s'expliquer par un saut du même au même
+                  sur -il à partir d'une leçon de type <hi rend="italique">B</hi>, nous intervenons
+                  d'après <hi rend="italique">B</hi>.</note>. Cil qui joenne et de grant biauté <app>
                   <lem wit="#V3 #G #X2">estoient</lem>
                   <rdg wit="#B">e. plain</rdg>
                </app> se mistrent en <rs type="place" key="ForestEspiere">la forest</rs> a
@@ -67201,7 +67209,7 @@
                   intervient pour tenter de sauver le texte en omettant le pronom relatif <hi
                      rend="italique">qui</hi>, qui remonte à
                   l'archétype.<!--HELPSV HELPPD je ne comprends pas ce que cela veut dire. N'y a-t-il pas un problème? 
-                  en fonction moi classer ANnexe et NaT le cas échéant--></note>
+                  en fonction moi classer ANnexe et NaT le cas échéant; en tout cas pour le moment est dans l'article Stemma--></note>
                que ses <num>ii</num> os s’esmurent a venir ensemble, <said who="#nar">et vous dirai
                   conment</said>. <persName key="Dorus">Dorus</persName>, qui cuidoit bien sormonter
                a <app>
