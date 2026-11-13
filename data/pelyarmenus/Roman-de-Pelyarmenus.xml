@@ -69591,7 +69591,9 @@ ne li valut,"-->.
                         il, je vous pri que vous me <app>
                            <lem wit="#V3">faciez</lem>
                            <rdg wit="#B #X2">faites</rdg>
-                        </app> tant d’onneur que je puisse fere ma volenté.</said></lem>
+                        </app> tant d’onneur que je puisse fere ma volenté.</said><!--HELPCC ici il y a un 
+                        souci avec les guillemets dans le pdf, et je vois le souci de balisage sans 
+                        savoir comment le résoudre (les 2 said sont entrecoupés par l'app)--></lem>
                   <rdg wit="#G"/>
                </app><said rendition="dialogue" aloud="true" direct="true" ana="continued"><app>
                      <lem wit="#V3 #B #X2">Ha ! sire, dist <rs type="person" key="Abbé">li
@@ -69622,7 +69624,7 @@ ne li valut,"-->.
                      <lem wit="#V3 #G #X2"><persName key="Dorus">Dorus</persName></lem>
                      <rdg wit="#B">Dorus mon frere</rdg>
                   </app>.</said><said rendition="dialogue" aloud="true" direct="true">Et j’en ferai
-                  la besongne, dist il.</said> Lors s’en vint <rs type="person" key="Abbé">li
+                  la besongne</said>, dist il. Lors s’en vint <rs type="person" key="Abbé">li
                   abbes</rs> la ou <persName key="Dorus">Dorus</persName> estoit. Et quant <persName
                   key="Dorus">Dorus</persName> sot que ce fu <app>
                   <lem wit="#V3 #G #X2"><rs type="person" key="Abbé">li abbes</rs></lem>
@@ -69673,11 +69675,8 @@ ne li valut,"-->.
                   </app> grans amis <rs type="person" key="Helcanus">mon seingneur de <placeName
                         key="Costentinnoble">Constentinonble</placeName></rs> que je ne vouloie pas
                   lessier, <app>
-                     <lem wit="#V3 #G">mes</lem>
-                     <rdg wit="#B #X2">que</rdg>
-                  </app> je <app>
-                     <lem wit="#V3 #G">sui venus</lem>
-                     <rdg wit="#B #X2">ne venisse</rdg>
+                     <lem wit="#V3 #G">mes je sui venus</lem>
+                     <rdg wit="#B #X2">que je ne venisse</rdg>
                   </app> a vous pour conmander a fere toute vostre volenté.</said><said
                   rendition="dialogue" aloud="true" direct="true">Sire, dist <persName key="Dorus"
                      >Dorus</persName>, la vostre grant mercis.</said></p>
